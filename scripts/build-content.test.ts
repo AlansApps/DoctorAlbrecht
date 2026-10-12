@@ -20,9 +20,14 @@ describe('content build', () => {
     for (const p of res.packs) expect(() => Pack.parse(JSON.parse(p.json))).not.toThrow();
   });
 
-  it('stable builds exclude drafts', () => {
-    const res = buildContent(real(), false, 'x');
-    expect(res.manifest!.index).toHaveLength(0);
+  it('stable builds ship only audited items (ai-audited / needs-human-review)', () => {
+    const f = real();
+    const statuses = new Map(mod(f).items.map((i) => [i.id as string, i.editorial.status as string]));
+    const res = buildContent(f, false, 'x');
+    expect(res.manifest!.index.length).toBeGreaterThan(0);
+    for (const e of res.manifest!.index) expect(['ai-audited', 'needs-human-review']).toContain(statuses.get(e.id));
+    const unaudited = [...statuses].filter(([, st]) => st === 'draft' || st === 'sources-verified').map(([id]) => id);
+    for (const id of unaudited) expect(res.manifest!.index.some((e) => e.id === id)).toBe(false);
   });
 
   it('rejects a card without any cited claim', () => {

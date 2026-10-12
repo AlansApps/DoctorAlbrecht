@@ -67,7 +67,8 @@ describe('content repository', () => {
     await db.put('attempts', { id: 'a', itemId: 'x', kind: 'card', conceptId: 'x', rating: 'good', contentRev: 1, at: now.toISOString(), tz: 'UTC' });
     await ensurePack(db, manifest, 'fert-ovarian-reserve', 'es', '/base/', new Date('2026-10-01T00:00:00Z'), serve());
     await ensurePack(db, manifest, 'fert-ovarian-reserve', 'en', '/base/', now, serve());
-    expect(await evictPacks(db, 30_000)).toBe(1);
+    const en = (await db.get('packs', 'fert-ovarian-reserve:en'))!.bytes;
+    expect(await evictPacks(db, en)).toBe(1);
     expect(await db.getAllKeys('packs')).toEqual(['fert-ovarian-reserve:en']);
     await clearDownloads(db);
     expect(await db.count('packs')).toBe(0);
