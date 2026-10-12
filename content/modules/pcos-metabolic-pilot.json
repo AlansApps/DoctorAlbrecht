@@ -162,7 +162,7 @@
         "en": "In which situations should you not order AMH to diagnose PCOS, and what can alter it?"
       },
       "editorial": {
-        "status": "sources-verified",
+        "status": "ai-audited",
         "reviewedAt": "2026-10-12"
       }
     },
@@ -316,7 +316,7 @@
         "en": "What does the 2023 guideline say about inositol, and what does it not specify?"
       },
       "editorial": {
-        "status": "sources-verified",
+        "status": "ai-audited",
         "reviewedAt": "2026-10-12"
       }
     },
@@ -353,7 +353,7 @@
         "en": "How does the metformin recommendation change with BMI and with the goal (metabolic or fertility)?"
       },
       "editorial": {
-        "status": "sources-verified",
+        "status": "ai-audited",
         "reviewedAt": "2026-10-12"
       }
     },
@@ -966,7 +966,7 @@
       "id": "pcos-mp.q8-ranking",
       "kind": "question",
       "conceptId": "pcos.mp.metformin",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 3,
       "tags": [
         "hormones",

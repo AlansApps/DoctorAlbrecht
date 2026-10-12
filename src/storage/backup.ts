@@ -126,3 +126,15 @@ export async function restorePreImport(db: DB, appVersion: string, now: Date): P
   await importBackup(db, parsed.data, 'replace', appVersion, now);
   return true;
 }
+
+/** "Erase all progress": learning data only; downloaded content and preferences are kept. */
+export async function eraseLearningData(db: DB): Promise<void> {
+  const tx = db.transaction(['attempts', 'progress', 'flags', 'sessions'], 'readwrite');
+  await Promise.all([
+    tx.objectStore('attempts').clear(),
+    tx.objectStore('progress').clear(),
+    tx.objectStore('flags').clear(),
+    tx.objectStore('sessions').clear(),
+  ]);
+  await tx.done;
+}
