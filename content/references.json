@@ -26,7 +26,7 @@
     "title": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age",
     "authors": "Steiner AZ, Pritchard D, Stanczyk FZ, et al.",
     "year": 2017,
-    "url": "https://stacks.cdc.gov/view/cdc/50629",
+    "url": "https://doi.org/10.1001/jama.2017.14588",
     "doi": "10.1001/jama.2017.14588",
     "type": "cohort",
     "population": {
@@ -67,24 +67,25 @@
   },
   {
     "id": "eshre-2025-ovarian-stimulation",
-    "title": "Ovarian stimulation for IVF/ICSI — guideline update 2025 (pocket guideline)",
+    "title": "Ovarian stimulation for IVF/ICSI — ESHRE guideline update 2025",
     "authors": "ESHRE Guideline Group on Ovarian Stimulation",
     "year": 2025,
-    "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/COS/2025/OS-pocket-guideline-web.pdf",
+    "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/COS/2025/ESHRE-OS-guideline-updateSept-2026v23.pdf",
     "type": "guideline",
     "population": {
       "es": "Mujeres que inician estimulación ovárica para FIV/ICSI.",
       "en": "Women starting ovarian stimulation for IVF/ICSI."
     },
     "finding": {
-      "es": "Recomienda AFC o AMH para predecir respuesta alta y baja a la estimulación. No deben usarse de rutina edad, IMC, FSH, inhibina B, estradiol, progesterona ni LH basales para predecir la respuesta, ni AFC, AMH u otros marcadores basales para predecir embarazo o nacido vivo.",
-      "en": "Recommends AFC or AMH to predict high and low response to stimulation. Age, BMI, basal FSH, inhibin B, oestradiol, progesterone and LH should not be routinely used to predict response, nor AFC, AMH or other basal markers to predict pregnancy or live birth."
+      "es": "Recomienda AFC o AMH para predecir respuesta alta y baja (fuerte). No recomienda AFC, AMH ni otros marcadores basales para predecir embarazo o nacido vivo (fuerte). La edad y el IMC de la mujer sí predicen embarazo y nacido vivo (fuerte). Edad, IMC, FSH, inhibina B y otras hormonas basales no deben usarse de rutina para predecir la respuesta.",
+      "en": "Recommends AFC or AMH to predict high and low response (strong). Does not recommend AFC, AMH or other basal markers to predict pregnancy or live birth (strong). Female age and BMI are predictors of pregnancy and live birth (strong). Age, BMI, FSH, inhibin B and other basal hormones should not be routinely used to predict response."
     },
     "limitations": {
-      "es": "Se cita la versión de bolsillo; la fuerza de cada recomendación figura en la guía completa (actualización 2025, versión publicada en 2026).",
-      "en": "Pocket version cited; the strength of each recommendation is in the full guideline (2025 update, version published in 2026)."
+      "es": "Guía completa v23 (septiembre 2026); versión de revista: Hum Reprod 2026;41(4):498-514. La certeza de cada recomendación se consulta en la guía completa.",
+      "en": "Full guideline v23 (September 2026); journal version: Hum Reprod 2026;41(4):498-514. Certainty for each recommendation is given in the full guideline."
     },
-    "accessed": "2026-10-12"
+    "accessed": "2026-10-12",
+    "doi": "10.1093/humrep/deag018"
   },
   {
     "id": "teede-2023-pcos-guideline",
@@ -111,7 +112,7 @@
   {
     "id": "fitz-2024-inositol-pcos",
     "title": "Inositol for Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis to Inform the 2023 Update of the International Evidence-based PCOS Guidelines",
-    "authors": "Fitz V, Graca S, Mahalingaiah S, et al.",
+    "authors": "Fitz V, Graca S, Mahalingaiah S, et al. J Clin Endocrinol Metab 2024;109(6):1630-1655",
     "year": 2024,
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099481/",
     "doi": "10.1210/clinem/dgad762",
@@ -127,6 +128,27 @@
     "limitations": {
       "es": "Solo se verificó el resumen; ensayos pequeños y heterogéneos (tipo, dosis y combinaciones de inositol).",
       "en": "Only the abstract was verified; small, heterogeneous trials (inositol type, dose and combinations)."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "nice-2026-ng257",
+    "title": "Fertility problems: assessment and treatment (NG257)",
+    "authors": "National Institute for Health and Care Excellence (NICE)",
+    "year": 2026,
+    "url": "https://www.nice.org.uk/guidance/ng257",
+    "type": "guideline",
+    "population": {
+      "es": "Personas con problemas de fertilidad en el sistema de salud del Reino Unido.",
+      "en": "People with fertility problems in the UK health system."
+    },
+    "finding": {
+      "es": "No usar la AMH para predecir embarazo clínico por concepción espontánea (1.18.3). Usar AMH o AFC como predictores de respuesta ovárica para decidir y asesorar sobre la probabilidad de nacido vivo tras reproducción asistida (1.18.4). No usar FSH como predictor (1.18.5). Derivar en la primera consulta si la mujer tiene 36 años o más o hay una causa conocida o factores predisponentes (1.16.8); en otro caso, estudio tras 1 año de relaciones sin protección.",
+      "en": "Do not use AMH to predict clinical pregnancy through spontaneous conception (1.18.3). Use AMH or AFC as predictors of ovarian response to inform decisions and counselling about the likelihood of live birth after assisted conception (1.18.4). Do not use FSH as a predictor (1.18.5). Refer at presentation if the woman is 36 or over or there is a known cause or predisposing factors (1.16.8); otherwise investigation after 1 year of unprotected intercourse."
+    },
+    "limitations": {
+      "es": "Contexto del NHS (Reino Unido); sustituye a CG156. Numeración verificada en el PDF de marzo de 2026.",
+      "en": "NHS (UK) context; replaces CG156. Numbering checked in the March 2026 PDF."
     },
     "accessed": "2026-10-12"
   }
