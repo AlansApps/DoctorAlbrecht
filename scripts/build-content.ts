@@ -58,9 +58,16 @@ export function buildContent(files: {
   if (!refsParsed.success) return { errors: [`references.json: ${refsParsed.error.message}`], warnings, packs };
 
   const refs = new Map<string, AuthorReference>();
+  const dois = new Map<string, string>();
   for (const r of refsParsed.data) {
-    if (refs.has(r.id)) errors.push(`references.json: duplicate id ${r.id}`);
+    if (refs.has(r.id)) errors.push(`references: duplicate id ${r.id}`);
     refs.set(r.id, r);
+    // The same publication under two ids splits its evidence: one source, one id.
+    if (r.doi) {
+      const doi = r.doi.toLowerCase();
+      if (dois.has(doi)) errors.push(`references: ${r.id} and ${dois.get(doi)} share DOI ${r.doi}`);
+      else dois.set(doi, r.id);
+    }
   }
 
   const micros = new Map<string, string>(); // microId → macroId

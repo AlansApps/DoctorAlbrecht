@@ -88,3 +88,12 @@ describe('ARCH-025/031', () => {
     expect(new Set(orders).size).toBe(orders.length);
   });
 });
+
+describe('reference registry', () => {
+  it('rejects the same publication (DOI) under two ids', () => {
+    const f = real();
+    const refs = f.references as Array<Record<string, unknown>>;
+    refs.push({ ...refs[0]!, id: 'same-paper-other-id' });
+    expect(buildContent(f, true, 'x').errors.join()).toMatch(/share DOI/);
+  });
+});
