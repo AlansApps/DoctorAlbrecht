@@ -698,3 +698,13 @@ Notas de interpretación: (1) RIF 2023 aclara que *not recommended* significa "n
 - Este archivo solo define el mapa del macrotema `fert`; los IDs externos (`horm.*`, `nutr.*`, etc.) deben confirmarse con los mapas hermanos antes de validar enlaces.
 - Las "Anclas" son punteros a fuentes, no afirmaciones listas para tarjeta: cada tarjeta debe citar la ubicación concreta (número de recomendación/página) tras cotejo visual.
 - Fuentes verificadas: 36 (S01–S37, con S10 reservado). Por verificar: 22 (PV-01–PV-22). Discrepancias catalogadas: 7 (D-01–D-07).
+
+---
+
+## 8. Actualizaciones tras la auditoría médica (2026-10-12)
+
+- **`fert.red-flags-referral` [añadido]** (MED-012): alarmas y derivación en fertilidad y TRA (SHO grave, torsión, ectópico tras TRA, hallazgos del varón, AMH baja con amenorrea → descartar IOP). Fuentes por verificar al redactar.
+- **S24 Cochrane antioxidantes en la mujer (CD007807.pub4)** (MED-014): nota editorial del **5-3-2026** — 7 estudios incluidos retractados y 2 con expresión de preocupación (antes: 6 en la nota de 2020, sin cambio apreciable). Si los resultados cambian con las 7 retractaciones no consta en lo verificado: tratar la revisión con cautela adicional. Verificado vía PMC8094745 y búsqueda (2026-10-12).
+- **S25 Cochrane antioxidantes en el varón** (MED-015): según el auditor, sin beneficio en nacido vivo al excluir estudios de alto riesgo de sesgo. **Pendiente de verificación propia** antes de usarlo en tarjetas.
+- **Ids cruzados** (MED-010/011): el mapa usa ids externos que no coinciden con el general (p. ej. `horm.folliculogenesis` → real `horm.folliculogenesis-ovulation`; `habits.*` → `habit.*`). La fuente de verdad es `content/curriculum.json`; el build valida los prerrequisitos reales de cada lección.
+- **NICE CG156 → NG257 (2026)**: citas de NICE en contenido usan NG257 (1.16.8, 1.18.3–1.18.5 verificadas en el PDF).

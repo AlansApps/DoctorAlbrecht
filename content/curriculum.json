@@ -1504,8 +1504,8 @@
       "id": "pcos",
       "order": 7,
       "title": {
-        "es": "SOP y ovulación",
-        "en": "PCOS & ovulation"
+        "es": "SOP (PMOS) y ovulación",
+        "en": "PCOS (PMOS) & ovulation"
       },
       "priority": false,
       "micros": [
@@ -1522,7 +1522,10 @@
             "síndrome de Stein-Leventhal",
             "criterios de Rotterdam",
             "NIH 1990",
-            "AE-PCOS; cambio de nombre en discusión (ver §20)"
+            "AE-PCOS",
+            "PMOS",
+            "polyendocrine metabolic ovarian syndrome",
+            "síndrome ovárico metabólico poliendocrino"
           ]
         },
         {
@@ -2389,6 +2392,19 @@
           ]
         },
         {
+          "id": "vulv.lichen-sclerosus",
+          "title": {
+            "es": "Liquen escleroso: diagnóstico, tratamiento y riesgo oncológico",
+            "en": "Lichen sclerosus: diagnosis, treatment and cancer risk"
+          },
+          "aliases": [
+            "liquen escleroso",
+            "lichen sclerosus",
+            "LS",
+            "carcinoma vulvar"
+          ]
+        },
+        {
           "id": "vulv.sexual-function",
           "title": {
             "es": "Función sexual y disfunciones",
@@ -2678,6 +2694,19 @@
             "cáncer de mama",
             "BRCA",
             "RRSO"
+          ]
+        },
+        {
+          "id": "meno.postmenopausal-bleeding",
+          "title": {
+            "es": "Sangrado posmenopáusico: alarma y estudio",
+            "en": "Postmenopausal bleeding: red flag and work-up"
+          },
+          "aliases": [
+            "sangrado posmenopáusico",
+            "PMB",
+            "postmenopausal bleeding",
+            "cáncer de endometrio"
           ]
         }
       ]
@@ -3204,6 +3233,22 @@
             "en": "Ethics, access, cost and legal framework"
           },
           "aliases": []
+        },
+        {
+          "id": "fert.red-flags-referral",
+          "title": {
+            "es": "Alarmas y derivación en fertilidad y reproducción asistida",
+            "en": "Red flags and referral in fertility and ART"
+          },
+          "aliases": [
+            "alarmas",
+            "SHO grave",
+            "OHSS",
+            "torsión ovárica",
+            "ectópico tras FIV",
+            "derivación urgente",
+            "red flags"
+          ]
         }
       ]
     },
@@ -3394,6 +3439,20 @@
           "aliases": [
             "derivación obstétrica",
             "signos de alarma"
+          ]
+        },
+        {
+          "id": "preg.early-loss-ectopic",
+          "title": {
+            "es": "Pérdida gestacional temprana y embarazo ectópico",
+            "en": "Early pregnancy loss and ectopic pregnancy"
+          },
+          "aliases": [
+            "aborto espontáneo",
+            "miscarriage",
+            "embarazo de localización desconocida",
+            "PUL",
+            "ectopic pregnancy"
           ]
         }
       ]

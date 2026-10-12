@@ -662,3 +662,11 @@ Fundamentos: pruebas comerciales/DTC, conflictos de interés y regulación, éti
 6. **Fármacos antiobesidad (GLP-1 RA):** recomendaciones de anticoncepción y lavado preconcepcional cambian rápido; requiere fuente actualizada y revisión.
 7. **NICE NG23 (2026) y NG88 (2026):** ambas muestran revisiones recientes; confirmar texto vigente antes de redactar.
 8. **Nombre del SOP:** si se adopta un nuevo nombre internacional, decidir cómo mostrar alias sin confundir.
+
+---
+
+## 22. Actualizaciones tras la auditoría médica (2026-10-12)
+
+- **SOP → PMOS** (MED-025): el 12-5-2026 *The Lancet* publicó el cambio de nombre a *polyendocrine metabolic ovarian syndrome* (PMOS), con criterios diagnósticos sin cambios por ahora (Teede HJ et al., doi:10.1016/S0140-6736(26)00717-8; confirmado vía Monash/MCHRI y Society for Endocrinology). En `curriculum.json`: macrotema "SOP (PMOS) y ovulación" y alias PMOS en `pcos.diagnosis-criteria`. El contenido sigue usando "SOP" porque las guías vigentes (2023) usan ese término; pendiente una tarjeta sobre el cambio de nombre con la fuente primaria.
+- **Microtemas de alarmas añadidos** (MED-026/028): `preg.early-loss-ectopic`, `meno.postmenopausal-bleeding`, `vulv.lichen-sclerosus` (incluye riesgo oncológico). Fuentes por verificar al redactar.
+- **Fuente de verdad de ids:** `content/curriculum.json` (280 microtemas tras estas altas).
