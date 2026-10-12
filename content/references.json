@@ -85,5 +85,49 @@
       "en": "Pocket version cited; the strength of each recommendation is in the full guideline (2025 update, version published in 2026)."
     },
     "accessed": "2026-10-12"
+  },
+  {
+    "id": "teede-2023-pcos-guideline",
+    "title": "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome",
+    "authors": "Teede HJ, Tay CT, Laven JJE, et al.; International PCOS Network",
+    "year": 2023,
+    "url": "https://academic.oup.com/jcem/article/108/10/2447/7242360",
+    "doi": "10.1210/clinem/dgad463",
+    "type": "guideline",
+    "population": {
+      "es": "Adolescentes y adultas con SOP.",
+      "en": "Adolescents and adults with PCOS."
+    },
+    "finding": {
+      "es": "Recomendaciones graduadas (fuerza y certeza GRADE) sobre diagnóstico (incluida AMH), valoración glucémica, estilo de vida, dieta, metformina, inositol e inducción de la ovulación con letrozol.",
+      "en": "Graded recommendations (GRADE strength and certainty) on diagnosis (including AMH), glycaemic assessment, lifestyle, diet, metformin, inositol and ovulation induction with letrozole."
+    },
+    "limitations": {
+      "es": "Muchas recomendaciones con certeza baja o muy baja; los puntos de práctica y las recomendaciones de consenso no tienen calificación de certeza.",
+      "en": "Many recommendations with low or very low certainty; practice points and consensus recommendations carry no certainty rating."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "fitz-2024-inositol-pcos",
+    "title": "Inositol for Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis to Inform the 2023 Update of the International Evidence-based PCOS Guidelines",
+    "authors": "Fitz V, Graca S, Mahalingaiah S, et al.",
+    "year": 2024,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099481/",
+    "doi": "10.1210/clinem/dgad762",
+    "type": "systematic-review",
+    "population": {
+      "es": "30 ensayos (n=2230) en adolescentes y adultas con SOP; 19 en metaanálisis.",
+      "en": "30 trials (n=2230) in adolescents and adults with PCOS; 19 meta-analysed."
+    },
+    "finding": {
+      "es": "Evidencia mixta: posibles beneficios de mio-inositol o D-quiro-inositol en algunas medidas metabólicas y posible beneficio del D-quiro-inositol en ovulación; sin efecto en otros desenlaces.",
+      "en": "Mixed evidence: possible benefits of myo-inositol or D-chiro-inositol on some metabolic measures and a possible benefit of D-chiro-inositol on ovulation; no effect on other outcomes."
+    },
+    "limitations": {
+      "es": "Solo se verificó el resumen; ensayos pequeños y heterogéneos (tipo, dosis y combinaciones de inositol).",
+      "en": "Only the abstract was verified; small, heterogeneous trials (inositol type, dose and combinations)."
+    },
+    "accessed": "2026-10-12"
   }
 ]

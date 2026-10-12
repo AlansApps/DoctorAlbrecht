@@ -1,0 +1,441 @@
+{
+  "id": "pcos-metabolic-pilot",
+  "macroId": "pcos",
+  "title": { "es": "SOP: AMH, glucemia y opciones de tratamiento", "en": "PCOS: AMH, glycaemia and treatment options" },
+  "lessons": [
+    {
+      "id": "pcos-mp.l1-amh-diagnosis",
+      "microId": "pcos.amh-ultrasound",
+      "title": { "es": "AMH en el diagnóstico de SOP", "en": "AMH in PCOS diagnosis" },
+      "objective": {
+        "es": "Saber cuándo la AMH puede reemplazar a la ecografía para definir morfología ovárica poliquística y cuándo no aporta.",
+        "en": "Know when AMH can replace ultrasound to define polycystic ovarian morphology and when it adds nothing."
+      },
+      "closing": {
+        "es": "La AMH entró al diagnóstico de SOP solo como alternativa a la ecografía en adultas, nunca como prueba única ni en adolescentes.",
+        "en": "AMH entered PCOS diagnosis only as an alternative to ultrasound in adults, never as a single test and not in adolescents."
+      },
+      "prerequisites": ["pcos.diagnosis-criteria"],
+      "level": "intermediate",
+      "itemIds": ["pcos-mp.c1-amh-pcom", "pcos-mp.c2-amh-limits", "pcos-mp.q1-amh-single", "pcos-mp.q2-amh-adolescent"]
+    },
+    {
+      "id": "pcos-mp.l2-glycaemia",
+      "microId": "pcos.metabolic",
+      "title": { "es": "Glucemia e insulina en el SOP", "en": "Glycaemia and insulin in PCOS" },
+      "objective": {
+        "es": "Indicar la valoración glucémica adecuada en SOP y evitar pruebas de insulina sin utilidad clínica.",
+        "en": "Order the right glycaemic assessment in PCOS and avoid insulin tests with no clinical value."
+      },
+      "closing": {
+        "es": "Valorar la glucemia a todas, con SOG de 75 g como prueba más precisa; no medir insulina de rutina aunque la resistencia a la insulina sea parte del mecanismo.",
+        "en": "Assess glycaemia in everyone, with a 75 g OGTT as the most accurate test; do not measure insulin routinely even though insulin resistance is part of the mechanism."
+      },
+      "prerequisites": ["horm.insulin-leptin"],
+      "level": "intermediate",
+      "itemIds": ["pcos-mp.c3-glycaemic-status", "pcos-mp.c4-insulin-assays", "pcos-mp.q3-ogtt", "pcos-mp.q4-insulin-test"]
+    },
+    {
+      "id": "pcos-mp.l3-options",
+      "microId": "pcos.supplements",
+      "title": { "es": "Inositol, metformina, dieta y letrozol", "en": "Inositol, metformin, diet and letrozole" },
+      "objective": {
+        "es": "Situar cada opción según la fuerza de la recomendación y la certeza de la evidencia, sin falsa equivalencia.",
+        "en": "Place each option according to recommendation strength and evidence certainty, without false equivalence."
+      },
+      "closing": {
+        "es": "Letrozol tiene la evidencia más sólida (para ovulación); metformina e inositol son condicionales con certeza muy baja; ninguna dieta específica supera a otra.",
+        "en": "Letrozole has the strongest evidence (for ovulation); metformin and inositol are conditional with very low certainty; no specific diet beats another."
+      },
+      "prerequisites": [],
+      "level": "intermediate",
+      "itemIds": ["pcos-mp.c5-inositol", "pcos-mp.c6-metformin", "pcos-mp.c7-diet", "pcos-mp.c8-letrozole", "pcos-mp.q5-inositol", "pcos-mp.q6-diet", "pcos-mp.q7-letrozole", "pcos-mp.q8-ranking"]
+    }
+  ],
+  "items": [
+    {
+      "id": "pcos-mp.c1-amh-pcom",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos.mp.amh-pcom",
+      "rev": 1,
+      "tags": ["hormones"],
+      "title": { "es": "AMH como alternativa a la ecografía en adultas", "en": "AMH as an alternative to ultrasound in adults" },
+      "core": {
+        "es": "En adultas, la AMH sérica podría usarse para definir la morfología ovárica poliquística (recomendación condicional, certeza moderada). [[ref:teede-2023-pcos-guideline]]",
+        "en": "In adults, serum AMH could be used to define polycystic ovarian morphology (conditional recommendation, moderate certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "El diagnóstico de SOP en adultas requiere dos de tres elementos: disfunción ovulatoria, hiperandrogenismo clínico o bioquímico y ovarios poliquísticos. La guía 2023 permite que la AMH sustituya a la ecografía para ese tercer elemento. [[ref:teede-2023-pcos-guideline]]\n\nEs un cambio práctico: evita ecografías transvaginales solo para contar folículos cuando ya hay una AMH disponible y validada en ese laboratorio.",
+        "en": "PCOS diagnosis in adults requires two of three elements: ovulatory dysfunction, clinical or biochemical hyperandrogenism, and polycystic ovaries. The 2023 guideline lets AMH replace ultrasound for that third element. [[ref:teede-2023-pcos-guideline]]\n\nIt is a practical change: it avoids transvaginal scans just to count follicles when an AMH is already available and validated in that laboratory."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Guía internacional SOP 2023: condicional, certeza moderada.", "en": "International PCOS guideline 2023: conditional, moderate certainty." }
+      },
+      "recall": {
+        "es": "¿En qué pacientes y para qué criterio puede usarse la AMH en el diagnóstico de SOP?",
+        "en": "In which patients, and for which criterion, can AMH be used in PCOS diagnosis?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c2-amh-limits",
+      "kind": "card",
+      "type": "what-i-would-not-order",
+      "conceptId": "pcos.mp.amh-limits",
+      "rev": 1,
+      "tags": ["hormones"],
+      "title": { "es": "Cuándo la AMH no aporta en el SOP", "en": "When AMH adds nothing in PCOS" },
+      "core": {
+        "es": "La AMH no debe usarse como prueba única para diagnosticar SOP ni, por ahora, en adolescentes (ambas recomendaciones fuertes). [[ref:teede-2023-pcos-guideline]]",
+        "en": "AMH should not be used as a single test to diagnose PCOS, nor, for now, in adolescents (both strong recommendations). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Si una paciente ya tiene ciclos irregulares e hiperandrogenismo, cumple criterios: la AMH no es necesaria para el diagnóstico (recomendación fuerte). [[ref:teede-2023-pcos-guideline]]\n\nEn adolescentes no hay criterios definitivos de morfología ovárica poliquística por ecografía, y tampoco se recomienda la AMH. El diagnóstico se apoya en disfunción ovulatoria e hiperandrogenismo. [[ref:teede-2023-pcos-guideline]]",
+        "en": "If a patient already has irregular cycles and hyperandrogenism, she meets criteria: AMH is not needed for diagnosis (strong recommendation). [[ref:teede-2023-pcos-guideline]]\n\nIn adolescents there are no definitive ultrasound criteria for polycystic ovarian morphology, and AMH is not recommended either. Diagnosis rests on ovulatory dysfunction and hyperandrogenism. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "pearl": {
+        "es": "Antes de pedir AMH en sospecha de SOP, preguntate qué criterio te falta. Si no falta ninguno, no la pidas.",
+        "en": "Before ordering AMH for suspected PCOS, ask which criterion is missing. If none is, don't order it."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Guía internacional SOP 2023: recomendaciones fuertes, certeza moderada.", "en": "International PCOS guideline 2023: strong recommendations, moderate certainty." }
+      },
+      "recall": {
+        "es": "¿En qué tres situaciones no deberías pedir AMH para diagnosticar SOP?",
+        "en": "In which three situations should you not order AMH to diagnose PCOS?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c3-glycaemic-status",
+      "kind": "card",
+      "type": "lab",
+      "conceptId": "pcos.mp.glycaemic-status",
+      "rev": 1,
+      "tags": ["hormones", "diet"],
+      "title": { "es": "Valorar la glucemia a todas, al diagnóstico", "en": "Assess glycaemia in everyone at diagnosis" },
+      "core": {
+        "es": "El estado glucémico debe valorarse al diagnóstico en todas las adultas y adolescentes con SOP (recomendación fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Glycaemic status should be assessed at diagnosis in all adults and adolescents with PCOS (strong recommendation). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La guía señala que, independientemente de la edad y el IMC, las mujeres con SOP tienen mayor riesgo de glucemia alterada en ayunas. [[ref:teede-2023-pcos-guideline]]\n\nLa sobrecarga oral de glucosa (SOG) de 75 g es la prueba más precisa para valorar el estado glucémico, cualquiera sea el IMC (fuerte, certeza muy baja). Si no se puede hacer, podrían considerarse la glucemia en ayunas y/o la HbA1c, sabiendo que son menos precisas (condicional). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The guideline notes that, regardless of age and BMI, women with PCOS have an increased risk of impaired fasting glucose. [[ref:teede-2023-pcos-guideline]]\n\nThe 75 g oral glucose tolerance test (OGTT) is the most accurate test to assess glycaemic status, regardless of BMI (strong, very low certainty). If it cannot be done, fasting glucose and/or HbA1c could be considered, knowing they are less accurate (conditional). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          { "mark": "node", "text": { "es": "SOP diagnosticado (cualquier IMC)", "en": "PCOS diagnosed (any BMI)" } },
+          { "mark": "arrow", "text": { "es": "SOG 75 g: prueba más precisa", "en": "75 g OGTT: most accurate test" } },
+          { "mark": "note", "text": { "es": "Si no es posible: glucemia en ayunas y/o HbA1c (menos precisas)", "en": "If not possible: fasting glucose and/or HbA1c (less accurate)" } }
+        ],
+        "alt": {
+          "es": "Flujo: en todo SOP diagnosticado, cualquiera sea el IMC, la SOG de 75 g es la prueba más precisa; si no es posible, glucemia en ayunas y/o HbA1c, que son menos precisas.",
+          "en": "Flow: in any diagnosed PCOS, whatever the BMI, the 75 g OGTT is the most accurate test; if not possible, fasting glucose and/or HbA1c, which are less accurate."
+        }
+      },
+      "application": {
+        "es": "No limites la valoración glucémica a pacientes con sobrepeso: la recomendación incluye cualquier IMC.",
+        "en": "Don't limit glycaemic assessment to patients with overweight: the recommendation covers any BMI."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Fuerte; certeza baja a muy baja según la recomendación.", "en": "Strong; low to very low certainty depending on the recommendation." }
+      },
+      "recall": {
+        "es": "¿A quién y con qué prueba se valora la glucemia en el SOP?",
+        "en": "Who gets glycaemic assessment in PCOS, and with which test?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c4-insulin-assays",
+      "kind": "card",
+      "type": "what-i-would-not-order",
+      "conceptId": "pcos.mp.insulin-assays",
+      "rev": 1,
+      "tags": ["hormones"],
+      "title": { "es": "Qué no pediría: insulina o HOMA de rutina", "en": "What I would not order: routine insulin or HOMA" },
+      "core": {
+        "es": "La resistencia a la insulina es un factor fisiopatológico del SOP, pero las determinaciones de insulina disponibles tienen escasa relevancia clínica y no deben usarse en la práctica habitual. [[ref:teede-2023-pcos-guideline]]",
+        "en": "Insulin resistance is a pathophysiological factor in PCOS, but clinically available insulin assays are of limited clinical relevance and should not be used in routine care. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Es un punto de práctica de la guía 2023 (consenso de expertos, sin calificación de certeza). [[ref:teede-2023-pcos-guideline]]\n\nEl mecanismo es real, pero la medición no cambia la conducta: lo que guía el manejo es la valoración glucémica y el riesgo cardiometabólico. Pedir insulina o calcular HOMA “para confirmar” la resistencia agrega costo y confusión sin cambiar el plan.",
+        "en": "It is a practice point in the 2023 guideline (expert consensus, no certainty rating). [[ref:teede-2023-pcos-guideline]]\n\nThe mechanism is real, but measuring it does not change management: what guides care is glycaemic assessment and cardiometabolic risk. Ordering insulin or calculating HOMA “to confirm” resistance adds cost and confusion without changing the plan."
+      },
+      "pearl": {
+        "es": "Mecanismo verdadero no equivale a prueba útil.",
+        "en": "A true mechanism does not make a useful test."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Punto de práctica (consenso), guía SOP 2023.", "en": "Practice point (consensus), PCOS guideline 2023." }
+      },
+      "recall": {
+        "es": "¿Por qué no se recomienda medir insulina de rutina en el SOP si la resistencia a la insulina es parte del mecanismo?",
+        "en": "Why is routine insulin measurement not recommended in PCOS if insulin resistance is part of the mechanism?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c5-inositol",
+      "kind": "card",
+      "type": "supplement",
+      "conceptId": "pcos.mp.inositol",
+      "rev": 1,
+      "tags": ["supplements"],
+      "title": { "es": "Inositol en el SOP: opción condicional, evidencia mixta", "en": "Inositol in PCOS: conditional option, mixed evidence" },
+      "core": {
+        "es": "El inositol, en cualquier forma, podría considerarse según las preferencias y valores de la paciente (recomendación condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Inositol, in any form, could be considered based on the patient's preferences and values (conditional recommendation, very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La revisión sistemática que informó la guía encontró evidencia mixta: posibles beneficios de mio-inositol o D-quiro-inositol en algunas medidas metabólicas y posible beneficio del D-quiro-inositol en la ovulación, sin efecto en otros desenlaces. [[ref:fitz-2024-inositol-pcos]]\n\nLa guía no recomienda tipos, dosis ni combinaciones específicas por falta de evidencia de calidad. Además, sus efectos adversos y su seguridad no se conocen bien, y su regulación y control de calidad pueden variar. [[ref:teede-2023-pcos-guideline]]",
+        "en": "The systematic review that informed the guideline found mixed evidence: possible benefits of myo-inositol or D-chiro-inositol on some metabolic measures and a possible benefit of D-chiro-inositol on ovulation, with no effect on other outcomes. [[ref:fitz-2024-inositol-pcos]]\n\nThe guideline does not recommend specific types, doses or combinations because quality evidence is lacking. Its side effects and safety are not well known, and its regulation and quality control may vary. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Si una paciente quiere usarlo, es una decisión compartida: explicar la certeza muy baja, la calidad variable de los productos y pedirle que lo informe a sus profesionales.",
+        "en": "If a patient wants to use it, it is a shared decision: explain the very low certainty and variable product quality, and ask her to tell her clinicians."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": { "es": "Condicional, certeza muy baja; sin dosis recomendada.", "en": "Conditional, very low certainty; no recommended dose." }
+      },
+      "recall": {
+        "es": "¿Qué dice la guía 2023 sobre el inositol y qué no especifica?",
+        "en": "What does the 2023 guideline say about inositol, and what does it not specify?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c6-metformin",
+      "kind": "card",
+      "type": "comparison",
+      "conceptId": "pcos.mp.metformin",
+      "rev": 1,
+      "tags": ["hormones"],
+      "title": { "es": "Metformina según IMC", "en": "Metformin by BMI" },
+      "core": {
+        "es": "La metformina sola debería considerarse en adultas con SOP e IMC ≥25 kg/m² (condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Metformin alone should be considered in adults with PCOS and BMI ≥25 kg/m² (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Con IMC <25 kg/m², la metformina sola puede considerarse reconociendo que la evidencia es limitada (recomendación de consenso). [[ref:teede-2023-pcos-guideline]]\n\nObservá la diferencia de verbo: “debería considerarse” frente a “puede considerarse”. Ambas son condicionales; ninguna es una indicación universal.",
+        "en": "With BMI <25 kg/m², metformin alone may be considered, acknowledging limited evidence (consensus recommendation). [[ref:teede-2023-pcos-guideline]]\n\nNote the difference in verb: “should be considered” versus “may be considered”. Both are conditional; neither is a universal indication."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Condicional (IMC ≥25) y consenso (IMC <25).", "en": "Conditional (BMI ≥25) and consensus (BMI <25)." }
+      },
+      "recall": {
+        "es": "¿Cómo cambia la recomendación de metformina según el IMC?",
+        "en": "How does the metformin recommendation change with BMI?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c7-diet",
+      "kind": "card",
+      "type": "diet",
+      "conceptId": "pcos.mp.diet",
+      "rev": 1,
+      "tags": ["diet"],
+      "title": { "es": "No hay “dieta del SOP”", "en": "There is no “PCOS diet”" },
+      "core": {
+        "es": "No hay evidencia que respalde una composición de dieta sobre otra en el SOP (condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "There is no evidence to support one diet composition over another in PCOS (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Cualquier patrón alimentario coherente con las guías poblacionales de alimentación saludable tendrá beneficios para la salud (recomendación de consenso, fuerte). [[ref:teede-2023-pcos-guideline]]\n\nEn la práctica: elegir el patrón que la paciente pueda sostener, sin restricciones innecesarias. Una dieta muy restrictiva no tiene ventaja demostrada y puede comprometer la adherencia.",
+        "en": "Any eating pattern consistent with population healthy-eating guidelines will have health benefits (consensus recommendation, strong). [[ref:teede-2023-pcos-guideline]]\n\nIn practice: choose the pattern the patient can sustain, without unnecessary restrictions. A very restrictive diet has no demonstrated advantage and may undermine adherence."
+      },
+      "application": {
+        "es": "Frente a “¿tengo que dejar el gluten o los lácteos por el SOP?”: la guía no respalda una composición específica.",
+        "en": "Faced with “do I have to cut gluten or dairy because of PCOS?”: the guideline does not support any specific composition."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Condicional (certeza muy baja) y consenso.", "en": "Conditional (very low certainty) and consensus." }
+      },
+      "recall": {
+        "es": "¿Existe una composición de dieta preferida para el SOP según la guía 2023?",
+        "en": "Is there a preferred diet composition for PCOS according to the 2023 guideline?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.c8-letrozole",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos.mp.letrozole",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "Letrozol: primera línea para inducir ovulación", "en": "Letrozole: first line for ovulation induction" },
+      "core": {
+        "es": "El letrozol debe ser el tratamiento farmacológico de primera línea para inducir la ovulación en mujeres infértiles y anovulatorias con SOP, sin otros factores de infertilidad (recomendación fuerte, certeza alta). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Letrozole should be the first-line pharmacological treatment for ovulation induction in infertile anovulatory women with PCOS and no other infertility factors (strong recommendation, high certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Es una de las recomendaciones con mayor certeza de toda la guía. La guía también advierte que su uso sigue fuera de ficha técnica en muchos países, algo a explicar a la paciente. [[ref:teede-2023-pcos-guideline]]\n\nContrasta con el inositol y la metformina: allí las recomendaciones son condicionales con certeza muy baja.",
+        "en": "It is one of the highest-certainty recommendations in the whole guideline. The guideline also notes that its use is still off-label in many countries, which should be explained to patients. [[ref:teede-2023-pcos-guideline]]\n\nContrast with inositol and metformin: there the recommendations are conditional with very low certainty."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Fuerte, certeza alta.", "en": "Strong, high certainty." }
+      },
+      "recall": {
+        "es": "¿Qué fármaco es primera línea para inducir la ovulación en el SOP y con qué fuerza y certeza?",
+        "en": "Which drug is first line for ovulation induction in PCOS, and with what strength and certainty?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q1-amh-single",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-limits",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": ["hormones"],
+      "stem": { "es": "Mujer de 27 años con ciclos de 45–60 días e hirsutismo clínico. ¿Hace falta una AMH para diagnosticar SOP?", "en": "A 27-year-old woman with 45–60-day cycles and clinical hirsutism. Is an AMH needed to diagnose PCOS?" },
+      "options": [
+        { "id": "a", "text": { "es": "Sí, la AMH confirma el diagnóstico.", "en": "Yes, AMH confirms the diagnosis." }, "correct": false, "why": { "es": "La AMH no debe usarse como prueba única de SOP.", "en": "AMH should not be used as a single test for PCOS." } },
+        { "id": "b", "text": { "es": "No: con ciclos irregulares e hiperandrogenismo ya cumple criterios; la AMH no es necesaria.", "en": "No: with irregular cycles and hyperandrogenism she already meets criteria; AMH is not needed." }, "correct": true, "why": { "es": "Correcta: recomendación fuerte de la guía 2023 (tras excluir otras causas).", "en": "Correct: strong recommendation in the 2023 guideline (after excluding other causes)." } },
+        { "id": "c", "text": { "es": "Sí, y además una ecografía para contar folículos.", "en": "Yes, plus an ultrasound to count follicles." }, "correct": false, "why": { "es": "No falta ningún criterio: ni AMH ni ecografía son necesarias para el diagnóstico.", "en": "No criterion is missing: neither AMH nor ultrasound is needed for diagnosis." } },
+        { "id": "d", "text": { "es": "Solo si el IMC es ≥25 kg/m².", "en": "Only if BMI is ≥25 kg/m²." }, "correct": false, "why": { "es": "El IMC no cambia los criterios diagnósticos.", "en": "BMI does not change the diagnostic criteria." } }
+      ],
+      "explanation": { "es": "Antes de pedir AMH, preguntá qué criterio falta. El diagnóstico exige además excluir otras causas.", "en": "Before ordering AMH, ask which criterion is missing. Diagnosis also requires excluding other causes." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q2-amh-adolescent",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-pcom",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones"],
+      "stem": { "es": "Según la guía 2023, ¿en qué paciente podría usarse la AMH para definir morfología ovárica poliquística?", "en": "According to the 2023 guideline, in which patient could AMH be used to define polycystic ovarian morphology?" },
+      "options": [
+        { "id": "a", "text": { "es": "Adolescente de 15 años con ciclos irregulares.", "en": "A 15-year-old with irregular cycles." }, "correct": false, "why": { "es": "La AMH no debe usarse todavía en adolescentes.", "en": "AMH should not yet be used in adolescents." } },
+        { "id": "b", "text": { "es": "Adulta con hiperandrogenismo y ciclos regulares, a la que le falta un criterio.", "en": "An adult with hyperandrogenism and regular cycles who is missing one criterion." }, "correct": true, "why": { "es": "Correcta: en adultas, la AMH puede sustituir a la ecografía para ese criterio.", "en": "Correct: in adults, AMH can replace ultrasound for that criterion." } },
+        { "id": "c", "text": { "es": "Cualquier mujer, como prueba única de SOP.", "en": "Any woman, as a single PCOS test." }, "correct": false, "why": { "es": "No debe usarse como prueba única.", "en": "It should not be used as a single test." } },
+        { "id": "d", "text": { "es": "Adulta con ciclos irregulares e hiperandrogenismo.", "en": "An adult with irregular cycles and hyperandrogenism." }, "correct": false, "why": { "es": "Ya cumple criterios: la AMH no es necesaria.", "en": "She already meets criteria: AMH is not needed." } }
+      ],
+      "explanation": { "es": "La AMH sirve en adultas cuando falta el criterio morfológico, nunca como prueba única ni en adolescentes.", "en": "AMH helps in adults when the morphology criterion is missing, never as a single test and not in adolescents." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q3-ogtt",
+      "kind": "question",
+      "conceptId": "pcos.mp.glycaemic-status",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones", "diet"],
+      "stem": { "es": "Mujer de 24 años con SOP recién diagnosticado e IMC de 21 kg/m². ¿Qué valoración glucémica corresponde?", "en": "A 24-year-old woman with newly diagnosed PCOS and BMI 21 kg/m². Which glycaemic assessment is appropriate?" },
+      "options": [
+        { "id": "a", "text": { "es": "Ninguna, porque tiene peso normal.", "en": "None, because her weight is normal." }, "correct": false, "why": { "es": "La valoración glucémica se recomienda en todas, cualquiera sea el IMC.", "en": "Glycaemic assessment is recommended for everyone, whatever the BMI." } },
+        { "id": "b", "text": { "es": "Insulina basal y HOMA.", "en": "Fasting insulin and HOMA." }, "correct": false, "why": { "es": "Las determinaciones de insulina no deben usarse en la práctica habitual.", "en": "Insulin assays should not be used in routine care." } },
+        { "id": "c", "text": { "es": "SOG de 75 g, la prueba más precisa.", "en": "A 75 g OGTT, the most accurate test." }, "correct": true, "why": { "es": "Correcta: recomendación fuerte, independiente del IMC.", "en": "Correct: strong recommendation, regardless of BMI." } },
+        { "id": "d", "text": { "es": "Solo HbA1c, porque es la más precisa.", "en": "HbA1c only, because it is the most accurate." }, "correct": false, "why": { "es": "La HbA1c es una alternativa menos precisa si la SOG no es posible.", "en": "HbA1c is a less accurate alternative if an OGTT is not possible." } }
+      ],
+      "explanation": { "es": "Todas, al diagnóstico, con SOG de 75 g como prueba preferida.", "en": "Everyone, at diagnosis, with a 75 g OGTT as the preferred test." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q4-insulin-test",
+      "kind": "question",
+      "conceptId": "pcos.mp.insulin-assays",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones"],
+      "stem": { "es": "Una paciente con SOP trae un HOMA-IR elevado de un laboratorio privado y pregunta si confirma su diagnóstico. ¿Qué es más correcto?", "en": "A patient with PCOS brings a high HOMA-IR from a private lab and asks whether it confirms her diagnosis. What is most accurate?" },
+      "options": [
+        { "id": "a", "text": { "es": "Confirma el SOP.", "en": "It confirms PCOS." }, "correct": false, "why": { "es": "La resistencia a la insulina no es un criterio diagnóstico de SOP.", "en": "Insulin resistance is not a diagnostic criterion for PCOS." } },
+        { "id": "b", "text": { "es": "Indica empezar metformina sí o sí.", "en": "It means she must start metformin." }, "correct": false, "why": { "es": "La decisión sobre metformina no se basa en un ensayo de insulina, y la recomendación es condicional.", "en": "The metformin decision is not based on an insulin assay, and the recommendation is conditional." } },
+        { "id": "c", "text": { "es": "La resistencia a la insulina es parte del mecanismo, pero estas mediciones tienen escasa utilidad clínica; lo útil es la valoración glucémica.", "en": "Insulin resistance is part of the mechanism, but these measurements have limited clinical value; glycaemic assessment is what helps." }, "correct": true, "why": { "es": "Correcta: punto de práctica de la guía 2023.", "en": "Correct: a practice point in the 2023 guideline." } },
+        { "id": "d", "text": { "es": "Hay que repetirlo cada 3 meses para seguir el tratamiento.", "en": "It should be repeated every 3 months to monitor treatment." }, "correct": false, "why": { "es": "No se recomiendan de rutina; repetirlos no mejora el manejo.", "en": "They are not recommended routinely; repeating them does not improve care." } }
+      ],
+      "explanation": { "es": "Mecanismo verdadero no equivale a prueba útil.", "en": "A true mechanism does not make a useful test." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q5-inositol",
+      "kind": "question",
+      "conceptId": "pcos.mp.inositol",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["supplements"],
+      "stem": { "es": "¿Cuál de estas afirmaciones sobre el inositol en el SOP es coherente con la guía 2023?", "en": "Which statement about inositol in PCOS is consistent with the 2023 guideline?" },
+      "options": [
+        { "id": "a", "text": { "es": "Se recomienda mio-inositol en una dosis estándar para todas.", "en": "Myo-inositol at a standard dose is recommended for everyone." }, "correct": false, "why": { "es": "La guía no recomienda tipos, dosis ni combinaciones específicas.", "en": "The guideline does not recommend specific types, doses or combinations." } },
+        { "id": "b", "text": { "es": "Podría considerarse según preferencias y valores, con certeza muy baja.", "en": "It could be considered based on preferences and values, with very low certainty." }, "correct": true, "why": { "es": "Correcta: recomendación condicional, certeza muy baja.", "en": "Correct: conditional recommendation, very low certainty." } },
+        { "id": "c", "text": { "es": "Su seguridad está bien establecida, así que no hace falta informarlo.", "en": "Its safety is well established, so there is no need to report it." }, "correct": false, "why": { "es": "Los efectos adversos y la seguridad no se conocen bien; se anima a informarlo a los profesionales.", "en": "Side effects and safety are not well known; patients are encouraged to tell their clinicians." } },
+        { "id": "d", "text": { "es": "Tiene la misma fuerza de recomendación que el letrozol para ovular.", "en": "It has the same recommendation strength as letrozole for ovulation." }, "correct": false, "why": { "es": "Letrozol: fuerte y certeza alta; inositol: condicional y certeza muy baja.", "en": "Letrozole: strong, high certainty; inositol: conditional, very low certainty." } }
+      ],
+      "explanation": { "es": "Decisión compartida, sin dosis recomendada y con calidad de producto variable.", "en": "Shared decision, no recommended dose and variable product quality." },
+      "refIds": ["teede-2023-pcos-guideline", "fitz-2024-inositol-pcos"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q6-diet",
+      "kind": "question",
+      "conceptId": "pcos.mp.diet",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": ["diet"],
+      "stem": { "es": "Una paciente con SOP pregunta qué dieta específica debe seguir. ¿Qué respuesta refleja la guía 2023?", "en": "A patient with PCOS asks which specific diet she should follow. Which answer reflects the 2023 guideline?" },
+      "options": [
+        { "id": "a", "text": { "es": "Una dieta cetogénica, porque es la más eficaz en SOP.", "en": "A ketogenic diet, because it is the most effective in PCOS." }, "correct": false, "why": { "es": "No hay evidencia de que una composición supere a otra.", "en": "There is no evidence that one composition beats another." } },
+        { "id": "b", "text": { "es": "Sin gluten ni lácteos para todas.", "en": "Gluten-free and dairy-free for everyone." }, "correct": false, "why": { "es": "La guía no respalda exclusiones específicas.", "en": "The guideline does not support specific exclusions." } },
+        { "id": "c", "text": { "es": "Ninguna composición ha demostrado ser superior; un patrón saludable y sostenible tiene beneficios.", "en": "No composition has proven superior; a healthy, sustainable pattern has benefits." }, "correct": true, "why": { "es": "Correcta: coherente con las recomendaciones 2023.", "en": "Correct: consistent with the 2023 recommendations." } },
+        { "id": "d", "text": { "es": "Ayuno intermitente obligatorio.", "en": "Mandatory intermittent fasting." }, "correct": false, "why": { "es": "No hay evidencia de superioridad de ninguna estrategia específica.", "en": "There is no evidence of superiority for any specific strategy." } }
+      ],
+      "explanation": { "es": "Lo que la paciente pueda sostener, coherente con las guías de alimentación saludable.", "en": "Whatever the patient can sustain, consistent with healthy-eating guidelines." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q7-letrozole",
+      "kind": "question",
+      "conceptId": "pcos.mp.letrozole",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": ["reproduction"],
+      "stem": { "es": "Mujer de 29 años con SOP, anovulatoria, busca embarazo; pareja con seminograma normal y trompas permeables. ¿Primera línea farmacológica para inducir ovulación?", "en": "A 29-year-old woman with PCOS, anovulatory, trying to conceive; partner with normal semen analysis and patent tubes. First-line pharmacological ovulation induction?" },
+      "options": [
+        { "id": "a", "text": { "es": "Letrozol.", "en": "Letrozole." }, "correct": true, "why": { "es": "Correcta: recomendación fuerte con certeza alta.", "en": "Correct: strong recommendation with high certainty." } },
+        { "id": "b", "text": { "es": "Inositol.", "en": "Inositol." }, "correct": false, "why": { "es": "Condicional con certeza muy baja; no es primera línea farmacológica.", "en": "Conditional with very low certainty; not first-line pharmacological treatment." } },
+        { "id": "c", "text": { "es": "FIV directamente.", "en": "Straight to IVF." }, "correct": false, "why": { "es": "Sin otros factores, la primera línea es la inducción de ovulación con letrozol.", "en": "Without other factors, first line is ovulation induction with letrozole." } },
+        { "id": "d", "text": { "es": "Metformina sola como primera línea para ovular.", "en": "Metformin alone as first line for ovulation." }, "correct": false, "why": { "es": "La guía sitúa al letrozol como primera línea para inducir ovulación.", "en": "The guideline places letrozole as first line for ovulation induction." } }
+      ],
+      "explanation": { "es": "Letrozol es primera línea en anovulatorias con SOP sin otros factores; en muchos países se usa fuera de ficha técnica.", "en": "Letrozole is first line in anovulatory women with PCOS and no other factors; in many countries it is used off-label." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "pcos-mp.q8-ranking",
+      "kind": "question",
+      "conceptId": "pcos.mp.metformin",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": ["hormones", "supplements"],
+      "stem": { "es": "¿Qué par está correctamente calificado según la guía 2023?", "en": "Which pair is correctly graded according to the 2023 guideline?" },
+      "options": [
+        { "id": "a", "text": { "es": "Metformina en IMC ≥25: condicional, certeza muy baja.", "en": "Metformin with BMI ≥25: conditional, very low certainty." }, "correct": true, "why": { "es": "Correcta.", "en": "Correct." } },
+        { "id": "b", "text": { "es": "Metformina en IMC <25: fuerte, certeza alta.", "en": "Metformin with BMI <25: strong, high certainty." }, "correct": false, "why": { "es": "Con IMC <25 es una recomendación de consenso que reconoce evidencia limitada.", "en": "With BMI <25 it is a consensus recommendation acknowledging limited evidence." } },
+        { "id": "c", "text": { "es": "Inositol: fuerte, certeza moderada.", "en": "Inositol: strong, moderate certainty." }, "correct": false, "why": { "es": "Inositol: condicional, certeza muy baja.", "en": "Inositol: conditional, very low certainty." } },
+        { "id": "d", "text": { "es": "Letrozol para ovular: condicional, certeza baja.", "en": "Letrozole for ovulation: conditional, low certainty." }, "correct": false, "why": { "es": "Letrozol: fuerte, certeza alta.", "en": "Letrozole: strong, high certainty." } }
+      ],
+      "explanation": { "es": "Saber la fuerza y la certeza de cada opción evita la falsa equivalencia entre tratamientos.", "en": "Knowing each option's strength and certainty avoids false equivalence between treatments." },
+      "refIds": ["teede-2023-pcos-guideline"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    }
+  ]
+}
