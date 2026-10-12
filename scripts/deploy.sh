@@ -35,7 +35,7 @@ if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
   git worktree add -q "$tmp" origin/gh-pages --detach
 else
   git worktree add -q --detach "$tmp"
-  (cd "$tmp" && git checkout -q --orphan gh-pages && git rm -rq . )
+  (cd "$tmp" && git checkout -q --orphan gh-pages && git rm -rfq . )
 fi
 
 # Replace the published tree with the new build (old files removed, history kept).
