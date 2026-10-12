@@ -17,11 +17,13 @@ Carpeta dentro de OneDrive por decisión de Alan (ver DECISIONS D-002).
 ## Entorno comprobado (2026-10-12)
 - Git 2.54, identidad Alan; Node 24.16; npm 11.13.
 - Subagentes disponibles → 3 auditores independientes posibles.
-- **Bloqueo:** `gh` cuenta AlansApps con sesión vencida; sin SSH. No hay remoto ni Pages. Requiere `gh auth login` por Alan.
+- Python no instalado (usar Node para scripts).
+- GitHub: sesión AlansApps renovada (scopes `repo`, `gist`, `read:org`; **sin `workflow`** → no se pueden pushear GitHub Actions; publicar Pages desde rama `gh-pages`).
+- Remoto: https://github.com/AlansApps/sol-gineco (público, ADMIN). Ramas `main` y `feat/phase1-foundations` subidas.
+- Pages: aún no activado (se activa con el primer build).
 
 ## Hecho
-- Repo local inicializado, archivos de continuidad.
+- Fase 0 completa: repo local + worktree WIP + remoto GitHub + archivos de continuidad.
 
 ## Pendiente / próximo paso
-1. Alan: re-autenticar GitHub → crear repo remoto, verificar permisos de escritura y Pages.
-2. Fase 1: mapa curricular + registro inicial de fuentes + 4 direcciones visuales (pausa para elección).
+1. Fase 1: mapa curricular + registro inicial de fuentes + 4 direcciones visuales (pausa para elección).
