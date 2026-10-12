@@ -12,7 +12,8 @@ export type Route =
   | { name: 'settings' }
   | { name: 'session' }
   | { name: 'listen' }
-  | { name: 'card'; itemId: string };
+  | { name: 'card'; itemId: string }
+  | { name: 'case'; itemId: string };
 
 export function parseHash(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
@@ -31,6 +32,8 @@ export function parseHash(hash: string): Route {
       return { name: 'listen' };
     case 'card':
       return parts[1] ? { name: 'card', itemId: parts[1] } : { name: 'home' };
+    case 'case':
+      return parts[1] ? { name: 'case', itemId: parts[1] } : { name: 'home' };
     default:
       return { name: 'home' };
   }
@@ -44,6 +47,8 @@ export function href(route: Route): string {
       return `#/topics/${encodeURIComponent(route.macroId)}`;
     case 'card':
       return `#/card/${encodeURIComponent(route.itemId)}`;
+    case 'case':
+      return `#/case/${encodeURIComponent(route.itemId)}`;
     default:
       return `#/${route.name}`;
   }

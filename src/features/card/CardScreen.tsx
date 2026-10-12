@@ -1,6 +1,7 @@
 import { ChevronLeft } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
+import { href } from '../../app/router.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import { Notice } from '../../ui/components.tsx';
 import { CardView } from './CardView.tsx';
@@ -26,9 +27,9 @@ export function CardScreen({ itemId }: { itemId: string }) {
 
   return (
     <div className="stack stack--lg">
-      <button type="button" className="backlink" onClick={() => history.back()}>
-        <ChevronLeft className="icon" aria-hidden="true" /> {t('topics.back')}
-      </button>
+      <a className="backlink" href={href({ name: 'review' })}>
+        <ChevronLeft className="icon" aria-hidden="true" /> {t('review.back')}
+      </a>
       {failed ? <Notice tone="warn">{navigator.onLine ? t('app.error') : t('session.needsConnection')}</Notice> : null}
       {loaded && loaded.item.kind === 'card' ? (
         <CardView

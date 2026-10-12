@@ -70,7 +70,7 @@ img, svg { max-width: 100%; }
   gap: var(--sp-5);
   min-width: 0;
 }
-.app__main--session { padding-bottom: calc(7rem + env(safe-area-inset-bottom)); }
+.app__main--session { padding-bottom: 0; }
 
 .screen-title { font-size: var(--fs-2xl); }
 .screen-sub { color: var(--muted); font-size: var(--fs-sm); }

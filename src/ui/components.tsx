@@ -7,7 +7,7 @@ import {
   Ban, BadgeCheck, CircleQuestionMark, FlaskConical, House, LayoutGrid, Link2, Microscope, RefreshCcw, Settings as SettingsIcon,
   Check, X, ArrowRight, CornerDownRight, Info, type LucideIcon,
 } from 'lucide-react';
-import { useEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { useEffect, useId, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import { splitCitations, type EvidenceLabel } from '../domain/content/schema.ts';
 import { href, type Route } from '../app/router.ts';
 import { useI18n } from '../i18n/i18n.tsx';
@@ -102,7 +102,22 @@ export function EvidenceBadge({ label, note }: { label: EvidenceLabel; note?: st
       <button type="button" className="linklike small" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
         <Info className="icon" aria-hidden="true" /> {t('evidence.legend')}
       </button>
-      {open ? <p className="small muted">{t('evidence.legend.text')}</p> : null}
+      {open ? (
+        <div className="stack small">
+          <p className="muted">{t('evidence.legend.text')}</p>
+          <ul className="evidence__legend">
+            {(Object.keys(EVIDENCE_ICON) as EvidenceLabel[]).map((l) => {
+              const I = EVIDENCE_ICON[l];
+              return (
+                <li key={l} className={`evidence--${l}`}>
+                  <I className="icon" aria-hidden="true" />
+                  <span>{t(`evidence.${l}` as MessageKey)}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -139,6 +154,7 @@ export function FlowDiagram({ rows, alt }: { rows: { mark: string; text: string 
 // ---------- Modal sheet (native <dialog>: focus trap, Esc, inert background) ----------
 export function Sheet({ open, onClose, title, children }: { open: boolean; onClose: () => void; title: string; children: ReactNode }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const titleId = useId(); // unique per sheet: each dialog announces its own title (UX-037)
   useEffect(() => {
     const d = ref.current;
     if (!d) return;
@@ -147,10 +163,10 @@ export function Sheet({ open, onClose, title, children }: { open: boolean; onClo
   }, [open]);
   const { t } = useI18n();
   return (
-    <dialog ref={ref} className="sheet" onClose={onClose} onCancel={onClose} aria-labelledby="sheet-title">
+    <dialog ref={ref} className="sheet" onClose={onClose} onCancel={onClose} aria-labelledby={titleId}>
       <div className="sheet__head">
-        <h2 id="sheet-title">{title}</h2>
-        <button type="button" className="iconbtn" onClick={onClose} aria-label={t('settings.cancel')}>
+        <h2 id={titleId}>{title}</h2>
+        <button type="button" className="iconbtn" onClick={onClose} aria-label={t('app.close')}>
           <X className="icon" aria-hidden="true" />
         </button>
       </div>
@@ -184,7 +200,11 @@ export function BottomNav({ current }: { current: Route['name'] }) {
   );
 }
 
-/** Fixed action bar above the safe area: primary action always reachable with one thumb. */
+/**
+ * Action bar pinned to the bottom of the viewport (position: sticky) at the end of the
+ * screen content: always reachable with one thumb, and because it takes its own
+ * space in the flow it can never cover the last content, at any text size (UX-034).
+ */
 export function ActionBar({ children }: { children: ReactNode }) {
   return <div className="actionbar"><div className="actionbar__inner">{children}</div></div>;
 }

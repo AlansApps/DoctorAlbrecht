@@ -1,5 +1,5 @@
 import { Check, Pause, X } from 'lucide-react';
-import { useCallback, useEffect, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
 import { navigate } from '../../app/router.ts';
 import type { PackQuestion } from '../../domain/content/schema.ts';
@@ -36,6 +36,15 @@ export function SessionScreen() {
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState<MessageKey | null>(null);
   const toggleSave = useFlagToggle();
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  // Keyboard and screen-reader users land on the new content, never on <body> (UX-036).
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+    const target = root.querySelector<HTMLElement>(checked ? '.feedback' : revealed ? '.card__core' : 'h1');
+    target?.focus({ preventScroll: checked });
+  }, [session?.id, session?.position, revealed, checked, phase.kind]);
 
   const finish = useCallback(async (s: StoredSession) => {
     const summary = await withDb((db) => summarizeSession(db, s.id));
@@ -179,7 +188,7 @@ export function SessionScreen() {
   }
 
   return (
-    <div className="session">
+    <div className="session" ref={rootRef}>
       <div className="session__top">
         <span className="small muted tabular">{t('session.step', { i: session.position + 1, n: total })}</span>
         {step.requeued ? <span className="chip">{t('session.consolidate')}</span> : null}
@@ -195,7 +204,7 @@ export function SessionScreen() {
   );
 }
 
-function QuestionView({ q, references, choice, checked, onChoose }: {
+export function QuestionView({ q, references, choice, checked, onChoose }: {
   q: PackQuestion; references: LoadedItem['references']; choice: string | null; checked: boolean; onChoose: (id: string) => void;
 }) {
   const { t } = useI18n();
@@ -204,9 +213,9 @@ function QuestionView({ q, references, choice, checked, onChoose }: {
   const wasRight = checked && choice === correctId;
   return (
     <article className="question">
-      <h1 className="question__stem">{q.stem}</h1>
+      <h1 className="question__stem" tabIndex={-1}>{q.stem}</h1>
       {checked ? (
-        <div className={`feedback ${wasRight ? 'feedback--ok' : 'feedback--err'}`} role="status">
+        <div className={`feedback ${wasRight ? 'feedback--ok' : 'feedback--err'}`} role="status" tabIndex={-1}>
           {wasRight ? <Check className="icon" aria-hidden="true" /> : <X className="icon" aria-hidden="true" />}
           <span>{wasRight ? t('session.correct') : t('session.incorrect')}</span>
         </div>
@@ -259,7 +268,7 @@ function Summary({ summary }: { summary: SessionSummary }) {
   ];
   return (
     <div className="stack stack--lg">
-      <h1 className="screen-title">{t('session.summary.title')}</h1>
+      <h1 className="screen-title" tabIndex={-1}>{t('session.summary.title')}</h1>
       <dl className="summary">
         {rows.filter((r) => r.n > 0).map((r) => (
           <div key={r.key} className="summary__row"><dt>{t(r.key)}</dt><dd className="tabular">{r.n}</dd></div>

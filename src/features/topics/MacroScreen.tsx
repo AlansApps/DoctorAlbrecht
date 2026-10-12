@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAppState } from '../../app/AppState.tsx';
 import { href } from '../../app/router.ts';
 import { CLINICAL_TAGS } from '../../domain/content/schema.ts';
@@ -54,6 +54,8 @@ export function MacroScreen({ macroId }: { macroId: string }) {
         <Notice>{t('topics.pending')}</Notice>
       )}
 
+      <CaseList macroId={macroId} />
+
       <ul className="list">
         {macro.micros.map((mi) => (
           <li key={mi.id} className="list__item">
@@ -77,5 +79,32 @@ export function MacroScreen({ macroId }: { macroId: string }) {
         ))}
       </ul>
     </div>
+  );
+}
+
+function CaseList({ macroId }: { macroId: string }) {
+  const { t } = useI18n();
+  const app = useAppState();
+  const ids = app.index.filter((e) => e.kind === 'case' && e.macroId === macroId).map((e) => e.id);
+  const [titles, setTitles] = useState<Map<string, string>>(new Map());
+  useEffect(() => {
+    if (!ids.length) return;
+    app.loadItems(ids).then((m) => setTitles(new Map([...m].flatMap(([id, it]) => (it.item.kind === 'case' ? [[id, it.item.title] as const] : [])))), () => {});
+  }, [ids.join('|'), app.prefs.locale]);
+  if (!ids.length) return null;
+  return (
+    <section className="stack">
+      <h2 className="eyebrow">{t('case.section')}</h2>
+      <ul className="list">
+        {ids.map((id) => (
+          <li key={id} className="list__item">
+            <a className="list__link" href={href({ name: 'case', itemId: id })}>
+              <span className="list__text"><span className="list__title">{titles.get(id) ?? t('card.type.case')}</span></span>
+              <ChevronRight className="icon" aria-hidden="true" />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

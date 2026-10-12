@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { useI18n, I18nProvider } from '../i18n/i18n.tsx';
 import { BottomNav, Button, Notice } from '../ui/components.tsx';
 import { AppStateProvider, useAppState } from './AppState.tsx';
@@ -13,13 +13,23 @@ const MacroScreen = lazy(() => import('../features/topics/MacroScreen.tsx').then
 const ReviewScreen = lazy(() => import('../features/review/ReviewScreen.tsx').then((m) => ({ default: m.ReviewScreen })));
 const SettingsScreen = lazy(() => import('../features/settings/SettingsScreen.tsx').then((m) => ({ default: m.SettingsScreen })));
 const ListenScreen = lazy(() => import('../features/listen/ListenScreen.tsx').then((m) => ({ default: m.ListenScreen })));
+const CaseScreen = lazy(() => import('../features/case/CaseScreen.tsx').then((m) => ({ default: m.CaseScreen })));
 const CardScreen = lazy(() => import('../features/card/CardScreen.tsx').then((m) => ({ default: m.CardScreen })));
 
 function Shell() {
   const route = useRoute();
   const app = useAppState();
   const { t } = useI18n();
-  const inSession = route.name === 'session';
+  // Screens with a fixed action bar hide the bottom navigation.
+  const inSession = route.name === 'session' || route.name === 'case';
+
+  useEffect(() => {
+    const section: Record<string, string> = {
+      home: t('nav.home'), topics: t('nav.topics'), macro: t('nav.topics'), review: t('nav.review'), card: t('nav.review'),
+      settings: t('nav.settings'), listen: t('listen.title'), session: t('session.title'), case: t('case.section'),
+    };
+    document.title = `${section[route.name] ?? ''} · TarjetAlan`;
+  }, [route.name, t]);
 
   let screen;
   if (app.status === 'loading') screen = <p className="muted">{t('app.loading')}</p>;
@@ -39,6 +49,7 @@ function Shell() {
       case 'settings': screen = <SettingsScreen />; break;
       case 'listen': screen = <ListenScreen />; break;
       case 'card': screen = <CardScreen itemId={route.itemId} />; break;
+      case 'case': screen = <CaseScreen itemId={route.itemId} />; break;
     }
   }
 

@@ -7,6 +7,8 @@ import type { ItemFlags } from '../../storage/db.ts';
 export interface Stats {
   due: number;
   studied: number;
+  /** Recalled (self-rated or answered) at least once: the honest "learnt" signal. */
+  recalled: number;
   learning: number;
   review: number;
   suspended: number;
@@ -18,7 +20,7 @@ export function computeStats(
   index: IndexEntry[], progress: ReadonlyMap<string, ItemProgress>, flags: ReadonlyMap<string, ItemFlags>, now = new Date(),
 ): Stats {
   const dayEnd = studyDayEnd(now, currentTimeZone());
-  const s: Stats = { due: 0, studied: 0, learning: 0, review: 0, suspended: 0, mistakes: 0 };
+  const s: Stats = { due: 0, studied: 0, recalled: 0, learning: 0, review: 0, suspended: 0, mistakes: 0 };
   for (const e of index) {
     const p = progress.get(e.id);
     if (flags.get(e.id)?.suspended || p?.status === 'suspended') {
@@ -27,6 +29,7 @@ export function computeStats(
     }
     if (!p) continue;
     if (p.exposures > 0 || p.retrievals > 0) s.studied++;
+    if (p.retrievals > 0) s.recalled++;
     if (p.status === 'learning') s.learning++;
     if (p.status === 'review') s.review++;
     if (isActiveMistake(p, now)) s.mistakes++; // same definition as the "mistakes" session

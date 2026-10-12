@@ -71,7 +71,7 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
         <span className="chip">{t(`card.type.${card.type}` as MessageKey)}</span>
         {lessonTitle ? <span className="small muted">· {lessonTitle}</span> : null}
       </div>
-      <h1 className="card__title">{card.title}</h1>
+      <h1 className="card__title" tabIndex={-1}>{card.title}</h1>
     </header>
   );
 
@@ -96,7 +96,7 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
     <article className="card">
       {header}
       {mode === 'revealed' ? <p className="small muted card__recallq">{card.recall}</p> : null}
-      <RichText className="card__core" text={card.core} onCite={cite} refNumbers={numbers} />
+      <div className="card__core" tabIndex={-1}><RichText text={card.core} onCite={cite} refNumbers={numbers} /></div>
       <RichText className="card__body" text={card.body} onCite={cite} refNumbers={numbers} />
       {card.visual ? <FlowDiagram rows={card.visual.rows} alt={card.visual.alt} /> : null}
       {card.application ? (
@@ -126,7 +126,7 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
       <footer className="card__foot">
         <p className="small muted">
           {t('card.reviewed', { date: formatDate(card.editorial.reviewedAt) })}
-          {status !== 'ai-audited' ? ` · ${t(`card.status.${status}` as MessageKey)}` : ''}
+          {` · ${t(`card.status.${status}` as MessageKey)}`}
         </p>
         <div className="card__actions">
           <button type="button" className="cardaction" onClick={onToggleSave} aria-pressed={saved}>

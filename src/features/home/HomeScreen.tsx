@@ -104,7 +104,7 @@ export function HomeScreen() {
       {!firstTime ? (
         <section className="stack">
           <h2 className="eyebrow">{t('home.progress')}</h2>
-          <p className="tabular">{t('home.progress.detail', { studied: stats.studied, retained: stats.review })}</p>
+          <p className="tabular">{t('home.progress.detail', { studied: stats.studied, retained: stats.recalled })}</p>
           <p className="small muted">{t('home.progress.note')}</p>
         </section>
       ) : null}

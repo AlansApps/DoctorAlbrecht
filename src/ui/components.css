@@ -52,6 +52,8 @@
 .evidence--insufficient { color: var(--ev-insufficient); }
 .evidence--not-recommended { color: var(--ev-not-recommended); }
 .evidence__note { font-size: var(--fs-sm); color: var(--muted); }
+.evidence__legend { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--sp-2); }
+.evidence__legend li { display: flex; gap: var(--sp-2); align-items: center; font-weight: var(--fw-medium); }
 
 /* ---------- Flow diagram ---------- */
 .flow { margin: 0; border: 1px solid var(--line); border-radius: var(--radius-md); padding: var(--sp-3) var(--sp-4); background: var(--surface); }
@@ -82,7 +84,7 @@
 /* ---------- Bottom nav & action bar ---------- */
 .bottomnav {
   position: fixed; inset: auto 0 0 0; z-index: 10;
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
   background: var(--surface); border-top: 1px solid var(--line);
   padding: var(--sp-1) env(safe-area-inset-right) calc(var(--sp-1) + env(safe-area-inset-bottom)) env(safe-area-inset-left);
 }
@@ -92,10 +94,13 @@
   font-size: var(--fs-xs); font-family: var(--font-display); font-weight: var(--fw-medium);
 }
 .bottomnav__item.is-active { color: var(--accent-ink); font-weight: var(--fw-bold); }
+.bottomnav__item span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-inline: 2px; }
 .bottomnav__item .icon { width: 1.5rem; height: 1.5rem; }
 
 .actionbar {
-  position: fixed; inset: auto 0 0 0; z-index: 11; background: var(--surface); box-shadow: var(--shadow-bar);
+  position: sticky; bottom: 0; z-index: 11; margin-top: auto;
+  margin-inline: calc(-1 * max(var(--gutter), env(safe-area-inset-left))) calc(-1 * max(var(--gutter), env(safe-area-inset-right)));
+  background: var(--surface); box-shadow: var(--shadow-bar);
   padding: var(--sp-3) max(var(--gutter), env(safe-area-inset-right)) calc(var(--sp-3) + env(safe-area-inset-bottom)) max(var(--gutter), env(safe-area-inset-left));
 }
 .actionbar__inner { max-width: 44rem; margin: 0 auto; display: flex; flex-direction: column; gap: var(--sp-2); }
