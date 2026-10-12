@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.log
+.env
+.env.*
+# OneDrive conflict copies (machine-suffixed duplicates)
+*-AlanPC.*
+*-AlanPC
+desktop.ini
+.DS_Store
+Thumbs.db
