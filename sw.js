@@ -3,8 +3,8 @@
  * (they live in IndexedDB), so nothing is stored twice.
  * New versions wait: the page decides when to activate (never mid-question).
  */
-const VERSION = '387ddb52180b';
-const SHELL = ["./","assets/AppState-C9rOvJhR.js","assets/CardScreen-D3CWn9aL.js","assets/CaseScreen-l5ND6nub.js","assets/ListenScreen-fR0_3aZX.js","assets/MacroScreen-C7oynsn9.js","assets/ReviewScreen-DZjkCkuc.js","assets/SettingsScreen-9nuFv8q4.js","assets/TopicsScreen-DWiMo2zZ.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/chevron-left-C7R9TTMh.js","assets/en-rH0z2kKP.js","assets/index-DwHbWBjz.css","assets/index-w4K3gFwE.js","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
+const VERSION = '42f9539334be';
+const SHELL = ["./","assets/AppState-uRerQCFs.js","assets/CardScreen-1zP0_A5c.js","assets/CaseScreen-C66-2Dqv.js","assets/ListenScreen-BDRrzQHy.js","assets/MacroScreen-D6DMQnHj.js","assets/ReviewScreen-BEMGZ78p.js","assets/SettingsScreen-DJHb7I5v.js","assets/TopicsScreen-C58yUwOz.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/chevron-left-C6YT7_C3.js","assets/en-B96HUhLH.js","assets/index-BpNf_2lS.css","assets/index-DmJlG7Vv.js","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
 const CACHE = `tarjetalan-shell-${VERSION}`;
 
 self.addEventListener('install', (event) => {
