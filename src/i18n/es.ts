@@ -11,6 +11,7 @@ export const es = {
   'app.retry': 'Reintentar',
   'app.close': 'Cerrar',
 
+  'nav.main': 'Navegación principal',
   'nav.home': 'Inicio',
   'nav.topics': 'Temas',
   'nav.review': 'Repaso',

@@ -14,9 +14,14 @@ const loaders: Record<Locale, () => Promise<Messages>> = {
   en: async () => (await import('./en.ts')).en,
 };
 
+/** `{n}` inserts a value; `{n|one|other}` picks a form by count (n === 1 → one). */
 export function interpolate(template: string, vars?: Record<string, string | number>): string {
   if (!vars) return template;
-  return template.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m));
+  return template
+    .replace(/\{(\w+)\|([^|}]*)\|([^}]*)\}/g, (m, k: string, one: string, other: string) =>
+      k in vars ? (Number(vars[k]) === 1 ? one : other) : m,
+    )
+    .replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m));
 }
 
 interface I18nValue {

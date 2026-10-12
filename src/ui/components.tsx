@@ -7,7 +7,7 @@ import {
   Ban, BadgeCheck, CircleQuestionMark, FlaskConical, House, LayoutGrid, Link2, Microscope, RefreshCcw, Settings as SettingsIcon,
   Check, X, ArrowRight, CornerDownRight, Info, type LucideIcon,
 } from 'lucide-react';
-import { useEffect, useId, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { useEffect, useId, useLayoutEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import { splitCitations, type EvidenceLabel } from '../domain/content/schema.ts';
 import { href, type Route } from '../app/router.ts';
 import { useI18n } from '../i18n/i18n.tsx';
@@ -186,7 +186,7 @@ const NAV: { route: Route; key: MessageKey; Icon: LucideIcon; match: Route['name
 export function BottomNav({ current }: { current: Route['name'] }) {
   const { t } = useI18n();
   return (
-    <nav className="bottomnav" aria-label="Principal">
+    <nav className="bottomnav" aria-label={t('nav.main')}>
       {NAV.map(({ route, key, Icon, match }) => {
         const active = match.includes(current);
         return (
@@ -206,7 +206,17 @@ export function BottomNav({ current }: { current: Route['name'] }) {
  * space in the flow it can never cover the last content, at any text size (UX-034).
  */
 export function ActionBar({ children }: { children: ReactNode }) {
-  return <div className="actionbar"><div className="actionbar__inner">{children}</div></div>;
+  const ref = useRef<HTMLDivElement>(null);
+  const [tall, setTall] = useState(false);
+  // A very tall bar (large text + four rating buttons) would hide too much of the reading:
+  // then it stays at the end of the content instead of pinned (UX-044).
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const next = el.offsetHeight > window.innerHeight * 0.28;
+    if (next !== tall) setTall(next);
+  });
+  return <div ref={ref} className={tall ? 'actionbar is-static' : 'actionbar'}><div className="actionbar__inner">{children}</div></div>;
 }
 
 export function Notice({ tone = 'info', children, action }: { tone?: 'info' | 'warn' | 'error'; children: ReactNode; action?: ReactNode }) {

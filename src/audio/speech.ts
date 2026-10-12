@@ -14,6 +14,7 @@ export function stripForSpeech(text: string): string {
     .replace(/\*\*/g, '')
     .replace(/^- /gm, '')
     .replace(/https?:\/\/\S+/g, '')
+    .replace(/([.!?:])(\s*\.)+/g, '$1') // no ".." when joining sentences (UX-043)
     .replace(/\s+/g, ' ')
     .trim();
 }

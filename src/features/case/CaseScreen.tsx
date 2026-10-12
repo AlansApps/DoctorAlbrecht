@@ -31,6 +31,8 @@ export function CaseScreen({ itemId }: { itemId: string }) {
 
   const check = (stepId: string, questionId: string, choice: string) => {
     setAnswers((a) => ({ ...a, [stepId]: { choice, checked: true } }));
+    // Land on the feedback, not on <body> (UX-060).
+    requestAnimationFrame(() => document.querySelector<HTMLElement>(`[data-step="${CSS.escape(stepId)}"] .feedback`)?.focus());
     const q = items?.get(questionId)?.item;
     const e = app.indexById.get(questionId);
     if (!q || q.kind !== 'question' || !e) return;
@@ -70,7 +72,6 @@ export function CaseScreen({ itemId }: { itemId: string }) {
       {kase ? (
         <>
           <header className="stack">
-            <span className="chip">{t('card.type.case')}</span>
             <h1 className="card__title">{kase.title}</h1>
             <p className="small muted">{t('case.fictional')}</p>
           </header>
@@ -79,7 +80,7 @@ export function CaseScreen({ itemId }: { itemId: string }) {
               const q = step.questionId ? items?.get(step.questionId)?.item : undefined;
               const st = answers[step.id] ?? { choice: null, checked: false };
               return (
-                <li key={step.id} className="casestep" ref={i === shown - 1 ? lastRef : undefined}>
+                <li key={step.id} className="casestep" data-step={step.id} ref={i === shown - 1 ? lastRef : undefined}>
                   <span className="eyebrow tabular">{t('case.step', { i: i + 1, n: kase.steps.length })}</span>
                   <div className="casestep__text" tabIndex={-1}><RichText text={step.text} /></div>
                   {q && q.kind === 'question' ? (
@@ -105,6 +106,7 @@ export function CaseScreen({ itemId }: { itemId: string }) {
             <div className="stack">
               <p className="eyebrow">{t('case.done')}</p>
               <button type="button" className="linklike" onClick={() => setSourcesOpen(true)}>{t('card.sources')}</button>
+              <a className="btn btn--primary btn--block" href={backTo}>{t('case.back')}</a>
             </div>
           ) : null}
           <SourcesSheet open={sourcesOpen} onClose={() => setSourcesOpen(false)} refIds={kase.refIds} references={loaded!.references} />

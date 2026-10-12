@@ -12,6 +12,7 @@ export const en: Record<MessageKey, string> = {
   'app.retry': 'Retry',
   'app.close': 'Close',
 
+  'nav.main': 'Main navigation',
   'nav.home': 'Home',
   'nav.topics': 'Topics',
   'nav.review': 'Review',

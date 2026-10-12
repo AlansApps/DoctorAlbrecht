@@ -69,7 +69,9 @@
 .card__foot { display: flex; flex-direction: column; gap: var(--sp-3); padding-top: var(--sp-3); border-top: 1px solid var(--line); }
 .card__actions { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--sp-1); }
 .cardaction span { max-width: 100%; text-align: center; overflow-wrap: anywhere; hyphens: auto; line-height: 1.15; }
-@media (max-width: 22rem) { .card__actions { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* 2×2 when the card is narrow relative to its own (scaled) text size: works at any text size (UX-059). */
+.card { container-type: inline-size; }
+@container (max-width: 19em) { .card__actions { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .cardaction {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
   min-height: 3.25rem; border: 0; background: none; color: var(--ink); cursor: pointer; border-radius: var(--radius-sm);
@@ -84,6 +86,7 @@
   display: flex; flex-direction: column; gap: var(--sp-3); padding: var(--sp-5) var(--sp-4);
   border: 1.5px dashed var(--line-strong); border-radius: var(--radius-md); background: var(--surface);
 }
+.actionbar.is-static { position: static; box-shadow: none; border-top: 1px solid var(--line); }
 .recall__q { font-family: var(--font-display); font-size: var(--fs-lg); font-weight: var(--fw-bold); line-height: var(--lh-tight); }
 
 /* ---------- Sources ---------- */

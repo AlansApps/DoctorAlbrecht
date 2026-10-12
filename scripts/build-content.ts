@@ -249,6 +249,16 @@ function localizeItem(i: AuthorItem, loc: Locale): PackItem {
 }
 
 // ---------- CLI ----------
+/** Shared registry plus one optional file per module (content/references/*.json): parallel authoring without conflicts. */
+function readReferences(): unknown[] {
+  const shared = readJson(join(ROOT, 'references.json')) as unknown[];
+  const dir = join(ROOT, 'references');
+  const extra = existsSync(dir)
+    ? readdirSync(dir).filter((f) => f.endsWith('.json')).sort().flatMap((f) => readJson(join(dir, f)) as unknown[])
+    : [];
+  return [...shared, ...extra];
+}
+
 function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, 'utf8'));
 }
@@ -261,7 +271,7 @@ function main() {
     ? readdirSync(modDir).filter((f) => f.endsWith('.json')).sort().map((f) => ({ name: `modules/${f}`, data: readJson(join(modDir, f)) }))
     : [];
   const res = buildContent(
-    { curriculum: readJson(join(ROOT, 'curriculum.json')), references: readJson(join(ROOT, 'references.json')), modules },
+    { curriculum: readJson(join(ROOT, 'curriculum.json')), references: readReferences(), modules },
     includeDrafts,
     new Date().toISOString(),
   );

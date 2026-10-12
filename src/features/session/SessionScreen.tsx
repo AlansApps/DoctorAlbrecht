@@ -262,6 +262,8 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
 
 function Summary({ summary }: { summary: SessionSummary }) {
   const { t } = useI18n();
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  useEffect(() => titleRef.current?.focus(), []); // UX-060
   const rows: { key: MessageKey; n: number }[] = [
     { key: 'session.summary.read', n: summary.read },
     { key: 'session.summary.recalled', n: summary.recalled },
@@ -271,7 +273,7 @@ function Summary({ summary }: { summary: SessionSummary }) {
   ];
   return (
     <div className="stack stack--lg">
-      <h1 className="screen-title" tabIndex={-1}>{t('session.summary.title')}</h1>
+      <h1 ref={titleRef} className="screen-title" tabIndex={-1}>{t('session.summary.title')}</h1>
       <dl className="summary">
         {rows.filter((r) => r.n > 0).map((r) => (
           <div key={r.key} className="summary__row"><dt>{t(r.key)}</dt><dd className="tabular">{r.n}</dd></div>
