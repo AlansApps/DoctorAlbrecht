@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import {
-  AuthorCurriculum, AuthorModule, AuthorReference, CITATION_RE, LOCALES,
+  AuthorCurriculum, AuthorModule, AuthorReference, extractCitations, LOCALES,
   type AuthorItem, type EditorialStatus, type IndexEntry, type Locale, type Manifest, type Pack, type PackItem,
 } from '../src/domain/content/schema.ts';
 
@@ -29,7 +29,7 @@ export interface BuildResult {
 type Bi = { es: string; en: string };
 
 function citationsIn(text: string): string[] {
-  return [...text.matchAll(CITATION_RE)].map((m) => m[1]!);
+  return extractCitations(text);
 }
 
 function biTexts(item: AuthorItem): Bi[] {
@@ -64,10 +64,12 @@ export function buildContent(files: {
   }
 
   const micros = new Map<string, string>(); // microId → macroId
-  for (const m of cur.data.macros) for (const mi of m.micros) {
+  const microOrder = new Map<string, number>(); // position within its macro
+  for (const m of cur.data.macros) m.micros.forEach((mi, pos) => {
     if (micros.has(mi.id)) errors.push(`curriculum.json: duplicate micro ${mi.id}`);
     micros.set(mi.id, m.id);
-  }
+    microOrder.set(mi.id, pos);
+  });
 
   const seen = new Set<string>();
   const usedRefs = new Set<string>();
@@ -159,13 +161,20 @@ export function buildContent(files: {
     }
     manifestModules.push({ id: mod.id, macroId: mod.macroId, title: mod.title, packs: packFiles });
 
-    for (const l of lessons) {
+    lessons.forEach((l, lessonIdx) => {
       availableMicros.add(l.microId);
+      const macroOrder = cur.data.macros.find((m) => m.id === mod.macroId)?.order ?? 99;
+      const microPos = microOrder.get(l.microId) ?? 999;
       l.itemIds.forEach((id, seq) => {
         const it = items.get(id)!;
-        index.push({ id, kind: it.kind, moduleId: mod.id, lessonId: l.id, microId: l.microId, macroId: mod.macroId, conceptId: it.conceptId, seq, rev: it.rev, tags: it.tags });
+        index.push({
+          id, kind: it.kind, moduleId: mod.id, lessonId: l.id, microId: l.microId, macroId: mod.macroId,
+          conceptId: it.conceptId, seq, rev: it.rev, tags: it.tags,
+          order: macroOrder * 1_000_000 + microPos * 1_000 + lessonIdx * 50 + seq,
+          prereqMicros: l.prerequisites,
+        });
       });
-    }
+    });
   }
 
   for (const r of refs.keys()) if (!usedRefs.has(r)) warnings.push(`references.json: ${r} not cited by any shipped item`);

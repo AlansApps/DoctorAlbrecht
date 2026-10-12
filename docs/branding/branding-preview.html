@@ -80,7 +80,7 @@ a{color:var(--page-accent)}
 .phone .topbar{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted)}
 .phone .topbar .grow{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .phone .chip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;background:var(--soft);color:var(--ink);align-self:flex-start}
-.phone .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px;display:flex;flex-direction:column;gap:12px}
+.phone .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px;display:flex;flex-direction:column;gap:12px;flex-shrink:0}
 .phone .card h4{font-family:var(--f-display);font-size:21px;line-height:1.2;font-weight:700;text-wrap:balance}
 .phone .idea{font-size:15.5px;font-weight:600;line-height:1.4}
 .phone .body{font-size:14.5px;line-height:1.55}
@@ -107,6 +107,7 @@ a{color:var(--page-accent)}
 .phone .opt .mk{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
 .phone .opt.ok{border-color:var(--good)} .phone .opt.ok .mk{background:var(--good);border-color:var(--good);color:var(--surface)}
 .phone .opt.bad{border-color:var(--bad)} .phone .opt.bad .mk{background:var(--bad);border-color:var(--bad);color:var(--surface)}
+.phone .tagl{font-size:12px;font-weight:700}
 .phone .fb{display:flex;gap:8px;align-items:center;font-weight:700;font-size:14px;color:var(--bad)}
 .phone .btnrow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .phone .btn{border-radius:var(--r-sm);padding:12px;text-align:center;font-weight:700;font-size:14px;min-height:44px;border:1.5px solid var(--accent);color:var(--accent-text)}
@@ -148,7 +149,7 @@ a{color:var(--page-accent)}
 .dC .tile:nth-child(3){background:var(--coral);color:#13133A}
 .dC .tile:nth-child(4){background:var(--surface)}
 .dC .tile:nth-child(1) .s,.dC .tile:nth-child(3) .s,.dC .tile:nth-child(1) .ic,.dC .tile:nth-child(3) .ic{color:#13133A}
-.dC .card{border:none;padding:0;overflow:hidden;background:var(--surface)}
+.dC .card{border:none;padding:0;overflow:hidden;background:var(--surface);flex-shrink:0}
 .dC .card .band{background:var(--accent);color:var(--on-accent);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
 .dC .card .band h4{font-size:23px;font-weight:800;letter-spacing:-.02em;color:var(--on-accent)}
 .dC .card .band .chip{background:var(--on-accent);color:var(--accent)}
@@ -255,7 +256,7 @@ a{color:var(--page-accent)}
       <div class="tile">${ic('book')}<span class="t">Continuar</span><span class="s">Reserva ovárica · 3/8</span></div>
     </div>
     <div class="cont"><div style="flex:1;display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Recorrido Fertilidad</span><div class="bar"><i></i></div><span class="muted" style="font-size:12px">Leído no es aprendido: 9 tarjetas en repaso</span></div></div>
-    <p class="sample">Cifras de ejemplo</p>
+    <p class="sample">Contadores de repaso de ejemplo (no son datos clínicos)</p>
   </div>${nav('Inicio')}`;
 
   const actions = `<div class="actions"><span>${ic('bookmark')}Guardar</span><span>${ic('head')}Escuchar</span><span>${ic('source')}Ver fuente</span><span>${ic('flag')}Reportar</span></div>`;
@@ -274,7 +275,7 @@ a{color:var(--page-accent)}
     <div class="topbar">${ic('back')}<span class="grow">Fertilidad · Reserva ovárica</span><span>3/8</span></div>
     ${head}
       <p class="idea">Una AMH baja no predijo menor probabilidad de embarazo espontáneo en mujeres de 30–44 años sin infertilidad conocida.</p>
-      <p class="body">En una cohorte prospectiva de 981 mujeres que llevaban ≤3 meses buscando embarazo, ni la AMH ni la FSH (sérica o urinaria) se asociaron con menor fecundabilidad. La AMH sí conserva valor para anticipar la respuesta a la estimulación ovárica.</p>
+      <p class="body">Cohorte prospectiva (981 inscritas, 750 analizadas, ≤3 meses buscando embarazo): ni la AMH ni la FSH se asociaron con menor probabilidad de concebir. “Concepción” fue una prueba de embarazo positiva, no un nacido vivo. La AMH sí conserva valor para anticipar la respuesta a la estimulación ovárica.</p>
       <div class="diag" role="img" aria-label="Esquema: la AMH predice respuesta a estimulación ovárica; no predice concepción espontánea en esta población.">
         <div class="row"><span class="node">AMH</span><span class="muted">refleja el pool folicular</span></div>
         <div class="row"><span class="yes">${ic('check')}</span><span>Orienta respuesta a estimulación ovárica</span></div>
@@ -316,8 +317,8 @@ a{color:var(--page-accent)}
     <div class="topbar">${ic('back')}<span class="grow">Pregunta · Fertilidad</span><span>2/6</span></div>
     <p class="q">Mujer de 36 años, busca embarazo hace 2 meses, sin antecedentes. Trae una AMH baja de un chequeo. ¿Qué interpretación es más correcta?</p>
     <div class="fb">${ic('x')}Incorrecta · volverá antes en tu repaso</div>
-    <div class="opt bad"><div class="h"><span class="mk">A</span>Su probabilidad de embarazo espontáneo en 6 meses está claramente reducida.</div><p class="why">En la cohorte de Steiner (2017) una AMH baja no se asoció con menor probabilidad de concebir en esta población.</p></div>
-    <div class="opt ok"><div class="h"><span class="mk">B</span>La AMH aislada no predice bien la concepción espontánea aquí; sí orienta la respuesta a estimulación.</div><p class="why">Correcta: separa lo que la AMH mide (pool folicular) de lo que no predijo (fecundabilidad).</p></div>
+    <div class="opt bad"><span class="tagl no">✗ Tu respuesta · incorrecta</span><div class="h"><span class="mk">A</span>Su probabilidad de embarazo espontáneo en 6 meses está claramente reducida.</div><p class="why">En la cohorte de Steiner (2017) una AMH baja no se asoció con menor probabilidad de concebir en esta población.</p></div>
+    <div class="opt ok"><span class="tagl yes">✓ Respuesta correcta</span><div class="h"><span class="mk">B</span>La AMH aislada no predice bien la concepción espontánea aquí; sí orienta la respuesta a estimulación.</div><p class="why">Correcta: separa lo que la AMH mide (pool folicular) de lo que no predijo (fecundabilidad).</p></div>
     <div class="opt"><div class="h"><span class="mk">C</span>Debe iniciar FIV de inmediato.</div><p class="why">La AMH sola no justifica indicar FIV; la decisión requiere edad, tiempo de búsqueda y evaluación completa de la pareja.</p></div>
     <div class="opt"><div class="h"><span class="mk">D</span>La AMH baja confirma que no ovula.</div><p class="why">La AMH refleja cantidad de folículos, no si hay ovulación.</p></div>
     <div class="btnrow"><span class="btn">Ver card</span><span class="btn p">Siguiente</span></div>

@@ -1,18 +1,32 @@
 /** Cross-tab notifications so an open tab refreshes after another tab writes. */
 export type TabMessage =
   | { type: 'progress'; itemIds: string[] }
-  | { type: 'session'; sessionId: string }
+  | { type: 'progress-all' }
+  | { type: 'session'; sessionId: string; rev: number }
   | { type: 'content' };
 
-const channel: BroadcastChannel | null = typeof BroadcastChannel === 'undefined' ? null : new BroadcastChannel('tarjetalan');
+let channel: BroadcastChannel | null | undefined;
+
+/** Created lazily so importing storage code never keeps a Node process alive. */
+function getChannel(): BroadcastChannel | null {
+  if (channel === undefined) channel = typeof BroadcastChannel === 'undefined' ? null : new BroadcastChannel('tarjetalan');
+  return channel;
+}
 
 export function notifyOtherTabs(msg: TabMessage): void {
-  channel?.postMessage(msg);
+  getChannel()?.postMessage(msg);
 }
 
 export function onTabMessage(handler: (msg: TabMessage) => void): () => void {
-  if (!channel) return () => {};
+  const ch = getChannel();
+  if (!ch) return () => {};
   const listener = (e: MessageEvent<TabMessage>) => handler(e.data);
-  channel.addEventListener('message', listener);
-  return () => channel.removeEventListener('message', listener);
+  ch.addEventListener('message', listener);
+  return () => ch.removeEventListener('message', listener);
+}
+
+/** For tests and scripts. */
+export function closeChannel(): void {
+  channel?.close();
+  channel = undefined;
 }

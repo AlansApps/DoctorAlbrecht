@@ -1,24 +1,27 @@
 import { describe, expect, it } from 'vitest';
 import type { IndexEntry } from '../content/schema.ts';
-import { applyExposure, applyRetrieval, newProgress, type ItemProgress } from '../scheduler/scheduler.ts';
-import { buildSession, requeueAfterFailure, STEP_SECONDS, type SessionOptions, type Step } from './selector.ts';
+import { applyExposure, applyRetrieval, newProgress, suspend, type ItemProgress } from '../scheduler/scheduler.ts';
+import { buildSession, requeueAfterFailure, MIN_GAP, STEP_SECONDS, type SessionOptions, type Step } from './selector.ts';
 
 const now = new Date('2026-10-12T10:00:00Z');
 const earlier = new Date('2026-09-01T10:00:00Z');
+let orderSeq = 0;
 
-function entry(id: string, kind: 'card' | 'question', macroId: string, microId: string, conceptId: string, seq: number, tags: IndexEntry['tags'] = []): IndexEntry {
-  return { id, kind, moduleId: `${macroId}-m`, lessonId: `${microId}-l`, microId, macroId, conceptId, seq, rev: 1, tags };
+function entry(id: string, kind: 'card' | 'question', macroId: string, microId: string, conceptId: string, seq: number, extra: Partial<IndexEntry> = {}): IndexEntry {
+  return { id, kind, moduleId: `${macroId}-m`, lessonId: `${microId}-l`, microId, macroId, conceptId, seq, rev: 1, tags: [], order: orderSeq++, prereqMicros: [], ...extra };
 }
 
 /** 3 macros × 2 micros × 4 concepts, each concept = 1 card + 1 question. */
 function corpus(): IndexEntry[] {
+  orderSeq = 0;
   const out: IndexEntry[] = [];
   for (const macro of ['fert', 'pcos', 'nutr']) {
     for (const micro of ['a', 'b']) {
       for (let c = 0; c < 4; c++) {
         const concept = `${macro}.${micro}.c${c}`;
-        out.push(entry(`${concept}.card`, 'card', macro, `${macro}.${micro}`, concept, c * 2, macro === 'nutr' ? ['diet'] : []));
-        out.push(entry(`${concept}.q`, 'question', macro, `${macro}.${micro}`, concept, c * 2 + 1, macro === 'nutr' ? ['diet'] : []));
+        const tags: IndexEntry['tags'] = macro === 'nutr' ? ['diet'] : [];
+        out.push(entry(`${concept}.card`, 'card', macro, `${macro}.${micro}`, concept, c * 2, { tags }));
+        out.push(entry(`${concept}.q`, 'question', macro, `${macro}.${micro}`, concept, c * 2 + 1, { tags }));
       }
     }
   }
@@ -27,22 +30,29 @@ function corpus(): IndexEntry[] {
 
 const opts = (o: Partial<SessionOptions> = {}): SessionOptions => ({ minutes: 5, scope: { kind: 'all' }, filters: [], mode: 'balanced', ...o });
 const cost = (steps: Step[]) => steps.reduce((s, x) => s + STEP_SECONDS[x.mode], 0);
+const reviewed = (e: IndexEntry, rating: 'good' | 'again' = 'good', at = earlier) =>
+  applyRetrieval(newProgress(e.id, e.kind, e.conceptId, at), rating, 1, at, rating === 'good');
+/** Graduated to long-term review (two successful recalls a day apart). */
+const graduated = (e: IndexEntry) => applyRetrieval(reviewed(e), 'good', 1, new Date(earlier.getTime() + 86_400_000), true);
 
 function dueProgress(index: IndexEntry[], ids: string[]): Map<string, ItemProgress> {
-  const m = new Map<string, ItemProgress>();
-  for (const id of ids) {
-    const e = index.find((x) => x.id === id)!;
-    m.set(id, applyRetrieval(newProgress(id, e.kind, e.conceptId, earlier), 'good', 1, earlier));
-  }
-  return m;
+  return new Map(ids.map((id) => [id, reviewed(index.find((x) => x.id === id)!)]));
+}
+
+function assertQuestionsSpaced(steps: Step[]) {
+  steps.forEach((s, i) => {
+    if (s.mode !== 'question') return;
+    const card = steps.findIndex((p) => p.conceptId === s.conceptId && p.mode === 'learn');
+    if (card !== -1) expect(i - card).toBeGreaterThan(MIN_GAP);
+  });
 }
 
 describe('buildSession', () => {
-  it('with no reviews, starts new content and fits the time budget', () => {
+  it('with no reviews, starts new content in curricular order and fits the budget', () => {
     const steps = buildSession({ index: corpus(), progress: new Map(), options: opts(), now, seed: 1 });
     expect(steps.length).toBeGreaterThan(0);
     expect(steps.every((s) => s.mode === 'learn' || s.mode === 'question')).toBe(true);
-    expect(cost(steps)).toBeLessThanOrEqual(5 * 60 + 30);
+    expect(cost(steps)).toBeLessThanOrEqual(5 * 60 + 20);
   });
 
   it('longer sessions hold more steps', () => {
@@ -59,11 +69,62 @@ describe('buildSession', () => {
     expect(steps.some((s) => s.mode === 'learn')).toBe(true);
   });
 
-  it('never asks a new question about a concept that was not read', () => {
-    const steps = buildSession({ index: corpus(), progress: new Map(), options: opts({ minutes: 15 }), now, seed: 3 });
-    for (const [i, s] of steps.entries()) {
-      if (s.mode !== 'question') continue;
-      expect(steps.slice(0, i).some((p) => p.conceptId === s.conceptId && p.mode === 'learn')).toBe(true);
+  it('ARCH-001: a card that was only read comes back for first recall, not as new', () => {
+    const index = corpus();
+    const card = index.find((e) => e.id === 'fert.a.c0.card')!;
+    const read = applyExposure(newProgress(card.id, 'card', card.conceptId, earlier), earlier);
+    const progress = new Map([[card.id, read]]);
+    const balanced = buildSession({ index, progress, options: opts({ minutes: 15 }), now, seed: 3 });
+    expect(balanced.find((s) => s.itemId === card.id)?.mode).toBe('review');
+    const review = buildSession({ index, progress, options: opts({ mode: 'review' }), now, seed: 3 });
+    expect(review.map((s) => s.itemId)).toEqual([card.id]);
+  });
+
+  it('ARCH-001: right after reading, the card is not yet due for recall', () => {
+    const index = corpus();
+    const card = index[0]!;
+    const justRead = new Map([[card.id, applyExposure(newProgress(card.id, 'card', card.conceptId, now), now)]]);
+    expect(buildSession({ index, progress: justRead, options: opts({ mode: 'review' }), now, seed: 3 })).toEqual([]);
+  });
+
+  it('ARCH-002: concentrated review debt fills the whole budget instead of being truncated', () => {
+    orderSeq = 0;
+    const index: IndexEntry[] = [];
+    for (let i = 0; i < 40; i++) index.push(entry(`x.c${i}`, 'card', 'pcos', 'pcos.one', `x.k${i}`, i));
+    for (let i = 0; i < 4; i++) index.push(entry(`y.c${i}`, 'card', 'fert', 'fert.two', `y.k${i}`, i));
+    const progress = dueProgress(index, index.map((e) => e.id));
+    const steps = buildSession({ index, progress, options: opts({ minutes: 15, mode: 'review' }), now, seed: 4 });
+    expect(cost(steps)).toBeGreaterThanOrEqual(15 * 60 - STEP_SECONDS.review);
+  });
+
+  it('ARCH-005: suspended items never appear, even without progress', () => {
+    const index = corpus();
+    const target = index.find((e) => e.kind === 'card')!;
+    const steps = buildSession({ index, progress: new Map(), suspended: new Set([target.id]), options: opts({ minutes: 15 }), now, seed: 5 });
+    expect(steps.some((s) => s.itemId === target.id)).toBe(false);
+    const p = new Map([[target.id, suspend(reviewed(target), earlier)]]);
+    expect(buildSession({ index, progress: p, options: opts({ mode: 'review' }), now, seed: 5 })).toEqual([]);
+  });
+
+  it('ARCH-006: new material follows authored order, not alphabetical ids, and soft prerequisites', () => {
+    orderSeq = 0;
+    const index = [
+      entry('zz-intro.card', 'card', 'pcos', 'pcos.intro', 'k1', 0),
+      entry('aa-advanced.card', 'card', 'pcos', 'pcos.adv', 'k2', 0, { prereqMicros: ['pcos.intro'] }),
+    ];
+    const seq = buildSession({ index, progress: new Map(), options: opts({ scope: { kind: 'macro', macroId: 'pcos', mix: false } }), now, seed: 6 });
+    expect(seq[0]!.itemId).toBe('zz-intro.card');
+    const mix = buildSession({ index, progress: new Map(), options: opts({ scope: { kind: 'macro', macroId: 'pcos', mix: true } }), now, seed: 6 });
+    expect(mix.map((s) => s.itemId)).toEqual(['zz-intro.card']);
+  });
+
+  it('ARCH-007: a new question never lands right after its card, even in tiny micros', () => {
+    orderSeq = 0;
+    const index = [entry('k.card', 'card', 'pcos', 'pcos.tiny', 'k', 0), entry('k.q', 'question', 'pcos', 'pcos.tiny', 'k', 1)];
+    const steps = buildSession({ index, progress: new Map(), options: opts({ scope: { kind: 'micro', microId: 'pcos.tiny' } }), now, seed: 7 });
+    expect(steps.map((s) => s.itemId)).toEqual(['k.card']);
+    for (let seed = 1; seed < 20; seed++) {
+      assertQuestionsSpaced(buildSession({ index: corpus(), progress: new Map(), options: opts({ minutes: 15 }), now, seed }));
     }
   });
 
@@ -79,7 +140,7 @@ describe('buildSession', () => {
     expect(diet.every((s) => s.microId.startsWith('nutr'))).toBe(true);
   });
 
-  it('gives the fertility track priority in the whole programme', () => {
+  it('gives priority macros (fertility) a larger share of new material', () => {
     let fert = 0;
     let total = 0;
     for (let seed = 1; seed <= 30; seed++) {
@@ -90,23 +151,27 @@ describe('buildSession', () => {
     expect(fert / total).toBeGreaterThan(1 / 3);
   });
 
-  it('mistakes scope only brings back failed items', () => {
+  it('ARCH-011: "mistakes" means active mistakes; a failure later mastered is not one', () => {
     const index = corpus();
-    const progress = new Map<string, ItemProgress>();
     const failed = index.find((e) => e.id === 'pcos.a.c1.q')!;
-    const passed = index.find((e) => e.id === 'pcos.a.c2.q')!;
-    progress.set(failed.id, applyRetrieval(newProgress(failed.id, 'question', failed.conceptId, earlier), 'again', 1, earlier, false));
-    progress.set(passed.id, applyRetrieval(newProgress(passed.id, 'question', passed.conceptId, earlier), 'good', 1, earlier, true));
+    const fixed = index.find((e) => e.id === 'pcos.a.c2.q')!;
+    const recent = new Date('2026-10-10T10:00:00Z');
+    const progress = new Map<string, ItemProgress>([
+      [failed.id, applyRetrieval(newProgress(failed.id, 'question', failed.conceptId, recent), 'again', 1, recent, false)],
+      [fixed.id, applyRetrieval(reviewed(fixed, 'again'), 'good', 1, recent, true)],
+    ]);
     const steps = buildSession({ index, progress, options: opts({ scope: { kind: 'mistakes' } }), now, seed: 6 });
     expect(steps.map((s) => s.itemId)).toEqual([failed.id]);
   });
 
-  it('reading alone does not make an item due', () => {
+  it('ARCH-011: recent failures in relearning come before long overdue reviews', () => {
     const index = corpus();
-    const e = index[0]!;
-    const progress = new Map([[e.id, applyExposure(newProgress(e.id, 'card', e.conceptId, earlier), earlier)]]);
-    const steps = buildSession({ index, progress, options: opts({ mode: 'review' }), now, seed: 7 });
-    expect(steps).toEqual([]);
+    const progress = new Map(index.filter((e) => e.kind === 'card').slice(0, 20).map((e) => [e.id, graduated(e)] as const));
+    const lapsed = index.find((e) => e.id === 'nutr.b.c3.q')!;
+    const t = new Date(now.getTime() - 15 * 60_000);
+    progress.set(lapsed.id, applyRetrieval(graduated(lapsed), 'again', 1, t, false));
+    const steps = buildSession({ index, progress, options: opts({ minutes: 3, mode: 'review' }), now, seed: 8 });
+    expect(steps[0]!.itemId).toBe(lapsed.id);
   });
 });
 
@@ -117,8 +182,7 @@ describe('requeueAfterFailure', () => {
     const failed: Step = { itemId: 'qx', mode: 'question', conceptId: 'cx', microId: 'm' };
     const queue = [...q.slice(0, 2), failed, ...q.slice(2)];
     const out = requeueAfterFailure(queue, 2, failed, 'card-cx');
-    const idx = out.findIndex((s) => s.itemId === 'card-cx');
-    expect(idx).toBe(6);
+    expect(out.findIndex((s) => s.itemId === 'card-cx')).toBe(6);
     expect(out.filter((s) => s.itemId === 'qx')).toHaveLength(1);
   });
 

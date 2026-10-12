@@ -45,7 +45,7 @@ export const AuthorReference = z.object({
   title: z.string().min(1),
   authors: z.string().min(1),
   year: z.number().int().min(1900).max(2100),
-  url: z.url(),
+  url: z.url({ protocol: /^https$/ }),
   doi: z.string().regex(/^10\.\d{4,9}\/\S+$/).optional(),
   type: z.enum(['guideline', 'systematic-review', 'rct', 'cohort', 'case-control', 'cross-sectional', 'narrative-review', 'fact-sheet', 'consensus', 'other']),
   population: bi,
@@ -93,7 +93,9 @@ export const AuthorQuestion = z.object({
   options: z
     .array(z.object({ id: z.string().regex(/^[a-z]$/), text: bi, correct: z.boolean(), why: bi }))
     .min(3)
-    .max(5),
+    .max(5)
+    .refine((o) => o.filter((x) => x.correct).length === 1, 'exactly one correct option')
+    .refine((o) => new Set(o.map((x) => x.id)).size === o.length, 'duplicate option ids'),
   explanation: bi,
   refIds: z.array(id).min(1),
   editorial,
@@ -151,7 +153,22 @@ export type AuthorCurriculum = z.infer<typeof AuthorCurriculum>;
 // ---------- Runtime (single-locale packs + manifest) ----------
 
 /** Citation markers inside text: [[ref:some-id]] */
-export const CITATION_RE = /\[\[ref:([a-z0-9.-]+)\]\]/g;
+export function extractCitations(text: string): string[] {
+  return [...text.matchAll(/\[\[ref:([a-z0-9.-]+)\]\]/g)].map((m) => m[1]!);
+}
+
+/** Splits text into plain segments and citation markers, for rendering. */
+export function splitCitations(text: string): Array<{ text: string } | { ref: string }> {
+  const out: Array<{ text: string } | { ref: string }> = [];
+  let last = 0;
+  for (const m of text.matchAll(/\[\[ref:([a-z0-9.-]+)\]\]/g)) {
+    if (m.index! > last) out.push({ text: text.slice(last, m.index) });
+    out.push({ ref: m[1]! });
+    last = m.index! + m[0].length;
+  }
+  if (last < text.length) out.push({ text: text.slice(last) });
+  return out;
+}
 
 export const PackReference = AuthorReference.extend({
   population: z.string(),
@@ -208,6 +225,10 @@ export type Pack = z.infer<typeof Pack>;
 export const IndexEntry = z.object({
   id, kind: z.enum(['card', 'question', 'case']), moduleId: id, lessonId: id, microId: id, macroId: id,
   conceptId: id, seq: z.number().int(), rev: z.number().int(), tags: z.array(z.enum(CLINICAL_TAGS)),
+  /** Global curricular order (macro order → authored lesson order → seq). */
+  order: z.number().int(),
+  /** Micro ids the lesson builds on (soft prerequisites). */
+  prereqMicros: z.array(id),
 });
 export type IndexEntry = z.infer<typeof IndexEntry>;
 

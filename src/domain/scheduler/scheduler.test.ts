@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { applyExposure, applyRetrieval, dueAt, isDue, newProgress, suspend, unsuspend, ratingForAnswer } from './scheduler.ts';
+import { applyExposure, applyRetrieval, dueAt, FIRST_RECALL_DELAY_MS, isDue, newProgress, suspend, unsuspend, ratingForAnswer } from './scheduler.ts';
 
 const t0 = new Date('2026-10-12T10:00:00Z');
 const days = (n: number) => new Date(t0.getTime() + n * 86_400_000);
@@ -11,7 +11,8 @@ describe('scheduler', () => {
     expect(p.status).toBe('studied');
     expect(p.fsrs).toBeNull();
     expect(p.retrievals).toBe(0);
-    expect(dueAt(p, 1)).toBeNull();
+    // first recall is scheduled shortly after reading, not counted as a success
+    expect(dueAt(p, 1)!.getTime() - t0.getTime()).toBe(FIRST_RECALL_DELAY_MS);
   });
 
   it('a failed recall comes back sooner than a successful one', () => {
