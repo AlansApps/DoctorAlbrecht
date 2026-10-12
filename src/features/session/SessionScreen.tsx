@@ -204,16 +204,19 @@ export function SessionScreen() {
   );
 }
 
-export function QuestionView({ q, references, choice, checked, onChoose }: {
+export function QuestionView({ q, references, choice, checked, onChoose, heading = 'h1' }: {
   q: PackQuestion; references: LoadedItem['references']; choice: string | null; checked: boolean; onChoose: (id: string) => void;
+  /** Inside a case the stem is a subheading, not a second page title. */
+  heading?: 'h1' | 'h2';
 }) {
+  const Stem = heading;
   const { t } = useI18n();
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const correctId = q.options.find((o) => o.correct)?.id;
   const wasRight = checked && choice === correctId;
   return (
     <article className="question">
-      <h1 className="question__stem" tabIndex={-1}>{q.stem}</h1>
+      <Stem className="question__stem" tabIndex={-1}>{q.stem}</Stem>
       {checked ? (
         <div className={`feedback ${wasRight ? 'feedback--ok' : 'feedback--err'}`} role="status" tabIndex={-1}>
           {wasRight ? <Check className="icon" aria-hidden="true" /> : <X className="icon" aria-hidden="true" />}

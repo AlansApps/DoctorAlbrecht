@@ -9,9 +9,10 @@ import type { ItemProgress } from '../domain/scheduler/scheduler.ts';
 import { onTabMessage } from '../storage/channel.ts';
 import { ContentError, ensurePack, evictPacks, loadManifest, requestPersistence } from '../storage/contentRepo.ts';
 import { getDb, onNewerVersion, withDb, type ItemFlags } from '../storage/db.ts';
-import { flush as flushOutbox } from '../storage/outbox.ts';
+import { clearOutbox, flush as flushOutbox } from '../storage/outbox.ts';
 import { applyPrefsToDocument, loadPrefs, savePrefs, type Prefs } from '../storage/prefs.ts';
 import { ensureSchedulerVersion, loadAllProgress, loadFlags } from '../storage/progressRepo.ts';
+import { latestOpenSession } from '../storage/sessionRepo.ts';
 
 export const BASE_URL = import.meta.env.BASE_URL;
 export const APP_VERSION = '0.1.0';
@@ -82,7 +83,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         const db = await getDb();
         await ensureSchedulerVersion(db);
         await flushOutbox(db);
-        const m = await loadManifest(db, BASE_URL, timeoutFetch(6000));
+        const m = await loadManifest(db, BASE_URL);
         if (!alive) return;
         await refresh();
         setManifest(m?.manifest ?? null);
@@ -100,7 +101,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   // ---- Other tabs / connectivity / newer schema
   useEffect(() => {
     const off = onTabMessage((msg) => {
-      if (msg.type === 'progress' || msg.type === 'progress-all') void refresh();
+      if (msg.type === 'erased') clearOutbox(); // another tab erased progress: drop our pending copies (ARCH-040)
+      if (msg.type === 'progress' || msg.type === 'progress-all' || msg.type === 'erased') void refresh();
     });
     const up = () => {
       setOnline(true);
@@ -175,8 +177,13 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         }),
       );
       // Keep downloads within the configured budget; packs in use now are never evicted (ARCH-044).
-      const inUse = new Set(modules.map((m) => `${m}:${locale}`));
-      void withDb((db) => evictPacks(db, prefs.downloadLimitMB * 1024 * 1024, inUse)).catch(() => {});
+      void withDb(async (db) => {
+        // Never evict what this screen uses nor what the open (possibly paused) session needs (ARCH-049).
+        const open = await latestOpenSession(db);
+        const openModules = (open?.steps ?? []).map((s) => indexById.get(s.itemId)?.moduleId).filter((m): m is string => !!m);
+        const inUse = new Set([...modules, ...openModules].map((m) => `${m}:${locale}`));
+        return evictPacks(db, prefs.downloadLimitMB * 1024 * 1024, inUse);
+      }).catch(() => {});
       const out = new Map<string, LoadedItem>();
       for (const pack of packs) {
         for (const item of pack.items) {
@@ -206,11 +213,3 @@ export function useAppState(): AppStateValue {
   return v;
 }
 
-/** fetch with a deadline: a slow network falls back to the stored manifest instead of hanging (ARCH-039). */
-function timeoutFetch(ms: number) {
-  return (url: string, init?: RequestInit) => {
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), ms);
-    return fetch(url, { ...init, signal: ctrl.signal }).finally(() => clearTimeout(timer));
-  };
-}

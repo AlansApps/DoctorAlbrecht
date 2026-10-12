@@ -1,5 +1,5 @@
 import { ChevronLeft } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
 import { href } from '../../app/router.ts';
 import type { PackCase } from '../../domain/content/schema.ts';
@@ -7,11 +7,15 @@ import { useI18n } from '../../i18n/i18n.tsx';
 import { ActionBar, Button, Notice, RichText } from '../../ui/components.tsx';
 import { SourcesSheet } from '../card/CardView.tsx';
 import { QuestionView } from '../session/SessionScreen.tsx';
+import { currentTimeZone } from '../../domain/scheduler/time.ts';
+import { ratingForAnswer } from '../../domain/scheduler/scheduler.ts';
+import { withDb } from '../../storage/db.ts';
+import { recordAttempt } from '../../storage/progressRepo.ts';
 
 /**
  * Progressive clinical case: one step at a time, with its linked questions inline.
- * Practising a case is not graded into the spaced-repetition schedule (the same
- * questions are scheduled in normal sessions), so nothing is recorded here.
+ * Questions answered here are real retrieval practice and are recorded like in a
+ * session (ARCH-052), so a normal session won't re-ask them minutes later.
  */
 export function CaseScreen({ itemId }: { itemId: string }) {
   const { t } = useI18n();
@@ -23,6 +27,19 @@ export function CaseScreen({ itemId }: { itemId: string }) {
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const lastRef = useRef<HTMLLIElement>(null);
   const entry = app.indexById.get(itemId);
+  const runId = useMemo(() => crypto.randomUUID(), [itemId]);
+
+  const check = (stepId: string, questionId: string, choice: string) => {
+    setAnswers((a) => ({ ...a, [stepId]: { choice, checked: true } }));
+    const q = items?.get(questionId)?.item;
+    const e = app.indexById.get(questionId);
+    if (!q || q.kind !== 'question' || !e) return;
+    const correct = q.options.find((o) => o.correct)?.id === choice;
+    void withDb((db) => recordAttempt(db, {
+      id: `case:${runId}:${questionId}`, itemId: questionId, kind: 'question', conceptId: e.conceptId,
+      rating: ratingForAnswer(correct), correct, optionId: choice, contentRev: e.rev, at: new Date().toISOString(), tz: currentTimeZone(),
+    })).then(() => app.refresh(), () => {});
+  };
 
   useEffect(() => {
     if (app.status !== 'ready') return;
@@ -73,9 +90,10 @@ export function CaseScreen({ itemId }: { itemId: string }) {
                         choice={st.choice}
                         checked={st.checked}
                         onChoose={(id) => setAnswers((a) => ({ ...a, [step.id]: { choice: id, checked: false } }))}
+                        heading="h2"
                       />
                       {!st.checked ? (
-                        <Button disabled={!st.choice} onClick={() => setAnswers((a) => ({ ...a, [step.id]: { ...st, checked: true } }))}>{t('session.check')}</Button>
+                        <Button disabled={!st.choice} onClick={() => check(step.id, step.questionId!, st.choice!)}>{t('session.check')}</Button>
                       ) : null}
                     </div>
                   ) : null}

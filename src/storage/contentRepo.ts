@@ -21,6 +21,17 @@ export class ContentError extends Error {
 
 export type Fetcher = (url: string, init?: RequestInit) => Promise<Response>;
 
+/** Rejects if `work` (request AND body) takes longer than `ms`: a stalled network never hangs the UI. */
+export function withTimeout<T>(work: Promise<T>, ms: number): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => reject(new ContentError('offline', 'timeout')), ms);
+    work.then((v) => { clearTimeout(timer); resolve(v); }, (e: unknown) => { clearTimeout(timer); reject(e); });
+  });
+}
+
+export const MANIFEST_TIMEOUT_MS = 8000;
+export const PACK_TIMEOUT_MS = 20000;
+
 export async function sha256Hex(text: string): Promise<string> {
   const bytes = new TextEncoder().encode(text);
   const digest = await crypto.subtle.digest('SHA-256', bytes);
@@ -30,9 +41,14 @@ export async function sha256Hex(text: string): Promise<string> {
 /** Latest manifest: network first (fresh), stored copy as a safe fallback. */
 export async function loadManifest(db: DB, baseUrl: string, fetcher: Fetcher = fetch): Promise<{ manifest: Manifest; fresh: boolean } | null> {
   try {
-    const res = await fetcher(`${baseUrl}content/manifest.json`, { cache: 'no-cache' });
-    if (!res.ok) throw new ContentError('http', `manifest ${res.status}`);
-    const manifest = Manifest.parse(await res.json());
+    const json = await withTimeout(
+      fetcher(`${baseUrl}content/manifest.json`, { cache: 'no-cache' }).then((res) => {
+        if (!res.ok) throw new ContentError('http', `manifest ${res.status}`);
+        return res.json() as Promise<unknown>;
+      }),
+      MANIFEST_TIMEOUT_MS,
+    );
+    const manifest = Manifest.parse(json);
     await setMeta(db, 'manifest', manifest);
     return { manifest, fresh: true };
   } catch {
@@ -59,11 +75,15 @@ export async function ensurePack(
 
   let text: string;
   try {
-    const res = await fetcher(`${baseUrl}content/${entry.file}`);
-    if (!res.ok) throw new ContentError('http', `${entry.file}: HTTP ${res.status}`);
-    text = await res.text();
+    text = await withTimeout(
+      fetcher(`${baseUrl}content/${entry.file}`).then((res) => {
+        if (!res.ok) throw new ContentError('http', `${entry.file}: HTTP ${res.status}`);
+        return res.text();
+      }),
+      PACK_TIMEOUT_MS,
+    );
   } catch (err) {
-    if (err instanceof ContentError) throw err;
+    if (err instanceof ContentError && err.message !== 'timeout') throw err;
     // Stale but valid copy is better than nothing while offline.
     if (stored && looksLikePack(stored.data, moduleId, locale)) return stored.data;
     throw new ContentError('offline', `${moduleId} requires a connection`);

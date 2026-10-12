@@ -3,7 +3,8 @@ export type TabMessage =
   | { type: 'progress'; itemIds: string[] }
   | { type: 'progress-all' }
   | { type: 'session'; sessionId: string; rev: number }
-  | { type: 'content' };
+  | { type: 'content' }
+  | { type: 'erased' };
 
 let channel: BroadcastChannel | null | undefined;
 

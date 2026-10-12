@@ -16,7 +16,12 @@ export type Route =
   | { name: 'case'; itemId: string };
 
 export function parseHash(hash: string): Route {
-  const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  let parts: string[];
+  try {
+    parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  } catch {
+    return { name: 'home' }; // malformed deep link (ARCH-046)
+  }
   switch (parts[0]) {
     case undefined:
       return { name: 'home' };

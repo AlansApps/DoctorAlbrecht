@@ -8,6 +8,7 @@ import {
 import { clearDownloads, downloadedPacks, ensurePack, requestPersistence, storageEstimate } from '../../storage/contentRepo.ts';
 import { withDb } from '../../storage/db.ts';
 import { clearOutbox } from '../../storage/outbox.ts';
+import { notifyOtherTabs } from '../../storage/channel.ts';
 import type { Prefs } from '../../storage/prefs.ts';
 import { Button, Notice, Segmented } from '../../ui/components.tsx';
 
@@ -280,6 +281,7 @@ function ResetSection() {
             <Button variant="danger" disabled={word.trim().toUpperCase() !== expected} onClick={async () => {
               await withDb(eraseLearningData);
               clearOutbox();
+              notifyOtherTabs({ type: 'erased' });
               await app.refresh();
               setOpen(false);
               setWord('');

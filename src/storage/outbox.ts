@@ -95,7 +95,8 @@ export async function flush(db: DB): Promise<number> {
           processed.add(attempt.id);
           continue;
         }
-        if (session && session.position > position) {
+        // Session gone (progress erased) or already past that slot: the pending copy is discarded.
+        if (!session || session.position > position) {
           processed.add(attempt.id); // slot already answered: discard copy
           continue;
         }
