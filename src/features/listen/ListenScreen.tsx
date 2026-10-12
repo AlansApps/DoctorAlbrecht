@@ -1,13 +1,13 @@
 import { Pause, Play, SkipBack, SkipForward } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
-import { currentTimeZone, studyDayEnd } from '../../domain/scheduler/time.ts';
-import { buildSession } from '../../domain/session/selector.ts';
+import { currentTimeZone } from '../../domain/scheduler/time.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import { speak, speechSupported, stopSpeaking, stripForSpeech, voicesFor } from '../../audio/speech.ts';
 import { withDb } from '../../storage/db.ts';
 import { recordAttempt } from '../../storage/progressRepo.ts';
 import { Button, Notice } from '../../ui/components.tsx';
+import { currentPlanState, planSteps } from '../session/sessionActions.ts';
 
 interface Segment {
   itemId: string;
@@ -42,6 +42,8 @@ export function ListenScreen() {
   const [playing, setPlaying] = useState(false);
   const [error, setError] = useState(false);
   const timer = useRef<number | undefined>(undefined);
+  /** Bumped on every play/pause/skip: callbacks from a cancelled utterance are ignored (ARCH-038). */
+  const generation = useRef(0);
   const listenId = useMemo(() => crypto.randomUUID(), []);
   const supported = speechSupported();
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -54,30 +56,42 @@ export function ListenScreen() {
     return () => speechSynthesis.removeEventListener('voiceschanged', update);
   }, [supported, app.prefs.locale]);
 
-  // Build a ~10-minute audio set with the regular selector (review + new, fertility first).
+  // A ~10-minute set planned exactly like a study session (review + new, fertility first).
   useEffect(() => {
-    if (app.status !== 'ready') return;
-    const now = new Date();
-    const steps = buildSession({
-      index: app.index, progress: app.progress,
-      suspended: new Set([...app.flags.values()].filter((f) => f.suspended).map((f) => f.itemId)),
-      priorityMacros: app.manifest?.macros.filter((m) => m.priority).map((m) => m.id) ?? [],
-      options: { minutes: 10, scope: { kind: 'all' }, filters: [], mode: 'balanced' },
-      now, dayEnd: studyDayEnd(now, currentTimeZone()), seed: Math.floor(Math.random() * 2 ** 31),
-    });
-    app.loadItems(steps.map((s) => s.itemId)).then(
-      (m) => setSegments(buildScript(steps.map((s) => m.get(s.itemId)).filter((x): x is LoadedItem => !!x), t)),
-      () => setError(true),
-    );
+    if (app.status !== 'ready' || !app.manifest) return;
+    let alive = true;
+    (async () => {
+      try {
+        const state = await currentPlanState(app.prefs.locale, app.online);
+        const steps = planSteps({
+          manifest: app.manifest!, index: app.index, ...state,
+          options: { minutes: 10, scope: { kind: 'all' }, filters: [], mode: 'balanced' },
+          seed: Math.floor(Math.random() * 2 ** 31), now: new Date(),
+        });
+        const m = await app.loadItems(steps.map((s) => s.itemId));
+        if (alive) setSegments(buildScript(steps.map((s) => m.get(s.itemId)).filter((x): x is LoadedItem => !!x), t));
+      } catch {
+        if (alive) setError(true);
+      }
+    })();
     return () => {
+      alive = false;
+      generation.current++;
       stopSpeaking();
       window.clearTimeout(timer.current);
     };
   }, [app.status, app.prefs.locale]); // build once per language
 
-  const play = (i: number) => {
-    const seg = segments[i];
+  const stop = () => {
+    generation.current++;
     window.clearTimeout(timer.current);
+    stopSpeaking();
+  };
+
+  const play = (i: number) => {
+    stop();
+    const gen = generation.current;
+    const seg = segments[i];
     if (!seg) {
       setPlaying(false);
       speak(t('listen.done'), { lang: app.prefs.locale, rate: app.prefs.audioRate, voiceURI: app.prefs.voiceURI });
@@ -87,23 +101,25 @@ export function ListenScreen() {
     setPlaying(true);
     speak(seg.text, {
       lang: app.prefs.locale, rate: app.prefs.audioRate, voiceURI: app.prefs.voiceURI,
-      onEnd: () => {
-        // Listening to a card is exposure only (never a successful recall).
-        if (seg.kind === 'card') {
+      onEnd: (finished) => {
+        if (gen !== generation.current) return; // paused or skipped: ignore the late event
+        // Only a card heard to the end counts, and only as exposure (never a successful recall).
+        if (finished && seg.kind === 'card') {
           const e = app.indexById.get(seg.itemId);
           if (e) void withDb((db) => recordAttempt(db, {
             id: `listen:${listenId}:${seg.itemId}`, itemId: e.id, kind: e.kind, conceptId: e.conceptId, rating: null,
             contentRev: e.rev, at: new Date().toISOString(), tz: currentTimeZone(),
-          })).catch(() => {});
+          })).then(() => app.refresh(), () => {});
         }
-        timer.current = window.setTimeout(() => play(i + 1), seg.pauseAfter);
+        timer.current = window.setTimeout(() => {
+          if (gen === generation.current) play(i + 1);
+        }, seg.pauseAfter);
       },
     });
   };
 
   const pause = () => {
-    stopSpeaking();
-    window.clearTimeout(timer.current);
+    stop();
     setPlaying(false);
   };
 
@@ -125,7 +141,7 @@ export function ListenScreen() {
             )}
             <button type="button" className="iconbtn" aria-label={t('listen.next')} onClick={() => play(Math.min(segments.length, pos + 1))}><SkipForward className="icon" aria-hidden="true" /></button>
           </div>
-          <p className="small muted tabular" aria-live="polite">{pos + 1} / {segments.length}</p>
+          <p className="small muted tabular" aria-live="polite">{Math.min(pos + 1, segments.length)} / {segments.length}</p>
           <label className="field">
             <span className="eyebrow">{t('listen.speed')} · <span className="tabular">{app.prefs.audioRate.toFixed(2)}×</span></span>
             <input id="audio-rate" type="range" min={0.7} max={1.4} step={0.05} value={app.prefs.audioRate} onChange={(e) => app.setPrefs({ audioRate: Number(e.target.value) })} />

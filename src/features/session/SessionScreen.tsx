@@ -8,7 +8,7 @@ import { useI18n } from '../../i18n/i18n.tsx';
 import type { MessageKey } from '../../i18n/es.ts';
 import { withDb, type StoredSession } from '../../storage/db.ts';
 import { flush } from '../../storage/outbox.ts';
-import { latestOpenSession, setSessionStatus, summarizeSession, type SessionSummary } from '../../storage/sessionRepo.ts';
+import { activateSession, latestOpenSession, setSessionStatus, summarizeSession, type SessionSummary } from '../../storage/sessionRepo.ts';
 import { ActionBar, Button, Notice, RichText } from '../../ui/components.tsx';
 import { CardView, SourcesSheet } from '../card/CardView.tsx';
 import { answerCurrentStep, type StepOutcome } from './sessionActions.ts';
@@ -45,7 +45,8 @@ export function SessionScreen() {
 
   // Load the open session and the content for its remaining steps.
   const load = useCallback(async (s?: StoredSession | null) => {
-    const current = s === undefined ? await withDb(latestOpenSession) : s;
+    let current = s === undefined ? await withDb(latestOpenSession) : s;
+    if (current && current.status === 'paused') current = (await withDb((db) => activateSession(db, current!.id, new Date()))) ?? current;
     if (!current) {
       setPhase({ kind: 'none' });
       return;
@@ -88,6 +89,7 @@ export function SessionScreen() {
       }
       if (res.status === 'conflict') setNotice('session.conflict');
       else setNotice(null);
+      void app.refresh(); // keep counts and the next session's plan in sync (ARCH-036)
       resetStep();
       await load(res.session);
       window.scrollTo(0, 0);

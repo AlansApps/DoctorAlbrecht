@@ -18,7 +18,7 @@ function greetingKey(d = new Date()) {
 export function HomeScreen() {
   const { t } = useI18n();
   const app = useAppState();
-  const { start, empty, starting } = useStartSession();
+  const { start, problem, starting } = useStartSession();
   const [open, setOpen] = useState<StoredSession | null>(null);
   const minutes = app.prefs.defaultMinutes;
   const stats = useMemo(() => computeStats(app.index, app.progress, app.flags), [app.index, app.progress, app.flags]);
@@ -53,7 +53,7 @@ export function HomeScreen() {
           onChange={(v) => app.setPrefs({ defaultMinutes: v })}
           options={([3, 5, 10, 15] as const).map((n) => ({ value: n, label: t('minutes', { n }) }))}
         />
-        {empty ? <Notice>{t('session.empty')} {t('session.empty.hint')}</Notice> : null}
+        {problem ? <Notice>{t(problem)}{problem === 'session.empty' ? ` ${t('session.empty.hint')}` : ''}</Notice> : null}
       </div>
 
       <ul className="list">

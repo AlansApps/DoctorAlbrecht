@@ -94,10 +94,19 @@ export async function previewImport(db: DB, backup: Backup): Promise<ImportPrevi
  * replace: a safety copy of current data is kept in `meta.preImportBackup` first.
  * Progress is rebuilt from the resulting log in both cases.
  */
-export async function importBackup(db: DB, backup: Backup, mode: 'merge' | 'replace', appVersion: string, now: Date): Promise<number> {
-  if (mode === 'replace') {
-    const safety = await exportBackup(db, appVersion, now);
-    await db.put('meta', { key: 'preImportBackup', value: safety });
+export const SNAPSHOT_TTL_DAYS = 30;
+
+export interface PreImportSnapshot {
+  takenAt: string;
+  backup: Backup;
+}
+
+export async function importBackup(
+  db: DB, backup: Backup, mode: 'merge' | 'replace', appVersion: string, now: Date, opts: { safetyCopy?: boolean } = {},
+): Promise<number> {
+  if (mode === 'replace' && opts.safetyCopy !== false) {
+    const snapshot: PreImportSnapshot = { takenAt: now.toISOString(), backup: await exportBackup(db, appVersion, now) };
+    await db.put('meta', { key: 'preImportBackup', value: snapshot });
   }
   const tx = db.transaction(['attempts', 'flags', 'reports', 'sessions'], 'readwrite');
   if (mode === 'replace') {
@@ -118,12 +127,28 @@ export async function importBackup(db: DB, backup: Backup, mode: 'merge' | 'repl
   return rebuildProgress(db);
 }
 
-/** Restore the safety copy taken before the last "replace" import. */
+/**
+ * The safety copy taken before the last "replace" import, if still valid (ARCH-034):
+ * it expires after SNAPSHOT_TTL_DAYS so an old copy can never silently wipe recent progress.
+ */
+export async function getPreImportSnapshot(db: DB, now: Date): Promise<PreImportSnapshot | null> {
+  const value = (await db.get('meta', 'preImportBackup'))?.value as Partial<PreImportSnapshot> | undefined;
+  if (!value?.takenAt) return null;
+  const parsed = BackupSchema.safeParse(value.backup);
+  const age = now.getTime() - Date.parse(value.takenAt);
+  if (!parsed.success || !(age >= 0 && age <= SNAPSHOT_TTL_DAYS * 86_400_000)) {
+    await db.delete('meta', 'preImportBackup');
+    return null;
+  }
+  return { takenAt: value.takenAt, backup: parsed.data };
+}
+
+/** Undo the last "replace": restores the snapshot once and discards it (no toggling). */
 export async function restorePreImport(db: DB, appVersion: string, now: Date): Promise<boolean> {
-  const safety = (await db.get('meta', 'preImportBackup'))?.value;
-  const parsed = BackupSchema.safeParse(safety);
-  if (!parsed.success) return false;
-  await importBackup(db, parsed.data, 'replace', appVersion, now);
+  const snap = await getPreImportSnapshot(db, now);
+  if (!snap) return false;
+  await importBackup(db, snap.backup, 'replace', appVersion, now, { safetyCopy: false });
+  await db.delete('meta', 'preImportBackup');
   return true;
 }
 
@@ -137,4 +162,5 @@ export async function eraseLearningData(db: DB): Promise<void> {
     tx.objectStore('sessions').clear(),
   ]);
   await tx.done;
+  await db.delete('meta', 'preImportBackup');
 }

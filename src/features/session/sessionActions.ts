@@ -6,35 +6,54 @@ import type { IndexEntry, Manifest } from '../../domain/content/schema.ts';
 import type { ItemProgress, RecallRating } from '../../domain/scheduler/scheduler.ts';
 import { currentTimeZone, studyDayEnd } from '../../domain/scheduler/time.ts';
 import { buildSession, requeueAfterFailure, type SessionOptions, type Step } from '../../domain/session/selector.ts';
+import { downloadedPacks } from '../../storage/contentRepo.ts';
 import { withDb, type Attempt, type ItemFlags, type StoredSession } from '../../storage/db.ts';
+import { loadAllProgress, loadFlags } from '../../storage/progressRepo.ts';
 import { enqueue } from '../../storage/outbox.ts';
 import { answerStep, attemptIdFor, createSession, SessionConflictError } from '../../storage/sessionRepo.ts';
 
-export interface StartInput {
+export interface PlanInput {
   manifest: Manifest;
   index: IndexEntry[];
   progress: ReadonlyMap<string, ItemProgress>;
   flags: ReadonlyMap<string, ItemFlags>;
   options: SessionOptions;
-  /** Items whose content can actually be loaded now (offline: downloaded packs only). */
-  loadable?: (itemId: string) => boolean;
+  /** Modules whose content can be loaded now; offline this is the downloaded packs only. */
+  available?: ReadonlySet<string>;
+  seed: number;
+  now: Date;
 }
 
-export async function startSession(input: StartInput): Promise<StoredSession | null> {
-  const now = new Date();
-  const suspended = new Set([...input.flags.values()].filter((f) => f.suspended).map((f) => f.itemId));
-  const seed = Math.floor(Math.random() * 2 ** 31);
-  let steps = buildSession({
-    index: input.index,
+/** Single place that turns state + options into steps (used by sessions and Listen). */
+export function planSteps(input: PlanInput): Step[] {
+  const index = input.available ? input.index.filter((e) => input.available!.has(e.moduleId)) : input.index;
+  return buildSession({
+    index,
     progress: input.progress,
-    suspended,
+    suspended: new Set([...input.flags.values()].filter((f) => f.suspended).map((f) => f.itemId)),
     priorityMacros: input.manifest.macros.filter((m) => m.priority).map((m) => m.id),
     options: input.options,
-    now,
-    dayEnd: studyDayEnd(now, currentTimeZone()),
-    seed,
+    now: input.now,
+    dayEnd: studyDayEnd(input.now, currentTimeZone()),
+    seed: input.seed,
   });
-  if (input.loadable) steps = steps.filter((s) => input.loadable!(s.itemId));
+}
+
+/** Fresh learning state + what can be loaded right now (ARCH-036/037). */
+export async function currentPlanState(locale: 'es' | 'en', online: boolean) {
+  return withDb(async (db) => {
+    const [progress, flags] = await Promise.all([loadAllProgress(db), loadFlags(db)]);
+    if (online) return { progress, flags };
+    const available: ReadonlySet<string> = new Set((await downloadedPacks(db)).filter((p) => p.locale === locale).map((p) => p.moduleId));
+    return { progress, flags, available };
+  });
+}
+
+export async function startSession(input: { manifest: Manifest; index: IndexEntry[]; options: SessionOptions; locale: 'es' | 'en'; online: boolean }): Promise<StoredSession | null> {
+  const now = new Date();
+  const seed = Math.floor(Math.random() * 2 ** 31);
+  const state = await currentPlanState(input.locale, input.online);
+  const steps = planSteps({ ...input, ...state, seed, now });
   if (steps.length === 0) return null;
   return withDb((db) =>
     createSession(db, { id: crypto.randomUUID(), options: input.options, steps, seed, contentVersion: input.manifest.contentVersion }, now),
@@ -104,7 +123,7 @@ export async function answerCurrentStep(
     return { status: 'saved', session: res.session };
   } catch (err) {
     if (err instanceof SessionConflictError) return { status: 'conflict', session: err.current };
-    if (attempt) enqueue({ ...attempt, id: attemptIdFor(session.id, session.position), sessionId: session.id }, session.position);
+    if (attempt) enqueue({ ...attempt, id: attemptIdFor(session.id, session.position), sessionId: session.id }, session.position, steps);
     return { status: 'pending' };
   }
 }

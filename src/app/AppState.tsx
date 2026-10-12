@@ -7,7 +7,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import type { IndexEntry, Locale, Manifest, Pack, PackItem, PackReference } from '../domain/content/schema.ts';
 import type { ItemProgress } from '../domain/scheduler/scheduler.ts';
 import { onTabMessage } from '../storage/channel.ts';
-import { ContentError, ensurePack, loadManifest, requestPersistence } from '../storage/contentRepo.ts';
+import { ContentError, ensurePack, evictPacks, loadManifest, requestPersistence } from '../storage/contentRepo.ts';
 import { getDb, onNewerVersion, withDb, type ItemFlags } from '../storage/db.ts';
 import { flush as flushOutbox } from '../storage/outbox.ts';
 import { applyPrefsToDocument, loadPrefs, savePrefs, type Prefs } from '../storage/prefs.ts';
@@ -55,6 +55,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [attempt, setAttempt] = useState(0);
   const packCache = useRef(new Map<string, Pack>());
   const waitingWorker = useRef<ServiceWorker | null>(null);
+  /** Only a tab that asked for the update reloads on controllerchange (ARCH-035). */
+  const updateRequested = useRef(false);
 
   useEffect(() => applyPrefsToDocument(prefs), [prefs]);
 
@@ -80,7 +82,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         const db = await getDb();
         await ensureSchedulerVersion(db);
         await flushOutbox(db);
-        const m = await loadManifest(db, BASE_URL);
+        const m = await loadManifest(db, BASE_URL, timeoutFetch(6000));
         if (!alive) return;
         await refresh();
         setManifest(m?.manifest ?? null);
@@ -123,7 +125,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     if (!('serviceWorker' in navigator) || import.meta.env.DEV) return;
     let reloading = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (!reloading) {
+      // First install (clients.claim) and updates requested by other tabs never reload this one.
+      if (updateRequested.current && !reloading) {
         reloading = true;
         location.reload();
       }
@@ -147,6 +150,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const applyUpdate = useCallback(() => {
+    updateRequested.current = true;
     if (waitingWorker.current) waitingWorker.current.postMessage({ type: 'SKIP_WAITING' });
     else location.reload();
   }, []);
@@ -170,6 +174,9 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
           return pack;
         }),
       );
+      // Keep downloads within the configured budget; packs in use now are never evicted (ARCH-044).
+      const inUse = new Set(modules.map((m) => `${m}:${locale}`));
+      void withDb((db) => evictPacks(db, prefs.downloadLimitMB * 1024 * 1024, inUse)).catch(() => {});
       const out = new Map<string, LoadedItem>();
       for (const pack of packs) {
         for (const item of pack.items) {
@@ -180,7 +187,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       }
       return out;
     },
-    [manifest, indexById, prefs.locale],
+    [manifest, indexById, prefs.locale, prefs.downloadLimitMB],
   );
 
   const value: AppStateValue = {
@@ -197,4 +204,13 @@ export function useAppState(): AppStateValue {
   const v = useContext(AppStateContext);
   if (!v) throw new Error('useAppState outside provider');
   return v;
+}
+
+/** fetch with a deadline: a slow network falls back to the stored manifest instead of hanging (ARCH-039). */
+function timeoutFetch(ms: number) {
+  return (url: string, init?: RequestInit) => {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), ms);
+    return fetch(url, { ...init, signal: ctrl.signal }).finally(() => clearTimeout(timer));
+  };
 }

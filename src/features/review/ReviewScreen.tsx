@@ -10,7 +10,7 @@ import { useStartSession } from '../session/useStartSession.ts';
 export function ReviewScreen() {
   const { t } = useI18n();
   const app = useAppState();
-  const { start, empty, starting } = useStartSession();
+  const { start, problem, starting } = useStartSession();
   const stats = useMemo(() => computeStats(app.index, app.progress, app.flags), [app.index, app.progress, app.flags]);
   const saved = useMemo(
     () => [...app.flags.values()].filter((f) => f.favorite && app.indexById.get(f.itemId)?.kind === 'card').map((f) => f.itemId),
@@ -43,7 +43,7 @@ export function ReviewScreen() {
         <Button block disabled={starting || stats.mistakes === 0} onClick={() => void start({ minutes, scope: { kind: 'mistakes' }, filters: [], mode: 'review' })}>
           {t('review.mistakes')} <span className="tabular">({stats.mistakes})</span>
         </Button>
-        {empty ? <Notice>{t('session.empty')}</Notice> : null}
+        {problem ? <Notice>{t(problem)}</Notice> : null}
       </section>
 
       <section className="stack">

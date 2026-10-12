@@ -11,6 +11,7 @@
  */
 import { z } from 'zod';
 import { AttemptSchema } from './backup.ts';
+import type { Step } from '../domain/session/selector.ts';
 import type { Attempt, DB } from './db.ts';
 import { AttemptIdConflictError, recordAttempt } from './progressRepo.ts';
 import { answerStep, SessionConflictError } from './sessionRepo.ts';
@@ -18,7 +19,16 @@ import { answerStep, SessionConflictError } from './sessionRepo.ts';
 const KEY = 'tarjetalan:outbox';
 const MAX = 1000;
 
-const Entry = z.object({ attempt: AttemptSchema, position: z.number().int().min(0).nullable() });
+const StepSchema = z.object({
+  itemId: z.string(), mode: z.enum(['learn', 'review', 'question']), conceptId: z.string(), microId: z.string(),
+  requeued: z.literal(true).optional(), isNew: z.literal(true).optional(),
+});
+const Entry = z.object({
+  attempt: AttemptSchema,
+  position: z.number().int().min(0).nullable(),
+  /** Queue after this step (keeps an inserted consolidation step, ARCH-042). */
+  steps: z.array(StepSchema).optional(),
+});
 export type OutboxEntry = z.infer<typeof Entry>;
 
 function read(): OutboxEntry[] {
@@ -45,11 +55,16 @@ function write(list: OutboxEntry[]): boolean {
 }
 
 /** Returns false when the safety net itself is unavailable or full (UI must say so). */
-export function enqueue(attempt: Attempt, position: number | null): boolean {
+export function enqueue(attempt: Attempt, position: number | null, steps?: Step[]): boolean {
   const list = read().filter((e) => e.attempt.id !== attempt.id);
   if (list.length >= MAX) return false;
-  list.push({ attempt, position });
+  list.push({ attempt, position, ...(steps ? { steps: steps as OutboxEntry['steps'] } : {}) });
   return write(list);
+}
+
+/** Used by "erase all progress" (ARCH-040). */
+export function clearOutbox(): void {
+  write([]);
 }
 
 export function pendingCount(): number {
@@ -64,7 +79,7 @@ export function pendingFor(sessionId: string, position: number): Attempt | undef
 export async function flush(db: DB): Promise<number> {
   const list = read();
   let saved = 0;
-  const remaining: OutboxEntry[] = [];
+  const processed = new Set<string>();
   for (const entry of list) {
     const { attempt, position } = entry;
     try {
@@ -72,19 +87,27 @@ export async function flush(db: DB): Promise<number> {
         const session = await db.get('sessions', attempt.sessionId);
         if (session && session.position === position && session.status !== 'done') {
           const { id: _id, sessionId: _s, ...event } = attempt;
-          await answerStep(db, { sessionId: session.id, expectedRev: session.rev, attempt: event, now: new Date() });
+          await answerStep(db, {
+            sessionId: session.id, expectedRev: session.rev, attempt: event, now: new Date(),
+            ...(entry.steps ? { steps: entry.steps as Step[] } : {}),
+          });
           saved++;
+          processed.add(attempt.id);
           continue;
         }
-        if (session && session.position > position) continue; // slot already answered: discard copy
+        if (session && session.position > position) {
+          processed.add(attempt.id); // slot already answered: discard copy
+          continue;
+        }
       }
       await recordAttempt(db, attempt);
       saved++;
+      processed.add(attempt.id);
     } catch (err) {
-      if (err instanceof AttemptIdConflictError || err instanceof SessionConflictError) continue;
-      remaining.push(entry);
+      if (err instanceof AttemptIdConflictError || err instanceof SessionConflictError) processed.add(attempt.id);
     }
   }
-  write(remaining);
+  // Re-read: entries queued while flushing are kept (ARCH-041).
+  write(read().filter((e) => !processed.has(e.attempt.id)));
   return saved;
 }

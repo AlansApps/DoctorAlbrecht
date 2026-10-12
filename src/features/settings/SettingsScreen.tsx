@@ -3,10 +3,11 @@ import { useEffect, useRef, useState } from 'react';
 import { APP_VERSION, BASE_URL, useAppState } from '../../app/AppState.tsx';
 import { useI18n } from '../../i18n/i18n.tsx';
 import {
-  eraseLearningData, exportBackup, importBackup, parseBackup, previewImport, restorePreImport, type Backup, type ImportPreview,
+  eraseLearningData, exportBackup, getPreImportSnapshot, importBackup, parseBackup, previewImport, restorePreImport, type Backup, type ImportPreview,
 } from '../../storage/backup.ts';
 import { clearDownloads, downloadedPacks, ensurePack, requestPersistence, storageEstimate } from '../../storage/contentRepo.ts';
 import { withDb } from '../../storage/db.ts';
+import { clearOutbox } from '../../storage/outbox.ts';
 import type { Prefs } from '../../storage/prefs.ts';
 import { Button, Notice, Segmented } from '../../ui/components.tsx';
 
@@ -94,6 +95,9 @@ function StorageSection() {
     setBusy(true);
     try {
       const now = new Date();
+      // An explicit "download everything" raises the kept-downloads budget so it is not evicted later.
+      const neededMB = Math.ceil(totalAll / 1024 / 1024) + 5;
+      if (neededMB > app.prefs.downloadLimitMB) app.setPrefs({ downloadLimitMB: Math.min(500, neededMB) });
       for (const m of app.manifest.modules) await withDb((db) => ensurePack(db, app.manifest!, m.id, app.prefs.locale, BASE_URL, now));
     } catch {
       setMsg(t('session.needsConnection'));
@@ -135,6 +139,12 @@ function BackupSection({ saveFile }: { saveFile: (name: string, text: string) =>
   const [pending, setPending] = useState<{ backup: Backup; preview: ImportPreview } | null>(null);
   const [confirmReplace, setConfirmReplace] = useState(false);
   const [msg, setMsg] = useState<{ tone: 'info' | 'error'; text: string } | null>(null);
+  const [snapshotAt, setSnapshotAt] = useState<string | null>(null);
+  const [confirmUndo, setConfirmUndo] = useState(false);
+  const loadSnapshot = async () => setSnapshotAt((await withDb((db) => getPreImportSnapshot(db, new Date())))?.takenAt ?? null);
+  useEffect(() => {
+    void loadSnapshot();
+  }, []);
 
   const doExport = async () => {
     const backup = await withDb((db) => exportBackup(db, APP_VERSION, new Date()));
@@ -154,17 +164,26 @@ function BackupSection({ saveFile }: { saveFile: (name: string, text: string) =>
       setMsg({ tone: 'error', text: t('settings.backup.invalid') });
       return;
     }
-    const preview = await withDb((db) => previewImport(db, parsed.backup));
-    setPending({ backup: parsed.backup, preview });
+    try {
+      const preview = await withDb((db) => previewImport(db, parsed.backup));
+      setPending({ backup: parsed.backup, preview });
+    } catch {
+      setMsg({ tone: 'error', text: t('app.error') });
+    }
   };
 
   const apply = async (mode: 'merge' | 'replace') => {
     if (!pending) return;
-    await withDb((db) => importBackup(db, pending.backup, mode, APP_VERSION, new Date()));
+    try {
+      await withDb((db) => importBackup(db, pending.backup, mode, APP_VERSION, new Date()));
+      setMsg({ tone: 'info', text: t('settings.backup.done') });
+    } catch {
+      setMsg({ tone: 'error', text: t('app.error') });
+    }
     setPending(null);
     setConfirmReplace(false);
-    setMsg({ tone: 'info', text: t('settings.backup.done') });
     await app.refresh();
+    await loadSnapshot();
   };
 
   return (
@@ -195,9 +214,25 @@ function BackupSection({ saveFile }: { saveFile: (name: string, text: string) =>
           )}
         </div>
       ) : null}
-      <Button variant="ghost" onClick={async () => { if (await withDb((db) => restorePreImport(db, APP_VERSION, new Date()))) { setMsg({ tone: 'info', text: t('settings.backup.done') }); await app.refresh(); } }}>
-        {t('settings.backup.undo')}
-      </Button>
+      {snapshotAt ? (
+        confirmUndo ? (
+          <div className="stack">
+            <Notice tone="warn">{t('settings.backup.undo.confirm', { date: formatDate(snapshotAt) })}</Notice>
+            <div className="row">
+              <Button variant="danger" onClick={async () => {
+                const ok = await withDb((db) => restorePreImport(db, APP_VERSION, new Date()));
+                setConfirmUndo(false);
+                setMsg(ok ? { tone: 'info', text: t('settings.backup.done') } : { tone: 'error', text: t('app.error') });
+                await app.refresh();
+                await loadSnapshot();
+              }}>{t('settings.confirm')}</Button>
+              <Button onClick={() => setConfirmUndo(false)}>{t('settings.cancel')}</Button>
+            </div>
+          </div>
+        ) : (
+          <Button variant="ghost" onClick={() => setConfirmUndo(true)}>{t('settings.backup.undo.dated', { date: formatDate(snapshotAt) })}</Button>
+        )
+      ) : null}
       {msg ? <Notice tone={msg.tone}>{msg.text}</Notice> : null}
     </section>
   );
@@ -244,6 +279,7 @@ function ResetSection() {
           <div className="row">
             <Button variant="danger" disabled={word.trim().toUpperCase() !== expected} onClick={async () => {
               await withDb(eraseLearningData);
+              clearOutbox();
               await app.refresh();
               setOpen(false);
               setWord('');

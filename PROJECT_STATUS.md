@@ -38,3 +38,9 @@ Estilo **D · Calma** (D-015). Español neutro con **tú** (D-016). Repo públic
 2. Merge a `main`, `scripts/deploy.sh`, activar Pages y verificar la URL HTTPS, la subruta, el SW y los enlaces profundos.
 3. Fase 3: lotes de contenido según CONTENT_PLAN.
 4. Mapas: normalizar ids cruzados y verificar Cochrane antioxidantes en el varón (ver AUDIT_LOG).
+
+## Retomar aquí (2026-10-12, corte por límite de uso)
+- Auditoría de merge de arquitectura: `docs/audits/2026-10-12_architecture_merge.md`. Aplicadas las correcciones de ARCH-034 a ARCH-046 (commit "fix(ui): merge-audit…"), con 69 tests y `tsc` limpios. **Falta:** reverificación del auditor, npm run build y prueba en el preview.
+- La auditoría UX de la app real (`docs/audits/2026-10-12_ux_app.md`) quedó en curso; revisar si el archivo existe y aplicar los hallazgos.
+- ARCH-032: el esquema v1 de IndexedDB queda congelado desde la primera publicación; cualquier cambio requiere una migración `if (oldVersion < 2)`.
+- Después: merge a `main`, `scripts/deploy.sh`, activar Pages (rama gh-pages) y verificar la URL.

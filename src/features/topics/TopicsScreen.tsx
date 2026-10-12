@@ -36,7 +36,7 @@ export function searchTopics(manifest: Manifest, query: string, locale: 'es' | '
 export function TopicsScreen() {
   const { t, locale } = useI18n();
   const app = useAppState();
-  const { start, empty } = useStartSession();
+  const { start, problem } = useStartSession();
   const [query, setQuery] = useState('');
   const manifest = app.manifest;
   const hits = useMemo(() => (manifest ? searchTopics(manifest, query, locale) : []), [manifest, query, locale]);
@@ -85,7 +85,7 @@ export function TopicsScreen() {
             </span>
             <ChevronRight className="icon" aria-hidden="true" />
           </button>
-          {empty ? <Notice>{t('session.empty')}</Notice> : null}
+          {problem ? <Notice>{t(problem)}</Notice> : null}
           <ul className="list">
             {macros.map((m) => {
               const available = m.micros.filter((x) => x.available).length;

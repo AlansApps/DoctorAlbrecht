@@ -12,7 +12,7 @@ import { useStartSession } from '../session/useStartSession.ts';
 export function MacroScreen({ macroId }: { macroId: string }) {
   const { t, locale } = useI18n();
   const app = useAppState();
-  const { start, empty, starting } = useStartSession();
+  const { start, problem, starting } = useStartSession();
   const [filters, setFilters] = useState<ClinicalTag[]>([]);
   const macro = app.manifest?.macros.find((m) => m.id === macroId);
   if (!macro) return <Notice>{t('app.error')}</Notice>;
@@ -47,7 +47,7 @@ export function MacroScreen({ macroId }: { macroId: string }) {
             <Button block disabled={starting} onClick={() => void start({ minutes, scope: { kind: 'macro', macroId, mix: true }, filters, mode: 'balanced' })}>
               {t('topics.studyMix')}
             </Button>
-            {empty ? <Notice>{t('session.empty')} {t('session.empty.hint')}</Notice> : null}
+            {problem ? <Notice>{t(problem)}{problem === 'session.empty' ? ` ${t('session.empty.hint')}` : ''}</Notice> : null}
           </div>
         </>
       ) : (

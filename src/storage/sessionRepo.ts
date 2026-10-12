@@ -97,7 +97,8 @@ export async function answerStep(db: DB, input: AnswerInput): Promise<{ session:
     ...current,
     steps,
     position,
-    status: position >= steps.length ? 'done' : 'active',
+    // A paused session stays paused when answered in the background (outbox); never two actives.
+    status: position >= steps.length ? 'done' : current.status,
     rev: current.rev + 1,
     updatedAt: input.now.toISOString(),
   };
@@ -106,6 +107,23 @@ export async function answerStep(db: DB, input: AnswerInput): Promise<{ session:
   notifyOtherTabs({ type: 'session', sessionId: session.id, rev: session.rev });
   if (input.attempt) notifyOtherTabs({ type: 'progress', itemIds: [input.attempt.itemId] });
   return progress ? { session, progress } : { session };
+}
+
+/** Make this the only active session (the one the UI is showing). */
+export async function activateSession(db: DB, sessionId: string, now: Date): Promise<StoredSession | undefined> {
+  const tx = db.transaction('sessions', 'readwrite');
+  const target = await tx.store.get(sessionId);
+  if (!target || target.status === 'done') {
+    await tx.done;
+    return target;
+  }
+  for (const s of await tx.store.index('byStatus').getAll('active')) {
+    if (s.id !== sessionId) await tx.store.put({ ...s, status: 'paused', rev: s.rev + 1, updatedAt: now.toISOString() });
+  }
+  const next = target.status === 'active' ? target : { ...target, status: 'active' as const, rev: target.rev + 1, updatedAt: now.toISOString() };
+  if (next !== target) await tx.store.put(next);
+  await tx.done;
+  return next;
 }
 
 export async function setSessionStatus(db: DB, sessionId: string, status: StoredSession['status'], now: Date): Promise<StoredSession | undefined> {

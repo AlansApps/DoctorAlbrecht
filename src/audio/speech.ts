@@ -27,7 +27,8 @@ export interface SpeakOptions {
   lang: 'es' | 'en';
   rate: number;
   voiceURI: string | null;
-  onEnd?: () => void;
+  /** `finished` is false when the utterance was cancelled or failed. */
+  onEnd?: (finished: boolean) => void;
 }
 
 export function speak(text: string, opts: SpeakOptions): SpeechSynthesisUtterance | null {
@@ -39,8 +40,9 @@ export function speak(text: string, opts: SpeakOptions): SpeechSynthesisUtteranc
   const voice = opts.voiceURI ? speechSynthesis.getVoices().find((v) => v.voiceURI === opts.voiceURI) : voicesFor(opts.lang)[0];
   if (voice) u.voice = voice;
   if (opts.onEnd) {
-    u.onend = opts.onEnd;
-    u.onerror = opts.onEnd;
+    const onEnd = opts.onEnd;
+    u.onend = () => onEnd(true);
+    u.onerror = () => onEnd(false);
   }
   speechSynthesis.speak(u);
   return u;

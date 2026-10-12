@@ -32,9 +32,18 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.includes('/content/')) return; // manifest/packs: network, stored in IndexedDB by the app
 
   if (req.mode === 'navigate') {
-    // Hash routing: every navigation is the app shell.
+    // Hash routing: every navigation is the app shell. Network first with a deadline,
+    // so a slow connection falls back to the cached shell instead of hanging.
+    const cached = () => caches.match('./index.html', { ignoreSearch: true }).then((r) => r || caches.match('./'));
     event.respondWith(
-      fetch(req).catch(() => caches.match('./index.html', { ignoreSearch: true }).then((r) => r || caches.match('./'))),
+      new Promise((resolve) => {
+        let done = false;
+        const timer = setTimeout(() => cached().then((r) => { if (!done && r) { done = true; resolve(r); } }), 3000);
+        fetch(req).then(
+          (res) => { if (!done) { done = true; clearTimeout(timer); resolve(res); } },
+          () => cached().then((r) => { if (!done) { done = true; clearTimeout(timer); resolve(r || Response.error()); } }),
+        );
+      }),
     );
     return;
   }

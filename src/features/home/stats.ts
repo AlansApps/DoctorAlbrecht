@@ -1,6 +1,7 @@
 import type { IndexEntry } from '../../domain/content/schema.ts';
 import { isDue, type ItemProgress } from '../../domain/scheduler/scheduler.ts';
 import { currentTimeZone, studyDayEnd } from '../../domain/scheduler/time.ts';
+import { isActiveMistake } from '../../domain/session/selector.ts';
 import type { ItemFlags } from '../../storage/db.ts';
 
 export interface Stats {
@@ -28,7 +29,7 @@ export function computeStats(
     if (p.exposures > 0 || p.retrievals > 0) s.studied++;
     if (p.status === 'learning') s.learning++;
     if (p.status === 'review') s.review++;
-    if (p.lastResult === 'fail') s.mistakes++;
+    if (isActiveMistake(p, now)) s.mistakes++; // same definition as the "mistakes" session
     if (isDue(p, e.rev, now, dayEnd)) s.due++;
   }
   return s;
