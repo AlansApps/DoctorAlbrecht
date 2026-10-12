@@ -13,7 +13,7 @@ export const BACKUP_VERSION = 1;
 
 const isoTs = z.string().refine((s) => !Number.isNaN(Date.parse(s)), 'invalid timestamp');
 
-const AttemptSchema = z.object({
+export const AttemptSchema = z.object({
   id: z.string().min(1).max(200),
   itemId: z.string().min(1).max(200),
   kind: z.enum(['card', 'question', 'case']),

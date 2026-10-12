@@ -94,3 +94,23 @@ describe('flags and rebuild', () => {
     expect(await db.get('progress', 'card-1')).toEqual(p);
   });
 });
+
+describe('ARCH-024/027', () => {
+  it('an attempt id reused for a different item throws instead of overwriting', async () => {
+    const { AttemptIdConflictError } = await import('./progressRepo.ts');
+    const db = await freshDb();
+    await recordAttempt(db, at('2026-10-12T10:00:00Z', 'dup', 'good'));
+    await expect(recordAttempt(db, at('2026-10-12T10:05:00Z', 'dup', 'again', { itemId: 'other' }))).rejects.toBeInstanceOf(AttemptIdConflictError);
+    expect((await db.get('attempts', 'dup'))!.itemId).toBe('card-1');
+  });
+
+  it('cache and rebuild agree exactly (including updatedAt) with a suspension in between', async () => {
+    const db = await freshDb();
+    await recordAttempt(db, at('2026-10-12T10:00:00Z', 'a1', 'good'));
+    await setFlags(db, 'card-1', { suspended: true }, new Date('2026-10-13T10:00:00Z'));
+    await recordAttempt(db, at('2026-10-14T10:00:00Z', 'a2', 'good'));
+    const incremental = await db.get('progress', 'card-1');
+    await rebuildProgress(db);
+    expect(await db.get('progress', 'card-1')).toEqual(incremental);
+  });
+});

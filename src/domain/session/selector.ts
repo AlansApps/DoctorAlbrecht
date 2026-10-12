@@ -40,6 +40,8 @@ export interface Step {
   microId: string;
   /** Inserted during the session after a failure (consolidation step). */
   requeued?: true;
+  /** First time this item is shown (new material). */
+  isNew?: true;
 }
 
 export const FERTILITY_MACRO = 'fert';
@@ -53,6 +55,8 @@ const PRIORITY_PICK = 0.4;
 export const MIN_GAP = 2;
 /** A failure counts as an "active mistake" for this long unless answered right since. */
 const ACTIVE_MISTAKE_DAYS = 30;
+/** A mistake is not re-asked before this gap, unless it is already due (ARCH-026). */
+export const MISTAKE_MIN_GAP_MS = 60 * 60_000;
 
 /** mulberry32: tiny seeded PRNG so sessions are reproducible in tests. */
 export function rng(seed: number): () => number {
@@ -124,6 +128,7 @@ export function buildSession(input: SelectorInput): Step[] {
     due = pool
       .map((e) => ({ e, p: progress.get(e.id) }))
       .filter((x): x is Due => !!x.p && isActiveMistake(x.p, now))
+      .filter((x) => isDue(x.p, x.e.rev, now, dayEnd) || now.getTime() - new Date(x.p.lastReviewAt!).getTime() >= MISTAKE_MIN_GAP_MS)
       .sort((a, b) => (b.p.lastReviewAt ?? '').localeCompare(a.p.lastReviewAt ?? ''));
   } else {
     const all = pool
@@ -144,11 +149,15 @@ export function buildSession(input: SelectorInput): Step[] {
       if (e.kind === 'card') seenConcepts.add(e.conceptId);
     }
   }
-  const microsWithContent = new Set(index.map((e) => e.microId));
+  // Soft prerequisites (ARCH-025): only micros reachable in this session can gate; a micro
+  // already started stays open even if a prerequisite is published later.
+  const poolMicros = new Set(pool.map((e) => e.microId));
   const conceptsWithCard = new Set(index.filter((e) => e.kind === 'card').map((e) => e.conceptId));
   const enforcePrereqs = scope.kind === 'all' || scope.kind === 'fertility' || (scope.kind === 'macro' && scope.mix);
   const prereqsMet = (e: IndexEntry) =>
-    !enforcePrereqs || e.prereqMicros.every((m) => studiedMicros.has(m) || !microsWithContent.has(m) || m === e.microId);
+    !enforcePrereqs ||
+    studiedMicros.has(e.microId) ||
+    e.prereqMicros.every((m) => m === e.microId || studiedMicros.has(m) || !poolMicros.has(m));
 
   const fresh =
     scope.kind === 'mistakes' || options.mode === 'review'
@@ -171,8 +180,8 @@ export function buildSession(input: SelectorInput): Step[] {
   const fits = (mode: StepMode, limit: number) => spent + STEP_SECONDS[mode] <= limit + BUDGET_TOLERANCE;
   const overCap = (microId: string) =>
     scope.kind === 'all' && steps.length >= 4 && ((microCount.get(microId) ?? 0) + 1) / (steps.length + 1) > MAX_MICRO_SHARE;
-  const push = (e: IndexEntry, mode: StepMode) => {
-    steps.push({ itemId: e.id, mode, conceptId: e.conceptId, microId: e.microId });
+  const push = (e: IndexEntry, mode: StepMode, isNew = false) => {
+    steps.push({ itemId: e.id, mode, conceptId: e.conceptId, microId: e.microId, ...(isNew ? { isNew: true as const } : {}) });
     usedConcepts.add(e.conceptId);
     microCount.set(e.microId, (microCount.get(e.microId) ?? 0) + 1);
     spent += STEP_SECONDS[mode];
@@ -199,11 +208,11 @@ export function buildSession(input: SelectorInput): Step[] {
       const readHere = steps.some((s) => s.conceptId === e.conceptId && s.mode === 'learn');
       const ready = seenConcepts.has(e.conceptId) || readHere || !conceptsWithCard.has(e.conceptId);
       if (!ready || !fits('question', budget)) return false;
-      push(e, 'question');
+      push(e, 'question', true);
       return true;
     }
     if (usedConcepts.has(e.conceptId) || !fits('learn', budget)) return false;
-    push(e, 'learn');
+    push(e, 'learn', true);
     return true;
   };
   while (queues.size > 0 && spent < budget) {
@@ -270,7 +279,8 @@ function spreadConcepts(steps: Step[]): Step[] {
       // Nothing can be separated: keep cards/reviews, drop new questions that would be adjacent.
       idx = pending.findIndex((s) => s.mode !== 'question' && !(recent.at(-1)?.conceptId === s.conceptId));
       if (idx === -1) {
-        const dropped = pending.findIndex((s) => s.mode === 'question');
+        // Drop the NEW question that causes the clash (ARCH-033), never a due review.
+        const dropped = pending.findIndex((s) => s.mode === 'question' && s.isNew && recent.some((o) => o.conceptId === s.conceptId));
         if (dropped !== -1) {
           pending.splice(dropped, 1);
           continue;

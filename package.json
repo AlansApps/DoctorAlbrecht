@@ -17,7 +17,10 @@
     "content:check": "node scripts/build-content.ts --check"
   },
   "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
     "idb": "8.0.3",
+    "lucide-react": "1.48.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "ts-fsrs": "5.4.2",

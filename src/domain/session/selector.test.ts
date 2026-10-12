@@ -194,3 +194,35 @@ describe('requeueAfterFailure', () => {
     expect(twice.filter((s) => s.itemId === 'a')).toHaveLength(2);
   });
 });
+
+describe('audit re-verification (ARCH-025/026)', () => {
+  it('a prerequisite outside the clinical filter does not lock the filtered material', () => {
+    orderSeq = 0;
+    const index = [
+      entry('base.card', 'card', 'horm', 'horm.base', 'b', 0),
+      entry('diet.card', 'card', 'nutr', 'nutr.diet', 'd', 0, { prereqMicros: ['horm.base'], tags: ['diet'] }),
+    ];
+    const steps = buildSession({ index, progress: new Map(), options: opts({ filters: ['diet'] }), now, seed: 1 });
+    expect(steps.map((s) => s.itemId)).toEqual(['diet.card']);
+  });
+
+  it('a micro already started stays open when a prerequisite is published later', () => {
+    orderSeq = 0;
+    const index = [
+      entry('pre.card', 'card', 'horm', 'horm.pre', 'p', 0),
+      entry('m.c1', 'card', 'fert', 'fert.m', 'k1', 0, { prereqMicros: ['horm.pre'] }),
+      entry('m.c2', 'card', 'fert', 'fert.m', 'k2', 1, { prereqMicros: ['horm.pre'] }),
+    ];
+    const progress = new Map([['m.c1', applyExposure(newProgress('m.c1', 'card', 'k1', now), now)]]);
+    const steps = buildSession({ index, progress, options: opts({ minutes: 10 }), now, seed: 2 });
+    expect(steps.some((s) => s.itemId === 'm.c2')).toBe(true);
+  });
+
+  it('"mistakes" does not re-ask a question failed minutes ago', () => {
+    const index = corpus();
+    const q = index.find((e) => e.id === 'pcos.a.c1.q')!;
+    const justNow = new Date(now.getTime() - 5_000);
+    const progress = new Map([[q.id, applyRetrieval(graduated(q), 'again', 1, justNow, false)]]);
+    expect(buildSession({ index, progress, options: opts({ scope: { kind: 'mistakes' } }), now, seed: 3 })).toEqual([]);
+  });
+});

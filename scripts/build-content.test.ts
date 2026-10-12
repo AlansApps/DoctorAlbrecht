@@ -66,3 +66,20 @@ describe('content build', () => {
     expect(buildContent(f, true, 'x').errors.join()).toMatch(/not in macro fert/);
   });
 });
+
+describe('ARCH-025/031', () => {
+  it('rejects prerequisite cycles between micros', () => {
+    const f = real();
+    const lessons = mod(f).lessons;
+    lessons[0]!.prerequisites = ['fert.age-timing'];
+    lessons[1]!.microId = 'fert.age-timing';
+    lessons[1]!.prerequisites = ['fert.amh-afc'];
+    expect(buildContent(f, true, 'x').errors.join()).toMatch(/prerequisite cycle/);
+  });
+
+  it('global order is unique across the corpus', () => {
+    const res = buildContent(real(), true, 'x');
+    const orders = res.manifest!.index.map((e) => e.order);
+    expect(new Set(orders).size).toBe(orders.length);
+  });
+});

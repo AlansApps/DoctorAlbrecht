@@ -56,3 +56,38 @@ describe('sessions', () => {
     expect((await latestOpenSession(db))!.id).toBe('s2');
   });
 });
+
+describe('ARCH-024: pending answers never overwrite another step', () => {
+  it('rejects an answer for an item that is not the current step, and a finished session', async () => {
+    const db = await freshDb();
+    const s = await createSession(db, init, now);
+    const wrong = { ...read, itemId: 'q2', kind: 'question' as const, conceptId: 'k2', rating: 'good' as const, correct: true };
+    await expect(answerStep(db, { sessionId: s.id, expectedRev: 0, attempt: wrong, now })).rejects.toBeInstanceOf(SessionConflictError);
+    expect(await db.count('attempts')).toBe(0);
+  });
+
+  it('outbox flush advances the session it belongs to, then later steps get their own ids', async () => {
+    const { enqueue, flush, pendingCount } = await import('./outbox.ts');
+    const db = await freshDb();
+    const s = await createSession(db, init, now);
+    // the DB failed while answering step 0: the UI parked it in the outbox and did NOT advance
+    expect(enqueue({ ...read, id: 's1:0', sessionId: s.id }, 0)).toBe(true);
+    expect(await flush(db)).toBe(1);
+    expect(pendingCount()).toBe(0);
+    const after = await db.get('sessions', 's1');
+    expect(after!.position).toBe(1);
+    const q = { itemId: 'q2', kind: 'question' as const, conceptId: 'k2', rating: 'good' as const, correct: true, contentRev: 1, at: now.toISOString(), tz: 'UTC' };
+    await answerStep(db, { sessionId: s.id, expectedRev: after!.rev, attempt: q, now });
+    expect((await db.getAllKeys('attempts')).sort()).toEqual(['s1:0', 's1:1']);
+  });
+
+  it('a stale pending copy for a slot already answered is discarded, not written over it', async () => {
+    const { enqueue, flush } = await import('./outbox.ts');
+    const db = await freshDb();
+    const s = await createSession(db, init, now);
+    await answerStep(db, { sessionId: s.id, expectedRev: 0, attempt: read, now });
+    enqueue({ ...read, id: 's1:0', sessionId: s.id, at: new Date(now.getTime() + 5000).toISOString() }, 0);
+    await flush(db);
+    expect((await db.get('attempts', 's1:0'))!.at).toBe(now.toISOString());
+  });
+});

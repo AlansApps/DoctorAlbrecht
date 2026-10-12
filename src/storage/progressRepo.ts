@@ -20,19 +20,42 @@ function step(p: ItemProgress, a: Attempt): ItemProgress {
   return a.rating === null ? applyExposure(p, at, a.id) : applyRetrieval(p, a.rating, a.contentRev, at, a.correct, a.id);
 }
 
+/** An attempt id is already used by a different learning event: never overwrite it. */
+export class AttemptIdConflictError extends Error {
+  readonly attemptId: string;
+  constructor(attemptId: string) {
+    super(`Attempt id ${attemptId} already belongs to another item`);
+    this.attemptId = attemptId;
+  }
+}
+
+/** Suspension applied identically by the incremental path and the replay (ARCH-027). */
+function withFlags(p: ItemProgress, flags: ItemFlags | undefined): ItemProgress {
+  if (!flags?.suspended) return p;
+  const s = p.status === 'suspended' ? p : suspend(p, new Date(flags.updatedAt));
+  const updatedAt = s.lastEventAt && s.lastEventAt > flags.updatedAt ? s.lastEventAt : flags.updatedAt;
+  return { ...s, updatedAt };
+}
+
 export function replay(itemId: string, attempts: Attempt[], flags?: ItemFlags): ItemProgress | undefined {
   const sorted = [...attempts].sort(compareEvents);
   const first = sorted[0];
   if (!first) return undefined;
   let p = newProgress(itemId, first.kind, first.conceptId, new Date(first.at));
   for (const a of sorted) p = step(p, a);
-  return flags?.suspended ? suspend(p, new Date(flags.updatedAt)) : p;
+  return withFlags(p, flags);
+}
+
+function sameEvent(a: Attempt, b: Attempt): boolean {
+  return a.itemId === b.itemId && a.rating === b.rating && a.at === b.at && a.correct === b.correct;
 }
 
 /**
  * Apply one attempt inside an existing transaction over attempts/progress/flags.
- * Idempotent (duplicate id → stored state). In-order events are applied
- * incrementally; anything at or before the last applied event triggers a replay.
+ * Idempotent: the same event twice is a no-op; a *different* event under an id
+ * that is already used throws instead of overwriting history (ARCH-024).
+ * In-order events are applied incrementally; anything at or before the last
+ * applied event triggers a replay from the log.
  */
 export async function applyAttemptInTx(tx: LearningTx, raw: Attempt): Promise<ItemProgress> {
   const attempt = normalizeAttempt(raw);
@@ -43,14 +66,17 @@ export async function applyAttemptInTx(tx: LearningTx, raw: Attempt): Promise<It
     progress.get(attempt.itemId),
     tx.objectStore('flags').get(attempt.itemId),
   ]);
-  if (existing && stored) return stored;
+  if (existing) {
+    if (existing.itemId !== attempt.itemId) throw new AttemptIdConflictError(attempt.id);
+    if (stored) return stored;
+  }
+  if (existing && !sameEvent(existing, attempt)) throw new AttemptIdConflictError(attempt.id);
 
   let result: ItemProgress;
   const inOrder = !stored || compareEvents(attempt, { at: stored.lastEventAt, id: stored.lastEventId }) > 0;
   if (inOrder) {
     const base = stored ?? newProgress(attempt.itemId, attempt.kind, attempt.conceptId, new Date(attempt.at));
-    result = step(base, attempt);
-    if (flags?.suspended && result.status !== 'suspended') result = suspend(result, new Date(flags.updatedAt));
+    result = withFlags(step(base, attempt), flags);
   } else {
     const all = await attempts.index('byItem').getAll(attempt.itemId);
     result = replay(attempt.itemId, [...all.filter((a) => a.id !== attempt.id), attempt], flags)!;

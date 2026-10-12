@@ -10,12 +10,12 @@ import { Manifest, Pack, type Locale } from '../domain/content/schema.ts';
 import { notifyOtherTabs } from './channel.ts';
 import { getMeta, setMeta, type DB, type StoredPack } from './db.ts';
 
+export type ContentErrorCode = 'offline' | 'integrity' | 'invalid' | 'quota' | 'http';
 export class ContentError extends Error {
-  constructor(
-    readonly code: 'offline' | 'integrity' | 'invalid' | 'quota' | 'http',
-    message: string,
-  ) {
+  readonly code: ContentErrorCode;
+  constructor(code: ContentErrorCode, message: string) {
     super(message);
+    this.code = code;
   }
 }
 
@@ -51,7 +51,8 @@ export async function ensurePack(
   const entry = manifest.modules.find((m) => m.id === moduleId)?.packs[locale];
   if (!entry) throw new ContentError('invalid', `No pack for ${moduleId}/${locale}`);
   const stored = await db.get('packs', key(moduleId, locale));
-  if (stored && stored.hash === entry.hash && Pack.safeParse(stored.data).success) {
+  // Stored packs were fully validated before being saved; a cheap shape check catches corruption.
+  if (stored && stored.hash === entry.hash && looksLikePack(stored.data, moduleId, locale)) {
     await db.put('packs', { ...stored, lastUsedAt: now.toISOString() });
     return stored.data;
   }
@@ -64,11 +65,16 @@ export async function ensurePack(
   } catch (err) {
     if (err instanceof ContentError) throw err;
     // Stale but valid copy is better than nothing while offline.
-    if (stored && Pack.safeParse(stored.data).success) return stored.data;
+    if (stored && looksLikePack(stored.data, moduleId, locale)) return stored.data;
     throw new ContentError('offline', `${moduleId} requires a connection`);
   }
 
-  const json: unknown = JSON.parse(text);
+  let json: unknown;
+  try {
+    json = JSON.parse(text);
+  } catch {
+    throw new ContentError('invalid', `${entry.file}: corrupt JSON`);
+  }
   const parsed = Pack.safeParse(json);
   if (!parsed.success) throw new ContentError('invalid', `${entry.file}: invalid pack`);
   const hash = parsed.data.hash;
@@ -90,16 +96,24 @@ function stripHash(json: unknown): unknown {
   return rest;
 }
 
+function looksLikePack(data: unknown, moduleId: string, locale: Locale): data is Pack {
+  const d = data as Partial<Pack> | undefined;
+  return !!d && d.moduleId === moduleId && d.locale === locale && Array.isArray(d.items) && Array.isArray(d.lessons) && typeof d.references === 'object';
+}
+
+const isQuota = (err: unknown) => err instanceof DOMException && err.name === 'QuotaExceededError';
+
+/** On quota errors, evict least-recently-used packs one at a time until the new one fits. */
 async function putWithQuota(db: DB, record: StoredPack): Promise<void> {
-  try {
-    await db.put('packs', record);
-  } catch (err) {
-    if (!(err instanceof DOMException) || err.name !== 'QuotaExceededError') throw err;
-    await evictPacks(db, 0, new Set([record.key]));
+  for (;;) {
     try {
       await db.put('packs', record);
-    } catch {
-      throw new ContentError('quota', 'Not enough storage for this module');
+      return;
+    } catch (err) {
+      if (!isQuota(err)) throw err;
+      const victims = (await db.getAllFromIndex('packs', 'byLastUsed')).filter((p) => p.key !== record.key);
+      if (!victims[0]) throw new ContentError('quota', 'Not enough storage for this module');
+      await db.delete('packs', victims[0].key);
     }
   }
 }

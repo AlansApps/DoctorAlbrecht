@@ -77,13 +77,21 @@ export function buildContent(files: {
   const manifestModules: Manifest['modules'] = [];
   const availableMicros = new Set<string>();
 
-  for (const { name, data } of files.modules) {
+  const microPrereqs = new Map<string, Set<string>>();
+  for (const [moduleIdx, { name, data }] of files.modules.entries()) {
     const parsed = AuthorModule.safeParse(data);
     if (!parsed.success) {
       errors.push(`${name}: ${parsed.error.message}`);
       continue;
     }
     const mod = parsed.data;
+    if (mod.lessons.length > 99) errors.push(`${name}: more than 99 lessons`);
+    for (const l of mod.lessons) {
+      if (l.itemIds.length > 99) errors.push(`${name} › ${l.id}: more than 99 items`);
+      const set = microPrereqs.get(l.microId) ?? new Set<string>();
+      l.prerequisites.forEach((m) => set.add(m));
+      microPrereqs.set(l.microId, set);
+    }
     const where = (id: string) => `${name} › ${id}`;
     if (!cur.data.macros.some((m) => m.id === mod.macroId)) errors.push(`${name}: unknown macro ${mod.macroId}`);
 
@@ -170,12 +178,29 @@ export function buildContent(files: {
         index.push({
           id, kind: it.kind, moduleId: mod.id, lessonId: l.id, microId: l.microId, macroId: mod.macroId,
           conceptId: it.conceptId, seq, rev: it.rev, tags: it.tags,
-          order: macroOrder * 1_000_000 + microPos * 1_000 + lessonIdx * 50 + seq,
+          // macro (≤99) · micro (≤999) · module (≤99) · lesson (≤99) · seq (≤99): no collisions
+          order: (((macroOrder * 1000 + microPos) * 100 + moduleIdx) * 100 + lessonIdx) * 100 + seq,
           prereqMicros: l.prerequisites,
         });
       });
     });
   }
+
+  // Prerequisite cycles between micros would lock both forever.
+  const visiting = new Set<string>();
+  const done = new Set<string>();
+  const visit = (m: string, path: string[]): void => {
+    if (done.has(m)) return;
+    if (visiting.has(m)) {
+      errors.push(`prerequisite cycle: ${[...path, m].join(' → ')}`);
+      return;
+    }
+    visiting.add(m);
+    for (const n of microPrereqs.get(m) ?? []) if (n !== m) visit(n, [...path, m]);
+    visiting.delete(m);
+    done.add(m);
+  };
+  for (const m of microPrereqs.keys()) visit(m, []);
 
   for (const r of refs.keys()) if (!usedRefs.has(r)) warnings.push(`references.json: ${r} not cited by any shipped item`);
   if (errors.length) return { errors, warnings, packs: [] };

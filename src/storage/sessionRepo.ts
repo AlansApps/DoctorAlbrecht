@@ -12,9 +12,12 @@ import { notifyOtherTabs } from './channel.ts';
 import type { Attempt, DB, StoredSession } from './db.ts';
 import { applyAttemptInTx } from './progressRepo.ts';
 
+/** The session moved on (another tab, a retry, or a finished session): reload and continue from `current`. */
 export class SessionConflictError extends Error {
-  constructor(readonly current: StoredSession) {
+  readonly current: StoredSession;
+  constructor(current: StoredSession) {
     super('Session changed in another tab');
+    this.current = current;
   }
 }
 
@@ -63,18 +66,30 @@ export async function answerStep(db: DB, input: AnswerInput): Promise<{ session:
   const sessions = tx.objectStore('sessions');
   const current = await sessions.get(input.sessionId);
   if (!current) throw new Error(`Unknown session ${input.sessionId}`);
-  if (current.rev !== input.expectedRev) {
+  const stepAtPosition = current.steps[current.position];
+  const stale =
+    current.rev !== input.expectedRev ||
+    current.status === 'done' ||
+    !stepAtPosition ||
+    (input.attempt !== null && input.attempt.itemId !== stepAtPosition.itemId);
+  if (stale) {
     tx.abort();
     await tx.done.catch(() => {});
     throw new SessionConflictError(current);
   }
   let progress: ItemProgress | undefined;
   if (input.attempt) {
-    progress = await applyAttemptInTx(tx, {
-      ...input.attempt,
-      id: attemptIdFor(current.id, current.position),
-      sessionId: current.id,
-    });
+    try {
+      progress = await applyAttemptInTx(tx, {
+        ...input.attempt,
+        id: attemptIdFor(current.id, current.position),
+        sessionId: current.id,
+      });
+    } catch (err) {
+      tx.abort();
+      await tx.done.catch(() => {});
+      throw err;
+    }
   }
   const steps = input.steps ?? current.steps;
   const position = current.position + 1;
