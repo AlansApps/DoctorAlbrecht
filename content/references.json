@@ -1,0 +1,89 @@
+[
+  {
+    "id": "asrm-2020-ovarian-reserve",
+    "title": "Testing and interpreting measures of ovarian reserve: a committee opinion",
+    "authors": "Practice Committee of the American Society for Reproductive Medicine",
+    "year": 2020,
+    "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/testing-and-interpreting-measures-of-ovarian-reserve-a-committee-opinion-2020/",
+    "doi": "10.1016/j.fertnstert.2020.09.134",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres con y sin infertilidad conocida evaluadas con marcadores de reserva ovárica.",
+      "en": "Women with and without known infertility assessed with ovarian reserve markers."
+    },
+    "finding": {
+      "es": "AMH y AFC predicen bien el número de ovocitos en FIV, pero son malos predictores independientes de potencial reproductivo; no deben usarse como test de fertilidad, para negar tratamiento ni para promover la criopreservación planificada de ovocitos.",
+      "en": "AMH and AFC predict oocyte yield in IVF well but are poor independent predictors of reproductive potential; they should not be used as a fertility test, to deny treatment, or to promote planned oocyte cryopreservation."
+    },
+    "limitations": {
+      "es": "Opinión de comité (no guía GRADE); contexto estadounidense.",
+      "en": "Committee opinion (not a GRADE guideline); US context."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "steiner-2017-jama",
+    "title": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age",
+    "authors": "Steiner AZ, Pritchard D, Stanczyk FZ, et al.",
+    "year": 2017,
+    "url": "https://stacks.cdc.gov/view/cdc/50629",
+    "doi": "10.1001/jama.2017.14588",
+    "type": "cohort",
+    "population": {
+      "es": "Cohorte prospectiva de tiempo hasta embarazo: mujeres de 30–44 años sin antecedente de infertilidad, ≤3 meses intentando concebir (Carolina del Norte, EE. UU.); 981 inscritas, 750 analizadas.",
+      "en": "Prospective time-to-pregnancy cohort: women aged 30–44 with no history of infertility, trying to conceive for ≤3 months (North Carolina, USA); 981 enrolled, 750 analysed."
+    },
+    "finding": {
+      "es": "Una AMH <0,7 ng/mL no se asoció con menor probabilidad de concebir a 6 ciclos (65 % vs 62 %) ni a 12 ciclos (84 % vs 75 %) frente a AMH normal; tampoco la FSH alta. Concepción definida como prueba de embarazo positiva.",
+      "en": "AMH <0.7 ng/mL was not associated with a lower probability of conceiving by 6 cycles (65% vs 62%) or 12 cycles (84% vs 75%) versus normal AMH; neither was high FSH. Conception defined as a positive pregnancy test."
+    },
+    "limitations": {
+      "es": "Desenlace = prueba de embarazo positiva, no nacido vivo; observacional; excluye infertilidad conocida; pocas mujeres con AMH muy baja (n=84).",
+      "en": "Outcome = positive pregnancy test, not live birth; observational; excludes known infertility; few women with very low AMH (n=84)."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "eshre-2023-unexplained-infertility",
+    "title": "Evidence-based guideline: unexplained infertility",
+    "authors": "ESHRE Guideline Group on Unexplained Infertility; Romualdi D, et al.",
+    "year": 2023,
+    "url": "https://academic.oup.com/humrep/article/38/10/1881/7242620",
+    "doi": "10.1093/humrep/dead150",
+    "type": "guideline",
+    "population": {
+      "es": "Parejas con infertilidad inexplicada.",
+      "en": "Couples with unexplained infertility."
+    },
+    "finding": {
+      "es": "Con ciclos regulares, la prueba de reserva ovárica no es necesaria para identificar la causa de la infertilidad ni para predecir la concepción espontánea a 6–12 meses (recomendación fuerte, certeza baja). IUI con estimulación ovárica como primera línea (fuerte, certeza muy baja).",
+      "en": "With regular cycles, ovarian reserve testing is not required to identify the aetiology of infertility or to predict spontaneous conception over 6–12 months (strong recommendation, low certainty). IUI with ovarian stimulation first line (strong, very low certainty)."
+    },
+    "limitations": {
+      "es": "Búsqueda hasta octubre de 2022; muchas recomendaciones con certeza baja o muy baja.",
+      "en": "Search up to October 2022; many recommendations with low or very low certainty."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "eshre-2025-ovarian-stimulation",
+    "title": "Ovarian stimulation for IVF/ICSI — guideline update 2025 (pocket guideline)",
+    "authors": "ESHRE Guideline Group on Ovarian Stimulation",
+    "year": 2025,
+    "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/COS/2025/OS-pocket-guideline-web.pdf",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres que inician estimulación ovárica para FIV/ICSI.",
+      "en": "Women starting ovarian stimulation for IVF/ICSI."
+    },
+    "finding": {
+      "es": "Recomienda AFC o AMH para predecir respuesta alta y baja a la estimulación. No deben usarse de rutina edad, IMC, FSH, inhibina B, estradiol, progesterona ni LH basales para predecir la respuesta, ni AFC, AMH u otros marcadores basales para predecir embarazo o nacido vivo.",
+      "en": "Recommends AFC or AMH to predict high and low response to stimulation. Age, BMI, basal FSH, inhibin B, oestradiol, progesterone and LH should not be routinely used to predict response, nor AFC, AMH or other basal markers to predict pregnancy or live birth."
+    },
+    "limitations": {
+      "es": "Se cita la versión de bolsillo; la fuerza de cada recomendación figura en la guía completa (actualización 2025, versión publicada en 2026).",
+      "en": "Pocket version cited; the strength of each recommendation is in the full guideline (2025 update, version published in 2026)."
+    },
+    "accessed": "2026-10-12"
+  }
+]

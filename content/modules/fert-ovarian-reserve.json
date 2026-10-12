@@ -1,0 +1,538 @@
+{
+  "id": "fert-ovarian-reserve",
+  "macroId": "fert",
+  "title": { "es": "Reserva ovárica: qué predicen AMH y AFC", "en": "Ovarian reserve: what AMH and AFC predict" },
+  "lessons": [
+    {
+      "id": "fert-or.l1-what-it-measures",
+      "microId": "fert.amh-afc",
+      "title": { "es": "Qué mide la reserva ovárica", "en": "What ovarian reserve testing measures" },
+      "objective": {
+        "es": "Diferenciar cantidad de ovocitos de potencial reproductivo y saber para qué sirven AMH y AFC en la estimulación.",
+        "en": "Tell oocyte quantity apart from reproductive potential and know what AMH and AFC are useful for in stimulation."
+      },
+      "closing": {
+        "es": "AMH y AFC cuentan; no pronostican embarazo. Su terreno es anticipar cuántos ovocitos responderán a la estimulación.",
+        "en": "AMH and AFC count; they do not forecast pregnancy. Their territory is anticipating how many oocytes will respond to stimulation."
+      },
+      "prerequisites": ["horm.folliculogenesis-ovulation"],
+      "level": "intermediate",
+      "itemIds": ["fert-or.c1-quantity-not-quality", "fert-or.c2-predicts-response", "fert-or.c3-not-live-birth", "fert-or.q1-what-amh-predicts", "fert-or.q2-eshre-marker"]
+    },
+    {
+      "id": "fert-or.l2-natural-fertility",
+      "microId": "fert.amh-afc",
+      "title": { "es": "AMH y fertilidad natural", "en": "AMH and natural fertility" },
+      "objective": {
+        "es": "Interpretar la evidencia que muestra que la AMH no predice la concepción espontánea y comunicarlo a la paciente.",
+        "en": "Interpret the evidence that AMH does not predict spontaneous conception and explain it to patients."
+      },
+      "closing": {
+        "es": "En mujeres sin infertilidad conocida, una AMH baja no anunció menos embarazos. Pedirla “para saber si puedo esperar” no responde esa pregunta.",
+        "en": "In women without known infertility, a low AMH did not foretell fewer pregnancies. Ordering it “to know whether I can wait” does not answer that question."
+      },
+      "prerequisites": [],
+      "level": "intermediate",
+      "itemIds": ["fert-or.c4-steiner-cohort", "fert-or.c5-guideline-natural", "fert-or.c6-can-i-wait", "fert-or.q3-36yo-low-amh", "fert-or.q4-steiner-outcome", "fert-or.q5-strength-certainty"]
+    },
+    {
+      "id": "fert-or.l3-responsible-use",
+      "microId": "fert.amh-afc",
+      "title": { "es": "Uso responsable: no negar, no vender, no sobrepedir", "en": "Responsible use: don't deny, don't sell, don't over-order" },
+      "objective": {
+        "es": "Evitar los usos inapropiados de los marcadores de reserva: negar tratamiento, promover la congelación de ovocitos y pedir pruebas dinámicas obsoletas.",
+        "en": "Avoid inappropriate uses of reserve markers: denying treatment, promoting egg freezing and ordering obsolete dynamic tests."
+      },
+      "closing": {
+        "es": "Un número de laboratorio orienta el asesoramiento; no decide por sí solo quién accede a tratamiento ni quién congela ovocitos.",
+        "en": "A lab number guides counselling; on its own it does not decide who gets treatment or who freezes eggs."
+      },
+      "prerequisites": [],
+      "level": "intermediate",
+      "itemIds": ["fert-or.c7-do-not-deny", "fert-or.c8-egg-freezing", "fert-or.c9-obsolete-tests", "fert-or.q6-very-low-amh-ivf", "fert-or.q7-egg-freezing", "fert-or.q8-ccct", "fert-or.case1-lucia"]
+    }
+  ],
+  "items": [
+    {
+      "id": "fert-or.c1-quantity-not-quality",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "fert.or.quantity-not-quality",
+      "rev": 1,
+      "tags": ["hormones", "reproduction"],
+      "title": { "es": "AMH y AFC miden cantidad, no calidad", "en": "AMH and AFC measure quantity, not quality" },
+      "core": {
+        "es": "Los marcadores de reserva ovárica estiman cuántos folículos quedan; su asociación con la calidad ovocitaria y el nacido vivo es débil. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "Ovarian reserve markers estimate how many follicles remain; their association with oocyte quality and live birth is weak. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "body": {
+        "es": "El recuento de folículos antrales (AFC) es la suma de folículos antrales de ambos ovarios en ecografía transvaginal en fase folicular temprana; la mayoría de los estudios los define como de 2–10 mm de diámetro medio. [[ref:asrm-2020-ovarian-reserve]]\n\nLa AMH la producen las células de la granulosa de folículos en crecimiento, por eso acompaña al tamaño del pool folicular. Ninguno de los dos marcadores informa sobre la competencia de cada ovocito.",
+        "en": "The antral follicle count (AFC) is the sum of antral follicles in both ovaries on transvaginal ultrasound in the early follicular phase; most studies define them as 2–10 mm in mean diameter. [[ref:asrm-2020-ovarian-reserve]]\n\nAMH is produced by granulosa cells of growing follicles, so it tracks the size of the follicle pool. Neither marker tells you about the competence of each oocyte."
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          { "mark": "node", "text": { "es": "AMH / AFC", "en": "AMH / AFC" } },
+          { "mark": "yes", "text": { "es": "Cantidad de folículos (pool)", "en": "Number of follicles (pool)" } },
+          { "mark": "no", "text": { "es": "Calidad ovocitaria y nacido vivo: asociación débil", "en": "Oocyte quality and live birth: weak association" } }
+        ],
+        "alt": {
+          "es": "Esquema: AMH y AFC reflejan la cantidad de folículos; su relación con la calidad ovocitaria y el nacido vivo es débil.",
+          "en": "Diagram: AMH and AFC reflect follicle number; their relation to oocyte quality and live birth is weak."
+        }
+      },
+      "application": {
+        "es": "Al informar una AMH, separá explícitamente “cuántos” de “qué tan buenos”: es la confusión más frecuente en consulta.",
+        "en": "When reporting an AMH, explicitly separate “how many” from “how good”: it is the most common confusion in clinic."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Opinión de comité ASRM 2020.", "en": "ASRM committee opinion 2020." }
+      },
+      "recall": {
+        "es": "¿Qué informa la AMH y qué no informa?",
+        "en": "What does AMH tell you, and what doesn't it?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c2-predicts-response",
+      "kind": "card",
+      "type": "lab",
+      "conceptId": "fert.or.predicts-response",
+      "rev": 1,
+      "tags": ["hormones", "reproduction"],
+      "title": { "es": "Para qué sirven: predecir la respuesta a la estimulación", "en": "What they are for: predicting response to stimulation" },
+      "core": {
+        "es": "ESHRE recomienda usar AFC o AMH para predecir una respuesta alta o baja a la estimulación ovárica. [[ref:eshre-2025-ovarian-stimulation]]",
+        "en": "ESHRE recommends using AFC or AMH to predict a high or low response to ovarian stimulation. [[ref:eshre-2025-ovarian-stimulation]]"
+      },
+      "body": {
+        "es": "Los marcadores de reserva son buenos predictores del número de ovocitos obtenidos en FIV. [[ref:asrm-2020-ovarian-reserve]]\n\nEn cambio, la guía ESHRE desaconseja usar de rutina la edad, el IMC, la FSH basal, la inhibina B, el estradiol, la progesterona o la LH basales para predecir la respuesta. [[ref:eshre-2025-ovarian-stimulation]] Es decir: para anticipar la respuesta, AFC o AMH; no una batería de hormonas basales.",
+        "en": "Reserve markers are good predictors of the number of oocytes retrieved in IVF. [[ref:asrm-2020-ovarian-reserve]]\n\nBy contrast, the ESHRE guideline advises against routinely using age, BMI, basal FSH, inhibin B, oestradiol, progesterone or basal LH to predict response. [[ref:eshre-2025-ovarian-stimulation]] In short: to anticipate response, AFC or AMH; not a panel of basal hormones."
+      },
+      "application": {
+        "es": "Si una paciente va a estimulación, AMH o AFC ayudan a anticipar baja o alta respuesta y a asesorar sobre riesgos; no hace falta sumar inhibina B ni FSH para eso.",
+        "en": "If a patient is going to stimulation, AMH or AFC help anticipate low or high response and counsel on risks; adding inhibin B or FSH is not needed for that."
+      },
+      "pearl": {
+        "es": "Una sola medida bien elegida (AFC o AMH) basta para estratificar la respuesta.",
+        "en": "One well-chosen measure (AFC or AMH) is enough to stratify response."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Guía ESHRE de estimulación ovárica, actualización 2025.", "en": "ESHRE ovarian stimulation guideline, 2025 update." }
+      },
+      "recall": {
+        "es": "¿Qué marcador recomienda ESHRE para predecir la respuesta a la estimulación?",
+        "en": "Which marker does ESHRE recommend to predict response to stimulation?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c3-not-live-birth",
+      "kind": "card",
+      "type": "myth",
+      "conceptId": "fert.or.not-live-birth",
+      "rev": 1,
+      "tags": ["hormones", "reproduction"],
+      "title": { "es": "Mito: “AMH baja = no va a funcionar la FIV”", "en": "Myth: “low AMH = IVF won't work”" },
+      "core": {
+        "es": "ESHRE desaconseja usar AFC, AMH u otros marcadores basales para predecir embarazo o nacido vivo. [[ref:eshre-2025-ovarian-stimulation]]",
+        "en": "ESHRE advises against using AFC, AMH or other basal markers to predict pregnancy or live birth. [[ref:eshre-2025-ovarian-stimulation]]"
+      },
+      "body": {
+        "es": "Según ASRM, la AMH como variable independiente es, como mucho, débilmente predictiva de embarazo. [[ref:asrm-2020-ovarian-reserve]]\n\nMenos ovocitos implica menos embriones para elegir, pero no dice cuál de ellos será competente. Por eso los marcadores sirven para planificar la estimulación, no para pronosticar el resultado final.",
+        "en": "According to ASRM, AMH as an independent variable is at best weakly predictive of pregnancy. [[ref:asrm-2020-ovarian-reserve]]\n\nFewer oocytes means fewer embryos to choose from, but it does not say which one will be competent. That is why the markers serve to plan stimulation, not to forecast the final outcome."
+      },
+      "pearl": {
+        "es": "Distinguí siempre el desenlace: ovocitos obtenidos (biomarcador) ≠ embarazo clínico ≠ nacido vivo.",
+        "en": "Always distinguish the outcome: oocytes retrieved (biomarker) ≠ clinical pregnancy ≠ live birth."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "ESHRE 2025 y ASRM 2020 coinciden.", "en": "ESHRE 2025 and ASRM 2020 agree." }
+      },
+      "recall": {
+        "es": "¿Sirve la AMH para pronosticar el nacido vivo en FIV?",
+        "en": "Is AMH useful to forecast live birth in IVF?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c4-steiner-cohort",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "fert.or.natural-fecundability",
+      "rev": 1,
+      "tags": ["hormones", "reproduction"],
+      "title": { "es": "Estudio clave: AMH baja no predijo menos concepciones", "en": "Key study: low AMH did not predict fewer conceptions" },
+      "core": {
+        "es": "En mujeres de 30–44 años sin infertilidad conocida, una AMH <0,7 ng/mL no se asoció con menor probabilidad de concebir a 6 ni a 12 ciclos. [[ref:steiner-2017-jama]]",
+        "en": "In women aged 30–44 without known infertility, AMH <0.7 ng/mL was not associated with a lower probability of conceiving by 6 or 12 cycles. [[ref:steiner-2017-jama]]"
+      },
+      "body": {
+        "es": "Cohorte prospectiva: 981 mujeres inscritas y 750 analizadas, que llevaban ≤3 meses intentando concebir. Probabilidad ajustada de concebir con AMH <0,7 ng/mL frente a AMH normal: 65 % vs 62 % a 6 ciclos y 84 % vs 75 % a 12 ciclos, sin diferencias significativas. La FSH alta tampoco se asoció con menor fertilidad. [[ref:steiner-2017-jama]]\n\nOjo con el desenlace: “concepción” fue una prueba de embarazo positiva, no un nacido vivo. Y no aplica a mujeres con infertilidad ya diagnosticada.",
+        "en": "Prospective cohort: 981 women enrolled and 750 analysed, trying to conceive for ≤3 months. Adjusted probability of conceiving with AMH <0.7 ng/mL versus normal AMH: 65% vs 62% by 6 cycles and 84% vs 75% by 12 cycles, with no significant differences. High FSH was not associated with lower fertility either. [[ref:steiner-2017-jama]]\n\nMind the outcome: “conception” was a positive pregnancy test, not a live birth. And it does not apply to women with already diagnosed infertility."
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          { "mark": "node", "text": { "es": "AMH <0,7 ng/mL (n=84) vs normal (n=579)", "en": "AMH <0.7 ng/mL (n=84) vs normal (n=579)" } },
+          { "mark": "note", "text": { "es": "6 ciclos: 65 % vs 62 %", "en": "6 cycles: 65% vs 62%" } },
+          { "mark": "note", "text": { "es": "12 ciclos: 84 % vs 75 %", "en": "12 cycles: 84% vs 75%" } },
+          { "mark": "no", "text": { "es": "Sin diferencia significativa", "en": "No significant difference" } }
+        ],
+        "alt": {
+          "es": "Probabilidad ajustada de concebir con AMH menor de 0,7 ng/mL frente a normal: 65 % frente a 62 % a 6 ciclos y 84 % frente a 75 % a 12 ciclos; sin diferencia significativa.",
+          "en": "Adjusted probability of conceiving with AMH below 0.7 ng/mL versus normal: 65% versus 62% by 6 cycles and 84% versus 75% by 12 cycles; no significant difference."
+        }
+      },
+      "application": {
+        "es": "Útil para tranquilizar con datos a una mujer sin infertilidad que trae una AMH baja de un chequeo.",
+        "en": "Useful to reassure, with data, a woman without infertility who brings a low AMH from a check-up."
+      },
+      "evidence": {
+        "label": "association",
+        "note": { "es": "Cohorte prospectiva: asociación, no ensayo.", "en": "Prospective cohort: association, not a trial." }
+      },
+      "recall": {
+        "es": "¿Qué encontró Steiner 2017 sobre AMH baja y probabilidad de concebir?",
+        "en": "What did Steiner 2017 find about low AMH and the chance of conceiving?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c5-guideline-natural",
+      "kind": "card",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert.or.no-test-for-natural",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "Qué no pediría: reserva ovárica para pronosticar embarazo espontáneo", "en": "What I would not order: reserve testing to forecast spontaneous pregnancy" },
+      "core": {
+        "es": "Con ciclos regulares, la prueba de reserva ovárica no es necesaria para identificar la causa de la infertilidad ni para predecir la concepción espontánea a 6–12 meses. [[ref:eshre-2023-unexplained-infertility]]",
+        "en": "With regular cycles, ovarian reserve testing is not required to identify the cause of infertility or to predict spontaneous conception over 6–12 months. [[ref:eshre-2023-unexplained-infertility]]"
+      },
+      "body": {
+        "es": "Es una recomendación fuerte de ESHRE con certeza de evidencia baja: fuerza y certeza son cosas distintas. [[ref:eshre-2023-unexplained-infertility]]\n\nASRM va en la misma línea: los marcadores no predicen el potencial reproductivo actual en mujeres con fertilidad no probada, y en mujeres con infertilidad no sirven para predecir el embarazo sin asistencia. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "It is a strong ESHRE recommendation with low certainty of evidence: strength and certainty are different things. [[ref:eshre-2023-unexplained-infertility]]\n\nASRM agrees: the markers do not predict current reproductive potential in women of unproven fertility, and in women with infertility they are not useful to predict unassisted pregnancy. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "pearl": {
+        "es": "Una recomendación puede ser fuerte aunque la evidencia sea de certeza baja, cuando el balance de beneficio, daño y coste es claro.",
+        "en": "A recommendation can be strong even with low-certainty evidence when the balance of benefit, harm and cost is clear."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "ESHRE 2023: fuerte, certeza baja.", "en": "ESHRE 2023: strong, low certainty." }
+      },
+      "recall": {
+        "es": "En una mujer con ciclos regulares, ¿hace falta la AMH para estudiar la causa de su infertilidad?",
+        "en": "In a woman with regular cycles, is AMH needed to work up the cause of her infertility?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c6-can-i-wait",
+      "kind": "card",
+      "type": "patient-phrase",
+      "conceptId": "fert.or.can-i-wait",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "Frase para la paciente: “¿Mi AMH me dice si puedo esperar?”", "en": "Patient phrase: “Does my AMH tell me if I can wait?”" },
+      "core": {
+        "es": "Los marcadores de reserva no deben usarse como test de fertilidad. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "Reserve markers should not be used as a fertility test. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "body": {
+        "es": "Propuesta de respuesta: “La AMH estima cuántos óvulos responderían a un tratamiento, pero no predice cuándo vas a quedar embarazada ni si podés esperar. En mujeres sin problemas de fertilidad, una AMH baja no se asoció con menos embarazos.” [[ref:steiner-2017-jama]]\n\nDespués, conversá sobre lo que sí importa para su plan: edad, tiempo de búsqueda, ciclos, antecedentes y la evaluación de la pareja.",
+        "en": "Suggested answer: “AMH estimates how many eggs would respond to treatment, but it does not predict when you will get pregnant or whether you can wait. In women without fertility problems, a low AMH was not associated with fewer pregnancies.” [[ref:steiner-2017-jama]]\n\nThen discuss what does matter for her plan: age, time trying, cycles, history and assessment of the partner."
+      },
+      "application": {
+        "es": "Evita que una cifra aislada genere angustia o decisiones apresuradas.",
+        "en": "Prevents an isolated number from causing distress or rushed decisions."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "ASRM 2020; cohorte Steiner 2017.", "en": "ASRM 2020; Steiner 2017 cohort." }
+      },
+      "recall": {
+        "es": "¿Cómo le explicarías a una paciente qué puede y qué no puede decirle su AMH?",
+        "en": "How would you explain to a patient what her AMH can and cannot tell her?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c7-do-not-deny",
+      "kind": "card",
+      "type": "what-i-would-do",
+      "conceptId": "fert.or.do-not-deny",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "Una AMH muy baja no justifica negar la FIV", "en": "A very low AMH does not justify refusing IVF" },
+      "core": {
+        "es": "Los valores extremadamente bajos de AMH no deben usarse para rechazar el tratamiento de FIV. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "Extremely low AMH values should not be used to refuse IVF treatment. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "body": {
+        "es": "ASRM es explícita: los marcadores de reserva no deben usarse para negar el acceso al tratamiento de la infertilidad. [[ref:asrm-2020-ovarian-reserve]]\n\nSí sirven para asesorar: con una reserva muy baja es esperable obtener menos ovocitos, y esa información ayuda a tomar decisiones compartidas sobre expectativas y alternativas.",
+        "en": "ASRM is explicit: reserve markers should not be used to deny access to infertility treatment. [[ref:asrm-2020-ovarian-reserve]]\n\nThey do help with counselling: with very low reserve fewer oocytes are expected, and that information supports shared decisions about expectations and alternatives."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Opinión de comité ASRM 2020.", "en": "ASRM committee opinion 2020." }
+      },
+      "recall": {
+        "es": "¿Puede una AMH muy baja ser motivo suficiente para negar una FIV?",
+        "en": "Can a very low AMH alone be a reason to refuse IVF?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c8-egg-freezing",
+      "kind": "card",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert.or.egg-freezing",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "No usar la AMH para promover la congelación de ovocitos", "en": "Don't use AMH to promote egg freezing" },
+      "core": {
+        "es": "Los marcadores de reserva ovárica no deben usarse para promover la criopreservación planificada de ovocitos. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "Ovarian reserve markers should not be used to promote planned oocyte cryopreservation. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "body": {
+        "es": "La razón es coherente con lo anterior: si la AMH no predice el potencial reproductivo actual, tampoco puede indicar quién “necesita” congelar. [[ref:asrm-2020-ovarian-reserve]]\n\nLa decisión de congelar se conversa a partir del proyecto reproductivo de la persona y de información realista sobre la técnica, no de un valor de laboratorio usado como alarma.",
+        "en": "The reasoning follows from the above: if AMH does not predict current reproductive potential, it cannot indicate who “needs” to freeze. [[ref:asrm-2020-ovarian-reserve]]\n\nThe decision to freeze is discussed from the person's reproductive plans and realistic information about the technique, not from a lab value used as an alarm."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "Opinión de comité ASRM 2020.", "en": "ASRM committee opinion 2020." }
+      },
+      "recall": {
+        "es": "¿Debería una AMH baja usarse para recomendar congelar ovocitos?",
+        "en": "Should a low AMH be used to recommend egg freezing?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.c9-obsolete-tests",
+      "kind": "card",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert.or.obsolete-tests",
+      "rev": 1,
+      "tags": ["hormones", "reproduction"],
+      "title": { "es": "Pruebas que sobran: test de clomifeno y FSH aislada", "en": "Tests to drop: clomiphene challenge and isolated FSH" },
+      "core": {
+        "es": "Las pruebas dinámicas como el test de clomifeno no mejoran la predicción de baja respuesta frente a los marcadores basales y deberían abandonarse. [[ref:asrm-2020-ovarian-reserve]]",
+        "en": "Dynamic tests such as the clomiphene citrate challenge test do not improve prediction of poor response over basal markers and should be abandoned. [[ref:asrm-2020-ovarian-reserve]]"
+      },
+      "body": {
+        "es": "Una FSH basal elevada es específica pero poco sensible para baja reserva ovárica: si está alta orienta, pero una FSH normal no la descarta. [[ref:asrm-2020-ovarian-reserve]]\n\nPor eso, cuando de verdad hace falta estimar la reserva (por ejemplo, antes de una estimulación), se prefieren AFC o AMH. [[ref:eshre-2025-ovarian-stimulation]]",
+        "en": "An elevated basal FSH is specific but not sensitive for diminished ovarian reserve: if high it is informative, but a normal FSH does not rule it out. [[ref:asrm-2020-ovarian-reserve]]\n\nThat is why, when reserve truly needs estimating (for example, before stimulation), AFC or AMH are preferred. [[ref:eshre-2025-ovarian-stimulation]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": { "es": "ASRM 2020; ESHRE 2025.", "en": "ASRM 2020; ESHRE 2025." }
+      },
+      "recall": {
+        "es": "¿Qué limitación tiene una FSH basal normal para descartar baja reserva?",
+        "en": "What is the limitation of a normal basal FSH for ruling out low reserve?"
+      },
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q1-what-amh-predicts",
+      "kind": "question",
+      "conceptId": "fert.or.predicts-response",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": ["hormones", "reproduction"],
+      "stem": { "es": "¿Cuál de estos desenlaces predice mejor la AMH?", "en": "Which of these outcomes does AMH predict best?" },
+      "options": [
+        { "id": "a", "text": { "es": "El número de ovocitos obtenidos en una estimulación para FIV.", "en": "The number of oocytes retrieved in IVF stimulation." }, "correct": true, "why": { "es": "Correcta: los marcadores de reserva son buenos predictores del rendimiento ovocitario.", "en": "Correct: reserve markers are good predictors of oocyte yield." } },
+        { "id": "b", "text": { "es": "La probabilidad de nacido vivo tras FIV.", "en": "The probability of live birth after IVF." }, "correct": false, "why": { "es": "Como mucho, la AMH es débilmente predictiva de embarazo; ESHRE desaconseja usarla para predecir nacido vivo.", "en": "AMH is at best weakly predictive of pregnancy; ESHRE advises against using it to predict live birth." } },
+        { "id": "c", "text": { "es": "La probabilidad de embarazo espontáneo en 6 meses.", "en": "The probability of spontaneous pregnancy within 6 months." }, "correct": false, "why": { "es": "En mujeres sin infertilidad, una AMH baja no se asoció con menor probabilidad de concebir.", "en": "In women without infertility, a low AMH was not associated with a lower chance of conceiving." } },
+        { "id": "d", "text": { "es": "La calidad de cada ovocito.", "en": "The quality of each oocyte." }, "correct": false, "why": { "es": "La AMH refleja cantidad; su asociación con la calidad ovocitaria es débil.", "en": "AMH reflects quantity; its association with oocyte quality is weak." } }
+      ],
+      "explanation": { "es": "AMH y AFC cuentan folículos: su punto fuerte es anticipar cuántos ovocitos se obtendrán.", "en": "AMH and AFC count follicles: their strength is anticipating how many oocytes will be retrieved." },
+      "refIds": ["asrm-2020-ovarian-reserve", "eshre-2025-ovarian-stimulation", "steiner-2017-jama"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q2-eshre-marker",
+      "kind": "question",
+      "conceptId": "fert.or.predicts-response",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones", "reproduction"],
+      "stem": { "es": "Antes de una estimulación para FIV, ¿qué recomienda ESHRE para predecir una respuesta alta o baja?", "en": "Before IVF stimulation, what does ESHRE recommend to predict a high or low response?" },
+      "options": [
+        { "id": "a", "text": { "es": "Inhibina B basal.", "en": "Basal inhibin B." }, "correct": false, "why": { "es": "ESHRE la incluye entre los marcadores que no deben usarse de rutina para predecir la respuesta.", "en": "ESHRE lists it among markers not to be routinely used to predict response." } },
+        { "id": "b", "text": { "es": "AFC o AMH.", "en": "AFC or AMH." }, "correct": true, "why": { "es": "Correcta: es la recomendación de la guía ESHRE.", "en": "Correct: this is the ESHRE guideline recommendation." } },
+        { "id": "c", "text": { "es": "FSH y estradiol basales combinados.", "en": "Combined basal FSH and oestradiol." }, "correct": false, "why": { "es": "Ambos están entre los marcadores que ESHRE desaconseja usar de rutina para predecir la respuesta.", "en": "Both are among the markers ESHRE advises against routinely using to predict response." } },
+        { "id": "d", "text": { "es": "La edad y el IMC.", "en": "Age and BMI." }, "correct": false, "why": { "es": "ESHRE no recomienda usarlos de rutina para predecir la respuesta ovárica.", "en": "ESHRE does not recommend routinely using them to predict ovarian response." } }
+      ],
+      "explanation": { "es": "Para anticipar la respuesta: AFC o AMH. No una batería de hormonas basales.", "en": "To anticipate response: AFC or AMH. Not a panel of basal hormones." },
+      "refIds": ["eshre-2025-ovarian-stimulation"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q3-36yo-low-amh",
+      "kind": "question",
+      "conceptId": "fert.or.natural-fecundability",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones", "reproduction"],
+      "stem": { "es": "Mujer de 36 años, busca embarazo hace 2 meses, ciclos regulares, sin antecedentes. Trae una AMH baja de un chequeo. ¿Qué interpretación es más correcta?", "en": "A 36-year-old woman, trying to conceive for 2 months, regular cycles, no history. She brings a low AMH from a check-up. Which interpretation is most accurate?" },
+      "options": [
+        { "id": "a", "text": { "es": "Su probabilidad de embarazo espontáneo en 6 meses está claramente reducida.", "en": "Her chance of spontaneous pregnancy within 6 months is clearly reduced." }, "correct": false, "why": { "es": "En la cohorte de Steiner (2017), una AMH baja no se asoció con menor probabilidad de concebir en esta población.", "en": "In the Steiner (2017) cohort, a low AMH was not associated with a lower chance of conceiving in this population." } },
+        { "id": "b", "text": { "es": "La AMH aislada no predice su concepción espontánea; sí orientaría la respuesta si llegara a una estimulación.", "en": "AMH alone does not predict her spontaneous conception; it would inform response if she ever needed stimulation." }, "correct": true, "why": { "es": "Correcta: separa lo que la AMH mide (pool folicular) de lo que no predijo (fecundabilidad).", "en": "Correct: it separates what AMH measures (follicle pool) from what it did not predict (fecundability)." } },
+        { "id": "c", "text": { "es": "Debe iniciar FIV de inmediato por la AMH baja.", "en": "She should start IVF immediately because of the low AMH." }, "correct": false, "why": { "es": "La AMH no es un test de fertilidad: no justifica por sí sola indicar FIV.", "en": "AMH is not a fertility test: on its own it does not justify recommending IVF." } },
+        { "id": "d", "text": { "es": "La AMH baja confirma que no ovula.", "en": "The low AMH confirms she does not ovulate." }, "correct": false, "why": { "es": "La AMH refleja cantidad de folículos, no si hay ovulación; además tiene ciclos regulares.", "en": "AMH reflects follicle number, not whether she ovulates; besides, her cycles are regular." } }
+      ],
+      "explanation": { "es": "Lo que pesa en su plan es la edad, el tiempo de búsqueda y la evaluación clínica de la pareja, no la cifra de AMH.", "en": "What weighs in her plan is age, time trying and clinical assessment of the couple, not the AMH figure." },
+      "refIds": ["steiner-2017-jama", "asrm-2020-ovarian-reserve"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q4-steiner-outcome",
+      "kind": "question",
+      "conceptId": "fert.or.natural-fecundability",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": ["reproduction"],
+      "stem": { "es": "En la cohorte de Steiner et al. (JAMA 2017), ¿cómo se definió “concepción”?", "en": "In the Steiner et al. cohort (JAMA 2017), how was “conception” defined?" },
+      "options": [
+        { "id": "a", "text": { "es": "Nacido vivo.", "en": "Live birth." }, "correct": false, "why": { "es": "El estudio no midió nacidos vivos; por eso no se puede extrapolar directamente a ese desenlace.", "en": "The study did not measure live births, so it cannot be extrapolated directly to that outcome." } },
+        { "id": "b", "text": { "es": "Embarazo clínico con latido en ecografía.", "en": "Clinical pregnancy with heartbeat on ultrasound." }, "correct": false, "why": { "es": "No fue el desenlace del estudio.", "en": "This was not the study outcome." } },
+        { "id": "c", "text": { "es": "Prueba de embarazo positiva.", "en": "A positive pregnancy test." }, "correct": true, "why": { "es": "Correcta: es un desenlace temprano, distinto de embarazo clínico y nacido vivo.", "en": "Correct: an early outcome, different from clinical pregnancy and live birth." } },
+        { "id": "d", "text": { "es": "Embarazo en curso a las 12 semanas.", "en": "Ongoing pregnancy at 12 weeks." }, "correct": false, "why": { "es": "No fue el desenlace del estudio.", "en": "This was not the study outcome." } }
+      ],
+      "explanation": { "es": "Leer el desenlace exacto es parte de la lectura crítica: biomarcador, prueba positiva, embarazo clínico y nacido vivo no son intercambiables.", "en": "Reading the exact outcome is part of critical appraisal: biomarker, positive test, clinical pregnancy and live birth are not interchangeable." },
+      "refIds": ["steiner-2017-jama"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q5-strength-certainty",
+      "kind": "question",
+      "conceptId": "fert.or.no-test-for-natural",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": ["reproduction"],
+      "stem": { "es": "ESHRE (2023) indica que, con ciclos regulares, la prueba de reserva ovárica no es necesaria para predecir la concepción espontánea. ¿Cómo está calificada esa recomendación?", "en": "ESHRE (2023) states that, with regular cycles, ovarian reserve testing is not required to predict spontaneous conception. How is that recommendation graded?" },
+      "options": [
+        { "id": "a", "text": { "es": "Fuerte, con certeza de evidencia baja.", "en": "Strong, with low certainty of evidence." }, "correct": true, "why": { "es": "Correcta: la fuerza de una recomendación y la certeza de la evidencia se califican por separado.", "en": "Correct: recommendation strength and evidence certainty are graded separately." } },
+        { "id": "b", "text": { "es": "Fuerte, con certeza alta.", "en": "Strong, with high certainty." }, "correct": false, "why": { "es": "La certeza asignada fue baja.", "en": "The certainty assigned was low." } },
+        { "id": "c", "text": { "es": "Condicional, con certeza baja.", "en": "Conditional, with low certainty." }, "correct": false, "why": { "es": "La recomendación es fuerte, no condicional.", "en": "The recommendation is strong, not conditional." } },
+        { "id": "d", "text": { "es": "Punto de buena práctica, sin evidencia.", "en": "Good practice point, no evidence." }, "correct": false, "why": { "es": "Es una recomendación basada en evidencia, con certeza calificada.", "en": "It is an evidence-based recommendation with graded certainty." } }
+      ],
+      "explanation": { "es": "Una recomendación puede ser fuerte con evidencia de certeza baja cuando el balance de beneficios, daños y costes es claro.", "en": "A recommendation can be strong with low-certainty evidence when the balance of benefits, harms and costs is clear." },
+      "refIds": ["eshre-2023-unexplained-infertility"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q6-very-low-amh-ivf",
+      "kind": "question",
+      "conceptId": "fert.or.do-not-deny",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["reproduction"],
+      "stem": { "es": "Una pareja con indicación de FIV tiene una AMH extremadamente baja. ¿Qué conducta es más adecuada?", "en": "A couple with an indication for IVF has an extremely low AMH. What is the most appropriate approach?" },
+      "options": [
+        { "id": "a", "text": { "es": "Rechazar la FIV porque no tiene sentido intentarlo.", "en": "Refuse IVF because there is no point trying." }, "correct": false, "why": { "es": "ASRM: valores extremadamente bajos de AMH no deben usarse para rechazar la FIV.", "en": "ASRM: extremely low AMH values should not be used to refuse IVF." } },
+        { "id": "b", "text": { "es": "Asesorar sobre la respuesta esperada (menos ovocitos) y decidir juntos, sin usar la AMH como criterio de exclusión.", "en": "Counsel on the expected response (fewer oocytes) and decide together, without using AMH as an exclusion criterion." }, "correct": true, "why": { "es": "Correcta: la AMH informa el asesoramiento, no el acceso.", "en": "Correct: AMH informs counselling, not access." } },
+        { "id": "c", "text": { "es": "Repetir la AMH cada mes hasta que suba.", "en": "Repeat AMH monthly until it rises." }, "correct": false, "why": { "es": "Repetir el marcador no cambia la decisión ni el pronóstico.", "en": "Repeating the marker does not change the decision or the prognosis." } },
+        { "id": "d", "text": { "es": "Hacer un test de clomifeno para confirmar.", "en": "Do a clomiphene challenge test to confirm." }, "correct": false, "why": { "es": "Las pruebas dinámicas no mejoran la precisión y deberían abandonarse.", "en": "Dynamic tests do not improve accuracy and should be abandoned." } }
+      ],
+      "explanation": { "es": "Los marcadores de reserva no deben usarse para negar el acceso al tratamiento de la infertilidad.", "en": "Reserve markers should not be used to deny access to infertility treatment." },
+      "refIds": ["asrm-2020-ovarian-reserve"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q7-egg-freezing",
+      "kind": "question",
+      "conceptId": "fert.or.egg-freezing",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": ["reproduction"],
+      "stem": { "es": "Una mujer de 33 años sin deseo gestacional actual pide una AMH “para decidir si congelo óvulos”. ¿Qué le responderías?", "en": "A 33-year-old woman with no current wish to conceive asks for an AMH “to decide whether to freeze my eggs”. What would you answer?" },
+      "options": [
+        { "id": "a", "text": { "es": "Que si la AMH sale baja, debe congelar cuanto antes.", "en": "That if the AMH is low, she should freeze as soon as possible." }, "correct": false, "why": { "es": "Los marcadores de reserva no deben usarse para promover la congelación planificada.", "en": "Reserve markers should not be used to promote planned freezing." } },
+        { "id": "b", "text": { "es": "Que la AMH no indica quién necesita congelar; la decisión se conversa según su proyecto reproductivo e información realista.", "en": "That AMH does not indicate who needs to freeze; the decision is discussed based on her reproductive plans and realistic information." }, "correct": true, "why": { "es": "Correcta: coherente con ASRM 2020.", "en": "Correct: consistent with ASRM 2020." } },
+        { "id": "c", "text": { "es": "Que con una AMH normal puede posponer el embarazo sin riesgo.", "en": "That with a normal AMH she can postpone pregnancy without risk." }, "correct": false, "why": { "es": "La AMH no predice el potencial reproductivo; una AMH normal no garantiza fertilidad futura.", "en": "AMH does not predict reproductive potential; a normal AMH does not guarantee future fertility." } },
+        { "id": "d", "text": { "es": "Que le conviene un test de clomifeno además de la AMH.", "en": "That a clomiphene challenge test in addition to AMH would help." }, "correct": false, "why": { "es": "Las pruebas dinámicas no mejoran la precisión y deberían abandonarse.", "en": "Dynamic tests do not improve accuracy and should be abandoned." } }
+      ],
+      "explanation": { "es": "Ni una AMH baja obliga a congelar, ni una AMH normal autoriza a esperar sin riesgo.", "en": "A low AMH does not mandate freezing, and a normal AMH does not make waiting risk-free." },
+      "refIds": ["asrm-2020-ovarian-reserve"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.q8-ccct",
+      "kind": "question",
+      "conceptId": "fert.or.obsolete-tests",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": ["hormones", "reproduction"],
+      "stem": { "es": "Sobre la FSH basal como marcador de baja reserva ovárica, ¿qué afirmación es correcta?", "en": "Regarding basal FSH as a marker of diminished ovarian reserve, which statement is correct?" },
+      "options": [
+        { "id": "a", "text": { "es": "Es sensible: una FSH normal descarta baja reserva.", "en": "It is sensitive: a normal FSH rules out low reserve." }, "correct": false, "why": { "es": "Es poco sensible: una FSH normal no la descarta.", "en": "It is not sensitive: a normal FSH does not rule it out." } },
+        { "id": "b", "text": { "es": "Es específica pero poco sensible.", "en": "It is specific but not sensitive." }, "correct": true, "why": { "es": "Correcta: si está elevada orienta, pero si es normal no descarta.", "en": "Correct: if elevated it is informative, but if normal it does not rule out." } },
+        { "id": "c", "text": { "es": "Su precisión mejora con un test de clomifeno.", "en": "Its accuracy improves with a clomiphene challenge test." }, "correct": false, "why": { "es": "Las pruebas dinámicas no mejoran la precisión frente a los marcadores basales.", "en": "Dynamic tests do not improve accuracy over basal markers." } },
+        { "id": "d", "text": { "es": "Es el marcador que ESHRE recomienda para predecir la respuesta.", "en": "It is the marker ESHRE recommends to predict response." }, "correct": false, "why": { "es": "ESHRE recomienda AFC o AMH, no FSH basal.", "en": "ESHRE recommends AFC or AMH, not basal FSH." } }
+      ],
+      "explanation": { "es": "Para estimar la reserva cuando hace falta, AFC o AMH; la FSH aislada no descarta y el test de clomifeno debería abandonarse.", "en": "To estimate reserve when needed, AFC or AMH; isolated FSH does not rule out and the clomiphene test should be abandoned." },
+      "refIds": ["asrm-2020-ovarian-reserve", "eshre-2025-ovarian-stimulation"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    },
+    {
+      "id": "fert-or.case1-lucia",
+      "kind": "case",
+      "conceptId": "fert.or.case-lucia",
+      "rev": 1,
+      "tags": ["reproduction"],
+      "title": { "es": "Caso: Lucía y una AMH “baja”", "en": "Case: Lucía and a “low” AMH" },
+      "steps": [
+        {
+          "id": "fert-or.case1.s1",
+          "text": {
+            "es": "Lucía (caso ficticio), 34 años, nulípara, ciclos regulares. Su pareja tiene 36 años. Buscan embarazo desde hace 5 meses. Un control laboral incluyó una AMH informada como “baja” según el rango de ese laboratorio. Llega angustiada y pregunta si debería congelar óvulos o “pasar directamente a FIV”.",
+            "en": "Lucía (fictional case), 34, nulliparous, regular cycles. Her partner is 36. They have been trying for 5 months. A workplace check-up included an AMH reported as “low” by that laboratory's range. She is distressed and asks whether she should freeze her eggs or “go straight to IVF”."
+          }
+        },
+        {
+          "id": "fert-or.case1.s2",
+          "text": {
+            "es": "Primer paso: explicar qué mide la AMH (cantidad de folículos) y qué no mide (calidad ovocitaria, probabilidad de embarazo espontáneo).",
+            "en": "First step: explain what AMH measures (follicle number) and what it does not (oocyte quality, chance of spontaneous pregnancy)."
+          },
+          "questionId": "fert-or.q3-36yo-low-amh"
+        },
+        {
+          "id": "fert-or.case1.s3",
+          "text": {
+            "es": "Segundo paso: la AMH no indica que deba congelar ni que deba pasar a FIV. El plan se basa en su edad, el tiempo de búsqueda y la evaluación de ambos miembros de la pareja si no logran embarazo en el plazo que corresponda a su edad.",
+            "en": "Second step: AMH does not indicate that she should freeze or move to IVF. The plan is based on her age, time trying and assessment of both partners if they do not conceive within the timeframe appropriate for her age."
+          },
+          "questionId": "fert-or.q7-egg-freezing"
+        },
+        {
+          "id": "fert-or.case1.s4",
+          "text": {
+            "es": "Giro: meses después, con estudio completo y una indicación de FIV, la AMH (o el AFC) sí aporta: ayuda a anticipar su respuesta a la estimulación y a ajustar el asesoramiento, sin usarse para negar el tratamiento.",
+            "en": "Twist: months later, with a full work-up and an indication for IVF, AMH (or AFC) does help: it anticipates her response to stimulation and adjusts counselling, without being used to refuse treatment."
+          },
+          "questionId": "fert-or.q6-very-low-amh-ivf"
+        },
+        {
+          "id": "fert-or.case1.s5",
+          "text": {
+            "es": "Comunicación: validar la angustia, explicar la incertidumbre con honestidad y evitar que una cifra aislada se convierta en un diagnóstico.",
+            "en": "Communication: acknowledge her distress, explain the uncertainty honestly and avoid letting an isolated number become a diagnosis."
+          }
+        }
+      ],
+      "refIds": ["asrm-2020-ovarian-reserve", "steiner-2017-jama", "eshre-2025-ovarian-stimulation"],
+      "editorial": { "status": "sources-verified", "reviewedAt": "2026-10-12" }
+    }
+  ]
+}
