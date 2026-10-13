@@ -1,0 +1,1572 @@
+{
+  "id": "fert-rpl-rif",
+  "macroId": "fert",
+  "title": {
+    "es": "Pérdida gestacional recurrente y fallo de implantación recurrente",
+    "en": "Recurrent pregnancy loss and recurrent implantation failure"
+  },
+  "lessons": [
+    {
+      "id": "fert-rr.l1-rpl-workup",
+      "microId": "fert.rpl",
+      "title": {
+        "es": "Pérdida gestacional recurrente: definición, pronóstico y estudio",
+        "en": "Recurrent pregnancy loss: definition, prognosis and work-up"
+      },
+      "objective": {
+        "es": "Aplicar la definición de la ESHRE (dos o más pérdidas), basar el pronóstico en la edad y la historia gestacional, y distinguir los estudios recomendados (antifosfolípidos, tiroides, útero) de los condicionales (genética, fragmentación espermática) y los no recomendados (trombofilia hereditaria, paneles inmunitarios y hormonales).",
+        "en": "Apply the ESHRE definition (two or more losses), base prognosis on age and pregnancy history, and distinguish recommended investigations (antiphospholipid antibodies, thyroid, uterus) from conditional ones (genetics, sperm DNA fragmentation) and those not recommended (inherited thrombophilia, immune and hormone panels)."
+      },
+      "closing": {
+        "es": "Tras dos pérdidas: antifosfolípidos, TSH con anti-TPO y útero; el resto, solo si cambia algo. La trombofilia hereditaria no se busca de rutina, y el pronóstico, basado en la edad y la historia, es en sí una parte esencial del manejo.",
+        "en": "After two losses: antiphospholipid antibodies, TSH with TPO antibodies and the uterus; everything else only if it changes something. Inherited thrombophilia is not routinely sought, and prognosis, based on age and history, is itself an essential part of management."
+      },
+      "prerequisites": [
+        "fert.couple-evaluation"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "fert-rr.c1-definition",
+        "fert-rr.c2-prognosis",
+        "fert-rr.c3-core-workup",
+        "fert-rr.c4-genetics",
+        "fert-rr.c5-not-recommended-tests",
+        "fert-rr.c6-male-factor",
+        "fert-rr.q1-two-losses",
+        "fert-rr.q2-thrombophilia",
+        "fert-rr.q3-karyotype"
+      ]
+    },
+    {
+      "id": "fert-rr.l2-rpl-treatment",
+      "microId": "fert.rpl",
+      "title": {
+        "es": "Pérdida gestacional recurrente: tratamiento y cuidado de apoyo",
+        "en": "Recurrent pregnancy loss: treatment and supportive care"
+      },
+      "objective": {
+        "es": "Indicar aspirina más heparina solo en el síndrome antifosfolípido, reconocer el subgrupo en el que la progesterona vaginal puede mejorar el nacido vivo, explicar por qué no se recomiendan la heparina ni las inmunoterapias en la PGR inexplicada, y dar consejo de estilo de vida y apoyo psicológico según la ESHRE.",
+        "en": "Use aspirin plus heparin only in antiphospholipid syndrome, recognise the subgroup in which vaginal progesterone may improve live birth, explain why heparin and immunotherapies are not recommended in unexplained RPL, and give lifestyle advice and psychological support according to ESHRE."
+      },
+      "closing": {
+        "es": "SAF: aspirina antes de concebir y heparina desde el test positivo. PGR inexplicada: ni heparina ni inmunoterapia; progesterona vaginal si hay tres o más pérdidas y sangrado. Y siempre: quitar culpa, informar del pronóstico y acompañar la siguiente gestación.",
+        "en": "APS: aspirin before conception and heparin from the positive test. Unexplained RPL: no heparin or immunotherapy; vaginal progesterone with three or more losses and bleeding. And always: remove guilt, share the prognosis and support the next pregnancy."
+      },
+      "prerequisites": [
+        "fert.rpl"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "fert-rr.c7-aps",
+        "fert-rr.c8-unexplained-progesterone",
+        "fert-rr.c9-immunotherapies",
+        "fert-rr.c10-lifestyle-supplements",
+        "fert-rr.c11-supportive-care",
+        "fert-rr.q4-progesterone-bleeding",
+        "fert-rr.q5-aps-regimen",
+        "fert-rr.q6-immune-unexplained",
+        "fert-rr.q7-stress-folate",
+        "fert-rr.case1-sofia-joaquin"
+      ]
+    },
+    {
+      "id": "fert-rr.l3-rif",
+      "microId": "fert.rif",
+      "title": {
+        "es": "Fallo de implantación recurrente: definición, estudio e intervenciones",
+        "en": "Recurrent implantation failure: definition, work-up and interventions"
+      },
+      "objective": {
+        "es": "Aplicar la definición individual de FIR de la ESHRE con el umbral del 60 %, clasificar sus estudios e intervenciones en recomendados, a considerar y no recomendados, y reconocer dónde coinciden o discrepan la guía de PGR, el documento de add-ons y NICE.",
+        "en": "Apply ESHRE’s individual RIF definition with the 60% threshold, classify its investigations and interventions as recommended, to be considered or not recommended, and recognise where the RPL guideline, the add-ons document and NICE agree or differ."
+      },
+      "closing": {
+        "es": "El FIR se define por la probabilidad acumulada de cada paciente, no por un número fijo de transferencias; casi todas las intervenciones populares no se recomiendan, y las recomendaciones de la PGR no se trasladan automáticamente al FIR.",
+        "en": "RIF is defined by each patient’s cumulative probability, not by a fixed number of transfers; almost all popular interventions are not recommended, and RPL recommendations do not automatically carry over to RIF."
+      },
+      "prerequisites": [
+        "fert.ivf-icsi",
+        "fert.addons-overview"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "fert-rr.c12-rif-definition",
+        "fert-rr.c13-rif-workup",
+        "fert-rr.c14-rif-interventions",
+        "fert-rr.c15-overlap-disagreements",
+        "fert-rr.c16-rif-counselling",
+        "fert-rr.q8-rif-threshold",
+        "fert-rr.q9-rif-heparin-immune",
+        "fert-rr.q10-rif-what-to-consider"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c1-definition",
+      "type": "concept",
+      "conceptId": "fert-rr.rpl-definition",
+      "title": {
+        "es": "Pérdida gestacional recurrente: dos pérdidas bastan para plantearla",
+        "en": "Recurrent pregnancy loss: two losses are enough to consider it"
+      },
+      "core": {
+        "es": "La ESHRE indica que puede considerarse el diagnóstico de pérdida gestacional recurrente (PGR) tras la pérdida de dos o más gestaciones, consecutivas o no. Cuenta toda gestación confirmada por β-hCG en suero u orina, incluidas las pérdidas no visualizadas (bioquímicas), tanto espontáneas como tras TRA; excluye la gestación ectópica, la molar y el fallo de implantación. [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE states that a diagnosis of recurrent pregnancy loss (RPL) could be considered after the loss of two or more pregnancies, consecutive or not. Any pregnancy confirmed by serum or urine β-hCG counts, including non-visualised (biochemical) losses, after both spontaneous conception and ART; ectopic and molar pregnancy and implantation failure are excluded. [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "La pérdida gestacional se define como la muerte espontánea de la gestación antes de la viabilidad, es decir, hasta las 24 semanas. La PGR primaria es la que ocurre sin una gestación previa más allá de las 24 semanas; la secundaria, tras una o más gestaciones que superaron las 24 semanas. [[ref:eshre-2022-rpl]]\n\nEl grupo eligió dos pérdidas porque facilita la investigación, la toma de decisiones compartida y el apoyo psicológico, y permite estudiar el síndrome antifosfolípido (tratable) tras dos pérdidas; reconoce que algunos de sus miembros discrepan y mantienen tres o más pérdidas consecutivas. La prevalencia es difícil de estimar: alrededor del 1–2 % de las mujeres con la definición de tres pérdidas consecutivas antes de las 20 semanas; según otra revisión, del 0,8–1,4 % si solo se cuentan las pérdidas clínicas y del 2–3 % si se suman las bioquímicas. [[ref:eshre-2022-rpl]]",
+        "en": "Pregnancy loss is defined as the spontaneous demise of a pregnancy before the fetus reaches viability, that is, up to 24 weeks. Primary RPL occurs without a previous pregnancy beyond 24 weeks; secondary RPL follows one or more pregnancies that progressed beyond 24 weeks. [[ref:eshre-2022-rpl]]\n\nThe group chose two losses because it facilitates research, shared decision-making and psychological support, and allows testing for (treatable) antiphospholipid syndrome after two losses; it acknowledges that some members disagree and keep three or more consecutive losses. Prevalence is hard to estimate: about 1–2% of women with the definition of three consecutive losses before 20 weeks; according to another review, 0.8–1.4% if only clinical losses are counted and 2–3% when biochemical losses are added. [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "Dos pérdidas abren la puerta al estudio, pero cuándo empezar cada prueba se decide con la pareja: la propia ESHRE lo deja a la decisión compartida y a los recursos disponibles.",
+        "en": "Two losses open the door to investigation, but when to start each test is decided with the couple: ESHRE itself leaves it to shared decision-making and available resources."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: definición como «conclusión» del grupo elaborador (sin grado). En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: definition as a guideline group “conclusion” (ungraded). On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Con cuántas pérdidas puede considerarse PGR según la ESHRE y qué tipos de pérdida quedan fuera de la definición?",
+        "en": "After how many losses can RPL be considered according to ESHRE, and which types of loss are excluded from the definition?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c2-prognosis",
+      "type": "concept",
+      "conceptId": "fert-rr.prognosis",
+      "title": {
+        "es": "Pronóstico: la edad y la historia obstétrica completa dicen más que cualquier prueba",
+        "en": "Prognosis: age and the full pregnancy history say more than any test"
+      },
+      "core": {
+        "es": "La ESHRE recomienda basar el pronóstico en la edad de la mujer y en su historia gestacional completa: número de pérdidas previas, nacidos vivos y su secuencia (fuerte, ⊕⊕⊕○). Herramientas pronósticas como la de Kolte y Westergaard pueden usarse para estimar la probabilidad de nacido vivo (GPP). [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE recommends basing prognosis on the woman’s age and her complete pregnancy history: number of previous losses, live births and their sequence (strong, ⊕⊕⊕○). Prognostic tools such as the Kolte and Westergaard tool can be used to estimate the chance of live birth (GPP). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "Hay que informar con tacto de que el riesgo de pérdida es mínimo entre los 20 y los 35 años y de que aumenta rápidamente después de los 40 (ambas fuertes). El número de pérdidas previas es un factor pronóstico constante en los estudios de cohortes, tanto para la siguiente gestación como a largo plazo. [[ref:eshre-2022-rpl]]\n\nLos factores genéticos, endocrinos, anatómicos y autoinmunes explican en conjunto un 50–60 % de las PGR, y un 40–50 % queda sin explicación. Como no hay intervenciones que hayan demostrado mejorar el nacido vivo en la PGR inexplicada, informar del pronóstico individual es en sí una parte esencial del manejo. [[ref:eshre-2022-rpl]]",
+        "en": "Women should be sensitively informed that the risk of loss is lowest between 20 and 35 years and rises rapidly after 40 (both strong). The number of previous losses is a consistent prognostic factor in cohort studies, both for the next pregnancy and in the long term. [[ref:eshre-2022-rpl]]\n\nGenetic, endocrine, anatomical and autoimmune factors together account for an estimated 50–60% of RPL, leaving 40–50% unexplained. Because no intervention has been shown to improve live birth in unexplained RPL, informing couples of their individual prognosis is itself an essential part of management. [[ref:eshre-2022-rpl]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 10 fuerte, ⊕⊕⊕○ (actualizada 2022); rec. 41 GPP (actualizada 2022); rec. 1 y 2 fuertes. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: rec. 10 strong, ⊕⊕⊕○ (updated 2022); rec. 41 GPP (updated 2022); recs 1 and 2 strong. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿En qué dos elementos basa la ESHRE el pronóstico de una pareja con PGR?",
+        "en": "On which two elements does ESHRE base the prognosis of a couple with RPL?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c3-core-workup",
+      "type": "what-i-would-do",
+      "conceptId": "fert-rr.core-workup",
+      "title": {
+        "es": "El estudio que sí recomienda la ESHRE: antifosfolípidos, tiroides y útero",
+        "en": "The work-up ESHRE does recommend: antiphospholipid antibodies, thyroid and uterus"
+      },
+      "core": {
+        "es": "Tras dos pérdidas, la ESHRE recomienda estudiar anticuerpos antifosfolípido: anticoagulante lúpico y anticardiolipina IgG e IgM (fuerte); los anti-β2-glucoproteína I pueden considerarse (GPP). Recomienda TSH y anticuerpos anti-TPO (fuerte), seguidos de T4 si la TSH es anormal (fuerte), y valorar la anatomía uterina en todas las mujeres (fuerte). [[ref:eshre-2022-rpl]]",
+        "en": "After two losses, ESHRE recommends testing for antiphospholipid antibodies: lupus anticoagulant and anticardiolipin IgG and IgM (strong); anti-β2 glycoprotein I can be considered (GPP). It recommends TSH and TPO antibodies (strong), followed by T4 if TSH is abnormal (strong), and assessment of uterine anatomy in all women (strong). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "Útero: la técnica preferida es la ecografía 3D transvaginal, que distingue el útero septo del bicorpóreo (condicional); la histerosonografía es más exacta que la histerosalpingografía y sirve si no hay 3D o hay que estudiar la permeabilidad tubárica (condicional); la RM no es de primera línea, pero es buena alternativa si no hay 3D (condicional). Puede hacerse ecografía 2D para descartar adenomiosis (condicional, ⊕⊕○○). Ante una malformación mülleriana debe considerarse estudiar riñones y vía urinaria (condicional). [[ref:eshre-2022-rpl]]\n\nTiroides: la justificación es la alta prevalencia de hipotiroidismo subclínico y autoinmunidad tiroidea en la PGR. La ESHRE indica no tratar con levotiroxina a la mujer eutiroidea con anticuerpos (fuerte, ⊕⊕⊕○) y tratar el hipotiroidismo franco (fuerte). El manejo detallado del tiroides en el embarazo queda fuera de este módulo. [[ref:eshre-2022-rpl]]",
+        "en": "Uterus: the preferred technique is transvaginal 3D ultrasound, which distinguishes septate from bicorporeal uterus (conditional); sonohysterography is more accurate than hysterosalpingography and can be used if 3D is unavailable or tubal patency must be assessed (conditional); MRI is not first line but is a good alternative if 3D is unavailable (conditional). 2D ultrasound can be done to rule out adenomyosis (conditional, ⊕⊕○○). If a Müllerian malformation is found, investigation of the kidneys and urinary tract should be considered (conditional). [[ref:eshre-2022-rpl]]\n\nThyroid: the rationale is the high prevalence of subclinical hypothyroidism and thyroid autoimmunity in RPL. ESHRE advises against levothyroxine in euthyroid women with antibodies (strong, ⊕⊕⊕○) and to treat overt hypothyroidism (strong). Detailed thyroid management in pregnancy is beyond the scope of this module. [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "Tres frentes con recomendación fuerte: antifosfolípidos, tiroides (TSH + anti-TPO) y anatomía uterina. Lo demás es condicional o no recomendado.",
+        "en": "Three fronts with a strong recommendation: antiphospholipid antibodies, thyroid (TSH + TPO antibodies) and uterine anatomy. Everything else is conditional or not recommended."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 15, 24, 25, 33 fuertes; rec. 16 GPP; rec. 34–37 condicionales; rec. 38 condicional, ⊕⊕○○ (nueva 2022); rec. 51 fuerte, ⊕⊕⊕○ (actualizada 2022); rec. 47 fuerte. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: recs 15, 24, 25, 33 strong; rec. 16 GPP; recs 34–37 conditional; rec. 38 conditional, ⊕⊕○○ (new 2022); rec. 51 strong, ⊕⊕⊕○ (updated 2022); rec. 47 strong. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué tres estudios recomienda la ESHRE con fuerza en toda mujer con PGR?",
+        "en": "Which three investigations does ESHRE strongly recommend in every woman with RPL?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c4-genetics",
+      "type": "concept",
+      "conceptId": "fert-rr.genetics",
+      "title": {
+        "es": "Genética: estudio del tejido gestacional y cariotipo de los padres, sin rutina",
+        "en": "Genetics: pregnancy tissue analysis and parental karyotyping, not routinely"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda de rutina el análisis genético del tejido gestacional, aunque puede hacerse con fines explicativos (condicional); si se hace, recomienda array-CGH por su menor efecto de contaminación materna (fuerte). El cariotipo de los padres puede hacerse tras valorar el riesgo individual, con fines diagnósticos o explicativos (condicional). [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE does not routinely recommend genetic analysis of pregnancy tissue, although it could be performed for explanatory purposes (conditional); if done, it recommends array-CGH because of its reduced maternal contamination effect (strong). Parental karyotyping could be carried out after individual risk assessment, for diagnostic or explanatory purposes (conditional). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "No hace falta estudiar a todas las parejas: hay que informar de que, aunque se encuentre una alteración en uno de los padres, las tasas acumuladas de nacido vivo son buenas, y explicar las limitaciones del cariotipo y lo que supone su resultado. La probabilidad de ser portador es muy baja con edad materna de 39 años o más, menos de tres pérdidas y sin antecedentes familiares. [[ref:eshre-2022-rpl]]\n\nToda pareja con cariotipo fetal o parental anormal debe recibir consejo genético (GPP) e información sobre las opciones de tratamiento, con sus ventajas e inconvenientes (GPP); la escasa evidencia sobre el diagnóstico genético preimplantacional en la PGR no muestra un beneficio claro (calidad muy baja). [[ref:eshre-2022-rpl]]",
+        "en": "Not every couple needs testing: they should be told that even if a parental abnormality is found, cumulative live birth rates are good, and the limitations of karyotyping and the impact of its result should be explained. The probability of carrier status is very low with female age 39 or over, fewer than three losses and a negative family history. [[ref:eshre-2022-rpl]]\n\nEvery couple with an abnormal fetal or parental karyotype should receive genetic counselling (GPP) and information on treatment options, with their advantages and disadvantages (GPP); the limited evidence on preimplantation genetic testing in RPL shows no clear benefit (very low quality). [[ref:eshre-2022-rpl]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 11 y 13 condicionales; rec. 12 fuerte; rec. 42 y 43 GPP. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: recs 11 and 13 conditional; rec. 12 strong; recs 42 and 43 GPP. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué técnica recomienda la ESHRE si se analiza el tejido gestacional y por qué?",
+        "en": "Which technique does ESHRE recommend if pregnancy tissue is analysed, and why?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c5-not-recommended-tests",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-rr.not-recommended-tests",
+      "title": {
+        "es": "Lo que no pediría: trombofilia hereditaria, panel inmunológico y hormonas «por si acaso»",
+        "en": "What I would not order: inherited thrombophilia, immune panels and hormones “just in case”"
+      },
+      "core": {
+        "es": "La ESHRE sugiere no estudiar la trombofilia hereditaria en la PGR salvo en investigación o con factores de riesgo adicionales de trombofilia (condicional), porque la asociación es nula o, como mucho, débil. ACOG tampoco recomienda el cribado de trombofilias hereditarias tras pérdidas fetales (nivel B), pero pide considerar los anticuerpos antifosfolípido en la pérdida recurrente. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "ESHRE suggests not screening for inherited thrombophilia in RPL except in research or with additional risk factors for thrombophilia (conditional), because the association is absent or at best weak. ACOG also does not recommend screening for inherited thrombophilias after fetal loss (Level B), but asks to consider antiphospholipid antibodies in recurrent loss. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]"
+      },
+      "body": {
+        "es": "Inmunología: la ESHRE no recomienda en la práctica clínica el tipaje HLA (condicional), los anticuerpos anti-HY (condicional), las citocinas ni sus polimorfismos (fuertes) ni los anticuerpos anti-HLA (fuerte), y considera insuficiente la evidencia para estudiar células NK en sangre o endometrio (fuerte). Los ANA pueden considerarse con fines explicativos (condicional). [[ref:eshre-2022-rpl]]\n\nEndocrino y metabólico: no recomienda estudiar SOP, insulina y glucosa en ayunas (fuerte), reserva ovárica (fuerte), insuficiencia lútea (fuerte), andrógenos (fuerte), LH (fuerte) ni homocisteína (fuerte), ni la prolactina sin clínica de hiperprolactinemia (condicional). [[ref:eshre-2022-rpl]]\n\nACOG añade que la mutación MTHFR y la homocisteína en ayunas no deben estudiarse (nivel B). [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "Immunology: ESHRE does not recommend HLA typing (conditional), anti-HY antibodies (conditional), cytokines or cytokine polymorphisms (strong) or anti-HLA antibodies (strong) in clinical practice, and considers the evidence insufficient for NK-cell testing in blood or endometrium (strong). ANA could be considered for explanatory purposes (conditional). [[ref:eshre-2022-rpl]]\n\nEndocrine and metabolic: it does not recommend testing for PCOS, fasting insulin and glucose (strong), ovarian reserve (strong), luteal phase insufficiency (strong), androgens (strong), LH (strong) or homocysteine (strong), nor prolactin without symptoms of hyperprolactinaemia (conditional). [[ref:eshre-2022-rpl]]\n\nACOG adds that MTHFR mutation analysis and fasting homocysteine should not be tested (Level B). [[ref:acog-2018-pb197-thrombophilia]]"
+      },
+      "pearl": {
+        "es": "Trombofilia hereditaria y síndrome antifosfolípido no son lo mismo: la primera no se busca de rutina; el segundo sí.",
+        "en": "Inherited thrombophilia and antiphospholipid syndrome are not the same: the first is not routinely sought; the second is."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE 2022: rec. 17 condicional, ⊕⊕○○ (actualizada 2022); rec. 14, 18, 21, 27 condicionales; rec. 19, 20, 22, 23, 26, 28–32 fuertes. ACOG PB 197 (2018), nivel B. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: rec. 17 conditional, ⊕⊕○○ (updated 2022); recs 14, 18, 21, 27 conditional; recs 19, 20, 22, 23, 26, 28–32 strong. ACOG PB 197 (2018), Level B. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿En qué coinciden la ESHRE y ACOG sobre la trombofilia hereditaria en la pérdida gestacional recurrente?",
+        "en": "On what do ESHRE and ACOG agree regarding inherited thrombophilia in recurrent pregnancy loss?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c6-male-factor",
+      "type": "concept",
+      "conceptId": "fert-rr.male-factor",
+      "title": {
+        "es": "El varón también cuenta: estilo de vida y fragmentación del ADN espermático",
+        "en": "The male partner counts too: lifestyle and sperm DNA fragmentation"
+      },
+      "core": {
+        "es": "En la PGR, la ESHRE recomienda valorar el estilo de vida del varón: edad paterna, tabaco, alcohol, ejercicio y peso (fuerte, ⊕⊕○○). La fragmentación del ADN espermático puede considerarse con fines diagnósticos (condicional, ⊕⊕⊕○), por la creciente evidencia de su asociación con la PGR. [[ref:eshre-2022-rpl]]",
+        "en": "In RPL, ESHRE recommends assessing the male partner’s lifestyle: paternal age, smoking, alcohol, exercise and weight (strong, ⊕⊕○○). Sperm DNA fragmentation could be considered for diagnostic purposes (conditional, ⊕⊕⊕○), given the growing evidence of its association with RPL. [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "La ESHRE recuerda que la PGR se consideró durante mucho tiempo un problema exclusivamente femenino y que los posibles factores masculinos no se han tenido suficientemente en cuenta. En el tratamiento, no hay evidencia que respalde la selección espermática con PICSI en la PGR (condicional, ⊕○○○), y los antioxidantes para el varón no han demostrado mejorar el nacido vivo (condicional). [[ref:eshre-2022-rpl]]\n\nOjo con la aplicación fuera de la PGR: en el fallo de implantación recurrente, el grupo de trabajo de la ESHRE no recomienda la fragmentación del ADN espermático ni el FISH de espermatozoides. [[ref:eshre-2023-rif]]",
+        "en": "ESHRE notes that RPL was long considered an exclusively female problem and that possible male factors have not been adequately taken into account. For treatment, there is no evidence to support PICSI sperm selection in RPL (conditional, ⊕○○○), and antioxidants for men have not been shown to improve live birth (conditional). [[ref:eshre-2022-rpl]]\n\nBeware of applying this outside RPL: in recurrent implantation failure, the ESHRE working group does not recommend sperm DNA fragmentation or sperm FISH testing. [[ref:eshre-2023-rif]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 39 fuerte, ⊕⊕○○; rec. 40 condicional, ⊕⊕⊕○; rec. 66 condicional, ⊕○○○ (las tres actualizadas 2022); rec. 67 condicional. ESHRE RIF 2023: «not recommended». En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: rec. 39 strong, ⊕⊕○○; rec. 40 conditional, ⊕⊕⊕○; rec. 66 conditional, ⊕○○○ (all three updated 2022); rec. 67 conditional. ESHRE RIF 2023: “not recommended”. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice la ESHRE sobre la fragmentación del ADN espermático en la PGR y en qué difiere el documento sobre fallo de implantación?",
+        "en": "What does ESHRE say about sperm DNA fragmentation in RPL, and how does the implantation failure document differ?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q1-two-losses",
+      "conceptId": "fert-rr.core-workup",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 31 años (caso ficticio) ha tenido dos pérdidas de primer trimestre no consecutivas, con un hijo nacido entre ambas. Pregunta si «ya merece la pena estudiarse». Según la ESHRE, ¿qué es lo más adecuado?",
+        "en": "A 31-year-old woman (fictional case) has had two non-consecutive first-trimester losses, with a child born between them. She asks whether it is “worth being investigated yet”. According to ESHRE, what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Esperar a una tercera pérdida consecutiva, porque con dos no se habla de PGR.",
+            "en": "Wait for a third consecutive loss, because two do not count as RPL."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE considera la PGR tras dos pérdidas, consecutivas o no; algunos miembros del grupo prefieren tres, pero no es la definición de la guía.",
+            "en": "ESHRE considers RPL after two losses, consecutive or not; some group members prefer three, but that is not the guideline definition."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Considerar el diagnóstico de PGR y ofrecer anticuerpos antifosfolípido, TSH con anti-TPO y evaluación uterina.",
+            "en": "Consider an RPL diagnosis and offer antiphospholipid antibodies, TSH with TPO antibodies and uterine assessment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: dos pérdidas bastan, y estos tres estudios tienen recomendación fuerte de la ESHRE.",
+            "en": "Correct: two losses are enough, and these three investigations carry a strong ESHRE recommendation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir un panel de trombofilia hereditaria (factor V Leiden, protrombina, MTHFR).",
+            "en": "Order an inherited thrombophilia panel (factor V Leiden, prothrombin, MTHFR)."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE sugiere no estudiar la trombofilia hereditaria salvo factores de riesgo adicionales o investigación, y ACOG no recomienda el MTHFR.",
+            "en": "ESHRE suggests not screening for inherited thrombophilia except with additional risk factors or in research, and ACOG advises against MTHFR testing."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir reserva ovárica (AMH) y progesterona en fase lútea.",
+            "en": "Order ovarian reserve (AMH) and luteal-phase progesterone."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda estudiar la reserva ovárica ni la insuficiencia lútea en la PGR (ambas fuertes).",
+            "en": "ESHRE recommends against testing ovarian reserve or luteal phase insufficiency in RPL (both strong)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La definición de la ESHRE incluye pérdidas no consecutivas y la PGR secundaria; el estudio básico se centra en lo que puede cambiar el manejo: antifosfolípidos, tiroides y útero.",
+        "en": "The ESHRE definition includes non-consecutive losses and secondary RPL; the core work-up focuses on what can change management: antiphospholipid antibodies, thyroid and uterus."
+      },
+      "refIds": [
+        "eshre-2022-rpl",
+        "acog-2018-pb197-thrombophilia"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q2-thrombophilia",
+      "conceptId": "fert-rr.not-recommended-tests",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una pareja con tres pérdidas tempranas, sin antecedentes personales ni familiares de trombosis, un colega quiere pedir factor V Leiden, mutación de la protrombina y MTHFR «para poner heparina si sale algo». ¿Qué respuesta se ajusta a ESHRE y ACOG?",
+        "en": "In a couple with three early losses and no personal or family history of thrombosis, a colleague wants to order factor V Leiden, prothrombin mutation and MTHFR “to start heparin if anything is positive”. Which answer fits ESHRE and ACOG?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es razonable: un resultado positivo justifica heparina profiláctica para mejorar el nacido vivo.",
+            "en": "It is reasonable: a positive result justifies prophylactic heparin to improve live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no encontró beneficio de la anticoagulación en la PGR con trombofilia hereditaria y sugiere no usarla salvo investigación o prevención de tromboembolismo venoso.",
+            "en": "ESHRE found no benefit of anticoagulation in RPL with inherited thrombophilia and suggests not using it except in research or for VTE prevention."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo tiene sentido pedir MTHFR y homocisteína, que son las más asociadas a pérdida.",
+            "en": "Only MTHFR and homocysteine make sense, as they are most associated with loss."
+          },
+          "correct": false,
+          "why": {
+            "es": "ACOG no recomienda MTHFR ni homocisteína en ayunas, y la ESHRE no recomienda medir la homocisteína de rutina (fuerte).",
+            "en": "ACOG advises against MTHFR and fasting homocysteine testing, and ESHRE recommends against routine homocysteine measurement (strong)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No estudiar la trombofilia hereditaria de rutina; sí estudiar anticuerpos antifosfolípido.",
+            "en": "Do not routinely test for inherited thrombophilia; do test for antiphospholipid antibodies."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas instituciones desaconsejan el cribado de trombofilia hereditaria en este contexto y recomiendan (ESHRE) o piden considerar (ACOG) los antifosfolípidos.",
+            "en": "Correct: both bodies advise against inherited thrombophilia screening in this setting and recommend (ESHRE) or ask to consider (ACOG) antiphospholipid antibodies."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir el panel completo, porque las guías lo recomiendan a partir de tres pérdidas.",
+            "en": "Order the full panel, because guidelines recommend it from three losses."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las dos guías lo recomienda por el número de pérdidas; la ESHRE lo reserva para investigación o factores de riesgo adicionales.",
+            "en": "Neither guideline recommends it by number of losses; ESHRE reserves it for research or additional risk factors."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La pregunta clave es si el resultado cambia el tratamiento: con trombofilia hereditaria, la anticoagulación no ha demostrado mejorar el nacido vivo; con síndrome antifosfolípido, sí hay un tratamiento sugerido.",
+        "en": "The key question is whether the result changes treatment: with inherited thrombophilia, anticoagulation has not been shown to improve live birth; with antiphospholipid syndrome, there is a suggested treatment."
+      },
+      "refIds": [
+        "eshre-2022-rpl",
+        "acog-2018-pb197-thrombophilia"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q3-karyotype",
+      "conceptId": "fert-rr.genetics",
+      "difficulty": 2,
+      "stem": {
+        "es": "Pareja con dos pérdidas, mujer de 40 años, sin antecedentes familiares. Piden «el estudio genético completo de los dos». ¿Qué respuesta es más coherente con la ESHRE?",
+        "en": "A couple with two losses, the woman aged 40, no family history. They ask for “full genetic testing of both of us”. Which answer is most consistent with ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El cariotipo de ambos es obligatorio en toda PGR.",
+            "en": "Karyotyping of both is mandatory in all RPL."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo considera de rutina: es condicional y tras valorar el riesgo individual.",
+            "en": "ESHRE does not consider it routine: it is conditional and follows individual risk assessment."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Con su perfil la probabilidad de ser portadores es muy baja; el cariotipo puede hacerse tras valorar el riesgo y explicar sus limitaciones, y aunque saliera alterado las tasas acumuladas de nacido vivo son buenas.",
+            "en": "With their profile the probability of carrier status is very low; karyotyping could be done after risk assessment and explaining its limitations, and even if abnormal, cumulative live birth rates are good."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: resume la recomendación condicional y la información que la ESHRE pide dar.",
+            "en": "Correct: it summarises the conditional recommendation and the information ESHRE asks to give."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mejor pedir HLA y anticuerpos anti-HY, que explican más pérdidas que el cariotipo.",
+            "en": "Better to order HLA and anti-HY antibodies, which explain more losses than karyotyping."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda el HLA ni los anti-HY en la práctica clínica.",
+            "en": "ESHRE does not recommend HLA or anti-HY antibodies in clinical practice."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Si en otra pérdida se analiza el tejido, la técnica de elección es el cariotipo convencional por cultivo.",
+            "en": "If tissue is analysed after another loss, the technique of choice is conventional karyotyping by culture."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda array-CGH por su menor efecto de contaminación materna (fuerte).",
+            "en": "ESHRE recommends array-CGH because of its reduced maternal contamination effect (strong)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El cariotipo parental no es rutina: depende del riesgo individual y debe ir acompañado de información sobre su utilidad real y de consejo genético si es anormal.",
+        "en": "Parental karyotyping is not routine: it depends on individual risk and should come with information on its real usefulness and genetic counselling if abnormal."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c7-aps",
+      "type": "what-i-would-do",
+      "conceptId": "fert-rr.aps-treatment",
+      "title": {
+        "es": "Síndrome antifosfolípido: el único escenario con aspirina más heparina",
+        "en": "Antiphospholipid syndrome: the only scenario for aspirin plus heparin"
+      },
+      "core": {
+        "es": "En mujeres que cumplen los criterios de laboratorio de SAF y tienen tres o más pérdidas, la ESHRE sugiere aspirina a dosis bajas (75–100 mg/día) desde antes de la concepción y heparina a dosis profiláctica (no fraccionada o de bajo peso molecular) desde la prueba de embarazo positiva, frente a no tratar (condicional). Con dos pérdidas y SAF, sugiere anticoagular solo dentro de investigación clínica (GPP). [[ref:eshre-2022-rpl]]",
+        "en": "In women who meet the laboratory criteria for APS and have three or more losses, ESHRE suggests low-dose aspirin (75–100 mg/day) starting before conception and prophylactic-dose heparin (unfractionated or low molecular weight) starting at a positive pregnancy test, over no treatment (conditional). With two losses and APS, it suggests anticoagulation only in the context of clinical research (GPP). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "La justificación es que la combinación de heparina y aspirina parece mejorar el nacido vivo en mujeres con SAF y PGR. Estudiar los antifosfolípidos tras dos pérdidas tiene sentido precisamente porque el tratamiento en la siguiente gestación puede prevenir las complicaciones asociadas al SAF. [[ref:eshre-2022-rpl]]\n\nEn la trombofilia hereditaria, en cambio, la ESHRE no encontró beneficio de la anticoagulación y sugiere no usarla salvo investigación o indicación de prevención del tromboembolismo venoso (condicional); ACOG coincide en que no hay evidencia suficiente para la anticoagulación en la PGR con trombofilia hereditaria. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "The rationale is that combined heparin and aspirin appears to improve live birth in women with APS and RPL. Testing for antiphospholipid antibodies after two losses makes sense precisely because treatment in the next pregnancy can prevent APS-associated complications. [[ref:eshre-2022-rpl]]\n\nIn inherited thrombophilia, by contrast, ESHRE found no benefit of anticoagulation and suggests not using it except in research or when indicated for VTE prevention (conditional); ACOG agrees that there is insufficient evidence for anticoagulants in RPL with inherited thrombophilia. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]"
+      },
+      "pearl": {
+        "es": "Aspirina antes de concebir, heparina desde el test positivo, y solo si hay SAF de laboratorio con tres o más pérdidas.",
+        "en": "Aspirin before conception, heparin from the positive test, and only with laboratory APS and three or more losses."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 45 condicional; rec. 46 GPP; rec. 44 condicional. ACOG PB 197 (2018). En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: rec. 45 conditional; rec. 46 GPP; rec. 44 conditional. ACOG PB 197 (2018). On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué pauta sugiere la ESHRE en el SAF con tres o más pérdidas y cuándo empieza cada fármaco?",
+        "en": "Which regimen does ESHRE suggest for APS with three or more losses, and when does each drug start?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c8-unexplained-progesterone",
+      "type": "comparison",
+      "conceptId": "fert-rr.unexplained-treatment",
+      "title": {
+        "es": "PGR inexplicada: ni heparina ni aspirina; progesterona solo si hay sangrado",
+        "en": "Unexplained RPL: no heparin or aspirin; progesterone only with bleeding"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda heparina ni aspirina a dosis bajas en la PGR inexplicada, porque hay evidencia de que no mejoran el nacido vivo (fuerte). La progesterona vaginal puede mejorar el nacido vivo en mujeres con tres o más pérdidas y sangrado vaginal en la gestación siguiente (condicional, ⊕⊕⊕○). [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE does not recommend heparin or low-dose aspirin in unexplained RPL, because there is evidence that they do not improve live birth (strong). Vaginal progesterone may improve live birth in women with three or more losses and vaginal bleeding in a subsequent pregnancy (conditional, ⊕⊕⊕○). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "En el ensayo PROMISE, la progesterona vaginal (400 mg dos veces al día desde poco después del test positivo hasta la semana 12) no cambió el nacido vivo en la PGR inexplicada: 65,8 % frente a 63,3 % con placebo (RR 1,04; IC 95 % 0,94–1,15). Al combinar PROMISE y PRISM, en mujeres con al menos tres pérdidas y sangrado actual el nacido vivo aumentó (RR 1,28; IC 95 % 1,08–1,51; diferencia del 15 %). La justificación de la ESHRE concreta 400 mg vaginales dos veces al día desde la consulta hasta las 16 semanas completas. [[ref:eshre-2022-rpl]]\n\nLa didrogesterona oral iniciada al confirmar latido podría ser eficaz, pero faltan ensayos. Fuera del subgrupo con tres o más pérdidas y sangrado, la guía de 2022 no sugiere progesterona: en la «insuficiencia lútea» considera insuficiente la evidencia para recomendar progesterona (condicional) o hCG (condicional). [[ref:eshre-2022-rpl]]",
+        "en": "In the PROMISE trial, vaginal progesterone (400 mg twice daily from soon after a positive test to 12 weeks) did not change live birth in unexplained RPL: 65.8% vs 63.3% with placebo (RR 1.04; 95% CI 0.94–1.15). Combining PROMISE and PRISM, in women with at least three losses and current bleeding live birth increased (RR 1.28; 95% CI 1.08–1.51; rate difference 15%). ESHRE’s justification specifies vaginal progesterone 400 mg twice daily from presentation to 16 completed weeks. [[ref:eshre-2022-rpl]]\n\nOral dydrogesterone started when fetal heart activity is confirmed may be effective, but more trials are needed. Outside the subgroup with three or more losses and bleeding, the 2022 guideline does not suggest progesterone: in “luteal phase insufficiency” it considers the evidence insufficient to recommend progesterone (conditional) or hCG (conditional). [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "La indicación de la progesterona la define el sangrado en la nueva gestación de una mujer con tres o más pérdidas, no el diagnóstico de PGR.",
+        "en": "The indication for progesterone is defined by bleeding in the new pregnancy of a woman with three or more losses, not by the RPL diagnosis itself."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 71 fuerte; rec. 73 condicional, ⊕⊕⊕○ (actualizada 2022); rec. 52 y 53 condicionales. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: rec. 71 strong; rec. 73 conditional, ⊕⊕⊕○ (updated 2022); recs 52 and 53 conditional. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿En qué subgrupo de PGR sugiere la ESHRE progesterona vaginal y qué mostró PROMISE en la PGR inexplicada en general?",
+        "en": "In which RPL subgroup does ESHRE suggest vaginal progesterone, and what did PROMISE show in unexplained RPL overall?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c9-immunotherapies",
+      "type": "myth",
+      "conceptId": "fert-rr.immunotherapies",
+      "title": {
+        "es": "Inmunoterapias en la PGR inexplicada: casi todas descartadas",
+        "en": "Immunotherapies in unexplained RPL: almost all ruled out"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda la inmunización con linfocitos (fuerte), los glucocorticoides (fuerte), los intralípidos (fuerte, evidencia insuficiente) ni el G-CSF (fuerte, ⊕⊕⊕○) en la PGR inexplicada, y no hay evidencia para el scratching endometrial (GPP). La única excepción matizada son las inmunoglobulinas intravenosas. [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE does not recommend lymphocyte immunisation (strong), glucocorticoids (strong), intralipid (strong, insufficient evidence) or G-CSF (strong, ⊕⊕⊕○) in unexplained RPL, and there is no evidence for endometrial scratching (GPP). The only nuanced exception is intravenous immunoglobulin. [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "Para las inmunoglobulinas intravenosas, la ESHRE (2022) dice que dosis repetidas y altas muy al principio del embarazo pueden mejorar el nacido vivo en mujeres con cuatro o más pérdidas inexplicadas (condicional, ⊕⊕○○), basándose en un solo ECA de alta calidad y pidiendo más ensayos. La inmunización con linfocitos puede tener efectos adversos graves; con los corticoides hay algún indicio de beneficio con prednisolona, pero se desaconsejan por sus efectos adversos. [[ref:eshre-2022-rpl]]\n\nEn el G-CSF, un ensayo grande y de alta calidad (Eapen 2019) no mostró beneficio y prevalece sobre el ensayo previo más pequeño. [[ref:eshre-2022-rpl]] Fuera de la PGR, NICE indica no usar agentes inmunológicos (intralípidos, inmunoglobulinas o corticoides) como parte del tratamiento de fertilidad (1.42.1). [[ref:nice-2026-ng257]]",
+        "en": "For intravenous immunoglobulin, ESHRE (2022) states that repeated high doses very early in pregnancy may improve live birth in women with four or more unexplained losses (conditional, ⊕⊕○○), based on a single high-quality RCT and calling for more trials. Lymphocyte immunisation may have serious adverse effects; with glucocorticoids there is some sign of benefit with prednisolone, but they are advised against because of adverse effects. [[ref:eshre-2022-rpl]]\n\nFor G-CSF, a large high-quality trial (Eapen 2019) showed no benefit and overrides the earlier smaller trial. [[ref:eshre-2022-rpl]] Outside RPL, NICE advises against using immunological agents (intralipid, immunoglobulins or steroids) as part of fertility treatment (1.42.1). [[ref:nice-2026-ng257]]"
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE 2022: rec. 68, 70, 74 fuertes; rec. 75 fuerte, ⊕⊕⊕○ y rec. 69 condicional, ⊕⊕○○ (ambas actualizadas 2022); rec. 76 GPP. NICE NG257 1.42.1 [2026]. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: recs 68, 70, 74 strong; rec. 75 strong, ⊕⊕⊕○ and rec. 69 conditional, ⊕⊕○○ (both updated 2022); rec. 76 GPP. NICE NG257 1.42.1 [2026]. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué inmunoterapia es la única que la ESHRE deja abierta en la PGR inexplicada y en qué subgrupo?",
+        "en": "Which immunotherapy is the only one ESHRE leaves open in unexplained RPL, and in which subgroup?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "habits",
+        "supplements",
+        "diet"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c10-lifestyle-supplements",
+      "type": "diet",
+      "conceptId": "fert-rr.lifestyle-supplements",
+      "title": {
+        "es": "Estilo de vida y suplementos: lo que se aconseja y lo que no es tratamiento",
+        "en": "Lifestyle and supplements: what is advised and what is not a treatment"
+      },
+      "core": {
+        "es": "La ESHRE recomienda informar de que el tabaco, el alcohol, la obesidad y el ejercicio excesivo pueden empeorar la probabilidad de nacido vivo, y aconsejar dejar de fumar, un peso normal, limitar el alcohol y un ejercicio normal (GPP). La obesidad o el bajo peso importante se asocian a complicaciones obstétricas (fuerte). [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE recommends informing couples that smoking, alcohol, obesity and excessive exercise could reduce the chance of live birth, and advising smoking cessation, normal body weight, limited alcohol and a normal exercise pattern (GPP). Obesity or being significantly underweight is associated with obstetric complications (strong). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "El ácido fólico a dosis bajas se toma antes de concebir para prevenir defectos del tubo neural, pero no previene la pérdida en la PGR inexplicada (fuerte); no deben usarse dosis altas sin hiperhomocisteinemia ni condiciones con mayor riesgo de defectos del tubo neural (diabetes, epilepsia). Puede plantearse vitamina D profiláctica en el consejo preconcepcional aunque falta evidencia de eficacia (GPP), y si preguntan por multivitamínicos, aconsejar los seguros en el embarazo (GPP), sin presentarlos como tratamiento. [[ref:eshre-2022-rpl]]\n\nLa metformina en el embarazo no se recomienda por evidencia insuficiente en la PGR con alteraciones del metabolismo de la glucosa (condicional). El estrés se asocia a la PGR, pero hay que informar de que no hay evidencia de que sea causa directa de la pérdida (fuerte). [[ref:eshre-2022-rpl]]",
+        "en": "Low-dose folic acid is taken before conception to prevent neural tube defects, but it does not prevent loss in unexplained RPL (strong); high doses should not be used without hyperhomocysteinaemia or conditions with increased neural tube defect risk (diabetes, epilepsy). Prophylactic vitamin D may be considered in preconception counselling although evidence of effectiveness is absent (GPP), and if multivitamins are asked about, advise those safe in pregnancy (GPP), without presenting them as treatment. [[ref:eshre-2022-rpl]]\n\nMetformin in pregnancy is not recommended because of insufficient evidence in RPL with glucose metabolism defects (conditional). Stress is associated with RPL, but couples should be told there is no evidence that it directly causes loss (strong). [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "«No hay evidencia de que el estrés cause la pérdida» es una frase que muchas mujeres necesitan oír de forma explícita.",
+        "en": "“There is no evidence that stress causes the loss” is a sentence many women need to hear explicitly."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: rec. 65, 6, 8, 55, 77 GPP; rec. 3, 5, 7, 72 fuertes; rec. 54 condicional. En la escala GRADE, ⊕⊕⊕○ = calidad moderada, ⊕⊕○○ = baja y ⊕○○○ = muy baja; la fuerza (fuerte/condicional) y la calidad son cosas distintas. Los símbolos ⊕ solo constan para las recomendaciones actualizadas en 2022 (artículo resumen en HRO); en las demás no se pudieron leer en nuestra copia del PDF y no se indican.",
+          "en": "ESHRE 2022: recs 65, 6, 8, 55, 77 GPP; recs 3, 5, 7, 72 strong; rec. 54 conditional. On the GRADE scale, ⊕⊕⊕○ = moderate quality, ⊕⊕○○ = low and ⊕○○○ = very low; strength (strong/conditional) and quality are different things. ⊕ symbols are given only for recommendations updated in 2022 (HRO summary article); for the others they could not be read in our copy of the PDF and are not stated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice la ESHRE del ácido fólico a dosis altas y de la relación entre estrés y pérdida gestacional?",
+        "en": "What does ESHRE say about high-dose folic acid and about the link between stress and pregnancy loss?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c11-supportive-care",
+      "type": "patient-phrase",
+      "conceptId": "fert-rr.supportive-care",
+      "title": {
+        "es": "Cuidado de apoyo: escuchar, no tranquilizar en falso y acompañar la siguiente gestación",
+        "en": "Supportive care: listen, avoid false reassurance and support the next pregnancy"
+      },
+      "core": {
+        "es": "La ESHRE describe la pérdida gestacional como un acontecimiento vital negativo cuyo carácter repetido puede intensificar el duelo, y pide a profesionales y clínicas tener en cuenta las necesidades psicosociales de la pareja al organizar la atención. [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE describes pregnancy loss as a significant negative life event whose repetitive nature may intensify grief, and asks clinicians and clinics to take the couple’s psychosocial needs into account when organising care. [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "No hay un modelo único, pero la guía enumera elementos valorados: reconocer a la paciente como individuo, dar tiempo para preguntas y repeticiones, escuchar hechos y sentimientos, respetar a la pareja y a las gestaciones perdidas, usar un lenguaje claro y sensible (evitando términos como «aborto de repetición», «restos» o «huevo huero», y usando los de la paciente), honestidad sin falsas promesas, planificación compartida, acceso al equipo y ecografías precoces si las desea en la siguiente gestación, y amabilidad. [[ref:eshre-2022-rpl]]\n\nEn un estudio, la probabilidad (odds) de depresión moderada o grave fue más de cinco veces mayor en mujeres con PGR; los estudios se centran en la mujer y faltan datos sobre el impacto en los varones, cuyas preferencias de apoyo pueden ser distintas. [[ref:eshre-2022-rpl]]",
+        "en": "There is no single model, but the guideline lists valued elements: recognising the patient as an individual, time for questions and repetition, listening to facts and feelings, respect for the couple and the lost pregnancies, clear and sensitive language (avoiding terms such as “recurrent abortion”, “products of conception” or “blighted ovum”, and mirroring the patient’s terms), honesty without false reassurance, shared planning, access to the team and early scans if wanted in the next pregnancy, and kindness. [[ref:eshre-2022-rpl]]\n\nIn one study, the odds of moderate to severe depression were more than five times higher in women with RPL; studies focus on women and data on the impact on men are lacking, and their support preferences may differ. [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "Frase útil: «No hay evidencia de que el estrés haya causado lo que ha pasado, y no es culpa tuya; planifiquemos juntos la próxima gestación».",
+        "en": "Useful phrase: “There is no evidence that stress caused what happened, and it is not your fault; let us plan the next pregnancy together.”"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022: «conclusión» del grupo elaborador sobre necesidades psicosociales (sin grado); elementos de cuidado de apoyo como texto de la guía, no como recomendación graduada.",
+          "en": "ESHRE 2022: guideline group “conclusion” on psychosocial needs (ungraded); supportive care elements as guideline text, not a graded recommendation."
+        }
+      },
+      "recall": {
+        "es": "Nombra cuatro elementos del cuidado de apoyo que la ESHRE considera valiosos en la PGR.",
+        "en": "Name four elements of supportive care that ESHRE considers valuable in RPL."
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q4-progesterone-bleeding",
+      "conceptId": "fert-rr.unexplained-treatment",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mujer de 35 años con tres pérdidas inexplicadas, ahora con una gestación de 7 semanas y sangrado vaginal leve. ¿Qué se ajusta a la ESHRE 2022?",
+        "en": "A 35-year-old woman with three unexplained losses is now 7 weeks pregnant with light vaginal bleeding. What fits ESHRE 2022?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Progesterona vaginal, 400 mg dos veces al día, hasta las 16 semanas completas.",
+            "en": "Vaginal progesterone, 400 mg twice daily, up to 16 completed weeks."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con tres o más pérdidas y sangrado, la ESHRE sugiere progesterona vaginal (condicional, ⊕⊕⊕○) y su justificación concreta esa pauta.",
+            "en": "Correct: with three or more losses and bleeding, ESHRE suggests vaginal progesterone (conditional, ⊕⊕⊕○), and its justification specifies this regimen."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Heparina de bajo peso molecular más aspirina, por ser PGR.",
+            "en": "Low molecular weight heparin plus aspirin, because it is RPL."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la PGR inexplicada, la ESHRE no recomienda heparina ni aspirina (fuerte).",
+            "en": "In unexplained RPL, ESHRE does not recommend heparin or aspirin (strong)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Prednisolona, porque hay indicios de beneficio en mujeres seleccionadas.",
+            "en": "Prednisolone, because there are signs of benefit in selected women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda glucocorticoides en la PGR inexplicada por sus efectos adversos (fuerte).",
+            "en": "ESHRE does not recommend glucocorticoids in unexplained RPL because of adverse effects (strong)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Nada: PROMISE demostró que la progesterona no sirve en ninguna mujer con PGR.",
+            "en": "Nothing: PROMISE showed progesterone is useless in every woman with RPL."
+          },
+          "correct": false,
+          "why": {
+            "es": "PROMISE fue neutro en la PGR inexplicada en general, pero el análisis combinado con PRISM mostró beneficio con tres o más pérdidas y sangrado.",
+            "en": "PROMISE was neutral in unexplained RPL overall, but the combined analysis with PRISM showed benefit with three or more losses and bleeding."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El subgrupo con beneficio es el de mujeres con al menos tres pérdidas y sangrado en la gestación actual (RR 1,28 en el análisis combinado).",
+        "en": "The subgroup with benefit is women with at least three losses and bleeding in the current pregnancy (RR 1.28 in the combined analysis)."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q5-aps-regimen",
+      "conceptId": "fert-rr.aps-treatment",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mujer con tres pérdidas y anticoagulante lúpico persistentemente positivo (cumple criterios de laboratorio de SAF), sin trombosis previa. ¿Qué sugiere la ESHRE?",
+        "en": "A woman with three losses and persistently positive lupus anticoagulant (meets APS laboratory criteria), with no previous thrombosis. What does ESHRE suggest?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Heparina a dosis terapéutica desde antes de la concepción.",
+            "en": "Therapeutic-dose heparin from before conception."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE sugiere heparina a dosis profiláctica y desde la prueba de embarazo positiva.",
+            "en": "ESHRE suggests prophylactic-dose heparin starting at a positive pregnancy test."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Aspirina a dosis bajas (75–100 mg/día) desde antes de concebir y heparina profiláctica desde el test positivo.",
+            "en": "Low-dose aspirin (75–100 mg/day) from before conception and prophylactic heparin from the positive test."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la pauta sugerida (condicional) para SAF de laboratorio con tres o más pérdidas.",
+            "en": "Correct: this is the suggested regimen (conditional) for laboratory APS with three or more losses."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo aspirina; la heparina se reserva para el SAF con dos pérdidas.",
+            "en": "Aspirin only; heparin is reserved for APS with two losses."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con dos pérdidas y SAF, la ESHRE sugiere anticoagular solo en investigación (GPP); con tres o más sugiere la combinación.",
+            "en": "With two losses and APS, ESHRE suggests anticoagulation only in research (GPP); with three or more it suggests the combination."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Inmunoglobulinas intravenosas a dosis altas.",
+            "en": "High-dose intravenous immunoglobulin."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no plantea inmunoglobulinas para el SAF; su comentario sobre ellas se refiere a cuatro o más pérdidas inexplicadas.",
+            "en": "The guideline does not propose immunoglobulin for APS; its comment on them refers to four or more unexplained losses."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El SAF es el escenario donde la combinación aspirina + heparina tiene respaldo; en la PGR inexplicada no.",
+        "en": "APS is the scenario where aspirin + heparin has support; unexplained RPL is not."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q6-immune-unexplained",
+      "conceptId": "fert-rr.immunotherapies",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente con tres pérdidas inexplicadas trae una propuesta de otro centro: estudio de células NK en sangre y, si están altas, intralípidos y G-CSF. ¿Qué respuesta es coherente con la ESHRE?",
+        "en": "A patient with three unexplained losses brings a proposal from another clinic: blood NK-cell testing and, if high, intralipid and G-CSF. Which answer is consistent with ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Aceptar: las NK altas identifican a quién tratar con inmunoterapia.",
+            "en": "Accept: high NK cells identify who to treat with immunotherapy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE indica que el estudio de NK no puede usarse para seleccionar a mujeres para tratamientos inmunológicos.",
+            "en": "ESHRE states that NK-cell testing cannot be used to select women for immunological treatments."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Aceptar solo el G-CSF, que tiene un ensayo positivo.",
+            "en": "Accept only G-CSF, which has a positive trial."
+          },
+          "correct": false,
+          "why": {
+            "es": "El ensayo grande de Eapen (2019) no mostró beneficio y prevalece sobre el anterior; la ESHRE no lo recomienda (fuerte, ⊕⊕⊕○).",
+            "en": "The large Eapen trial (2019) showed no benefit and overrides the earlier one; ESHRE does not recommend it (strong, ⊕⊕⊕○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Desaconsejar el estudio de NK, los intralípidos y el G-CSF, y explicar el pronóstico según la edad y la historia gestacional.",
+            "en": "Advise against NK testing, intralipid and G-CSF, and explain prognosis based on age and pregnancy history."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los tres tienen recomendación fuerte en contra o por evidencia insuficiente, y el pronóstico individual es parte esencial del manejo.",
+            "en": "Correct: all three have strong recommendations against or for insufficient evidence, and individual prognosis is an essential part of management."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sustituirlo por corticoides, que son más baratos.",
+            "en": "Replace it with steroids, which are cheaper."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda glucocorticoides en la PGR inexplicada (fuerte).",
+            "en": "ESHRE does not recommend glucocorticoids in unexplained RPL (strong)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la PGR inexplicada no hay pruebas inmunitarias que guíen un tratamiento eficaz; informar con honestidad del pronóstico individual (a menudo bueno) es una parte esencial del manejo.",
+        "en": "In unexplained RPL there are no immune tests that guide effective treatment; honestly sharing the individual prognosis (often good) is an essential part of management."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "supplements",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q7-stress-folate",
+      "conceptId": "fert-rr.lifestyle-supplements",
+      "difficulty": 1,
+      "stem": {
+        "es": "Tras su segunda pérdida, una paciente pregunta si fue por el estrés del trabajo y si debería tomar 5 mg de ácido fólico. No tiene diabetes, epilepsia ni hiperhomocisteinemia. ¿Qué le dirías según la ESHRE?",
+        "en": "After her second loss, a patient asks whether it was caused by work stress and whether she should take 5 mg folic acid. She has no diabetes, epilepsy or hyperhomocysteinaemia. What would you tell her according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el estrés se asocia a la PGR pero no hay evidencia de que la cause, y que tome ácido fólico a dosis bajas para prevenir defectos del tubo neural, no dosis altas.",
+            "en": "That stress is associated with RPL but there is no evidence it causes it, and to take low-dose folic acid to prevent neural tube defects, not high doses."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: que no hay evidencia de que el estrés cause la pérdida y que el ácido fólico a dosis bajas no la previene son recomendaciones fuertes de la ESHRE; evitar dosis altas sin indicación figura en la justificación de esta última.",
+            "en": "Correct: that there is no evidence stress causes loss and that low-dose folic acid does not prevent it are strong ESHRE recommendations; avoiding high doses without an indication is stated in the justification of the latter."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el estrés es la causa más probable y debe pedir una baja laboral.",
+            "en": "That stress is the most likely cause and she should take sick leave."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE pide informar de que no hay evidencia de que el estrés sea causa directa de la pérdida.",
+            "en": "ESHRE asks to inform that there is no evidence that stress directly causes loss."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que tome 5 mg de ácido fólico porque previene nuevas pérdidas.",
+            "en": "That she should take 5 mg folic acid because it prevents further losses."
+          },
+          "correct": false,
+          "why": {
+            "es": "El ácido fólico no ha demostrado prevenir la pérdida y la ESHRE desaconseja dosis altas sin indicación.",
+            "en": "Folic acid has not been shown to prevent loss, and ESHRE advises against high doses without an indication."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que mida su vitamina D, porque explica muchas pérdidas.",
+            "en": "That she should have her vitamin D measured, because it explains many losses."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE solo plantea considerar vitamina D profiláctica en el consejo preconcepcional (GPP), sin evidencia de eficacia frente a la pérdida.",
+            "en": "ESHRE only suggests considering prophylactic vitamin D in preconception counselling (GPP), with no evidence of effectiveness against loss."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Quitar culpa y evitar suplementos innecesarios son dos mensajes respaldados por recomendaciones fuertes de la ESHRE (la de las dosis altas, en su justificación).",
+        "en": "Removing guilt and avoiding unnecessary supplements are two messages backed by strong ESHRE recommendations (the high-dose point in its justification)."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "id": "fert-rr.case1-sofia-joaquin",
+      "kind": "case",
+      "conceptId": "fert-rr.case-sofia-joaquin",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones",
+        "habits"
+      ],
+      "title": {
+        "es": "Caso: Sofía, Joaquín y tres pérdidas sin explicación",
+        "en": "Case: Sofía, Joaquín and three unexplained losses"
+      },
+      "steps": [
+        {
+          "id": "fert-rr.case1.s1",
+          "text": {
+            "es": "Sofía (caso ficticio), 34 años, y Joaquín, 38, han tenido dos pérdidas de primer trimestre. Sofía pregunta si hay que esperar a una tercera para estudiarse. La ESHRE considera la PGR tras dos pérdidas y recomienda estudiar antifosfolípidos, tiroides y anatomía uterina. [[ref:eshre-2022-rpl]]",
+            "en": "Sofía (fictional case), 34, and Joaquín, 38, have had two first-trimester losses. Sofía asks whether they need to wait for a third before being investigated. ESHRE considers RPL after two losses and recommends testing for antiphospholipid antibodies, thyroid function and uterine anatomy. [[ref:eshre-2022-rpl]]"
+          },
+          "questionId": "fert-rr.q1-two-losses"
+        },
+        {
+          "id": "fert-rr.case1.s2",
+          "text": {
+            "es": "Antes de los resultados, Sofía tiene una tercera pérdida. Un familiar les recomienda un panel de trombofilia hereditaria. Se les explica que ni la ESHRE ni ACOG lo recomiendan de rutina en este contexto y que el tratamiento anticoagulante no ha demostrado beneficio en la trombofilia hereditaria. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]",
+            "en": "Before the results arrive, Sofía has a third loss. A relative recommends an inherited thrombophilia panel. They are told that neither ESHRE nor ACOG recommends it routinely in this setting and that anticoagulation has not shown benefit in inherited thrombophilia. [[ref:eshre-2022-rpl]] [[ref:acog-2018-pb197-thrombophilia]]"
+          },
+          "questionId": "fert-rr.q2-thrombophilia"
+        },
+        {
+          "id": "fert-rr.case1.s3",
+          "text": {
+            "es": "Antifosfolípidos negativos, TSH y anti-TPO normales, ecografía 3D normal. Joaquín fuma; se revisa su estilo de vida, como recomienda la ESHRE, y se le aconseja dejar de fumar. Se informa de que el pronóstico se basa en la edad y la historia gestacional, y de que una parte importante de las PGR queda sin explicación. [[ref:eshre-2022-rpl]]",
+            "en": "Antiphospholipid antibodies negative, TSH and TPO antibodies normal, 3D ultrasound normal. Joaquín smokes; his lifestyle is reviewed, as ESHRE recommends, and he is advised to stop smoking. They are told that prognosis is based on age and pregnancy history, and that a substantial share of RPL remains unexplained. [[ref:eshre-2022-rpl]]"
+          }
+        },
+        {
+          "id": "fert-rr.case1.s4",
+          "text": {
+            "es": "Sofía pregunta si debe ponerse heparina y aspirina «por si acaso» en la próxima gestación. En la PGR inexplicada, la ESHRE no las recomienda porque no mejoran el nacido vivo. [[ref:eshre-2022-rpl]]",
+            "en": "Sofía asks whether she should take heparin and aspirin “just in case” in the next pregnancy. In unexplained RPL, ESHRE does not recommend them because they do not improve live birth. [[ref:eshre-2022-rpl]]"
+          }
+        },
+        {
+          "id": "fert-rr.case1.s5",
+          "text": {
+            "es": "Meses después, Sofía está embarazada de 7 semanas y consulta por un sangrado leve. Con tres pérdidas previas y sangrado actual, la ESHRE sugiere progesterona vaginal. Se organiza el acompañamiento que la pareja desea, con acceso al equipo y ecografías precoces. [[ref:eshre-2022-rpl]]",
+            "en": "Months later, Sofía is 7 weeks pregnant and presents with light bleeding. With three previous losses and current bleeding, ESHRE suggests vaginal progesterone. The support the couple wants is arranged, with access to the team and early scans. [[ref:eshre-2022-rpl]]"
+          },
+          "questionId": "fert-rr.q4-progesterone-bleeding"
+        }
+      ],
+      "refIds": [
+        "eshre-2022-rpl",
+        "acog-2018-pb197-thrombophilia"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c12-rif-definition",
+      "type": "concept",
+      "conceptId": "fert-rr.rif-definition",
+      "title": {
+        "es": "Fallo de implantación recurrente: una definición individual con umbral del 60 %",
+        "en": "Recurrent implantation failure: an individual definition with a 60% threshold"
+      },
+      "core": {
+        "es": "El grupo de trabajo de la ESHRE considera el fallo de implantación recurrente (FIR) un fenómeno secundario de la TRA: la transferencia de embriones considerados viables no ha logrado una prueba de embarazo positiva con la frecuencia suficiente, en una paciente concreta, para justificar plantear estudios o intervenciones. El umbral recomendado es una probabilidad acumulada predicha de implantación del 60 %. [[ref:eshre-2023-rif]]",
+        "en": "The ESHRE working group considers recurrent implantation failure (RIF) a secondary phenomenon of ART: the transfer of embryos considered viable has failed to result in a positive pregnancy test sufficiently often, in a specific patient, to warrant consideration of further investigations or interventions. The recommended threshold is a cumulative predicted chance of implantation of 60%. [[ref:eshre-2023-rif]]"
+      },
+      "body": {
+        "es": "Si no ha habido implantación tras un número de transferencias cuya probabilidad acumulada predicha supera el 60 %, debe ofrecerse consejo sobre estudios o tratamientos; si aún no se ha llegado a ese umbral, lo indicado es simplemente otro ciclo. Se evita así un número fijo de transferencias para todas. Para aproximar la probabilidad tras n transferencias propone 1 − (1 − PR)ⁿ, donde PR es la tasa de embarazo por transferencia (que puede estimarse multiplicando la tasa de nacido vivo por 1,16); el modelo debería considerar al menos la edad, la euploidía si se estudió y el número de embriones o blastocistos transferidos. [[ref:eshre-2023-rif]]\n\nEl umbral del 95 % propuesto por otros autores sería útil en investigación, pero muy pocas pacientes lo alcanzan. Se asume que antes de la TRA se completó el estudio de fertilidad estándar. La ESHRE excluye expresamente el fallo de implantación de la definición de PGR. [[ref:eshre-2023-rif]] [[ref:eshre-2022-rpl]]",
+        "en": "If implantation has not occurred after a number of transfers whose cumulative predicted chance exceeds 60%, counselling on investigations or treatment should be offered; if that threshold has not yet been reached, simply proceeding to another cycle is indicated. This avoids a fixed number of transfers for everyone. To approximate the chance after n transfers it proposes 1 − (1 − PR)ⁿ, where PR is the pregnancy rate per transfer (which can be estimated by multiplying the live birth rate by 1.16); the model should consider at least age, euploidy if screened, and the number of cleavage-stage embryos or blastocysts transferred. [[ref:eshre-2023-rif]]\n\nThe 95% threshold proposed by other authors would be useful for research, but very few patients reach it. A standard fertility work-up before ART is assumed. ESHRE explicitly excludes implantation failure from the RPL definition. [[ref:eshre-2023-rif]] [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "Ejemplo aritmético: con un 35 % de embarazo por transferencia, dos transferencias suman 1 − 0,65² ≈ 58 % (aún no es FIR) y tres, 1 − 0,65³ ≈ 73 % (ya lo es).",
+        "en": "Arithmetic example: with a 35% pregnancy rate per transfer, two transfers add up to 1 − 0.65² ≈ 58% (not yet RIF) and three to 1 − 0.65³ ≈ 73% (now it is)."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE Working Group on RIF 2023 (Hum Reprod Open), definición y umbral. Documento de buena práctica (opinión de expertos apoyada en la literatura), sin grados GRADE: cada prueba o intervención se clasifica como recomendada, a considerar o no recomendada (no ofrecer de rutina). El ejemplo del 35 % es un cálculo ilustrativo propio con la fórmula del documento, no un dato de la fuente.",
+          "en": "ESHRE Working Group on RIF 2023 (Hum Reprod Open), definition and threshold. Good practice document (expert opinion supported by the literature), without GRADE ratings: each test or intervention is classed as recommended, to be considered, or not recommended (not to be offered routinely). The 35% example is our own illustrative calculation with the document’s formula, not a figure from the source."
+        }
+      },
+      "recall": {
+        "es": "¿Qué umbral de probabilidad acumulada propone la ESHRE para hablar de FIR y qué fórmula sugiere para estimarla?",
+        "en": "Which cumulative probability threshold does ESHRE propose to define RIF, and which formula does it suggest to estimate it?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c13-rif-workup",
+      "type": "what-i-would-do",
+      "conceptId": "fert-rr.rif-workup",
+      "title": {
+        "es": "Estudio del FIR: qué se recomienda, qué puede considerarse y qué no",
+        "en": "RIF work-up: what is recommended, what can be considered and what is not"
+      },
+      "core": {
+        "es": "Recomendado: revisar y optimizar el estilo de vida de ambos miembros de la pareja, reevaluar el grosor endometrial (y revisar la pauta de estradiol si sigue fino) y, si se detecta una alteración cromosómica, consejo genético y PGT cuando proceda; los antifosfolípidos se recomiendan si hay factores de riesgo adicionales de trombofilia. [[ref:eshre-2023-rif]]",
+        "en": "Recommended: review and optimise lifestyle in both partners, re-assess endometrial thickness (and review the estradiol regimen if it remains thin) and, if a chromosomal abnormality is detected, genetic counselling and PGT where relevant; antiphospholipid antibodies are recommended when there are additional risk factors for thrombophilia. [[ref:eshre-2023-rif]]"
+      },
+      "body": {
+        "es": "Puede considerarse: cariotipo de ambos (pese a la baja prevalencia), ecografía 3D si no se hizo antes, histeroscopia (sobre todo si la ecografía sugiere una anomalía), HSG u otra imagen tubárica si hay duda de hidrosálpinx, estudio de endometritis crónica y antibióticos si se diagnostica, aspectos concretos de la función endometrial, función tiroidea, progesterona en fase folicular tardía y lútea media, y antifosfolípidos sin factores de riesgo. No hay datos suficientes para recomendar de rutina ningún test comercial de receptividad endometrial ni medir o tratar la vitamina D. [[ref:eshre-2023-rif]]\n\nNo recomendado: microbioma uterino o vaginal, células NK periféricas o uterinas, linfocitos T uterinos, citocinas en sangre, compatibilidad HLA-C, ADN mitocondrial embrionario, FISH de espermatozoides y fragmentación del ADN espermático. Sobre la trombofilia, el papel del estudio sería muy limitado y centrado en antecedentes personales o familiares de trombosis. [[ref:eshre-2023-rif]]",
+        "en": "Can be considered: karyotyping of both partners (despite the low prevalence), 3D ultrasound if not done before, hysteroscopy (especially if ultrasound suggests an anomaly), HSG or other tubal imaging if hydrosalpinx is in doubt, assessment for chronic endometritis with antibiotics if diagnosed, specific aspects of endometrial function, thyroid function, late follicular and mid-luteal progesterone, and antiphospholipid antibodies without risk factors. There are insufficient data to recommend routine use of any commercial endometrial receptivity test, or measuring or treating vitamin D. [[ref:eshre-2023-rif]]\n\nNot recommended: uterine or vaginal microbiome profiling, peripheral or uterine NK cells, uterine T lymphocytes, blood cytokines, HLA-C compatibility, embryo mitochondrial DNA, sperm FISH and sperm DNA fragmentation. On thrombophilia, the role of testing would be very limited and focused on a personal or family history of thrombosis. [[ref:eshre-2023-rif]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE Working Group on RIF 2023: 19 recomendaciones sobre estudios. Documento de buena práctica (opinión de expertos apoyada en la literatura), sin grados GRADE: cada prueba o intervención se clasifica como recomendada, a considerar o no recomendada (no ofrecer de rutina). Las figuras resumen por colores son imágenes no incluidas en nuestro texto; se citan las frases de las tablas.",
+          "en": "ESHRE Working Group on RIF 2023: 19 recommendations on investigations. Good practice document (expert opinion supported by the literature), without GRADE ratings: each test or intervention is classed as recommended, to be considered, or not recommended (not to be offered routinely). The colour-coded summary figures are images not included in our text; the table wording is cited."
+        }
+      },
+      "recall": {
+        "es": "Cita tres estudios recomendados, tres a considerar y tres no recomendados en el FIR según la ESHRE.",
+        "en": "List three recommended, three to-be-considered and three not-recommended investigations in RIF according to ESHRE."
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c14-rif-interventions",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-rr.rif-interventions",
+      "title": {
+        "es": "Intervenciones en el FIR: casi todo «not recommended»",
+        "en": "Interventions for RIF: almost everything “not recommended”"
+      },
+      "core": {
+        "es": "El grupo de trabajo de la ESHRE no recomienda en el FIR el daño endometrial intencionado (scratching), el G-CSF, los intralípidos, las inmunoglobulinas intravenosas, la infusión intrauterina de PBMC, de PRP o de hCG, la heparina de bajo peso molecular, el pretratamiento con agonista de GnRH o inhibidor de aromatasa, ni la eclosión asistida. Solo considera la PGT-A y la transferencia en blastocisto. [[ref:eshre-2023-rif]]",
+        "en": "The ESHRE working group does not recommend intentional endometrial injury (scratching), G-CSF, intralipid, intravenous immunoglobulin, intrauterine PBMC, PRP or hCG infusion, low molecular weight heparin, GnRH agonist or aromatase inhibitor pre-treatment, or assisted hatching for RIF. It only considers PGT-A and blastocyst-stage transfer. [[ref:eshre-2023-rif]]"
+      },
+      "body": {
+        "es": "La heparina en el FIR (tres o más transferencias fallidas) no mejoró el nacido vivo en un metanálisis de 2 ECA con 71 pacientes (RR 1,38; IC 95 % 0,64–2,96). Para la PGT-A, el metanálisis de ECA en el FIR no mostró más nacidos vivos (RR 0,98; IC 95 % 0,32–2,94), aunque estudios retrospectivos con técnicas actuales sugieren que reduce el número de transferencias necesarias. [[ref:eshre-2023-rif]]\n\nEl documento subraya que muchas intervenciones se aplican de forma empírica por la presión de actuar, y que, si se identifica una causa (disfunción tiroidea, SAF, malformación uterina, endometriosis o adenomiosis), debe seguirse la guía correspondiente. Para algunas parejas, la donación de gametos puede ser una opción, aunque faltan estudios que confirmen que mejora el resultado tras el FIR. [[ref:eshre-2023-rif]]",
+        "en": "Heparin in RIF (three or more failed transfers) did not improve live birth in a meta-analysis of 2 RCTs with 71 patients (RR 1.38; 95% CI 0.64–2.96). For PGT-A, the meta-analysis of RCTs in RIF showed no increase in live birth (RR 0.98; 95% CI 0.32–2.94), although retrospective studies using current techniques suggest it reduces the number of transfers needed. [[ref:eshre-2023-rif]]\n\nThe document stresses that many interventions are applied empirically under pressure to act, and that if a cause is identified (thyroid dysfunction, APS, uterine malformation, endometriosis or adenomyosis), the relevant guideline should be followed. For some couples gamete donation may be an option, although studies confirming that it improves outcomes after RIF are lacking. [[ref:eshre-2023-rif]]"
+      },
+      "pearl": {
+        "es": "En el FIR, la lista de «no» es mucho más larga que la de «sí»: lo más útil suele ser recalcular el pronóstico y seguir.",
+        "en": "In RIF, the “no” list is much longer than the “yes” list: the most useful step is often to recalculate the prognosis and carry on."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE Working Group on RIF 2023: recomendaciones sobre intervenciones. Documento de buena práctica (opinión de expertos apoyada en la literatura), sin grados GRADE: cada prueba o intervención se clasifica como recomendada, a considerar o no recomendada (no ofrecer de rutina).",
+          "en": "ESHRE Working Group on RIF 2023: recommendations on interventions. Good practice document (expert opinion supported by the literature), without GRADE ratings: each test or intervention is classed as recommended, to be considered, or not recommended (not to be offered routinely)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dos intervenciones solo «puede considerar» la ESHRE en el FIR y qué dice de la heparina?",
+        "en": "Which two interventions does ESHRE only say “can be considered” in RIF, and what does it say about heparin?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c15-overlap-disagreements",
+      "type": "comparison",
+      "conceptId": "fert-rr.overlap-disagreements",
+      "title": {
+        "es": "PGR, FIR y add-ons: dónde coinciden y dónde discrepan los documentos",
+        "en": "RPL, RIF and add-ons: where the documents agree and where they differ"
+      },
+      "core": {
+        "es": "El documento de FIR, el de add-ons y NICE coinciden en no usar inmunoterapia ni estudios inmunitarios: el de add-ons no recomienda las pruebas inmunitarias en sangre ni el estudio de NK uterinas, y NICE indica no usar agentes inmunológicos en el tratamiento de fertilidad (1.42.1); la guía de PGR es la excepción parcial, por las inmunoglobulinas. Discrepan en la PGT-A: el documento de FIR la considera, mientras que el de add-ons no la recomienda de rutina y NICE indica no ofrecerla para mejorar el nacido vivo (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "The RIF document, the add-ons document and NICE agree on not using immunotherapy or immune testing: the add-ons document does not recommend peripheral blood immune tests or uterine NK testing, and NICE advises against immunological agents in fertility treatment (1.42.1); the RPL guideline is the partial exception, because of immunoglobulin. They differ on PGT-A: the RIF document considers it, whereas the add-ons document does not recommend it routinely and NICE advises against offering it to improve live birth (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Fragmentación del ADN espermático: puede considerarse en la PGR (condicional, ⊕⊕⊕○), pero no se recomienda en el FIR. Inmunoglobulinas: la guía de PGR deja abierta una posible mejora con cuatro o más pérdidas inexplicadas (condicional), mientras que el documento de FIR no las recomienda. Antifosfolípidos: recomendados tras dos pérdidas en la PGR (fuerte); en el FIR, recomendados con factores de riesgo y a considerar sin ellos. Tiroides: TSH y anti-TPO recomendados en la PGR (fuerte); en el FIR, solo a considerar. [[ref:eshre-2022-rpl]] [[ref:eshre-2023-rif]]\n\nHisteroscopia: el documento de add-ons no recomienda la histeroscopia de cribado de rutina, pero la considera en el FIR, en línea con el documento de FIR. [[ref:eshre-2023-addons]] [[ref:eshre-2023-rif]]",
+        "en": "Sperm DNA fragmentation: can be considered in RPL (conditional, ⊕⊕⊕○), but is not recommended in RIF. Immunoglobulin: the RPL guideline leaves open a possible improvement with four or more unexplained losses (conditional), whereas the RIF document does not recommend it. Antiphospholipid antibodies: recommended after two losses in RPL (strong); in RIF, recommended with risk factors and to be considered without them. Thyroid: TSH and TPO antibodies recommended in RPL (strong); in RIF, only to be considered. [[ref:eshre-2022-rpl]] [[ref:eshre-2023-rif]]\n\nHysteroscopy: the add-ons document does not recommend routine screening hysteroscopy, but considers it in RIF, in line with the RIF document. [[ref:eshre-2023-addons]] [[ref:eshre-2023-rif]]"
+      },
+      "pearl": {
+        "es": "Antes de aplicar una recomendación, comprueba de qué población habla: PGR (pérdidas tras embarazo confirmado) y FIR (sin test positivo tras transferencias) no son intercambiables.",
+        "en": "Before applying a recommendation, check which population it refers to: RPL (losses after a confirmed pregnancy) and RIF (no positive test after transfers) are not interchangeable."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022 PGR: rec. 40 condicional, ⊕⊕⊕○; rec. 69 condicional, ⊕⊕○○; rec. 15 y 24 fuertes. ESHRE RIF 2023 (buena práctica). ESHRE add-ons 2023 (escala propia de cuatro fórmulas). NICE NG257 1.42.1 y 1.48.1 [2026].",
+          "en": "ESHRE 2022 RPL: rec. 40 conditional, ⊕⊕⊕○; rec. 69 conditional, ⊕⊕○○; recs 15 and 24 strong. ESHRE RIF 2023 (good practice). ESHRE add-ons 2023 (own four-phrase scale). NICE NG257 1.42.1 and 1.48.1 [2026]."
+        }
+      },
+      "recall": {
+        "es": "Nombra dos puntos en los que la guía de PGR y el documento de FIR de la ESHRE no dicen lo mismo.",
+        "en": "Name two points on which the ESHRE RPL guideline and RIF document do not say the same thing."
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.c16-rif-counselling",
+      "type": "patient-phrase",
+      "conceptId": "fert-rr.rif-counselling",
+      "title": {
+        "es": "Acompañar el FIR: honestidad sobre la evidencia y esperanza basada en datos",
+        "en": "Supporting RIF: honesty about the evidence and data-based hope"
+      },
+      "core": {
+        "es": "El documento de FIR adapta los elementos de cuidado de apoyo de la guía de PGR e insiste en ser honesto sobre la evidencia, o la falta de beneficio, de los estudios y tratamientos que se ofrecen sin base sólida. Según un estudio que cita, la mitad de las pacientes con FIR logran un nacido vivo con TRA en 5 años. [[ref:eshre-2023-rif]]",
+        "en": "The RIF document adapts the supportive care elements of the RPL guideline and insists on being honest about the evidence, or lack of benefit, for investigations and treatments offered without solid grounds. According to a study it cites, half of patients with RIF achieve a live birth with ART within 5 years. [[ref:eshre-2023-rif]]"
+      },
+      "body": {
+        "es": "Las mujeres con FIR refieren más estrés que los controles fértiles, aislamiento social y menos esperanza tras ciclos repetidos; no hay datos sobre los varones. Se puede tranquilizar a la pareja con su estimación individual de implantación en el siguiente ciclo, y el documento recoge la sugerencia de que planificar varios ciclos desde el principio, contando con el fallo y cómo afrontarlo, podría ser beneficioso. [[ref:eshre-2023-rif]]",
+        "en": "Women with RIF report more stress than fertile controls, social isolation and lower hope after repeated cycles; there are no data on male partners. Couples can be reassured with their individual estimate of implantation in the next cycle, and the document cites the suggestion that planning several cycles from the start, anticipating failure and how to cope with it, could be beneficial. [[ref:eshre-2023-rif]]"
+      },
+      "pearl": {
+        "es": "Frase útil: «Con tus datos, seguir transfiriendo es una opción razonable; te explico qué pruebas tienen sentido y cuáles no han demostrado ayudar».",
+        "en": "Useful phrase: “With your data, continuing with transfers is a reasonable option; let me explain which tests make sense and which have not been shown to help.”"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE Working Group on RIF 2023, apartado de atención y consejo a la paciente (texto, sin recomendación graduada).",
+          "en": "ESHRE Working Group on RIF 2023, patient care and counselling section (text, not a graded recommendation)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dato pronóstico cita el documento de FIR para dar esperanza realista a la pareja?",
+        "en": "Which prognostic figure does the RIF document cite to give the couple realistic hope?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q8-rif-threshold",
+      "conceptId": "fert-rr.rif-definition",
+      "difficulty": 3,
+      "stem": {
+        "es": "Pareja con un modelo de su centro que les asigna un 30 % de embarazo por transferencia. Llevan dos transferencias sin test positivo y piden «el estudio de fallo de implantación». Con la fórmula del documento de la ESHRE (1 − (1 − PR)ⁿ), ¿qué es lo más adecuado?",
+        "en": "A couple whose clinic model gives them a 30% pregnancy rate per transfer have had two transfers without a positive test and ask for “the implantation failure work-up”. Using the ESHRE document formula (1 − (1 − PR)ⁿ), what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ya es FIR: dos transferencias fallidas bastan.",
+            "en": "It is already RIF: two failed transfers are enough."
+          },
+          "correct": false,
+          "why": {
+            "es": "El documento evita un número fijo de transferencias y usa la probabilidad acumulada individual.",
+            "en": "The document avoids a fixed number of transfers and uses individual cumulative probability."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Su probabilidad acumulada es 1 − 0,7² = 51 %, por debajo del 60 %: lo indicado es otra transferencia.",
+            "en": "Their cumulative probability is 1 − 0.7² = 51%, below 60%: another transfer is indicated."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: no han alcanzado el umbral, así que el documento aconseja simplemente seguir con otro ciclo.",
+            "en": "Correct: they have not reached the threshold, so the document advises simply proceeding to another cycle."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Hay que esperar a superar el 95 %.",
+            "en": "They must wait to exceed 95%."
+          },
+          "correct": false,
+          "why": {
+            "es": "El 95 % se menciona como umbral de investigación; el clínico recomendado es el 60 %.",
+            "en": "The 95% is mentioned as a research threshold; the recommended clinical one is 60%."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Su probabilidad acumulada es del 60 % (30 % + 30 %): ya es FIR.",
+            "en": "Their cumulative probability is 60% (30% + 30%): it is already RIF."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las probabilidades no se suman: con la fórmula, dos transferencias al 30 % dan un 51 %.",
+            "en": "Probabilities do not add up: with the formula, two transfers at 30% give 51%."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con un 30 % por transferencia, la tercera transferencia lleva la probabilidad acumulada a 1 − 0,7³ ≈ 66 %; si fallara, ya superaría el 60 %. (Cálculo ilustrativo con la fórmula del documento.)",
+        "en": "With 30% per transfer, a third transfer takes the cumulative probability to 1 − 0.7³ ≈ 66%; if it failed, it would exceed 60%. (Illustrative calculation with the document’s formula.)"
+      },
+      "refIds": [
+        "eshre-2023-rif"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q9-rif-heparin-immune",
+      "conceptId": "fert-rr.rif-interventions",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mujer con FIR confirmado, sin antecedentes de trombosis y con antifosfolípidos negativos. Le han ofrecido heparina de bajo peso molecular, PRP intrauterino e inmunoglobulinas. ¿Qué dice la ESHRE?",
+        "en": "A woman with confirmed RIF, no history of thrombosis and negative antiphospholipid antibodies has been offered low molecular weight heparin, intrauterine PRP and immunoglobulin. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Las tres están «not recommended» en el FIR.",
+            "en": "All three are “not recommended” in RIF."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el documento de FIR no recomienda la heparina para aumentar el embarazo o el nacido vivo, ni el PRP intrauterino ni las inmunoglobulinas.",
+            "en": "Correct: the RIF document does not recommend heparin to increase pregnancy or live birth, intrauterine PRP or immunoglobulin."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La heparina se recomienda en todo FIR; las otras dos no.",
+            "en": "Heparin is recommended in all RIF; the other two are not."
+          },
+          "correct": false,
+          "why": {
+            "es": "El metanálisis citado no mostró efecto de la heparina sobre el nacido vivo en el FIR.",
+            "en": "The cited meta-analysis showed no effect of heparin on live birth in RIF."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El PRP «puede considerarse» porque aumentó el embarazo clínico.",
+            "en": "PRP “can be considered” because it increased clinical pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La infusión intrauterina de PRP está clasificada como no recomendada en el FIR.",
+            "en": "Intrauterine PRP infusion is classed as not recommended in RIF."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Las inmunoglobulinas se recomiendan con cuatro o más fallos.",
+            "en": "Immunoglobulin is recommended after four or more failures."
+          },
+          "correct": false,
+          "why": {
+            "es": "Esa matización (cuatro o más pérdidas) es de la guía de PGR, no del FIR, y allí es condicional; en el FIR no se recomiendan.",
+            "en": "That nuance (four or more losses) belongs to the RPL guideline, not RIF, and is conditional there; in RIF it is not recommended."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "No hay que trasladar al FIR lo que se sugiere para la PGR: son poblaciones distintas con recomendaciones distintas.",
+        "en": "What is suggested for RPL should not be transferred to RIF: they are different populations with different recommendations."
+      },
+      "refIds": [
+        "eshre-2023-rif",
+        "eshre-2022-rpl"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-rr.q10-rif-what-to-consider",
+      "conceptId": "fert-rr.rif-workup",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una pareja con FIR, ¿cuál de estas pruebas está clasificada como «puede considerarse» por el grupo de trabajo de la ESHRE?",
+        "en": "In a couple with RIF, which of these tests is classed as “can be considered” by the ESHRE working group?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Fragmentación del ADN espermático.",
+            "en": "Sperm DNA fragmentation."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el FIR, la fragmentación del ADN espermático y el FISH de espermatozoides no se recomiendan.",
+            "en": "In RIF, sperm DNA fragmentation and sperm FISH are not recommended."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Células NK en sangre periférica.",
+            "en": "Peripheral blood NK cells."
+          },
+          "correct": false,
+          "why": {
+            "es": "El estudio de NK periféricas (y uterinas) no se recomienda.",
+            "en": "Peripheral (and uterine) NK-cell testing is not recommended."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Estudio de endometritis crónica, con antibióticos si se diagnostica.",
+            "en": "Assessment for chronic endometritis, with antibiotics if diagnosed."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas cosas «pueden considerarse» en el documento de FIR.",
+            "en": "Correct: both “can be considered” in the RIF document."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Perfil del microbioma uterino y vaginal.",
+            "en": "Uterine and vaginal microbiome profiling."
+          },
+          "correct": false,
+          "why": {
+            "es": "El perfil de microbioma no se recomienda.",
+            "en": "Microbiome profiling is not recommended."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En el FIR hay pocas pruebas «recomendadas»; varias pueden considerarse caso a caso y muchas de las más populares no se recomiendan.",
+        "en": "In RIF few tests are “recommended”; several can be considered case by case, and many of the most popular are not recommended."
+      },
+      "refIds": [
+        "eshre-2023-rif"
+      ]
+    }
+  ]
+}

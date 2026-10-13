@@ -1,0 +1,24 @@
+[
+  {
+    "id": "eshre-2023-rif",
+    "title": "ESHRE good practice recommendations on recurrent implantation failure",
+    "authors": "ESHRE Working Group on Recurrent Implantation Failure; Cimadomo D, de los Santos MJ, Griesinger G, Lainas G, Le Clef N, McLernon DJ, Montjean D, Toth B, Vermeulen N, Macklon N",
+    "year": 2023,
+    "url": "https://doi.org/10.1093/hropen/hoad023",
+    "doi": "10.1093/hropen/hoad023",
+    "type": "consensus",
+    "population": {
+      "es": "Pacientes y parejas en FIV/ICSI con fallo de implantación recurrente; Hum Reprod Open 2023 (ESHRE Pages). Asume un estudio de fertilidad estándar completado antes de la TRA.",
+      "en": "Patients and couples undergoing IVF/ICSI with recurrent implantation failure; Hum Reprod Open 2023 (ESHRE Pages). Assumes a standard fertility work-up completed before ART."
+    },
+    "finding": {
+      "es": "Define el FIR de forma individual con un umbral del 60 % de probabilidad acumulada predicha de implantación. 19 recomendaciones sobre estudios y 13 sobre intervenciones, clasificadas en recomendadas, a considerar o no recomendadas. Recomendado: revisar estilo de vida, reevaluar el grosor endometrial, consejo genético si hay alteración cromosómica, antifosfolípidos con factores de riesgo. A considerar: cariotipo, histeroscopia, endometritis crónica, tiroides, PGT-A, transferencia en blastocisto. No recomendado: NK, citocinas, HLA-C, microbioma, fragmentación del ADN espermático, scratching, G-CSF, intralípidos, IVIG, PBMC, PRP, hCG intrauterina, heparina, pretratamiento con GnRHa/IA, eclosión asistida.",
+      "en": "Defines RIF individually with a 60% threshold of cumulative predicted chance of implantation. 19 recommendations on investigations and 13 on interventions, classed as recommended, to be considered or not recommended. Recommended: review lifestyle, re-assess endometrial thickness, genetic counselling if a chromosomal abnormality is found, antiphospholipid antibodies with risk factors. To be considered: karyotyping, hysteroscopy, chronic endometritis, thyroid, PGT-A, blastocyst transfer. Not recommended: NK cells, cytokines, HLA-C, microbiome, sperm DNA fragmentation, scratching, G-CSF, intralipid, IVIG, PBMC, PRP, intrauterine hCG, heparin, GnRHa/AI pre-treatment, assisted hatching."
+    },
+    "limitations": {
+      "es": "Texto completo leído en la versión XML de acceso abierto de Europe PMC (PMC10270320); el PDF no pudo descargarse y las figuras resumen por colores (imágenes) no se leyeron, solo las frases de las tablas. Documento de buena práctica basado en opinión de expertos apoyada en la literatura y en una encuesta, sin graduación GRADE; definiciones de FIR heterogéneas en los estudios.",
+      "en": "Full text read in the Europe PMC open-access XML version (PMC10270320); the PDF could not be downloaded and the colour-coded summary figures (images) were not read, only the table wording. Good practice document based on expert opinion supported by the literature and a survey, without GRADE ratings; RIF definitions vary across studies."
+    },
+    "accessed": "2026-10-13"
+  }
+]
