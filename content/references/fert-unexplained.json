@@ -1,0 +1,24 @@
+[
+  {
+    "id": "eshre-2023-addons",
+    "title": "Good practice recommendations on add-ons in reproductive medicine",
+    "authors": "ESHRE Add-ons Working Group; Lundin K, Bentzen JG, Bozdag G, Ebner T, Harper J, Le Clef N, Moffett A, Norcross S, Polyzos NP, Rautakallio-Hokkanen S, Sfontouris I, Sermon K, Vermeulen N, Pinborg A",
+    "year": 2023,
+    "url": "https://doi.org/10.1093/humrep/dead184",
+    "doi": "10.1093/humrep/dead184",
+    "type": "consensus",
+    "population": {
+      "es": "Pacientes en tratamiento de reproducción asistida (TRA); Hum Reprod 2023 (ESHRE Pages).",
+      "en": "Patients undergoing assisted reproductive technology (ART); Hum Reprod 2023 (ESHRE Pages)."
+    },
+    "finding": {
+      "es": "42 recomendaciones con una escala propia de cuatro fórmulas (recommended; can be considered; currently not recommended for routine clinical use; not recommended). Pruebas inmunitarias en sangre periférica y estudio de NK uterinas: not recommended. Histeroscopia de cribado: currently not recommended for routine clinical use (can be considered en fallo de implantación recurrente). Fragmentación del ADN espermático, scratching endometrial y genotipado KIR/HLA: currently not recommended for routine clinical use. ICSI en factor no masculino: not recommended.",
+      "en": "42 recommendations using its own four-phrase scale (recommended; can be considered; currently not recommended for routine clinical use; not recommended). Peripheral blood immune tests and uterine NK-cell testing: not recommended. Screening hysteroscopy: currently not recommended for routine clinical use (can be considered in recurrent implantation failure). Sperm DNA damage testing, endometrial scratching and KIR/HLA genotyping: currently not recommended for routine clinical use. ICSI for non-male factor infertility: not recommended."
+    },
+    "limitations": {
+      "es": "Texto completo leído (copia de acceso abierto en UCL Discovery de la versión avanzada en línea); se comprobó literalmente la redacción de cada recomendación citada y la tabla de definiciones de la escala. Buenas prácticas basadas en revisión y consenso, no guía GRADE: ninguna recomendación con evidencia de alta calidad y solo cuatro con calidad moderada. Población de TRA, no específicamente infertilidad inexplicada.",
+      "en": "Full text read (UCL Discovery open-access copy of the advance online version); the wording of every cited recommendation and the scale-definition table were checked verbatim. Good practice recommendations based on review and consensus, not a GRADE guideline: no recommendation rests on high-quality evidence and only four on moderate-quality evidence. ART population, not specifically unexplained infertility."
+    },
+    "accessed": "2026-10-13"
+  }
+]
