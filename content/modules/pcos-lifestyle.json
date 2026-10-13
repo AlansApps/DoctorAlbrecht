@@ -1,0 +1,1662 @@
+{
+  "id": "pcos-lifestyle",
+  "macroId": "pcos",
+  "title": {
+    "es": "SOP: estilo de vida, ejercicio y salud mental sin estigma",
+    "en": "PCOS: lifestyle, exercise and mental health without stigma"
+  },
+  "lessons": [
+    {
+      "id": "pcos-ls.l1-lifestyle-diet",
+      "microId": "pcos.diet",
+      "title": {
+        "es": "Estilo de vida y alimentación en el SOP, más allá del peso",
+        "en": "Lifestyle and eating in PCOS, beyond weight"
+      },
+      "objective": {
+        "es": "Recomendar estilo de vida saludable a todas las pacientes con SOP distinguiendo qué resultados mejora, plantear el peso solo si ella lo prioriza y hacerlo sin estigma ni culpa.",
+        "en": "Recommend a healthy lifestyle to every patient with PCOS while distinguishing which outcomes it improves, address weight only if she prioritises it, and do so without stigma or blame."
+      },
+      "closing": {
+        "es": "Estilo de vida para todas, con metas co-desarrolladas; beneficios aunque no baje el peso; si el objetivo es perder peso, un déficit adaptado y sin dietas indebidamente restrictivas; y nunca culpar: no hay evidencia consistente de que las mujeres con SOP coman o se muevan distinto.",
+        "en": "Lifestyle for everyone, with co-developed goals; benefits even without weight loss; if the goal is weight loss, a tailored deficit with no unduly restrictive diets; and never blame: there is no consistent evidence that women with PCOS eat or move differently."
+      },
+      "prerequisites": [
+        "nutr.mediterranean",
+        "nutr.obesity-no-stigma"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "pcos-ls.c1-lifestyle-for-all",
+        "pcos-ls.c2-outcomes",
+        "pcos-ls.c3-weight-goal",
+        "pcos-ls.c4-behavioural",
+        "pcos-ls.c5-not-their-fault",
+        "pcos-ls.c6-weight-stigma",
+        "pcos-ls.q1-normal-weight",
+        "pcos-ls.q2-cochrane-outcomes",
+        "pcos-ls.q3-restrictive",
+        "pcos-ls.q4-weighing",
+        "pcos-ls.q5-blame"
+      ]
+    },
+    {
+      "id": "pcos-ls.l2-exercise",
+      "microId": "pcos.exercise",
+      "title": {
+        "es": "Actividad física en el SOP: cuánta, cuál y con qué barreras",
+        "en": "Physical activity in PCOS: how much, which kind and what barriers"
+      },
+      "objective": {
+        "es": "Aconsejar actividad física con las cantidades de la guía según el objetivo, sin imponer un tipo de ejercicio y abordando las barreras reales.",
+        "en": "Advise physical activity using the guideline amounts for each goal, without imposing an exercise type, and addressing real barriers."
+      },
+      "closing": {
+        "es": "Algo es mejor que nada; menos tiempo sedentario; ningún tipo de ejercicio ha demostrado ser superior; las cantidades dependen del objetivo; y las barreras (imagen corporal, miedo a fracasar, seguridad) se hablan.",
+        "en": "Some is better than none; less sedentary time; no exercise type has been shown to be superior; amounts depend on the goal; and barriers (body image, fear of failure, safety) are discussed."
+      },
+      "prerequisites": [
+        "habit.exercise"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "pcos-ls.c7-any-activity",
+        "pcos-ls.c8-amounts",
+        "pcos-ls.c9-barriers",
+        "pcos-ls.q6-amounts",
+        "pcos-ls.q7-exercise-type"
+      ]
+    },
+    {
+      "id": "pcos-ls.l3-mental-health",
+      "microId": "pcos.mental-health",
+      "title": {
+        "es": "Salud mental, imagen corporal y TCA en el SOP",
+        "en": "Mental health, body image and eating disorders in PCOS"
+      },
+      "objective": {
+        "es": "Cribar depresión y ansiedad, considerar TCA sea cual sea el peso, abordar imagen corporal y función psicosexual con permiso, y saber qué tratamiento ofrecer.",
+        "en": "Screen for depression and anxiety, consider eating disorders whatever the weight, address body image and psychosexual function with permission, and know which treatment to offer."
+      },
+      "closing": {
+        "es": "Cribar depresión (adultas y adolescentes) y ansiedad (adultas) a todas; pensar en TCA antes y durante cualquier intervención de peso; pedir permiso para hablar de sexualidad; y la terapia psicológica como primera línea cuando hay un trastorno.",
+        "en": "Screen everyone for depression (adults and adolescents) and anxiety (adults); think of eating disorders before and during any weight intervention; ask permission to discuss sexuality; and psychological therapy as first line when there is a disorder."
+      },
+      "prerequisites": [
+        "habit.mental-health",
+        "nutr.eating-disorders"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "pcos-ls.c10-depression-anxiety",
+        "pcos-ls.c11-eating-disorders",
+        "pcos-ls.c12-body-image-sexual",
+        "pcos-ls.c13-psych-treatment",
+        "pcos-ls.q8-screening",
+        "pcos-ls.q9-eating-disorders",
+        "pcos-ls.q10-psychosexual",
+        "pcos-ls.q11-first-line",
+        "pcos-ls.case1-valeria"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "pcos-ls.c1-lifestyle-for-all",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos-ls.lifestyle-for-all",
+      "rev": 1,
+      "tags": [
+        "habits",
+        "diet"
+      ],
+      "title": {
+        "es": "Estilo de vida saludable: para todas, no solo para algunas",
+        "en": "Healthy lifestyle: for everyone, not just some"
+      },
+      "core": {
+        "es": "La intervención de estilo de vida (ejercicio solo, o dieta combinada con ejercicio y estrategias conductuales) debería recomendarse a todas las mujeres con SOP para mejorar la salud metabólica, incluida la adiposidad central y el perfil lipídico (recomendación basada en evidencia, fuerte; certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Lifestyle intervention (exercise alone, or multicomponent diet combined with exercise and behavioural strategies) should be recommended for all women with PCOS to improve metabolic health, including central adiposity and lipid profile (evidence-based recommendation, strong; very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Una segunda recomendación, de consenso y fuerte, amplía los objetivos: comer de forma saludable y/o hacer actividad física para optimizar la salud general, la calidad de vida, la composición corporal y el manejo del peso, entendido como mantener el peso, prevenir su aumento y/o una pérdida modesta. [[ref:teede-2023-pcos-guideline]]\n\nLos puntos de práctica añaden que el estilo de vida es un eje central del manejo, que las metas y prioridades se co-desarrollan con la paciente según sus preferencias, y que una vida saludable tiene beneficios incluso sin pérdida de peso. [[ref:teede-2023-pcos-guideline]]",
+        "en": "A second, strong consensus recommendation broadens the goals: healthy eating and/or physical activity to optimise general health, quality of life, body composition and weight management, meaning maintaining weight, preventing weight gain and/or modest weight loss. [[ref:teede-2023-pcos-guideline]]\n\nThe practice points add that lifestyle is a core focus of management, that goals and priorities are co-developed with the patient according to her preferences, and that a healthy lifestyle has benefits even without weight loss. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Plantéalo a todas las pacientes, sea cual sea su peso, y pregunta primero qué le preocupa más (ciclos, piel, ánimo, fertilidad, energía): ese punto de partida orienta la meta compartida.",
+        "en": "Raise it with every patient, whatever her weight, and first ask what concerns her most (cycles, skin, mood, fertility, energy): that starting point shapes the shared goal."
+      },
+      "pearl": {
+        "es": "“Para todas” no significa “para que adelgacen todas”.",
+        "en": "“For everyone” does not mean “so that everyone loses weight”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Guía internacional SOP 2023, 3.1.1 (fuerte, certeza muy baja), 3.1.2 (consenso, fuerte) y puntos de práctica 3.1.3–3.1.5.",
+          "en": "International PCOS guideline 2023, 3.1.1 (strong, very low certainty), 3.1.2 (consensus, strong) and practice points 3.1.3–3.1.5."
+        }
+      },
+      "recall": {
+        "es": "¿A quién se recomienda la intervención de estilo de vida en el SOP y para qué resultados, según la guía 2023?",
+        "en": "Who should be offered lifestyle intervention in PCOS, and for which outcomes, according to the 2023 guideline?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c2-outcomes",
+      "kind": "card",
+      "type": "comparison",
+      "conceptId": "pcos-ls.outcomes",
+      "rev": 2,
+      "tags": [
+        "habits",
+        "reproduction"
+      ],
+      "title": {
+        "es": "Qué mejora el estilo de vida y qué no se ha medido",
+        "en": "What lifestyle improves, and what has not been measured"
+      },
+      "core": {
+        "es": "En la revisión Cochrane, la intervención de estilo de vida frente a intervención mínima puede mejorar el índice de andrógenos libres, el peso y el IMC (evidencia de baja calidad), con efecto incierto sobre la tolerancia a la glucosa; ningún ensayo evaluó nacido vivo, aborto ni regularidad menstrual (según la definición de la revisión). [[ref:lim-2019-cochrane-lifestyle-pcos]]",
+        "en": "In the Cochrane review, lifestyle intervention versus minimal intervention may improve the free androgen index, weight and BMI (low-quality evidence), with an uncertain effect on glucose tolerance; no trial assessed live birth, miscarriage or menstrual regularity (as defined in the review). [[ref:lim-2019-cochrane-lifestyle-pcos]]"
+      },
+      "body": {
+        "es": "Los efectos medios fueron pequeños: −1,68 kg de peso y −0,34 kg/m² de IMC, en 15 ensayos con 498 participantes, la mayoría con riesgo de sesgo alto o incierto. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nLa guía 2023 separa los resultados: la recomendación basada en evidencia se dirige a la salud metabólica (adiposidad central y lípidos), y la de consenso a salud general, calidad de vida, composición corporal y manejo del peso. Al evaluar la dieta y el ejercicio, distingue resultados antropométricos, metabólicos, hormonales, reproductivos y psicológicos. [[ref:teede-2023-pcos-guideline]]",
+        "en": "Average effects were small: −1.68 kg of weight and −0.34 kg/m² of BMI, across 15 trials with 498 participants, most at high or unclear risk of bias. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nThe 2023 guideline separates outcomes: the evidence-based recommendation targets metabolic health (central adiposity and lipids), and the consensus one targets general health, quality of life, body composition and weight management. When assessing diet and exercise it distinguishes anthropometric, metabolic, hormonal, reproductive and psychological outcomes. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Estilo de vida vs intervención mínima (Cochrane 2019)",
+              "en": "Lifestyle vs minimal intervention (Cochrane 2019)"
+            }
+          },
+          {
+            "mark": "yes",
+            "text": {
+              "es": "Puede mejorar: índice de andrógenos libres, peso, IMC (baja calidad)",
+              "en": "May improve: free androgen index, weight, BMI (low quality)"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Incierto: tolerancia a la glucosa",
+              "en": "Uncertain: glucose tolerance"
+            }
+          },
+          {
+            "mark": "no",
+            "text": {
+              "es": "Sin estudios: nacido vivo, aborto, regularidad menstrual",
+              "en": "No studies: live birth, miscarriage, menstrual regularity"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Resumen de la revisión Cochrane 2019: el estilo de vida puede mejorar el índice de andrógenos libres, el peso y el IMC con evidencia de baja calidad; el efecto en la tolerancia a la glucosa es incierto; no hubo estudios sobre nacido vivo, aborto ni regularidad menstrual.",
+          "en": "Summary of the 2019 Cochrane review: lifestyle may improve the free androgen index, weight and BMI with low-quality evidence; the effect on glucose tolerance is uncertain; there were no studies on live birth, miscarriage or menstrual regularity."
+        }
+      },
+      "application": {
+        "es": "Cuando expliques los beneficios, sé concreta sobre el resultado: no prometas que “volverá la regla” o “te quedarás embarazada” como efecto demostrado del estilo de vida.",
+        "en": "When you explain the benefits, be specific about the outcome: do not promise that “your period will come back” or “you will get pregnant” as a proven effect of lifestyle."
+      },
+      "pearl": {
+        "es": "Ausencia de estudios no es ausencia de efecto, pero tampoco es una promesa.",
+        "en": "Absence of studies is not absence of effect, but it is not a promise either."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": {
+          "es": "Revisión Cochrane: evidencia de baja calidad; ensayos pequeños.",
+          "en": "Cochrane review: low-quality evidence; small trials."
+        }
+      },
+      "recall": {
+        "es": "¿Qué resultados mejoró el estilo de vida en la revisión Cochrane del SOP y cuáles no llegaron a estudiarse?",
+        "en": "Which outcomes did lifestyle improve in the Cochrane PCOS review, and which were never studied?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c3-weight-goal",
+      "kind": "card",
+      "type": "diet",
+      "conceptId": "pcos-ls.weight-goal",
+      "rev": 1,
+      "tags": [
+        "diet"
+      ],
+      "title": {
+        "es": "Si ella quiere perder peso: déficit adaptado, sin dietas indebidamente restrictivas",
+        "en": "If she wants to lose weight: a tailored deficit, no unduly restrictive diets"
+      },
+      "core": {
+        "es": "Si el objetivo es perder peso, podría prescribirse un déficit energético adaptado a sus necesidades, peso corporal y nivel de actividad física, evitando dietas indebidamente restrictivas y nutricionalmente desequilibradas (puntos de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "If the goal is weight loss, a tailored energy deficit could be prescribed, considering her energy requirements, body weight and physical activity level, while avoiding unduly restrictive and nutritionally unbalanced diets (practice points). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "En personas de mayor peso, el manejo del peso puede asociarse a mejoras clínicas significativas; la guía pide considerar la prevención de nuevo aumento a lo largo de la vida, el valor de mejorar la adiposidad central (cintura, índice cintura-cadera) o la salud metabólica, y la necesidad de evaluación y apoyo continuos. [[ref:teede-2023-pcos-guideline]]\n\nLos cambios se adaptan a las preferencias alimentarias con un enfoque flexible, individual y co-desarrollado; se hablan las barreras (psicológicas, físicas, socioeconómicas, socioculturales) y se considera derivar a profesionales sanitarios con formación adecuada. La guía 3.6 añade que la atención centrada en el peso es una opción, junto a la atención inclusiva del peso, según los objetivos y preferencias de cada mujer. [[ref:teede-2023-pcos-guideline]]",
+        "en": "In people with higher weight, weight management can be associated with significant clinical improvements; the guideline asks to consider lifelong prevention of further weight gain, the value of improving central adiposity (waist circumference, waist-hip ratio) or metabolic health, and the need for ongoing assessment and support. [[ref:teede-2023-pcos-guideline]]\n\nChanges are tailored to food preferences with a flexible, individual, co-developed approach; barriers (psychological, physical, socioeconomic, sociocultural) are discussed, and referral to suitably trained allied health professionals is considered. Guideline section 3.6 adds that weight-centric care is one option, alongside weight-inclusive care, according to each woman's goals and preferences. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Antes de hablar de déficit, confirma que perder peso es su objetivo (no el tuyo) y pregunta por dietas previas y su relación con la comida: el riesgo de TCA se considera justo en este contexto (lección 3).",
+        "en": "Before discussing a deficit, confirm that weight loss is her goal (not yours) and ask about previous diets and her relationship with food: eating disorder risk is considered precisely in this context (lesson 3)."
+      },
+      "pearl": {
+        "es": "La guía no da una cifra de calorías ni una dieta: da criterios para adaptarla.",
+        "en": "The guideline gives no calorie figure and no diet: it gives criteria for tailoring one."
+      },
+      "deepDive": {
+        "es": "Este módulo no repite la tarjeta “No hay dieta del SOP” del módulo piloto: allí está la recomendación 3.3.1 (ninguna composición superior; condicional, certeza muy baja) y la 3.3.2 (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "This module does not repeat the “There is no PCOS diet” card from the pilot module: that card holds recommendation 3.3.1 (no superior composition; conditional, very low certainty) and 3.3.2 (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Puntos de práctica 3.1.6, 3.3.3, 3.3.4 y 3.6.4 (consenso del grupo, sin calificación de certeza).",
+          "en": "Practice points 3.1.6, 3.3.3, 3.3.4 and 3.6.4 (group consensus, no certainty rating)."
+        }
+      },
+      "recall": {
+        "es": "Si una paciente con SOP elige perder peso, ¿qué criterios da la guía para el plan alimentario y qué debe evitarse?",
+        "en": "If a patient with PCOS chooses to lose weight, what criteria does the guideline give for the eating plan, and what should be avoided?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c4-behavioural",
+      "kind": "card",
+      "type": "what-i-would-do",
+      "conceptId": "pcos-ls.behavioural",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Las estrategias conductuales son parte del tratamiento",
+        "en": "Behavioural strategies are part of treatment"
+      },
+      "core": {
+        "es": "Las intervenciones de estilo de vida podrían incluir fijación de metas, automonitorización, resolución de problemas, entrenamiento en asertividad, refuerzo de los cambios y prevención de recaídas (recomendación de consenso, condicional). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Lifestyle interventions could include goal setting, self-monitoring, problem solving, assertiveness training, reinforcing changes and relapse prevention (consensus recommendation, conditional). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "El objetivo declarado no es solo el peso: también un estilo de vida saludable y el bienestar emocional. Los puntos de práctica sugieren metas SMART (específicas, medibles, alcanzables, realistas y con plazo) y que podrían considerarse intervenciones conductuales o cognitivo-conductuales integrales para mejorar el apoyo, la adherencia y el mantenimiento. [[ref:teede-2023-pcos-guideline]]\n\nLa guía también señala que el estilo de vida con apoyo clínico estructurado, intensivo y continuado parece igual de eficaz en el SOP que en la población general (punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The stated aim is not only weight: it is also a healthy lifestyle and emotional well-being. The practice points suggest SMART goals (specific, measurable, achievable, realistic and timely) and that comprehensive behavioural or cognitive behavioural interventions could be considered to improve support, adherence and maintenance. [[ref:teede-2023-pcos-guideline]]\n\nThe guideline also notes that lifestyle with structured, intensive and ongoing clinical support appears equally effective in PCOS as in the general population (practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Sugerencia de comunicación: cierra la consulta con una meta pequeña que ella misma formule (“¿qué te ves haciendo esta semana?”) y una fecha de revisión, en vez de una lista de prohibiciones.",
+        "en": "Communication suggestion: close the visit with a small goal she phrases herself (“what can you see yourself doing this week?”) and a review date, instead of a list of prohibitions."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "3.2.1 consenso, condicional; 3.2.2, 3.2.3 y 3.1.8 puntos de práctica.",
+          "en": "3.2.1 consensus, conditional; 3.2.2, 3.2.3 and 3.1.8 practice points."
+        }
+      },
+      "recall": {
+        "es": "¿Qué estrategias conductuales enumera la guía 2023 para las intervenciones de estilo de vida en el SOP?",
+        "en": "Which behavioural strategies does the 2023 guideline list for lifestyle interventions in PCOS?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c5-not-their-fault",
+      "kind": "card",
+      "type": "myth",
+      "conceptId": "pcos-ls.not-their-fault",
+      "rev": 2,
+      "tags": [
+        "habits",
+        "diet"
+      ],
+      "title": {
+        "es": "Mito: “con SOP se gana peso porque se come más o se hace menos ejercicio”",
+        "en": "Myth: “with PCOS you gain weight because you eat more or exercise less”"
+      },
+      "core": {
+        "es": "No hay evidencia consistente de diferencias fisiológicas ni de conducta de estilo de vida, relacionadas con el peso, entre mujeres con y sin SOP (recomendación basada en evidencia, condicional; certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "There is a lack of consistent evidence of physiological or behavioural lifestyle differences, related to weight, in women with PCOS compared with women without PCOS (evidence-based recommendation, conditional; very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "A la vez, la guía reconoce que, aunque los mecanismos específicos no están claros, muchas mujeres con SOP tienen mecanismos subyacentes que favorecen un mayor aumento de peso a lo largo del tiempo y un IMC más alto, lo que puede suponer mayores dificultades para manejar el peso (punto de práctica). [[ref:teede-2023-pcos-guideline]]\n\nDe ahí las dos consignas que la guía asocia a este punto: estrategias de estilo de vida saludables a lo largo de la vida con prevención del aumento excesivo de peso, y metas realistas y adaptadas. [[ref:teede-2023-pcos-guideline]]",
+        "en": "At the same time, the guideline recognises that, although the specific mechanisms are unclear, many women with PCOS have underlying mechanisms that drive greater longitudinal weight gain and higher BMI, which may underpin greater challenges with weight management (practice point). [[ref:teede-2023-pcos-guideline]]\n\nHence the two messages the guideline attaches to this point: lifelong healthy lifestyle strategies with prevention of excess weight gain, and realistic, tailored goals. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Si una paciente dice “es que no tengo fuerza de voluntad”, puedes responder con respeto que la evidencia no muestra que las mujeres con SOP coman o se muevan distinto, y que en muchas mujeres con SOP hay mecanismos biológicos que hacen más difícil manejar el peso.",
+        "en": "If a patient says “I just have no willpower”, you can respond respectfully that the evidence does not show that women with PCOS eat or move differently, and that in many women with PCOS there are biological mechanisms that make weight harder to manage."
+      },
+      "pearl": {
+        "es": "Más difícil no significa “culpa suya”.",
+        "en": "Harder does not mean “her fault”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "3.5.1 condicional, certeza muy baja; 3.5.2 punto de práctica.",
+          "en": "3.5.1 conditional, very low certainty; 3.5.2 practice point."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice la guía 2023 sobre si las mujeres con SOP comen o se mueven distinto, y sobre su tendencia a ganar peso?",
+        "en": "What does the 2023 guideline say about whether women with PCOS eat or move differently, and about their tendency to gain weight?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c6-weight-stigma",
+      "kind": "card",
+      "type": "patient-phrase",
+      "conceptId": "pcos-ls.weight-stigma",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Hablar de peso sin estigma: permiso, propósito y opciones",
+        "en": "Talking about weight without stigma: permission, purpose and options"
+      },
+      "core": {
+        "es": "Muchas mujeres con SOP sufren estigma de peso en la atención sanitaria y en otros ámbitos, y su impacto biopsicosocial negativo debe reconocerse (recomendación basada en evidencia, fuerte; certeza baja). Las y los profesionales deberían ser conscientes de sus propios sesgos de peso (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Many women with PCOS experience weight stigma in healthcare and other settings, and its negative biopsychosocial impact should be recognised (evidence-based recommendation, strong; low certainty). Healthcare professionals should be aware of their own weight biases (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Prácticas inclusivas del peso que lista la guía (punto de práctica): reconocer que el peso es solo un indicador de salud y valorar factores más amplios; pedir permiso para hablar del peso y medirlo, con estrategias para reducir la incomodidad (p. ej., pesaje sin que vea la cifra); evitar “sobrepeso” y “obesidad” cuando resultan estigmatizantes, con alternativas como “mayor peso”; si se pesa, explicar para qué se usará el dato; tener equipamiento para todos los tamaños; ofrecer atención centrada en el peso o inclusiva del peso según sus objetivos; y dar la mejor evaluación y tratamiento con independencia del peso. [[ref:teede-2023-pcos-guideline]]",
+        "en": "Weight-inclusive practices listed by the guideline (practice point): acknowledge that weight is only one indicator of health and assess broader factors; ask permission to discuss and measure weight, with strategies to minimise discomfort (e.g. blind weighing); avoid “overweight” and “obese/obesity” where stigmatising, with alternatives such as “higher weight”; if weighing, explain how the information will be used; have equipment for all sizes; offer weight-centric or weight-inclusive care according to her goals; and provide best-practice assessment and treatment regardless of weight. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Frase posible (sugerencia de comunicación): “¿Te parece bien que hablemos del peso? Te lo pregunto porque me ayuda a valorar tu riesgo metabólico; si prefieres, puedo pesarte sin que veas la cifra.”",
+        "en": "Possible phrase (communication suggestion): “Is it all right with you if we talk about weight? I ask because it helps me assess your metabolic risk; if you prefer, I can weigh you without you seeing the number.”"
+      },
+      "pearl": {
+        "es": "La guía también reconoce que, con cambios de estilo de vida solos, el peso puede ser un factor de riesgo no modificable: eso no reduce lo que le debes como atención. [[ref:teede-2023-pcos-guideline]]",
+        "en": "The guideline also acknowledges that, with lifestyle change alone, weight may be a non-modifiable risk factor: that does not reduce the care you owe her. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "3.6.1 fuerte, certeza baja; 3.6.2 consenso, fuerte; 3.6.4 punto de práctica.",
+          "en": "3.6.1 strong, low certainty; 3.6.2 consensus, strong; 3.6.4 practice point."
+        }
+      },
+      "recall": {
+        "es": "Enumera al menos cuatro prácticas inclusivas del peso que propone la guía 2023 para el SOP.",
+        "en": "List at least four weight-inclusive practices proposed by the 2023 guideline for PCOS."
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c7-any-activity",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos-ls.any-activity",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Ningún tipo de ejercicio ha demostrado ser el “del SOP”",
+        "en": "No exercise type has been shown to be “the PCOS one”"
+      },
+      "core": {
+        "es": "Faltan pruebas de que un tipo o una intensidad de ejercicio sea mejor que otro para resultados antropométricos, metabólicos, hormonales, reproductivos o psicológicos (recomendación basada en evidencia, condicional; certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "There is a lack of evidence that any one type or intensity of exercise is better than another for anthropometric, metabolic, hormonal, reproductive or psychological outcomes (evidence-based recommendation, conditional; very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Cualquier actividad física coherente con las guías poblacionales tendrá beneficios para la salud, y dentro de ellas se aconseja una actividad sostenible según preferencias y objetivos (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]\n\nLa guía define actividad física en sentido amplio: cualquier movimiento corporal producido por el músculo esquelético que requiera gasto de energía, incluidos el ocio, los desplazamientos (caminar, bicicleta), el trabajo, las tareas domésticas, el juego, el deporte o el ejercicio planificado (punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Any physical activity consistent with population guidelines will have health benefits, and within them sustainable activity based on preferences and goals is advised (consensus, strong). [[ref:teede-2023-pcos-guideline]]\n\nThe guideline defines physical activity broadly: any bodily movement produced by skeletal muscle that requires energy expenditure, including leisure, transport (walking, cycling), work, household chores, games, sport or planned exercise (practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Si llega convencida de que “solo sirve el HIIT” o “solo pesas”, la guía no respalda esa superioridad: la mejor actividad es la que pueda mantener.",
+        "en": "If she arrives convinced that “only HIIT works” or “only weights”, the guideline does not support that superiority: the best activity is the one she can keep up."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "3.4.1 condicional, certeza muy baja; 3.4.2 consenso, fuerte; 3.4.4 punto de práctica.",
+          "en": "3.4.1 conditional, very low certainty; 3.4.2 consensus, strong; 3.4.4 practice point."
+        }
+      },
+      "recall": {
+        "es": "¿Hay un tipo o intensidad de ejercicio preferido en el SOP según la guía 2023? ¿Qué cuenta como actividad física?",
+        "en": "Is there a preferred exercise type or intensity in PCOS according to the 2023 guideline? What counts as physical activity?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c8-amounts",
+      "kind": "card",
+      "type": "comparison",
+      "conceptId": "pcos-ls.amounts",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Cuánta actividad: depende del objetivo",
+        "en": "How much activity: it depends on the goal"
+      },
+      "core": {
+        "es": "En adultas de 18–64 años, para prevenir el aumento de peso y mantener la salud: mínimo 150–300 min/semana de actividad moderada o 75–150 min/semana de vigorosa (o combinación), más fuerza muscular 2 días no consecutivos por semana (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "In adults aged 18–64, to prevent weight gain and maintain health: a minimum of 150–300 min/week of moderate or 75–150 min/week of vigorous activity (or a combination), plus muscle strengthening on 2 non-consecutive days per week (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Para mayores beneficios, incluida una pérdida de peso modesta y la prevención de su recuperación: mínimo 250 min/semana de actividad moderada o 150 min/semana de vigorosa (o combinación), más fuerza idealmente 2 días no consecutivos. Adolescentes: al menos 60 min/día de actividad moderada a vigorosa, con actividades que fortalezcan músculo y hueso al menos 3 veces por semana. [[ref:teede-2023-pcos-guideline]]\n\nEn la misma recomendación: toda adulta debería hacer actividad física, porque algo es mejor que nada, y limitar el tiempo sedentario (sentada, pantallas), ya que sustituirlo por actividad de cualquier intensidad, incluso ligera, aporta beneficios. [[ref:teede-2023-pcos-guideline]]",
+        "en": "For greater benefits, including modest weight loss and prevention of weight regain: a minimum of 250 min/week of moderate or 150 min/week of vigorous activity (or a combination), plus strengthening ideally on 2 non-consecutive days. Adolescents: at least 60 min/day of moderate-to-vigorous activity, including muscle- and bone-strengthening activities at least 3 times per week. [[ref:teede-2023-pcos-guideline]]\n\nIn the same recommendation: all adults should do physical activity, because some is better than none, and limit sedentary time (sitting, screens), since replacing it with activity of any intensity, even light, provides benefits. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Adultas 18–64: ¿cuál es el objetivo?",
+              "en": "Adults 18–64: what is the goal?"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "Prevenir aumento de peso y mantener salud: 150–300 min moderada o 75–150 min vigorosa/semana + fuerza 2 días",
+              "en": "Prevent weight gain and maintain health: 150–300 min moderate or 75–150 min vigorous/week + strength 2 days"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "Pérdida modesta y evitar recuperarlo: ≥250 min moderada o ≥150 min vigorosa/semana + fuerza 2 días",
+              "en": "Modest loss and preventing regain: ≥250 min moderate or ≥150 min vigorous/week + strength 2 days"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Siempre: algo es mejor que nada; menos tiempo sedentario",
+              "en": "Always: some is better than none; less sedentary time"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Flujo por objetivo en adultas de 18 a 64 años: para prevenir el aumento de peso y mantener la salud, 150 a 300 minutos semanales de actividad moderada o 75 a 150 de vigorosa más fuerza dos días; para una pérdida de peso modesta y evitar recuperarlo, al menos 250 minutos de moderada o 150 de vigorosa más fuerza dos días; en todos los casos, algo es mejor que nada y conviene reducir el tiempo sedentario.",
+          "en": "Flow by goal in adults aged 18 to 64: to prevent weight gain and maintain health, 150 to 300 minutes a week of moderate or 75 to 150 of vigorous activity plus strength two days; for modest weight loss and preventing regain, at least 250 minutes moderate or 150 vigorous plus strength two days; in all cases, some is better than none and sedentary time should be reduced."
+        }
+      },
+      "application": {
+        "es": "Si parte de cero, las cifras son un horizonte, no una condición: empieza por reducir tiempo sentada y sumar lo que le resulte posible.",
+        "en": "If she is starting from zero, the figures are a horizon, not a condition: start by reducing sitting time and adding whatever is feasible for her."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "3.4.3 consenso, fuerte, alineada con guías poblacionales de actividad física.",
+          "en": "3.4.3 consensus, strong, aligned with population physical activity guidelines."
+        }
+      },
+      "recall": {
+        "es": "¿Qué cantidades de actividad semanal da la guía 2023 para prevenir el aumento de peso y para una pérdida modesta? ¿Y en adolescentes?",
+        "en": "Which weekly activity amounts does the 2023 guideline give for preventing weight gain and for modest weight loss? And for adolescents?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c9-barriers",
+      "kind": "card",
+      "type": "what-i-would-do",
+      "conceptId": "pcos-ls.barriers",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Antes de prescribir ejercicio, pregunta qué lo impide",
+        "en": "Before prescribing exercise, ask what gets in the way"
+      },
+      "core": {
+        "es": "Deberían hablarse las barreras y facilitadores de la actividad física: factores psicológicos (preocupaciones por la imagen corporal, miedo a lesionarse, miedo a fracasar, salud mental), seguridad personal, entorno, limitaciones físicas y factores socioeconómicos y socioculturales, además de las motivaciones personales (punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Barriers and facilitators to physical activity should be discussed: psychological factors (body image concerns, fear of injury, fear of failure, mental health), personal safety, environment, physical limitations, and socioeconomic and sociocultural factors, as well as personal motivators (practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La guía añade valorar la implicación de la familia y considerar derivar a profesionales sanitarios formados. La automonitorización, incluidos dispositivos que cuentan pasos o intensidad, podría considerarse como complemento para fomentar la actividad y reducir el sedentarismo (punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The guideline adds considering family engagement and referral to suitably trained allied health professionals. Self-monitoring, including devices that track steps or intensity, could be considered as an adjunct to promote activity and reduce sedentary time (practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Pregunta abierta posible (sugerencia de comunicación): “¿Qué te ha hecho difícil moverte más hasta ahora?” Si aparece vergüenza en el gimnasio, la actividad no tiene por qué ser en un gimnasio.",
+        "en": "Possible open question (communication suggestion): “What has made it hard to move more until now?” If embarrassment at the gym comes up, activity need not happen in a gym."
+      },
+      "pearl": {
+        "es": "La imagen corporal es una barrera citada por la guía, no una excusa.",
+        "en": "Body image is a barrier named by the guideline, not an excuse."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Puntos de práctica 3.4.6 y 3.4.7 (consenso, sin calificación de certeza).",
+          "en": "Practice points 3.4.6 and 3.4.7 (consensus, no certainty rating)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué barreras psicológicas para la actividad física nombra la guía 2023 en el SOP?",
+        "en": "Which psychological barriers to physical activity does the 2023 guideline name in PCOS?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c10-depression-anxiety",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos-ls.depression-anxiety",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Cribar depresión y ansiedad a todas",
+        "en": "Screen everyone for depression and anxiety"
+      },
+      "core": {
+        "es": "Hay que cribar depresión en todas las adultas y adolescentes con SOP, y ansiedad en todas las adultas, con herramientas validadas en la región (recomendaciones basadas en evidencia, fuertes; certeza alta). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Screen for depression in all adults and adolescents with PCOS, and for anxiety in all adults, using regionally validated tools (evidence-based recommendations, strong; high certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La base es la alta prevalencia de síntomas depresivos y ansiosos moderados a graves en el SOP. Si se detectan síntomas moderados o graves, se debe evaluar más a fondo, derivar o ofrecer tratamiento (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]\n\nEl intervalo óptimo no se conoce: un enfoque pragmático es cribar al diagnóstico y repetir según juicio clínico, factores de riesgo, comorbilidades y acontecimientos vitales, incluido el periodo perinatal. El cribado incluye factores de riesgo, síntomas y riesgo de autolesión e intención suicida (punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The basis is the high prevalence of moderate to severe depressive and anxiety symptoms in PCOS. If moderate or severe symptoms are detected, further assess, refer appropriately or offer treatment (consensus, strong). [[ref:teede-2023-pcos-guideline]]\n\nThe optimal interval is not known: a pragmatic approach is screening at diagnosis with repeat screening based on clinical judgement, risk factors, comorbidities and life events, including the perinatal period. Screening covers risk factors, symptoms and risk of self-harm and suicidal intent (practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "En tu consulta, incorpora un cuestionario validado en tu medio al diagnóstico de SOP y ten pensado a quién derivar antes de necesitarlo.",
+        "en": "In your clinic, build a locally validated questionnaire into the PCOS diagnosis visit and know whom to refer to before you need it."
+      },
+      "pearl": {
+        "es": "Es de las pocas recomendaciones de la guía con certeza alta.",
+        "en": "It is one of the few guideline recommendations with high certainty."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "2.2.1 y 2.2.2 fuertes, certeza alta; 2.2.3 consenso, fuerte; 2.2.4 punto de práctica.",
+          "en": "2.2.1 and 2.2.2 strong, high certainty; 2.2.3 consensus, strong; 2.2.4 practice point."
+        }
+      },
+      "recall": {
+        "es": "¿A quién y cuándo se criba depresión y ansiedad en el SOP, y qué incluye el cribado?",
+        "en": "Who is screened for depression and anxiety in PCOS, when, and what does screening include?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c11-eating-disorders",
+      "kind": "card",
+      "type": "what-i-would-do",
+      "conceptId": "pcos-ls.eating-disorders",
+      "rev": 2,
+      "tags": [
+        "habits",
+        "diet"
+      ],
+      "title": {
+        "es": "TCA: pensarlos sea cual sea el peso, sobre todo al hablar de peso",
+        "en": "Eating disorders: consider them whatever the weight, especially when weight is discussed"
+      },
+      "core": {
+        "es": "Los trastornos de la conducta alimentaria y la alimentación desordenada deberían considerarse en el SOP, independientemente del peso, especialmente en el contexto del manejo del peso y de las intervenciones de estilo de vida (recomendación basada en evidencia, condicional; certeza baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Eating disorders and disordered eating should be considered in PCOS, regardless of weight, especially in the context of weight management and lifestyle interventions (evidence-based recommendation, conditional; low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Si se sospechan, profesionales con la cualificación adecuada deberían hacer una entrevista diagnóstica completa; si se detectan, se ofrece manejo y apoyo apropiados (punto de práctica). Las mujeres con SOP diagnosticadas de un TCA deberían recibir terapia psicológica guiada por las guías poblacionales y sus preferencias (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "If suspected, appropriately qualified practitioners should carry out a full diagnostic interview; if detected, appropriate management and support are offered (practice point). Women with PCOS diagnosed with an eating disorder should be offered psychological therapy guided by general population guidelines and their preferences (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Antes de proponer un déficit energético, pregunta por dietas previas, atracones, compensaciones y relación con la comida. Si aparece una sospecha, lo coherente con 2.5.1–2.5.2 (inferencia, no texto literal de la guía) es completar la evaluación diagnóstica antes de plantear un déficit.",
+        "en": "Before proposing an energy deficit, ask about previous diets, binges, compensatory behaviours and relationship with food. If suspicion arises, what is consistent with 2.5.1–2.5.2 (an inference, not the guideline’s literal text) is to complete the diagnostic assessment before proposing a deficit."
+      },
+      "pearl": {
+        "es": "Un IMC alto no descarta un TCA.",
+        "en": "A high BMI does not rule out an eating disorder."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "2.5.1 condicional, certeza baja; 2.5.2 punto de práctica; 2.7.1 consenso, fuerte.",
+          "en": "2.5.1 conditional, low certainty; 2.5.2 practice point; 2.7.1 consensus, strong."
+        }
+      },
+      "recall": {
+        "es": "¿En qué pacientes y en qué momento la guía pide considerar TCA en el SOP?",
+        "en": "In which patients, and at what moment, does the guideline ask to consider eating disorders in PCOS?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c12-body-image-sexual",
+      "kind": "card",
+      "type": "concept",
+      "conceptId": "pcos-ls.body-image-sexual",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Imagen corporal y función psicosexual: preguntar con permiso",
+        "en": "Body image and psychosexual function: ask with permission"
+      },
+      "core": {
+        "es": "Las características del SOP pueden afectar negativamente la imagen corporal (recomendación basada en evidencia, fuerte; certeza baja). Para hablar de función psicosexual, debe pedirse permiso (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "PCOS features can have a negative impact on body image (evidence-based recommendation, strong; low certainty). Permission should be sought before discussing psychosexual function (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "El diagnóstico de disfunción psicosexual requiere baja función psicosexual junto con malestar asociado. Podrían considerarse los múltiples factores que influyen en ella en el SOP: mayor peso, hirsutismo, trastornos del ánimo, infertilidad y fármacos para el SOP (consenso, condicional). [[ref:teede-2023-pcos-guideline]]\n\nAnte malestar con la imagen corporal, baja autoestima, problemas con la identidad femenina o disfunción psicosexual, deberían ofrecerse tratamientos basados en evidencia, como la terapia cognitivo-conductual, cuando proceda (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "A diagnosis of psychosexual dysfunction requires low psychosexual function combined with related distress. The multiple factors that influence it in PCOS could be considered: higher weight, hirsutism, mood disorders, infertility and PCOS medications (consensus, conditional). [[ref:teede-2023-pcos-guideline]]\n\nFor body image distress, low self-esteem, problems with feminine identity or psychosexual dysfunction, evidence-based treatments such as cognitive behaviour therapy should be offered where appropriate (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Sugerencia de comunicación: “Algunas mujeres con SOP notan que afecta a cómo se ven o a su vida sexual. ¿Te gustaría que habláramos de eso?” Aceptar un “no” también es parte del permiso.",
+        "en": "Communication suggestion: “Some women with PCOS notice it affects how they see themselves or their sex life. Would you like us to talk about that?” Accepting a “no” is also part of permission."
+      },
+      "pearl": {
+        "es": "Baja función sin malestar no es disfunción.",
+        "en": "Low function without distress is not dysfunction."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "2.4.1 fuerte, certeza baja; 2.3.1 consenso, condicional; 2.3.2 y 2.7.2 consenso, fuertes.",
+          "en": "2.4.1 strong, low certainty; 2.3.1 consensus, conditional; 2.3.2 and 2.7.2 consensus, strong."
+        }
+      },
+      "recall": {
+        "es": "¿Qué requiere el diagnóstico de disfunción psicosexual y qué factores la influyen en el SOP?",
+        "en": "What does a diagnosis of psychosexual dysfunction require, and which factors influence it in PCOS?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.c13-psych-treatment",
+      "kind": "card",
+      "type": "what-i-would-do",
+      "conceptId": "pcos-ls.psych-treatment",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "title": {
+        "es": "Si hay depresión o ansiedad: terapia psicológica primero, y cuidado con los fármacos que aumentan el peso",
+        "en": "If there is depression or anxiety: psychological therapy first, and care with weight-gaining drugs"
+      },
+      "core": {
+        "es": "La terapia psicológica podría considerarse de primera línea; los antidepresivos se consideran en adultas con trastornos claramente documentados y persistentes o con síntomas suicidas, según las guías poblacionales (consenso, condicional). [[ref:teede-2023-pcos-guideline]]",
+        "en": "Psychological therapy could be considered first-line management; antidepressants are considered in adults with clearly documented and persistent disorders or with suicidal symptoms, based on general population guidelines (consensus, conditional). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "Las mujeres con SOP diagnosticadas de depresión, ansiedad y/o TCA deberían recibir terapia psicológica según las guías poblacionales y su preferencia (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]\n\nPuntos de práctica: la intervención de estilo de vida y otras terapias dirigidas a rasgos del SOP (anticonceptivos combinados, metformina, láser para el vello) deberían considerarse por su potencial para mejorar síntomas psicológicos; si se usan fármacos, evitar el tratamiento inapropiado y limitar los que agravan síntomas del SOP, incluido el aumento de peso; y no tratar la ansiedad y la depresión puede afectar la adherencia al manejo del SOP. [[ref:teede-2023-pcos-guideline]]",
+        "en": "Women with PCOS diagnosed with depression, anxiety and/or eating disorders should be offered psychological therapy guided by general population guidelines and their preference (consensus, strong). [[ref:teede-2023-pcos-guideline]]\n\nPractice points: lifestyle intervention and other therapies targeting PCOS features (combined oral contraceptives, metformin, laser hair removal) should be considered for their potential to improve psychological symptoms; if drugs are used, avoid inappropriate treatment and limit agents that exacerbate PCOS symptoms, including weight gain; and not managing anxiety and depression may affect adherence to PCOS management. [[ref:teede-2023-pcos-guideline]]"
+      },
+      "application": {
+        "es": "Tratar rasgos como el hirsutismo (p. ej., con láser) también puede ser parte del plan de salud mental; coordina con salud mental en vez de elegir entre una cosa y otra.",
+        "en": "Treating features such as hirsutism (e.g. with laser) can also be part of the mental health plan; coordinate with mental health services rather than choosing one or the other."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "2.7.1 consenso, fuerte; 2.8.1 consenso, condicional; 2.8.2 punto de práctica.",
+          "en": "2.7.1 consensus, strong; 2.8.1 consensus, conditional; 2.8.2 practice point."
+        }
+      },
+      "recall": {
+        "es": "¿Qué tratamiento es de primera línea para depresión o ansiedad en el SOP y qué precaución farmacológica añade la guía?",
+        "en": "What is first-line treatment for depression or anxiety in PCOS, and which pharmacological caution does the guideline add?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q1-normal-weight",
+      "kind": "question",
+      "conceptId": "pcos-ls.lifestyle-for-all",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Paciente de 24 años con SOP e IMC dentro del rango considerado normal. Pregunta si el estilo de vida “le sirve de algo, si no tiene que adelgazar”. ¿Qué respuesta se ajusta a la guía 2023?",
+        "en": "A 24-year-old patient with PCOS and a BMI in the range considered normal asks whether lifestyle “does anything for her, if she doesn't need to lose weight”. Which answer fits the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sí: un estilo de vida saludable se recomienda a todas y tiene beneficios aun sin pérdida de peso; en su caso el foco es la vida saludable y prevenir el aumento excesivo de peso.",
+            "en": "Yes: a healthy lifestyle is recommended for everyone and has benefits even without weight loss; in her case the focus is healthy living and preventing excess weight gain."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 3.1.1–3.1.2 y puntos de práctica 3.1.5 y 3.1.9.",
+            "en": "Correct: recommendations 3.1.1–3.1.2 and practice points 3.1.5 and 3.1.9."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No: el estilo de vida solo está indicado en el SOP con mayor peso.",
+            "en": "No: lifestyle is only indicated in PCOS with higher weight."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía lo recomienda a todas las mujeres con SOP, sea cual sea el peso.",
+            "en": "The guideline recommends it for all women with PCOS, whatever their weight."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sí, pero solo si además pierde un poco de peso, porque el beneficio depende de adelgazar.",
+            "en": "Yes, but only if she also loses some weight, because the benefit depends on weight loss."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía afirma que hay beneficios incluso sin pérdida de peso; además, en quien no tiene mayor peso el foco no es adelgazar.",
+            "en": "The guideline states there are benefits even without weight loss; and in someone without higher weight the focus is not weight loss."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo le sirve si sigue una dieta baja en carbohidratos.",
+            "en": "It only helps if she follows a low-carbohydrate diet."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no respalda ninguna composición de dieta sobre otra.",
+            "en": "The guideline does not support any diet composition over another."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Estilo de vida saludable para todas; en quien no tiene mayor peso, el objetivo es la salud y la prevención del aumento excesivo, no la pérdida de peso.",
+        "en": "Healthy lifestyle for everyone; in those without higher weight, the goal is health and prevention of excess gain, not weight loss."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q2-cochrane-outcomes",
+      "kind": "question",
+      "conceptId": "pcos-ls.outcomes",
+      "rev": 2,
+      "difficulty": 2,
+      "tags": [
+        "habits",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En la revisión Cochrane de 2019 sobre cambios de estilo de vida en el SOP, ¿cuál de estos resultados NO fue evaluado por ningún ensayo incluido?",
+        "en": "In the 2019 Cochrane review of lifestyle changes in PCOS, which of these outcomes was NOT assessed by any included trial?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Índice de andrógenos libres.",
+            "en": "Free androgen index."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí se evaluó: el estilo de vida puede mejorarlo (evidencia de baja calidad).",
+            "en": "It was assessed: lifestyle may improve it (low-quality evidence)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Nacido vivo.",
+            "en": "Live birth."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ningún estudio evaluó nacido vivo, aborto ni regularidad menstrual.",
+            "en": "Correct: no study assessed live birth, miscarriage or menstrual regularity."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Peso corporal.",
+            "en": "Body weight."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí se evaluó: reducción media pequeña, evidencia de baja calidad.",
+            "en": "It was assessed: small average reduction, low-quality evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Tolerancia a la glucosa en la SOG.",
+            "en": "Glucose tolerance on OGTT."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí se evaluó, aunque el efecto fue incierto.",
+            "en": "It was assessed, although the effect was uncertain."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Distinguir resultados evita prometer efectos reproductivos que no se han estudiado en ensayos de estilo de vida frente a intervención mínima: ningún ensayo midió nacido vivo, aborto ni regularidad menstrual (según la definición de la revisión).",
+        "en": "Distinguishing outcomes avoids promising reproductive effects that have not been studied in trials of lifestyle versus minimal intervention: no trial measured live birth, miscarriage or menstrual regularity (as defined in the review)."
+      },
+      "refIds": [
+        "lim-2019-cochrane-lifestyle-pcos"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q3-restrictive",
+      "kind": "question",
+      "conceptId": "pcos-ls.weight-goal",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "diet"
+      ],
+      "stem": {
+        "es": "Paciente de 31 años con SOP y mayor peso que, tras hablarlo, elige como objetivo perder peso. ¿Qué enfoque es el más coherente con la guía 2023?",
+        "en": "A 31-year-old patient with PCOS and higher weight who, after discussion, chooses weight loss as her goal. Which approach is most consistent with the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una dieta estándar muy baja en calorías, igual para todas las pacientes con SOP, para obtener resultados rápidos.",
+            "en": "A standard very-low-calorie diet, the same for all patients with PCOS, for quick results."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide un déficit adaptado a la persona y evitar dietas indebidamente restrictivas.",
+            "en": "The guideline asks for a deficit tailored to the person and to avoid unduly restrictive diets."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un déficit energético adaptado a sus necesidades, peso y actividad, co-desarrollado según sus preferencias, con seguimiento y tras considerar alimentación desordenada.",
+            "en": "An energy deficit tailored to her requirements, weight and activity, co-developed around her preferences, with follow-up and after considering disordered eating."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: puntos de práctica 3.1.6 y 3.3.3, y recomendación 2.5.1 sobre TCA en el contexto del manejo del peso.",
+            "en": "Correct: practice points 3.1.6 and 3.3.3, and recommendation 2.5.1 on eating disorders in the context of weight management."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Eliminar gluten y lácteos, porque el SOP es una enfermedad inflamatoria.",
+            "en": "Cut out gluten and dairy, because PCOS is an inflammatory disease."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no respalda ninguna composición de dieta sobre otra y pide evitar dietas indebidamente restrictivas y nutricionalmente desequilibradas.",
+            "en": "The guideline supports no diet composition over another and asks to avoid unduly restrictive and nutritionally unbalanced diets."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Posponer la evaluación metabólica hasta que haya perdido peso.",
+            "en": "Postpone the metabolic assessment until she has lost weight."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide ofrecer la mejor evaluación y tratamiento con independencia del peso.",
+            "en": "The guideline asks to offer best-practice assessment and treatment regardless of weight."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si el objetivo es perder peso, el plan es individual, flexible, sin restricciones indebidas y con atención al riesgo de TCA.",
+        "en": "If the goal is weight loss, the plan is individual, flexible, free of undue restriction, and attentive to eating disorder risk."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q4-weighing",
+      "kind": "question",
+      "conceptId": "pcos-ls.weight-stigma",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "¿Cuál de estas prácticas sobre el peso en la consulta de SOP coincide con la guía 2023?",
+        "en": "Which of these weight practices in a PCOS consultation matches the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Pesar a todas las pacientes en cada visita sin preguntar, porque es un dato clínico.",
+            "en": "Weigh every patient at every visit without asking, because it is clinical data."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide pedir permiso para hablar del peso y medirlo.",
+            "en": "The guideline asks to seek permission to discuss and measure weight."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Usar “obesidad” en la conversación porque es el término más preciso y motiva el cambio.",
+            "en": "Use “obesity” in conversation because it is the most precise term and motivates change."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía reconoce que “sobrepeso” y “obesidad” pueden estigmatizar y sugiere alternativas como “mayor peso”.",
+            "en": "The guideline recognises that “overweight” and “obesity” can stigmatise and suggests alternatives such as “higher weight”."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir permiso, ofrecer pesaje sin ver la cifra y explicar para qué se usará el dato.",
+            "en": "Ask permission, offer blind weighing and explain how the information will be used."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: prácticas inclusivas del peso del punto de práctica 3.6.4.",
+            "en": "Correct: weight-inclusive practices from practice point 3.6.4."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Evitar cualquier mención del peso, aunque ella quiera perderlo.",
+            "en": "Avoid any mention of weight, even if she wants to lose it."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no prohíbe hablar del peso: ofrece atención centrada en el peso o inclusiva según los objetivos de la mujer.",
+            "en": "The guideline does not forbid discussing weight: it offers weight-centric or weight-inclusive care according to the woman's goals."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sin estigma no es sin peso: es con permiso, propósito explicado, lenguaje cuidadoso y opciones.",
+        "en": "Without stigma does not mean without weight: it means permission, an explained purpose, careful language and options."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q5-blame",
+      "kind": "question",
+      "conceptId": "pcos-ls.not-their-fault",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Un residente comenta: “Las pacientes con SOP engordan porque comen peor y se mueven menos que las demás”. ¿Qué dice la guía 2023?",
+        "en": "A resident remarks: “Patients with PCOS gain weight because they eat worse and move less than other women”. What does the 2023 guideline say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es correcto: los estudios muestran mayor ingesta en el SOP.",
+            "en": "Correct: studies show higher intake in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía concluye que no hay evidencia consistente de diferencias de conducta de estilo de vida relacionadas con el peso.",
+            "en": "The guideline concludes there is no consistent evidence of weight-related lifestyle behaviour differences."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No hay evidencia consistente de diferencias fisiológicas ni de conducta relacionadas con el peso, aunque muchas tienen mecanismos subyacentes que favorecen ganar más peso.",
+            "en": "There is no consistent evidence of weight-related physiological or behavioural differences, although many have underlying mechanisms that drive greater weight gain."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación 3.5.1 (condicional, certeza muy baja) y punto de práctica 3.5.2.",
+            "en": "Correct: recommendation 3.5.1 (conditional, very low certainty) and practice point 3.5.2."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El peso en el SOP no tiene ninguna relación con la salud metabólica.",
+            "en": "Weight in PCOS has no relationship with metabolic health."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía reconoce el mayor peso como factor de riesgo, aunque solo como un indicador entre varios.",
+            "en": "The guideline recognises higher weight as a risk factor, albeit as only one indicator among several."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Se debe a un gasto energético en reposo claramente menor, demostrado en el SOP.",
+            "en": "It is due to a clearly lower resting energy expenditure, proven in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no encuentra diferencias fisiológicas consistentes y afirma que los mecanismos específicos no están claros.",
+            "en": "The guideline finds no consistent physiological differences and states that the specific mechanisms are unclear."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La dificultad con el peso en el SOP no se explica por la conducta individual; culpar a la paciente no tiene base en la evidencia.",
+        "en": "Weight difficulty in PCOS is not explained by individual behaviour; blaming the patient has no basis in the evidence."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q6-amounts",
+      "kind": "question",
+      "conceptId": "pcos-ls.amounts",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Una adulta de 35 años con SOP quiere una pérdida de peso modesta y evitar recuperarlo. ¿Qué cantidad mínima de actividad indica la guía 2023 para ese objetivo?",
+        "en": "A 35-year-old adult with PCOS wants modest weight loss and to avoid regaining it. What minimum activity amount does the 2023 guideline give for that goal?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "250 min/semana de actividad moderada o 150 min/semana de vigorosa (o combinación), más fuerza idealmente 2 días no consecutivos.",
+            "en": "250 min/week of moderate or 150 min/week of vigorous activity (or a combination), plus strength ideally on 2 non-consecutive days."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la cantidad de 3.4.3 para pérdida modesta y prevención de la recuperación.",
+            "en": "Correct: it is the 3.4.3 amount for modest weight loss and prevention of regain."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "150–300 min/semana de moderada o 75–150 de vigorosa, más fuerza 2 días.",
+            "en": "150–300 min/week moderate or 75–150 vigorous, plus strength 2 days."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es la cantidad para prevenir el aumento de peso y mantener la salud, no para pérdida modesta.",
+            "en": "That is the amount for preventing weight gain and maintaining health, not for modest weight loss."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "60 min/día de actividad moderada a vigorosa, con fuerza 3 veces por semana.",
+            "en": "60 min/day of moderate-to-vigorous activity, with strength 3 times a week."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es la indicación para adolescentes.",
+            "en": "That is the recommendation for adolescents."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo entrenamiento interválico de alta intensidad, porque es el más eficaz en el SOP.",
+            "en": "High-intensity interval training only, because it is the most effective in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay evidencia de que un tipo o intensidad sea mejor que otro.",
+            "en": "There is no evidence that one type or intensity is better than another."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía da dos escalones para adultas según el objetivo y uno para adolescentes; en todos los casos, algo es mejor que nada.",
+        "en": "The guideline gives two tiers for adults depending on the goal and one for adolescents; in all cases, some is better than none."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q7-exercise-type",
+      "kind": "question",
+      "conceptId": "pcos-ls.any-activity",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Una paciente con SOP disfruta caminando y bailando, pero ha leído que “solo las pesas sirven para la resistencia a la insulina”. ¿Qué le dirías según la guía 2023?",
+        "en": "A patient with PCOS enjoys walking and dancing, but has read that “only weights work for insulin resistance”. What would you tell her, according to the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que cambie a entrenamiento de fuerza exclusivo.",
+            "en": "Switch to strength training only."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay evidencia de superioridad de un tipo de ejercicio; la guía incluye fuerza como complemento, no como única opción.",
+            "en": "There is no evidence that one exercise type is superior; the guideline includes strength as a complement, not as the only option."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que caminar y bailar cuentan, que ningún tipo ha demostrado ser superior y que se puede añadir fuerza dos días por semana.",
+            "en": "That walking and dancing count, that no type has been shown to be superior, and that strength can be added two days a week."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 3.4.1, 3.4.2 y 3.4.3; la actividad sostenible según preferencias es la que se aconseja.",
+            "en": "Correct: 3.4.1, 3.4.2 and 3.4.3; sustainable activity based on preferences is what is advised."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que solo cuenta el ejercicio planificado de alta intensidad.",
+            "en": "That only planned high-intensity exercise counts."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía incluye desplazamientos, tareas domésticas, juego y actividad ligera que sustituye al sedentarismo.",
+            "en": "The guideline includes transport, household chores, games and light activity that replaces sedentary time."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que sin una medición de insulina no se puede decidir el tipo de ejercicio.",
+            "en": "That without an insulin measurement the exercise type cannot be decided."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía desaconseja usar las determinaciones de insulina en la práctica habitual, y el tipo de ejercicio se elige por preferencias.",
+            "en": "The guideline advises against routine insulin assays, and exercise type is chosen by preference."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ningún tipo de ejercicio es el “correcto” para el SOP: se elige el sostenible, dentro de las cantidades poblacionales.",
+        "en": "No exercise type is the “right” one for PCOS: choose a sustainable one, within population amounts."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q8-screening",
+      "kind": "question",
+      "conceptId": "pcos-ls.depression-anxiety",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "¿Qué afirmación sobre el cribado de salud mental en el SOP refleja la guía 2023?",
+        "en": "Which statement about mental health screening in PCOS reflects the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo se criba depresión si la paciente refiere síntomas o tiene infertilidad.",
+            "en": "Depression is only screened for if the patient reports symptoms or has infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación es cribar a todas las adultas y adolescentes con SOP.",
+            "en": "The recommendation is to screen all adults and adolescents with PCOS."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Se criba depresión en todas las adultas y adolescentes, y ansiedad en todas las adultas, con herramientas validadas en la región.",
+            "en": "Depression is screened in all adults and adolescents, and anxiety in all adults, with regionally validated tools."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 2.2.1 y 2.2.2, recomendaciones fuertes con certeza alta.",
+            "en": "Correct: 2.2.1 and 2.2.2, strong recommendations with high certainty."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La guía fija un cribado anual obligatorio.",
+            "en": "The guideline sets mandatory annual screening."
+          },
+          "correct": false,
+          "why": {
+            "es": "El intervalo óptimo no se conoce; se propone cribar al diagnóstico y repetir según criterio clínico y acontecimientos vitales.",
+            "en": "The optimal interval is not known; screening at diagnosis with repeats based on clinical judgement and life events is proposed."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo se criba a pacientes con mayor peso.",
+            "en": "Only patients with higher weight are screened."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación no depende del peso.",
+            "en": "The recommendation does not depend on weight."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Cribado universal, con herramientas validadas, al diagnóstico y repetido según contexto; incluye riesgo de autolesión.",
+        "en": "Universal screening with validated tools, at diagnosis and repeated according to context; it includes self-harm risk."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q9-eating-disorders",
+      "kind": "question",
+      "conceptId": "pcos-ls.eating-disorders",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "habits",
+        "diet"
+      ],
+      "stem": {
+        "es": "Vas a iniciar un plan de manejo del peso con una paciente con SOP y mayor peso. ¿Qué indica la guía 2023 sobre los TCA?",
+        "en": "You are about to start a weight management plan with a patient with PCOS and higher weight. What does the 2023 guideline say about eating disorders?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No hace falta considerarlos porque su peso es alto.",
+            "en": "There is no need to consider them because her weight is high."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide considerarlos independientemente del peso.",
+            "en": "The guideline asks to consider them regardless of weight."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Deberían considerarse, sea cual sea el peso, especialmente en el contexto del manejo del peso; si se sospechan, evaluación diagnóstica completa por profesionales cualificados.",
+            "en": "They should be considered, whatever the weight, especially in the context of weight management; if suspected, a full diagnostic interview by qualified practitioners."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 2.5.1 (condicional, certeza baja) y punto de práctica 2.5.2.",
+            "en": "Correct: 2.5.1 (conditional, low certainty) and practice point 2.5.2."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo se consideran en adolescentes con bajo peso.",
+            "en": "They are only considered in adolescents with low weight."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación no se limita a una edad ni a un rango de peso.",
+            "en": "The recommendation is not limited to an age or weight range."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Si hay alimentación desordenada, la solución es una dieta más estricta.",
+            "en": "If there is disordered eating, the solution is a stricter diet."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ante sospecha corresponde evaluación especializada y apoyo; la guía también desaconseja dietas indebidamente restrictivas.",
+            "en": "Suspicion calls for specialist assessment and support; the guideline also advises against unduly restrictive diets."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El contexto de manejo del peso es justamente cuando más hay que pensar en TCA, también con IMC alto.",
+        "en": "The weight management context is precisely when to think most about eating disorders, including with a high BMI."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q10-psychosexual",
+      "kind": "question",
+      "conceptId": "pcos-ls.body-image-sexual",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Paciente con SOP e hirsutismo refiere, al preguntárselo con su permiso, bajo deseo sexual, pero dice que no le preocupa ni le causa malestar. Según la guía 2023, ¿qué es correcto?",
+        "en": "A patient with PCOS and hirsutism reports, when asked with her permission, low sexual desire, but says it does not worry or distress her. According to the 2023 guideline, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Tiene disfunción psicosexual y requiere tratamiento.",
+            "en": "She has psychosexual dysfunction and needs treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "El diagnóstico requiere baja función más malestar asociado; aquí no hay malestar.",
+            "en": "The diagnosis requires low function plus related distress; there is no distress here."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No cumple el diagnóstico de disfunción psicosexual, que requiere baja función con malestar asociado.",
+            "en": "She does not meet the diagnosis of psychosexual dysfunction, which requires low function with related distress."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación de consenso 2.3.2.",
+            "en": "Correct: consensus recommendation 2.3.2."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El hirsutismo no influye en la función psicosexual en el SOP.",
+            "en": "Hirsutism does not influence psychosexual function in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía incluye el hirsutismo entre los factores que pueden influir.",
+            "en": "The guideline lists hirsutism among the factors that can influence it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La función sexual no debe abordarse en la consulta de SOP.",
+            "en": "Sexual function should not be addressed in a PCOS consultation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide abordarla pidiendo permiso, no evitarla.",
+            "en": "The guideline asks to address it with permission, not to avoid it."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Pedir permiso, valorar factores (peso, hirsutismo, ánimo, infertilidad, fármacos) y diagnosticar disfunción solo si hay malestar.",
+        "en": "Ask permission, weigh the factors (weight, hirsutism, mood, infertility, medications) and diagnose dysfunction only if there is distress."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.q11-first-line",
+      "kind": "question",
+      "conceptId": "pcos-ls.psych-treatment",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "habits"
+      ],
+      "stem": {
+        "es": "Adulta con SOP con depresión diagnosticada, sin síntomas suicidas, que prefiere evitar fármacos si es posible. ¿Qué es lo más coherente con la guía 2023?",
+        "en": "An adult with PCOS with diagnosed depression, no suicidal symptoms, who prefers to avoid medication if possible. What is most consistent with the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ofrecer terapia psicológica como primera línea según las guías poblacionales y su preferencia, y seguir tratando los rasgos del SOP que la afectan.",
+            "en": "Offer psychological therapy as first line based on population guidelines and her preference, and keep treating the PCOS features that affect her."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 2.7.1 (consenso, fuerte), 2.8.1 (consenso, condicional) y punto de práctica 2.8.2.",
+            "en": "Correct: 2.7.1 (consensus, strong), 2.8.1 (consensus, conditional) and practice point 2.8.2."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Iniciar un antidepresivo de inmediato, porque en el SOP la terapia psicológica no está indicada.",
+            "en": "Start an antidepressant immediately, because psychological therapy is not indicated in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía sitúa la terapia psicológica como posible primera línea; los antidepresivos, en trastornos documentados y persistentes o con síntomas suicidas.",
+            "en": "The guideline places psychological therapy as a possible first line; antidepressants, in documented and persistent disorders or with suicidal symptoms."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No tratar la depresión hasta que pierda peso, porque mejorará sola.",
+            "en": "Do not treat the depression until she loses weight, because it will resolve on its own."
+          },
+          "correct": false,
+          "why": {
+            "es": "No tratarla puede afectar la adherencia al manejo del SOP, y condicionar la atención al peso va contra la guía.",
+            "en": "Leaving it untreated may affect adherence to PCOS management, and making care conditional on weight goes against the guideline."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sustituir la evaluación de salud mental por un suplemento de inositol.",
+            "en": "Replace the mental health assessment with an inositol supplement."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las recomendaciones de salud mental de la guía no incluyen el inositol; ante un diagnóstico, corresponde ofrecer terapia psicológica.",
+            "en": "The guideline mental health recommendations do not include inositol; a diagnosis calls for offering psychological therapy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Terapia psicológica como primera línea, fármacos con criterio y cautela con los que aumentan el peso, y tratar también los rasgos del SOP.",
+        "en": "Psychological therapy as first line, drugs used judiciously with caution about weight-gaining agents, and treating PCOS features too."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "pcos-ls.case1-valeria",
+      "kind": "case",
+      "conceptId": "pcos-ls.case-valeria",
+      "rev": 2,
+      "tags": [
+        "habits",
+        "diet"
+      ],
+      "title": {
+        "es": "Caso: Valeria y “quiero adelgazar para que me vuelva la regla”",
+        "en": "Case: Valeria and “I want to lose weight so my period comes back”"
+      },
+      "steps": [
+        {
+          "id": "pcos-ls.case1.s1",
+          "text": {
+            "es": "Valeria (caso ficticio), 28 años, SOP diagnosticado hace dos años, ciclos de 45–90 días y acné. Ha hecho varias dietas muy restrictivas desde la adolescencia. Dice: “Ya sé que es culpa mía por no tener fuerza de voluntad; quiero adelgazar para que me vuelva la regla”. Comenta que en otra consulta la pesaron sin preguntarle y se sintió juzgada.",
+            "en": "Valeria (fictional case), 28, PCOS diagnosed two years ago, 45–90-day cycles and acne. She has done several very restrictive diets since adolescence. She says: “I know it's my fault for having no willpower; I want to lose weight so my period comes back”. She mentions that at another clinic she was weighed without being asked and felt judged."
+          }
+        },
+        {
+          "id": "pcos-ls.case1.s2",
+          "text": {
+            "es": "Sin culpa: la guía 2023 no encuentra evidencia consistente de que las mujeres con SOP coman o se muevan distinto, y reconoce mecanismos que favorecen el aumento de peso. Se le explica con respeto antes de seguir.",
+            "en": "No blame: the 2023 guideline finds no consistent evidence that women with PCOS eat or move differently, and recognises mechanisms that drive weight gain. This is explained to her respectfully before going on."
+          },
+          "questionId": "pcos-ls.q5-blame"
+        },
+        {
+          "id": "pcos-ls.case1.s3",
+          "text": {
+            "es": "Peso con permiso: se le pregunta si acepta hablar del peso y medirlo, se le ofrece pesaje sin ver la cifra y se explica para qué servirá el dato (riesgo metabólico). Se le presentan las opciones de atención centrada en el peso o inclusiva del peso.",
+            "en": "Weight with permission: she is asked whether she agrees to discuss and measure weight, offered blind weighing, and told what the information will be used for (metabolic risk). Weight-centric and weight-inclusive care options are presented."
+          },
+          "questionId": "pcos-ls.q4-weighing"
+        },
+        {
+          "id": "pcos-ls.case1.s4",
+          "text": {
+            "es": "Antes de cualquier plan de peso: sus dietas restrictivas repetidas obligan a considerar alimentación desordenada o TCA, sea cual sea su peso. Refiere episodios de pérdida de control con la comida; se deriva para entrevista diagnóstica completa con profesionales cualificados (inferencia coherente con 2.5.1–2.5.2).",
+            "en": "Before any weight plan: her repeated restrictive diets mean disordered eating or an eating disorder must be considered, whatever her weight. She reports episodes of loss of control over eating; she is referred for a full diagnostic interview with qualified practitioners (an inference consistent with 2.5.1–2.5.2)."
+          },
+          "questionId": "pcos-ls.q9-eating-disorders"
+        },
+        {
+          "id": "pcos-ls.case1.s5",
+          "text": {
+            "es": "Cribado con una herramienta validada en su región: síntomas depresivos moderados, sin ideación suicida. Corresponde evaluar más a fondo, derivar u ofrecer tratamiento; la terapia psicológica podría ser la primera línea.",
+            "en": "Screening with a regionally validated tool: moderate depressive symptoms, no suicidal ideation. Further assessment, referral or treatment is due; psychological therapy could be first line."
+          },
+          "questionId": "pcos-ls.q8-screening"
+        },
+        {
+          "id": "pcos-ls.case1.s6",
+          "text": {
+            "es": "Actividad: le da vergüenza el gimnasio (barrera de imagen corporal que nombra la guía). Acuerdan caminar y reducir el tiempo sentada; ningún tipo de ejercicio es superior, y algo es mejor que nada. Si más adelante elige perder peso, la referencia para pérdida modesta es ≥250 min/semana moderada o ≥150 vigorosa, más fuerza.",
+            "en": "Activity: she feels embarrassed at the gym (a body image barrier named by the guideline). They agree on walking and less sitting time; no exercise type is superior, and some is better than none. If she later chooses weight loss, the reference for modest loss is ≥250 min/week moderate or ≥150 vigorous, plus strength."
+          },
+          "questionId": "pcos-ls.q6-amounts"
+        },
+        {
+          "id": "pcos-ls.case1.s7",
+          "text": {
+            "es": "Expectativas honestas: la revisión Cochrane no encontró ensayos que midieran regularidad menstrual ni nacido vivo con estilo de vida frente a intervención mínima (regularidad según la definición de la revisión). Para la irregularidad menstrual y la protección endometrial hay opciones específicas; la guía pide informar del mayor riesgo de hiperplasia y cáncer de endometrio, sin cribado rutinario (1.11.1–1.11.2). [[ref:teede-2023-pcos-guideline]] Se fijan metas co-desarrolladas que no dependen solo de la báscula (salud metabólica, cintura si ella acepta, ánimo, calidad de vida) y se revisan en el seguimiento, recordando que hay beneficios incluso sin pérdida de peso.",
+            "en": "Honest expectations: the Cochrane review found no trials measuring menstrual regularity or live birth with lifestyle versus minimal intervention (regularity as defined in the review). For menstrual irregularity and endometrial protection there are specific options; the guideline asks to inform about the increased risk of endometrial hyperplasia and cancer, without routine screening (1.11.1–1.11.2). [[ref:teede-2023-pcos-guideline]] Co-developed goals that do not depend only on the scale are set (metabolic health, waist if she agrees, mood, quality of life) and reviewed at follow-up, remembering there are benefits even without weight loss."
+          },
+          "questionId": "pcos-ls.q2-cochrane-outcomes"
+        }
+      ],
+      "refIds": [
+        "teede-2023-pcos-guideline",
+        "lim-2019-cochrane-lifestyle-pcos"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    }
+  ]
+}

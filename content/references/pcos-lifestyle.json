@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lim-2019-cochrane-lifestyle-pcos",
+    "title": "Lifestyle changes in women with polycystic ovary syndrome",
+    "authors": "Lim SS, Hutchison SK, Van Ryswyk E, Norman RJ, Teede HJ, Moran LJ",
+    "year": 2019,
+    "url": "https://doi.org/10.1002/14651858.CD007506.pub4",
+    "doi": "10.1002/14651858.CD007506.pub4",
+    "type": "systematic-review",
+    "population": {
+      "es": "15 ECA (498 participantes) en mujeres con SOP que comparan intervención de estilo de vida (dieta, ejercicio, conductual o combinada) con intervención mínima o ninguna; búsqueda hasta marzo de 2018.",
+      "en": "15 RCTs (498 participants) in women with PCOS comparing lifestyle intervention (diet, exercise, behavioural or combined) with minimal or no intervention; search to March 2018."
+    },
+    "finding": {
+      "es": "La intervención de estilo de vida puede mejorar el índice de andrógenos libres (DM −1,11), el peso (DM −1,68 kg) y el IMC (−0,34 kg/m²), con evidencia de baja calidad; efecto incierto sobre la tolerancia a la glucosa. Ningún estudio evaluó nacido vivo, aborto ni regularidad menstrual (según la definición de la revisión).",
+      "en": "Lifestyle intervention may improve the free androgen index (MD −1.11), weight (MD −1.68 kg) and BMI (−0.34 kg/m²), with low-quality evidence; uncertain effect on glucose tolerance. No study assessed live birth, miscarriage or menstrual regularity (as defined in the review)."
+    },
+    "limitations": {
+      "es": "Verificado en el resumen completo (Europe PMC, PMID 30921477); no se leyó el texto completo. Ensayos pequeños, mayoría de baja calidad por riesgo de sesgo alto o incierto; heterogeneidad alta para el índice de andrógenos libres. Búsqueda de 2018, anterior a la guía 2023.",
+      "en": "Verified against the full abstract (Europe PMC, PMID 30921477); full text not read. Small trials, mostly low quality due to high or unclear risk of bias; high heterogeneity for the free androgen index. 2018 search, predating the 2023 guideline."
+    },
+    "accessed": "2026-10-13"
+  }
+]
