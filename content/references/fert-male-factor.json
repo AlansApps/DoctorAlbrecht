@@ -1,0 +1,45 @@
+[
+  {
+    "id": "who-2021-semen-manual",
+    "title": "WHO laboratory manual for the examination and processing of human semen, sixth edition",
+    "authors": "World Health Organization",
+    "year": 2021,
+    "url": "https://www.who.int/publications/i/item/9789240030787",
+    "type": "other",
+    "population": {
+      "es": "Manual de laboratorio. Población de referencia (Campbell et al.): unos 3500 varones de 12 países cuyas parejas lograron una concepción natural con tiempo hasta el embarazo ≤12 meses y 2–7 días de abstinencia; excluye a varones atendidos en clínicas de infertilidad. ISBN 978-92-4-003078-7.",
+      "en": "Laboratory manual. Reference population (Campbell et al.): about 3500 men from 12 countries whose partners achieved a natural conception with time to pregnancy ≤12 months and 2–7 days of abstinence; excludes men attending infertility clinics. ISBN 978-92-4-003078-7."
+    },
+    "finding": {
+      "es": "Tabla 8.3 (percentil 5; IC 95 %): volumen 1,4 ml (1,3–1,5); concentración 16 × 10⁶/ml (15–18); número total 39 × 10⁶/eyaculado (35–40); motilidad total 42 % (40–43); progresiva 30 % (29–31); vitalidad 54 % (50–56); formas normales 4 % (3,9–4,0). El percentil 5 inferior no representa un límite entre varones fértiles e infértiles (8.1.3); hay solapamiento sustancial entre ambos; el manual no es una guía de decisiones clínicas y faltan límites de decisión clínicamente útiles (8.1, 8.1.2.2). La recomendación de 2–7 días de abstinencia se basa en experiencia clínica y puede contribuir a la variabilidad (cap. 2). Distinguir 3 % de 5 % de formas normales en un individuo requiere evaluar 1500 espermatozoides (cap. 2).",
+      "en": "Table 8.3 (5th centile; 95% CI): volume 1.4 ml (1.3–1.5); concentration 16 × 10⁶/ml (15–18); total number 39 × 10⁶/ejaculate (35–40); total motility 42% (40–43); progressive 30% (29–31); vitality 54% (50–56); normal forms 4% (3.9–4.0). The lower fifth centile does not represent a limit between fertile and infertile men (8.1.3); there is substantial overlap between them; the manual is not a guideline for clinical decisions and clinically useful decision limits are still lacking (8.1, 8.1.2.2). The 2–7-day abstinence recommendation is based on clinical experience and may contribute to variability (ch. 2). Distinguishing 3% from 5% normal forms in an individual requires assessing 1500 spermatozoa (ch. 2)."
+    },
+    "limitations": {
+      "es": "Leído en el texto del PDF oficial de la OMS (292 páginas, copia en la biblioteca de fuentes): introducción 1.3; capítulo 2 (factores que influyen en el eyaculado, abstinencia de 2–7 días, recogida, recuento y morfología); 3.2.1 (fragmentación del ADN, solo como técnica y antecedentes); y 8.1 completo con las tablas 8.1–8.3 (pp. 211–213). Manual técnico de laboratorio, no guía clínica; población de referencia de varones cuyas parejas concibieron en ≤12 meses, no de parejas infértiles; el manual llama «percentil 5 inferior» a estas cifras (ESHRE y AUA/ASRM las denominan límite de referencia del percentil 5 o límite inferior de referencia). No se leyeron los demás procedimientos de laboratorio.",
+      "en": "Read in the text of the official WHO PDF (292 pages, copy in the source library): introduction 1.3; chapter 2 (factors influencing the ejaculate, 2–7-day abstinence, collection, counting and morphology); 3.2.1 (DNA fragmentation, as a technique and background only); and all of 8.1 with Tables 8.1–8.3 (pp. 211–213). Technical laboratory manual, not a clinical guideline; reference population of men whose partners conceived within ≤12 months, not of infertile couples; the manual calls these figures the “lower fifth percentile” (ESHRE and AUA/ASRM call them the fifth-percentile reference limit or lower reference limit). The remaining laboratory procedures were not read."
+    },
+    "accessed": "2026-10-13"
+  },
+  {
+    "id": "deligny-2022-cochrane-male-antioxidants",
+    "title": "Antioxidants for male subfertility",
+    "authors": "de Ligny W, Smits RM, Mackenzie-Proctor R, Jordan V, Fleischer K, de Bruin JP, Showell MG",
+    "year": 2022,
+    "url": "https://doi.org/10.1002/14651858.CD007411.pub5",
+    "doi": "10.1002/14651858.CD007411.pub5",
+    "type": "systematic-review",
+    "population": {
+      "es": "90 ECA, 10 303 varones subfértiles (18–65 años) de parejas atendidas en clínicas de fertilidad, algunos en reproducción asistida; 20 antioxidantes orales distintos. Excluyó a varones con infertilidad idiopática y parámetros seminales normales. Búsqueda hasta el 15-02-2021. Cochrane Database Syst Rev 2022;5:CD007411.",
+      "en": "90 RCTs, 10,303 subfertile men (aged 18–65) of couples attending fertility clinics, some undergoing assisted reproduction; 20 different oral antioxidants. Excluded men with idiopathic infertility and normal semen parameters. Search to 15 Feb 2021. Cochrane Database Syst Rev 2022;5:CD007411."
+    },
+    "finding": {
+      "es": "Nacido vivo: OR 1,43 (IC 95 % 1,07–1,91; 12 ECA; 1283 varones; certeza muy baja; 246 nacidos vivos); con un 16 % basal, 17–27 % con antioxidantes. Excluyendo estudios de alto riesgo de sesgo: sin evidencia de aumento (Peto OR 1,22; IC 95 % 0,85–1,75; 8 ECA; 827 varones). Embarazo clínico: OR 1,89 (1,45–2,47; 20 ECA; 1706 varones; certeza baja). Aborto: sin diferencia (OR 1,46; 0,75–2,83; 6 ECA; certeza muy baja). Molestias gastrointestinales leves: OR 2,70 (1,46–4,99; 16 ECA; certeza baja). Solo 20 de 67 estudios del metanálisis informaron embarazo clínico y 12 nacido vivo. Conclusión de los autores: evidencia global no concluyente por riesgo de sesgo grave e imprecisión.",
+      "en": "Live birth: OR 1.43 (95% CI 1.07–1.91; 12 RCTs; 1283 men; very low certainty; 246 live births); with a 16% baseline, 17–27% with antioxidants. Excluding high risk-of-bias studies: no evidence of increase (Peto OR 1.22; 95% CI 0.85–1.75; 8 RCTs; 827 men). Clinical pregnancy: OR 1.89 (1.45–2.47; 20 RCTs; 1706 men; low certainty). Miscarriage: no difference (OR 1.46; 0.75–2.83; 6 RCTs; very low certainty). Mild gastrointestinal discomfort: OR 2.70 (1.46–4.99; 16 RCTs; low certainty). Only 20 of 67 meta-analysed studies reported clinical pregnancy and 12 live birth. Authors' conclusion: overall evidence inconclusive owing to serious risk of bias and imprecision."
+    },
+    "limitations": {
+      "es": "Leído el resumen completo (Europe PMC, PMID 35506389; texto guardado en la biblioteca de fuentes), que incluye el análisis de sensibilidad y las conclusiones de los autores; ESHRE add-ons 2023 reproduce las cifras de nacido vivo, aborto y molestias gastrointestinales. No se leyeron el texto completo, las tablas GRADE ni los resultados sobre parámetros seminales. Antioxidantes y dosis muy heterogéneos; excluyó a varones con infertilidad idiopática y parámetros seminales normales.",
+      "en": "Full abstract read (Europe PMC, PMID 35506389; text saved in the source library), including the sensitivity analysis and the authors’ conclusions; ESHRE add-ons 2023 reproduces the live-birth, miscarriage and gastrointestinal figures. Full text, GRADE tables and semen-parameter results not read. Antioxidants and doses highly heterogeneous; excluded men with idiopathic infertility and normal semen parameters."
+    },
+    "accessed": "2026-10-13"
+  }
+]

@@ -1,0 +1,1591 @@
+{
+  "id": "fert-male-factor",
+  "macroId": "fert",
+  "title": {
+    "es": "Factor masculino: seminograma, evaluación y suplementos",
+    "en": "Male factor: semen analysis, evaluation and supplements"
+  },
+  "lessons": [
+    {
+      "id": "fert-mf.l1-semen-analysis",
+      "microId": "fert.male-semen",
+      "title": {
+        "es": "El seminograma OMS 2021: qué pedir, cómo recogerlo y cómo leerlo",
+        "en": "The WHO 2021 semen analysis: what to order, how to collect it and how to read it"
+      },
+      "objective": {
+        "es": "Interpretar el seminograma con los límites de referencia inferiores de la OMS 2021 sin tratarlos como un umbral de fertilidad, reconocer los fallos de recogida y saber cuándo repetirlo.",
+        "en": "Interpret the semen analysis with the WHO 2021 lower reference limits without treating them as a fertility threshold, recognise collection errors, and know when to repeat it."
+      },
+      "closing": {
+        "es": "El seminograma es necesario pero no concluyente: valora recogida, repetición y conjunto de parámetros antes de etiquetar a un varón.",
+        "en": "The semen analysis is necessary but not conclusive: weigh collection, repeat testing and the set of parameters before labelling a man."
+      },
+      "prerequisites": [
+        "fert.couple-evaluation"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "fert-mf.c1-initial-male-eval",
+        "fert-mf.c2-who-reference-limits",
+        "fert-mf.c3-in-range-myth",
+        "fert-mf.c4-preanalytics",
+        "fert-mf.c5-repeat-follow-up",
+        "fert-mf.q1-below-limit",
+        "fert-mf.q2-incomplete-sample",
+        "fert-mf.q3-antisperm-antibodies"
+      ]
+    },
+    {
+      "id": "fert-mf.l2-clinical-evaluation",
+      "microId": "fert.male-clinical",
+      "title": {
+        "es": "Evaluación clínica del varón: hormonas, genética, varicocele y qué no pedir",
+        "en": "Clinical evaluation of the man: hormones, genetics, varicocele and what not to order"
+      },
+      "objective": {
+        "es": "Decidir el siguiente paso tras un seminograma anormal confirmado, aplicar los umbrales de genética de AUA/ASRM y NICE, y reconocer pruebas y tratamientos que no se recomiendan.",
+        "en": "Decide the next step after a confirmed abnormal semen analysis, apply the AUA/ASRM and NICE genetic thresholds, and recognise tests and treatments that are not recommended."
+      },
+      "closing": {
+        "es": "La evaluación del varón es dirigida: exploración y hormonas primero; genética, imagen y fragmentación del ADN solo con indicación concreta; ninguna testosterona exógena.",
+        "en": "The male evaluation is targeted: examination and hormones first; genetics, imaging and DNA fragmentation only with a specific indication; no exogenous testosterone."
+      },
+      "prerequisites": [
+        "fert.male-semen"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "fert-mf.c6-clinical-hormonal",
+        "fert-mf.c7-imaging-biopsy",
+        "fert-mf.c8-genetics",
+        "fert-mf.c9-varicocele",
+        "fert-mf.c10-testosterone-hormonal",
+        "fert-mf.c11-dna-fragmentation",
+        "fert-mf.q4-next-steps",
+        "fert-mf.q5-varicocele-outcome",
+        "fert-mf.q6-exogenous-testosterone",
+        "fert-mf.q7-dna-fragmentation"
+      ]
+    },
+    {
+      "id": "fert-mf.l3-supplements",
+      "microId": "fert.supplements-male",
+      "title": {
+        "es": "Antioxidantes y suplementos en el varón: qué dice la evidencia",
+        "en": "Antioxidants and supplements in men: what the evidence says"
+      },
+      "objective": {
+        "es": "Explicar las posturas de AUA/ASRM, NICE y ESHRE sobre los suplementos masculinos, leer la revisión Cochrane 2022 sin sobreinterpretarla y asesorar a la pareja.",
+        "en": "Explain the AUA/ASRM, NICE and ESHRE positions on male supplements, read the 2022 Cochrane review without over-interpreting it, and counsel the couple."
+      },
+      "closing": {
+        "es": "Parámetros seminales, embarazo y nacido vivo son desenlaces distintos: hoy ninguna guía respalda un antioxidante concreto, y el consejo se centra en hábitos y en no retrasar el estudio.",
+        "en": "Semen parameters, pregnancy and live birth are different outcomes: today no guideline supports a specific antioxidant, and the advice centres on habits and not delaying the work-up."
+      },
+      "prerequisites": [
+        "fert.male-semen",
+        "fert.male-clinical"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "fert-mf.c12-supplement-positions",
+        "fert-mf.c13-cochrane-antioxidants",
+        "fert-mf.c14-counselling-lifestyle",
+        "fert-mf.q8-cochrane-reading",
+        "fert-mf.q9-counselling-antioxidant",
+        "fert-mf.q10-surrogate-outcome",
+        "fert-mf.case1-carla-diego"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c1-initial-male-eval",
+      "type": "concept",
+      "conceptId": "fert-mf.initial-male-eval",
+      "title": {
+        "es": "El varón se evalúa desde el principio, no «si ella sale normal»",
+        "en": "The man is assessed from the start, not “if her tests are normal”"
+      },
+      "core": {
+        "es": "AUA/ASRM recomienda evaluar a ambos miembros de la pareja de forma concurrente, y que la evaluación inicial del varón incluya una historia reproductiva y uno o más seminogramas (recomendación fuerte; evidencia grado B). NICE ofrece evaluación a ambos miembros tras 1 año de relaciones sin protección cuando no hay causa conocida o sospechada (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM recommends concurrent assessment of both partners, and that the initial evaluation of the man include a reproductive history and one or more semen analyses (strong recommendation; evidence level B). NICE offers both partners assessment after 1 year of unprotected intercourse when there is no known or suspected cause (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "AUA/ASRM estima que el factor masculino es el único responsable en alrededor del 20 % de las parejas infértiles y contribuye en otro 30–40 %, aunque admite que la prevalencia real no está bien definida por las distintas definiciones y poblaciones. Sin una evaluación masculina adecuada puede acabar tratándose a la mujer de forma innecesaria, costosa o invasiva. [[ref:aua-asrm-2020-male-infertility]]\n\nEl seminograma informa sobre la producción testicular (reflejada en el número total de espermatozoides), la permeabilidad y función del tracto genital, las secreciones de las glándulas accesorias y la emisión y eyaculación. Cuando la causa de un seminograma anormal no se identifica, la guía lo llama infertilidad masculina idiopática (alrededor del 30 % de los varones con seminograma anormal). [[ref:aua-asrm-2020-male-infertility]]\n\nLos kits de seminograma domiciliarios o por correo no sustituyen al análisis en un laboratorio de andrología especializado: la guía advierte de que su exactitud varía y de que no se pueden extrapolar entre sí. [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "AUA/ASRM estimates that a male factor is solely responsible in about 20% of infertile couples and contributory in another 30–40%, while acknowledging that the true prevalence is not well defined because of differing definitions and populations. Without an adequate male evaluation, the female partner may end up with unnecessary, costly or invasive treatment. [[ref:aua-asrm-2020-male-infertility]]\n\nThe semen analysis informs on testicular production (reflected in total sperm number), patency and function of the genital tract, secretions of the accessory glands, and emission and ejaculation. When the cause of an abnormal semen analysis is not identified, the guideline calls it idiopathic male infertility (about 30% of men with an abnormal semen analysis). [[ref:aua-asrm-2020-male-infertility]]\n\nHome or mail-in semen test kits are no substitute for analysis in a specialised andrology laboratory: the guideline warns that their accuracy varies and that results cannot be extrapolated from one test to another. [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "pearl": {
+        "es": "Pide el seminograma en la misma visita en que pides las pruebas de ella: no es el último paso del estudio.",
+        "en": "Order the semen analysis at the same visit as her tests: it is not the last step of the work-up."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "AUA/ASRM 2020 (enmienda 2024): fuerte, grado B para el seminograma; opinión de expertos para la evaluación concurrente. NICE 2026.",
+          "en": "AUA/ASRM 2020 (amended 2024): strong, grade B for the semen analysis; expert opinion for concurrent assessment. NICE 2026."
+        }
+      },
+      "recall": {
+        "es": "¿Qué debe incluir, como mínimo, la evaluación inicial del varón según AUA/ASRM y cuándo se evalúa en relación con la mujer?",
+        "en": "At minimum, what should the initial evaluation of the man include according to AUA/ASRM, and when is it done relative to the woman?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c2-who-reference-limits",
+      "type": "lab",
+      "conceptId": "fert-mf.who-reference-limits",
+      "title": {
+        "es": "Valores OMS 2021: límites de referencia inferiores (percentil 5)",
+        "en": "WHO 2021 values: lower reference limits (5th centile)"
+      },
+      "core": {
+        "es": "La 6.ª edición del manual de la OMS (2021) publica el percentil 5 de los resultados de unos 3500 varones de 12 países cuyas parejas lograron una concepción natural con tiempo hasta el embarazo ≤12 meses: volumen 1,4 ml; concentración 16 × 10⁶/ml; número total 39 × 10⁶/eyaculado; motilidad total 42 %; progresiva 30 %; vitalidad 54 %; formas normales 4 %. [[ref:who-2021-semen-manual]]",
+        "en": "The WHO manual, 6th edition (2021), publishes the 5th centile of results from about 3500 men in 12 countries whose partners achieved a natural conception with time to pregnancy ≤12 months: volume 1.4 ml; concentration 16 × 10⁶/ml; total number 39 × 10⁶/ejaculate; total motility 42%; progressive 30%; vitality 54%; normal forms 4%. [[ref:who-2021-semen-manual]]"
+      },
+      "body": {
+        "es": "Tabla 8.3 (percentil 5; IC 95 %): volumen 1,4 ml (1,3–1,5); concentración 16 × 10⁶/ml (15–18); número total 39 × 10⁶/eyaculado (35–40); motilidad total 42 % (40–43); progresiva 30 % (29–31); vitalidad 54 % (50–56); formas normales 4 % (3,9–4,0). La población de referencia tenía 2–7 días de abstinencia y excluyó a varones atendidos en clínicas de infertilidad. [[ref:who-2021-semen-manual]]\n\nEl manual precisa que el percentil 5 inferior no representa un límite entre varones fértiles e infértiles, que existe un solapamiento sustancial entre ambos grupos, que la fertilidad debe entenderse como un continuo y que el manual no es una guía para decisiones clínicas. [[ref:who-2021-semen-manual]]\n\nLas guías sí los usan como referencia práctica: NICE pide comparar el primer seminograma con estos valores (y añade un pH de 7,2 o más) y recuerda que solo valen para las técnicas descritas por la OMS (1.17.1); ESHRE considera clínicamente relevante, para decidir estudios adicionales, un resultado por debajo del percentil 5 y su intervalo de confianza. AUA/ASRM habla de límites inferiores de referencia (LRL) basados en el percentil 5 inferior de varones fértiles; su texto cita la 6.ª edición, pero su tabla y sus figuras aún usan valores de la 5.ª edición (2010), por ejemplo <15 millones/ml para la oligozoospermia. [[ref:nice-2026-ng257]] [[ref:eshre-2023-unexplained-infertility]] [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "Table 8.3 (5th centile; 95% CI): volume 1.4 ml (1.3–1.5); concentration 16 × 10⁶/ml (15–18); total number 39 × 10⁶/ejaculate (35–40); total motility 42% (40–43); progressive 30% (29–31); vitality 54% (50–56); normal forms 4% (3.9–4.0). The reference population had 2–7 days of abstinence and excluded men attending infertility clinics. [[ref:who-2021-semen-manual]]\n\nThe manual states that the lower fifth percentile does not represent a limit between fertile and infertile men, that there is substantial overlap between the two groups, that fertility should be understood as a continuum, and that the manual is not a guideline for clinical decisions. [[ref:who-2021-semen-manual]]\n\nGuidelines do use them as a practical reference: NICE asks you to compare the first semen analysis with these values (adding a pH of 7.2 or more) and notes they are valid only for the techniques described by WHO (1.17.1); ESHRE considers a result below the 5th percentile and its confidence interval clinically relevant for deciding on further investigation. AUA/ASRM refers to lower reference limits (LRL) based on the lower 5th centile of fertile men; its text cites the 6th edition, but its table and figures still use 5th-edition (2010) values, for example <15 million/ml for oligozoospermia. [[ref:nice-2026-ng257]] [[ref:eshre-2023-unexplained-infertility]] [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "pearl": {
+        "es": "Enseña la cifra con su nombre completo: «percentil 5 de varones cuya pareja concibió en ≤12 meses», no «mínimo para ser fértil».",
+        "en": "Teach each figure with its full name: “5th centile of men whose partner conceived within ≤12 months”, not “minimum to be fertile”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Manual de laboratorio de la OMS (no es una guía clínica); su uso como referencia clínica está respaldado por NICE 2026, ESHRE 2023 y AUA/ASRM.",
+          "en": "WHO laboratory manual (not a clinical guideline); its use as a clinical reference is endorsed by NICE 2026, ESHRE 2023 and AUA/ASRM."
+        }
+      },
+      "recall": {
+        "es": "¿A qué población corresponde el percentil 5 de la OMS 2021 y qué NO representa?",
+        "en": "Which population does the WHO 2021 5th centile come from, and what does it NOT represent?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c3-in-range-myth",
+      "type": "myth",
+      "conceptId": "fert-mf.in-range-myth",
+      "title": {
+        "es": "Mito: «Está en rango, luego no hay factor masculino» (y al revés)",
+        "en": "Myth: “It is in range, so there is no male factor” (and the reverse)"
+      },
+      "core": {
+        "es": "Un valor por encima o por debajo del límite inferior no predice por sí solo fertilidad ni infertilidad: el seminograma no distingue con precisión a varones fértiles de infértiles salvo en la azoospermia y en algunos cuadros extremos (globozoospermia completa, necrozoospermia, astenozoospermia completa), y tiene más peso cuando coinciden varias anomalías. [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "A value above or below the lower limit does not by itself predict fertility or infertility: the semen analysis cannot precisely distinguish fertile from infertile men except in azoospermia and some extreme pictures (complete globozoospermia, necrozoospermia, complete asthenozoospermia), and it carries more weight when several abnormalities coincide. [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "body": {
+        "es": "AUA/ASRM describe los parámetros seminales como medidas biológicas muy variables, aconseja considerarlos en conjunto y no de forma aislada, y señala que cuantos más parámetros caen por debajo del límite inferior mayor es la probabilidad de riesgo de subfertilidad, sin que eso sea predictivo para el individuo. Algunos varones con parámetros anormales han logrado concepciones naturales. [[ref:aua-asrm-2020-male-infertility]]\n\nLa OMS añade que algunas parejas conciben en un año a pesar de alteraciones del eyaculado, y que otros varones con eyaculado normal se clasifican como infértiles por factores sobre todo femeninos. [[ref:who-2021-semen-manual]]\n\nTambién puede haber un seminograma «normal» con espermatozoides que no funcionan bien: AUA/ASRM indica que, tras ciclos fallidos de reproducción asistida o con pérdidas gestacionales recurrentes, hay que evaluar al varón y considerar cariotipo y fragmentación del ADN espermático. [[ref:aua-asrm-2020-male-infertility]]\n\nCon la morfología conviene ser prudente: la OMS señala su valor pronóstico limitado para el embarazo espontáneo y los resultados de TRA, y que distinguir estadísticamente un 3 % de un 5 % de formas normales en un individuo exige valorar 1500 espermatozoides por personal muy entrenado. [[ref:who-2021-semen-manual]]",
+        "en": "AUA/ASRM describes semen parameters as highly variable biological measures, advises considering them collectively rather than individually, and notes that the more parameters fall below the lower limit the greater the probability of subfertility risk, without being predictive for the individual. Some men with abnormal parameters have achieved natural conceptions. [[ref:aua-asrm-2020-male-infertility]]\n\nWHO adds that some couples conceive within a year despite ejaculate problems, and that other men with a normal ejaculate are classed as infertile mainly because of female factors. [[ref:who-2021-semen-manual]]\n\nA “normal” semen analysis can also hide sperm that do not function well: AUA/ASRM states that after failed assisted reproduction cycles or with recurrent pregnancy loss the man should be evaluated, considering karyotype and sperm DNA fragmentation testing. [[ref:aua-asrm-2020-male-infertility]]\n\nBe cautious with morphology: WHO notes its limited prognostic value for spontaneous pregnancy and ART outcome, and that statistically distinguishing 3% from 5% normal forms in an individual requires assessing 1500 spermatozoa by highly trained staff. [[ref:who-2021-semen-manual]]"
+      },
+      "application": {
+        "es": "Ante un valor aislado un poco por debajo del límite, mira el conjunto, repite y contextualiza antes de dar un veredicto.",
+        "en": "Faced with one isolated value slightly below the limit, look at the whole picture, repeat, and put it in context before giving a verdict."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "AUA/ASRM (opinión de expertos y texto de la guía); manual de la OMS 2021.",
+          "en": "AUA/ASRM (expert opinion and guideline text); WHO manual 2021."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué un seminograma dentro de rango no excluye un factor masculino y uno ligeramente fuera de rango no lo confirma?",
+        "en": "Why does an in-range semen analysis not exclude a male factor, and a slightly out-of-range one not confirm it?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c4-preanalytics",
+      "type": "concept",
+      "conceptId": "fert-mf.preanalytics",
+      "title": {
+        "es": "Antes de interpretar: cómo se recoge la muestra",
+        "en": "Before interpreting: how the sample is collected"
+      },
+      "core": {
+        "es": "La OMS pide recoger el eyaculado completo tras un mínimo de 2 y un máximo de 7 días de abstinencia y analizarlo idealmente en los primeros 30 minutos (como mucho 60); perder la primera fracción, la más rica en espermatozoides, altera más el resultado que perder la última. [[ref:who-2021-semen-manual]]",
+        "en": "WHO asks for a complete ejaculate collected after a minimum of 2 and a maximum of 7 days of abstinence and analysed ideally within 30 minutes (60 at most); losing the first, sperm-rich fraction alters the result more than losing the last one. [[ref:who-2021-semen-manual]]"
+      },
+      "body": {
+        "es": "Recogida: la muestra debe ser completa y el varón ha de avisar de cualquier pérdida; se recomienda recogerla en una sala privada cercana al laboratorio; no deben usarse preservativos de látex ordinarios (contienen agentes que interfieren con la motilidad) y se evitan los lubricantes salvo que estén validados como no espermatotóxicos. [[ref:who-2021-semen-manual]]\n\nAbstinencia: la OMS reconoce que el intervalo de 2–7 días se basa en la experiencia clínica y puede contribuir a la variabilidad y a que el límite entre resultado normal y subfértil sea difuso; su influencia es difícil de cuantificar. [[ref:who-2021-semen-manual]]\n\nLa ASRM (2022) señala que intervalos de abstinencia superiores a 5 días pueden afectar adversamente el recuento de espermatozoides y que con 2 días ya hay densidades normales; en un estudio retrospectivo de casi 10 000 muestras, en varones con calidad seminal normal la concentración y la motilidad siguieron normales incluso con eyaculación diaria, y con 10 días o más los parámetros empiezan a deteriorarse. [[ref:asrm-2022-optimizing-natural-fertility]]",
+        "en": "Collection: the sample must be complete and the man must report any loss; collection in a private room close to the laboratory is recommended; ordinary latex condoms must not be used (they contain agents that interfere with motility) and lubricants are avoided unless validated as non-spermatotoxic. [[ref:who-2021-semen-manual]]\n\nAbstinence: WHO acknowledges that the 2–7-day interval is based on clinical experience and may contribute to variability and to a blurred limit between normal and subfertile results; its influence is hard to quantify. [[ref:who-2021-semen-manual]]\n\nASRM (2022) notes that abstinence intervals longer than 5 days may adversely affect sperm counts and that 2 days is already associated with normal densities; in a retrospective study of almost 10,000 specimens, in men with normal semen quality concentration and motility remained normal even with daily ejaculation, and at 10 days or more parameters begin to deteriorate. [[ref:asrm-2022-optimizing-natural-fertility]]"
+      },
+      "application": {
+        "es": "Antes de repetir «por si acaso», pregunta por la abstinencia, la pérdida de fracciones, el tipo de recipiente y el tiempo hasta el laboratorio.",
+        "en": "Before repeating “just in case”, ask about abstinence, lost fractions, the container used, and time to the laboratory."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": {
+          "es": "La propia OMS basa los 2–7 días en la experiencia clínica; los datos de la ASRM sobre abstinencia son observacionales y retrospectivos.",
+          "en": "WHO itself bases the 2–7 days on clinical experience; the ASRM data on abstinence are observational and retrospective."
+        }
+      },
+      "recall": {
+        "es": "¿Qué intervalo de abstinencia recomienda la OMS, en qué se basa y qué fracción del eyaculado es más importante no perder?",
+        "en": "What abstinence interval does WHO recommend, what is it based on, and which ejaculate fraction matters most not to lose?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c5-repeat-follow-up",
+      "type": "what-i-would-do",
+      "conceptId": "fert-mf.repeat-and-follow-up",
+      "title": {
+        "es": "Qué haría con un seminograma por debajo del límite",
+        "en": "What I would do with a semen analysis below the limit"
+      },
+      "core": {
+        "es": "Según la posición de expertos que recoge ESHRE, un único eyaculado de calidad basta para decidir los pasos siguientes, y si hay anomalías se repite: ESHRE lo repite tras un intervalo de 3 meses, NICE idealmente a los 3 meses (antes si hay azoospermia u oligozoospermia grave) y AUA/ASRM aconseja considerar al menos dos análisis separados por un mes. [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "According to the expert position cited by ESHRE, a single high-quality ejaculate is enough to decide the next steps, and if there are abnormalities it is repeated: ESHRE after a 3-month interval, NICE ideally at 3 months (sooner if there is azoospermia or severe oligozoospermia), and AUA/ASRM advises considering at least two analyses a month apart. [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "body": {
+        "es": "ESHRE recomienda al menos un seminograma básico según la OMS en un laboratorio con control de calidad externo y, si el resultado queda por debajo del límite de referencia del percentil 5 (6.ª edición), repetirlo tras un intervalo de 3 meses. NICE ofrece una prueba de confirmación (1.17.3) idealmente a los 3 meses, para dar tiempo a completar el ciclo de formación de espermatozoides, y lo antes posible si se detecta un déficit grave (azoospermia u oligozoospermia grave) (1.17.4). [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]\n\nAUA/ASRM no fija 3 meses: indica que, por la variabilidad biológica, conviene considerar al menos dos seminogramas separados por un mes, sobre todo si el primero es anormal. Esta diferencia de intervalo es real; lo que las tres fuentes comparten es no decidir con un único resultado anormal. [[ref:aua-asrm-2020-male-infertility]]\n\nCon 2 o más seminogramas anormales, NICE ofrece exploración física del escroto y los testículos y propone considerar testosterona y gonadotropinas séricas (1.17.5); AUA/ASRM pide que los expertos en reproducción masculina evalúen con historia completa y exploración a los varones con parámetros anormales o infertilidad masculina presumida. [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "ESHRE recommends at least one basic WHO semen analysis in a laboratory with external quality control and, if the result is below the 5th-percentile reference limit (6th edition), repeating it after a 3-month interval. NICE offers a confirmatory repeat test (1.17.3) ideally at 3 months, to allow the cycle of spermatozoa formation to be completed, and as soon as possible if a gross deficiency (azoospermia or severe oligozoospermia) has been detected (1.17.4). [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]\n\nAUA/ASRM does not set 3 months: it states that, because of biological variability, at least two semen analyses a month apart should be considered, especially if the first is abnormal. This difference in interval is real; what the three sources share is not deciding on a single abnormal result. [[ref:aua-asrm-2020-male-infertility]]\n\nWith 2 or more abnormal semen analyses, NICE offers physical examination of the scrotum and testes and suggests considering serum testosterone and gonadotrophins (1.17.5); AUA/ASRM asks male reproductive experts to evaluate men with abnormal parameters or presumed male infertility with a complete history and examination. [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Seminograma 1: muestra completa, 2–7 días de abstinencia, laboratorio con control de calidad",
+              "en": "Semen analysis 1: complete sample, 2–7 days of abstinence, quality-controlled laboratory"
+            }
+          },
+          {
+            "mark": "yes",
+            "text": {
+              "es": "Dentro del límite: un eyaculado de calidad basta para decidir (ESHRE)",
+              "en": "Within the limit: one high-quality ejaculate is enough to decide (ESHRE)"
+            }
+          },
+          {
+            "mark": "no",
+            "text": {
+              "es": "Por debajo del límite: repetir (ESHRE/NICE idealmente a los 3 meses; AUA al menos dos análisis separados un mes)",
+              "en": "Below the limit: repeat (ESHRE/NICE ideally at 3 months; AUA at least two analyses a month apart)"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "Azoospermia u oligozoospermia grave: repetir lo antes posible (NICE)",
+              "en": "Azoospermia or severe oligozoospermia: repeat as soon as possible (NICE)"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "≥2 anormales: exploración de escroto y testículos; considerar testosterona y gonadotropinas (NICE)",
+              "en": "≥2 abnormal: examine scrotum and testes; consider testosterone and gonadotrophins (NICE)"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Diagrama de flujo: seminograma inicial bien recogido; si está dentro del límite basta un eyaculado de calidad; si está por debajo, repetir (a los 3 meses según ESHRE y NICE, antes si es azoospermia u oligozoospermia grave; AUA al menos dos análisis separados un mes); con dos o más anormales, exploración física y considerar testosterona y gonadotropinas.",
+          "en": "Flow diagram: well-collected initial semen analysis; if within the limit one high-quality ejaculate is enough; if below, repeat (at 3 months per ESHRE and NICE, sooner for azoospermia or severe oligozoospermia; AUA at least two analyses a month apart); with two or more abnormal, physical examination and consider testosterone and gonadotrophins."
+        }
+      },
+      "application": {
+        "es": "Anota en el informe la fecha, la abstinencia y las incidencias de recogida: sin ellas no puedes comparar dos seminogramas.",
+        "en": "Record the date, abstinence and any collection problems on the report: without them you cannot compare two semen analyses."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2023 y NICE 2026 coinciden en el intervalo de 3 meses; AUA/ASRM propone un mes (opinión del texto de la guía). Certeza no graduada para el intervalo.",
+          "en": "ESHRE 2023 and NICE 2026 agree on the 3-month interval; AUA/ASRM proposes one month (guideline text). Certainty not graded for the interval."
+        }
+      },
+      "recall": {
+        "es": "¿A los cuántos meses se repite un seminograma anormal según ESHRE y NICE, y qué propone AUA/ASRM?",
+        "en": "After how many months is an abnormal semen analysis repeated according to ESHRE and NICE, and what does AUA/ASRM propose?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q1-below-limit",
+      "conceptId": "fert-mf.repeat-and-follow-up",
+      "difficulty": 1,
+      "stem": {
+        "es": "Carla (33 años, ficticia) y Diego (36) llevan 15 meses sin lograr el embarazo. El primer seminograma de Diego, con muestra completa, 4 días de abstinencia y un laboratorio con control de calidad, muestra concentración de 10 × 10⁶/ml y número total de 20 × 10⁶ por eyaculado: ambos por debajo del percentil 5 de la OMS. ¿Cuál es el siguiente paso más adecuado?",
+        "en": "Carla (33, fictional) and Diego (36) have not conceived after 15 months. Diego’s first semen analysis, with a complete sample, 4 days of abstinence and a quality-controlled laboratory, shows a concentration of 10 × 10⁶/ml and a total number of 20 × 10⁶ per ejaculate: both below the WHO 5th centile. What is the most appropriate next step?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Diagnosticar infertilidad masculina y derivar directamente a ICSI.",
+            "en": "Diagnose male infertility and refer directly to ICSI."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un único resultado por debajo del percentil 5 no es un diagnóstico: la propia OMS indica que no es un límite entre fértiles e infértiles, y ESHRE y NICE piden repetirlo.",
+            "en": "A single result below the 5th centile is not a diagnosis: WHO itself states it is not a limit between fertile and infertile men, and ESHRE and NICE ask for a repeat."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Repetir el seminograma (idealmente a los 3 meses) e interpretarlo junto con la historia y la exploración.",
+            "en": "Repeat the semen analysis (ideally at 3 months) and interpret it together with the history and examination."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE (por debajo del percentil 5 de la OMS) indica repetirlo tras un intervalo de 3 meses y NICE (resultado anormal), idealmente a los 3 meses; AUA/ASRM, al menos dos análisis separados un mes.",
+            "en": "Correct: ESHRE (below the WHO 5th centile) advises repeating it after a 3-month interval and NICE (abnormal result) ideally at 3 months; AUA/ASRM, at least two analyses a month apart."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No hacer nada: el percentil 5 no es un límite de fertilidad, así que el resultado carece de relevancia.",
+            "en": "Do nothing: the 5th centile is not a fertility limit, so the result is irrelevant."
+          },
+          "correct": false,
+          "why": {
+            "es": "Que no sea un límite de fertilidad no lo hace irrelevante: ESHRE considera clínicamente relevante, para decidir más estudios, un resultado por debajo del percentil 5 y su intervalo de confianza.",
+            "en": "Not being a fertility limit does not make it irrelevant: ESHRE considers a result below the 5th centile and its confidence interval clinically relevant for deciding on further investigation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir de inmediato la fragmentación del ADN espermático para decidir la técnica de reproducción asistida.",
+            "en": "Order sperm DNA fragmentation immediately to decide the assisted reproduction technique."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica no hacer esta prueba y AUA/ASRM no la recomienda en la evaluación inicial de la pareja infértil.",
+            "en": "NICE advises against this test and AUA/ASRM does not recommend it in the initial evaluation of the infertile couple."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El primer paso ante un seminograma bajo es confirmarlo en condiciones adecuadas y contextualizarlo; las cifras de la OMS son límites inferiores de referencia, no un veredicto.",
+        "en": "The first step with a low semen analysis is to confirm it under adequate conditions and put it in context; the WHO figures are lower reference limits, not a verdict."
+      },
+      "refIds": [
+        "who-2021-semen-manual",
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257",
+        "aua-asrm-2020-male-infertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q2-incomplete-sample",
+      "conceptId": "fert-mf.preanalytics",
+      "difficulty": 2,
+      "stem": {
+        "es": "En otro seminograma, Diego (4 días de abstinencia) cuenta que perdió «el primer chorro» al recoger la muestra. El informe indica una concentración de 12 × 10⁶/ml. ¿Cómo debes interpretarlo?",
+        "en": "In another semen analysis, Diego (4 days of abstinence) says he lost “the first spurt” while collecting the sample. The report shows a concentration of 12 × 10⁶/ml. How should you interpret it?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es fiable: la concentración no depende de qué fracción del eyaculado se pierda.",
+            "en": "It is reliable: concentration does not depend on which fraction of the ejaculate is lost."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las primeras fracciones son ricas en espermatozoides (líquido prostático) y las posteriores están dominadas por el líquido de las vesículas seminales, de modo que perder la primera sí modifica la concentración.",
+            "en": "The first fractions are sperm-rich (prostatic fluid) and later ones are dominated by seminal vesicle fluid, so losing the first one does change the concentration."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Es fiable: lo que más influye es perder la última fracción, no la primera.",
+            "en": "It is reliable: what matters most is losing the last fraction, not the first."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es justo al revés: según la OMS, perder la primera porción, rica en espermatozoides, influye más que perder la última.",
+            "en": "It is the other way round: per WHO, losing the first, sperm-rich portion has more influence than losing the last."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es una muestra incompleta: no la tomes como definitiva y repítela recogiendo todo el eyaculado tras 2–7 días de abstinencia.",
+            "en": "The sample is incomplete: do not treat it as definitive and repeat it collecting the whole ejaculate after 2–7 days of abstinence."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la OMS exige un eyaculado completo y la pérdida de una fracción debe comunicarse; la repetición debe hacerse con la recogida correcta y 2–7 días de abstinencia.",
+            "en": "Correct: WHO requires a complete ejaculate and any loss of a fraction must be reported; the repeat should use proper collection and 2–7 days of abstinence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Repetirla tras 14 días de abstinencia para compensar la fracción perdida.",
+            "en": "Repeat it after 14 days of abstinence to compensate for the lost fraction."
+          },
+          "correct": false,
+          "why": {
+            "es": "Una abstinencia larga no compensa una recogida incompleta: la OMS indica un máximo de 7 días y la ASRM señala que con 10 días o más los parámetros empiezan a deteriorarse.",
+            "en": "A long abstinence does not compensate for incomplete collection: WHO sets a maximum of 7 days and ASRM notes that parameters begin to deteriorate at 10 days or more."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La fiabilidad de un seminograma empieza en la recogida: una muestra incompleta o fuera del intervalo de abstinencia no sirve para clasificar a un varón.",
+        "en": "The reliability of a semen analysis starts with collection: an incomplete sample or one outside the abstinence interval cannot be used to classify a man."
+      },
+      "refIds": [
+        "who-2021-semen-manual",
+        "asrm-2022-optimizing-natural-fertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q3-antisperm-antibodies",
+      "conceptId": "fert-mf.initial-male-eval",
+      "difficulty": 2,
+      "stem": {
+        "es": "El seminograma de Diego resulta normal según la OMS (sin otras anomalías clínicas). Diego pide anticuerpos antiespermatozoide «para estar seguros». ¿Qué respondes?",
+        "en": "Diego’s semen analysis is normal by WHO criteria (no other clinical abnormalities). Diego asks for anti-sperm antibodies “to be sure”. What do you answer?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No se piden de forma rutinaria: NICE indica no ofrecerlos, ESHRE no los recomienda con seminograma normal y AUA/ASRM no los hace en la evaluación inicial.",
+            "en": "They are not ordered routinely: NICE advises against offering them, ESHRE does not recommend them with a normal semen analysis and AUA/ASRM does not perform them in the initial evaluation."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: las tres fuentes coinciden en no pedirlos en la evaluación inicial (NICE 1.17.2; ESHRE, fuerte con certeza muy baja; AUA/ASRM, opinión de expertos).",
+            "en": "Correct: the three sources agree on not ordering them in the initial evaluation (NICE 1.17.2; ESHRE, strong with very low certainty; AUA/ASRM, expert opinion)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pedirlos, porque si son positivos se trata con corticoides sistémicos y mejora la fertilidad.",
+            "en": "Order them, because if positive systemic corticosteroids are given and fertility improves."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica que se debe explicar que la relevancia de los anticuerpos es incierta y que la eficacia de los corticoides sistémicos es incierta (1.24.4).",
+            "en": "NICE states that the significance of anti-sperm antibodies and the effectiveness of systemic corticosteroids should be explained as uncertain (1.24.4)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir anticuerpos antiespermatozoide en suero de Carla, que sí están recomendados.",
+            "en": "Order anti-sperm antibodies in Carla’s serum, which are recommended."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE tampoco recomienda los anticuerpos antiespermatozoide en suero de ninguno de los dos en la infertilidad inexplicada (fuerte).",
+            "en": "ESHRE does not recommend serum anti-sperm antibodies for either partner in unexplained infertility either (strong)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Repetir el seminograma a los 3 meses, porque ESHRE lo exige siempre.",
+            "en": "Repeat the semen analysis at 3 months, because ESHRE always requires it."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE pide repetirlo a los 3 meses cuando el primero queda por debajo del percentil 5 de la OMS, no cuando es normal.",
+            "en": "ESHRE asks for a 3-month repeat when the first one is below the WHO 5th centile, not when it is normal."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con un seminograma normal, ninguna decisión terapéutica depende de los anticuerpos antiespermatozoide: pedirlos añade coste y ansiedad sin cambiar el plan.",
+        "en": "With a normal semen analysis, no treatment decision depends on anti-sperm antibodies: ordering them adds cost and anxiety without changing the plan."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "eshre-2023-unexplained-infertility",
+        "aua-asrm-2020-male-infertility"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c6-clinical-hormonal",
+      "type": "what-i-would-do",
+      "conceptId": "fert-mf.clinical-hormonal",
+      "title": {
+        "es": "Qué haría: historia, exploración y hormonas cuando el seminograma es anormal",
+        "en": "What I would do: history, examination and hormones when the semen analysis is abnormal"
+      },
+      "core": {
+        "es": "Con 2 o más seminogramas anormales, NICE ofrece exploración del escroto y los testículos y propone considerar testosterona y gonadotropinas séricas (1.17.5). AUA/ASRM pide FSH y testosterona si hay alteración de la libido, disfunción eréctil, oligozoospermia o azoospermia, testes atróficos o signos de alteración hormonal en la exploración (opinión de expertos). [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "With 2 or more abnormal semen analyses, NICE offers examination of the scrotum and testes and suggests considering serum testosterone and gonadotrophins (1.17.5). AUA/ASRM asks for FSH and testosterone when there is impaired libido, erectile dysfunction, oligozoospermia or azoospermia, atrophic testes, or evidence of a hormonal abnormality on examination (expert opinion). [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "body": {
+        "es": "El comité de NICE considera la exploración del escroto y los testículos una parte esencial de la evaluación: puede detectar causas subyacentes como varicocele y cáncer testicular, y es sencilla y de bajo coste. NICE también recomienda preguntar por fármacos y otros productos que pueden afectar a la fertilidad (por ejemplo, tratamiento sustitutivo con testosterona, finasterida, esteroides anabolizantes o cannabis) (1.13.1). [[ref:nice-2026-ng257]]\n\nAUA/ASRM recuerda que la infertilidad masculina puede ser, en ocasiones, la manifestación inicial de una enfermedad grave subyacente (como un tumor testicular o hipofisario) y que entre el 1 % y el 6 % de los varones evaluados por infertilidad tienen una enfermedad importante no diagnosticada, incluso tumores malignos, aunque el seminograma sea «normal». [[ref:aua-asrm-2020-male-infertility]]\n\nSobre la analítica, AUA/ASRM no considera la evaluación endocrina una prueba de primera línea para todos los varones: se indica cuando la clínica o la función sexual sugieren una endocrinopatía y se sugiere en la oligozoospermia, sobre todo con concentración <10 millones/ml. La testosterona se extrae por la mañana (8–10 h); si la testosterona total en ayunas es baja (<300 ng/dL), se repite junto con testosterona libre o biodisponible, LH, estradiol y prolactina. Un FSH «normal» no garantiza una espermatogénesis intacta. [[ref:aua-asrm-2020-male-infertility]]\n\nEn la infertilidad inexplicada con seminograma normal, ESHRE no recomienda la analítica hormonal sérica (fuerte). [[ref:eshre-2023-unexplained-infertility]]",
+        "en": "The NICE committee considers examination of the scrotum and testes an essential part of the assessment: it can detect underlying causes such as varicocele and testicular cancer, and it is simple and low cost. NICE also recommends asking about drugs and other products that can affect fertility (for example testosterone-replacement therapy, finasteride, anabolic steroids or cannabis) (1.13.1). [[ref:nice-2026-ng257]]\n\nAUA/ASRM reminds that male infertility can occasionally be the presenting manifestation of a serious underlying condition (such as a testicular or pituitary tumour) and that 1% to 6% of men evaluated for infertility have significant undiagnosed disease, including malignancy, even with a “normal” semen analysis. [[ref:aua-asrm-2020-male-infertility]]\n\nOn blood tests, AUA/ASRM does not consider endocrine evaluation a first-line test for every man: it is indicated when clinical findings or sexual function suggest an endocrinopathy, and suggested in oligozoospermia, particularly with a concentration <10 million/ml. Testosterone is drawn in the morning (8–10 a.m.); if fasting total testosterone is low (<300 ng/dL), it is repeated together with free or bioavailable testosterone, LH, estradiol and prolactin. A “normal” FSH does not guarantee intact spermatogenesis. [[ref:aua-asrm-2020-male-infertility]]\n\nIn unexplained infertility with a normal semen analysis, ESHRE does not recommend serum hormonal testing (strong). [[ref:eshre-2023-unexplained-infertility]]"
+      },
+      "application": {
+        "es": "Documenta en la historia todo lo que toma el varón (incluidos «potenciadores» y productos de gimnasio) antes de pedir hormonas.",
+        "en": "Record everything the man takes (including “boosters” and gym products) in the history before ordering hormones."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE 2026 (1.17.5, 1.13.1); AUA/ASRM: opinión de expertos para la evaluación hormonal; ESHRE 2023: fuerte en contra con seminograma normal (certeza muy baja).",
+          "en": "NICE 2026 (1.17.5, 1.13.1); AUA/ASRM: expert opinion for hormonal evaluation; ESHRE 2023: strong against with a normal semen analysis (very low certainty)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué haces tras 2 seminogramas anormales según NICE y qué muestra se extrae y cuándo para la testosterona según AUA/ASRM?",
+        "en": "What do you do after 2 abnormal semen analyses according to NICE, and when is the testosterone sample drawn according to AUA/ASRM?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c7-imaging-biopsy",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-mf.not-order-imaging",
+      "title": {
+        "es": "Qué no pediría de entrada: ecografía escrotal, TRUS/RM y biopsia",
+        "en": "What I would not order up front: scrotal ultrasound, TRUS/MRI and biopsy"
+      },
+      "core": {
+        "es": "AUA/ASRM indica no hacer de forma rutinaria ecografía escrotal en la evaluación inicial, ni ecografía transrectal ni RM pélvica, ni biopsia testicular diagnóstica para distinguir azoospermia obstructiva de no obstructiva (opinión de expertos). ESHRE tampoco recomienda las pruebas de imagen testiculares con seminograma normal (fuerte). [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]]",
+        "en": "AUA/ASRM advises against routine scrotal ultrasound in the initial evaluation, transrectal ultrasound or pelvic MRI, and diagnostic testicular biopsy to distinguish obstructive from non-obstructive azoospermia (expert opinion). ESHRE also does not recommend testicular imaging with a normal semen analysis (strong). [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]]"
+      },
+      "body": {
+        "es": "Escroto: la ecografía no se recomienda de rutina para investigar un presunto varicocele, porque tratar los no palpables no se asocia con mejores parámetros seminales ni tasas de fertilidad. Puede usarse si la exploración es difícil (por ejemplo por obesidad o por un dartos muy contraído), para confirmar un varicocele antes de repararlo o para valorar el resultado del tratamiento mediante decisión compartida. [[ref:aua-asrm-2020-male-infertility]]\n\nTRUS o RM pélvica: AUA/ASRM las reserva para varones cuyo seminograma sugiere obstrucción de los conductos eyaculadores (semen ácido, azoospérmico, con volumen <1,4 ml, testosterona sérica normal y deferentes palpables). Se recomienda ecografía renal en la agenesia de los conductos deferentes. [[ref:aua-asrm-2020-male-infertility]]\n\nVaricocele derecho aislado: no se recomienda la imagen abdominal sistemática si es pequeño o moderado; un estudio retrospectivo de más de 4000 varones con varicocele no halló diferencias en los diagnósticos de cáncer según la lateralidad, aunque la guía sí recomienda considerar imagen abdominal en un varicocele de aparición reciente o no reducible, sobre todo si es grande. [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "Scrotum: ultrasound is not recommended routinely to investigate a presumed varicocele, because treating non-palpable ones is not associated with improved semen parameters or fertility rates. It can be used if examination is difficult (for example obesity or a highly contracted dartos), to confirm a varicocele before repair, or to assess treatment success by shared decision-making. [[ref:aua-asrm-2020-male-infertility]]\n\nTRUS or pelvic MRI: AUA/ASRM reserves them for men whose semen analysis suggests ejaculatory duct obstruction (acidic, azoospermic semen with volume <1.4 ml, normal serum testosterone and palpable vas deferens). Renal ultrasound is recommended in vasal agenesis. [[ref:aua-asrm-2020-male-infertility]]\n\nIsolated right varicocele: routine abdominal imaging is not recommended if it is small or moderate; a retrospective study of more than 4000 men with varicocele found no difference in cancer diagnoses by laterality, although the guideline does recommend considering abdominal imaging for a new-onset or non-reducible varicocele, especially if large. [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "pearl": {
+        "es": "Una prueba de imagen se pide por una pregunta clínica concreta, no para «completar» el estudio.",
+        "en": "An imaging test is ordered for a specific clinical question, not to “complete” the work-up."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "AUA/ASRM: opiniones de expertos («no rutinario»); ESHRE 2023: fuerte en contra de imagen testicular con seminograma normal (certeza muy baja).",
+          "en": "AUA/ASRM: expert opinions (“not routinely”); ESHRE 2023: strong against testicular imaging with a normal semen analysis (very low certainty)."
+        }
+      },
+      "recall": {
+        "es": "¿En qué situación AUA/ASRM sí contempla TRUS o RM pélvica y qué pide ante agenesia de los deferentes?",
+        "en": "In which situation does AUA/ASRM contemplate TRUS or pelvic MRI, and what does it ask for in vasal agenesis?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c8-genetics",
+      "type": "comparison",
+      "conceptId": "fert-mf.genetics-thresholds",
+      "title": {
+        "es": "Genética masculina: cuándo pedir cariotipo, microdeleción del Y y CFTR",
+        "en": "Male genetics: when to order karyotype, Y microdeletion and CFTR"
+      },
+      "core": {
+        "es": "AUA/ASRM y NICE coinciden en ofrecer cariotipo, microdeleción del Y y CFTR solo en cuadros concretos (azoospermia o oligozoospermia grave, y obstrucción o ausencia de deferentes), pero sus umbrales difieren: AUA/ASRM usa concentración ≤1 × 10⁶/ml para la microdeleción del Y y <5 × 10⁶/ml para el cariotipo, acompañadas de FSH elevada, atrofia testicular o espermatogénesis alterada; NICE usa <1 × 10⁶/ml (idiopática) y «considerar» el cariotipo si <5 × 10⁶/ml persistente. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM and NICE agree on offering karyotype, Y microdeletion and CFTR testing only in specific pictures (azoospermia or severe oligozoospermia, and obstruction or absence of the vas), but their thresholds differ: AUA/ASRM uses a concentration ≤1 × 10⁶/ml for Y microdeletion and <5 × 10⁶/ml for karyotype, accompanied by elevated FSH, testicular atrophy or impaired sperm production; NICE uses <1 × 10⁶/ml (idiopathic) and “consider” karyotype if persistently <5 × 10⁶/ml. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "AUA/ASRM: cariotipo en varones con infertilidad primaria y azoospermia o concentración <5 millones/ml acompañadas de FSH elevada, atrofia testicular o diagnóstico de producción espermática alterada (opinión de expertos); microdeleción del cromosoma Y en azoospermia o concentración ≤1 millón/ml con esas mismas condiciones (recomendación moderada; grado B); CFTR (incluido el alelo 5T) en agenesia de deferentes o azoospermia obstructiva idiopática, y evaluación genética de la pareja si el varón porta una mutación CFTR o no tiene deferentes (opinión de expertos). El texto añade que un cariotipo anormal aparece en alrededor del 6 % de todos los varones infértiles. [[ref:aua-asrm-2020-male-infertility]]\n\nNICE 2026: microdeleción del Y en azoospermia idiopática o concentración <1 millón/ml (1.17.7); CFTR en sospecha de azoospermia obstructiva idiopática o anomalía de los deferentes (1.17.8); cariotipo en azoospermia idiopática y considerarlo si la concentración persistente es <5 millones/ml (1.17.9–1.17.10); consejo genético si hay un defecto genético específico (1.17.11). Con una microdeleción AZFa o AZFb, NICE indica no ofrecer recuperación quirúrgica de espermatozoides (1.26.1), porque su éxito es muy bajo; el comité señala que una microdeleción AZFc no afecta al éxito de la recuperación. [[ref:nice-2026-ng257]]\n\nEl umbral de 1 millón/ml en NICE es un consenso del comité, basado en que la gran mayoría de las microdeleciones aparecen en concentraciones ≤1 millón/ml. [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM: karyotype in men with primary infertility and azoospermia or concentration <5 million/ml accompanied by elevated FSH, testicular atrophy or a diagnosis of impaired sperm production (expert opinion); Y-chromosome microdeletion in azoospermia or concentration ≤1 million/ml with those same conditions (moderate recommendation; grade B); CFTR (including the 5T allele) in vasal agenesis or idiopathic obstructive azoospermia, and genetic evaluation of the partner if the man carries a CFTR mutation or has no vas deferens (expert opinion). The text adds that an abnormal karyotype is present in about 6% of all infertile men. [[ref:aua-asrm-2020-male-infertility]]\n\nNICE 2026: Y microdeletion in idiopathic azoospermia or concentration <1 million/ml (1.17.7); CFTR in idiopathic suspected obstructive azoospermia or a vasal abnormality (1.17.8); karyotype in idiopathic azoospermia and consider it if persistent concentration is <5 million/ml (1.17.9–1.17.10); genetic counselling when there is a specific genetic defect (1.17.11). With an AZFa or AZFb microdeletion, NICE advises against offering surgical sperm retrieval (1.26.1), because its success is very low; the committee notes that an AZFc microdeletion does not affect retrieval success. [[ref:nice-2026-ng257]]\n\nThe 1 million/ml threshold in NICE is a committee consensus, based on the vast majority of microdeletions occurring at concentrations ≤1 million/ml. [[ref:nice-2026-ng257]]"
+      },
+      "application": {
+        "es": "Antes de pedir genética, comprueba la concentración, si es persistente y si hay FSH elevada o atrofia: la indicación depende de la guía que sigas.",
+        "en": "Before ordering genetics, check the concentration, whether it is persistent, and whether FSH is elevated or there is atrophy: the indication depends on the guideline you follow."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "AUA/ASRM: opinión de expertos salvo la microdeleción del Y (moderada, B); NICE 2026: el umbral de 1 millón/ml para la microdeleción del Y se fijó por consenso del comité.",
+          "en": "AUA/ASRM: expert opinion except Y microdeletion (moderate, B); NICE 2026: the 1 million/ml threshold for Y microdeletion was set by committee consensus."
+        }
+      },
+      "recall": {
+        "es": "¿Qué diferencia hay entre AUA/ASRM y NICE en el umbral de concentración para la microdeleción del Y?",
+        "en": "What is the difference between AUA/ASRM and NICE in the concentration threshold for Y microdeletion testing?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c9-varicocele",
+      "type": "concept",
+      "conceptId": "fert-mf.varicocele",
+      "title": {
+        "es": "Varicocele: cuándo se considera la reparación y qué evidencia la sostiene",
+        "en": "Varicocele: when repair is considered and what evidence supports it"
+      },
+      "core": {
+        "es": "AUA/ASRM indica considerar la varicocelectomía en varones que buscan embarazo con varicocele palpable, infertilidad y parámetros seminales anormales, salvo azoospermia (recomendación moderada; grado B), y no recomendarla en varicoceles no palpables detectados solo por imagen (fuerte; grado C). NICE propone considerar tratamiento radiológico o quirúrgico si el varicocele se detecta en la exploración, buscan concepción espontánea y hay parámetros reducidos, teniendo en cuenta los factores femeninos (1.28.1). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM advises considering varicocelectomy in men attempting to conceive with a palpable varicocele, infertility and abnormal semen parameters, except in azoospermia (moderate recommendation; grade B), and not recommending it for non-palpable varicoceles detected only by imaging (strong; grade C). NICE suggests considering radiological or surgical treatment if the varicocele is detected on examination, they are trying to conceive spontaneously and semen parameters are reduced, taking female factors into account (1.28.1). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Frecuencia: los varicoceles aparecen en alrededor del 15 % de los varones adultos y el 40 % de los infértiles; el 85 % son izquierdos unilaterales. [[ref:aua-asrm-2020-male-infertility]]\n\nQué sabemos del resultado: en el metaanálisis de Wang et al., citado por AUA/ASRM, suponiendo una tasa de embarazo del 17 % sin tratamiento, la tasa estimada con varicocelectomía microquirúrgica subinguinal era del 42 % (IC 95 % 26–61 %); la propia guía advierte que debe interpretarse con cautela porque incluye estudios no aleatorizados y notificación selectiva de resultados. NICE halló mayor tasa de embarazo con el tratamiento en el subgrupo con varicocele clínico y seminograma anormal, pero muy pocos estudios informaron del nacido vivo y con resultados mixtos. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]\n\nAntes de la reproducción asistida: un metaanálisis de 7 estudios retrospectivos no aleatorizados (varicocele clínico) estimó que las odds de embarazo y de nacido vivo eran 1,76 veces mayores tras reparar el varicocele antes de la TRA (AUA/ASRM), mientras que NICE no halló ECA sobre tratar el varicocele antes de la concepción asistida y por eso no hace recomendación para esa población. En varones con varicocele y azoospermia no obstructiva, AUA/ASRM pide informar de que no hay evidencia definitiva a favor de repararlo antes de recuperar espermatozoides. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "Frequency: varicoceles occur in about 15% of adult men and 40% of infertile men; 85% are left-sided and unilateral. [[ref:aua-asrm-2020-male-infertility]]\n\nWhat we know about the result: in the Wang et al. meta-analysis cited by AUA/ASRM, assuming a 17% pregnancy rate without treatment, the estimated rate with subinguinal microsurgical varicocelectomy was 42% (95% CI 26–61%); the guideline itself warns this must be interpreted with caution because it includes non-randomised studies and selective outcome reporting. NICE found higher pregnancy rates with treatment in the subgroup with clinical varicocele and abnormal semen analysis, but very few studies reported live birth and those that did gave mixed results. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]\n\nBefore assisted reproduction: a meta-analysis of 7 retrospective non-randomised studies (clinical varicocele) estimated pregnancy and live birth odds 1.76-fold higher after repairing the varicocele before ART (AUA/ASRM), whereas NICE identified no RCTs on treating varicocele before assisted conception and therefore makes no recommendation for that population. In men with varicocele and non-obstructive azoospermia, AUA/ASRM asks to inform that there is no definitive evidence supporting repair before sperm retrieval. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Palpable + infertilidad + parámetros anormales (sin azoospermia), con concepción espontánea y teniendo en cuenta los factores femeninos: ahí se considera la reparación; un varicocele solo visible en ecografía no se repara.",
+        "en": "Palpable + infertility + abnormal parameters (without azoospermia), trying to conceive spontaneously and taking female factors into account: that is when repair is considered; a varicocele seen only on ultrasound is not repaired."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": {
+          "es": "Recomendación moderada (AUA/ASRM, grado B) y «considerar» (NICE); el beneficio sobre embarazo procede en buena parte de estudios no aleatorizados y hay pocos datos de nacido vivo.",
+          "en": "Moderate recommendation (AUA/ASRM, grade B) and “consider” (NICE); the pregnancy benefit comes largely from non-randomised studies and live-birth data are scarce."
+        }
+      },
+      "recall": {
+        "es": "¿Qué tres condiciones definen la indicación de reparar un varicocele y qué varicocele NO se debe reparar?",
+        "en": "Which three conditions define the indication to repair a varicocele, and which varicocele should NOT be repaired?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c10-testosterone-hormonal",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-mf.testosterone-hormonal",
+      "title": {
+        "es": "No prescribir testosterona exógena a un varón que busca fertilidad",
+        "en": "Do not prescribe exogenous testosterone to a man seeking fertility"
+      },
+      "core": {
+        "es": "AUA/ASRM establece que no se debe prescribir testosterona exógena a varones interesados en la fertilidad actual o futura (principio clínico), y NICE indica no ofrecer andrógenos para tratar anomalías del semen (1.24.3). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM states that exogenous testosterone should not be prescribed to men interested in current or future fertility (clinical principle), and NICE advises against offering androgens to treat semen abnormalities (1.24.3). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Mecanismo y reversibilidad: la testosterona de acción prolongada produce retroalimentación negativa sobre el hipotálamo y la hipófisis y puede inhibir las gonadotropinas; según el grado de supresión, la espermatogénesis disminuye o cesa (oligo- o azoospermia). La recuperación del esperma en el eyaculado ocurre en la mayoría de los azoospérmicos tras suspenderla, pero puede tardar meses o, raramente, años, y algunos varones no recuperan por completo su producción. Con una testosterona nasal de acción corta hubo espermatogénesis conservada en dos estudios, pero faltan datos a largo plazo y la guía no la aconseja de forma rutinaria. [[ref:aua-asrm-2020-male-infertility]]\n\nNICE no encontró evidencia de mejores tasas de embarazo con andrógenos y comenta que podrían incluso perjudicar la fertilidad. [[ref:nice-2026-ng257]]\n\nCuando hay hipogonadismo hipogonadotrópico, NICE ofrece gonadotropinas (1.24.1) y AUA/ASRM pide estudiar la etiología y tratar según el diagnóstico. En los demás casos las guías difieren: NICE reserva las gonadotropinas o los antiestrógenos para ensayos clínicos (1.24.2), mientras que AUA/ASRM permite considerar inhibidores de la aromatasa, hCG o SERM en varones con testosterona baja (condicional; grado C) y un análogo de FSH en la infertilidad idiopática (condicional; grado B), y señala que, en la infertilidad idiopática, los SERM tienen beneficios limitados frente a los resultados de la TRA (opinión de expertos). [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "Mechanism and reversibility: long-acting testosterone exerts negative feedback on the hypothalamus and pituitary and can inhibit gonadotrophin secretion; depending on the degree of suppression, spermatogenesis decreases or ceases (oligo- or azoospermia). Recovery of sperm in the ejaculate occurs in most azoospermic men after stopping it, but may take months or, rarely, years, and some men never fully recover their sperm production. With a short-acting nasal testosterone, spermatogenesis was preserved in two studies, but long-term data are lacking and the guideline does not advise it routinely. [[ref:aua-asrm-2020-male-infertility]]\n\nNICE found no evidence of improved pregnancy rates with androgens and comments that they may even harm fertility. [[ref:nice-2026-ng257]]\n\nWhen there is hypogonadotropic hypogonadism, NICE offers gonadotrophins (1.24.1) and AUA/ASRM asks to investigate the aetiology and treat according to the diagnosis. In other cases the guidelines differ: NICE reserves gonadotrophins or anti-oestrogens for clinical trials (1.24.2), whereas AUA/ASRM allows considering aromatase inhibitors, hCG or SERMs in men with low testosterone (conditional; grade C) and an FSH analogue in idiopathic infertility (conditional; grade B), and notes that, in idiopathic infertility, SERMs have limited benefits relative to ART results (expert opinion). [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "application": {
+        "es": "Si el varón ya usa testosterona, el primer paso de la consulta de fertilidad es hablar de ello con el equipo que la prescribió.",
+        "en": "If the man is already using testosterone, the first step of the fertility consultation is to discuss it with the team that prescribed it."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "AUA/ASRM: principio clínico; NICE 2026 (1.24.3): no ofrecer andrógenos. Los tratamientos para otros escenarios hormonales: condicionales (AUA/ASRM) o solo en ensayo (NICE).",
+          "en": "AUA/ASRM: clinical principle; NICE 2026 (1.24.3): do not offer androgens. Treatments for other hormonal scenarios: conditional (AUA/ASRM) or trial-only (NICE)."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué la testosterona exógena puede dejar a un varón azoospérmico y cuánto puede tardar la recuperación?",
+        "en": "Why can exogenous testosterone leave a man azoospermic, and how long can recovery take?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c11-dna-fragmentation",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-mf.dna-fragmentation",
+      "title": {
+        "es": "Fragmentación del ADN espermático: lo que dice cada guía",
+        "en": "Sperm DNA fragmentation: what each guideline says"
+      },
+      "core": {
+        "es": "NICE indica no hacer la prueba (1.17.6); AUA/ASRM no la recomienda en la evaluación inicial de la pareja infértil (moderada; grado C), pero sí la recomienda ante pérdidas gestacionales recurrentes (moderada; grado C); ESHRE no la recomienda con seminograma normal en infertilidad inexplicada (fuerte), la guía ESHRE de pérdida gestacional recurrente dice que podría considerarse con fines diagnósticos (condicional) y el documento de add-ons ve evidencia insuficiente para usarla en predecir el embarazo o decidir tratamiento. [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2022-rpl]] [[ref:eshre-2023-addons]]",
+        "en": "NICE advises against the test (1.17.6); AUA/ASRM does not recommend it in the initial evaluation of the infertile couple (moderate; grade C) but does recommend it in recurrent pregnancy loss (moderate; grade C); ESHRE does not recommend it with a normal semen analysis in unexplained infertility (strong), the ESHRE recurrent pregnancy loss guideline says it could be considered for diagnostic purposes (conditional), and the add-ons document finds insufficient evidence to use it to predict pregnancy or guide treatment. [[ref:nice-2026-ng257]] [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2022-rpl]] [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "Por qué: NICE razona que no hay un tratamiento eficaz, que los ensayos son caros y tardan semanas, que el vínculo entre fragmentación elevada y subfertilidad no está establecido y que no está claro qué prueba y qué umbral usar. ESHRE señala que los ensayos no son intercambiables, que sus umbrales no están estandarizados y que ningún estudio ha comprobado si hacer la prueba cambia los resultados de la pareja. AUA/ASRM coincide en la falta de estudios prospectivos sobre su impacto en el manejo y en la inconsistencia de los puntos de corte. La OMS la describe como una técnica y como un biomarcador prometedor solo parcialmente relacionado con la calidad seminal. [[ref:nice-2026-ng257]] [[ref:eshre-2023-unexplained-infertility]] [[ref:aua-asrm-2020-male-infertility]] [[ref:who-2021-semen-manual]]\n\nDónde AUA/ASRM la recomienda: con pérdida gestacional recurrente (dos o más), evaluar al varón con cariotipo (opinión de expertos) y fragmentación del ADN (recomendación moderada; grado C); y tras fallos repetidos de FIV puede ser útil. [[ref:aua-asrm-2020-male-infertility]] ESHRE (pérdida gestacional recurrente, 2022) es más prudente: la fragmentación «podría considerarse» con fines diagnósticos y con una prueba validada (condicional), y el cariotipo de los progenitores no se hace de rutina, sino tras valorar el riesgo individual (condicional). [[ref:eshre-2022-rpl]]\n\nQué hacer con un resultado elevado: es el punto de mayor desacuerdo. AUA/ASRM indica que se puede considerar espermatozoides testiculares en varones no azoospérmicos con índice de fragmentación elevado (principio clínico), pero reconoce que la calidad de los datos es baja; NICE indica no ofrecer la recuperación quirúrgica de espermatozoides en esa situación (1.27.1) y no ofrecer suplementos, antioxidantes ni tratamientos médicos para mejorar la integridad del ADN espermático (1.24.6). ESHRE (add-ons) describe un metaanálisis de 4 estudios observacionales con mejor tasa de embarazo con espermatozoides testiculares, pero de calidad moderada y con factores de confusión. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]] [[ref:eshre-2023-addons]]",
+        "en": "Why: NICE reasons that there is no effective treatment, that the assays are expensive and take weeks, that the link between elevated fragmentation and subfertility has not been established, and that it is unclear which test and threshold to use. ESHRE notes that assays are not interchangeable, their thresholds are not standardised, and no study has tested whether performing the test changes the couple’s outcomes. AUA/ASRM agrees on the lack of prospective studies on its impact on management and on inconsistent cut-offs. WHO describes it as a technique and as a promising biomarker only partially related to semen quality. [[ref:nice-2026-ng257]] [[ref:eshre-2023-unexplained-infertility]] [[ref:aua-asrm-2020-male-infertility]] [[ref:who-2021-semen-manual]]\n\nWhere AUA/ASRM recommends it: with recurrent pregnancy loss (two or more), evaluate the man with karyotype (expert opinion) and DNA fragmentation (moderate recommendation; grade C); and it may be useful after repeated IVF failures. [[ref:aua-asrm-2020-male-infertility]] ESHRE (recurrent pregnancy loss, 2022) is more cautious: fragmentation “could be considered” for diagnostic purposes using a validated test (conditional), and parental karyotyping is not routine but follows an individual risk assessment (conditional). [[ref:eshre-2022-rpl]]\n\nWhat to do with an elevated result: this is the point of greatest disagreement. AUA/ASRM states that testicular sperm may be considered in non-azoospermic men with an elevated fragmentation index (clinical principle), but acknowledges that data quality is low; NICE advises against surgical sperm retrieval in that situation (1.27.1) and against supplements, antioxidants or medical treatments to improve sperm DNA integrity (1.24.6). ESHRE (add-ons) describes a meta-analysis of 4 observational studies with a higher pregnancy rate using testicular sperm, but of moderate quality and with confounding. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]] [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Si la prueba no va a cambiar lo que harás con la pareja, no la pidas; si la contemplas por pérdidas recurrentes o fallos de TRA, explica que es una decisión de especialista.",
+        "en": "If the test will not change what you do with the couple, do not order it; if you contemplate it for recurrent loss or ART failures, explain that it is a specialist decision."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "NICE 2026 y ESHRE 2023 (infertilidad inexplicada) en contra (certeza muy baja); AUA/ASRM en contra en la evaluación inicial (moderada, C) y a favor en pérdidas recurrentes (moderada, C); ESHRE PGR 2022: podría considerarse (condicional). Hay desacuerdo entre guías sobre el uso de esperma testicular.",
+          "en": "NICE 2026 and ESHRE 2023 (unexplained infertility) against (very low certainty); AUA/ASRM against in the initial evaluation (moderate, C) and in favour in recurrent loss (moderate, C); ESHRE RPL 2022: could be considered (conditional). The guidelines disagree on the use of testicular sperm."
+        }
+      },
+      "recall": {
+        "es": "¿Qué indican NICE y AUA/ASRM sobre pedir la fragmentación del ADN espermático y en qué contexto la contempla AUA/ASRM?",
+        "en": "What do NICE and AUA/ASRM say about ordering sperm DNA fragmentation, and in which context does AUA/ASRM contemplate it?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q4-next-steps",
+      "conceptId": "fert-mf.clinical-hormonal",
+      "difficulty": 2,
+      "stem": {
+        "es": "El segundo seminograma de Diego (3 meses después) confirma una concentración de 8 × 10⁶/ml, sin azoospermia ni alteración de la libido. ¿Qué es lo más adecuado ahora?",
+        "en": "Diego’s second semen analysis (3 months later) confirms a concentration of 8 × 10⁶/ml, with no azoospermia and no impaired libido. What is most appropriate now?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Exploración física del escroto y los testículos y considerar testosterona y gonadotropinas séricas.",
+            "en": "Physical examination of the scrotum and testes and consider serum testosterone and gonadotrophins."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE ofrece la exploración con 2 o más seminogramas anormales y propone considerar testosterona y gonadotropinas (1.17.5); AUA/ASRM pide FSH y testosterona en la oligozoospermia.",
+            "en": "Correct: NICE offers examination with 2 or more abnormal semen analyses and suggests considering testosterone and gonadotrophins (1.17.5); AUA/ASRM asks for FSH and testosterone in oligozoospermia."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cariotipo y microdeleción del cromosoma Y de entrada en todos los varones con oligozoospermia.",
+            "en": "Karyotype and Y microdeletion testing up front in every man with oligozoospermia."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con 8 × 10⁶/ml no se alcanzan los umbrales: la microdeleción del Y se pide en azoospermia o ≤1 millón/ml (AUA/ASRM) o <1 millón/ml (NICE), y el cariotipo con <5 millones/ml.",
+            "en": "At 8 × 10⁶/ml the thresholds are not met: Y microdeletion is for azoospermia or ≤1 million/ml (AUA/ASRM) or <1 million/ml (NICE), and karyotype for <5 million/ml."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ecografía escrotal y transrectal sistemáticas para completar el estudio.",
+            "en": "Routine scrotal and transrectal ultrasound to complete the work-up."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM indica no hacer ecografía escrotal de forma rutinaria ni TRUS/RM pélvica en la evaluación inicial.",
+            "en": "AUA/ASRM advises against routine scrotal ultrasound and against TRUS/pelvic MRI in the initial evaluation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Biopsia testicular diagnóstica para decidir si es obstructivo o secretor.",
+            "en": "Diagnostic testicular biopsy to decide whether it is obstructive or secretory."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM no recomienda la biopsia diagnóstica de forma rutinaria, y la distinción obstructivo/no obstructivo corresponde a la azoospermia, que Diego no tiene.",
+            "en": "AUA/ASRM does not recommend routine diagnostic biopsy, and the obstructive/non-obstructive distinction concerns azoospermia, which Diego does not have."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Tras confirmar la anomalía, el siguiente paso es clínico y analítico, de bajo coste y con rendimiento esperado; la genética, la imagen y la biopsia se reservan para indicaciones concretas.",
+        "en": "After confirming the abnormality, the next step is clinical and laboratory, low-cost and with expected yield; genetics, imaging and biopsy are reserved for specific indications."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "aua-asrm-2020-male-infertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q5-varicocele-outcome",
+      "conceptId": "fert-mf.varicocele",
+      "difficulty": 3,
+      "stem": {
+        "es": "Diego tiene un varicocele izquierdo palpable, dos seminogramas anormales (sin azoospermia) y quieren concebir de forma espontánea; Carla no tiene factor conocido. Preguntan qué beneficio esperar de la reparación. ¿Qué respuesta es la más ajustada a la evidencia?",
+        "en": "Diego has a palpable left varicocele, two abnormal semen analyses (without azoospermia), and they want to conceive spontaneously; Carla has no known factor. They ask what benefit to expect from repair. Which answer best fits the evidence?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Las guías contemplan repararlo; las tasas de embarazo estimadas son mayores con la reparación, pero proceden en gran parte de estudios no aleatorizados y hay pocos datos de nacido vivo.",
+            "en": "Guidelines contemplate repair; estimated pregnancy rates are higher with repair, but they come largely from non-randomised studies and live-birth data are scarce."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: AUA/ASRM (moderada; B) y NICE (considerar) respaldan la reparación en este perfil, y ambas señalan las limitaciones: estudios no aleatorizados y notificación selectiva (AUA/ASRM) y pocos estudios con nacido vivo, de resultados mixtos (NICE).",
+            "en": "Correct: AUA/ASRM (moderate; B) and NICE (consider) support repair in this profile, and both flag the limitations: non-randomised studies and selective reporting (AUA/ASRM) and few live-birth studies with mixed results (NICE)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Reparar el varicocele garantiza el embarazo espontáneo, así que no hace falta seguir evaluando a Carla.",
+            "en": "Repairing the varicocele guarantees spontaneous pregnancy, so Carla no longer needs evaluation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Nada en las guías indica garantía; NICE exige tener en cuenta los factores femeninos y AUA/ASRM recomienda evaluar a ambos miembros de forma concurrente.",
+            "en": "Nothing in the guidelines indicates a guarantee; NICE requires taking female factors into account and AUA/ASRM recommends evaluating both partners concurrently."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Está indicada la reparación aunque solo se viera en ecografía y no fuese palpable.",
+            "en": "Repair is indicated even if it were only seen on ultrasound and not palpable."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM recomienda con fuerza no reparar varicoceles no palpables detectados solo por imagen; además Diego sí tiene uno palpable.",
+            "en": "AUA/ASRM strongly advises against repairing non-palpable varicoceles detected only by imaging; moreover Diego has a palpable one."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La reparación solo está indicada si hay azoospermia no obstructiva.",
+            "en": "Repair is only indicated if there is non-obstructive azoospermia."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM excluye la azoospermia de la indicación de varicocelectomía y solo indica informar de que no hay evidencia definitiva en la azoospermia no obstructiva.",
+            "en": "AUA/ASRM excludes azoospermia from the indication for varicocelectomy and only asks to inform that there is no definitive evidence in non-obstructive azoospermia."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La reparación de un varicocele clínico tiene una indicación definida y un respaldo moderado; hay que presentar el beneficio como una estimación con incertidumbre y no como una promesa.",
+        "en": "Repair of a clinical varicocele has a defined indication and moderate support; present the benefit as an estimate with uncertainty, not as a promise."
+      },
+      "refIds": [
+        "aua-asrm-2020-male-infertility",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q6-exogenous-testosterone",
+      "conceptId": "fert-mf.testosterone-hormonal",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un varón de 38 años que usa testosterona inyectable de acción prolongada por «energía baja» consulta con su pareja por infertilidad. Su seminograma muestra azoospermia. ¿Qué asesoramiento es el correcto?",
+        "en": "A 38-year-old man using long-acting injectable testosterone for “low energy” consults with his partner for infertility. His semen analysis shows azoospermia. What is the correct counselling?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La testosterona exógena suprime las gonadotropinas y la espermatogénesis; no se debe prescribir a quien busca fertilidad y la recuperación tras suspenderla suele darse, aunque puede tardar meses o, raramente, años.",
+            "en": "Exogenous testosterone suppresses gonadotrophins and spermatogenesis; it should not be prescribed to someone seeking fertility, and recovery after stopping usually occurs although it may take months or, rarely, years."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: coincide con el principio clínico de AUA/ASRM y su descripción del mecanismo y la recuperación; NICE indica no ofrecer andrógenos para anomalías del semen.",
+            "en": "Correct: matches the AUA/ASRM clinical principle and its description of the mechanism and recovery; NICE advises against androgens for semen abnormalities."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Aumentar la dosis, porque más testosterona estimula la producción testicular de espermatozoides.",
+            "en": "Increase the dose, because more testosterone stimulates testicular sperm production."
+          },
+          "correct": false,
+          "why": {
+            "es": "La testosterona exógena provoca retroalimentación negativa sobre hipotálamo e hipófisis y reduce la espermatogénesis, no la estimula.",
+            "en": "Exogenous testosterone causes negative feedback on the hypothalamus and pituitary and reduces spermatogenesis; it does not stimulate it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Cambiar a una formulación nasal, que ya ha demostrado ser segura para la fertilidad a largo plazo.",
+            "en": "Switch to a nasal formulation, which has already been shown to be safe for fertility in the long term."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM cita solo dos estudios con espermatogénesis conservada, señala la falta de datos a largo plazo y desaconseja su uso rutinario en quienes buscan concebir.",
+            "en": "AUA/ASRM cites only two studies with preserved spermatogenesis, notes the lack of long-term data and advises against routine use in those trying to conceive."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Mantener la testosterona y añadir un antioxidante para proteger los espermatozoides.",
+            "en": "Keep the testosterone and add an antioxidant to protect the sperm."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna guía respalda un antioxidante para contrarrestar la supresión por testosterona; AUA/ASRM considera dudosa la utilidad de los suplementos en la infertilidad masculina.",
+            "en": "No guideline supports an antioxidant to counteract testosterone suppression; AUA/ASRM considers the usefulness of supplements in male infertility questionable."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Preguntar por la testosterona (y otros anabolizantes) es parte de la historia; es una causa de azoospermia con frecuencia reversible y evitable.",
+        "en": "Asking about testosterone (and other anabolic agents) is part of the history; it is a frequently reversible and preventable cause of azoospermia."
+      },
+      "refIds": [
+        "aua-asrm-2020-male-infertility",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q7-dna-fragmentation",
+      "conceptId": "fert-mf.dna-fragmentation",
+      "difficulty": 3,
+      "stem": {
+        "es": "Diego tiene dos seminogramas anormales y pregunta si la fragmentación del ADN espermático «decidirá si hace falta ICSI». ¿Qué afirmación refleja correctamente las guías?",
+        "en": "Diego has two abnormal semen analyses and asks whether sperm DNA fragmentation “will decide whether ICSI is needed”. Which statement correctly reflects the guidelines?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE indica no hacerla, AUA/ASRM no la recomienda en la evaluación inicial y el documento de add-ons de ESHRE ve evidencia insuficiente para usarla en decidir el tratamiento.",
+            "en": "NICE advises against it, AUA/ASRM does not recommend it in the initial evaluation and the ESHRE add-ons document sees insufficient evidence to use it to guide treatment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: resume NICE 1.17.6, AUA/ASRM (moderada; C) y la conclusión de add-ons de ESHRE.",
+            "en": "Correct: summarises NICE 1.17.6, AUA/ASRM (moderate; C) and the ESHRE add-ons conclusion."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "AUA/ASRM la recomienda a todo varón con seminograma anormal para elegir la técnica.",
+            "en": "AUA/ASRM recommends it for every man with an abnormal semen analysis to choose the technique."
+          },
+          "correct": false,
+          "why": {
+            "es": "AUA/ASRM la desaconseja en la evaluación inicial; solo la contempla en contextos concretos como pérdidas recurrentes o fallos repetidos de FIV.",
+            "en": "AUA/ASRM advises against it in the initial evaluation; it only contemplates it in specific contexts such as recurrent loss or repeated IVF failures."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE propone hacerla y tratar un resultado elevado con antioxidantes.",
+            "en": "NICE proposes doing it and treating an elevated result with antioxidants."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica no hacerla (1.17.6) y no ofrecer suplementos, antioxidantes ni tratamientos médicos para mejorar la integridad del ADN espermático (1.24.6).",
+            "en": "NICE advises against doing it (1.17.6) and against offering supplements, antioxidants or medical treatments to improve sperm DNA integrity (1.24.6)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE la recomienda con evidencia sólida porque las pruebas son intercambiables y están estandarizadas.",
+            "en": "ESHRE recommends it with solid evidence because the assays are interchangeable and standardised."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE subraya lo contrario: los ensayos no son intercambiables y sus umbrales no están estandarizados.",
+            "en": "ESHRE emphasises the opposite: assays are not interchangeable and their thresholds are not standardised."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la evaluación inicial, ninguna de las guías revisadas respalda la fragmentación como prueba rutinaria; sus matices (pérdidas recurrentes, fallos de TRA) son indicaciones de especialista.",
+        "en": "In the initial evaluation, none of the guidelines reviewed endorses fragmentation as a routine test; its nuances (recurrent loss, ART failures) are specialist indications."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "aua-asrm-2020-male-infertility",
+        "eshre-2023-addons",
+        "eshre-2023-unexplained-infertility"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c12-supplement-positions",
+      "type": "supplement",
+      "conceptId": "fert-mf.supplement-positions",
+      "title": {
+        "es": "Antioxidantes y suplementos en el varón: la postura de las guías",
+        "en": "Antioxidants and supplements in men: what the guidelines say"
+      },
+      "core": {
+        "es": "AUA/ASRM aconseja informar de que el beneficio de los suplementos (por ejemplo, antioxidantes y vitaminas) es de utilidad clínica dudosa y de que los datos no permiten recomendar agentes concretos (moderada; grado B). ESHRE considera que los antioxidantes orales adyuvantes en varones que reciben tratamiento de fertilidad probablemente no se recomiendan en la infertilidad inexplicada (condicional), y su documento de add-ons no los recomienda en TRA. [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2023-addons]]",
+        "en": "AUA/ASRM advises counselling that the benefits of supplements (for example antioxidants and vitamins) are of questionable clinical utility and that data do not allow recommending specific agents (moderate; grade B). ESHRE considers that adjunct oral antioxidants in men receiving fertility treatment are probably not recommended in unexplained infertility (conditional), and its add-ons document does not recommend them in ART. [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "AUA/ASRM: no hay datos claros y fiables sobre los distintos suplementos; los datos actuales sugieren que probablemente no son dañinos, pero es dudoso que aporten mejoras tangibles en los resultados de fertilidad. Cita un ensayo de 2020 de la red de medicina reproductiva del NIH (174 varones) que no mostró un efecto suficiente sobre los parámetros seminales ni sobre la integridad del ADN en la fase de cribado como para continuar el reclutamiento, y un segundo ECA de 2020 con ácido fólico y zinc en casi 2400 varones de parejas infértiles sin cambios significativos en la calidad seminal ni en los nacidos vivos. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (infertilidad inexplicada): la justificación habla de evidencia de baja calidad que no muestra beneficio de los antioxidantes en varones ni en mujeres con infertilidad inexplicada y añade que, aunque suelen ser baratos, su beneficio no se ha demostrado. El estudio que cita para ese análisis es una revisión sobre parejas con infertilidad inexplicada con solo 2 ECA y 133 mujeres, es decir, hay muy pocos datos directos en varones. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): los antioxidantes no se recomiendan en TRA; la evidencia es insuficiente y muchos estudios fueron pequeños y retrospectivos, con combinaciones diversas y con parámetros seminales o fragmentación del ADN como variables indirectas en lugar de la tasa de embarazo. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) es más específica: no ofrecer suplementos, antioxidantes ni tratamientos médicos para mejorar la integridad del ADN espermático; el comité no halló tratamiento estandarizado ni beneficio convincente en nacido vivo, embarazo clínico, aborto, mortinato o calidad embrionaria. [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM: there are no clear, reliable data on the various supplements; current data suggest they are likely not harmful, but it is questionable whether they provide tangible improvements in fertility outcomes. It cites a 2020 NIH Reproductive Medicine Network trial (174 men) that did not show an adequate effect on semen parameters or DNA integrity in the screening arm to proceed to full accrual, and a second 2020 RCT of folic acid and zinc in nearly 2400 men from infertile couples with no significant changes in semen quality or live births. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (unexplained infertility): the justification refers to low-quality evidence that does not show a benefit of antioxidants in men or women with unexplained infertility and adds that, although they are usually inexpensive, their benefit was not demonstrated. The study cited for that analysis is a review of couples with unexplained infertility with only 2 RCTs and 133 women, that is, there are very few direct data in men. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): antioxidants are not recommended in ART; evidence is insufficient and many studies were small and retrospective, used various combinations, and used semen parameters or DNA fragmentation as surrogates instead of pregnancy rate. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) is more specific: do not offer supplements, antioxidants or medical treatments to improve sperm DNA integrity; the committee found no standardised treatment and no convincing benefit in live birth, clinical pregnancy, miscarriage, stillbirth or embryo quality. [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Las cuatro fuentes coinciden en no recomendar un agente concreto, pero no dicen lo mismo: distingue «no recomendado» de «dañino».",
+        "en": "The four sources agree on not recommending a specific agent, but they do not say the same thing: distinguish “not recommended” from “harmful”."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "AUA/ASRM moderada (B) a favor de aconsejar que la utilidad es dudosa; ESHRE 2023 condicional; ESHRE add-ons y NICE 2026 en contra de usarlos como adyuvantes o para la integridad del ADN.",
+          "en": "AUA/ASRM moderate (B) in favour of counselling that utility is questionable; ESHRE 2023 conditional; ESHRE add-ons and NICE 2026 against using them as adjuncts or for DNA integrity."
+        }
+      },
+      "recall": {
+        "es": "¿Qué afirma AUA/ASRM sobre los suplementos en la infertilidad masculina y qué recomendación concreta hace NICE (1.24.6)?",
+        "en": "What does AUA/ASRM state about supplements in male infertility, and what specific recommendation does NICE make (1.24.6)?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c13-cochrane-antioxidants",
+      "type": "comparison",
+      "conceptId": "fert-mf.cochrane-antioxidants",
+      "title": {
+        "es": "Cochrane 2022: cómo leer el resultado de los antioxidantes masculinos",
+        "en": "Cochrane 2022: how to read the male antioxidant result"
+      },
+      "core": {
+        "es": "La revisión Cochrane (90 ECA; 10 303 varones subfértiles) halló un posible aumento del nacido vivo (OR 1,43; IC 95 % 1,07–1,91; 12 ECA; 1283 varones; certeza muy baja) que deja de ser significativo al excluir los estudios con alto riesgo de sesgo (Peto OR 1,22; IC 95 % 0,85–1,75; 8 ECA; 827 varones); los autores concluyen que la evidencia global es no concluyente. [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:eshre-2023-addons]]",
+        "en": "The Cochrane review (90 RCTs; 10,303 subfertile men) found a possible increase in live birth (OR 1.43; 95% CI 1.07–1.91; 12 RCTs; 1283 men; very low certainty) that is no longer significant when high risk-of-bias studies are excluded (Peto OR 1.22; 95% CI 0.85–1.75; 8 RCTs; 827 men); the authors conclude the overall evidence is inconclusive. [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "Otros resultados de la revisión: embarazo clínico OR 1,89 (IC 95 % 1,45–2,47; 20 ECA; 1706 varones; certeza baja); aborto sin diferencia (OR 1,46; IC 95 % 0,75–2,83; 6 ECA; certeza muy baja); molestias gastrointestinales leves OR 2,70 (IC 95 % 1,46–4,99; 16 ECA; certeza baja). Suponiendo un 16 % de nacido vivo basal, la revisión estima entre un 17 % y un 27 % con antioxidantes, pero a partir de solo 246 nacidos vivos en 12 estudios pequeños o medianos. [[ref:deligny-2022-cochrane-male-antioxidants]]\n\nLimitaciones declaradas: de 67 estudios incluidos en el metaanálisis, solo 20 informaron de embarazo clínico y 12 de nacido vivo; se compararon 20 antioxidantes distintos y no se pudo concluir sobre unos frente a otros; la revisión excluyó a varones con infertilidad idiopática y parámetros seminales normales, por lo que no se aplica a ellos. [[ref:deligny-2022-cochrane-male-antioxidants]]\n\nCómo cuadra con las guías: ESHRE (add-ons) reproduce las mismas cifras de nacido vivo y concluye que los antioxidantes carecen de evidencia sustancial y fiable de aumentar de forma significativa la tasa de nacido vivo; AUA/ASRM considera que los datos no permiten recomendar agentes concretos, y NICE indica no ofrecerlos para mejorar la integridad del ADN espermático (1.24.6). No hay equivalencia falsa entre Cochrane y las guías: Cochrane no demuestra eficacia (certeza muy baja y sin efecto significativo al excluir los estudios de alto riesgo de sesgo) y las guías no afirman que sean perjudiciales. [[ref:eshre-2023-addons]] [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "Other results of the review: clinical pregnancy OR 1.89 (95% CI 1.45–2.47; 20 RCTs; 1706 men; low certainty); miscarriage no difference (OR 1.46; 95% CI 0.75–2.83; 6 RCTs; very low certainty); mild gastrointestinal discomfort OR 2.70 (95% CI 1.46–4.99; 16 RCTs; low certainty). Assuming a 16% baseline live birth, the review estimates 17% to 27% with antioxidants, but from only 246 live births in 12 small or medium-sized studies. [[ref:deligny-2022-cochrane-male-antioxidants]]\n\nStated limitations: of 67 studies included in the meta-analysis, only 20 reported clinical pregnancy and 12 live birth; 20 different antioxidants were compared and no conclusions could be drawn between them; the review excluded men with idiopathic infertility and normal semen parameters, so it does not apply to them. [[ref:deligny-2022-cochrane-male-antioxidants]]\n\nHow it fits with the guidelines: ESHRE (add-ons) reproduces the same live-birth figures and concludes that antioxidants lack substantial and reliable evidence of a significant enhancement in live birth; AUA/ASRM considers the data inadequate to recommend specific agents, and NICE advises against offering them to improve sperm DNA integrity (1.24.6). There is no false equivalence between Cochrane and the guidelines: Cochrane does not demonstrate efficacy (very low certainty and no significant effect after excluding high risk-of-bias studies) and the guidelines do not claim they are harmful. [[ref:eshre-2023-addons]] [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "application": {
+        "es": "Si alguien cita «OR 1,43», pregunta por la certeza, por el análisis sin sesgo alto y por si el resultado es nacido vivo o un parámetro seminal.",
+        "en": "If someone quotes “OR 1.43”, ask about certainty, the analysis without high bias, and whether the outcome is live birth or a semen parameter."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": {
+          "es": "Cochrane 2022: certeza muy baja a baja, evidencia global no concluyente; ESHRE add-ons 2023 y AUA/ASRM no recomiendan agentes concretos.",
+          "en": "Cochrane 2022: very low to low certainty, overall evidence inconclusive; ESHRE add-ons 2023 and AUA/ASRM do not recommend specific agents."
+        }
+      },
+      "recall": {
+        "es": "¿Qué le ocurre al efecto sobre el nacido vivo de la revisión Cochrane al excluir los estudios con alto riesgo de sesgo?",
+        "en": "What happens to the live-birth effect in the Cochrane review when high risk-of-bias studies are excluded?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "supplements",
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.c14-counselling-lifestyle",
+      "type": "patient-phrase",
+      "conceptId": "fert-mf.counselling-lifestyle",
+      "title": {
+        "es": "Qué decirle al varón que quiere tomar «algo» para mejorar el semen",
+        "en": "What to tell the man who wants to take “something” to improve his semen"
+      },
+      "core": {
+        "es": "Un mensaje ajustado a las fuentes: la utilidad de los suplementos es dudosa y no hay un agente que recomendar (AUA/ASRM); los antioxidantes no se recomiendan como adyuvantes en TRA (ESHRE); en la revisión Cochrane pueden causar molestias gastrointestinales leves; y los hábitos (alcohol, tabaco, peso, temperatura escrotal) tienen asesoramiento propio en NICE. [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-addons]] [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:nice-2026-ng257]]",
+        "en": "A message that fits the sources: the usefulness of supplements is questionable and there is no agent to recommend (AUA/ASRM); antioxidants are not recommended as adjuncts in ART (ESHRE); in the Cochrane review they may cause mild gastrointestinal discomfort; and habits (alcohol, smoking, weight, scrotal temperature) have their own NICE advice. [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-addons]] [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Sobre los hábitos, NICE indica informar a los varones de que el consumo excesivo de alcohol perjudica la calidad del semen y de que beber dentro de los límites de bajo riesgo del Reino Unido (14 unidades por semana, repartidas en varios días) probablemente no la afecta; de que fumar se asocia con peor calidad seminal (aunque el impacto sobre la fertilidad es incierto) y dejarlo mejora la salud general; de que un IMC ≥30 kg/m² aumenta el riesgo de menor fertilidad; de que la temperatura escrotal elevada se asocia con peor calidad seminal pero es incierto que la ropa interior holgada mejore la fertilidad; y de que no hay evidencia consistente de asociación entre cafeína y problemas de fertilidad. [[ref:nice-2026-ng257]]\n\nAUA/ASRM permite hablar de factores de riesgo (estilo de vida, medicación, exposiciones ambientales y laborales) pero aconseja decir que los datos sobre la mayoría son limitados (condicional; grado C). [[ref:aua-asrm-2020-male-infertility]]\n\nSi decide tomar un antioxidante a pesar de todo, el mensaje honesto es que los datos actuales sugieren que probablemente no es dañino (AUA/ASRM), que puede dar molestias gastrointestinales leves (Cochrane, certeza baja) y que no hay un producto ni una dosis respaldados; la decisión es compartida y no debe retrasar el resto del estudio y tratamiento de la pareja. [[ref:aua-asrm-2020-male-infertility]] [[ref:deligny-2022-cochrane-male-antioxidants]]",
+        "en": "On habits, NICE advises informing men that excessive alcohol intake is detrimental to semen quality and that drinking within the UK low-risk limits (14 units per week, spread across several days) is unlikely to affect it; that smoking is associated with reduced semen quality (although the impact on fertility is uncertain) and stopping improves general health; that a BMI ≥30 kg/m² carries an increased risk of reduced fertility; that elevated scrotal temperature is associated with reduced semen quality but it is uncertain whether loose-fitting underwear improves fertility; and that there is no consistent evidence of an association between caffeine and fertility problems. [[ref:nice-2026-ng257]]\n\nAUA/ASRM allows discussing risk factors (lifestyle, medication, environmental and occupational exposures) but advises saying that data on most of them are limited (conditional; grade C). [[ref:aua-asrm-2020-male-infertility]]\n\nIf he decides to take an antioxidant anyway, the honest message is that current data suggest it is probably not harmful (AUA/ASRM), that it may cause mild gastrointestinal discomfort (Cochrane, low certainty), and that no product or dose is supported; the decision is shared and should not delay the rest of the couple’s work-up and treatment. [[ref:aua-asrm-2020-male-infertility]] [[ref:deligny-2022-cochrane-male-antioxidants]]"
+      },
+      "application": {
+        "es": "Frase posible: «No puedo prometerte que un suplemento mejore tus posibilidades de tener un bebé; sí puedo ayudarte con lo que sí está respaldado: revisar hábitos y avanzar con el estudio de los dos».",
+        "en": "Possible phrase: “I cannot promise that a supplement will improve your chances of having a baby; I can help with what is supported: reviewing habits and moving forward with the work-up for both of you”."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "Asesoramiento sobre hábitos: NICE 2004/2013 (actualizado 2026), de certeza no graduada; suplementos: AUA/ASRM moderada (B), Cochrane certeza baja a muy baja.",
+          "en": "Habit advice: NICE 2004/2013 (updated 2026), certainty not graded; supplements: AUA/ASRM moderate (B), Cochrane low to very low certainty."
+        }
+      },
+      "recall": {
+        "es": "¿Qué cuatro mensajes sobre suplementos y hábitos darías a un varón que pide «algo» para mejorar el semen?",
+        "en": "Which four messages on supplements and habits would you give a man who asks for “something” to improve his semen?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q8-cochrane-reading",
+      "conceptId": "fert-mf.cochrane-antioxidants",
+      "difficulty": 3,
+      "stem": {
+        "es": "Diego lee que la revisión Cochrane 2022 «demuestra» que los antioxidantes aumentan los nacidos vivos (OR 1,43). Te pide que se lo confirmes. ¿Cuál es la lectura correcta?",
+        "en": "Diego reads that the 2022 Cochrane review “shows” that antioxidants increase live births (OR 1.43). He asks you to confirm it. What is the correct reading?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es un resultado de certeza muy baja (12 ECA, 1283 varones) que no se mantiene al excluir los estudios con alto riesgo de sesgo (Peto OR 1,22; IC 95 % 0,85–1,75); los autores consideran la evidencia no concluyente.",
+            "en": "It is a very low-certainty result (12 RCTs, 1283 men) that does not hold when high risk-of-bias studies are excluded (Peto OR 1.22; 95% CI 0.85–1.75); the authors consider the evidence inconclusive."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: coincide con el resumen Cochrane y con la reproducción de ESHRE (add-ons).",
+            "en": "Correct: matches the Cochrane abstract and its reproduction in ESHRE (add-ons)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Es un resultado de alta certeza que confirma que los antioxidantes aumentan los nacidos vivos, y las guías lo ignoran.",
+            "en": "It is a high-certainty result confirming that antioxidants increase live births, and the guidelines ignore it."
+          },
+          "correct": false,
+          "why": {
+            "es": "La certeza es muy baja, y ESHRE (add-ons) discute esta misma revisión para concluir que no hay evidencia sustancial y fiable.",
+            "en": "Certainty is very low, and ESHRE (add-ons) discusses this very review to conclude there is no substantial, reliable evidence."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Confirma además que los antioxidantes reducen el aborto espontáneo.",
+            "en": "It also confirms that antioxidants reduce miscarriage."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la revisión no hubo diferencia en el aborto (OR 1,46; IC 95 % 0,75–2,83; certeza muy baja).",
+            "en": "The review found no difference in miscarriage (OR 1.46; 95% CI 0.75–2.83; very low certainty)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Demuestra que no tienen ningún efecto adverso.",
+            "en": "It shows they have no adverse effects."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión halló más molestias gastrointestinales leves con antioxidantes (OR 2,70; IC 95 % 1,46–4,99; certeza baja).",
+            "en": "The review found more mild gastrointestinal discomfort with antioxidants (OR 2.70; 95% CI 1.46–4.99; low certainty)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un OR aislado con intervalo que excluye 1 no es una prueba: importan la certeza, el riesgo de sesgo y el análisis de sensibilidad.",
+        "en": "An isolated OR with an interval excluding 1 is not proof: certainty, risk of bias and the sensitivity analysis matter."
+      },
+      "refIds": [
+        "deligny-2022-cochrane-male-antioxidants",
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q9-counselling-antioxidant",
+      "conceptId": "fert-mf.counselling-lifestyle",
+      "difficulty": 2,
+      "stem": {
+        "es": "Tras la conversación, Diego dice que de todos modos quiere probar un complemento antioxidante. ¿Qué enfoque es coherente con las fuentes?",
+        "en": "After the conversation, Diego says he wants to try an antioxidant supplement anyway. Which approach is consistent with the sources?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Decisión compartida: explicar que la utilidad es dudosa y no hay agente ni dosis respaldados, que los datos sugieren que probablemente no es dañino aunque puede dar molestias digestivas leves, y no retrasar el resto del estudio y tratamiento.",
+            "en": "Shared decision: explain that utility is questionable and no agent or dose is supported, that data suggest it is probably not harmful although it may cause mild digestive discomfort, and do not delay the rest of the work-up and treatment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: refleja AUA/ASRM (utilidad dudosa, probablemente no dañino, sin agente específico) y Cochrane (molestias gastrointestinales leves, certeza baja).",
+            "en": "Correct: reflects AUA/ASRM (questionable utility, probably not harmful, no specific agent) and Cochrane (mild gastrointestinal discomfort, low certainty)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Prescribir varios antioxidantes a dosis altas «para asegurar», porque más es mejor.",
+            "en": "Prescribe several antioxidants at high doses “to be safe”, because more is better."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna fuente respalda un agente o dosis concretos ni que combinar más sea mejor; Cochrane no pudo extraer conclusiones al comparar unos antioxidantes con otros.",
+            "en": "No source supports a specific agent or dose or that combining more is better; Cochrane could not draw conclusions when comparing antioxidants with each other."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Prohibirlo, porque Cochrane demostró un daño grave.",
+            "en": "Forbid it, because Cochrane showed serious harm."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cochrane describe molestias gastrointestinales leves, no daño grave, y AUA/ASRM indica que probablemente no son dañinos.",
+            "en": "Cochrane describes mild gastrointestinal discomfort, not serious harm, and AUA/ASRM states they are probably not harmful."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Prometer que así podrán evitar la reproducción asistida.",
+            "en": "Promise that this way they will avoid assisted reproduction."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay evidencia fiable de efecto sobre embarazo o nacido vivo; AUA/ASRM, ESHRE y NICE no respaldan esa promesa.",
+            "en": "There is no reliable evidence of an effect on pregnancy or live birth; AUA/ASRM, ESHRE and NICE do not support that promise."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La decisión es del paciente informado: tu papel es no sobreprometer, no alarmar y no dejar que el complemento retrase lo que sí está respaldado.",
+        "en": "The decision belongs to the informed patient: your role is not to over-promise, not to alarm, and not to let the supplement delay what is supported."
+      },
+      "refIds": [
+        "aua-asrm-2020-male-infertility",
+        "deligny-2022-cochrane-male-antioxidants",
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-mf.q10-surrogate-outcome",
+      "conceptId": "fert-mf.supplement-positions",
+      "difficulty": 3,
+      "stem": {
+        "es": "Un folleto afirma que un suplemento «mejoró la concentración y la motilidad en un estudio con 40 varones». ¿Qué conclusión está justificada?",
+        "en": "A leaflet states that a supplement “improved concentration and motility in a study of 40 men”. Which conclusion is justified?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Describe un cambio en parámetros seminales (variables indirectas); por sí solo no demuestra más embarazos ni más nacidos vivos.",
+            "en": "It describes a change in semen parameters (surrogate outcomes); by itself it does not show more pregnancies or live births."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE (add-ons) señala que muchos estudios usaron parámetros seminales o fragmentación del ADN como variables indirectas, y Cochrane indica que pocos estudios informaron de embarazo (20 de 67) o nacido vivo (12).",
+            "en": "Correct: ESHRE (add-ons) notes that many studies used semen parameters or DNA fragmentation as surrogates, and Cochrane reports that few studies reported pregnancy (20 of 67) or live birth (12)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Significa que el suplemento aumenta la probabilidad de nacido vivo.",
+            "en": "It means the supplement increases the chance of live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un cambio en parámetros no equivale a nacido vivo; las guías no lo recomiendan precisamente por la falta de evidencia en esos desenlaces.",
+            "en": "A change in parameters is not the same as live birth; guidelines do not recommend them precisely because of the lack of evidence on those outcomes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Significa que la evidencia es de alta calidad porque 40 varones es una muestra suficiente.",
+            "en": "It means the evidence is high quality because 40 men is a sufficient sample."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE (add-ons) destaca que la mayoría de los estudios eran pequeños y retrospectivos; un estudio pequeño no es evidencia de alta calidad.",
+            "en": "ESHRE (add-ons) stresses that most studies were small and retrospective; a small study is not high-quality evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Significa que es seguro, porque no se mencionan efectos adversos.",
+            "en": "It means it is safe, because no adverse effects are mentioned."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ausencia de mención no demuestra seguridad; la revisión Cochrane sí registró molestias gastrointestinales leves con antioxidantes.",
+            "en": "Absence of mention does not prove safety; the Cochrane review did record mild gastrointestinal discomfort with antioxidants."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Parámetros seminales, embarazo y nacido vivo son tres desenlaces distintos: una mejora en el primero no se traduce automáticamente en los otros.",
+        "en": "Semen parameters, pregnancy and live birth are three different outcomes: improvement in the first does not automatically translate into the others."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "deligny-2022-cochrane-male-antioxidants"
+      ]
+    },
+    {
+      "id": "fert-mf.case1-carla-diego",
+      "kind": "case",
+      "conceptId": "fert-mf.case-carla-diego",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "title": {
+        "es": "Caso: Carla, Diego y el seminograma que no cuadra",
+        "en": "Case: Carla, Diego and the semen analysis that does not add up"
+      },
+      "steps": [
+        {
+          "id": "fert-mf.case1.s1",
+          "text": {
+            "es": "Carla (caso ficticio), 33 años, ciclos regulares; Diego, 36 años. Llevan 15 meses buscando embarazo. Evalúas a los dos de forma concurrente. [[ref:aua-asrm-2020-male-infertility]] El primer seminograma de Diego (muestra completa, 4 días de abstinencia, laboratorio con control de calidad) muestra concentración de 10 × 10⁶/ml y número total de 20 × 10⁶ por eyaculado, ambos por debajo del percentil 5 de la OMS (16 × 10⁶/ml y 39 × 10⁶ respectivamente). [[ref:who-2021-semen-manual]]",
+            "en": "Carla (fictional case), 33, regular cycles; Diego, 36. They have been trying for 15 months. You assess both concurrently. [[ref:aua-asrm-2020-male-infertility]] Diego’s first semen analysis (complete sample, 4 days of abstinence, quality-controlled laboratory) shows a concentration of 10 × 10⁶/ml and a total number of 20 × 10⁶ per ejaculate, both below the WHO 5th centile (16 × 10⁶/ml and 39 × 10⁶ respectively). [[ref:who-2021-semen-manual]]"
+          },
+          "questionId": "fert-mf.q1-below-limit"
+        },
+        {
+          "id": "fert-mf.case1.s2",
+          "text": {
+            "es": "Repetición y cribado clínico: el seminograma repetido a los 3 meses confirma 8 × 10⁶/ml, sin azoospermia. Diego niega fármacos o productos de gimnasio, algo que NICE pide preguntar. Con 2 o más seminogramas anormales, NICE ofrece exploración del escroto y los testículos y propone considerar testosterona y gonadotropinas. [[ref:nice-2026-ng257]]",
+            "en": "Repeat and clinical work-up: the semen analysis repeated at 3 months confirms 8 × 10⁶/ml, without azoospermia. Diego denies drugs or gym products, which NICE asks to enquire about. With 2 or more abnormal semen analyses, NICE offers examination of the scrotum and testes and suggests considering testosterone and gonadotrophins. [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-mf.q4-next-steps"
+        },
+        {
+          "id": "fert-mf.case1.s3",
+          "text": {
+            "es": "Hallazgos: hay un varicocele izquierdo palpable; la testosterona matutina y las gonadotropinas están en rango según el laboratorio. Con 8 × 10⁶/ml no se alcanzan los umbrales de cariotipo ni de microdeleción del Y de ninguna de las dos guías. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]] Diego y Carla preguntan si la fragmentación del ADN espermático «decidirá si hace falta ICSI». [[ref:aua-asrm-2020-male-infertility]]",
+            "en": "Findings: there is a palpable left varicocele; morning testosterone and gonadotrophins are within the laboratory range. At 8 × 10⁶/ml the karyotype and Y-microdeletion thresholds of neither guideline are met. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]] Diego and Carla ask whether sperm DNA fragmentation “will decide whether ICSI is needed”. [[ref:aua-asrm-2020-male-infertility]]"
+          },
+          "questionId": "fert-mf.q7-dna-fragmentation"
+        },
+        {
+          "id": "fert-mf.case1.s4",
+          "text": {
+            "es": "Varicocele: cumplen el perfil en el que AUA/ASRM y NICE contemplan la reparación (palpable, parámetros anormales, concepción espontánea). Les presentas el beneficio como una estimación con incertidumbre: los datos de embarazo proceden de estudios en su mayoría no aleatorizados y hay pocos datos de nacido vivo. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+            "en": "Varicocele: they fit the profile in which AUA/ASRM and NICE contemplate repair (palpable, abnormal parameters, spontaneous conception). You present the benefit as an estimate with uncertainty: pregnancy data come largely from non-randomised studies and live-birth data are scarce. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-mf.q5-varicocele-outcome"
+        },
+        {
+          "id": "fert-mf.case1.s5",
+          "text": {
+            "es": "Un amigo le sugiere testosterona «para activar los testículos». Le explicas que AUA/ASRM indica no prescribirla a quien busca fertilidad, porque puede suprimir la espermatogénesis, y que NICE indica no ofrecer andrógenos para anomalías del semen. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+            "en": "A friend suggests testosterone “to wake up the testes”. You explain that AUA/ASRM advises against prescribing it to someone seeking fertility because it can suppress spermatogenesis, and that NICE advises against offering androgens for semen abnormalities. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-mf.q6-exogenous-testosterone"
+        },
+        {
+          "id": "fert-mf.case1.s6",
+          "text": {
+            "es": "Antioxidantes: Diego trae el titular de la revisión Cochrane (OR 1,43 de nacido vivo). Revisas con él la certeza muy baja y el análisis sin estudios de alto riesgo de sesgo (Peto OR 1,22; IC 95 % 0,85–1,75). [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:eshre-2023-addons]]",
+            "en": "Antioxidants: Diego brings the Cochrane headline (live-birth OR 1.43). Together you review the very low certainty and the analysis without high risk-of-bias studies (Peto OR 1.22; 95% CI 0.85–1.75). [[ref:deligny-2022-cochrane-male-antioxidants]] [[ref:eshre-2023-addons]]"
+          },
+          "questionId": "fert-mf.q8-cochrane-reading"
+        },
+        {
+          "id": "fert-mf.case1.s7",
+          "text": {
+            "es": "Decisión: Diego quiere tomar un complemento. Se explica que AUA/ASRM considera su utilidad dudosa y probablemente no dañino, y que Cochrane registró molestias digestivas leves. Se acuerda que no retrasará el resto del estudio de la pareja. [[ref:aua-asrm-2020-male-infertility]] [[ref:deligny-2022-cochrane-male-antioxidants]]",
+            "en": "Decision: Diego wants to take a supplement. It is explained that AUA/ASRM considers its usefulness questionable and probably not harmful, and that Cochrane recorded mild digestive discomfort. It is agreed that it will not delay the rest of the couple’s work-up. [[ref:aua-asrm-2020-male-infertility]] [[ref:deligny-2022-cochrane-male-antioxidants]]"
+          },
+          "questionId": "fert-mf.q9-counselling-antioxidant"
+        },
+        {
+          "id": "fert-mf.case1.s8",
+          "text": {
+            "es": "Cierre: les explicas que ningún valor aislado «decide» la fertilidad, que el plan se basa en el conjunto (historia, exploración, hormonas, varicocele y el estudio de Carla) y que los resultados de un suplemento deben juzgarse por embarazo y nacido vivo, no solo por parámetros seminales. [[ref:who-2021-semen-manual]] [[ref:eshre-2023-addons]]",
+            "en": "Closing: you explain that no isolated value “decides” fertility, that the plan rests on the whole picture (history, examination, hormones, varicocele and Carla’s work-up), and that supplement results should be judged by pregnancy and live birth, not only by semen parameters. [[ref:who-2021-semen-manual]] [[ref:eshre-2023-addons]]"
+          },
+          "questionId": "fert-mf.q10-surrogate-outcome"
+        }
+      ],
+      "refIds": [
+        "who-2021-semen-manual",
+        "aua-asrm-2020-male-infertility",
+        "nice-2026-ng257",
+        "deligny-2022-cochrane-male-antioxidants",
+        "eshre-2023-addons"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    }
+  ]
+}
