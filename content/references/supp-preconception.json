@@ -1,0 +1,242 @@
+[
+  {
+    "id": "uspstf-2023-folic-acid",
+    "title": "Folic Acid Supplementation to Prevent Neural Tube Defects: US Preventive Services Task Force Reaffirmation Recommendation Statement",
+    "authors": "US Preventive Services Task Force",
+    "year": 2023,
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+    "doi": "10.1001/jama.2023.12876",
+    "type": "guideline",
+    "population": {
+      "es": "Personas que planifican o podrían quedar embarazadas (EE. UU.); no aplica a quienes tuvieron un embarazo previo con defecto del tubo neural ni a otras situaciones de muy alto riesgo.",
+      "en": "People who plan to or could become pregnant (US); does not apply to those with a previous pregnancy affected by a neural tube defect or other very-high-risk situations."
+    },
+    "finding": {
+      "es": "Grado A: suplemento diario con 0,4–0,8 mg (400–800 µg) de ácido fólico, desde al menos 1 mes antes de la concepción y durante los primeros 2–3 meses de embarazo. Sin daños graves a dosis habituales; el genotipo MTHFR figura como necesidad de investigación.",
+      "en": "Grade A: daily supplement containing 0.4–0.8 mg (400–800 µg) of folic acid, starting at least 1 month before conception and continuing through the first 2–3 months of pregnancy. No serious harms at usual doses; MTHFR variants are listed as a research need."
+    },
+    "limitations": {
+      "es": "Leída la declaración en la web de USPSTF (texto completo de la recomendación); no se leyó la revisión de evidencia de JAMA. Contexto estadounidense con fortificación de harinas; no da dosis para alto riesgo.",
+      "en": "Statement read on the USPSTF website (full recommendation text); the JAMA evidence review was not read. US context with flour fortification; gives no dose for high risk."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "nice-2025-ng247",
+    "title": "Maternal and child nutrition: nutrition and weight management in pregnancy, and nutrition in children up to 5 years (NG247)",
+    "authors": "National Institute for Health and Care Excellence (NICE)",
+    "year": 2025,
+    "url": "https://www.nice.org.uk/guidance/ng247/chapter/Recommendations",
+    "type": "guideline",
+    "population": {
+      "es": "Personas que planifican un embarazo o están embarazadas, y niños hasta 5 años (Reino Unido).",
+      "en": "People planning a pregnancy or who are pregnant, and children up to 5 years (UK)."
+    },
+    "finding": {
+      "es": "400 microgramos/día de ácido fólico desde antes de intentar el embarazo (idealmente 3 meses) y al menos las primeras 12 semanas, aunque haya fortificación; 5 mg/día ante mayor riesgo de defecto del tubo neural (antecedente personal/familiar o embarazo previo afectado, diabetes tipo 1 o 2, hemoglobinopatías que lo requieren, fármacos que afectan al folato como antiepilépticos o para el VIH); IMC ≥25 o riesgo de preeclampsia no requieren más de 400 µg. Evitar suplementos con vitamina A (retinol) o aceite de hígado de bacalao en el embarazo.",
+      "en": "400 micrograms/day of folic acid from before trying to conceive (ideally 3 months) and for at least the first 12 weeks, even with fortification; 5 mg/day for increased risk of neural tube defect (personal/family history or previous affected pregnancy, type 1 or 2 diabetes, haematological conditions requiring it, medicines affecting folate such as anti-epileptics or HIV medicines); BMI ≥25 or pre-eclampsia risk do not need more than 400 µg. Avoid supplements containing vitamin A (retinol) or cod liver oil in pregnancy."
+    },
+    "limitations": {
+      "es": "Leídas las recomendaciones 1.1.x (sección de ácido fólico y vitaminas) en la web de NICE; no se leyeron las revisiones de evidencia. Contexto del Reino Unido.",
+      "en": "Recommendations 1.1.x (folic acid and vitamins section) read on the NICE website; evidence reviews not read. UK context."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "cdc-mthfr-folic-acid",
+    "title": "MTHFR Gene Variant and Folic Acid Facts",
+    "authors": "Centers for Disease Control and Prevention (CDC)",
+    "year": 2026,
+    "url": "https://www.cdc.gov/folic-acid/data-research/mthfr/index.html",
+    "type": "fact-sheet",
+    "population": {
+      "es": "Personas que pueden quedar embarazadas, incluidas portadoras de variantes de MTHFR (EE. UU.).",
+      "en": "People who can become pregnant, including carriers of MTHFR variants (US)."
+    },
+    "finding": {
+      "es": "Las personas con variantes de MTHFR pueden procesar todos los tipos de folato, incluido el ácido fólico; el ácido fólico es el único tipo de folato demostrado para ayudar a prevenir defectos del tubo neural; las variantes comunes no son motivo para evitarlo. La variante C677T es muy frecuente en EE. UU.",
+      "en": "People with MTHFR variants can process all types of folate, including folic acid; folic acid is the only type of folate shown to help prevent neural tube defects; common variants are not a reason to avoid it. The C677T variant is very common in the US."
+    },
+    "limitations": {
+      "es": "Página divulgativa de salud pública (no guía con GRADE); leída completa. Fecha mostrada en la página: 16 de julio de 2026 (no se especifica si es publicación o revisión).",
+      "en": "Public-health information page (not a GRADE guideline); read in full. Date shown on the page: 16 July 2026 (not stated whether publication or review)."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "acog-2018-pb197-thrombophilia",
+    "title": "ACOG Practice Bulletin No. 197: Inherited Thrombophilias in Pregnancy",
+    "authors": "American College of Obstetricians and Gynecologists' Committee on Practice Bulletins—Obstetrics",
+    "year": 2018,
+    "url": "https://doi.org/10.1097/AOG.0000000000002703",
+    "doi": "10.1097/AOG.0000000000002703",
+    "type": "guideline",
+    "population": {
+      "es": "Embarazadas y mujeres que se plantean evaluación de trombofilia hereditaria.",
+      "en": "Pregnant women and women considered for inherited thrombophilia evaluation."
+    },
+    "finding": {
+      "es": "Por la falta de asociación entre la heterocigosis u homocigosis MTHFR C677T y desenlaces adversos del embarazo (incluida la ETV), no se recomienda el cribado con análisis de mutaciones MTHFR ni homocisteína en ayunas (nivel B). Las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV.",
+      "en": "Because of the lack of association between heterozygosity or homozygosity for MTHFR C677T and adverse pregnancy outcomes (including VTE), screening with MTHFR mutation analyses or fasting homocysteine is not recommended (Level B). MTHFR mutations by themselves do not appear to increase VTE risk."
+    },
+    "limitations": {
+      "es": "Leído el texto completo (Obstet Gynecol 2018;132:e18–34) en una copia académica del PDF publicado. No se verificó si ACOG lo ha reafirmado o sustituido después de 2018. Contexto estadounidense.",
+      "en": "Full text read (Obstet Gynecol 2018;132:e18–34) from an academic copy of the published PDF. Whether ACOG has reaffirmed or replaced it after 2018 was not verified. US context."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "eshre-2022-rpl",
+    "title": "ESHRE guideline: recurrent pregnancy loss: an update in 2022",
+    "authors": "ESHRE Guideline Group on RPL; Bender Atik R, Christiansen OB, Elson J, et al.",
+    "year": 2023,
+    "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/Recurrent-pregnancy-loss/2022/ESHRE-RPL-Guideline-_-Update-2022_-Final-Version-January-2023_v2.pdf",
+    "doi": "10.1093/hropen/hoad002",
+    "type": "guideline",
+    "population": {
+      "es": "Parejas con pérdida gestacional recurrente (dos o más pérdidas).",
+      "en": "Couples with recurrent pregnancy loss (two or more losses)."
+    },
+    "finding": {
+      "es": "El ácido fólico a dosis bajas no ha demostrado prevenir la pérdida en la PGR inexplicada (fuerte); no usar dosis altas sin hiperhomocisteinemia ni condiciones con mayor riesgo de DTN (diabetes, epilepsia). La vitamina D profiláctica puede considerarse en el asesoramiento preconcepcional (GPP) aunque falta evidencia de eficacia; no se recomienda medir vitamina D para buscar causa. Multivitamínicos: aconsejar opciones seguras en el embarazo (GPP); no son tratamiento.",
+      "en": "Low-dose folic acid has not been shown to prevent loss in unexplained RPL (strong); do not use high doses without hyperhomocysteinaemia or conditions raising NTD risk (diabetes, epilepsy). Prophylactic vitamin D may be considered in preconception counselling (GPP) although evidence of effectiveness is absent; vitamin D testing to find a cause is not recommended. Multivitamins: advise options safe in pregnancy (GPP); they are not a treatment."
+    },
+    "limitations": {
+      "es": "Leídos la tabla de recomendaciones y el capítulo de vitamina D del PDF completo de ESHRE. Población específica de PGR; varias recomendaciones son de buena práctica (GPP), no basadas en ensayos.",
+      "en": "Recommendations table and vitamin D chapter read in the full ESHRE PDF. Specific RPL population; several recommendations are good practice points (GPP), not trial-based."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "ata-2017-thyroid-pregnancy",
+    "title": "2017 Guidelines of the American Thyroid Association for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum",
+    "authors": "Alexander EK, Pearce EN, Brent GA, Brown RS, Chen H, Dosiou C, Grobman WA, Laurberg P, Lazarus JH, Mandel SJ, Peeters RP, Sullivan S",
+    "year": 2017,
+    "url": "https://doi.org/10.1089/thy.2016.0457",
+    "doi": "10.1089/thy.2016.0457",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres que planifican embarazo, embarazadas y en lactancia.",
+      "en": "Women planning pregnancy, pregnant and breastfeeding."
+    },
+    "finding": {
+      "es": "Ingesta total de ~250 µg/día de yodo en embarazo y lactancia (fuerte, alta calidad); en la mayoría de regiones, incluido EE. UU., suplemento diario de 150 µg en forma de yoduro potásico, idealmente desde 3 meses antes (fuerte, moderada). No hace falta iniciarlo en embarazadas tratadas por hipertiroidismo o con levotiroxina (débil, baja). Evitar ingesta sostenida >500 µg/día (fuerte, moderada); kelp no fiable.",
+      "en": "Total iodine intake of ~250 µg/day in pregnancy and lactation (strong, high quality); in most regions, including the US, a daily 150 µg supplement as potassium iodide, ideally from 3 months before (strong, moderate). No need to start it in pregnant women treated for hyperthyroidism or taking levothyroxine (weak, low). Avoid sustained intake >500 µg/day (strong, moderate); kelp unreliable."
+    },
+    "limitations": {
+      "es": "Leída la sección de yodo (preguntas 10–11) y lactancia en la versión aceptada sin corregir (pre-copyedit) del manuscrito; la versión final publicada en Thyroid 2017;27:315–389 podría diferir en redacción o numeración. Orientada a EE. UU.; la estrategia depende del estado de yodo de cada país.",
+      "en": "Iodine section (questions 10–11) and lactation read in the accepted, pre-copyedit manuscript; the final version in Thyroid 2017;27:315–389 may differ in wording or numbering. US-oriented; strategy depends on each country's iodine status."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "endo-2024-vitamin-d",
+    "title": "Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline",
+    "authors": "Demay MB, Pittas AG, Bikle DD, Diab DL, Kiely ME, Lazaretti-Castro M, Lips P, Mitchell DM, Murad MH, Powers S, Rao SD, Scragg R, Tayek JA, Valent AM, Walsh JME, McCartney CR",
+    "year": 2024,
+    "url": "https://academic.oup.com/jcem/article/109/8/1907/7685305",
+    "doi": "10.1210/clinem/dgae290",
+    "type": "guideline",
+    "population": {
+      "es": "Población general sana sin indicación establecida de tratamiento o medición de vitamina D, incluidas embarazadas.",
+      "en": "Generally healthy population without established indications for vitamin D treatment or testing, including pregnant individuals."
+    },
+    "finding": {
+      "es": "Embarazo: sugiere vitamina D empírica (condicional, certeza baja; ensayos con 600–5000 UI [15–125 µg] diarios equivalentes; dosis óptima incierta) y sugiere no medir 25(OH)D de rutina (condicional, muy baja). Adultos <50 años: no suplementar por encima de la ingesta recomendada (600 UI [15 µg]) ni medir 25(OH)D de rutina (condicional, muy baja).",
+      "en": "Pregnancy: suggests empiric vitamin D (conditional, low certainty; trials used 600–5000 IU [15–125 µg] daily equivalent; optimal dose unclear) and suggests against routine 25(OH)D testing (conditional, very low). Adults <50: no supplementation above the recommended intake (600 IU [15 µg]) and no routine 25(OH)D testing (conditional, very low)."
+    },
+    "limitations": {
+      "es": "Leídos el resumen, la lista de recomendaciones y observaciones técnicas en la web de la revista; no se leyó completa la justificación del apartado de embarazo. No aborda fertilidad ni FIV. No aplica a personas con indicación establecida (p. ej., hipocalcemia).",
+      "en": "Abstract, recommendation list and technical remarks read on the journal website; the full justification of the pregnancy section was not read. Does not address fertility or IVF. Does not apply to people with established indications (e.g. hypocalcaemia)."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "cochrane-2024-vitd-pregnancy",
+    "title": "Vitamin D supplementation for women during pregnancy",
+    "authors": "Palacios C, Kostiuk LL, Cuthbert A, Weeks J",
+    "year": 2024,
+    "url": "https://doi.org/10.1002/14651858.CD008873.pub5",
+    "doi": "10.1002/14651858.CD008873.pub5",
+    "type": "systematic-review",
+    "population": {
+      "es": "Embarazadas en ensayos aleatorizados de vitamina D sola o combinada (10 estudios incluidos tras la evaluación de fiabilidad).",
+      "en": "Pregnant women in randomised trials of vitamin D alone or combined (10 studies included after trustworthiness assessment)."
+    },
+    "finding": {
+      "es": "Tras retirar 20 estudios por dudas de fiabilidad, el efecto de la vitamina D sola sobre preeclampsia, diabetes gestacional y parto prematuro es muy incierto; podría reducir la hemorragia posparto grave (1 estudio) y el bajo peso al nacer (sin descartar aumento).",
+      "en": "After removing 20 studies over trustworthiness concerns, the effect of vitamin D alone on pre-eclampsia, gestational diabetes and preterm birth is very uncertain; it may reduce severe postpartum haemorrhage (1 study) and low birthweight (an increase not ruled out)."
+    },
+    "limitations": {
+      "es": "Leído el resumen completo; no se leyeron las tablas GRADE del texto completo. Evalúa embarazo, no fertilidad.",
+      "en": "Full abstract read; GRADE tables of the full text not read. Assesses pregnancy, not fertility."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "chu-2018-vitd-art",
+    "title": "Vitamin D and assisted reproductive treatment outcome: a systematic review and meta-analysis",
+    "authors": "Chu J, Gallos I, Tobias A, Tan B, Eapen A, Coomarasamy A",
+    "year": 2018,
+    "url": "https://doi.org/10.1093/humrep/dex326",
+    "doi": "10.1093/humrep/dex326",
+    "type": "systematic-review",
+    "population": {
+      "es": "11 estudios de cohortes (2700 mujeres) en técnicas de reproducción asistida.",
+      "en": "11 cohort studies (2700 women) undergoing assisted reproduction."
+    },
+    "finding": {
+      "es": "Las mujeres con vitamina D repleta tuvieron más nacidos vivos que las deficientes/insuficientes (OR 1,33; IC 95 % 1,08–1,65; 7 estudios, 2026 mujeres); sin asociación con aborto. Los autores piden un ECA para probar si corregir el déficit ayuda.",
+      "en": "Vitamin D-replete women had more live births than deficient/insufficient women (OR 1.33; 95% CI 1.08–1.65; 7 studies, 2026 women); no association with miscarriage. The authors call for an RCT to test whether correcting deficiency helps."
+    },
+    "limitations": {
+      "es": "Leído el resumen estructurado. Datos observacionales (asociación, posible confusión); poblaciones y protocolos heterogéneos.",
+      "en": "Structured abstract read. Observational data (association, possible confounding); heterogeneous populations and protocols."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "somigliana-2021-sundro",
+    "title": "Single oral dose of vitamin D3 supplementation prior to in vitro fertilization and embryo transfer in normal weight women: the SUNDRO randomized controlled trial",
+    "authors": "Somigliana E, Sarais V, Reschini M, Ferrari S, Makieva S, Cermisoni GC, Paffoni A, Papaleo E, Vigano P",
+    "year": 2021,
+    "url": "https://doi.org/10.1016/j.ajog.2021.04.234",
+    "doi": "10.1016/j.ajog.2021.04.234",
+    "type": "rct",
+    "population": {
+      "es": "630 mujeres de 18–39 años con 25(OH)D <30 ng/mL, IMC 18–25 y AMH >0,5 ng/mL, en su 1.º–3.º ciclo de FIV/ICSI (Italia).",
+      "en": "630 women aged 18–39 with 25(OH)D <30 ng/mL, BMI 18–25 and AMH >0.5 ng/mL, in their 1st–3rd IVF/ICSI cycle (Italy)."
+    },
+    "finding": {
+      "es": "Una dosis oral única de 600 000 UI de vitamina D3 frente a placebo no mejoró el embarazo clínico acumulado (37 % vs 40 %; RR 0,91; IC 95 % 0,75–1,11); ningún subgrupo exploratorio se benefició.",
+      "en": "A single oral dose of 600,000 IU of vitamin D3 versus placebo did not improve cumulative clinical pregnancy (37% vs 40%; RR 0.91; 95% CI 0.75–1.11); no exploratory subgroup benefited."
+    },
+    "limitations": {
+      "es": "Leído el resumen estructurado. Desenlace primario: embarazo clínico (nacido vivo como secundario, no verificado aquí). Pauta de dosis única alta; mujeres de peso normal y reserva conservada.",
+      "en": "Structured abstract read. Primary outcome: clinical pregnancy (live birth secondary, not verified here). Single high-dose regimen; normal-weight women with preserved reserve."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "meng-2023-vitd-infertility",
+    "title": "Influence of Vitamin D supplementation on reproductive outcomes of infertile patients: a systematic review and meta-analysis",
+    "authors": "Meng X, Zhang J, Wan Q, Huang J, Han T, Qu T, Yu LL",
+    "year": 2023,
+    "url": "https://doi.org/10.1186/s12958-023-01068-8",
+    "doi": "10.1186/s12958-023-01068-8",
+    "type": "systematic-review",
+    "population": {
+      "es": "12 estudios (9 ECA y 3 cohortes; 2352 mujeres infértiles); 6 usaron productos multicomponente con vitamina D.",
+      "en": "12 studies (9 RCTs and 3 cohorts; 2352 infertile women); 6 used multicomponent products containing vitamin D."
+    },
+    "finding": {
+      "es": "Mayor tasa de embarazo clínico con vitamina D (OR 1,70; IC 95 % 1,24–2,34; I² 63 %), sin diferencias en implantación, embarazo bioquímico ni aborto. Con vitamina D sola el efecto no fue significativo salvo al excluir el ensayo SUNDRO. No combinó nacidos vivos.",
+      "en": "Higher clinical pregnancy rate with vitamin D (OR 1.70; 95% CI 1.24–2.34; I² 63%), no differences in implantation, biochemical pregnancy or miscarriage. With vitamin D alone the effect was not significant unless the SUNDRO trial was excluded. Live birth was not pooled."
+    },
+    "limitations": {
+      "es": "Leído el texto completo (Europe PMC). Mezcla ECA y cohortes, heterogeneidad alta, cointervenciones (inositol, melatonina, etc.) y pautas muy variables; sin evaluación GRADE.",
+      "en": "Full text read (Europe PMC). Mixes RCTs and cohorts, high heterogeneity, co-interventions (inositol, melatonin, etc.) and highly variable regimens; no GRADE assessment."
+    },
+    "accessed": "2026-10-12"
+  }
+]

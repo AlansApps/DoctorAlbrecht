@@ -151,5 +151,27 @@
       "en": "NHS (UK) context; replaces CG156. Numbering checked in the March 2026 PDF."
     },
     "accessed": "2026-10-12"
+  },
+  {
+    "id": "asrm-2021-fertility-evaluation",
+    "title": "Fertility evaluation of infertile women: a committee opinion",
+    "authors": "Practice Committee of the American Society for Reproductive Medicine",
+    "year": 2021,
+    "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/",
+    "doi": "10.1016/j.fertnstert.2021.08.038",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres evaluadas por infertilidad (incluye mujeres sin pareja, parejas del mismo sexo, hombres trans y personas no binarias que buscan tratamiento); Fertil Steril 2021;116:1255–65.",
+      "en": "Women evaluated for infertility (including single women, same-sex couples, transgender men and non-binary patients seeking treatment); Fertil Steril 2021;116:1255–65."
+    },
+    "finding": {
+      "es": "Evaluación a los 12 meses si <35 años y a los 6 meses si ≥35; más inmediata si >40; sin demora ante una condición conocida que causa infertilidad. Evaluar a ambos miembros a la vez, con al menos un seminograma al inicio. Estudio básico: ovulación, estructura y permeabilidad del tracto reproductor y seminograma. Con ciclos regulares de 21–35 días no hace falta confirmar ovulación (salvo hirsutismo). La edad femenina es el predictor aislado más importante de la fecundidad. Laparoscopia, test poscoital, trombofilias, inmunología, cariotipo, biopsia endometrial, función espermática avanzada y prolactina no son rutinarios. La historia menstrual puede bastar para establecer un patrón ovulatorio; oligo/amenorrea establece anovulación sin más pruebas de ovulación. Si la historia es indeterminada: progesterona lútea (≈1 semana antes de la menstruación esperada, no un día fijo como el 21; >3 ng/mL = evidencia presuntiva de ovulación reciente; un valor aislado confirma ovulación, no calidad lútea), kits de LH urinaria (falsos positivos en SOP) o ecografía transvaginal. Temperatura basal y biopsia endometrial no se recomiendan de rutina. Prolactina no rutinaria; indicada con galactorrea u oligo/amenorrea.",
+      "en": "Evaluation at 12 months if <35 and at 6 months if ≥35; more immediate if >40; without delay with a known condition causing infertility. Evaluate both partners at the same time, with at least one semen analysis at onset. Basic work-up: ovulation, structure and patency of the reproductive tract, and semen analysis. With regular 21–35-day cycles, ovulation confirmation is not required (unless hirsutism). Female age is the single most important predictor of fecundity. Laparoscopy, postcoital test, thrombophilia, immunological tests, karyotype, endometrial biopsy, advanced sperm function testing and prolactin are not routine. Menstrual history may suffice to establish an ovulatory pattern; oligo/amenorrhoea establishes anovulation without further ovulation testing. If history is indeterminate: luteal progesterone (≈1 week before expected menses, not a fixed day such as day 21; >3 ng/mL = presumptive evidence of recent ovulation; a single value confirms ovulation, not luteal quality), urinary LH kits (false positives in PCOS) or transvaginal ultrasound. Basal body temperature and endometrial biopsy are not routinely recommended. Prolactin not routine; indicated with galactorrhoea or oligo/amenorrhoea."
+    },
+    "limitations": {
+      "es": "Texto completo leído (PDF de ASRM). Opinión de comité, no guía GRADE; contexto estadounidense; sin calificación formal de fuerza ni certeza.",
+      "en": "Full text read (ASRM PDF). Committee opinion, not a GRADE guideline; US context; no formal strength or certainty grading."
+    },
+    "accessed": "2026-10-12"
   }
 ]

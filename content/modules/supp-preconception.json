@@ -1,0 +1,1702 @@
+{
+  "id": "supp-preconception",
+  "macroId": "supp",
+  "title": {
+    "es": "Suplementos preconcepcionales: folato, yodo y vitamina D",
+    "en": "Preconception supplements: folate, iodine and vitamin D"
+  },
+  "lessons": [
+    {
+      "id": "supp-pc.l1-folic-acid",
+      "microId": "supp.folate",
+      "title": {
+        "es": "Ácido fólico preconcepcional",
+        "en": "Preconception folic acid"
+      },
+      "objective": {
+        "es": "Indicar ácido fólico preconcepcional con la dosis, el inicio y la duración correctos, reconocer a quién corresponde un plan de dosis alta y separar la prevención de DTN de las promesas de fertilidad.",
+        "en": "Prescribe preconception folic acid with the right dose, start and duration, recognise who needs a high-dose plan and separate NTD prevention from fertility promises."
+      },
+      "closing": {
+        "es": "El ácido fólico previene DTN: dosis estándar para casi todas, plan individual para el alto riesgo, y ninguna dosis “extra” para fertilidad o abortos de repetición.",
+        "en": "Folic acid prevents NTDs: standard dose for almost everyone, an individual plan for high risk, and no “extra” dose for fertility or recurrent miscarriage."
+      },
+      "prerequisites": [
+        "supp.principles"
+      ],
+      "level": "base",
+      "itemIds": [
+        "supp-pc.c1-folic-acid-ficha",
+        "supp-pc.c2-high-risk",
+        "supp-pc.c3-more-is-not-better",
+        "supp-pc.c4-prenatal-label",
+        "supp-pc.q1-uspstf-timing",
+        "supp-pc.q2-who-high-dose",
+        "supp-pc.q3-rpl-high-dose"
+      ]
+    },
+    {
+      "id": "supp-pc.l2-mthfr",
+      "microId": "supp.folate",
+      "title": {
+        "es": "MTHFR y metilfolato: lo que dicen las fuentes",
+        "en": "MTHFR and methylfolate: what the sources say"
+      },
+      "objective": {
+        "es": "Explicar por qué una variante común de MTHFR no contraindica el ácido fólico y por qué no se recomienda el genotipado ni la homocisteína de rutina.",
+        "en": "Explain why a common MTHFR variant does not contraindicate folic acid and why routine genotyping or homocysteine testing is not recommended."
+      },
+      "closing": {
+        "es": "La variante común no cambia la recomendación: ácido fólico estándar, sin pruebas extra, y una explicación que tranquilice.",
+        "en": "The common variant does not change the recommendation: standard folic acid, no extra tests, and a reassuring explanation."
+      },
+      "prerequisites": [
+        "supp.principles"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "supp-pc.c5-mthfr-folic-acid",
+        "supp-pc.c6-no-mthfr-test",
+        "supp-pc.c7-mthfr-patient-phrase",
+        "supp-pc.q4-mthfr-methylfolate",
+        "supp-pc.q5-thrombophilia-panel"
+      ]
+    },
+    {
+      "id": "supp-pc.l3-iodine",
+      "microId": "supp.iodine",
+      "title": {
+        "es": "Yodo antes y durante el embarazo",
+        "en": "Iodine before and during pregnancy"
+      },
+      "objective": {
+        "es": "Aplicar la recomendación de yodo en preconcepción, embarazo y lactancia, identificar las situaciones tiroideas en que no hace falta y evitar el exceso.",
+        "en": "Apply the iodine recommendation in preconception, pregnancy and lactation, identify thyroid situations in which it is not needed and avoid excess."
+      },
+      "closing": {
+        "es": "Yodo con margen: 150 µg como yoduro potásico cuando corresponde, coordinación si hay enfermedad tiroidea y nada de kelp ni megadosis.",
+        "en": "Iodine with a window: 150 µg as potassium iodide when appropriate, coordination if there is thyroid disease, and no kelp or megadoses."
+      },
+      "prerequisites": [
+        "supp.principles",
+        "horm.thyroid-axis"
+      ],
+      "level": "base",
+      "itemIds": [
+        "supp-pc.c8-iodine-ficha",
+        "supp-pc.c9-iodine-thyroid-flags",
+        "supp-pc.c10-iodine-excess",
+        "supp-pc.q6-levothyroxine-iodine",
+        "supp-pc.q7-kelp",
+        "supp-pc.q8-iodine-no-test"
+      ]
+    },
+    {
+      "id": "supp-pc.l4-vitamin-d",
+      "microId": "supp.vitamin-d",
+      "title": {
+        "es": "Vitamina D: embarazo, fertilidad y pérdidas",
+        "en": "Vitamin D: pregnancy, fertility and losses"
+      },
+      "objective": {
+        "es": "Distinguir la suplementación empírica en el embarazo, la corrección de un déficit con indicación y las afirmaciones sobre fertilidad, separando asociación de eficacia y embarazo clínico de nacido vivo.",
+        "en": "Distinguish empiric supplementation in pregnancy, correction of a deficiency with an indication and fertility claims, separating association from efficacy and clinical pregnancy from live birth."
+      },
+      "closing": {
+        "es": "Vitamina D: razonable en el embarazo con certeza baja, sin cribado de rutina, y sin evidencia de ensayo de que mejore los resultados de FIV o la pérdida recurrente.",
+        "en": "Vitamin D: reasonable in pregnancy with low certainty, without routine screening, and without trial evidence that it improves IVF outcomes or recurrent loss."
+      },
+      "prerequisites": [
+        "supp.principles"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "supp-pc.c11-vitd-endo",
+        "supp-pc.c12-vitd-cochrane",
+        "supp-pc.c13-vitd-fertility",
+        "supp-pc.c14-vitd-rpl",
+        "supp-pc.q9-vitd-test-pregnancy",
+        "supp-pc.q10-sundro",
+        "supp-pc.q11-vitd-evidence"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c1-folic-acid-ficha",
+      "type": "supplement",
+      "conceptId": "supp.pc.folic-acid-routine",
+      "title": {
+        "es": "Ácido fólico preconcepcional: quién, cuánto y cuándo",
+        "en": "Preconception folic acid: who, how much and when"
+      },
+      "core": {
+        "es": "USPSTF recomienda (grado A) que toda persona que planifica o podría quedar embarazada tome a diario un suplemento con 0,4–0,8 mg (400–800 µg) de ácido fólico, desde al menos 1 mes antes de la concepción y durante los primeros 2–3 meses de embarazo. [[ref:uspstf-2023-folic-acid]]",
+        "en": "USPSTF recommends (grade A) that everyone who plans to or could become pregnant take a daily supplement containing 0.4–0.8 mg (400–800 µg) of folic acid, from at least 1 month before conception through the first 2–3 months of pregnancy. [[ref:uspstf-2023-folic-acid]]"
+      },
+      "body": {
+        "es": "Indicación: prevención de defectos del tubo neural (DTN), no mejora de la fertilidad. USPSTF considera con certeza alta que el beneficio neto es sustancial y que, a dosis habituales, el ácido fólico no se asocia a daños graves. Insiste en el suplemento aunque los alimentos estén fortificados, porque la ingesta por dieta suele no ser suficiente. [[ref:uspstf-2023-folic-acid]]\n\nNICE coincide en el fondo con una pauta ligeramente distinta: 400 microgramos al día, idealmente desde 3 meses antes de intentar el embarazo (o en cuanto se sepa) y al menos durante las primeras 12 semanas, también si hay harina fortificada. [[ref:nice-2025-ng247]]",
+        "en": "Indication: prevention of neural tube defects (NTDs), not fertility enhancement. USPSTF judges with high certainty that the net benefit is substantial and that, at usual doses, folic acid is not associated with serious harms. It insists on the supplement even where foods are fortified, because dietary intake is often insufficient. [[ref:uspstf-2023-folic-acid]]\n\nNICE agrees in substance with a slightly different schedule: 400 micrograms a day, ideally from 3 months before trying to conceive (or as soon as pregnancy is known) and for at least the first 12 weeks, even with fortified flour. [[ref:nice-2025-ng247]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Planifica o podría quedar embarazada",
+              "en": "Plans to or could become pregnant"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "Ácido fólico diario: 400–800 µg (USPSTF) / 400 µg (NICE)",
+              "en": "Daily folic acid: 400–800 µg (USPSTF) / 400 µg (NICE)"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Desde ≥1 mes antes (idealmente 3 meses, NICE)",
+              "en": "From ≥1 month before (ideally 3 months, NICE)"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Hasta las 8–12 semanas de embarazo",
+              "en": "Until 8–12 weeks of pregnancy"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Esquema: a quien planifica o podría quedar embarazada, ácido fólico diario de 400–800 µg según USPSTF o 400 µg según NICE, desde al menos 1 mes antes (idealmente 3 meses según NICE) hasta los primeros 2–3 meses o 12 semanas de embarazo.",
+          "en": "Diagram: for anyone planning or able to become pregnant, daily folic acid 400–800 µg per USPSTF or 400 µg per NICE, from at least 1 month before (ideally 3 months per NICE) until the first 2–3 months or 12 weeks of pregnancy."
+        }
+      },
+      "application": {
+        "es": "Pregunta por el ácido fólico en cualquier consulta de una mujer que podría quedar embarazada, no solo cuando anuncia que busca embarazo: buena parte de los embarazos no son planificados.",
+        "en": "Ask about folic acid at any visit with a woman who could become pregnant, not only when she says she is trying: many pregnancies are unplanned."
+      },
+      "pearl": {
+        "es": "Ácido fólico preconcepcional = prevención de DTN. Si alguien lo vende como “para quedar embarazada”, el desenlace está mal elegido.",
+        "en": "Preconception folic acid = NTD prevention. If someone sells it as “to get pregnant”, the outcome is the wrong one."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "USPSTF 2023, grado A; NICE NG247 (2025).",
+          "en": "USPSTF 2023, grade A; NICE NG247 (2025)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dosis, desde cuándo y hasta cuándo recomienda USPSTF el ácido fólico?",
+        "en": "What dose, from when and until when does USPSTF recommend folic acid?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c2-high-risk",
+      "type": "what-i-would-do",
+      "conceptId": "supp.pc.folic-acid-high-risk",
+      "title": {
+        "es": "Riesgo alto de DTN: plan individual, no la dosis estándar",
+        "en": "High NTD risk: an individual plan, not the standard dose"
+      },
+      "core": {
+        "es": "La recomendación de USPSTF no aplica a quien tuvo un embarazo previo con DTN ni a otras situaciones de muy alto riesgo; estas personas pueden necesitar dosis mayores y deben hablarlo con su clínico. [[ref:uspstf-2023-folic-acid]]",
+        "en": "The USPSTF recommendation does not apply to people with a previous NTD-affected pregnancy or other very-high-risk situations; they may need higher doses and should discuss it with their clinician. [[ref:uspstf-2023-folic-acid]]"
+      },
+      "body": {
+        "es": "NICE sí concreta: ofrecer 5 mg al día de ácido fólico, al planificar y en las primeras 12 semanas, cuando hay mayor riesgo de DTN u otra malformación congénita. Ejemplos que cita: DTN o malformación en la persona, su pareja o la familia; embarazo previo afectado; diabetes tipo 1 o 2; enfermedad hematológica que requiere ácido fólico (drepanocitosis, talasemia); o fármacos que alteran la absorción o el metabolismo del folato, como antiepilépticos o medicamentos para el VIH. [[ref:nice-2025-ng247]]\n\nTras cirugía bariátrica, NICE remite a la unidad bariátrica para consejo individual sobre ácido fólico y otros micronutrientes. [[ref:nice-2025-ng247]]",
+        "en": "NICE is specific: offer 5 mg a day of folic acid, when planning and in the first 12 weeks, when there is an increased risk of NTD or other congenital malformation. Examples it gives: NTD or malformation in the person, their partner or family; a previous affected pregnancy; type 1 or 2 diabetes; a haematological condition requiring folic acid (sickle cell disease, thalassaemia); or medicines that affect folate absorption or metabolism, such as anti-epileptics or HIV medicines. [[ref:nice-2025-ng247]]\n\nAfter bariatric surgery, NICE refers to the bariatric unit for individual advice on folic acid and other micronutrients. [[ref:nice-2025-ng247]]"
+      },
+      "application": {
+        "es": "Antes de “dar el fólico de siempre”, repasa antecedentes de DTN, diabetes, hemoglobinopatías, cirugía bariátrica y medicación (sobre todo antiepilépticos). Si hay alguno, la dosis forma parte de un plan individual con la guía local y el especialista que corresponda (neurología, endocrinología, hematología).",
+        "en": "Before “giving the usual folic acid”, review NTD history, diabetes, haemoglobinopathies, bariatric surgery and medicines (especially anti-epileptics). If any is present, the dose belongs to an individual plan with local guidance and the relevant specialist (neurology, endocrinology, haematology)."
+      },
+      "pearl": {
+        "es": "Fíjate en las unidades: 400 µg es 0,4 mg; 5 mg es más de diez veces esa dosis. Confundir µg y mg en la receta es un error clásico.",
+        "en": "Mind the units: 400 µg is 0.4 mg; 5 mg is more than ten times that dose. Mixing up µg and mg on a prescription is a classic error."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG247 (2025); USPSTF 2023 excluye el alto riesgo.",
+          "en": "NICE NG247 (2025); USPSTF 2023 excludes high risk."
+        }
+      },
+      "recall": {
+        "es": "¿Qué situaciones, según NICE, justifican ácido fólico a dosis alta?",
+        "en": "Which situations, per NICE, justify high-dose folic acid?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c3-more-is-not-better",
+      "type": "myth",
+      "conceptId": "supp.pc.folic-acid-myths",
+      "title": {
+        "es": "Mito: “más ácido fólico, más fertilidad y menos abortos”",
+        "en": "Myth: “more folic acid, more fertility and fewer miscarriages”"
+      },
+      "core": {
+        "es": "En la pérdida gestacional recurrente (PGR) inexplicada, el ácido fólico a dosis bajas no ha demostrado prevenir nuevas pérdidas; ESHRE desaconseja la dosis alta sin hiperhomocisteinemia ni condiciones que aumenten el riesgo de DTN (diabetes, epilepsia). [[ref:eshre-2022-rpl]]",
+        "en": "In unexplained recurrent pregnancy loss (RPL), low-dose folic acid has not been shown to prevent further losses; ESHRE advises against high doses without hyperhomocysteinaemia or conditions that raise NTD risk (diabetes, epilepsy). [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "Recomendación fuerte de ESHRE: la dosis baja no ha demostrado prevenir la pérdida en la PGR inexplicada. En su justificación, ESHRE añade que la dosis alta no debe usarse sin hiperhomocisteinemia ni condiciones de riesgo de DTN. [[ref:eshre-2022-rpl]]\n\nNICE añade dos situaciones frecuentes en consulta en las que no hace falta subir de 400 µg al día, salvo que exista otro factor de riesgo de su lista: IMC ≥25 kg/m² y riesgo aumentado de preeclampsia. [[ref:nice-2025-ng247]]",
+        "en": "Strong ESHRE recommendation: low-dose folic acid has not been shown to prevent loss in unexplained RPL. In its justification, ESHRE adds that high doses should not be used without hyperhomocysteinaemia or NTD-risk conditions. [[ref:eshre-2022-rpl]]\n\nNICE adds two common clinic situations in which there is no need to go above 400 µg a day, unless another risk factor from its list is present: BMI ≥25 kg/m² and increased risk of pre-eclampsia. [[ref:nice-2025-ng247]]"
+      },
+      "application": {
+        "es": "Si una paciente con abortos de repetición pide “la dosis alta” para no volver a perder, puedes explicarle que la dosis estándar sigue siendo para prevenir DTN y que subirla no protege del aborto.",
+        "en": "If a patient with recurrent miscarriage asks for “the high dose” so as not to lose again, you can explain that the standard dose is still for NTD prevention and that increasing it does not protect against miscarriage."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE PGR 2022: fuerte (dosis alta sin indicación); NICE NG247.",
+          "en": "ESHRE RPL 2022: strong (high dose without indication); NICE NG247."
+        }
+      },
+      "recall": {
+        "es": "¿Previene el ácido fólico la pérdida gestacional recurrente inexplicada?",
+        "en": "Does folic acid prevent unexplained recurrent pregnancy loss?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c4-prenatal-label",
+      "type": "supplement",
+      "conceptId": "supp.pc.prenatal-label",
+      "title": {
+        "es": "Leer la etiqueta del prenatal: qué buscar y qué evitar",
+        "en": "Reading the prenatal label: what to look for and avoid"
+      },
+      "core": {
+        "es": "Durante el embarazo no deben tomarse aceite de hígado de bacalao ni suplementos con vitamina A (retinol), y eso puede incluir multivitamínicos “normales” no diseñados para el embarazo. [[ref:nice-2025-ng247]]",
+        "en": "During pregnancy, cod liver oil and supplements containing vitamin A (retinol) should not be taken, and this may include regular multivitamins not designed for pregnancy. [[ref:nice-2025-ng247]]"
+      },
+      "body": {
+        "es": "USPSTF acepta que el ácido fólico llegue en un suplemento simple o en un multivitamínico que lo contenga. [[ref:uspstf-2023-folic-acid]] ESHRE, ante pacientes con PGR que preguntan por multivitamínicos, recomienda orientarlas hacia preparados seguros en el embarazo (buena práctica): no son un tratamiento, pero algunas vitaminas (A, E) pueden causar daño. [[ref:eshre-2022-rpl]]\n\nEl yodo no siempre está: en 2009 solo el 51 % de los prenatales de EE. UU. lo contenía, y cuando procede de kelp su contenido es inconsistente; la guía de la ATA prefiere el yoduro potásico. [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "USPSTF accepts folic acid as a single supplement or within a multivitamin that contains it. [[ref:uspstf-2023-folic-acid]] ESHRE, when RPL patients ask about multivitamins, recommends steering them to products safe in pregnancy (good practice): they are not a treatment, but some vitamins (A, E) may cause harm. [[ref:eshre-2022-rpl]]\n\nIodine is not always there: in 2009 only 51% of US prenatal vitamins contained it, and when it comes from kelp the content is inconsistent; the ATA guideline prefers potassium iodide. [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "application": {
+        "es": "Revisa con la paciente su producto: ácido fólico a la dosis que corresponda, sin retinol a dosis de suplemento, y si incluye yodo, en qué forma. Pídele que no sume productos por su cuenta sin comentarlo.",
+        "en": "Review her product with the patient: folic acid at the appropriate dose, no supplement-level retinol and, if it contains iodine, in what form. Ask her not to stack products on her own without discussing it."
+      },
+      "pearl": {
+        "es": "“Prenatal” es una etiqueta comercial, no una garantía de composición: la lectura de la etiqueta es parte de la consulta.",
+        "en": "“Prenatal” is a marketing label, not a guarantee of composition: reading the label is part of the visit."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG247; USPSTF 2023; ESHRE PGR (GPP); ATA 2017 (dato de mercado de EE. UU. de 2009).",
+          "en": "NICE NG247; USPSTF 2023; ESHRE RPL (GPP); ATA 2017 (2009 US market data)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué componente debe evitarse en un multivitamínico durante el embarazo según NICE?",
+        "en": "Which component should be avoided in a multivitamin during pregnancy per NICE?"
+      },
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q1-uspstf-timing",
+      "conceptId": "supp.pc.folic-acid-routine",
+      "difficulty": 1,
+      "stem": {
+        "es": "Mujer de 29 años, sana, sin antecedentes de DTN ni fármacos, quiere buscar embarazo en unos meses. Según USPSTF 2023, ¿qué es lo correcto?",
+        "en": "A healthy 29-year-old woman with no NTD history or medicines wants to try to conceive in a few months. Per USPSTF 2023, which is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ácido fólico 0,4–0,8 mg diarios desde al menos 1 mes antes de concebir y durante los primeros 2–3 meses de embarazo.",
+            "en": "Folic acid 0.4–0.8 mg daily from at least 1 month before conception through the first 2–3 months of pregnancy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la recomendación grado A de USPSTF.",
+            "en": "Correct: this is the USPSTF grade A recommendation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Empezar el ácido fólico al confirmar el embarazo, porque antes no aporta beneficio.",
+            "en": "Start folic acid once pregnancy is confirmed, since before that it adds no benefit."
+          },
+          "correct": false,
+          "why": {
+            "es": "El tubo neural se cierra muy pronto; por eso se pide empezar al menos 1 mes antes de la concepción.",
+            "en": "The neural tube closes very early; that is why it should start at least 1 month before conception."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ácido fólico 5 mg diarios, porque a más dosis más protección.",
+            "en": "Folic acid 5 mg daily, because more dose means more protection."
+          },
+          "correct": false,
+          "why": {
+            "es": "La dosis alta se reserva para situaciones de riesgo aumentado; esta mujer no tiene ninguna.",
+            "en": "High doses are reserved for increased-risk situations; this woman has none."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No hace falta suplemento si su dieta incluye alimentos fortificados.",
+            "en": "No supplement is needed if her diet includes fortified foods."
+          },
+          "correct": false,
+          "why": {
+            "es": "USPSTF y NICE recomiendan el suplemento aunque haya fortificación.",
+            "en": "USPSTF and NICE recommend the supplement even with fortification."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Dosis estándar, inicio antes de la concepción y continuación en el primer trimestre: así se protege la ventana del cierre del tubo neural.",
+        "en": "Standard dose, starting before conception and continuing into the first trimester: that is how the neural-tube closure window is protected."
+      },
+      "refIds": [
+        "uspstf-2023-folic-acid",
+        "nice-2025-ng247"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q2-who-high-dose",
+      "conceptId": "supp.pc.folic-acid-high-risk",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según NICE NG247, ¿cuál de estas mujeres que planifican embarazo tiene indicación de ácido fólico a dosis alta (5 mg/día)?",
+        "en": "Per NICE NG247, which of these women planning pregnancy has an indication for high-dose folic acid (5 mg/day)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Mujer de 31 años con diabetes tipo 1.",
+            "en": "31-year-old woman with type 1 diabetes."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la diabetes tipo 1 o 2 figura entre los factores de riesgo aumentado de NICE.",
+            "en": "Correct: type 1 or 2 diabetes is among NICE’s increased-risk factors."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Mujer de 34 años con IMC de 31 kg/m² y sin otros factores.",
+            "en": "34-year-old woman with BMI 31 kg/m² and no other factors."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica que con IMC ≥25 no hace falta más de 400 µg salvo otro factor de riesgo.",
+            "en": "NICE states that BMI ≥25 does not require more than 400 µg unless another risk factor is present."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mujer de 30 años con riesgo aumentado de preeclampsia y sin otros factores.",
+            "en": "30-year-old woman at increased risk of pre-eclampsia and no other factors."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE tranquiliza explícitamente: el riesgo de preeclampsia no exige subir de 400 µg.",
+            "en": "NICE explicitly reassures: pre-eclampsia risk does not require going above 400 µg."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Mujer de 33 años heterocigota para MTHFR C677T.",
+            "en": "33-year-old woman heterozygous for MTHFR C677T."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ser portadora de una variante común de MTHFR no figura como indicación; las portadoras procesan el ácido fólico.",
+            "en": "Carrying a common MTHFR variant is not listed as an indication; carriers process folic acid."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La dosis alta responde a factores concretos (antecedentes de DTN, diabetes, hemoglobinopatías, fármacos que alteran el folato), no al peso ni a un genotipo común.",
+        "en": "High doses respond to specific factors (NTD history, diabetes, haemoglobinopathies, folate-altering medicines), not to weight or a common genotype."
+      },
+      "refIds": [
+        "nice-2025-ng247",
+        "cdc-mthfr-folic-acid"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q3-rpl-high-dose",
+      "conceptId": "supp.pc.folic-acid-myths",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mujer de 35 años con tres abortos tempranos, estudio de PGR sin hallazgos, sin diabetes ni epilepsia. Pide ácido fólico a dosis alta “para no volver a perderlo”. Según ESHRE, ¿qué es lo adecuado?",
+        "en": "A 35-year-old woman with three early miscarriages, unremarkable RPL work-up, no diabetes or epilepsy. She asks for high-dose folic acid “so I don’t lose it again”. Per ESHRE, what is appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Mantener la dosis baja preconcepcional para prevenir DTN y explicar que no previene la pérdida; no usar dosis alta.",
+            "en": "Keep the low preconception dose to prevent NTDs and explain that it does not prevent loss; do not use a high dose."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE (fuerte): la dosis baja no previene la pérdida; según su justificación, la dosis alta no debe usarse sin indicación.",
+            "en": "Correct: ESHRE (strong): low-dose folic acid does not prevent loss; according to its justification, high doses should not be used without an indication."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Indicar 5 mg diarios: la PGR es un factor de riesgo de DTN.",
+            "en": "Prescribe 5 mg daily: RPL is an NTD risk factor."
+          },
+          "correct": false,
+          "why": {
+            "es": "La PGR inexplicada no figura entre los factores que justifican dosis alta.",
+            "en": "Unexplained RPL is not among the factors justifying a high dose."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Suspender el ácido fólico porque no tiene efecto en la PGR.",
+            "en": "Stop folic acid because it has no effect on RPL."
+          },
+          "correct": false,
+          "why": {
+            "es": "No previene la pérdida, pero sigue indicado para prevenir DTN.",
+            "en": "It does not prevent loss, but it is still indicated to prevent NTDs."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cambiar a metilfolato a dosis alta, que sí previene la pérdida.",
+            "en": "Switch to high-dose methylfolate, which does prevent loss."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay evidencia verificada que respalde esa afirmación.",
+            "en": "There is no verified evidence supporting that claim."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Separa los desenlaces: el ácido fólico previene DTN; no ha demostrado prevenir la pérdida gestacional recurrente.",
+        "en": "Separate the outcomes: folic acid prevents NTDs; it has not been shown to prevent recurrent pregnancy loss."
+      },
+      "refIds": [
+        "eshre-2022-rpl"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c5-mthfr-folic-acid",
+      "type": "myth",
+      "conceptId": "supp.pc.mthfr-folic-acid",
+      "title": {
+        "es": "Mito: “con MTHFR no puedes usar ácido fólico”",
+        "en": "Myth: “with MTHFR you can’t use folic acid”"
+      },
+      "core": {
+        "es": "Las personas con una variante de MTHFR pueden procesar todos los tipos de folato, incluido el ácido fólico, y el ácido fólico es el único tipo de folato demostrado para ayudar a prevenir DTN. [[ref:cdc-mthfr-folic-acid]]",
+        "en": "People with an MTHFR variant can process all types of folate, including folic acid, and folic acid is the only type of folate shown to help prevent NTDs. [[ref:cdc-mthfr-folic-acid]]"
+      },
+      "body": {
+        "es": "Según el CDC, las variantes comunes no son motivo para evitar el ácido fólico, y en EE. UU. son más las personas con una o dos copias de C677T que las que no la tienen. [[ref:cdc-mthfr-folic-acid]] ACOG cita una homocigosis C677T del 10–16 % en población europea. [[ref:acog-2018-pb197-thrombophilia]]\n\nLo que sigue abierto es cuánto ralentizan estas variantes el metabolismo del folato: USPSTF lo incluye como necesidad de investigación, no como motivo para cambiar la recomendación. [[ref:uspstf-2023-folic-acid]] Que el 5-metiltetrahidrofolato (metilfolato) sea “mejor” en portadoras es una hipótesis, no un resultado demostrado en prevención de DTN.",
+        "en": "According to CDC, common variants are not a reason to avoid folic acid, and in the US more people have one or two copies of C677T than don't. [[ref:cdc-mthfr-folic-acid]] ACOG cites C677T homozygosity of 10–16% in European populations. [[ref:acog-2018-pb197-thrombophilia]]\n\nWhat remains open is how much these variants slow folate metabolism: USPSTF lists it as a research need, not as a reason to change the recommendation. [[ref:uspstf-2023-folic-acid]] That 5-methyltetrahydrofolate (methylfolate) is “better” in carriers is a hypothesis, not a demonstrated result for NTD prevention."
+      },
+      "application": {
+        "es": "Si una paciente trae un informe de MTHFR y ha dejado el ácido fólico por miedo, la prioridad es que retome la prevención de DTN.",
+        "en": "If a patient brings an MTHFR report and has stopped folic acid out of fear, the priority is that she resumes NTD prevention."
+      },
+      "pearl": {
+        "es": "Una variante que tiene la mayoría de la población estadounidense no puede ser, por sí sola, una “enfermedad” que contraindique el ácido fólico.",
+        "en": "A variant carried by most of the US population cannot, on its own, be a “disease” that contraindicates folic acid."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "CDC (salud pública); ACOG PB 197; USPSTF 2023 lo deja como área de investigación.",
+          "en": "CDC (public health); ACOG PB 197; USPSTF 2023 leaves it as a research area."
+        }
+      },
+      "recall": {
+        "es": "¿Puede una portadora de MTHFR C677T usar ácido fólico para prevenir DTN?",
+        "en": "Can an MTHFR C677T carrier use folic acid to prevent NTDs?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c6-no-mthfr-test",
+      "type": "what-i-would-not-order",
+      "conceptId": "supp.pc.mthfr-testing",
+      "title": {
+        "es": "Qué no pediría: genotipo MTHFR ni homocisteína “de rutina”",
+        "en": "What I would not order: routine MTHFR genotype or homocysteine"
+      },
+      "core": {
+        "es": "ACOG no recomienda el cribado con análisis de mutaciones MTHFR ni con homocisteína en ayunas, por la falta de asociación entre las variantes C677T y desenlaces adversos del embarazo, incluida la tromboembolia venosa (nivel B). [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "ACOG does not recommend screening with MTHFR mutation analyses or fasting homocysteine, because of the lack of association between C677T variants and adverse pregnancy outcomes, including venous thromboembolism (Level B). [[ref:acog-2018-pb197-thrombophilia]]"
+      },
+      "body": {
+        "es": "ACOG añade que las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV, ni fuera ni durante el embarazo, y que no hay evidencia suficiente para incluirlas en el estudio de trombofilia. [[ref:acog-2018-pb197-thrombophilia]]\n\nPara el ácido fólico, el resultado tampoco cambiaría la conducta: la recomendación preconcepcional es la misma con o sin variante común. [[ref:cdc-mthfr-folic-acid]]",
+        "en": "ACOG adds that MTHFR mutations by themselves do not appear to increase VTE risk, either outside or during pregnancy, and that evidence is insufficient to include them in thrombophilia work-up. [[ref:acog-2018-pb197-thrombophilia]]\n\nFor folic acid, the result would not change management either: the preconception recommendation is the same with or without a common variant. [[ref:cdc-mthfr-folic-acid]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "¿Pedir MTHFR / homocisteína?",
+              "en": "Order MTHFR / homocysteine?"
+            }
+          },
+          {
+            "mark": "no",
+            "text": {
+              "es": "Estudio de trombofilia o de pérdidas gestacionales: no recomendado (ACOG)",
+              "en": "Thrombophilia or pregnancy-loss work-up: not recommended (ACOG)"
+            }
+          },
+          {
+            "mark": "no",
+            "text": {
+              "es": "Elegir el tipo de folato: no cambia la conducta (CDC)",
+              "en": "Choosing the folate type: does not change management (CDC)"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Esquema: pedir MTHFR u homocisteína no está recomendado para estudiar trombofilia o pérdidas (ACOG) y no cambia la elección del folato (CDC).",
+          "en": "Diagram: ordering MTHFR or homocysteine is not recommended to investigate thrombophilia or losses (ACOG) and does not change folate choice (CDC)."
+        }
+      },
+      "application": {
+        "es": "Un resultado “positivo” de MTHFR puede generar ansiedad, suplementos caros y, a veces, anticoagulación sin indicación. No pedirlo también es cuidar.",
+        "en": "A “positive” MTHFR result can bring anxiety, expensive supplements and sometimes anticoagulation without indication. Not ordering it is also care."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ACOG PB 197 (nivel B).",
+          "en": "ACOG PB 197 (Level B)."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué ACOG no recomienda cribar MTHFR ni homocisteína en el embarazo?",
+        "en": "Why does ACOG not recommend screening MTHFR or homocysteine in pregnancy?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c7-mthfr-patient-phrase",
+      "type": "patient-phrase",
+      "conceptId": "supp.pc.mthfr-communication",
+      "title": {
+        "es": "Frase para la paciente: “mi análisis dice MTHFR”",
+        "en": "Patient phrase: “my test says MTHFR”"
+      },
+      "core": {
+        "es": "Mensaje base, apoyado en el CDC: la variante es muy frecuente, tu cuerpo procesa el ácido fólico y el ácido fólico es el que ha demostrado prevenir DTN. [[ref:cdc-mthfr-folic-acid]]",
+        "en": "Core message, backed by CDC: the variant is very common, your body processes folic acid and folic acid is the one shown to prevent NTDs. [[ref:cdc-mthfr-folic-acid]]"
+      },
+      "body": {
+        "es": "Una forma de decirlo: “Tener esta variante es muy común: en Estados Unidos, por ejemplo, la tiene más gente de la que no la tiene. No significa que no puedas usar ácido fólico: lo procesas bien, y es la forma que ha demostrado prevenir defectos del tubo neural en el bebé.” [[ref:cdc-mthfr-folic-acid]]\n\nSi además pregunta por trombosis o abortos: “Esta variante, por sí sola, no se ha asociado a más trombosis ni a peores resultados en el embarazo, por eso las guías no la usan para decidir tratamientos.” [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "One way to put it: “Having this variant is very common: in the United States, for example, more people have it than don’t. It doesn’t mean you can’t use folic acid: you process it well, and it’s the form shown to prevent neural tube defects in the baby.” [[ref:cdc-mthfr-folic-acid]]\n\nIf she also asks about clots or miscarriage: “On its own, this variant hasn’t been linked to more clots or worse pregnancy outcomes, so guidelines don’t use it to decide treatments.” [[ref:acog-2018-pb197-thrombophilia]]"
+      },
+      "application": {
+        "es": "Valida la preocupación antes de corregir el dato, y deja por escrito qué tomar y a qué dosis.",
+        "en": "Validate the concern before correcting the fact, and write down what to take and at what dose."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "CDC; ACOG PB 197.",
+          "en": "CDC; ACOG PB 197."
+        }
+      },
+      "recall": {
+        "es": "¿Cómo explicarías a una paciente que su variante MTHFR no contraindica el ácido fólico?",
+        "en": "How would you explain to a patient that her MTHFR variant does not contraindicate folic acid?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q4-mthfr-methylfolate",
+      "conceptId": "supp.pc.mthfr-folic-acid",
+      "difficulty": 2,
+      "stem": {
+        "es": "Paciente de 30 años que busca embarazo trae un genotipo “heterocigota MTHFR C677T” de un laboratorio comercial y ha dejado el ácido fólico porque leyó que “no lo puede metabolizar”. ¿Qué respuesta se ajusta a las fuentes?",
+        "en": "A 30-year-old patient trying to conceive brings an “MTHFR C677T heterozygous” genotype from a commercial lab and has stopped folic acid because she read she “can’t metabolise it”. Which answer fits the sources?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Retomar el ácido fólico a la dosis estándar: las portadoras procesan el ácido fólico y es la forma con eficacia demostrada frente a DTN.",
+            "en": "Resume folic acid at the standard dose: carriers process folic acid and it is the form with proven efficacy against NTDs."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la posición del CDC; la variante común no es motivo para evitarlo.",
+            "en": "Correct: this is CDC’s position; the common variant is not a reason to avoid it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sustituirlo por metilfolato, que ha demostrado prevenir mejor los DTN en portadoras.",
+            "en": "Replace it with methylfolate, which has been shown to prevent NTDs better in carriers."
+          },
+          "correct": false,
+          "why": {
+            "es": "El CDC indica que el ácido fólico es el único tipo de folato demostrado para prevenir DTN; la superioridad del metilfolato es una hipótesis.",
+            "en": "CDC states folic acid is the only folate type shown to prevent NTDs; methylfolate superiority is a hypothesis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir homocisteína en ayunas antes de decidir.",
+            "en": "Order fasting homocysteine before deciding."
+          },
+          "correct": false,
+          "why": {
+            "es": "ACOG no recomienda la homocisteína en ayunas como cribado en el embarazo, y no cambiaría la recomendación de ácido fólico.",
+            "en": "ACOG does not recommend fasting homocysteine screening in pregnancy, and it would not change the folic acid recommendation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Indicar 5 mg de ácido fólico para compensar la variante.",
+            "en": "Prescribe 5 mg folic acid to compensate for the variant."
+          },
+          "correct": false,
+          "why": {
+            "es": "Una variante común no figura entre las indicaciones de dosis alta de NICE.",
+            "en": "A common variant is not among NICE’s high-dose indications."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La variante común no cambia la recomendación: ácido fólico a dosis estándar, sin pruebas adicionales.",
+        "en": "The common variant does not change the recommendation: standard-dose folic acid, with no extra tests."
+      },
+      "refIds": [
+        "cdc-mthfr-folic-acid",
+        "acog-2018-pb197-thrombophilia",
+        "nice-2025-ng247"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q5-thrombophilia-panel",
+      "conceptId": "supp.pc.mthfr-testing",
+      "difficulty": 2,
+      "stem": {
+        "es": "Al revisar un panel de trombofilia para una embarazada, ¿qué prueba no recomienda ACOG?",
+        "en": "When reviewing a thrombophilia panel for a pregnant woman, which test does ACOG not recommend?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Genotipo MTHFR y homocisteína en ayunas.",
+            "en": "MTHFR genotype and fasting homocysteine."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ACOG no recomienda este cribado por la falta de asociación con desenlaces adversos (nivel B).",
+            "en": "Correct: ACOG does not recommend this screening due to the lack of association with adverse outcomes (Level B)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ninguna: cuantas más pruebas, mejor se estratifica.",
+            "en": "None: the more tests, the better the stratification."
+          },
+          "correct": false,
+          "why": {
+            "es": "Más pruebas sin utilidad clínica generan falsos “positivos”, ansiedad y tratamientos sin indicación.",
+            "en": "More tests without clinical utility create false “positives”, anxiety and unindicated treatment."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "MTHFR sí, porque la homocigosis C677T aumenta claramente el riesgo de ETV.",
+            "en": "MTHFR yes, because C677T homozygosity clearly increases VTE risk."
+          },
+          "correct": false,
+          "why": {
+            "es": "ACOG indica que las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV.",
+            "en": "ACOG states MTHFR mutations by themselves do not appear to increase VTE risk."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "MTHFR y homocisteína no aportan a la evaluación de trombofilia en el embarazo según ACOG.",
+        "en": "MTHFR and homocysteine add nothing to thrombophilia evaluation in pregnancy according to ACOG."
+      },
+      "refIds": [
+        "acog-2018-pb197-thrombophilia"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c8-iodine-ficha",
+      "type": "supplement",
+      "conceptId": "supp.pc.iodine-routine",
+      "title": {
+        "es": "Yodo: 250 µg totales, 150 µg como suplemento",
+        "en": "Iodine: 250 µg total, 150 µg as a supplement"
+      },
+      "core": {
+        "es": "La ATA recomienda que toda embarazada ingiera unos 250 µg de yodo al día (fuerte, calidad alta) y, en la mayoría de regiones, incluida EE. UU., un suplemento diario con 150 µg de yodo como yoduro potásico, idealmente desde 3 meses antes del embarazo planificado (fuerte, calidad moderada). [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "The ATA recommends that all pregnant women ingest about 250 µg of iodine a day (strong, high quality) and, in most regions including the US, a daily supplement with 150 µg of iodine as potassium iodide, ideally from 3 months before planned pregnancy (strong, moderate quality). [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "body": {
+        "es": "Mecanismo: el yodo es sustrato de la hormona tiroidea, cuya demanda aumenta en el embarazo. La guía plantea el suplemento como complemento de la dieta, no como sustituto, y advierte que la ingesta individual de yodo no puede estimarse de forma fiable ni por la historia ni por ninguna prueba de laboratorio. Dietas restrictivas (intolerancia a la lactosa o al gluten, dietas bajas en carbohidratos o veganas) pueden necesitar más atención. [[ref:ata-2017-thyroid-pregnancy]]\n\nLactancia: también unos 250 µg/día totales y un suplemento diario de 150 µg, preferiblemente como yoduro potásico en un multivitamínico, porque el kelp y otras algas no aportan una dosis constante. [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "Mechanism: iodine is the substrate of thyroid hormone, whose demand rises in pregnancy. The guideline frames the supplement as an addition to diet, not a replacement, and warns that individual iodine intake cannot be reliably estimated by history or any laboratory test. Restrictive diets (lactose or gluten intolerance, low-carbohydrate or vegan diets) may need extra attention. [[ref:ata-2017-thyroid-pregnancy]]\n\nLactation: also about 250 µg/day total and a daily 150 µg supplement, preferably as potassium iodide in a multivitamin, because kelp and other seaweed do not deliver a consistent dose. [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "application": {
+        "es": "La estrategia depende del estado de yodo de cada país (sal yodada, lácteos, programas de salud pública): comprueba la recomendación local antes de trasladar la cifra de EE. UU.",
+        "en": "The strategy depends on each country’s iodine status (iodised salt, dairy, public-health programmes): check the local recommendation before applying the US figure."
+      },
+      "pearl": {
+        "es": "Ojo con las unidades: el yodo se dosifica en microgramos (µg). Un preparado que dé “mg” de yodo merece una segunda lectura.",
+        "en": "Mind the units: iodine is dosed in micrograms (µg). A product listing iodine in “mg” deserves a second look."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ATA 2017 (fuerte; calidad alta/moderada). Orientada a EE. UU.",
+          "en": "ATA 2017 (strong; high/moderate quality). US-oriented."
+        }
+      },
+      "recall": {
+        "es": "¿Cuánto yodo total y cuánto suplemento recomienda la ATA en el embarazo, y en qué forma?",
+        "en": "How much total iodine and how much supplement does the ATA recommend in pregnancy, and in what form?"
+      },
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "hormones",
+        "reproduction"
+      ],
+      "id": "supp-pc.c9-iodine-thyroid-flags",
+      "type": "what-i-would-do",
+      "conceptId": "supp.pc.iodine-thyroid",
+      "title": {
+        "es": "Yodo y enfermedad tiroidea: cuándo no hace falta",
+        "en": "Iodine and thyroid disease: when it is not needed"
+      },
+      "core": {
+        "es": "Según la ATA, no hace falta iniciar suplemento de yodo en embarazadas tratadas por hipertiroidismo o que toman levotiroxina (recomendación débil, calidad baja). [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "Per the ATA, there is no need to start iodine supplementation in pregnant women treated for hyperthyroidism or taking levothyroxine (weak recommendation, low quality). [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "body": {
+        "es": "El razonamiento con levotiroxina: si la hormona se aporta ya formada, el sustrato deja de ser necesario para producirla. [[ref:ata-2017-thyroid-pregnancy]]\n\nLa guía también recuerda que incluso dosis bajas de yodo pueden desencadenar autoinmunidad tiroidea en una pequeña proporción de mujeres. [[ref:ata-2017-thyroid-pregnancy]] Por eso, en quien tiene enfermedad tiroidea conocida, la decisión de añadir yodo se coordina con quien lleva su tiroides.",
+        "en": "The reasoning with levothyroxine: if the hormone is supplied ready-made, the substrate is no longer needed to produce it. [[ref:ata-2017-thyroid-pregnancy]]\n\nThe guideline also notes that even low-dose iodine may trigger thyroid autoimmunity in a small proportion of women. [[ref:ata-2017-thyroid-pregnancy]] So, in women with known thyroid disease, the decision to add iodine is coordinated with whoever manages their thyroid."
+      },
+      "application": {
+        "es": "Antes de pautar un prenatal con yodo, pregunta por hipotiroidismo tratado, hipertiroidismo y antitiroideos. Si los hay, coordina con endocrinología en lugar de añadir yodo por defecto.",
+        "en": "Before prescribing a prenatal with iodine, ask about treated hypothyroidism, hyperthyroidism and antithyroid drugs. If present, coordinate with endocrinology rather than adding iodine by default."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ATA 2017: débil, calidad baja.",
+          "en": "ATA 2017: weak, low quality."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dos situaciones tiroideas, según la ATA, no requieren iniciar yodo en el embarazo?",
+        "en": "Which two thyroid situations, per the ATA, do not require starting iodine in pregnancy?"
+      },
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "hormones",
+        "reproduction"
+      ],
+      "id": "supp-pc.c10-iodine-excess",
+      "type": "concept",
+      "conceptId": "supp.pc.iodine-excess",
+      "title": {
+        "es": "Exceso de yodo: kelp, amiodarona y contrastes",
+        "en": "Iodine excess: kelp, amiodarone and contrast"
+      },
+      "core": {
+        "es": "La ATA recomienda evitar en el embarazo una ingesta sostenida de yodo por dieta y suplementos superior a 500 µg/día, por el riesgo de disfunción tiroidea fetal (fuerte, calidad moderada). [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "The ATA recommends avoiding sustained iodine intake from diet and supplements above 500 µg/day in pregnancy, because of the risk of fetal thyroid dysfunction (strong, moderate quality). [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "body": {
+        "es": "Mecanismo: ante una carga alta de yodo, la tiroides frena transitoriamente su síntesis (efecto Wolff–Chaikoff) y luego “escapa”; el feto no madura esa capacidad de escape hasta alrededor de la semana 36, por lo que es especialmente vulnerable. [[ref:ata-2017-thyroid-pregnancy]]\n\nFuentes de exceso que cita la guía: suplementos de kelp y algunos preparados de yodo (algunos con cantidades miles de veces superiores al límite, que no deben tomarse), la amiodarona (75 mg de yodo por comprimido de 200 mg) y los contrastes yodados intravenosos. No se recomiendan suplementos de yodo o kelp con más de 500 µg/día en embarazo ni lactancia. [[ref:ata-2017-thyroid-pregnancy]]",
+        "en": "Mechanism: faced with a high iodine load, the thyroid transiently slows synthesis (Wolff–Chaikoff effect) and then “escapes”; the fetus does not mature this escape until about week 36, so it is especially vulnerable. [[ref:ata-2017-thyroid-pregnancy]]\n\nSources of excess the guideline lists: kelp supplements and some iodine preparations (some with amounts thousands of times above the limit, which should not be taken), amiodarone (75 mg of iodine per 200 mg tablet) and intravenous iodinated contrast. Iodine or kelp supplements above 500 µg/day are not recommended in pregnancy or lactation. [[ref:ata-2017-thyroid-pregnancy]]"
+      },
+      "application": {
+        "es": "En la anamnesis de suplementos pregunta específicamente por algas, kelp y “soporte tiroideo”: rara vez se mencionan espontáneamente.",
+        "en": "In the supplement history, ask specifically about seaweed, kelp and “thyroid support” products: they are rarely mentioned spontaneously."
+      },
+      "pearl": {
+        "es": "Con el yodo, el riesgo es una U: tanto el déficit como el exceso alteran la tiroides, también la fetal.",
+        "en": "With iodine, risk is U-shaped: both deficiency and excess disturb the thyroid, including the fetal one."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ATA 2017: fuerte, calidad moderada.",
+          "en": "ATA 2017: strong, moderate quality."
+        }
+      },
+      "recall": {
+        "es": "¿Qué umbral de ingesta sostenida de yodo recomienda evitar la ATA en el embarazo y por qué?",
+        "en": "What sustained iodine intake threshold does the ATA recommend avoiding in pregnancy, and why?"
+      },
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "hormones",
+        "reproduction"
+      ],
+      "id": "supp-pc.q6-levothyroxine-iodine",
+      "conceptId": "supp.pc.iodine-thyroid",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mujer de 32 años con hipotiroidismo bien controlado con levotiroxina, embarazada de 6 semanas. Toma un prenatal con ácido fólico sin yodo. Según la ATA, ¿qué es lo más adecuado respecto al yodo?",
+        "en": "A 32-year-old woman with hypothyroidism well controlled on levothyroxine, 6 weeks pregnant. She takes a prenatal with folic acid and no iodine. Per the ATA, what is most appropriate regarding iodine?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No es necesario iniciar un suplemento de yodo; coordinar el seguimiento tiroideo.",
+            "en": "Starting an iodine supplement is not necessary; coordinate thyroid follow-up."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ATA indica que no hace falta iniciarlo en quien toma levotiroxina (débil, calidad baja).",
+            "en": "Correct: the ATA states it need not be started in women taking levothyroxine (weak, low quality)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Añadir kelp, que es una fuente natural de yodo.",
+            "en": "Add kelp, a natural iodine source."
+          },
+          "correct": false,
+          "why": {
+            "es": "El kelp tiene contenido inconsistente y puede superar mucho el límite; la ATA lo desaconseja.",
+            "en": "Kelp has inconsistent content and may far exceed the limit; the ATA advises against it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Añadir 500 µg/día de yodo para compensar el hipotiroidismo.",
+            "en": "Add 500 µg/day of iodine to compensate for the hypothyroidism."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay indicación y se acerca al umbral que la ATA recomienda no superar de forma sostenida.",
+            "en": "There is no indication and it approaches the threshold the ATA recommends not exceeding on a sustained basis."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Medir yodo en orina para decidir la dosis.",
+            "en": "Measure urinary iodine to decide the dose."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA señala que la ingesta individual no se estima de forma fiable con pruebas de laboratorio.",
+            "en": "The ATA notes individual intake cannot be reliably estimated with laboratory tests."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con levotiroxina la hormona llega ya formada; la prioridad es el control tiroideo, no el sustrato.",
+        "en": "On levothyroxine the hormone arrives ready-made; the priority is thyroid control, not the substrate."
+      },
+      "refIds": [
+        "ata-2017-thyroid-pregnancy"
+      ],
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "hormones",
+        "reproduction"
+      ],
+      "id": "supp-pc.q7-kelp",
+      "conceptId": "supp.pc.iodine-excess",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una paciente que planifica embarazo toma un suplemento de kelp “para la tiroides” cuya etiqueta declara 1000 µg de yodo por dosis diaria. Según la ATA, ¿qué le dirías?",
+        "en": "A patient planning pregnancy takes a kelp supplement “for the thyroid” whose label states 1000 µg of iodine per daily dose. Per the ATA, what would you tell her?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que lo suspenda: en el embarazo no se recomiendan suplementos de yodo o kelp con más de 500 µg/día, y el kelp tiene contenido poco fiable.",
+            "en": "To stop it: iodine or kelp supplements above 500 µg/day are not recommended in pregnancy, and kelp content is unreliable."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ATA desaconseja superar 500 µg/día de forma sostenida y prefiere el yoduro potásico.",
+            "en": "Correct: the ATA advises against sustained intake above 500 µg/day and prefers potassium iodide."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que lo mantenga: más yodo protege mejor la tiroides fetal.",
+            "en": "To keep it: more iodine better protects the fetal thyroid."
+          },
+          "correct": false,
+          "why": {
+            "es": "El exceso también daña: el feto no escapa del efecto Wolff–Chaikoff hasta alrededor de la semana 36.",
+            "en": "Excess also harms: the fetus does not escape the Wolff–Chaikoff effect until about week 36."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que lo mantenga, pero solo hasta el positivo de embarazo.",
+            "en": "To keep it, but only until the positive pregnancy test."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación de la ATA es empezar el suplemento adecuado (150 µg) antes del embarazo, no un exceso.",
+            "en": "The ATA recommendation is to start the appropriate supplement (150 µg) before pregnancy, not an excess."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El yodo tiene un margen: suplemento de 150 µg como yoduro potásico, evitando ingestas sostenidas >500 µg/día.",
+        "en": "Iodine has a window: a 150 µg supplement as potassium iodide, avoiding sustained intake >500 µg/day."
+      },
+      "refIds": [
+        "ata-2017-thyroid-pregnancy"
+      ],
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q8-iodine-no-test",
+      "conceptId": "supp.pc.iodine-routine",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según la ATA, ¿por qué se recomienda en EE. UU. un suplemento de yodo a todas las mujeres que planifican embarazo, en vez de decidirlo caso a caso?",
+        "en": "Per the ATA, why is an iodine supplement recommended in the US for all women planning pregnancy, rather than deciding case by case?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Porque la ingesta individual de yodo no puede determinarse de forma fiable ni por la historia ni por pruebas de laboratorio.",
+            "en": "Because individual iodine intake cannot be reliably determined by history or laboratory tests."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el argumento de la ATA para suplementar a todas en vez de cribar.",
+            "en": "Correct: this is the ATA’s argument for supplementing everyone rather than screening."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque el yodo mejora la tasa de nacido vivo en mujeres infértiles.",
+            "en": "Because iodine improves live birth rates in infertile women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación busca un estado de yodo adecuado en el embarazo; no se basa en desenlaces de fertilidad.",
+            "en": "The recommendation targets adequate iodine status in pregnancy; it is not based on fertility outcomes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque la sal yodada está prohibida en EE. UU.",
+            "en": "Because iodised salt is banned in the US."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es falso; la guía habla de fuentes dietéticas variables, no de prohibición.",
+            "en": "False; the guideline discusses variable dietary sources, not a ban."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Porque el yodo urinario individual define con precisión quién tiene déficit.",
+            "en": "Because individual urinary iodine accurately defines who is deficient."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía dice lo contrario: ninguna prueba de laboratorio estima de forma fiable la ingesta individual.",
+            "en": "The guideline says the opposite: no laboratory test reliably estimates individual intake."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "No hay una prueba individual útil, así que la estrategia es poblacional, adaptada al estado de yodo de cada región.",
+        "en": "There is no useful individual test, so the strategy is population-based, adapted to each region’s iodine status."
+      },
+      "refIds": [
+        "ata-2017-thyroid-pregnancy"
+      ],
+      "editorial": {
+        "status": "sources-verified",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c11-vitd-endo",
+      "type": "supplement",
+      "conceptId": "supp.pc.vitd-guideline",
+      "title": {
+        "es": "Vitamina D: empírica en el embarazo, sin 25(OH)D de rutina",
+        "en": "Vitamin D: empiric in pregnancy, no routine 25(OH)D"
+      },
+      "core": {
+        "es": "La Endocrine Society sugiere vitamina D empírica durante el embarazo (condicional, certeza baja) y sugiere no medir 25(OH)D de rutina en embarazadas sanas sin indicación establecida (condicional, certeza muy baja). [[ref:endo-2024-vitamin-d]]",
+        "en": "The Endocrine Society suggests empiric vitamin D during pregnancy (conditional, low certainty) and suggests against routine 25(OH)D testing in healthy pregnant individuals without an established indication (conditional, very low certainty). [[ref:endo-2024-vitamin-d]]"
+      },
+      "body": {
+        "es": "Indicación: posible reducción de preeclampsia, mortalidad intrauterina, parto prematuro, recién nacido pequeño para la edad gestacional y mortalidad neonatal. Los ensayos usaron de 600 a 5000 UI (15–125 µg) diarias equivalentes; la guía reconoce que la dosis óptima es incierta y pide mantenerse dentro del límite superior tolerable del IOM. [[ref:endo-2024-vitamin-d]]\n\nAntes del embarazo, en adultos sanos menores de 50 años, la misma guía sugiere no suplementar por encima de la ingesta recomendada (600 UI [15 µg] al día) ni medir 25(OH)D de rutina, y señala que no se han establecido umbrales de 25(OH)D con beneficio en ensayos. Nada de esto aplica a quien tiene una indicación establecida, como hipocalcemia. [[ref:endo-2024-vitamin-d]]",
+        "en": "Indication: possible reduction of pre-eclampsia, intrauterine mortality, preterm birth, small-for-gestational-age birth and neonatal mortality. Trials used 600 to 5000 IU (15–125 µg) daily equivalent; the guideline acknowledges the optimal dose is unclear and asks to stay within the IOM tolerable upper intake level. [[ref:endo-2024-vitamin-d]]\n\nBefore pregnancy, in healthy adults under 50, the same guideline suggests no supplementation above the recommended intake (600 IU [15 µg] a day) and no routine 25(OH)D testing, noting that 25(OH)D thresholds with outcome benefit have not been established in trials. None of this applies to people with an established indication, such as hypocalcaemia. [[ref:endo-2024-vitamin-d]]"
+      },
+      "application": {
+        "es": "Corregir un déficit documentado por una indicación clínica es distinto de suplementar de forma empírica: deja claro en la historia cuál de las dos cosas estás haciendo y por qué.",
+        "en": "Correcting a deficiency documented for a clinical indication is different from empiric supplementation: make clear in the record which of the two you are doing and why."
+      },
+      "pearl": {
+        "es": "1 µg de vitamina D = 40 UI: 15 µg = 600 UI. Revisa siempre en qué unidad viene la etiqueta.",
+        "en": "1 µg of vitamin D = 40 IU: 15 µg = 600 IU. Always check which unit the label uses."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Endocrine Society 2024: condicional; certeza baja (suplemento) y muy baja (no medir).",
+          "en": "Endocrine Society 2024: conditional; low (supplement) and very low (no testing) certainty."
+        }
+      },
+      "recall": {
+        "es": "¿Qué sugiere la Endocrine Society 2024 sobre suplementar y medir vitamina D en el embarazo?",
+        "en": "What does the Endocrine Society 2024 suggest about supplementing and testing vitamin D in pregnancy?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c12-vitd-cochrane",
+      "type": "comparison",
+      "conceptId": "supp.pc.vitd-pregnancy-evidence",
+      "title": {
+        "es": "Discrepancia: guía condicional frente a Cochrane “muy incierto”",
+        "en": "Discrepancy: conditional guideline versus Cochrane “very uncertain”"
+      },
+      "core": {
+        "es": "La revisión Cochrane 2024, tras retirar 20 estudios por dudas de fiabilidad, concluye que el efecto de la vitamina D sola sobre preeclampsia, diabetes gestacional y parto prematuro es muy incierto. [[ref:cochrane-2024-vitd-pregnancy]]",
+        "en": "The 2024 Cochrane review, after removing 20 studies over trustworthiness concerns, concludes that the effect of vitamin D alone on pre-eclampsia, gestational diabetes and preterm birth is very uncertain. [[ref:cochrane-2024-vitd-pregnancy]]"
+      },
+      "body": {
+        "es": "En la comparación vitamina D frente a placebo o nada (8 estudios, 2313 embarazadas), podría reducir la hemorragia posparto grave (un solo estudio, certeza baja) y el bajo peso al nacer, aunque el intervalo no descarta un aumento. Los autores piden ensayos grandes y rigurosos, también sobre efectos adversos maternos. [[ref:cochrane-2024-vitd-pregnancy]]\n\nLa Endocrine Society sugiere suplementar con certeza baja. [[ref:endo-2024-vitamin-d]] No es una contradicción frontal: una recomendación condicional con certeza baja y una revisión que encuentra efectos muy inciertos describen el mismo vacío de evidencia de alta calidad.",
+        "en": "In the vitamin D versus placebo or nothing comparison (8 studies, 2313 pregnant women), it may reduce severe postpartum haemorrhage (a single study, low certainty) and low birthweight, although the interval does not rule out an increase. The authors call for large, rigorous trials, including on maternal adverse effects. [[ref:cochrane-2024-vitd-pregnancy]]\n\nThe Endocrine Society suggests supplementation with low certainty. [[ref:endo-2024-vitamin-d]] This is not a head-on contradiction: a conditional recommendation with low certainty and a review finding very uncertain effects describe the same gap in high-quality evidence."
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Vitamina D en el embarazo",
+              "en": "Vitamin D in pregnancy"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Endocrine Society 2024: sugiere empírica (condicional, certeza baja)",
+              "en": "Endocrine Society 2024: suggests empiric (conditional, low certainty)"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Cochrane 2024: efectos muy inciertos en preeclampsia, DMG y prematuridad",
+              "en": "Cochrane 2024: very uncertain effects on pre-eclampsia, GDM and preterm birth"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Comparación: la Endocrine Society 2024 sugiere vitamina D empírica en el embarazo con certeza baja; Cochrane 2024 encuentra efectos muy inciertos sobre preeclampsia, diabetes gestacional y parto prematuro.",
+          "en": "Comparison: the Endocrine Society 2024 suggests empiric vitamin D in pregnancy with low certainty; Cochrane 2024 finds very uncertain effects on pre-eclampsia, gestational diabetes and preterm birth."
+        }
+      },
+      "pearl": {
+        "es": "Cuando una revisión retira estudios por fiabilidad, las estimaciones previas “moderadas” pueden desaparecer. Mira la versión y la fecha de la revisión que citas.",
+        "en": "When a review removes studies for trustworthiness, earlier “moderate” estimates can disappear. Check the version and date of the review you cite."
+      },
+      "evidence": {
+        "label": "limited",
+        "note": {
+          "es": "Cochrane 2024: certeza baja a muy baja.",
+          "en": "Cochrane 2024: low to very low certainty."
+        }
+      },
+      "recall": {
+        "es": "¿Qué cambió en la revisión Cochrane 2024 sobre vitamina D en el embarazo y qué concluye?",
+        "en": "What changed in the 2024 Cochrane review on vitamin D in pregnancy, and what does it conclude?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c13-vitd-fertility",
+      "type": "myth",
+      "conceptId": "supp.pc.vitd-fertility",
+      "title": {
+        "es": "Vitamina D y FIV: asociación no es eficacia",
+        "en": "Vitamin D and IVF: association is not efficacy"
+      },
+      "core": {
+        "es": "En cohortes de reproducción asistida, las mujeres con vitamina D repleta tuvieron más nacidos vivos (OR 1,33; IC 95 % 1,08–1,65), pero es una asociación observacional y los autores piden un ensayo para probar si corregir el déficit ayuda. [[ref:chu-2018-vitd-art]]",
+        "en": "In assisted-reproduction cohorts, vitamin D-replete women had more live births (OR 1.33; 95% CI 1.08–1.65), but this is an observational association and the authors call for a trial to test whether correcting deficiency helps. [[ref:chu-2018-vitd-art]]"
+      },
+      "body": {
+        "es": "El ECA SUNDRO lo probó en 630 mujeres con 25(OH)D <30 ng/mL, peso normal y reserva conservada: una dosis única de 600 000 UI de vitamina D3 antes de la FIV no mejoró el embarazo clínico (37 % vs 40 %; RR 0,91; IC 95 % 0,75–1,11), y ningún subgrupo exploratorio se benefició. [[ref:somigliana-2021-sundro]]\n\nUn metaanálisis de 2023 que mezcla 9 ECA y 3 cohortes describe más embarazo clínico (OR 1,70), con heterogeneidad alta, seis estudios con productos multicomponente (por ejemplo, con inositol o melatonina) y sin combinar nacidos vivos; con vitamina D sola el efecto no fue significativo salvo al excluir SUNDRO. [[ref:meng-2023-vitd-infertility]]",
+        "en": "The SUNDRO RCT tested it in 630 women with 25(OH)D <30 ng/mL, normal weight and preserved reserve: a single 600,000 IU dose of vitamin D3 before IVF did not improve clinical pregnancy (37% vs 40%; RR 0.91; 95% CI 0.75–1.11), and no exploratory subgroup benefited. [[ref:somigliana-2021-sundro]]\n\nA 2023 meta-analysis mixing 9 RCTs and 3 cohorts reports more clinical pregnancy (OR 1.70), with high heterogeneity, six studies using multicomponent products (e.g. with inositol or melatonin) and no pooling of live births; with vitamin D alone the effect was not significant unless SUNDRO was excluded. [[ref:meng-2023-vitd-infertility]]"
+      },
+      "visual": {
+        "kind": "flow",
+        "rows": [
+          {
+            "mark": "node",
+            "text": {
+              "es": "Cohortes: vit. D repleta ↔ más nacidos vivos",
+              "en": "Cohorts: replete vitamin D ↔ more live births"
+            }
+          },
+          {
+            "mark": "arrow",
+            "text": {
+              "es": "¿Suplementar mejora el resultado?",
+              "en": "Does supplementing improve the outcome?"
+            }
+          },
+          {
+            "mark": "no",
+            "text": {
+              "es": "ECA SUNDRO: sin mejora del embarazo clínico",
+              "en": "SUNDRO RCT: no improvement in clinical pregnancy"
+            }
+          },
+          {
+            "mark": "note",
+            "text": {
+              "es": "Metaanálisis mixto: embarazo clínico, sin nacido vivo combinado",
+              "en": "Mixed meta-analysis: clinical pregnancy, live birth not pooled"
+            }
+          }
+        ],
+        "alt": {
+          "es": "Esquema: en cohortes, la vitamina D repleta se asocia a más nacidos vivos; el ECA SUNDRO no mostró mejora del embarazo clínico al suplementar; un metaanálisis mixto informa embarazo clínico sin combinar nacidos vivos.",
+          "en": "Diagram: in cohorts, replete vitamin D is associated with more live births; the SUNDRO RCT showed no improvement in clinical pregnancy with supplementation; a mixed meta-analysis reports clinical pregnancy without pooling live births."
+        }
+      },
+      "application": {
+        "es": "Si se suplementa a una mujer que va a FIV, que sea por las razones generales (embarazo, déficit con indicación), no con la promesa de más embarazos.",
+        "en": "If a woman going to IVF is supplemented, let it be for general reasons (pregnancy, deficiency with an indication), not with a promise of more pregnancies."
+      },
+      "pearl": {
+        "es": "Pregunta siempre: ¿asociación o ensayo? ¿embarazo clínico o nacido vivo? ¿vitamina D sola o “cóctel”?",
+        "en": "Always ask: association or trial? Clinical pregnancy or live birth? Vitamin D alone or a “cocktail”?"
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "Cohortes (asociación); un ECA negativo; metaanálisis mixto de calidad limitada.",
+          "en": "Cohorts (association); one negative RCT; mixed meta-analysis of limited quality."
+        }
+      },
+      "recall": {
+        "es": "¿Qué mostró el ECA SUNDRO sobre la vitamina D antes de la FIV?",
+        "en": "What did the SUNDRO RCT show about vitamin D before IVF?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.c14-vitd-rpl",
+      "type": "what-i-would-not-order",
+      "conceptId": "supp.pc.vitd-rpl",
+      "title": {
+        "es": "Pérdida gestacional recurrente: vitamina D sí puede considerarse, medirla no",
+        "en": "Recurrent pregnancy loss: vitamin D may be considered, testing it not"
+      },
+      "core": {
+        "es": "ESHRE propone que el asesoramiento preconcepcional en la PGR puede incluir considerar vitamina D profiláctica (buena práctica), aunque falta evidencia de eficacia, y no recomienda medir vitamina D para buscar la causa ni orientar el tratamiento. [[ref:eshre-2022-rpl]]",
+        "en": "ESHRE proposes that preconception counselling in RPL may include considering prophylactic vitamin D (good practice), although evidence of effectiveness is absent, and does not recommend testing vitamin D to find a cause or guide treatment. [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "La razón: el déficit parece frecuente en mujeres con PGR (47,4 % por debajo de 30 ng/mL en un estudio de casos y controles) y se asocia a complicaciones obstétricas, pero no hay indicios de que el estado de vitamina D contribuya a la PGR ni estudios que midan su efecto sobre el nacido vivo en el siguiente embarazo. La guía considera segura la suplementación. [[ref:eshre-2022-rpl]]",
+        "en": "The reasoning: deficiency seems common in women with RPL (47.4% below 30 ng/mL in a case-control study) and is associated with obstetric complications, but there is no indication that vitamin D status contributes to RPL, nor studies measuring its effect on live birth in the next pregnancy. The guideline considers supplementation safe. [[ref:eshre-2022-rpl]]"
+      },
+      "application": {
+        "es": "Puedes ofrecerla como medida general de salud gestacional, explicando que no es un tratamiento de la pérdida recurrente.",
+        "en": "You can offer it as a general pregnancy-health measure, explaining that it is not a treatment for recurrent loss."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE PGR 2022: buena práctica (GPP), sin evidencia de eficacia.",
+          "en": "ESHRE RPL 2022: good practice point (GPP), no evidence of effectiveness."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice ESHRE sobre medir y suplementar vitamina D en la PGR?",
+        "en": "What does ESHRE say about testing and supplementing vitamin D in RPL?"
+      },
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q9-vitd-test-pregnancy",
+      "conceptId": "supp.pc.vitd-guideline",
+      "difficulty": 1,
+      "stem": {
+        "es": "Embarazada sana de 10 semanas, sin hipocalcemia ni otra indicación. Según la Endocrine Society 2024, ¿qué es lo adecuado sobre la vitamina D?",
+        "en": "A healthy pregnant woman at 10 weeks, no hypocalcaemia or other indication. Per the Endocrine Society 2024, what is appropriate regarding vitamin D?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Considerar suplemento empírico sin medir 25(OH)D de rutina.",
+            "en": "Consider an empiric supplement without routine 25(OH)D testing."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: sugiere vitamina D empírica y no medir 25(OH)D de rutina (ambas condicionales).",
+            "en": "Correct: it suggests empiric vitamin D and against routine 25(OH)D testing (both conditional)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Medir 25(OH)D y suplementar solo si es <30 ng/mL.",
+            "en": "Measure 25(OH)D and supplement only if <30 ng/mL."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía sugiere no medir de rutina y señala que no hay umbrales con beneficio establecidos en ensayos.",
+            "en": "The guideline suggests against routine testing and notes no trial-established benefit thresholds."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Medir 25(OH)D cada trimestre para ajustar la dosis.",
+            "en": "Measure 25(OH)D every trimester to adjust the dose."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay recomendación de monitorización seriada en embarazadas sanas.",
+            "en": "There is no recommendation for serial monitoring in healthy pregnant women."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No suplementar, porque la evidencia muestra que no tiene ningún efecto.",
+            "en": "Do not supplement, because evidence shows it has no effect."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia es incierta, no negativa; la guía sugiere suplementar con certeza baja.",
+            "en": "The evidence is uncertain, not negative; the guideline suggests supplementation with low certainty."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sugerencia condicional: suplementar sin cribar con 25(OH)D, salvo indicación clínica establecida.",
+        "en": "Conditional suggestion: supplement without 25(OH)D screening, unless there is an established clinical indication."
+      },
+      "refIds": [
+        "endo-2024-vitamin-d"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q10-sundro",
+      "conceptId": "supp.pc.vitd-fertility",
+      "difficulty": 2,
+      "stem": {
+        "es": "En el ECA SUNDRO (mujeres con 25(OH)D <30 ng/mL antes de FIV), ¿qué resultado se obtuvo con una dosis única alta de vitamina D3 frente a placebo?",
+        "en": "In the SUNDRO RCT (women with 25(OH)D <30 ng/mL before IVF), what result was obtained with a single high dose of vitamin D3 versus placebo?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No mejoró la tasa de embarazo clínico (37 % vs 40 %).",
+            "en": "It did not improve the clinical pregnancy rate (37% vs 40%)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: RR 0,91 (IC 95 % 0,75–1,11), sin subgrupos con beneficio.",
+            "en": "Correct: RR 0.91 (95% CI 0.75–1.11), with no benefiting subgroups."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Aumentó significativamente los nacidos vivos.",
+            "en": "It significantly increased live births."
+          },
+          "correct": false,
+          "why": {
+            "es": "El desenlace primario fue embarazo clínico y no mejoró; no se puede afirmar un aumento de nacidos vivos.",
+            "en": "The primary outcome was clinical pregnancy and it did not improve; an increase in live births cannot be claimed."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mejoró solo en mujeres con déficit más grave.",
+            "en": "It improved only in women with more severe deficiency."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los análisis exploratorios por nivel basal de 25(OH)D no identificaron beneficio.",
+            "en": "Exploratory analyses by baseline 25(OH)D did not identify benefit."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Redujo los abortos, aunque no cambió el embarazo clínico.",
+            "en": "It reduced miscarriages, though clinical pregnancy did not change."
+          },
+          "correct": false,
+          "why": {
+            "es": "El aborto fue un desenlace secundario; el ensayo no muestra que la vitamina D lo reduzca, y no puede afirmarse un efecto sobre el aborto sin efecto sobre el embarazo clínico.",
+            "en": "Miscarriage was a secondary outcome; the trial does not show that vitamin D reduces it, and an effect on miscarriage cannot be claimed without an effect on clinical pregnancy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La asociación observacional no se confirmó en el ensayo: corregir la vitamina D antes de la FIV no aumentó el embarazo clínico.",
+        "en": "The observational association was not confirmed in the trial: correcting vitamin D before IVF did not increase clinical pregnancy."
+      },
+      "refIds": [
+        "somigliana-2021-sundro"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "id": "supp-pc.q11-vitd-evidence",
+      "conceptId": "supp.pc.vitd-fertility",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Qué frase describe mejor la evidencia sobre vitamina D y resultados de reproducción asistida en mujeres?",
+        "en": "Which statement best describes the evidence on vitamin D and assisted-reproduction outcomes in women?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hay asociación en cohortes entre vitamina D repleta y nacido vivo, pero el ECA más grande no mostró beneficio de suplementar sobre el embarazo clínico.",
+            "en": "Cohorts show an association between replete vitamin D and live birth, but the largest RCT showed no benefit of supplementation on clinical pregnancy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: separa asociación (Chu 2018) de eficacia en ensayo (SUNDRO 2021).",
+            "en": "Correct: it separates association (Chu 2018) from trial efficacy (SUNDRO 2021)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Los ECA demuestran que suplementar aumenta el nacido vivo.",
+            "en": "RCTs show that supplementation increases live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "El metaanálisis de 2023 no combinó nacidos vivos y SUNDRO no mejoró el embarazo clínico.",
+            "en": "The 2023 meta-analysis did not pool live births and SUNDRO did not improve clinical pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La vitamina D baja causa infertilidad, como demuestran las cohortes.",
+            "en": "Low vitamin D causes infertility, as cohorts demonstrate."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las cohortes muestran asociación, no causalidad; puede haber confusión.",
+            "en": "Cohorts show association, not causation; confounding is possible."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El metaanálisis de 2023 prueba la eficacia de la vitamina D sola sobre el nacido vivo.",
+            "en": "The 2023 meta-analysis proves the efficacy of vitamin D alone on live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "Mezcla diseños y productos multicomponente; con vitamina D sola el efecto no fue significativo salvo excluyendo SUNDRO, y no combinó nacidos vivos.",
+            "en": "It mixes designs and multicomponent products; with vitamin D alone the effect was not significant unless SUNDRO was excluded, and live births were not pooled."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Asociación, embarazo clínico y nacido vivo son peldaños distintos; para la vitamina D en FIV el peldaño del ensayo no se ha superado.",
+        "en": "Association, clinical pregnancy and live birth are different rungs; for vitamin D in IVF the trial rung has not been cleared."
+      },
+      "refIds": [
+        "chu-2018-vitd-art",
+        "somigliana-2021-sundro",
+        "meng-2023-vitd-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    }
+  ]
+}

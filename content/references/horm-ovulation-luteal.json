@@ -1,0 +1,112 @@
+[
+  {
+    "id": "asrm-2026-luteal-phase-deficiency",
+    "title": "Diagnosis and treatment of luteal phase deficiency: a Committee Opinion",
+    "authors": "Practice Committee of the American Society for Reproductive Medicine and Practice Committee of the Society for Reproductive Endocrinology and Infertility. Fertil Steril 2026;126(4):633-639",
+    "year": 2026,
+    "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/diagnosis-and-treatment-of-luteal-phase-deciency-a-committee-opinion/",
+    "doi": "10.1016/j.fertnstert.2026.06.014",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres con sospecha de insuficiencia lútea (infertilidad, pérdida gestacional) y mujeres fértiles con ciclos regulares como comparación.",
+      "en": "Women with suspected luteal phase deficiency (infertility, pregnancy loss) and fertile, regularly cycling women as comparison."
+    },
+    "finding": {
+      "es": "La insuficiencia lútea (LPD) es un diagnóstico clínico asociado a fase lútea ≤10 días; no se ha demostrado que sea una entidad independiente que cause infertilidad o pérdida gestacional recurrente. Ninguna prueba (duración lútea, progesterona, biopsia endometrial, marcadores moleculares) distingue de forma fiable fértiles de infértiles. Primero, corregir causas subyacentes (hipotalámica, tiroidea, hiperprolactinemia); el tratamiento empírico en general no se recomienda; ningún tratamiento ha mejorado el embarazo en ciclos naturales.",
+      "en": "Luteal phase deficiency (LPD) is a clinical diagnosis associated with a luteal phase ≤10 days; it has not been proven to be an independent entity causing infertility or recurrent pregnancy loss. No test (luteal length, progesterone, endometrial biopsy, molecular markers) reliably distinguishes fertile from infertile women. First correct underlying conditions (hypothalamic, thyroid, hyperprolactinaemia); empiric treatment is generally not recommended; no treatment has improved pregnancy rates in natural cycles."
+    },
+    "limitations": {
+      "es": "Opinión de comité basada en evidencia escasa y heterogénea; sustituye a la versión de 2021 (Fertil Steril 2021;115(6):1416-23). Texto completo verificado (PDF en el sitio de ASRM; la página web aún muestra “(2021)” en el título).",
+      "en": "Committee opinion based on scarce, heterogeneous evidence; replaces the 2021 version (Fertil Steril 2021;115(6):1416-23). Full text verified (PDF on the ASRM site; the web page still shows “(2021)” in its title)."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "kauffman-2022-lh-surge",
+    "title": "Neuroendocrine mechanisms underlying estrogen positive feedback and the LH surge",
+    "authors": "Kauffman AS. Front Neurosci 2022;16:953252",
+    "year": 2022,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9364933/",
+    "doi": "10.3389/fnins.2022.953252",
+    "type": "narrative-review",
+    "population": {
+      "es": "Revisión de fisiología neuroendocrina, sobre todo en modelos de roedor.",
+      "en": "Review of neuroendocrine physiology, mainly from rodent models."
+    },
+    "finding": {
+      "es": "Durante la mayor parte del ciclo el estradiol ejerce retroalimentación negativa sobre la GnRH; al final de la fase folicular, el estradiol creciente pasa a retroalimentación positiva, con un pico de GnRH y un pico de LH que desencadena la ovulación. Las neuronas GnRH carecen de receptores esteroideos: el efecto es indirecto, con las neuronas de kisspeptina como candidatas clave. Los mecanismos del cambio siguen mal comprendidos.",
+      "en": "For most of the cycle oestradiol exerts negative feedback on GnRH; at the end of the follicular phase rising oestradiol switches to positive feedback, producing a GnRH surge and an LH surge that triggers ovulation. GnRH neurons lack steroid receptors: the effect is indirect, with kisspeptin neurons as key candidates. The mechanisms of the switch remain poorly understood."
+    },
+    "limitations": {
+      "es": "Revisión narrativa centrada en roedores; la extrapolación a humanos es parcial. Verificados el resumen y la introducción.",
+      "en": "Narrative review focused on rodents; extrapolation to humans is partial. Abstract and introduction verified."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "baerwald-2012-folliculogenesis",
+    "title": "Ovarian antral folliculogenesis during the human menstrual cycle: a review",
+    "authors": "Baerwald AR, Adams GP, Pierson RA. Hum Reprod Update 2012;18(1):73-91",
+    "year": 2012,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22068695/",
+    "doi": "10.1093/humupd/dmr039",
+    "type": "narrative-review",
+    "population": {
+      "es": "Revisión de más de 200 estudios histológicos, endocrinos y ecográficos en mujeres.",
+      "en": "Review of more than 200 histological, endocrine and ultrasound studies in women."
+    },
+    "finding": {
+      "es": "Los mecanismos de reclutamiento y selección de folículos antrales no están del todo aclarados; hay varias teorías de reclutamiento (continuo, una cohorte, dos o tres oleadas). En general se selecciona un único folículo dominante en la fase folicular media que ovula a mitad del ciclo; crece la evidencia de oleadas foliculares múltiples por ciclo.",
+      "en": "The mechanisms of antral follicle recruitment and selection are not fully elucidated; there are several recruitment theories (continuous, one cohort, two or three waves). Generally a single dominant follicle is selected in the mid-follicular phase and ovulates at mid-cycle; evidence for multiple follicular waves per cycle is increasing."
+    },
+    "limitations": {
+      "es": "Solo se verificó el resumen; revisión narrativa de 2012.",
+      "en": "Only the abstract was verified; 2012 narrative review."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "bull-2019-cycle-characteristics",
+    "title": "Real-world menstrual cycle characteristics of more than 600,000 menstrual cycles",
+    "authors": "Bull JR, Rowland SP, Scherwitzl EB, et al. NPJ Digit Med 2019;2:83",
+    "year": 2019,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6710244/",
+    "doi": "10.1038/s41746-019-0152-7",
+    "type": "cross-sectional",
+    "population": {
+      "es": "612 613 ciclos ovulatorios de 124 648 usuarias de una app de fertilidad (Natural Cycles); ovulación estimada por algoritmo con temperatura basal y, opcionalmente, LH urinaria.",
+      "en": "612,613 ovulatory cycles from 124,648 users of a fertility app (Natural Cycles); ovulation estimated by an algorithm using basal body temperature and, optionally, urinary LH."
+    },
+    "finding": {
+      "es": "Fase folicular media de 16,9 días y fase lútea media de 12,4 ± 2,4 días; las diferencias de longitud de ciclo se debieron sobre todo a la fase folicular. Con ciclos de 25–30 días la fase folicular media fue de 15,2 días; con 31–35 días, de 19,5 días. Para la mayoría, la ovulación no ocurrió el día 14.",
+      "en": "Mean follicular phase 16.9 days and mean luteal phase 12.4 ± 2.4 days; differences in cycle length were driven mainly by the follicular phase. With 25–30-day cycles the mean follicular phase was 15.2 days; with 31–35-day cycles, 19.5 days. For most, ovulation did not occur on day 14."
+    },
+    "limitations": {
+      "es": "Datos de app con ovulación estimada por algoritmo (no confirmada por ecografía ni hormonas séricas); población de usuarias autoseleccionada; autores vinculados a la empresa de la app. Texto completo verificado.",
+      "en": "App data with algorithm-estimated ovulation (not confirmed by ultrasound or serum hormones); self-selected users; authors affiliated with the app company. Full text verified."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "wilcox-1995-intercourse-timing",
+    "title": "Timing of sexual intercourse in relation to ovulation. Effects on the probability of conception, survival of the pregnancy, and sex of the baby",
+    "authors": "Wilcox AJ, Weinberg CR, Baird DD. N Engl J Med 1995;333(23):1517-1521",
+    "year": 1995,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7477165/",
+    "doi": "10.1056/NEJM199512073332301",
+    "type": "cohort",
+    "population": {
+      "es": "221 mujeres sanas que buscaban embarazo; 625 ciclos con día de ovulación estimado por metabolitos urinarios de estrógeno y progesterona.",
+      "en": "221 healthy women planning pregnancy; 625 cycles with ovulation day estimated from urinary oestrogen and progesterone metabolites."
+    },
+    "finding": {
+      "es": "La concepción solo ocurrió con relaciones en un periodo de seis días que terminaba el día estimado de la ovulación; la probabilidad de concepción fue de 0,10 con relaciones cinco días antes y de 0,33 el día de la ovulación.",
+      "en": "Conception occurred only with intercourse during a six-day period ending on the estimated day of ovulation; the probability of conception ranged from 0.10 with intercourse five days before to 0.33 on the day of ovulation."
+    },
+    "limitations": {
+      "es": "Solo se verificó el resumen; mujeres sanas sin infertilidad; concepción definida por aumento de hCG urinaria; estudio de 1995.",
+      "en": "Only the abstract was verified; healthy women without infertility; conception defined by a rise in urinary hCG; 1995 study."
+    },
+    "accessed": "2026-10-12"
+  }
+]

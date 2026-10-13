@@ -1,0 +1,67 @@
+[
+  {
+    "id": "acog-asrm-2014-co589",
+    "title": "Female age-related fertility decline. Committee Opinion No. 589",
+    "authors": "American College of Obstetricians and Gynecologists Committee on Gynecologic Practice; Practice Committee of the American Society for Reproductive Medicine",
+    "year": 2014,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24559617/",
+    "doi": "10.1016/j.fertnstert.2013.12.032",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres que desean embarazo; Fertil Steril 2014;101(3):633–4.",
+      "en": "Women who desire pregnancy; Fertil Steril 2014;101(3):633–4."
+    },
+    "finding": {
+      "es": "La fecundidad femenina disminuye de forma gradual pero significativa desde aproximadamente los 32 años y más rápidamente después de los 37. Las mujeres mayores de 35 deben recibir una evaluación acelerada y tratamiento tras 6 meses de intentos fallidos, o antes si está clínicamente indicado; en mayores de 40 están justificados evaluación y tratamiento más inmediatos.",
+      "en": "Female fecundity decreases gradually but significantly beginning at approximately 32 years and more rapidly after 37. Women older than 35 should receive an expedited evaluation and undergo treatment after 6 months of failed attempts to conceive, or earlier if clinically indicated; in women older than 40, more immediate evaluation and treatment are warranted."
+    },
+    "limitations": {
+      "es": "Solo se verificó el resumen (PubMed). Documento de 2014; no se pudo confirmar su estado actual (reafirmación o retirada): la página de ACOG no fue accesible y la de ASRM no lo localiza.",
+      "en": "Only the abstract was verified (PubMed). 2014 document; its current status (reaffirmation or withdrawal) could not be confirmed: the ACOG page was not accessible and the ASRM page does not list it."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "aua-asrm-2020-male-infertility",
+    "title": "Diagnosis and Treatment of Infertility in Men: AUA/ASRM Guideline (2020; amended 2024)",
+    "authors": "American Urological Association; American Society for Reproductive Medicine (Schlegel PN, Sigman M, Collura B, et al.)",
+    "year": 2020,
+    "url": "https://www.auanet.org/guidelines-and-quality/guidelines/male-infertility",
+    "type": "guideline",
+    "population": {
+      "es": "Varones de parejas con infertilidad.",
+      "en": "Male partners of couples with infertility."
+    },
+    "finding": {
+      "es": "Statement 1: evaluación concurrente de ambos miembros en la evaluación inicial (Opinión de experto). Statement 2: historia reproductiva (Principio clínico) y uno o más seminogramas en la evaluación inicial del varón (recomendación fuerte; evidencia grado B). Statement 7: informar a las parejas con edad paterna avanzada (≥40) de un mayor riesgo de desenlaces adversos de salud en la descendencia (Opinión de experto).",
+      "en": "Statement 1: concurrent assessment of both partners in the initial evaluation (Expert Opinion). Statement 2: reproductive history (Clinical Principle) and one or more semen analyses in the initial male evaluation (Strong Recommendation; Evidence Level Grade B). Statement 7: advise couples with advanced paternal age (≥40) of an increased risk of adverse health outcomes for offspring (Expert Opinion)."
+    },
+    "limitations": {
+      "es": "Se leyeron los Statements 1–8 y las definiciones de grados en la página oficial de la AUA (primer tramo del texto); no se leyó el artículo completo. Contexto estadounidense; DOI de las partes I/II no verificado en esta tarea.",
+      "en": "Statements 1–8 and grading definitions were read on the official AUA page (first portion of the text); the full article was not read. US context; DOIs of parts I/II not verified in this task."
+    },
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "asrm-2022-optimizing-natural-fertility",
+    "title": "Optimizing natural fertility: a committee opinion",
+    "authors": "Practice Committee of the American Society for Reproductive Medicine; Practice Committee of the Society for Reproductive Endocrinology and Infertility",
+    "year": 2022,
+    "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/",
+    "doi": "10.1016/j.fertnstert.2021.10.007",
+    "type": "consensus",
+    "population": {
+      "es": "Parejas o personas que buscan embarazo sin evidencia de infertilidad; Fertil Steril 2022;117:53–63.",
+      "en": "Couples or individuals attempting conception with no evidence of infertility; Fertil Steril 2022;117:53–63."
+    },
+    "finding": {
+      "es": "Fecundabilidad mensual máxima en los 3 primeros meses; fertilidad relativa a los 40 años aproximadamente la mitad que a finales de los 20/principios de los 30; parámetros seminales descienden tras los 35, pero la fertilidad masculina no parece afectarse apreciablemente antes de los ~50. Ventana fértil: 6 días que terminan el día de la ovulación; relaciones cada 1–2 días dan las tasas más altas y 2–3 veces por semana casi equivalentes; no limitar la frecuencia. Postura y rutinas poscoitales sin impacto; evidencia insuficiente de que una dieta concreta mejore la fertilidad natural.",
+      "en": "Monthly fecundability greatest in the first 3 months; relative fertility at 40 about half that of the late 20s/early 30s; semen parameters decline after 35, but male fertility does not appear appreciably affected before ~50. Fertile window: 6 days ending on the day of ovulation; intercourse every 1–2 days gives the highest rates and 2–3 times per week nearly equivalent; do not limit frequency. Position and postcoital routines have no impact; insufficient evidence that a specific diet improves natural fertility."
+    },
+    "limitations": {
+      "es": "Texto completo leído (PDF de ASRM). Opinión de comité basada en consenso de expertos; la mayoría de los datos de estilo de vida son observacionales; contexto estadounidense.",
+      "en": "Full text read (ASRM PDF). Committee opinion based on expert consensus; most lifestyle data are observational; US context."
+    },
+    "accessed": "2026-10-12"
+  }
+]
