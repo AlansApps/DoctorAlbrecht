@@ -1,0 +1,1502 @@
+{
+  "id": "fert-addons",
+  "macroId": "fert",
+  "title": {
+    "es": "Add-ons en FIV: qué son, cómo valorarlos y qué dicen ESHRE y NICE",
+    "en": "IVF add-ons: what they are, how to appraise them and what ESHRE and NICE say"
+  },
+  "lessons": [
+    {
+      "id": "fert-ao.l1-framework",
+      "microId": "fert.addons-overview",
+      "title": {
+        "es": "Qué es un add-on y cómo leer una recomendación sobre él",
+        "en": "What an add-on is and how to read a recommendation about it"
+      },
+      "objective": {
+        "es": "Definir qué es un add-on, interpretar las cuatro fórmulas de recomendación del documento ESHRE de 2023, valorar la calidad de la evidencia con el nacido vivo como resultado principal y aplicar sus mensajes sobre información a la paciente, costes e investigación.",
+        "en": "Define what an add-on is, interpret the four recommendation phrases of the 2023 ESHRE document, appraise the quality of evidence with live birth as the main outcome, and apply its messages on patient information, costs and research."
+      },
+      "closing": {
+        "es": "Un add-on se juzga por nacidos vivos, seguridad y coste, no por la plausibilidad; lo que no ha demostrado beneficio debería ofrecerse solo dentro de un estudio, y la paciente tiene derecho a saberlo antes de pagar.",
+        "en": "An add-on is judged by live births, safety and cost, not by plausibility; what has not shown benefit should be offered only within a study, and the patient has the right to know this before paying."
+      },
+      "prerequisites": [
+        "fert.unexplained"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "fert-ao.c1-definition",
+        "fert-ao.c2-four-phrases",
+        "fert-ao.c3-appraisal",
+        "fert-ao.c4-counselling-ethics",
+        "fert-ao.q1-routine-phrase",
+        "fert-ao.q2-best-evidence",
+        "fert-ao.q3-unproven-request"
+      ]
+    },
+    {
+      "id": "fert-ao.l2-lab-stimulation",
+      "microId": "fert.ivf-icsi",
+      "title": {
+        "es": "Laboratorio y estimulación: ICSI, PGT-A, time-lapse, eclosión asistida, ácido hialurónico y adyuvantes",
+        "en": "Laboratory and stimulation: ICSI, PGT-A, time-lapse, assisted hatching, hyaluronic acid and adjuncts"
+      },
+      "objective": {
+        "es": "Aplicar las recomendaciones de ESHRE y NICE sobre ICSI sin factor masculino, PGT-A, time-lapse, eclosión asistida, medio de transferencia con ácido hialurónico y adyuvantes durante la estimulación ovárica (hormona de crecimiento, DHEA, testosterona, antioxidantes).",
+        "en": "Apply ESHRE and NICE recommendations on ICSI without male factor, PGT-A, time-lapse imaging, assisted hatching, hyaluronic acid transfer medium and adjuncts during ovarian stimulation (growth hormone, DHEA, testosterone, antioxidants)."
+      },
+      "closing": {
+        "es": "ICSI solo con indicación, PGT-A y time-lapse sin beneficio demostrado en nacido vivo, eclosión asistida no; el ácido hialurónico es la excepción «recommended» (beneficio visto solo en fresco y con un solo embrión), y los adyuvantes de la estimulación no se recomiendan de forma rutinaria.",
+        "en": "ICSI only with an indication, PGT-A and time-lapse without proven live-birth benefit, no assisted hatching; hyaluronic acid is the “recommended” exception (benefit seen only in fresh transfers, with a single embryo), and stimulation adjuncts are not recommended routinely."
+      },
+      "prerequisites": [
+        "fert.addons-overview"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "fert-ao.c5-icsi-non-male",
+        "fert-ao.c6-pgta",
+        "fert-ao.c7-timelapse-hatching",
+        "fert-ao.c8-hyaluronic-acid",
+        "fert-ao.c9-stimulation-adjuncts",
+        "fert-ao.q4-icsi-unexplained",
+        "fert-ao.q5-pgta-live-birth",
+        "fert-ao.q6-ha-frozen",
+        "fert-ao.q7-gh-low-responder"
+      ]
+    },
+    {
+      "id": "fert-ao.l3-endometrium-immunology",
+      "microId": "fert.endometrial-receptivity",
+      "title": {
+        "es": "Endometrio e inmunología: ERA, scratching, células NK, inmunomoduladores y terapias «regenerativas»",
+        "en": "Endometrium and immunology: ERA, scratching, NK cells, immunomodulators and “regenerative” therapies"
+      },
+      "objective": {
+        "es": "Explicar por qué ESHRE y NICE desaconsejan las pruebas de receptividad endometrial, el scratching, el estudio de células NK y los tratamientos inmunomoduladores, conocer la postura sobre PRP, G-CSF y células madre, y distinguir dónde coinciden y dónde difieren ambas instituciones.",
+        "en": "Explain why ESHRE and NICE advise against endometrial receptivity testing, endometrial scratching, NK-cell testing and immunomodulating treatments, know the position on PRP, G-CSF and stem cells, and distinguish where the two bodies agree and where they differ."
+      },
+      "closing": {
+        "es": "Tras fallos de transferencia, el paquete «endometrio + inmunología» no tiene respaldo: ni ERA, ni NK, ni intralípidos, ni corticoides, ni scratching; ESHRE y NICE coinciden casi en todo, y donde difieren es en la fuerza de la fórmula, no en la dirección.",
+        "en": "After failed transfers, the “endometrium + immunology” package has no support: no ERA, no NK testing, no intralipid, no steroids, no scratching; ESHRE and NICE agree on almost everything, and where they differ it is in the strength of the wording, not the direction."
+      },
+      "prerequisites": [
+        "fert.addons-overview"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "fert-ao.c10-receptivity-tests",
+        "fert-ao.c11-scratching",
+        "fert-ao.c12-immunology",
+        "fert-ao.c13-prp-gcsf-stemcells",
+        "fert-ao.c14-eshre-vs-nice",
+        "fert-ao.q8-era-euploid",
+        "fert-ao.q9-nk-intralipid",
+        "fert-ao.q10-scratch-first-ivf",
+        "fert-ao.case1-noemi-gabriel"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c1-definition",
+      "type": "concept",
+      "conceptId": "fert-ao.definition",
+      "title": {
+        "es": "Qué es un add-on: algo que se añade al tratamiento estándar, casi siempre con coste extra",
+        "en": "What an add-on is: something added to standard treatment, almost always at extra cost"
+      },
+      "core": {
+        "es": "La ESHRE llama add-ons a las opciones complementarias que se ofrecen además de los procedimientos de fertilidad estándar, normalmente con un coste adicional: pruebas, fármacos, equipos, terapias complementarias o alternativas, procedimientos de laboratorio e intervenciones quirúrgicas. Comparten el objetivo declarado de aumentar el embarazo o el nacido vivo, reducir el aborto o acortar el tiempo hasta el embarazo, y la evidencia sobre su seguridad y eficacia suele ser limitada o inexistente. [[ref:eshre-2023-addons]]",
+        "en": "ESHRE calls add-ons the supplementary options offered in addition to standard fertility procedures, typically at an additional cost: tests, drugs, equipment, complementary or alternative therapies, laboratory procedures and surgical interventions. They share the stated aim of increasing pregnancy or live birth, reducing miscarriage or shortening time to pregnancy, and evidence on their safety and efficacy is often limited or lacking. [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "El contexto decide: en algunos lugares la ICSI solo se hace con indicación (factor masculino diagnosticado o fallo de fecundación en una FIV previa) y en otros se usa en todas las parejas; en ese segundo escenario la ESHRE considera que la ICSI es un add-on, sobre todo si se cobra aparte. Del mismo modo, el time-lapse usado para investigación, docencia o control de calidad no se considera add-on si no supone un coste adicional para la paciente. [[ref:eshre-2023-addons]]\n\nPor qué proliferan: el riesgo real de que un ciclo fracase, unido al coste, lleva a algunas pacientes a abandonar y a otras a buscar opciones que suponen mejores; y los profesionales pueden verse movidos por el deseo de hacer lo mejor, la presión de las pacientes y, a veces, motivos competitivos o comerciales. Como referencia de expectativas, los datos europeos que cita el documento dan tasas de parto por transferencia en fresco del 26,1 % con FIV y del 23,9 % con ICSI. [[ref:eshre-2023-addons]]",
+        "en": "Context decides: in some settings ICSI is only performed when indicated (diagnosed male factor or fertilisation failure in a previous IVF cycle) and in others it is used for all couples; in the latter, ESHRE considers ICSI an add-on, particularly if extra costs are charged. Likewise, time-lapse imaging used for research, teaching or quality control is not considered an add-on if there is no additional cost to the patient. [[ref:eshre-2023-addons]]\n\nWhy they spread: the real risk of a cycle failing, combined with cost, leads some patients to drop out and others to look for presumed better options; and professionals may be driven by the wish to do their best, pressure from patients and sometimes competitive or commercial motives. As a benchmark for expectations, the European data cited by the document give delivery rates per fresh transfer of 26.1% with IVF and 23.9% with ICSI. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "La misma técnica puede ser estándar o add-on según para quién se use y si se cobra aparte: pregunta siempre «¿para qué paciente y para qué resultado?».",
+        "en": "The same technique can be standard or an add-on depending on who it is used for and whether it is charged separately: always ask “for which patient and for which outcome?”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2023, recomendaciones de buena práctica (GPR) sobre add-ons: revisión de la literatura publicada hasta el 10-8-2022 más consenso del grupo de trabajo; no es una guía GRADE y no fija un estándar asistencial.",
+          "en": "ESHRE 2023 good practice recommendations (GPR) on add-ons: review of the literature published up to 10 Aug 2022 plus working-group consensus; not a GRADE guideline and does not set a standard of care."
+        }
+      },
+      "recall": {
+        "es": "¿Qué rasgos tienen en común los add-ons según la ESHRE y por qué la ICSI puede ser estándar en un centro y add-on en otro?",
+        "en": "What features do add-ons share according to ESHRE, and why can ICSI be standard in one clinic and an add-on in another?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c2-four-phrases",
+      "type": "concept",
+      "conceptId": "fert-ao.four-phrases",
+      "title": {
+        "es": "Las cuatro fórmulas de la ESHRE: de «recommended» a «not recommended»",
+        "en": "ESHRE’s four phrases: from “recommended” to “not recommended”"
+      },
+      "core": {
+        "es": "La ESHRE formula sus 42 recomendaciones con cuatro frases estándar. «Recommended»: aplicable a la mayoría de pacientes o a los grupos en que sea relevante. «Can be considered»: aplicable tras comentar a fondo beneficios y riesgos, con seguimiento y evaluación estrechos. «Currently not recommended for routine clinical use»: no aplicar de rutina por ahora, aunque puede cambiar con más evidencia y, opcionalmente, aplicarse a un grupo concreto. «Not recommended»: por seguridad, falta de eficacia o falta de base biológica, no debe aplicarse a pacientes y solo puede evaluarse en investigación estricta. [[ref:eshre-2023-addons]]",
+        "en": "ESHRE words its 42 recommendations with four standard phrases. “Recommended”: can be applied to most patients or to the groups for whom it is relevant. “Can be considered”: can be applied after a thorough discussion of benefits and risks, with close monitoring and evaluation. “Currently not recommended for routine clinical use”: not to be applied routinely at this stage, although this may change with more evidence and it can optionally be applied to a specific group. “Not recommended”: because of safety concerns, lack of efficacy or lack of biological rationale, it should not be applied to patients and can only be evaluated in strict research settings. [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "Ejemplos del propio documento. «Recommended»: añadir ácido hialurónico al medio de transferencia; la activación ovocitaria artificial ante fallo completo de activación (0 % 2PN), fecundación muy baja (< 30 %) o globozoospermia; la activación espermática artificial en la astenozoospermia total primaria o secundaria no debida a defectos de la estructura del axonema. «Can be considered»: la microfluídica para seleccionar y preparar espermatozoides y la histeroscopia de cribado en el fallo de implantación recurrente. [[ref:eshre-2023-addons]]\n\n«Currently not recommended for routine clinical use»: PGT-A, scratching endometrial, estudio de fragmentación del ADN espermático, genotipado KIR/HLA, IMSI, MACS, freeze-all electivo e histeroscopia de cribado en general. «Not recommended»: pruebas de receptividad endometrial, pruebas inmunitarias en sangre y de NK uterinas, inmunomoduladores, glucocorticoides, eclosión asistida, ICSI sin factor masculino, antioxidantes, PRP intrauterino o intraovárico y adyuvantes de la estimulación. [[ref:eshre-2023-addons]]",
+        "en": "Examples from the document itself. “Recommended”: adding hyaluronic acid to the transfer medium; artificial oocyte activation for complete activation failure (0% 2PN), very low fertilisation (< 30%) or globozoospermia; artificial sperm activation for primary or secondary total asthenozoospermia not caused by axonemal structure defects. “Can be considered”: microfluidics for sperm selection and preparation, and screening hysteroscopy in recurrent implantation failure. [[ref:eshre-2023-addons]]\n\n“Currently not recommended for routine clinical use”: PGT-A, endometrial scratching, sperm DNA damage testing, KIR/HLA genotyping, IMSI, MACS, elective freeze-all and screening hysteroscopy in general. “Not recommended”: endometrial receptivity tests, peripheral blood immune tests and uterine NK testing, immunomodulating treatments, glucocorticoids, assisted hatching, ICSI without male factor, antioxidants, intrauterine or intraovarian PRP and stimulation adjuncts. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Estas cuatro fórmulas no son grados GRADE (fuerte/débil con ⊕): son la escala propia de un documento de buenas prácticas. No las mezcles al comparar con otras guías.",
+        "en": "These four phrases are not GRADE grades (strong/weak with ⊕): they are a scale specific to a good practice document. Do not mix them up when comparing with other guidelines."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE add-ons 2023, tabla 1 (definiciones de las cuatro fórmulas) y tablas 2, 4 y 5 (resumen de recomendaciones). Búsqueda hasta el 10-8-2022.",
+          "en": "ESHRE add-ons 2023, Table 1 (definitions of the four phrases) and Tables 2, 4 and 5 (summary of recommendations). Search up to 10 Aug 2022."
+        }
+      },
+      "recall": {
+        "es": "¿Qué diferencia práctica hay entre «currently not recommended for routine clinical use» y «not recommended» en el documento ESHRE?",
+        "en": "What is the practical difference between “currently not recommended for routine clinical use” and “not recommended” in the ESHRE document?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c3-appraisal",
+      "type": "active-recall",
+      "conceptId": "fert-ao.appraisal",
+      "title": {
+        "es": "Cómo valorar un add-on: base biológica, nacido vivo, seguridad y coste",
+        "en": "How to appraise an add-on: biological rationale, live birth, safety and cost"
+      },
+      "core": {
+        "es": "La ESHRE tomó como resultado principal el nacido vivo (acumulado cuando existía) y solo usó la tasa de embarazo si no se comunicaba el nacido vivo. De sus 42 recomendaciones, ninguna se apoya en evidencia de alta calidad y solo cuatro en evidencia de calidad moderada; el resto descansa en ensayos de baja calidad, datos observacionales, experiencia profesional o consenso (el resumen del documento lo cifra en un 95 %, aunque 38 de 42 son el 90 %). [[ref:eshre-2023-addons]]",
+        "en": "ESHRE took live birth (cumulative when available) as the primary outcome and used pregnancy rate only when live birth was not reported. Of its 42 recommendations, none rests on high-quality evidence and only four on moderate-quality evidence; the rest rely on low-quality trials, observational data, professional experience or consensus (the document’s abstract puts this at 95%, although 38 of 42 is 90%). [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "Señales de alarma que el propio documento ilustra: un efecto que desaparece al quedarse con los ensayos de bajo riesgo de sesgo (histeroscopia de cribado antes de FIV: RR de nacido vivo 1,26 en el global, 0,99 en los 2 ECA de bajo riesgo de sesgo); variables indirectas en lugar del embarazo (parámetros seminales o índice de fragmentación en los estudios de antioxidantes); estudios pequeños y concentrados en un solo grupo de investigación (PRP intrauterino), con un ECA registrado para 30 pacientes por brazo y publicado con un tamaño más de diez veces mayor; y beneficios que solo aparecen en subgrupos. [[ref:eshre-2023-addons]]\n\nLa ESHRE añade que varias pruebas e intervenciones carecen de base científica o se apoyan en fundamentos teóricos dudosos o incorrectos, y pide evaluarlas por eficacia, seguridad, relevancia y coste-efectividad. Para muchos add-ons, el nacido vivo acumulado sería el resultado óptimo, pero rara vez se comunica. [[ref:eshre-2023-addons]]",
+        "en": "Warning signs illustrated by the document itself: an effect that disappears when only trials at low risk of bias are kept (screening hysteroscopy before IVF: live-birth RR 1.26 overall, 0.99 in the 2 RCTs at low risk of bias); surrogate outcomes instead of pregnancy (semen parameters or DNA fragmentation index in antioxidant studies); small studies concentrated in a single research group (intrauterine PRP), with one RCT registered for 30 patients per arm and published with a sample more than ten times larger; and benefits that appear only in subgroups. [[ref:eshre-2023-addons]]\n\nESHRE adds that several tests and interventions lack a scientific rationale or rest on questionable or incorrect theoretical foundations, and asks that they be evaluated for efficacy, safety, relevance and cost-effectiveness. For many add-ons cumulative live birth would be the optimal outcome, but it is seldom reported. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Cuatro preguntas ante cualquier add-on: ¿tiene base biológica?, ¿aumenta el nacido vivo en ECA bien hechos?, ¿qué riesgos tiene?, ¿cuánto cuesta y quién lo paga?",
+        "en": "Four questions for any add-on: does it have a biological rationale? does it increase live birth in well-conducted RCTs? what are its risks? how much does it cost and who pays?"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE add-ons 2023: resumen (limitaciones), métodos y discusión. Las cifras de histeroscopia proceden de la revisión Cochrane que resume el documento.",
+          "en": "ESHRE add-ons 2023: abstract (limitations), methods and discussion. The hysteroscopy figures come from the Cochrane review summarised in the document."
+        }
+      },
+      "recall": {
+        "es": "¿Qué resultado usó la ESHRE para juzgar la eficacia de los add-ons y cuántas de sus 42 recomendaciones se basan en evidencia de alta calidad?",
+        "en": "Which outcome did ESHRE use to judge add-on efficacy, and how many of its 42 recommendations rest on high-quality evidence?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c4-counselling-ethics",
+      "type": "what-i-would-do",
+      "conceptId": "fert-ao.counselling-ethics",
+      "title": {
+        "es": "Informar con honestidad: lo no demostrado, solo dentro de investigación",
+        "en": "Honest counselling: what is unproven belongs in research"
+      },
+      "core": {
+        "es": "La ESHRE pide que toda prueba o intervención se evalúe por eficacia, seguridad, relevancia y coste-efectividad, y que compartir esa evaluación forme parte habitual del asesoramiento. Hay que distinguir con claridad lo que ha demostrado beneficio de lo que no; esto último solo debería ofrecerse en un contexto de investigación, y solo los add-ons basados en evidencia deberían ofrecerse en la práctica clínica. [[ref:eshre-2023-addons]]",
+        "en": "ESHRE asks that every test or intervention be evaluated for efficacy, safety, relevance and cost-effectiveness, and that sharing this evaluation become a standard part of counselling. A clear distinction must be made between what has shown benefit and what has not; the latter should only be provided in a research context, and only evidence-based add-ons should be offered in clinical practice. [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "Investigación significa aprobación ética, un protocolo bien definido y seguimiento a largo plazo. El documento reconoce que no siempre es factible (pocas pacientes, enfermedades raras, falta de financiación) y atribuye a los centros la responsabilidad de monitorizar y seguir las intervenciones no establecidas y compartir sus resultados con otros centros. [[ref:eshre-2023-addons]]\n\nEl objetivo declarado es que las pacientes decidan informadas y con expectativas realistas, conociendo las opciones y la probabilidad de que una prueba o tratamiento adicional aumente su posibilidad de un nacido vivo. La ESHRE subraya que no pretende desalentar la investigación: para los add-ons con una base clara, anima a seguir estudiándolos. [[ref:eshre-2023-addons]]",
+        "en": "Research means ethical approval, a clearly defined protocol and long-term follow-up. The document acknowledges that this is not always feasible (few patients, rare conditions, lack of funding) and makes clinics responsible for monitoring and following up non-established interventions and sharing results with other clinics. [[ref:eshre-2023-addons]]\n\nThe stated aim is for patients to make informed decisions with realistic expectations, knowing the options and the likelihood that an additional test or treatment improves their chance of a live birth. ESHRE stresses that it does not intend to discourage research: for add-ons with a clear rationale, it encourages further study. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Frase útil: «Esta prueba no ha demostrado aumentar las posibilidades de tener un bebé; si quieres hacerla, lo honesto es dentro de un estudio y sabiendo lo que cuesta».",
+        "en": "Useful phrase: “This test has not been shown to increase your chances of having a baby; if you want it, the honest way is within a study and knowing what it costs.”"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE add-ons 2023, resumen (implicaciones) y discusión. Postura de consenso, no recomendación graduada.",
+          "en": "ESHRE add-ons 2023, abstract (implications) and discussion. Consensus position, not a graded recommendation."
+        }
+      },
+      "recall": {
+        "es": "Según la ESHRE, ¿en qué contexto deberían ofrecerse los add-ons sin beneficio demostrado y qué debe incluir el asesoramiento?",
+        "en": "According to ESHRE, in what context should add-ons without proven benefit be offered, and what should counselling include?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q1-routine-phrase",
+      "conceptId": "fert-ao.four-phrases",
+      "difficulty": 1,
+      "stem": {
+        "es": "En el documento ESHRE de 2023, el scratching endometrial figura como «currently not recommended for routine clinical use». ¿Qué significa esta fórmula?",
+        "en": "In the 2023 ESHRE document, endometrial scratching is listed as “currently not recommended for routine clinical use”. What does this phrase mean?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que tiene problemas de seguridad o carece de base biológica y solo puede evaluarse en investigación estricta.",
+            "en": "That it has safety concerns or lacks a biological rationale and can only be evaluated in strict research settings."
+          },
+          "correct": false,
+          "why": {
+            "es": "Esa es la definición de «not recommended», la categoría más restrictiva de la escala.",
+            "en": "That is the definition of “not recommended”, the most restrictive category of the scale."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no debe aplicarse de rutina por ahora, que puede cambiar con más evidencia y que, opcionalmente, puede aplicarse a un grupo concreto.",
+            "en": "That it should not be applied routinely at this stage, that this may change with more evidence and that it can optionally be applied to a specific group."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la definición de la tabla 1 del documento.",
+            "en": "Correct: this is the definition in Table 1 of the document."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que puede aplicarse tras comentar a fondo beneficios y riesgos, con seguimiento y evaluación estrechos.",
+            "en": "That it can be applied after a thorough discussion of benefits and risks, with close monitoring and evaluation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Esa es la definición de «can be considered».",
+            "en": "That is the definition of “can be considered”."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que es una recomendación GRADE débil basada en evidencia ⊕.",
+            "en": "That it is a weak GRADE recommendation based on ⊕ evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las cuatro fórmulas son la escala propia de un documento de buenas prácticas, no grados GRADE.",
+            "en": "The four phrases are a scale specific to a good practice document, not GRADE grades."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las cuatro fórmulas van de «recommended» a «not recommended»; «currently not recommended for routine clinical use» deja la puerta abierta a nueva evidencia y a grupos concretos, a diferencia de «not recommended».",
+        "en": "The four phrases run from “recommended” to “not recommended”; “currently not recommended for routine clinical use” leaves the door open to new evidence and specific groups, unlike “not recommended”."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q2-best-evidence",
+      "conceptId": "fert-ao.appraisal",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un laboratorio presenta un nuevo add-on con varios estudios. Siguiendo el criterio de la ESHRE, ¿qué dato sería el más relevante para decidir si ofrecerlo?",
+        "en": "A laboratory presents a new add-on with several studies. Following ESHRE’s approach, which piece of data would be most relevant to decide whether to offer it?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una mayor tasa de implantación por transferencia en un subgrupo de un estudio de un solo centro.",
+            "en": "A higher implantation rate per transfer in a subgroup of a single-centre study."
+          },
+          "correct": false,
+          "why": {
+            "es": "La implantación no es el resultado principal y los beneficios limitados a subgrupos son una señal de alarma (por ejemplo, en el scratching los subgrupos no identificaron a quién beneficia).",
+            "en": "Implantation is not the primary outcome, and benefits limited to subgroups are a warning sign (for example, with scratching, subgroup analyses failed to identify who benefits)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una mejora de los parámetros de laboratorio (por ejemplo, del índice de fragmentación del ADN espermático).",
+            "en": "An improvement in laboratory parameters (for example, the sperm DNA fragmentation index)."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una variable indirecta; la ESHRE critica precisamente que los estudios de antioxidantes usaran parámetros seminales o fragmentación en lugar del embarazo.",
+            "en": "It is a surrogate outcome; ESHRE specifically criticises antioxidant studies for using semen parameters or fragmentation instead of pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ECA que midan el nacido vivo, idealmente acumulado, con un efecto que se mantenga en los estudios de bajo riesgo de sesgo.",
+            "en": "RCTs measuring live birth, ideally cumulative, with an effect that holds in the studies at low risk of bias."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ESHRE usó el nacido vivo (acumulado si existía) como resultado principal; el caso de la histeroscopia muestra cómo un efecto puede desaparecer al quedarse con los ECA de bajo riesgo de sesgo.",
+            "en": "Correct: ESHRE used live birth (cumulative when available) as the primary outcome; the hysteroscopy example shows how an effect can disappear when only RCTs at low risk of bias are kept."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una base biológica plausible descrita en estudios de laboratorio.",
+            "en": "A plausible biological rationale described in laboratory studies."
+          },
+          "correct": false,
+          "why": {
+            "es": "La base biológica es necesaria, pero la ESHRE advierte contra la implantación prematura de innovaciones sin seguridad ni eficacia demostradas.",
+            "en": "A rationale is necessary, but ESHRE warns against premature implementation of innovations without proven safety and efficacy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lo que importa a la paciente es el bebé en casa: nacido vivo en ECA sólidos, más la seguridad y el coste. La plausibilidad y las variables intermedias no bastan.",
+        "en": "What matters to the patient is a baby at home: live birth in sound RCTs, plus safety and cost. Plausibility and intermediate outcomes are not enough."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q3-unproven-request",
+      "conceptId": "fert-ao.counselling-ethics",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente (caso ficticio) pide una intervención sin beneficio demostrado en nacido vivo y dice que está dispuesta a pagarla. Según la ESHRE, ¿cuál es la actitud más adecuada?",
+        "en": "A patient (fictional case) asks for an intervention without proven live-birth benefit and says she is willing to pay for it. According to ESHRE, what is the most appropriate approach?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ofrecerla, porque la paciente la paga y da su consentimiento.",
+            "en": "Offer it, because the patient pays and consents."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE pide que solo los add-ons basados en evidencia se ofrezcan en la práctica clínica; pagar no cambia la evidencia.",
+            "en": "ESHRE asks that only evidence-based add-ons be offered in clinical practice; paying does not change the evidence."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ofrecerla si es barata y parece inocua.",
+            "en": "Offer it if it is cheap and seems harmless."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE pide evaluar eficacia, seguridad, relevancia y coste-efectividad; que sea barata no demuestra beneficio.",
+            "en": "ESHRE asks for evaluation of efficacy, safety, relevance and cost-effectiveness; being cheap does not demonstrate benefit."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Explicarle la evidencia y la probabilidad real de beneficio y, si procede, ofrecerla solo dentro de un estudio con aprobación ética, protocolo y seguimiento.",
+            "en": "Explain the evidence and the real likelihood of benefit and, if appropriate, offer it only within a study with ethical approval, protocol and follow-up."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: compartir la evaluación forma parte del asesoramiento y lo no demostrado debería ofrecerse solo en un contexto de investigación.",
+            "en": "Correct: sharing the evaluation is part of counselling, and what is unproven should only be provided in a research context."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Negarse a hablar del tema para no generar expectativas.",
+            "en": "Refuse to discuss it so as not to raise expectations."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE busca decisiones informadas con expectativas realistas, lo que exige hablarlo, no evitarlo.",
+            "en": "ESHRE aims for informed decisions with realistic expectations, which requires discussing it, not avoiding it."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Informar no es lo mismo que vender: la ESHRE separa lo demostrado de lo no demostrado y reserva lo segundo para la investigación.",
+        "en": "Informing is not selling: ESHRE separates the proven from the unproven and reserves the latter for research."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c5-icsi-non-male",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-ao.icsi-non-male",
+      "title": {
+        "es": "ICSI sin factor masculino: no mejora el nacido vivo y cuesta más",
+        "en": "ICSI without male factor: no better live birth and higher cost"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda la ICSI en la infertilidad sin factor masculino («not recommended»), y su guía de infertilidad inexplicada no la recomienda frente a la FIV convencional (fuerte, ⊕). NICE indica no usar ICSI en problemas de fertilidad sin factor masculino si los parámetros seminales son normales (1.50.3). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE does not recommend ICSI for non-male factor infertility (“not recommended”), and its unexplained infertility guideline does not recommend it over conventional IVF (strong, ⊕). NICE advises not to use ICSI for non-male factor fertility problems if semen parameters are normal (1.50.3). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "El uso de ICSI pasó del 35 % de los ciclos en 1997 a más del 70 % en 2018, pese a que la incidencia de factor masculino se mantuvo estable. En un ECA de 1064 parejas sin factor masculino, la ICSI dio un nacido vivo comparable (RR 1,11; IC 95 % 0,93–1,32) y un fallo de fecundación comparable (RR 0,85; IC 95 % 0,53–1,38). Tampoco se ha demostrado beneficio claro en bajas respondedoras, edad materna avanzada o infertilidad inexplicada. Requiere más tiempo de laboratorio y un análisis de costes la estimó un 8,3 % más cara; los resultados perinatales parecen comparables. [[ref:eshre-2023-addons]]\n\nDónde sí: NICE ofrece ICSI con espermatozoides de recuperación quirúrgica u ovocitos desvitrificados (1.50.1) y la propone considerar si hay parámetros seminales alterados, según su gravedad, o fallo o tasa muy baja de fecundación en una FIV previa (1.50.2). NICE también indica no usar IMSI como complemento de la ICSI (1.50.4) ni PICSI en lugar de la ICSI estándar (1.50.5). [[ref:nice-2026-ng257]]",
+        "en": "ICSI use rose from 35% of cycles in 1997 to over 70% in 2018, even though the incidence of male factor remained stable. In an RCT of 1064 couples without male factor, ICSI gave comparable live birth (RR 1.11; 95% CI 0.93–1.32) and comparable fertilisation failure (RR 0.85; 95% CI 0.53–1.38). No clear benefit has been shown in poor responders, advanced maternal age or unexplained infertility either. It requires more laboratory time and one cost analysis estimated it to be 8.3% more expensive; perinatal outcomes appear comparable. [[ref:eshre-2023-addons]]\n\nWhere it does fit: NICE offers ICSI with surgically retrieved sperm or frozen–thawed oocytes (1.50.1) and suggests considering it with abnormal semen parameters, taking severity into account, or after failed or very low fertilisation in a previous IVF cycle (1.50.2). NICE also advises against IMSI as an adjunct to ICSI (1.50.4) and against PICSI in preference to standard ICSI (1.50.5). [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Con seminograma normal, la FIV convencional es la opción: la ICSI «por si acaso» no aporta nacidos vivos y sí coste.",
+        "en": "With a normal semen analysis, conventional IVF is the choice: “just in case” ICSI adds cost, not live births."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: «not recommended». ESHRE infertilidad inexplicada 2023, rec. 42: fuerte, ⊕ (escala GRADE de la ESHRE: ⊕ muy baja, ⊕⊕ baja, ⊕⊕⊕ moderada, ⊕⊕⊕⊕ alta; fuerza y calidad son cosas distintas). NICE NG257 1.50.1–1.50.5 [2026].",
+          "en": "ESHRE add-ons 2023: “not recommended”. ESHRE unexplained infertility 2023, rec. 42: strong, ⊕ (ESHRE GRADE scale: ⊕ very low, ⊕⊕ low, ⊕⊕⊕ moderate, ⊕⊕⊕⊕ high; strength and quality are different things). NICE NG257 1.50.1–1.50.5 [2026]."
+        }
+      },
+      "recall": {
+        "es": "¿Qué mostró el ECA de 1064 parejas sin factor masculino al comparar ICSI con FIV convencional, y cuándo propone NICE considerar la ICSI?",
+        "en": "What did the 1064-couple RCT without male factor show when comparing ICSI with conventional IVF, and when does NICE suggest considering ICSI?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c6-pgta",
+      "type": "concept",
+      "conceptId": "fert-ao.pgta",
+      "title": {
+        "es": "PGT-A: selecciona embriones, no mejora la cohorte",
+        "en": "PGT-A: it selects embryos, it does not improve the cohort"
+      },
+      "core": {
+        "es": "La ESHRE considera la PGT-A «currently not recommended for routine clinical use»: la mayoría de los ECA no mostraron más nacidos vivos, aunque algunos sugieren menos abortos, y entre sus daños figuran el descarte de embriones viables y un posible aumento del retraso de crecimiento intrauterino. NICE indica no ofrecer PGT-A como parte del tratamiento para mejorar la tasa de nacido vivo (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE considers PGT-A “currently not recommended for routine clinical use”: most RCTs did not show more live births, although some suggest fewer miscarriages, and its harms include disposal of viable embryos and a possible increase in intrauterine growth restriction. NICE advises not to offer PGT-A as part of fertility treatment to improve live birth rates (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "La idea es razonable: las anomalías cromosómicas embrionarias son frecuentes y dependen de la edad materna. Pero el metaanálisis de Cornelisse no halló más nacidos vivos tras la primera transferencia por mujer aleatorizada, y un ECA chino grande en mujeres de 20–37 años tampoco mejoró el nacido vivo por ciclo. Hay consenso en que el nacido vivo no es la mejor medida para la PGT-A, porque no puede mejorar la cohorte, solo seleccionar; pero los dos ECA que midieron el tiempo hasta el embarazo no hallaron diferencias. [[ref:eshre-2023-addons]]\n\nCostes y seguridad: es cara, requiere personal especializado y el coste suele repercutir en la paciente; los modelos sugieren que podría ahorrar costes en grupos concretos, como la edad materna avanzada con muchos blastocistos. Hay diferencias entre laboratorios en el diagnóstico del mosaicismo y falta de estandarización, con riesgo de descartar embriones viables por errores de análisis. NICE añade que puede dejar sin embriones para transferir en ese ciclo y que la evidencia emergente sobre menos abortos convive con grandes incertidumbres. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "The idea is reasonable: embryonic chromosomal abnormalities are common and depend on maternal age. But the Cornelisse meta-analysis found no increase in live birth after the first transfer per woman randomised, and a large Chinese RCT in women aged 20–37 also did not improve live birth per cycle. There is consensus that live birth is not the best measure for PGT-A, because it cannot improve the cohort, only select from it; yet the two RCTs that measured time to pregnancy found no difference. [[ref:eshre-2023-addons]]\n\nCost and safety: it is expensive, requires specialised staff and the cost is often passed on to the patient; models suggest it might lower costs in specific groups, such as advanced maternal age with many blastocysts. Laboratories differ in diagnosing mosaicism and standardisation is lacking, with a risk of discarding viable embryos because of analytical errors. NICE adds that it can leave no embryo to transfer in that cycle and that emerging evidence on fewer miscarriages coexists with major uncertainties. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "La PGT-A no crea embriones euploides: solo elige entre los que hay. Si alguien te promete «más bebés», pregunta por el nacido vivo acumulado por mujer, no por transferencia.",
+        "en": "PGT-A does not create euploid embryos: it only chooses among those available. If someone promises “more babies”, ask for cumulative live birth per woman, not per transfer."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "ESHRE add-ons 2023: «currently not recommended for routine clinical use». NICE NG257 1.48.1 [2026].",
+          "en": "ESHRE add-ons 2023: “currently not recommended for routine clinical use”. NICE NG257 1.48.1 [2026]."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué la PGT-A no puede aumentar el número de nacidos vivos de una cohorte y qué dicen ESHRE y NICE sobre su uso rutinario?",
+        "en": "Why can PGT-A not increase the number of live births from a cohort, and what do ESHRE and NICE say about its routine use?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c7-timelapse-hatching",
+      "type": "comparison",
+      "conceptId": "fert-ao.timelapse-hatching",
+      "title": {
+        "es": "Time-lapse y eclosión asistida: sin más nacidos vivos",
+        "en": "Time-lapse and assisted hatching: no more live births"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda el time-lapse como herramienta para mejorar el nacido vivo ni la eclosión asistida («not recommended»). NICE indica no ofrecer eclosión asistida porque no mejora la tasa de embarazo (1.49.1, de 2004) y no formuló recomendación sobre el time-lapse para seleccionar embriones. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE does not recommend time-lapse imaging as a tool to improve live birth, nor assisted hatching (“not recommended”). NICE advises not to offer assisted hatching because it has not been shown to improve pregnancy rates (1.49.1, from 2004) and made no recommendation on time-lapse for embryo selection. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Time-lapse: la revisión Cochrane que resume la ESHRE no halló diferencias en nacido vivo o embarazo en curso (OR 0,91; IC 95 % 0,67–1,23; 3 ECA; n = 826; calidad baja). Los algoritmos de selección parecen depender de cada laboratorio. Sirve para investigación, docencia, estandarización y control de calidad, pero muchas clínicas lo anuncian como mejora de resultados y algunas lo cobran aparte. NICE no vio beneficio en embarazo ni nacido vivo (certeza muy baja), pero no quiso excluir su uso por sus posibles ventajas de incubación estable. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]\n\nEclosión asistida: en la revisión Cochrane, sin efecto significativo en nacido vivo (OR 1,09; IC 95 % 0,92–1,29; 14 ECA; n = 2849; calidad baja), con un leve aumento del embarazo clínico (OR 1,20; IC 95 % 1,09–1,33; 39 ECA; calidad baja). Preocupa un posible aumento del embarazo múltiple y de los gemelos monocigóticos, aunque con pocos casos para concluir. [[ref:eshre-2023-addons]]",
+        "en": "Time-lapse: the Cochrane review summarised by ESHRE found no difference in live birth or ongoing pregnancy (OR 0.91; 95% CI 0.67–1.23; 3 RCTs; n = 826; low quality). Selection algorithms appear to be laboratory dependent. It is useful for research, teaching, standardisation and quality control, but many clinics advertise it as improving outcomes and some charge extra for it. NICE found no benefit in pregnancy or live birth (very low certainty) but did not want to preclude its use because of possible benefits of stable incubation. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]\n\nAssisted hatching: in the Cochrane review, no significant effect on live birth (OR 1.09; 95% CI 0.92–1.29; 14 RCTs; n = 2849; low quality), with a slight increase in clinical pregnancy (OR 1.20; 95% CI 1.09–1.33; 39 RCTs; low quality). There is concern about a possible increase in multiple pregnancy and monozygotic twinning, though with too few cases to conclude. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Un incubador time-lapse puede ser buen equipamiento de laboratorio; lo que no está demostrado es que pagar por él dé más bebés.",
+        "en": "A time-lapse incubator can be good laboratory equipment; what is not proven is that paying for it brings more babies."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: time-lapse «not recommended» como herramienta para mejorar el nacido vivo; eclosión asistida «not recommended». NICE NG257 1.49.1 [2004]; sin recomendación sobre time-lapse (justificación de 1.48.1).",
+          "en": "ESHRE add-ons 2023: time-lapse “not recommended” as a tool to improve live birth; assisted hatching “not recommended”. NICE NG257 1.49.1 [2004]; no recommendation on time-lapse (rationale for 1.48.1)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué recomiendan ESHRE y NICE sobre el time-lapse y la eclosión asistida, y en qué se diferencia su postura sobre el time-lapse?",
+        "en": "What do ESHRE and NICE recommend on time-lapse imaging and assisted hatching, and how does their position on time-lapse differ?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c8-hyaluronic-acid",
+      "type": "concept",
+      "conceptId": "fert-ao.hyaluronic-acid",
+      "title": {
+        "es": "Ácido hialurónico en el medio de transferencia: el add-on «recomendado», con letra pequeña",
+        "en": "Hyaluronic acid in the transfer medium: the “recommended” add-on, with small print"
+      },
+      "core": {
+        "es": "La ESHRE recomienda añadir ácido hialurónico al medio de transferencia («recommended») y aconseja seguir vigilando la tasa de embarazo múltiple; su uso debe combinarse con una política de transferencia de un solo embrión. El beneficio se vio en transferencias en fresco, no en las de embriones congelados. [[ref:eshre-2023-addons]]",
+        "en": "ESHRE recommends adding hyaluronic acid to the transfer medium (“recommended”) and advises continued monitoring of the multiple pregnancy rate; its use should be combined with a single embryo transfer policy. The benefit was seen in fresh transfers, not frozen ones. [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "En la revisión Cochrane (26 ECA; 6704 mujeres), una concentración alta de ácido hialurónico (0,5 mg/ml) aumentó el nacido vivo frente a concentración baja o ninguna (RR 1,21; 10 ECA; n = 4066; calidad moderada; número necesario a tratar 14), tanto en transferencias en día 2–3 como de blastocisto y con buen o mal pronóstico. En 3 de 8 estudios con exposición menor de 10 minutos no hubo efecto. En transferencias de congelados (3 estudios; n = 713) no hubo beneficio, y un ECA de 550 ciclos de congelados tampoco lo halló; en ciclos con ovocitos donados el efecto fue escaso (RR 1,12; 2 ECA; n = 317; calidad baja). [[ref:eshre-2023-addons]]\n\nSeguridad: aumentó el embarazo múltiple (RR 1,45; IC 95 % 1,24–1,70; 7 ECA; n = 3337; calidad moderada), atribuido a transferir más de un embrión con ácido hialurónico a concentración alta; no hubo más abortos, ectópicos ni malformaciones. Otros compuestos «adherentes» (albúmina, fibrina, colágeno) no tienen evidencia de beneficio. En el texto de NICE NG257 no encontramos ninguna recomendación sobre este add-on. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "In the Cochrane review (26 RCTs; 6704 women), a high concentration of hyaluronic acid (0.5 mg/ml) increased live birth compared with a low concentration or none (RR 1.21; 10 RCTs; n = 4066; moderate quality; number needed to treat 14), for both cleavage-stage and blastocyst transfers and for good and poor prognosis patients. In 3 of 8 studies with exposure under 10 minutes there was no effect. In frozen transfers (3 studies; n = 713) there was no benefit, and an RCT of 550 frozen cycles also found none; in donor oocyte cycles the effect was small (RR 1.12; 2 RCTs; n = 317; low quality). [[ref:eshre-2023-addons]]\n\nSafety: multiple pregnancy increased (RR 1.45; 95% CI 1.24–1.70; 7 RCTs; n = 3337; moderate quality), attributed to transferring more than one embryo with high-concentration hyaluronic acid; there were no more miscarriages, ectopic pregnancies or malformations. Other “adherence” compounds (albumin, fibrin, collagen) have no evidence of benefit. We found no recommendation on this add-on in the text of NICE NG257. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Es el único add-on de manejo clínico con la fórmula «recommended» en el documento ESHRE; la recomendación no distingue tipo de transferencia, pero el beneficio solo se vio en fresco, y debe combinarse con un solo embrión.",
+        "en": "It is the only clinical-management add-on with the “recommended” phrase in the ESHRE document; the recommendation does not specify the type of transfer, but the benefit was seen only in fresh transfers, and it should be combined with a single embryo."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE add-ons 2023: «recommended», con vigilancia del embarazo múltiple y transferencia de un solo embrión. La calidad (moderada/baja) es la que asigna la revisión Cochrane resumida. NICE NG257 no lo trata.",
+          "en": "ESHRE add-ons 2023: “recommended”, with monitoring of multiple pregnancy and single embryo transfer. The quality grades (moderate/low) are those assigned by the summarised Cochrane review. NICE NG257 does not address it."
+        }
+      },
+      "recall": {
+        "es": "¿En qué tipo de transferencia mostró beneficio el ácido hialurónico a concentración alta y qué riesgo obliga a combinarlo con un solo embrión?",
+        "en": "In which type of transfer did high-concentration hyaluronic acid show a benefit, and which risk requires combining it with a single embryo?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c9-stimulation-adjuncts",
+      "type": "comparison",
+      "conceptId": "fert-ao.stimulation-adjuncts",
+      "title": {
+        "es": "Hormona de crecimiento, DHEA, testosterona y antioxidantes en la estimulación",
+        "en": "Growth hormone, DHEA, testosterone and antioxidants during stimulation"
+      },
+      "core": {
+        "es": "La ESHRE (add-ons, 2023) no recomienda adyuvantes antes o durante la estimulación (metformina, hormona de crecimiento, testosterona, DHEA, aspirina, indometacina y sildenafilo) ni los antioxidantes en TRA. Su guía de estimulación ovárica de 2025 matiza: hormona de crecimiento no recomendada en normorrespondedoras (fuerte, ⊕) ni en SOP (fuerte, ⊕⊕) y probablemente no recomendada en bajas respondedoras (condicional, ⊕); testosterona probablemente no recomendada en bajas respondedoras (condicional, ⊕⊕⊕); DHEA no recomendada en bajas ni en normorrespondedoras (fuerte, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2025-ovarian-stimulation]]",
+        "en": "ESHRE (add-ons, 2023) does not recommend adjuncts before or during stimulation (metformin, growth hormone, testosterone, DHEA, aspirin, indomethacin and sildenafil), nor antioxidants in ART. Its 2025 ovarian stimulation guideline gives more detail: growth hormone not recommended in normal responders (strong, ⊕) or PCOS (strong, ⊕⊕) and probably not recommended in low responders (conditional, ⊕); testosterone probably not recommended in low responders (conditional, ⊕⊕⊕); DHEA not recommended in low or normal responders (strong, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2025-ovarian-stimulation]]"
+      },
+      "body": {
+        "es": "Hormona de crecimiento en bajas respondedoras: la guía de 2025 reconoce que la revisión Cochrane actualizada y un metaanálisis de 2025 sugieren más nacidos vivos, pero considera la evidencia de calidad demasiado limitada (estudios con poca potencia y definiciones de baja respuesta muy heterogéneas), recuerda que puede causar daños graves y que no hay datos de seguridad a largo plazo, y anima a investigar. La aspirina tampoco se recomienda en la población general de FIV/ICSI ni en bajas respondedoras (fuerte, ⊕⊕⊕), ni el sildenafilo en bajas respondedoras (fuerte, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nEl documento de add-ons señala problemas graves de seguridad con algunos adyuvantes, como el sildenafilo, y deja abierta la investigación en circunstancias concretas. Sobre antioxidantes: efecto incierto en el nacido vivo en mujeres, sin evidencia en varones, con molestias digestivas descritas; la guía de infertilidad inexplicada los considera probablemente no recomendados en mujeres en tratamiento (condicional, ⊕). NICE remite a la guía ESHRE de estimulación de 2025 para el pretratamiento (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "Growth hormone in low responders: the 2025 guideline acknowledges that the updated Cochrane review and a 2025 meta-analysis suggest more live births, but judges the evidence to be of too limited quality (underpowered studies and very heterogeneous definitions of low response), recalls that it has the potential for serious harm and that there are no long-term safety data, and encourages research. Aspirin is not recommended in the general IVF/ICSI population or in low responders (strong, ⊕⊕⊕), nor sildenafil in low responders (strong, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nThe add-ons document points to serious safety concerns with some adjuncts, such as sildenafil, and leaves room for research in specific circumstances. On antioxidants: uncertain effect on live birth in women, no evidence in men, with gastrointestinal discomfort reported; the unexplained infertility guideline considers them probably not recommended for women undergoing treatment (conditional, ⊕). NICE refers to the 2025 ESHRE stimulation guideline for pre-treatment (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "En bajas respondedoras, la hormona de crecimiento es el caso más gris: posible beneficio, evidencia débil y seguridad a largo plazo desconocida. Eso es «probablemente no», no «sí».",
+        "en": "In low responders, growth hormone is the greyest case: possible benefit, weak evidence and unknown long-term safety. That is “probably not”, not “yes”."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: «not recommended» (se basó en la guía de estimulación de 2020). ESHRE estimulación ovárica 2025, rec. 46 [2025] fuerte ⊕; 47 [actualizada] condicional ⊕; 48 [2025] fuerte ⊕⊕; 49 [actualizada] condicional ⊕⊕⊕; 50 [2019] y 51 [2025] fuertes ⊕⊕; 52 [2019] fuerte ⊕⊕⊕; 53 [2019] fuerte ⊕. ESHRE infertilidad inexplicada 2023, rec. 46: condicional ⊕. Escala ⊕: muy baja a ⊕⊕⊕⊕ alta.",
+          "en": "ESHRE add-ons 2023: “not recommended” (based on the 2020 stimulation guideline). ESHRE ovarian stimulation 2025, rec. 46 [2025] strong ⊕; 47 [updated] conditional ⊕; 48 [2025] strong ⊕⊕; 49 [updated] conditional ⊕⊕⊕; 50 [2019] and 51 [2025] strong ⊕⊕; 52 [2019] strong ⊕⊕⊕; 53 [2019] strong ⊕. ESHRE unexplained infertility 2023, rec. 46: conditional ⊕. ⊕ scale: very low up to ⊕⊕⊕⊕ high."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice la guía ESHRE de estimulación de 2025 sobre la hormona de crecimiento y la DHEA en bajas respondedoras, y con qué fuerza?",
+        "en": "What does the 2025 ESHRE stimulation guideline say about growth hormone and DHEA in low responders, and with what strength?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q4-icsi-unexplained",
+      "conceptId": "fert-ao.icsi-non-male",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una pareja (caso ficticio) con infertilidad inexplicada y seminograma normal va a iniciar FIV. El centro propone ICSI «para asegurar la fecundación». ¿Qué es lo más adecuado según ESHRE y NICE?",
+        "en": "A couple (fictional case) with unexplained infertility and a normal semen analysis is about to start IVF. The clinic proposes ICSI “to secure fertilisation”. What is most appropriate according to ESHRE and NICE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "FIV convencional, porque la ICSI sin factor masculino no mejora el nacido vivo.",
+            "en": "Conventional IVF, because ICSI without male factor does not improve live birth."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ESHRE no la recomienda sin factor masculino ni en la infertilidad inexplicada (fuerte, ⊕) y NICE indica no usarla con parámetros seminales normales (1.50.3).",
+            "en": "Correct: ESHRE does not recommend it without male factor or in unexplained infertility (strong, ⊕), and NICE advises against it with normal semen parameters (1.50.3)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ICSI, porque en un ECA grande sin factor masculino aumentó el nacido vivo.",
+            "en": "ICSI, because in a large RCT without male factor it increased live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el ECA de 1064 parejas el nacido vivo fue comparable (RR 1,11; IC 95 % 0,93–1,32).",
+            "en": "In the 1064-couple RCT live birth was comparable (RR 1.11; 95% CI 0.93–1.32)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ICSI combinada con IMSI para seleccionar mejor los espermatozoides.",
+            "en": "ICSI combined with IMSI to select sperm better."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica no usar IMSI como complemento de la ICSI (1.50.4) y la ESHRE no la recomienda de rutina.",
+            "en": "NICE advises against IMSI as an adjunct to ICSI (1.50.4), and ESHRE does not recommend it routinely."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ICSI solo si la mujer tiene más de 39 años.",
+            "en": "ICSI only if the woman is over 39."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la edad materna avanzada la ICSI no mejoró la fecundación ni los resultados clínicos; el ECA en mayores de 39 años halló tasas de fecundación y número de embriones de máxima calidad comparables.",
+            "en": "In advanced maternal age ICSI did not improve fertilisation or clinical outcomes; the RCT in women over 39 found comparable fertilisation rates and numbers of top-quality embryos."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sin factor masculino ni fallo de fecundación previo, la ICSI añade coste y tiempo de laboratorio sin más nacidos vivos.",
+        "en": "Without male factor or previous fertilisation failure, ICSI adds cost and laboratory time without more live births."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q5-pgta-live-birth",
+      "conceptId": "fert-ao.pgta",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 38 años (caso ficticio) pregunta si añadir PGT-A a su próximo ciclo de FIV aumentará su probabilidad de tener un hijo. ¿Qué respuesta se ajusta mejor a ESHRE y NICE?",
+        "en": "A 38-year-old woman (fictional case) asks whether adding PGT-A to her next IVF cycle will increase her chance of having a baby. Which answer best fits ESHRE and NICE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sí: al descartar embriones aneuploides, aumenta el nacido vivo acumulado por ciclo.",
+            "en": "Yes: by discarding aneuploid embryos it increases cumulative live birth per cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "La PGT-A no puede mejorar la cohorte, solo seleccionar; la mayoría de los ECA no mostraron más nacidos vivos.",
+            "en": "PGT-A cannot improve the cohort, only select from it; most RCTs showed no more live births."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No se ha demostrado que aumente el nacido vivo; puede dejar menos embriones para transferir, y ESHRE no la recomienda de rutina mientras NICE indica no ofrecerla para ese fin.",
+            "en": "It has not been shown to increase live birth; it can leave fewer embryos to transfer, and ESHRE does not recommend it routinely while NICE advises not to offer it for that purpose."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: «currently not recommended for routine clinical use» (ESHRE) y 1.48.1 de NICE.",
+            "en": "Correct: “currently not recommended for routine clinical use” (ESHRE) and NICE 1.48.1."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sí, porque acorta de forma demostrada el tiempo hasta el embarazo.",
+            "en": "Yes, because it has been shown to shorten time to pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los dos ECA que midieron el tiempo hasta el embarazo no hallaron diferencias.",
+            "en": "The two RCTs that measured time to pregnancy found no difference."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Es inocua y estandarizada, así que no hay inconveniente en añadirla.",
+            "en": "It is harmless and standardised, so there is no downside to adding it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Hay falta de estandarización entre laboratorios, riesgo de descartar embriones viables y un posible aumento del retraso de crecimiento intrauterino, además del coste.",
+            "en": "There is a lack of standardisation between laboratories, a risk of discarding viable embryos and a possible increase in intrauterine growth restriction, plus the cost."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La PGT-A elige, no crea embriones euploides: su beneficio en nacido vivo no está demostrado y tiene costes y riesgos de descarte.",
+        "en": "PGT-A selects, it does not create euploid embryos: its live-birth benefit is unproven and it carries costs and risks of discarding."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q6-ha-frozen",
+      "conceptId": "fert-ao.hyaluronic-acid",
+      "difficulty": 3,
+      "stem": {
+        "es": "Una paciente (caso ficticio) va a hacer una transferencia de embriones congelados y pide «el pegamento embrionario» y transferir dos embriones para aumentar sus posibilidades. ¿Qué es lo más correcto según la ESHRE?",
+        "en": "A patient (fictional case) is having a frozen embryo transfer and asks for “embryo glue” and two embryos to increase her chances. What is most correct according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Aceptar ambas cosas, porque el ácido hialurónico está «recommended» en cualquier transferencia.",
+            "en": "Accept both, because hyaluronic acid is “recommended” for any transfer."
+          },
+          "correct": false,
+          "why": {
+            "es": "El beneficio se vio en fresco; en congelados no hubo beneficio, y combinarlo con dos embriones aumenta el embarazo múltiple.",
+            "en": "The benefit was seen in fresh transfers; there was none in frozen transfers, and combining it with two embryos increases multiple pregnancy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Explicar que en transferencias de congelados no se demostró beneficio y que, cuando se usa, debe combinarse con un solo embrión por el aumento del embarazo múltiple.",
+            "en": "Explain that no benefit was shown in frozen transfers and that, when used, it should be combined with a single embryo because of the increase in multiple pregnancy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ningún beneficio en congelados (3 estudios y un ECA de 550 ciclos) y embarazo múltiple aumentado (RR 1,45), por lo que la ESHRE pide transferir un solo embrión.",
+            "en": "Correct: no benefit in frozen transfers (3 studies and an RCT of 550 cycles) and increased multiple pregnancy (RR 1.45), which is why ESHRE asks for single embryo transfer."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Usar albúmina o fibrina como alternativa adherente.",
+            "en": "Use albumin or fibrin as an alternative adherence compound."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los estudios con albúmina, fibrina o colágeno son escasos y no muestran más implantación ni nacidos vivos.",
+            "en": "Studies of albumin, fibrin or collagen are scarce and show no increase in implantation or live births."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Añadir eclosión asistida para compensar.",
+            "en": "Add assisted hatching to compensate."
+          },
+          "correct": false,
+          "why": {
+            "es": "La eclosión asistida es «not recommended» (ESHRE) y NICE indica no ofrecerla (1.49.1).",
+            "en": "Assisted hatching is “not recommended” (ESHRE) and NICE advises against offering it (1.49.1)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El ácido hialurónico es el único add-on de manejo clínico con la fórmula «recommended», pero el beneficio solo se vio en transferencias en fresco y la ESHRE pide combinarlo con un solo embrión. En congelados no hay beneficio demostrado, y el riesgo de embarazo múltiple sí es real.",
+        "en": "Hyaluronic acid is the only clinical-management add-on with the “recommended” phrase, but the benefit was seen only in fresh transfers and ESHRE asks for it to be combined with a single embryo. In frozen transfers no benefit has been shown, whereas the multiple-pregnancy risk is real."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "hormones",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q7-gh-low-responder",
+      "conceptId": "fert-ao.stimulation-adjuncts",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una baja respondedora (caso ficticio) pregunta por añadir hormona de crecimiento, DHEA o testosterona a su próxima estimulación. ¿Qué afirmación es correcta según la guía ESHRE de estimulación ovárica de 2025?",
+        "en": "A low responder (fictional case) asks about adding growth hormone, DHEA or testosterone to her next stimulation. Which statement is correct according to the 2025 ESHRE ovarian stimulation guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La hormona de crecimiento está recomendada con fuerza en bajas respondedoras.",
+            "en": "Growth hormone is strongly recommended in low responders."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es «probablemente no recomendada» en bajas respondedoras (condicional, ⊕), por evidencia de calidad limitada y seguridad a largo plazo desconocida.",
+            "en": "It is “probably not recommended” in low responders (conditional, ⊕), because of limited-quality evidence and unknown long-term safety."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La DHEA es la alternativa de elección si no se usa hormona de crecimiento.",
+            "en": "DHEA is the alternative of choice if growth hormone is not used."
+          },
+          "correct": false,
+          "why": {
+            "es": "La DHEA no se recomienda en bajas respondedoras (fuerte, ⊕⊕).",
+            "en": "DHEA is not recommended in low responders (strong, ⊕⊕)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La hormona de crecimiento es probablemente no recomendada (condicional, ⊕), aunque los metaanálisis sugieren un posible beneficio en nacido vivo con evidencia de calidad limitada.",
+            "en": "Growth hormone is probably not recommended (conditional, ⊕), although meta-analyses suggest a possible live-birth benefit with limited-quality evidence."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la rec. 47 y su justificación (estudios con poca potencia, definiciones heterogéneas, posibles daños graves y sin seguridad a largo plazo).",
+            "en": "Correct: this is rec. 47 and its justification (underpowered studies, heterogeneous definitions, potential for serious harm and no long-term safety data)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La testosterona está recomendada antes de la estimulación en bajas respondedoras.",
+            "en": "Testosterone is recommended before stimulation in low responders."
+          },
+          "correct": false,
+          "why": {
+            "es": "La testosterona es probablemente no recomendada en bajas respondedoras (condicional, ⊕⊕⊕).",
+            "en": "Testosterone is probably not recommended in low responders (conditional, ⊕⊕⊕)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ninguno de los tres adyuvantes se recomienda; la hormona de crecimiento queda en «probablemente no» por un posible beneficio con evidencia débil, y el documento de add-ons los engloba como «not recommended».",
+        "en": "None of the three adjuncts is recommended; growth hormone stays at “probably not” because of a possible benefit with weak evidence, and the add-ons document groups them as “not recommended”."
+      },
+      "refIds": [
+        "eshre-2025-ovarian-stimulation",
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c10-receptivity-tests",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-ao.receptivity-tests",
+      "title": {
+        "es": "Pruebas de receptividad endometrial (ERA y similares): no",
+        "en": "Endometrial receptivity tests (ERA and similar): no"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda las pruebas de receptividad endometrial disponibles actualmente («not recommended»). NICE indica no ofrecerlas como add-on para la transferencia embrionaria, ni el análisis de expresión génica (por ejemplo, ERA) ni el microbiológico (microbioma endometrial, endometritis crónica infecciosa) (1.41.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE does not recommend the currently available endometrial receptivity tests (“not recommended”). NICE advises not to offer endometrial receptivity testing as an add-on for embryo transfer, including gene expression analysis (for example, ERA) and microbiological analysis (endometrial microbiome, infectious chronic endometritis) (1.41.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "El ECA más grande (doble ciego, 30 centros de EE. UU., 767 mujeres con al menos un blastocisto euploide congelado) no mejoró el nacido vivo al fijar la transferencia según la prueba: 58,5 % frente a 61,9 % (RR 0,95; IC 95 % 0,79–1,13). Un ECA previo no mostró efecto en el análisis por intención de tratar, y una cohorte multicéntrica de 5372 transferencias halló menos nacidos vivos tras la prueba y la transferencia personalizada que con transferencia en fresco. La ESHRE añade que las pruebas no recogen la interacción entre endometrio y embrión, ni el momento, lugar y profundidad de la biopsia, que puede ser dolorosa. [[ref:eshre-2023-addons]]\n\nNICE no halló diferencias en embarazo clínico ni nacido vivo; la transferencia guiada por ERA tuvo menos gestación múltiple que la transferencia en fresco estándar, pero más pérdida de embarazo clínico. Como no hay evidencia sobre tratar alteraciones del microbioma, formuló una recomendación de investigación (por ejemplo, antibióticos para la endometritis o trasplante de microbiota). [[ref:nice-2026-ng257]]",
+        "en": "The largest RCT (double blind, 30 US sites, 767 women with at least one frozen euploid blastocyst) did not improve live birth by timing transfer according to the test: 58.5% vs 61.9% (RR 0.95; 95% CI 0.79–1.13). An earlier RCT showed no effect in the intention-to-treat analysis, and a multicentre cohort of 5372 transfers found fewer live births after testing and personalised transfer than with fresh transfer. ESHRE adds that the tests do not capture the interplay between endometrium and embryo, nor the timing, location and depth of the biopsy, which can be painful. [[ref:eshre-2023-addons]]\n\nNICE found no difference in clinical pregnancy or live birth; ERA-timed transfer had less multiple gestation than standard fresh transfer but more clinical pregnancy loss. Because there is no evidence on treating microbiome abnormalities, it made a research recommendation (for example, antibiotics for endometritis or microbiota transplantation). [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Con blastocistos euploides, ajustar el día de transferencia según la prueba no dio más bebés: es el escenario más «limpio» posible y aun así no funcionó.",
+        "en": "With euploid blastocysts, adjusting the transfer day according to the test did not bring more babies: it is the “cleanest” possible scenario and it still did not work."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: «not recommended». NICE NG257 1.41.1 [2026] y recomendación de investigación 1 [2026].",
+          "en": "ESHRE add-ons 2023: “not recommended”. NICE NG257 1.41.1 [2026] and research recommendation 1 [2026]."
+        }
+      },
+      "recall": {
+        "es": "¿Qué mostró el ECA de 767 mujeres con blastocistos euploides sobre la transferencia guiada por pruebas de receptividad, y qué incluye la recomendación de NICE?",
+        "en": "What did the 767-woman RCT with euploid blastocysts show about receptivity-guided transfer, and what does the NICE recommendation include?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c11-scratching",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-ao.scratching",
+      "title": {
+        "es": "Scratching endometrial: 37 ECA y todavía sin beneficio claro",
+        "en": "Endometrial scratching: 37 RCTs and still no clear benefit"
+      },
+      "core": {
+        "es": "La ESHRE considera el scratching endometrial «currently not recommended for routine clinical use», y su guía de infertilidad inexplicada indica que no debe ofrecerse (fuerte, ⊕⊕). NICE indica no ofrecerlo como pretratamiento para mejorar el resultado de la FIV (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE considers endometrial scratching “currently not recommended for routine clinical use”, and its unexplained infertility guideline states it should not be offered (strong, ⊕⊕). NICE advises not to offer it as a pre-treatment to improve IVF outcome (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "La revisión Cochrane más reciente incluyó 37 ECA (8786 mujeres); en el análisis principal, limitado a estudios de bajo riesgo de sesgo, el efecto sobre el nacido vivo fue incierto, compatible con ningún efecto, una pequeña reducción o una mejora (OR 1,12; IC 95 % 0,98–1,28; 8 ECA; n = 4402; calidad moderada), y probablemente con poco o ningún efecto sobre el aborto. En el primer ciclo de FIV no hubo efecto (RR 1,04; IC 95 % 0,89–1,21; n = 1048). Algunos subgrupos (por ejemplo, scratching doble tras fallo previo) dieron resultados positivos, pero otra revisión no halló diferencias en ningún grupo, y la ESHRE concluye que los análisis de subgrupos no identificaron quién se beneficia. Puede causar dolor y sangrado de mínimos a moderados (y un pequeño riesgo de infección si se hace por histeroscopia); un estudio estimó 6524 € por nacido vivo adicional. [[ref:eshre-2023-addons]]\n\nNICE razona que la evidencia es inconsistente (posible daño, posible beneficio o ningún efecto) y que es un procedimiento invasivo con costes de tiempo, recursos y dinero, porque no se puede combinar con otro procedimiento. [[ref:nice-2026-ng257]]",
+        "en": "The most recent Cochrane review included 37 RCTs (8786 women); in the main analysis, restricted to studies at low risk of bias, the effect on live birth was unclear, consistent with no effect, a small reduction or an improvement (OR 1.12; 95% CI 0.98–1.28; 8 RCTs; n = 4402; moderate quality), and probably little or no effect on miscarriage. In the first IVF cycle there was no effect (RR 1.04; 95% CI 0.89–1.21; n = 1048). Some subgroups (for example, scratching twice after previous failure) gave positive results, but another review found no difference in any group, and ESHRE concludes that subgroup analyses failed to identify who benefits. It may cause minimal to moderate pain and bleeding (and a small risk of infection if done by hysteroscopy); one study estimated €6524 per additional live birth. [[ref:eshre-2023-addons]]\n\nNICE reasons that the evidence is inconsistent (possible harm, possible benefit or no effect) and that it is an invasive procedure with time, resource and financial costs, because it cannot be combined with another procedure. [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Cuando decenas de ECA no consiguen un efecto claro, buscar «el subgrupo que sí responde» suele ser ruido, no señal.",
+        "en": "When dozens of RCTs cannot find a clear effect, searching for “the subgroup that responds” is usually noise, not signal."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: «currently not recommended for routine clinical use». ESHRE infertilidad inexplicada 2023, rec. 45: fuerte, ⊕⊕. NICE NG257 1.40.1 [2026].",
+          "en": "ESHRE add-ons 2023: “currently not recommended for routine clinical use”. ESHRE unexplained infertility 2023, rec. 45: strong, ⊕⊕. NICE NG257 1.40.1 [2026]."
+        }
+      },
+      "recall": {
+        "es": "¿Qué concluyó la revisión Cochrane de 37 ECA sobre el scratching y nacido vivo, y qué recomiendan ESHRE y NICE?",
+        "en": "What did the 37-RCT Cochrane review conclude about scratching and live birth, and what do ESHRE and NICE recommend?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c12-immunology",
+      "type": "myth",
+      "conceptId": "fert-ao.immunology",
+      "title": {
+        "es": "«Las NK rechazan al embrión»: pruebas y tratamientos inmunológicos sin base",
+        "en": "“NK cells reject the embryo”: immune tests and treatments without a basis"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda las pruebas inmunitarias en sangre periférica ni el estudio de NK uterinas («not recommended»), considera el genotipado KIR/HLA «currently not recommended for routine clinical use» y no recomienda inmunomoduladores (intralípidos, IVIG, rh-LIF, PBMC, anti-TNF) ni glucocorticoides en TRA. NICE indica no usar agentes inmunológicos, incluidos intralípidos, inmunoglobulinas intravenosas y corticoides, como parte del tratamiento de fertilidad (1.42.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE does not recommend peripheral blood immune tests or uterine NK-cell testing (“not recommended”), considers KIR/HLA genotyping “currently not recommended for routine clinical use”, and does not recommend immunomodulating treatments (intralipid, IVIG, rh-LIF, PBMCs, anti-TNF) or glucocorticoids in ART. NICE advises not to use immunological agents, including intralipids, intravenous immunoglobulins and steroids, as part of fertility treatment (1.42.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "El mito: el feto sería «rechazado» y las NK uterinas podrían matarlo. La ESHRE lo califica de incorrecto: la placenta separa siempre al feto del sistema inmunitario materno y las NK uterinas son poco citotóxicas y no pueden matar células placentarias. La proporción de NK en sangre varía mucho en personas sanas (5–25 %), los puntos de corte de las clínicas son arbitrarios y las poblaciones uterinas difieren de las de la sangre; un metaanálisis no halló diferencias en nacido vivo entre NK uterinas altas y normales (RR 1,00; IC 95 % 0,77–1,28; 3 estudios; n = 229). [[ref:eshre-2023-addons]]\n\nTratamientos: intralípidos, efecto incierto (RR 1,78; IC 95 % 0,95–3,34; 2 ECA; 244 pacientes); IVIG, un solo ECA de 51 pacientes sin efecto claro; rh-LIF, menos nacidos vivos (RR 0,47; IC 95 % 0,24–0,91). Efectos adversos descritos: hepatomegalia, colestasis y síndrome de sobrecarga grasa con intralípidos; meningitis aséptica, insuficiencia renal, tromboembolia y anafilaxia con IVIG; malformaciones con tacrolimus (4 de 100 embarazos en trasplantadas). Glucocorticoides: sin diferencia en nacido vivo (OR 1,08; IC 95 % 0,45–2,58; 2 ECA; n = 310; calidad baja), con aumento descrito de aborto, parto pretérmino, hipertensión y diabetes gestacional. NICE añade que la IVIG es invasiva y cara y que los corticoides, al suprimir la inmunidad, aumentan el riesgo de infección. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "The myth: the fetus would be “rejected” and uterine NK cells could kill it. ESHRE calls this incorrect: the placenta always separates the fetus from the maternal immune system, and uterine NK cells are only weakly cytolytic and cannot kill placental cells. The proportion of NK cells in blood varies widely in healthy people (5–25%), clinics’ cut-offs are arbitrary, and uterine populations differ from those in blood; a meta-analysis found no difference in live birth between high and normal uterine NK cells (RR 1.00; 95% CI 0.77–1.28; 3 studies; n = 229). [[ref:eshre-2023-addons]]\n\nTreatments: intralipid, uncertain effect (RR 1.78; 95% CI 0.95–3.34; 2 RCTs; 244 patients); IVIG, a single RCT of 51 patients with no clear effect; rh-LIF, fewer live births (RR 0.47; 95% CI 0.24–0.91). Reported adverse effects: hepatomegaly, cholestasis and fat overload syndrome with intralipid; aseptic meningitis, renal failure, thromboembolism and anaphylaxis with IVIG; malformations with tacrolimus (4 in 100 pregnancies in transplant recipients). Glucocorticoids: no difference in live birth (OR 1.08; 95% CI 0.45–2.58; 2 RCTs; n = 310; low quality), with reported increases in miscarriage, preterm birth, gestational hypertension and diabetes. NICE adds that IVIG is invasive and expensive and that steroids, by suppressing immunity, increase the risk of infection. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Este apartado no se refiere a mujeres con enfermedad autoinmune (tiroidea, síndrome antifosfolípido) ni a quien ya recibe inmunoterapia por otra indicación: ahí se trata la enfermedad, no se añade un add-on.",
+        "en": "This section does not refer to women with autoimmune disease (thyroid disease, antiphospholipid syndrome) or to those already on immune treatment for another indication: there the disease is treated, no add-on is added."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: pruebas inmunitarias en sangre y NK uterinas, inmunomoduladores y glucocorticoides «not recommended»; KIR/HLA «currently not recommended for routine clinical use». NICE NG257 1.42.1 [2026].",
+          "en": "ESHRE add-ons 2023: peripheral blood immune tests and uterine NK testing, immunomodulators and glucocorticoids “not recommended”; KIR/HLA “currently not recommended for routine clinical use”. NICE NG257 1.42.1 [2026]."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué considera la ESHRE incorrecta la idea de que las NK uterinas matan al embrión, y qué dicen ESHRE y NICE sobre intralípidos, IVIG y corticoides?",
+        "en": "Why does ESHRE consider incorrect the idea that uterine NK cells kill the embryo, and what do ESHRE and NICE say about intralipid, IVIG and steroids?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c13-prp-gcsf-stemcells",
+      "type": "what-i-would-not-order",
+      "conceptId": "fert-ao.prp-gcsf-stemcells",
+      "title": {
+        "es": "PRP, G-CSF, hCG intrauterina y células madre: «rejuvenecer» sin pruebas",
+        "en": "PRP, G-CSF, intrauterine hCG and stem cells: “rejuvenation” without proof"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda («not recommended») el plasma rico en plaquetas (PRP) intrauterino ni intraovárico, el G-CSF intrauterino, la hCG intrauterina ni la terapia con células madre para la insuficiencia ovárica prematura, la reserva ovárica baja o el endometrio fino. [[ref:eshre-2023-addons]]",
+        "en": "ESHRE does not recommend (“not recommended”) intrauterine or intraovarian platelet-rich plasma (PRP), intrauterine G-CSF, intrauterine hCG, or stem cell therapy for premature ovarian insufficiency, diminished ovarian reserve or thin endometrium. [[ref:eshre-2023-addons]]"
+      },
+      "body": {
+        "es": "PRP intrauterino: una revisión (7 estudios; n = 625) halló más embarazo clínico (RR 1,79), pero con muestras pequeñas, poblaciones heterogéneas, posible sobrerrepresentación de un grupo investigador y un ECA registrado para 30 pacientes por brazo y publicado con más de diez veces esa muestra. PRP intraovárico: no hay ECA; los datos proceden de un estudio de casos y controles y estudios no controlados (696 mujeres), sin datos de seguridad sobre la inyección en el estroma ovárico. [[ref:eshre-2023-addons]]\n\nG-CSF intrauterino: una revisión sugirió más nacidos vivos (RR 1,52; IC 95 % 1,11–2,10; 5 ECA) con certeza baja; en fallo de implantación no hubo diferencia significativa (RR 1,43; IC 95 % 0,86–2,36; 3 ECA; n = 372), y el posible beneficio en endometrio fino procede de un solo ECA. Células madre: no hay ECA ni estudios comparativos, solo series de casos y estudios observacionales pequeños; la ESHRE señala graves problemas de seguridad (procedimientos invasivos, efectos a largo plazo y riesgo de tumorigénesis) y no hay datos sobre la salud de los niños nacidos. En el texto de NICE NG257 no encontramos recomendaciones específicas sobre PRP, G-CSF ni células madre. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "Intrauterine PRP: a review (7 studies; n = 625) found more clinical pregnancies (RR 1.79), but with small samples, heterogeneous populations, possible overrepresentation of one research group, and an RCT registered for 30 patients per arm and published with more than ten times that sample. Intraovarian PRP: there are no RCTs; data come from one case-control study and uncontrolled studies (696 women), with no safety data on injection into the ovarian stroma. [[ref:eshre-2023-addons]]\n\nIntrauterine G-CSF: one review suggested more live births (RR 1.52; 95% CI 1.11–2.10; 5 RCTs) with low certainty; in implantation failure there was no significant difference (RR 1.43; 95% CI 0.86–2.36; 3 RCTs; n = 372), and the possible benefit in thin endometrium comes from a single RCT. Stem cells: there are no RCTs or comparative studies, only case series and small observational studies; ESHRE points to serious safety concerns (invasive procedures, long-term effects and risk of tumorigenesis), and there are no data on the health of children born. We found no specific recommendations on PRP, G-CSF or stem cells in the text of NICE NG257. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "«Rejuvenecimiento ovárico» con PRP: ni un solo ECA. Si una paciente con reserva baja lo pide, la conversación honesta es sobre opciones con evidencia, incluida la donación.",
+        "en": "“Ovarian rejuvenation” with PRP: not a single RCT. If a patient with low reserve asks for it, the honest conversation is about evidence-based options, including donation."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023: «not recommended» para PRP intrauterino e intraovárico, G-CSF intrauterino, hCG intrauterina y células madre. NICE NG257: sin recomendación específica localizada.",
+          "en": "ESHRE add-ons 2023: “not recommended” for intrauterine and intraovarian PRP, intrauterine G-CSF, intrauterine hCG and stem cells. NICE NG257: no specific recommendation found."
+        }
+      },
+      "recall": {
+        "es": "¿Qué problemas metodológicos señala la ESHRE en los estudios de PRP intrauterino y qué evidencia hay del PRP intraovárico?",
+        "en": "What methodological problems does ESHRE point out in intrauterine PRP studies, and what evidence is there for intraovarian PRP?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.c14-eshre-vs-nice",
+      "type": "comparison",
+      "conceptId": "fert-ao.eshre-vs-nice",
+      "title": {
+        "es": "ESHRE frente a NICE: misma dirección, distinta fuerza",
+        "en": "ESHRE versus NICE: same direction, different strength"
+      },
+      "core": {
+        "es": "Coinciden en no ofrecer pruebas de receptividad endometrial, tratamientos inmunológicos, ICSI sin factor masculino ni eclosión asistida, y en no usar la PGT-A para mejorar el nacido vivo. Difieren sobre todo en la fuerza de la fórmula: donde el documento de add-ons dice «currently not recommended for routine clinical use» (PGT-A, scratching), NICE dice «no ofrecer»; en el scratching, la guía ESHRE de infertilidad inexplicada ya dice que no debe ofrecerse (fuerte, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "They agree on not offering endometrial receptivity tests, immunological treatments, ICSI without male factor or assisted hatching, and on not using PGT-A to improve live birth. They differ mainly in the strength of the wording: where the add-ons document says “currently not recommended for routine clinical use” (PGT-A, scratching), NICE says “do not offer”; for scratching, the ESHRE unexplained infertility guideline already says it should not be offered (strong, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Otras diferencias. Time-lapse: la ESHRE no lo recomienda para mejorar el nacido vivo; NICE no hizo recomendación y no quiso excluir su uso por la incubación estable. Ácido hialurónico en el medio de transferencia: la ESHRE lo recomienda; en NICE NG257 no encontramos recomendación. Histeroscopia de cribado: la ESHRE la considera «currently not recommended for routine clinical use», pero «can be considered» en el fallo de implantación recurrente; NICE indica no ofrecerla como pretratamiento de la FIV, salvo que se sospechen alteraciones uterinas o endometriales (1.40.2). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]\n\nFechas y alcance: el documento ESHRE revisó la literatura hasta agosto de 2022 y sus adyuvantes de estimulación remiten a la guía de 2020, ya actualizada en 2025; la mayoría de las recomendaciones de NICE sobre add-ons son de 2026, pero la de eclosión asistida es de 2004. Para el pretratamiento, NICE remite a la guía ESHRE de estimulación de 2025. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] [[ref:eshre-2025-ovarian-stimulation]]",
+        "en": "Other differences. Time-lapse: ESHRE does not recommend it to improve live birth; NICE made no recommendation and did not want to preclude its use because of stable incubation. Hyaluronic acid in the transfer medium: ESHRE recommends it; we found no recommendation in NICE NG257. Screening hysteroscopy: ESHRE considers it “currently not recommended for routine clinical use” but says it “can be considered” in recurrent implantation failure; NICE advises not to offer it as a pre-treatment for IVF unless uterine or endometrial abnormalities are suspected (1.40.2). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]\n\nDates and scope: the ESHRE document reviewed literature up to August 2022 and its stimulation adjuncts refer to the 2020 guideline, since updated in 2025; most NICE recommendations on add-ons date from 2026, but the one on assisted hatching dates from 2004. For pre-treatment, NICE refers to the 2025 ESHRE stimulation guideline. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] [[ref:eshre-2025-ovarian-stimulation]]"
+      },
+      "pearl": {
+        "es": "Si una guía dice «no de rutina» y otra «no ofrecer», ninguna respalda el uso habitual: la diferencia es cuánto margen dejan para investigación o grupos concretos.",
+        "en": "If one guideline says “not routinely” and the other “do not offer”, neither supports routine use: the difference is how much room they leave for research or specific groups."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE add-ons 2023 (búsqueda hasta el 10-8-2022). NICE NG257: 1.40.1, 1.40.2, 1.41.1, 1.42.1, 1.48.1 y 1.50.3 [2026]; 1.49.1 [2004]. ESHRE estimulación ovárica 2025.",
+          "en": "ESHRE add-ons 2023 (search up to 10 Aug 2022). NICE NG257: 1.40.1, 1.40.2, 1.41.1, 1.42.1, 1.48.1 and 1.50.3 [2026]; 1.49.1 [2004]. ESHRE ovarian stimulation 2025."
+        }
+      },
+      "recall": {
+        "es": "¿En qué add-ons coinciden ESHRE y NICE, y en cuáles difieren (time-lapse, ácido hialurónico, histeroscopia de cribado)?",
+        "en": "On which add-ons do ESHRE and NICE agree, and on which do they differ (time-lapse, hyaluronic acid, screening hysteroscopy)?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q8-era-euploid",
+      "conceptId": "fert-ao.receptivity-tests",
+      "difficulty": 1,
+      "stem": {
+        "es": "Tras dos transferencias fallidas de blastocistos congelados de buena calidad (caso ficticio), se propone una prueba de receptividad endometrial para personalizar el día de la próxima transferencia. ¿Qué es lo más correcto?",
+        "en": "After two failed transfers of good-quality frozen blastocysts (fictional case), an endometrial receptivity test is proposed to personalise the day of the next transfer. What is most correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hacerla, porque la transferencia guiada por la prueba aumenta el nacido vivo.",
+            "en": "Do it, because test-guided transfer increases live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el ECA más grande (767 mujeres con al menos un blastocisto euploide congelado, el escenario más favorable para la prueba) no hubo mejora (58,5 % frente a 61,9 %; RR 0,95).",
+            "en": "In the largest RCT (767 women with at least one frozen euploid blastocyst, the most favourable scenario for the test) there was no improvement (58.5% vs 61.9%; RR 0.95)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No hacerla: ESHRE no recomienda estas pruebas y NICE indica no ofrecerlas como add-on para la transferencia.",
+            "en": "Do not do it: ESHRE does not recommend these tests and NICE advises not to offer them as an add-on for transfer."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: «not recommended» (ESHRE) y 1.41.1 de NICE, que incluye ERA y análisis microbiológicos.",
+            "en": "Correct: “not recommended” (ESHRE) and NICE 1.41.1, which includes ERA and microbiological analysis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Hacerla, pero solo con análisis del microbioma endometrial añadido.",
+            "en": "Do it, but only with added endometrial microbiome analysis."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE incluye expresamente el análisis del microbioma en la recomendación de no ofrecer y solo propone investigar su tratamiento.",
+            "en": "NICE explicitly includes microbiome analysis in the do-not-offer recommendation and only proposes research on its treatment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacerla, ya que la biopsia es inocua y no tiene ningún inconveniente.",
+            "en": "Do it, since the biopsy is harmless and has no drawbacks."
+          },
+          "correct": false,
+          "why": {
+            "es": "La biopsia puede ser dolorosa, retrasa la transferencia a otro ciclo y la ESHRE señala que las pruebas no recogen la interacción entre endometrio y embrión.",
+            "en": "The biopsy can be painful, it postpones the transfer to another cycle, and ESHRE notes that the tests do not capture endometrium–embryo interplay."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El escenario más favorable para la prueba (blastocistos euploides) no mostró beneficio; por eso ESHRE y NICE la desaconsejan.",
+        "en": "The most favourable scenario for the test (euploid blastocysts) showed no benefit; that is why ESHRE and NICE advise against it."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q9-nk-intralipid",
+      "conceptId": "fert-ao.immunology",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente sin enfermedad autoinmune conocida (caso ficticio) trae un análisis de NK en sangre que su clínica considera «alto» y una propuesta de intralípidos y prednisona para la próxima transferencia. ¿Qué es lo más adecuado?",
+        "en": "A patient with no known autoimmune disease (fictional case) brings a blood NK-cell test her clinic considers “high” and a proposal of intralipid and prednisone for the next transfer. What is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Seguir la propuesta, porque las NK altas explican el fallo de implantación.",
+            "en": "Follow the proposal, because high NK cells explain implantation failure."
+          },
+          "correct": false,
+          "why": {
+            "es": "La proporción de NK en sangre varía entre el 5 % y el 25 % en personas sanas, los puntos de corte son arbitrarios y no reflejan las NK uterinas.",
+            "en": "The proportion of blood NK cells ranges from 5% to 25% in healthy people, cut-offs are arbitrary, and they do not reflect uterine NK cells."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sustituir el análisis de sangre por una biopsia de NK uterinas y tratar si salen altas.",
+            "en": "Replace the blood test with a uterine NK biopsy and treat if they are high."
+          },
+          "correct": false,
+          "why": {
+            "es": "El estudio de NK uterinas tampoco se recomienda: las NK altas frente a normales no cambiaron el nacido vivo (RR 1,00).",
+            "en": "Uterine NK testing is not recommended either: high versus normal NK cells did not change live birth (RR 1.00)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Usar solo prednisona, ya que los corticoides son seguros en el embarazo temprano.",
+            "en": "Use prednisone alone, since steroids are safe in early pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda glucocorticoides en TRA, con aumento descrito de aborto, pretérmino, hipertensión y diabetes gestacional; NICE indica no usarlos.",
+            "en": "ESHRE does not recommend glucocorticoids in ART, with reported increases in miscarriage, preterm birth, gestational hypertension and diabetes; NICE advises against them."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No tratar: ni la prueba ni los intralípidos ni los corticoides están recomendados y tienen riesgos.",
+            "en": "Do not treat: neither the test nor intralipid nor steroids are recommended, and they carry risks."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE «not recommended» para pruebas en sangre, inmunomoduladores y glucocorticoides, y NICE 1.42.1.",
+            "en": "Correct: ESHRE “not recommended” for blood tests, immunomodulators and glucocorticoids, and NICE 1.42.1."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sin autoinmunidad diagnosticada, medir NK y tratarlas con inmunomoduladores carece de base y expone a efectos adversos.",
+        "en": "Without diagnosed autoimmunity, measuring NK cells and treating them with immunomodulators lacks a basis and exposes the patient to adverse effects."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      },
+      "id": "fert-ao.q10-scratch-first-ivf",
+      "conceptId": "fert-ao.scratching",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente (caso ficticio) con infertilidad inexplicada y dos transferencias fallidas pregunta si le conviene un scratching endometrial en la fase lútea previa a su próximo ciclo de FIV. ¿Qué respuesta es la más ajustada?",
+        "en": "A patient (fictional case) with unexplained infertility and two failed transfers asks whether endometrial scratching in the luteal phase before her next IVF cycle would help. Which answer fits best?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sí, porque tras fallos previos de implantación aumenta claramente el nacido vivo.",
+            "en": "Yes, because after previous implantation failures it clearly increases live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "No está demostrado: en una revisión de mujeres con al menos un fallo previo el nacido vivo mejoró (RR 1,18), pero al limitarse a quienes tenían al menos dos ciclos fallidos no hubo diferencia (RR 1,30; IC 95 % 0,87–1,94), y otra revisión no halló diferencias en ningún grupo, tampoco con dos o más ciclos fallidos.",
+            "en": "Not proven: in a review of women with at least one previous failure live birth improved (RR 1.18), but when restricted to those with at least two failed cycles there was no difference (RR 1.30; 95% CI 0.87–1.94), and another review found no difference in any group, including two or more failed cycles."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sí, siempre que se haga dos veces.",
+            "en": "Yes, as long as it is done twice."
+          },
+          "correct": false,
+          "why": {
+            "es": "El resultado positivo del scratching doble es un subgrupo de una revisión centrada en fallos previos; la ESHRE concluye que los subgrupos no identifican quién se beneficia.",
+            "en": "The positive result for scratching twice is a subgroup of a review focused on previous failures; ESHRE concludes that subgroups do not identify who benefits."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No: el efecto en nacido vivo es incierto, tiene dolor y coste, y ESHRE y NICE desaconsejan ofrecerlo.",
+            "en": "No: the effect on live birth is uncertain, it involves pain and cost, and ESHRE and NICE advise against offering it."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: «currently not recommended for routine clinical use» (ESHRE add-ons), «no debe ofrecerse» en la infertilidad inexplicada (fuerte, ⊕⊕) y NICE 1.40.1.",
+            "en": "Correct: “currently not recommended for routine clinical use” (ESHRE add-ons), “should not be offered” in unexplained infertility (strong, ⊕⊕) and NICE 1.40.1."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Da igual: no tiene efectos adversos ni coste, así que puede hacerse si lo desea.",
+            "en": "It makes no difference: it has no adverse effects or cost, so she can have it if she wishes."
+          },
+          "correct": false,
+          "why": {
+            "es": "Puede causar dolor y sangrado de mínimos a moderados, y NICE subraya que es invasivo y tiene costes de tiempo, recursos y dinero.",
+            "en": "It may cause minimal to moderate pain and bleeding, and NICE stresses that it is invasive with time, resource and financial costs."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Tras 37 ECA, el scratching sigue sin beneficio claro en nacido vivo; las tres fuentes coinciden en no ofrecerlo de forma habitual.",
+        "en": "After 37 RCTs, scratching still has no clear live-birth benefit; all three sources agree not to offer it routinely."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "id": "fert-ao.case1-noemi-gabriel",
+      "kind": "case",
+      "conceptId": "fert-ao.case-noemi-gabriel",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "title": {
+        "es": "Caso: Noemí, Gabriel y el «paquete completo» tras dos transferencias fallidas",
+        "en": "Case: Noemí, Gabriel and the “full package” after two failed transfers"
+      },
+      "steps": [
+        {
+          "id": "fert-ao.case1.s1",
+          "text": {
+            "es": "Noemí (caso ficticio), 38 años, y Gabriel, 40, sin enfermedades autoinmunes conocidas y con seminograma normal. Tras una FIV con dos transferencias fallidas de blastocistos congelados de buena calidad, una clínica les ofrece un «paquete» de pago: prueba de receptividad endometrial, estudio de NK con intralípidos y prednisona, scratching, ICSI y PGT-A en el siguiente ciclo. La ESHRE recuerda que los add-ons suelen tener un coste adicional y evidencia limitada, y que compartir su evaluación forma parte del asesoramiento. [[ref:eshre-2023-addons]] Empiezan preguntando por la prueba de receptividad.",
+            "en": "Noemí (fictional case), 38, and Gabriel, 40, with no known autoimmune disease and a normal semen analysis. After IVF with two failed transfers of good-quality frozen blastocysts, a clinic offers them a paid “package”: endometrial receptivity test, NK testing with intralipid and prednisone, scratching, ICSI and PGT-A in the next cycle. ESHRE recalls that add-ons usually carry an additional cost and limited evidence, and that sharing their evaluation is part of counselling. [[ref:eshre-2023-addons]] They start by asking about the receptivity test."
+          },
+          "questionId": "fert-ao.q8-era-euploid"
+        },
+        {
+          "id": "fert-ao.case1.s2",
+          "text": {
+            "es": "Se les explica que ni ESHRE ni NICE respaldan la prueba. Noemí pregunta entonces por las NK: una amiga «tenía las NK altas» y se trató con intralípidos. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+            "en": "It is explained that neither ESHRE nor NICE supports the test. Noemí then asks about NK cells: a friend “had high NK cells” and was treated with intralipid. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-ao.q9-nk-intralipid"
+        },
+        {
+          "id": "fert-ao.case1.s3",
+          "text": {
+            "es": "Se descartan las pruebas y tratamientos inmunológicos. Quedan el scratching y los cambios de laboratorio. La ESHRE no recomienda el scratching de rutina y NICE indica no ofrecerlo; los análisis de subgrupos tras fallos previos no identificaron quién se beneficia. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+            "en": "Immune tests and treatments are ruled out. Scratching and laboratory changes remain. ESHRE does not recommend routine scratching and NICE advises not to offer it; subgroup analyses after previous failures did not identify who benefits. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-ao.q10-scratch-first-ivf"
+        },
+        {
+          "id": "fert-ao.case1.s4",
+          "text": {
+            "es": "Para el nuevo ciclo, con seminograma normal, no hay indicación de ICSI: ESHRE y NICE la desaconsejan sin factor masculino. Gabriel pregunta si la PGT-A, al menos, les dará más posibilidades de tener un hijo. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+            "en": "For the new cycle, with a normal semen analysis, there is no indication for ICSI: ESHRE and NICE advise against it without male factor. Gabriel asks whether PGT-A will at least give them a better chance of having a baby. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "fert-ao.q5-pgta-live-birth"
+        },
+        {
+          "id": "fert-ao.case1.s5",
+          "text": {
+            "es": "Cierre: se acuerda un ciclo de FIV convencional sin el paquete. Si se considera que tienen fallo de implantación recurrente, la ESHRE contempla la histeroscopia de cribado como «can be considered», mientras que NICE indica no ofrecerla como pretratamiento y reserva el estudio para cuando se sospechen alteraciones uterinas o endometriales. Si en la siguiente transferencia en fresco se usa ácido hialurónico, la ESHRE pide combinarlo con un solo embrión. Se les explica que cualquier otra intervención sin beneficio demostrado debería hacerse solo dentro de un estudio. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+            "en": "Wrap-up: a conventional IVF cycle without the package is agreed. If they are considered to have recurrent implantation failure, ESHRE allows screening hysteroscopy as “can be considered”, whereas NICE advises not to offer it as a pre-treatment and reserves investigation for when uterine or endometrial abnormalities are suspected. If hyaluronic acid is used at the next fresh transfer, ESHRE asks for it to be combined with a single embryo. They are told that any other intervention without proven benefit should only be done within a study. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+          }
+        }
+      ],
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-13"
+      }
+    }
+  ]
+}
