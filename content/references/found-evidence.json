@@ -1,0 +1,152 @@
+[
+  {
+    "id": "grade-2013-handbook",
+    "title": "GRADE Handbook: handbook for grading the quality of evidence and the strength of recommendations using the GRADE approach",
+    "authors": "Schünemann H, Brożek J, Guyatt G, Oxman A (editors); GRADE Working Group",
+    "year": 2013,
+    "url": "https://gdt.gradepro.org/app/handbook/handbook.html",
+    "type": "other",
+    "population": {
+      "es": "Manual metodológico para autores de revisiones sistemáticas, guías y evaluaciones de tecnologías sanitarias que usan GRADE: preguntas de intervención y de pruebas diagnósticas.",
+      "en": "Methods handbook for authors of systematic reviews, guidelines and health technology assessments who use GRADE: intervention and diagnostic test questions."
+    },
+    "finding": {
+      "es": "Cuatro niveles de calidad (certeza) de la evidencia: alta, moderada, baja y muy baja (tabla 5.1). Los ECA sin limitaciones importantes parten de calidad alta y los observacionales de baja; cinco factores pueden bajar 1 o 2 niveles (riesgo de sesgo, inconsistencia, evidencia indirecta, imprecisión, sesgo de publicación) y tres pueden subirla (efecto grande, gradiente dosis-respuesta, confusión residual que reduciría el efecto). La fuerza de la recomendación (fuerte o débil/condicional) se juzga aparte de la calidad: puede haber recomendaciones débiles con evidencia de calidad alta y fuertes con calidad baja o muy baja. Los desenlaces sustitutos solo se usan si faltan datos de desenlaces importantes y suelen bajar la calidad 1 o 2 niveles por evidencia indirecta. Si una prueba no mejora los desenlaces importantes para el paciente, no hay razón para usarla, sea cual sea su exactitud.",
+      "en": "Four levels of quality (certainty) of evidence: high, moderate, low and very low (table 5.1). Randomised trials without important limitations start as high quality and observational studies as low; five factors can lower it by 1 or 2 levels (risk of bias, inconsistency, indirectness, imprecision, publication bias) and three can raise it (large effect, dose-response gradient, residual confounding that would reduce the effect). The strength of a recommendation (strong or weak/conditional) is judged separately from quality: weak recommendations with high-quality evidence and strong ones with low or very low quality are both possible. Surrogate outcomes are used only when data on important outcomes are lacking and usually lower quality by 1 or 2 levels for indirectness. If a test fails to improve patient-important outcomes there is no reason to use it, whatever its accuracy."
+    },
+    "limitations": {
+      "es": "Texto web completo leído (versión actualizada en octubre de 2013). La propia web avisa de que el manual está siendo sustituido por el GRADE Book (disponible desde 2024 en book.gradepro.org) y se retirará progresivamente; las secciones 1, 2, 3, 5 (incluida la 5.2) y 8 figuran como reescritas allí. Las definiciones de los niveles de certeza y de los factores para bajarla o subirla coinciden con el capítulo 14 del Cochrane Handbook (2024); las de fuerza de la recomendación, desenlaces sustitutos, opinión de expertos y pruebas diagnósticas proceden solo de este manual. Usa «calidad» donde los textos más recientes dicen «certeza».",
+      "en": "Full web text read (version updated October 2013). The site itself warns that the handbook is being replaced by the GRADE Book (available since 2024 at book.gradepro.org) and will be phased out; sections 1, 2, 3, 5 (including 5.2) and 8 are marked as rewritten there. The definitions of certainty levels and of the factors for rating down or up match chapter 14 of the Cochrane Handbook (2024); those on strength of recommendation, surrogate outcomes, expert opinion and diagnostic tests come from this handbook only. It says “quality” where newer texts say “certainty”."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "cochrane-2024-handbook-ch14",
+    "title": "Chapter 14: Completing ‘Summary of findings’ tables and grading the certainty of the evidence. Cochrane Handbook for Systematic Reviews of Interventions version 6.5",
+    "authors": "Schünemann HJ, Higgins JP, Vist GE, Glasziou P, Akl EA, Skoetz N, Guyatt GH",
+    "year": 2024,
+    "url": "https://training.cochrane.org/handbook/current/chapter-14",
+    "type": "other",
+    "population": {
+      "es": "Autores y lectores de revisiones Cochrane de intervenciones: tablas de resumen de resultados y valoración de la certeza con GRADE.",
+      "en": "Authors and readers of Cochrane intervention reviews: summary of findings tables and certainty assessment with GRADE."
+    },
+    "finding": {
+      "es": "Cochrane adopta GRADE: cuatro niveles de certeza para cada desenlace (alta, moderada, baja, muy baja), cinco dominios para bajarla (riesgo de sesgo, inconsistencia, evidencia indirecta, imprecisión, sesgo de publicación) y, para estudios no aleatorizados y rara vez aleatorizados, tres dominios para subirla. Los estudios no aleatorizados sólidos suelen quedar en certeza baja; con efectos grandes y sin sesgo evidente pueden subir a moderada o incluso alta.",
+      "en": "Cochrane adopts GRADE: four certainty levels for each outcome (high, moderate, low, very low), five domains for rating down (risk of bias, inconsistency, indirectness, imprecision, publication bias) and, for non-randomised and rarely randomised studies, three domains for rating up. Sound non-randomised studies are usually graded low; with large effects and no obvious bias they may be rated moderate or even high."
+    },
+    "limitations": {
+      "es": "Texto web del capítulo leído (última actualización agosto de 2023, en la versión 6.5 de 2024). Las figuras se leyeron como texto; algunas fórmulas e imágenes no se extrajeron.",
+      "en": "Web text of the chapter read (last updated August 2023, in version 6.5, 2024). Figures were read as text; some formulas and images were not extracted."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "cochrane-2024-handbook-ch15",
+    "title": "Chapter 15: Interpreting results and drawing conclusions. Cochrane Handbook for Systematic Reviews of Interventions version 6.5",
+    "authors": "Schünemann HJ, Vist GE, Higgins JP, Santesso N, Deeks JJ, Glasziou P, Akl EA, Guyatt GH",
+    "year": 2024,
+    "url": "https://training.cochrane.org/handbook/current/chapter-15",
+    "type": "other",
+    "population": {
+      "es": "Autores y lectores de revisiones Cochrane: interpretación de intervalos de confianza, medidas relativas y absolutas, número necesario a tratar y conclusiones.",
+      "en": "Authors and readers of Cochrane reviews: interpreting confidence intervals, relative and absolute measures, number needed to treat and conclusions."
+    },
+    "finding": {
+      "es": "Una reducción del riesgo de 4 % a 3 % es una reducción relativa del 25 % y una absoluta de 1 punto porcentual; un RR de 0,75 equivale a una reducción relativa del 25 %. El NNT es el número esperado de personas que deben recibir la intervención experimental en lugar de la comparadora para que una persona más tenga o evite un evento en un periodo dado; se calcula con el valor absoluto de la diferencia de riesgo y se redondea hacia arriba (diferencia −0,12: NNT 9; −0,22: NNT 5). Con RR 0,92 y riesgo de partida 0,3, el efecto es 24 menos por 1000 y el NNT, 42. Los efectos relativos son más estables entre grupos de riesgo que los absolutos, por lo que el beneficio absoluto debe expresarse para cada nivel de riesgo de partida; las frecuencias naturales se entienden mejor.",
+      "en": "A risk reduction from 4% to 3% is a 25% relative reduction and a 1 percentage point absolute reduction; a risk ratio of 0.75 equals a 25% relative risk reduction. The NNT is the expected number of people who need to receive the experimental rather than the comparator intervention for one additional person to incur or avoid an event over a given time; it is computed from the absolute value of the risk difference and rounded up (risk difference −0.12: NNT 9; −0.22: NNT 5). With RR 0.92 and an assumed comparator risk of 0.3, the effect is 24 fewer per 1000 and the NNT is 42. Relative effects are more stable across risk groups than absolute ones, so absolute benefit should be expressed for each baseline risk; natural frequencies are understood best."
+    },
+    "limitations": {
+      "es": "Texto web del capítulo leído (última actualización agosto de 2023, en la versión 6.5 de 2024). Las fórmulas son imágenes y no se extrajeron: se usaron solo la descripción en texto y los ejemplos numéricos del propio capítulo.",
+      "en": "Web text of the chapter read (last updated August 2023, in version 6.5, 2024). The formulas are images and were not extracted: only the chapter's text description and its own numerical examples were used."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "bossuyt-2015-stard",
+    "title": "STARD 2015: an updated list of essential items for reporting diagnostic accuracy studies",
+    "authors": "Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, Lijmer JG, Moher D, Rennie D, de Vet HC, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF; STARD Group",
+    "year": 2015,
+    "url": "https://doi.org/10.1136/bmj.h5527",
+    "doi": "10.1136/bmj.h5527",
+    "type": "other",
+    "population": {
+      "es": "Autores, editores y lectores de estudios de exactitud diagnóstica (una prueba índice frente a un estándar de referencia).",
+      "en": "Authors, editors and readers of diagnostic accuracy studies (an index test against a reference standard)."
+    },
+    "finding": {
+      "es": "Lista de 30 elementos esenciales para publicar un estudio de exactitud diagnóstica, entre ellos el uso previsto y el papel clínico de la prueba, cómo se seleccionaron los participantes, el estándar de referencia, los puntos de corte, el cegamiento, la tabla cruzada de resultados frente al estándar y la precisión de las estimaciones. Estos estudios tienen riesgo de sesgo: si no se analiza a todos los pacientes probados o si solo se incluyen controles sanos, la exactitud estimada puede no reflejar el rendimiento real de la prueba.",
+      "en": "List of 30 essential items for reporting a diagnostic accuracy study, including the intended use and clinical role of the test, how participants were identified, the reference standard, positivity cut-offs, blinding, the cross tabulation of results against the reference standard, and the precision of estimates. These studies are at risk of bias: if not all tested patients are analysed, or if only healthy controls are included, the accuracy estimates may not reflect the test's real performance."
+    },
+    "limitations": {
+      "es": "Texto completo leído (BMJ 2015;351:h5527, versión de Europe PMC PMC4623764). Es una guía de publicación, no una herramienta de valoración del riesgo de sesgo ni una guía clínica.",
+      "en": "Full text read (BMJ 2015;351:h5527, Europe PMC version PMC4623764). It is a reporting guideline, not a risk-of-bias tool or a clinical guideline."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "ranganathan-2018-diagnostic-tests-1",
+    "title": "Common pitfalls in statistical analysis: Understanding the properties of diagnostic tests - Part 1",
+    "authors": "Ranganathan P, Aggarwal R",
+    "year": 2018,
+    "url": "https://doi.org/10.4103/picr.picr_170_17",
+    "doi": "10.4103/picr.picr_170_17",
+    "type": "narrative-review",
+    "population": {
+      "es": "Artículo docente de estadística para clínicos (Perspect Clin Res 2018;9(1):40-43); ejemplo hipotético del dímero D frente a la gammagrafía de perfusión en la embolia pulmonar.",
+      "en": "Teaching statistics article for clinicians (Perspect Clin Res 2018;9(1):40-43); hypothetical example of D-dimer against perfusion scanning in pulmonary embolism."
+    },
+    "finding": {
+      "es": "Sensibilidad: proporción de personas con la enfermedad (según el estándar de referencia) con prueba positiva (7/10 = 70 % en el ejemplo); especificidad: proporción sin la enfermedad con prueba negativa (77/90 = 85,6 %). VPP y VPN: probabilidad de enfermedad con prueba positiva (7/20 = 35 %) o de no tenerla con prueba negativa (77/80 = 96 %). Sensibilidad y especificidad no suelen depender de la prevalencia; los valores predictivos sí: con prevalencia del 1 % el VPP baja a 7/150 = 4,7 % y el VPN es 847/850 = 99,6 %. Conviene aplicar una prueba a quien tiene probabilidad previa alta.",
+      "en": "Sensitivity: proportion of people with the disease (by the reference standard) who test positive (7/10 = 70% in the example); specificity: proportion without the disease who test negative (77/90 = 85.6%). PPV and NPV: probability of disease with a positive test (7/20 = 35%) or of no disease with a negative test (77/80 = 96%). Sensitivity and specificity are usually not influenced by prevalence; predictive values are: at 1% prevalence the PPV falls to 7/150 = 4.7% and the NPV is 847/850 = 99.6%. A test is best applied to people with a high pre-test probability."
+    },
+    "limitations": {
+      "es": "Texto completo leído (Europe PMC, PMC5799952). Las tablas no se extrajeron, pero todas las cifras usadas aparecen en el texto. Ejemplo hipotético con fines docentes, no datos clínicos del dímero D.",
+      "en": "Full text read (Europe PMC, PMC5799952). The tables were not extracted, but every figure used appears in the text. Hypothetical teaching example, not clinical D-dimer data."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "ranganathan-2018-diagnostic-tests-2",
+    "title": "Understanding the properties of diagnostic tests - Part 2: Likelihood ratios",
+    "authors": "Ranganathan P, Aggarwal R",
+    "year": 2018,
+    "url": "https://doi.org/10.4103/picr.picr_41_18",
+    "doi": "10.4103/picr.picr_41_18",
+    "type": "narrative-review",
+    "population": {
+      "es": "Artículo docente de estadística para clínicos (Perspect Clin Res 2018;9(2):99-102); continúa el ejemplo hipotético del dímero D.",
+      "en": "Teaching statistics article for clinicians (Perspect Clin Res 2018;9(2):99-102); continues the hypothetical D-dimer example."
+    },
+    "finding": {
+      "es": "LR+ = sensibilidad/(1 − especificidad); LR− = (1 − sensibilidad)/especificidad. En el ejemplo, LR+ = (7/10)/(13/90) = 4,85 y LR− = (3/10)/(77/90) = 0,35, iguales con prevalencias del 1 %, 10 % y 30 %. Un LR de 1,0 no cambia nada; LR > 10 o < 0,1 son muy útiles para confirmar o descartar. Odds postprueba = odds preprueba × LR; odds = probabilidad/(1 − probabilidad); probabilidad = odds/(1 + odds). Con un dímero D positivo, la probabilidad posprueba es del 67 % si la previa es del 30 % y del 5 % si la previa es del 1 %. La exactitud de los LR depende de la calidad de los estudios de los que salen.",
+      "en": "LR+ = sensitivity/(1 − specificity); LR− = (1 − sensitivity)/specificity. In the example, LR+ = (7/10)/(13/90) = 4.85 and LR− = (3/10)/(77/90) = 0.35, unchanged at prevalences of 1%, 10% and 30%. An LR of 1.0 changes nothing; LRs > 10 or < 0.1 are very useful to rule in or rule out. Post-test odds = pre-test odds × LR; odds = probability/(1 − probability); probability = odds/(1 + odds). With a positive D-dimer, the post-test probability is 67% when the pre-test probability is 30% and 5% when it is 1%. The accuracy of LRs depends on the quality of the studies they come from."
+    },
+    "limitations": {
+      "es": "Texto completo leído (Europe PMC, PMC5950618). Las tablas no se extrajeron; las cifras usadas aparecen en el texto. Ejemplo hipotético con fines docentes.",
+      "en": "Full text read (Europe PMC, PMC5950618). The tables were not extracted; the figures used appear in the text. Hypothetical teaching example."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "nice-2021-ng197",
+    "title": "Shared decision making. NICE guideline NG197",
+    "authors": "National Institute for Health and Care Excellence (NICE)",
+    "year": 2021,
+    "url": "https://www.nice.org.uk/guidance/ng197",
+    "type": "guideline",
+    "population": {
+      "es": "Personas que usan servicios sanitarios y profesionales y organizaciones del sistema sanitario inglés (NHS); todas las decisiones sobre pruebas, tratamientos e intervenciones.",
+      "en": "People using healthcare services and the professionals and organisations of the English health service (NHS); all decisions about tests, treatments and interventions."
+    },
+    "finding": {
+      "es": "La decisión compartida es un proceso colaborativo en el que la persona y su profesional trabajan juntos para llegar a una decisión conjunta. En la práctica: acordar una agenda, explicar los objetivos de cada opción, hablar abiertamente de riesgos, beneficios y consecuencias de cada una (incluida la de no tratar o no cambiar nada), aclarar qué espera ganar la persona, informar por partes y comprobar la comprensión (teach back), dar tiempo, aceptar que sus valores pueden diferir de los del profesional, decidir juntos y acordar cuándo revisarlo, y dejar claro que puede cambiar de opinión (1.2.7–1.2.16). Para comunicar riesgos: riesgo absoluto en lugar de relativo, frecuencias naturales, el mismo denominador, un periodo de tiempo definido y encuadre positivo y negativo a la vez (1.4.5–1.4.11).",
+      "en": "Shared decision making is a collaborative process in which a person and their healthcare professional work together to reach a joint decision. In practice: agree an agenda, explain the aims of each option, discuss openly the risks, benefits and consequences of each (including no treatment or no change), clarify what the person hopes to gain, give information in chunks and check understanding (teach back), give time, accept that their views may differ from the professional's, make a joint decision and agree when to review it, and make clear they can change their mind (1.2.7–1.2.16). To communicate risk: absolute rather than relative risk, natural frequencies, the same denominator, a defined time period and both positive and negative framing (1.4.5–1.4.11)."
+    },
+    "limitations": {
+      "es": "PDF completo leído (32 pp., publicada el 17 de junio de 2021). Es una guía del sistema sanitario inglés: varias recomendaciones son organizativas (sección 1.1) y no se citan aquí. No se leyeron las revisiones de evidencia que la acompañan.",
+      "en": "Full PDF read (32 pp., published 17 June 2021). It is an English health-service guideline: several recommendations are organisational (section 1.1) and are not cited here. The accompanying evidence reviews were not read."
+    },
+    "accessed": "2026-10-14"
+  }
+]
