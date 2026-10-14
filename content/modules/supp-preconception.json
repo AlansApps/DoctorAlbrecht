@@ -70,12 +70,12 @@
         "en": "Iodine before and during pregnancy"
       },
       "objective": {
-        "es": "Aplicar la recomendación de yodo en preconcepción, embarazo y lactancia, identificar las situaciones tiroideas en que no hace falta y evitar el exceso.",
-        "en": "Apply the iodine recommendation in preconception, pregnancy and lactation, identify thyroid situations in which it is not needed and avoid excess."
+        "es": "Aplicar la recomendación de yodo en preconcepción, embarazo y lactancia, saber que el tratamiento tiroideo no la excluye y evitar el exceso.",
+        "en": "Apply the iodine recommendation in preconception, pregnancy and lactation, know that thyroid treatment does not exclude it, and avoid excess."
       },
       "closing": {
-        "es": "Yodo con margen: 150 µg como yoduro potásico cuando corresponde, coordinación si hay enfermedad tiroidea y nada de kelp ni megadosis.",
-        "en": "Iodine with a window: 150 µg as potassium iodide when appropriate, coordination if there is thyroid disease, and no kelp or megadoses."
+        "es": "Yodo con margen: 250 µg/día totales, 150 µg de suplemento si hay riesgo de déficit, la misma pauta con levotiroxina o antitiroideos y nada por encima de 500 µg/día sostenidos.",
+        "en": "Iodine with a window: 250 µg/day in total, a 150 µg supplement if there is a risk of deficiency, the same approach on levothyroxine or antithyroid drugs, and nothing above a sustained 500 µg/day."
       },
       "prerequisites": [
         "supp.principles",
@@ -295,7 +295,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "supplements",
         "reproduction"
@@ -312,12 +312,12 @@
         "en": "During pregnancy, cod liver oil and supplements containing vitamin A (retinol) should not be taken, and this may include regular multivitamins not designed for pregnancy. [[ref:nice-2025-ng247]]"
       },
       "body": {
-        "es": "USPSTF acepta que el ácido fólico llegue en un suplemento simple o en un multivitamínico que lo contenga. [[ref:uspstf-2023-folic-acid]] ESHRE, ante pacientes con PGR que preguntan por multivitamínicos, recomienda orientarlas hacia preparados seguros en el embarazo (buena práctica): no son un tratamiento, pero algunas vitaminas (A, E) pueden causar daño. [[ref:eshre-2022-rpl]]\n\nEl yodo no siempre está: en 2009 solo el 51 % de los prenatales de EE. UU. lo contenía, y cuando procede de kelp su contenido es inconsistente; la guía de la ATA prefiere el yoduro potásico. [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "USPSTF accepts folic acid as a single supplement or within a multivitamin that contains it. [[ref:uspstf-2023-folic-acid]] ESHRE, when RPL patients ask about multivitamins, recommends steering them to products safe in pregnancy (good practice): they are not a treatment, but some vitamins (A, E) may cause harm. [[ref:eshre-2022-rpl]]\n\nIodine is not always there: in 2009 only 51% of US prenatal vitamins contained it, and when it comes from kelp the content is inconsistent; the ATA guideline prefers potassium iodide. [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "USPSTF acepta que el ácido fólico llegue en un suplemento simple o en un multivitamínico que lo contenga. [[ref:uspstf-2023-folic-acid]] ESHRE, ante pacientes con PGR que preguntan por multivitamínicos, recomienda orientarlas hacia preparados seguros en el embarazo (buena práctica): no son un tratamiento, pero algunas vitaminas (A, E) pueden causar daño. [[ref:eshre-2022-rpl]]\n\nPara el yodo, la ATA 2026 sugiere un suplemento de 150 µg/día en mujeres con riesgo de déficit (condicional, certeza moderada) y recomienda evitar en el embarazo el uso sostenido de suplementos con más de 500 µg/día (fuerte, certeza moderada). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "USPSTF accepts folic acid as a single supplement or within a multivitamin that contains it. [[ref:uspstf-2023-folic-acid]] ESHRE, when RPL patients ask about multivitamins, recommends steering them to products safe in pregnancy (good practice): they are not a treatment, but some vitamins (A, E) may cause harm. [[ref:eshre-2022-rpl]]\n\nFor iodine, the 2026 ATA guideline suggests a 150 µg/day supplement in women at risk of deficiency (conditional, moderate certainty) and recommends avoiding sustained supplement use above 500 µg/day in pregnancy (strong, moderate certainty). [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "Revisa con la paciente su producto: ácido fólico a la dosis que corresponda, sin retinol a dosis de suplemento, y si incluye yodo, en qué forma. Pídele que no sume productos por su cuenta sin comentarlo.",
-        "en": "Review her product with the patient: folic acid at the appropriate dose, no supplement-level retinol and, if it contains iodine, in what form. Ask her not to stack products on her own without discussing it."
+        "es": "Revisa con la paciente su producto: ácido fólico a la dosis que corresponda, sin retinol a dosis de suplemento y, si incluye yodo, cuánto aporta al día. Pídele que no sume productos por su cuenta sin comentarlo.",
+        "en": "Review her product with the patient: folic acid at the appropriate dose, no supplement-level retinol and, if it contains iodine, how much it provides per day. Ask her not to stack products on her own without discussing it."
       },
       "pearl": {
         "es": "“Prenatal” es una etiqueta comercial, no una garantía de composición: la lectura de la etiqueta es parte de la consulta.",
@@ -326,8 +326,8 @@
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "NICE NG247; USPSTF 2023; ESHRE PGR (GPP); ATA 2017 (dato de mercado de EE. UU. de 2009).",
-          "en": "NICE NG247; USPSTF 2023; ESHRE RPL (GPP); ATA 2017 (2009 US market data)."
+          "es": "NICE NG247; USPSTF 2023; ESHRE PGR (GPP); ATA 2026 (Recommendations Table 3).",
+          "en": "NICE NG247; USPSTF 2023; ESHRE RPL (GPP); ATA 2026 (Recommendations Table 3)."
         }
       },
       "recall": {
@@ -335,8 +335,8 @@
         "en": "Which component should be avoided in a multivitamin during pregnancy per NICE?"
       },
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
@@ -873,7 +873,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 3,
       "tags": [
         "supplements",
         "reproduction"
@@ -882,20 +882,20 @@
       "type": "supplement",
       "conceptId": "supp.pc.iodine-routine",
       "title": {
-        "es": "Yodo: 250 µg totales, 150 µg como suplemento",
-        "en": "Iodine: 250 µg total, 150 µg as a supplement"
+        "es": "Yodo: 250 µg totales; 150 µg de suplemento si hay riesgo",
+        "en": "Iodine: 250 µg total; 150 µg supplement if at risk"
       },
       "core": {
-        "es": "La ATA recomienda que toda embarazada ingiera unos 250 µg de yodo al día (fuerte, calidad alta) y, en la mayoría de regiones, incluida EE. UU., un suplemento diario con 150 µg de yodo como yoduro potásico, idealmente desde 3 meses antes del embarazo planificado (fuerte, calidad moderada). [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "The ATA recommends that all pregnant women ingest about 250 µg of iodine a day (strong, high quality) and, in most regions including the US, a daily supplement with 150 µg of iodine as potassium iodide, ideally from 3 months before planned pregnancy (strong, moderate quality). [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "La ATA 2026 recomienda que embarazadas y lactantes procuren una ingesta diaria de 250 µg de yodo, con la dieta complementada con suplementos según haga falta (fuerte, certeza moderada). A las mujeres con riesgo de déficit de yodo por región geográfica, restricciones dietéticas o malabsorción les sugiere un suplemento de 150 µg/día, idealmente desde al menos 3 meses antes del embarazo planificado y hasta terminar la lactancia (condicional, certeza moderada). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "The 2026 ATA guideline recommends that pregnant and lactating women strive for a daily iodine intake of 250 µg, with diet complemented by supplements as required (strong, moderate certainty). For women at risk of iodine deficiency given geographic region, dietary restrictions or malabsorption, it suggests a 150 µg/day supplement, ideally from at least 3 months before planned pregnancy until lactation is complete (conditional, moderate certainty). [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "body": {
-        "es": "Mecanismo: el yodo es sustrato de la hormona tiroidea, cuya demanda aumenta en el embarazo. La guía plantea el suplemento como complemento de la dieta, no como sustituto, y advierte que la ingesta individual de yodo no puede estimarse de forma fiable ni por la historia ni por ninguna prueba de laboratorio. Dietas restrictivas (intolerancia a la lactosa o al gluten, dietas bajas en carbohidratos o veganas) pueden necesitar más atención. [[ref:ata-2017-thyroid-pregnancy]]\n\nLactancia: también unos 250 µg/día totales y un suplemento diario de 150 µg, preferiblemente como yoduro potásico en un multivitamínico, porque el kelp y otras algas no aportan una dosis constante. [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "Mechanism: iodine is the substrate of thyroid hormone, whose demand rises in pregnancy. The guideline frames the supplement as an addition to diet, not a replacement, and warns that individual iodine intake cannot be reliably estimated by history or any laboratory test. Restrictive diets (lactose or gluten intolerance, low-carbohydrate or vegan diets) may need extra attention. [[ref:ata-2017-thyroid-pregnancy]]\n\nLactation: also about 250 µg/day total and a daily 150 µg supplement, preferably as potassium iodide in a multivitamin, because kelp and other seaweed do not deliver a consistent dose. [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "Matiz: la recomendación graduada de la tabla se limita a mujeres con riesgo, pero el texto que la acompaña aconseja 150 µg/día a todas las mujeres en preconcepción, embarazo y lactancia (salvo ingesta alta evidente por hábitos dietéticos tradicionales) y admite cantidades mayores si el riesgo es mayor, por ejemplo sin sal yodada, sin lácteos o con dieta vegana. [[ref:ata-2026-thyroid-pregnancy]]\n\nMecanismo: en el embarazo aumentan las necesidades de hormona tiroidea y la excreción renal de yodo, y el feto añade demanda; el simportador sodio/yoduro (NIS) media la captación tiroidea materna y fetal y el paso de yoduro por la placenta. [[ref:ata-2026-thyroid-pregnancy]]\n\nNo hay biomarcadores validados de la ingesta crónica de yodo de una persona: la yoduria se interpreta solo como mediana de una población. [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "Nuance: the graded table recommendation is limited to women at risk, but the accompanying text advises 150 µg/day for all women preconception, in pregnancy and in lactation (unless high iodine intake is evident from traditional dietary habits) and allows higher amounts at increased risk, for example not using iodised salt, not eating dairy or following a vegan diet. [[ref:ata-2026-thyroid-pregnancy]]\n\nMechanism: in pregnancy thyroid hormone requirements and renal iodine excretion increase, and the fetus adds demand; the sodium/iodide symporter (NIS) mediates maternal and fetal thyroid uptake and the placental transfer of iodide. [[ref:ata-2026-thyroid-pregnancy]]\n\nThere are no validated biomarkers of an individual’s chronic iodine intake: urinary iodine is interpreted only as a population median. [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "La estrategia depende del estado de yodo de cada país (sal yodada, lácteos, programas de salud pública): comprueba la recomendación local antes de trasladar la cifra de EE. UU.",
-        "en": "The strategy depends on each country’s iodine status (iodised salt, dairy, public-health programmes): check the local recommendation before applying the US figure."
+        "es": "Según la ATA, las estrategias para una ingesta óptima de yodo varían por región, y la guía no aporta datos de Argentina ni de España: comprueba la recomendación local y pregunta por la dieta (sal yodada, lácteos, dieta vegana) antes de trasladar la cifra.",
+        "en": "Per the ATA, strategies for optimal iodine intake vary by region, and the guideline gives no data for Argentina or Spain: check the local recommendation and ask about diet (iodised salt, dairy, vegan diet) before applying the figure."
       },
       "pearl": {
         "es": "Ojo con las unidades: el yodo se dosifica en microgramos (µg). Un preparado que dé “mg” de yodo merece una segunda lectura.",
@@ -904,22 +904,22 @@
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "ATA 2017 (fuerte; calidad alta/moderada). Orientada a EE. UU.",
-          "en": "ATA 2017 (strong; high/moderate quality). US-oriented."
+          "es": "ATA 2026, Recommendations Table 3: 250 µg (fuerte, moderada); 150 µg si hay riesgo (condicional, moderada). El texto acompañante lo aconseja a todas.",
+          "en": "ATA 2026, Recommendations Table 3: 250 µg (strong, moderate); 150 µg if at risk (conditional, moderate). The accompanying text advises it for all."
         }
       },
       "recall": {
-        "es": "¿Cuánto yodo total y cuánto suplemento recomienda la ATA en el embarazo, y en qué forma?",
-        "en": "How much total iodine and how much supplement does the ATA recommend in pregnancy, and in what form?"
+        "es": "¿Cuánto yodo total recomienda la ATA 2026 en embarazo y lactancia, y a quién sugiere un suplemento de 150 µg/día?",
+        "en": "How much total iodine does the 2026 ATA guideline recommend in pregnancy and lactation, and for whom does it suggest a 150 µg/day supplement?"
       },
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 3,
       "tags": [
         "supplements",
         "hormones",
@@ -929,40 +929,40 @@
       "type": "what-i-would-do",
       "conceptId": "supp.pc.iodine-thyroid",
       "title": {
-        "es": "Yodo y enfermedad tiroidea: cuándo no hace falta",
-        "en": "Iodine and thyroid disease: when it is not needed"
+        "es": "Yodo y enfermedad tiroidea: la misma pauta",
+        "en": "Iodine and thyroid disease: the same approach"
       },
       "core": {
-        "es": "Según la ATA, no hace falta iniciar suplemento de yodo en embarazadas tratadas por hipertiroidismo o que toman levotiroxina (recomendación débil, calidad baja). [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "Per the ATA, there is no need to start iodine supplementation in pregnant women treated for hyperthyroidism or taking levothyroxine (weak recommendation, low quality). [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "La ATA 2026 sugiere aplicar recomendaciones de suplementación de yodo similares en embarazadas que toman antitiroideos por hipertiroidismo de Graves y en las que toman levotiroxina por hipotiroidismo (condicional, certeza baja). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "The 2026 ATA guideline suggests applying similar iodine supplementation recommendations to pregnant women taking antithyroid drugs for Graves’ hyperthyroidism and to those taking levothyroxine for hypothyroidism (conditional, low certainty). [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "body": {
-        "es": "El razonamiento con levotiroxina: si la hormona se aporta ya formada, el sustrato deja de ser necesario para producirla. [[ref:ata-2017-thyroid-pregnancy]]\n\nLa guía también recuerda que incluso dosis bajas de yodo pueden desencadenar autoinmunidad tiroidea en una pequeña proporción de mujeres. [[ref:ata-2017-thyroid-pregnancy]] Por eso, en quien tiene enfermedad tiroidea conocida, la decisión de añadir yodo se coordina con quien lleva su tiroides.",
-        "en": "The reasoning with levothyroxine: if the hormone is supplied ready-made, the substrate is no longer needed to produce it. [[ref:ata-2017-thyroid-pregnancy]]\n\nThe guideline also notes that even low-dose iodine may trigger thyroid autoimmunity in a small proportion of women. [[ref:ata-2017-thyroid-pregnancy]] So, in women with known thyroid disease, the decision to add iodine is coordinated with whoever manages their thyroid."
+        "es": "Es un cambio: la guía ATA de 2017 consideraba innecesario iniciar el suplemento en estas pacientes (recomendación débil, calidad baja), y la guía de 2026 la sustituye. [[ref:ata-2017-thyroid-pregnancy]] [[ref:ata-2026-thyroid-pregnancy]]\n\nEl yodo a dosis altas queda para usos terapéuticos concretos: la ATA exceptúa la solución saturada de yoduro potásico (SSKI) en la preparación para la cirugía de la enfermedad de Graves (sin datos de seguridad en el embarazo, aunque considera improbable que un uso preoperatorio breve dañe al feto) y, con datos limitados, describe el yoduro potásico (hasta 50 mg/día) como alternativa para tratar la enfermedad de Graves en el embarazo en poblaciones con suficiencia de yodo, sobre todo si hay más riesgo o contraindicaciones (p. ej., alergias) a los tratamientos habituales. [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "This is a change: the 2017 ATA guideline considered it unnecessary to start the supplement in these patients (weak recommendation, low quality), and the 2026 guideline replaces it. [[ref:ata-2017-thyroid-pregnancy]] [[ref:ata-2026-thyroid-pregnancy]]\n\nHigh-dose iodine is reserved for specific therapeutic uses: the ATA exempts saturated solution of potassium iodide (SSKI) in preparation for Graves’ disease surgery (with no safety data in pregnancy, although it considers short-term preoperative use unlikely to harm the fetus) and, based on limited data, describes potassium iodide (up to 50 mg/day) as an alternative treatment for Graves’ disease in pregnancy in iodine-sufficient populations, particularly when there is higher risk or contraindications (e.g., allergies) to the usual therapies. [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "Antes de pautar un prenatal con yodo, pregunta por hipotiroidismo tratado, hipertiroidismo y antitiroideos. Si los hay, coordina con endocrinología en lugar de añadir yodo por defecto.",
-        "en": "Before prescribing a prenatal with iodine, ask about treated hypothyroidism, hyperthyroidism and antithyroid drugs. If present, coordinate with endocrinology rather than adding iodine by default."
+        "es": "Si toma levotiroxina o antitiroideos, no omitas el yodo por ese motivo: valora su ingesta y su riesgo de déficit como en cualquier otra paciente y mantén el seguimiento tiroideo coordinado con quien lo lleve.",
+        "en": "If she takes levothyroxine or antithyroid drugs, do not omit iodine for that reason: assess her intake and deficiency risk as in any other patient and keep thyroid follow-up coordinated with whoever manages it."
       },
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "ATA 2017: débil, calidad baja.",
-          "en": "ATA 2017: weak, low quality."
+          "es": "ATA 2026, Recommendations Table 3: condicional, certeza baja. Invierte la postura de ATA 2017.",
+          "en": "ATA 2026, Recommendations Table 3: conditional, low certainty. Reverses the 2017 ATA position."
         }
       },
       "recall": {
-        "es": "¿Qué dos situaciones tiroideas, según la ATA, no requieren iniciar yodo en el embarazo?",
-        "en": "Which two thyroid situations, per the ATA, do not require starting iodine in pregnancy?"
+        "es": "¿Qué sugiere la ATA 2026 sobre el yodo en embarazadas que toman levotiroxina o antitiroideos?",
+        "en": "What does the 2026 ATA guideline suggest about iodine in pregnant women taking levothyroxine or antithyroid drugs?"
       },
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 3,
       "tags": [
         "supplements",
         "hormones",
@@ -972,20 +972,20 @@
       "type": "concept",
       "conceptId": "supp.pc.iodine-excess",
       "title": {
-        "es": "Exceso de yodo: kelp, amiodarona y contrastes",
-        "en": "Iodine excess: kelp, amiodarone and contrast"
+        "es": "Exceso de yodo: suplementos, amiodarona y contrastes",
+        "en": "Iodine excess: supplements, amiodarone and contrast"
       },
       "core": {
-        "es": "La ATA recomienda evitar en el embarazo una ingesta sostenida de yodo por dieta y suplementos superior a 500 µg/día, por el riesgo de disfunción tiroidea fetal (fuerte, calidad moderada). [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "The ATA recommends avoiding sustained iodine intake from diet and supplements above 500 µg/day in pregnancy, because of the risk of fetal thyroid dysfunction (strong, moderate quality). [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "La ATA 2026 recomienda evitar en el embarazo la ingesta dietética excesiva sostenida de yodo y el uso de suplementos por encima de 500 µg/día, por la preocupación de disfunción tiroidea fetal y materna (fuerte, certeza moderada). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "The 2026 ATA guideline recommends avoiding sustained excessive dietary iodine intake and supplement use above 500 µg/day in pregnancy, because of concerns for fetal and maternal thyroid dysfunction (strong, moderate certainty). [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "body": {
-        "es": "Mecanismo: ante una carga alta de yodo, la tiroides frena transitoriamente su síntesis (efecto Wolff–Chaikoff) y luego “escapa”; el feto no madura esa capacidad de escape hasta alrededor de la semana 36, por lo que es especialmente vulnerable. [[ref:ata-2017-thyroid-pregnancy]]\n\nFuentes de exceso que cita la guía: suplementos de kelp y algunos preparados de yodo (algunos con cantidades miles de veces superiores al límite, que no deben tomarse), la amiodarona (75 mg de yodo por comprimido de 200 mg) y los contrastes yodados intravenosos. No se recomiendan suplementos de yodo o kelp con más de 500 µg/día en embarazo ni lactancia. [[ref:ata-2017-thyroid-pregnancy]]",
-        "en": "Mechanism: faced with a high iodine load, the thyroid transiently slows synthesis (Wolff–Chaikoff effect) and then “escapes”; the fetus does not mature this escape until about week 36, so it is especially vulnerable. [[ref:ata-2017-thyroid-pregnancy]]\n\nSources of excess the guideline lists: kelp supplements and some iodine preparations (some with amounts thousands of times above the limit, which should not be taken), amiodarone (75 mg of iodine per 200 mg tablet) and intravenous iodinated contrast. Iodine or kelp supplements above 500 µg/day are not recommended in pregnancy or lactation. [[ref:ata-2017-thyroid-pregnancy]]"
+        "es": "También recomienda evitar en el embarazo la exposición excesiva al yodo, salvo ciertas indicaciones médicas, como la SSKI o los contrastes yodados (fuerte, certeza moderada). [[ref:ata-2026-thyroid-pregnancy]]\n\nAnte fármacos o pruebas que suponen una exposición alta al yodo, como la amiodarona o los contrastes yodados, la guía pide sopesar riesgos y beneficios; la FDA clasifica actualmente la amiodarona como de posible riesgo fetal humano, aunque la guía reconoce que sus posibles beneficios pueden justificar su uso en embarazadas. [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "It also recommends avoiding excessive iodine exposure in pregnancy, except for certain medical indications, such as SSKI or iodinated contrast (strong, moderate certainty). [[ref:ata-2026-thyroid-pregnancy]]\n\nFor medications or tests that cause high iodine exposure, such as amiodarone or iodinated contrast, the guideline asks clinicians to weigh risks and benefits; the FDA currently classifies amiodarone as posing possible human fetal risk, although the guideline recognises that its potential benefits may warrant use in pregnant women. [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "En la anamnesis de suplementos pregunta específicamente por algas, kelp y “soporte tiroideo”: rara vez se mencionan espontáneamente.",
-        "en": "In the supplement history, ask specifically about seaweed, kelp and “thyroid support” products: they are rarely mentioned spontaneously."
+        "es": "En la anamnesis de suplementos pregunta específicamente por algas, kelp y productos de “soporte tiroideo”, y comprueba en la etiqueta cuánto yodo aportan al día.",
+        "en": "In the supplement history, ask specifically about seaweed, kelp and “thyroid support” products, and check on the label how much iodine they provide per day."
       },
       "pearl": {
         "es": "Con el yodo, el riesgo es una U: tanto el déficit como el exceso alteran la tiroides, también la fetal.",
@@ -994,22 +994,22 @@
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "ATA 2017: fuerte, calidad moderada.",
-          "en": "ATA 2017: strong, moderate quality."
+          "es": "ATA 2026, Recommendations Table 3: fuerte, certeza moderada.",
+          "en": "ATA 2026, Recommendations Table 3: strong, moderate certainty."
         }
       },
       "recall": {
-        "es": "¿Qué umbral de ingesta sostenida de yodo recomienda evitar la ATA en el embarazo y por qué?",
-        "en": "What sustained iodine intake threshold does the ATA recommend avoiding in pregnancy, and why?"
+        "es": "¿Qué umbral de ingesta sostenida de yodo recomienda evitar la ATA 2026 en el embarazo y por qué?",
+        "en": "What sustained iodine intake threshold does the 2026 ATA guideline recommend avoiding in pregnancy, and why?"
       },
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "supplements",
         "hormones",
@@ -1019,32 +1019,32 @@
       "conceptId": "supp.pc.iodine-thyroid",
       "difficulty": 2,
       "stem": {
-        "es": "Mujer de 32 años con hipotiroidismo bien controlado con levotiroxina, embarazada de 6 semanas. Toma un prenatal con ácido fólico sin yodo. Según la ATA, ¿qué es lo más adecuado respecto al yodo?",
-        "en": "A 32-year-old woman with hypothyroidism well controlled on levothyroxine, 6 weeks pregnant. She takes a prenatal with folic acid and no iodine. Per the ATA, what is most appropriate regarding iodine?"
+        "es": "Mujer de 32 años con hipotiroidismo bien controlado con levotiroxina, embarazada de 6 semanas. Toma un prenatal con ácido fólico sin yodo. Según la ATA 2026, ¿qué es lo más adecuado respecto al yodo?",
+        "en": "A 32-year-old woman with hypothyroidism well controlled on levothyroxine, 6 weeks pregnant. She takes a prenatal with folic acid and no iodine. Per the 2026 ATA guideline, what is most appropriate regarding iodine?"
       },
       "options": [
         {
           "id": "a",
           "text": {
-            "es": "No es necesario iniciar un suplemento de yodo; coordinar el seguimiento tiroideo.",
-            "en": "Starting an iodine supplement is not necessary; coordinate thyroid follow-up."
+            "es": "Aplicarle la misma recomendación de yodo que a otras embarazadas (250 µg/día totales; suplemento de 150 µg/día si tiene riesgo de déficit): la levotiroxina no la excluye.",
+            "en": "Apply the same iodine recommendation as for other pregnant women (250 µg/day total; a 150 µg/day supplement if at risk of deficiency): levothyroxine does not exclude it."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: la ATA indica que no hace falta iniciarlo en quien toma levotiroxina (débil, calidad baja).",
-            "en": "Correct: the ATA states it need not be started in women taking levothyroxine (weak, low quality)."
+            "es": "Correcta: la ATA 2026 sugiere aplicar recomendaciones similares a quienes toman levotiroxina (condicional, certeza baja).",
+            "en": "Correct: the 2026 ATA guideline suggests applying similar recommendations to women taking levothyroxine (conditional, low certainty)."
           }
         },
         {
           "id": "b",
           "text": {
-            "es": "Añadir kelp, que es una fuente natural de yodo.",
-            "en": "Add kelp, a natural iodine source."
+            "es": "No iniciar yodo: si toma levotiroxina, no hace falta.",
+            "en": "Do not start iodine: on levothyroxine it is not needed."
           },
           "correct": false,
           "why": {
-            "es": "El kelp tiene contenido inconsistente y puede superar mucho el límite; la ATA lo desaconseja.",
-            "en": "Kelp has inconsistent content and may far exceed the limit; the ATA advises against it."
+            "es": "Era la postura de la ATA 2017; la guía de 2026, que la sustituye, sugiere lo contrario.",
+            "en": "That was the 2017 ATA position; the 2026 guideline, which replaces it, suggests the opposite."
           }
         },
         {
@@ -1055,8 +1055,8 @@
           },
           "correct": false,
           "why": {
-            "es": "No hay indicación y se acerca al umbral que la ATA recomienda no superar de forma sostenida.",
-            "en": "There is no indication and it approaches the threshold the ATA recommends not exceeding on a sustained basis."
+            "es": "No hay indicación de dosis altas, y se sitúa en el umbral que la ATA recomienda no superar de forma sostenida.",
+            "en": "There is no indication for high doses, and it sits at the threshold the ATA recommends not exceeding on a sustained basis."
           }
         },
         {
@@ -1067,26 +1067,27 @@
           },
           "correct": false,
           "why": {
-            "es": "La ATA señala que la ingesta individual no se estima de forma fiable con pruebas de laboratorio.",
-            "en": "The ATA notes individual intake cannot be reliably estimated with laboratory tests."
+            "es": "La ATA señala que no hay biomarcadores validados de la ingesta crónica individual; la yoduria se interpreta como mediana poblacional.",
+            "en": "The ATA notes there are no validated biomarkers of individual chronic intake; urinary iodine is interpreted as a population median."
           }
         }
       ],
       "explanation": {
-        "es": "Con levotiroxina la hormona llega ya formada; la prioridad es el control tiroideo, no el sustrato.",
-        "en": "On levothyroxine the hormone arrives ready-made; the priority is thyroid control, not the substrate."
+        "es": "La ATA 2026 invierte la postura de 2017: tomar levotiroxina o antitiroideos no excluye la recomendación de yodo.",
+        "en": "The 2026 ATA guideline reverses the 2017 position: taking levothyroxine or antithyroid drugs does not exclude the iodine recommendation."
       },
       "refIds": [
+        "ata-2026-thyroid-pregnancy",
         "ata-2017-thyroid-pregnancy"
       ],
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 3,
       "tags": [
         "supplements",
         "hormones",
@@ -1096,20 +1097,20 @@
       "conceptId": "supp.pc.iodine-excess",
       "difficulty": 1,
       "stem": {
-        "es": "Una paciente que planifica embarazo toma un suplemento de kelp “para la tiroides” cuya etiqueta declara 1000 µg de yodo por dosis diaria. Según la ATA, ¿qué le dirías?",
-        "en": "A patient planning pregnancy takes a kelp supplement “for the thyroid” whose label states 1000 µg of iodine per daily dose. Per the ATA, what would you tell her?"
+        "es": "Una paciente que planifica embarazo toma un suplemento de kelp “para la tiroides” cuya etiqueta declara 1000 µg de yodo por dosis diaria. Según la ATA 2026, ¿qué le dirías?",
+        "en": "A patient planning pregnancy takes a kelp supplement “for the thyroid” whose label states 1000 µg of iodine per daily dose. Per the 2026 ATA guideline, what would you tell her?"
       },
       "options": [
         {
           "id": "a",
           "text": {
-            "es": "Que lo suspenda: en el embarazo no se recomiendan suplementos de yodo o kelp con más de 500 µg/día, y el kelp tiene contenido poco fiable.",
-            "en": "To stop it: iodine or kelp supplements above 500 µg/day are not recommended in pregnancy, and kelp content is unreliable."
+            "es": "Que lo suspenda: en el embarazo debe evitarse el uso sostenido de suplementos con más de 500 µg/día de yodo, y no tiene sentido mantenerlo mientras busca embarazo.",
+            "en": "To stop it: sustained use of supplements providing more than 500 µg/day of iodine should be avoided in pregnancy, and there is no point continuing it while trying to conceive."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: la ATA desaconseja superar 500 µg/día de forma sostenida y prefiere el yoduro potásico.",
-            "en": "Correct: the ATA advises against sustained intake above 500 µg/day and prefers potassium iodide."
+            "es": "Correcta: la ATA 2026 lo recomienda (fuerte, certeza moderada) por la preocupación de disfunción tiroidea fetal y materna.",
+            "en": "Correct: the 2026 ATA guideline recommends this (strong, moderate certainty) because of concerns for fetal and maternal thyroid dysfunction."
           }
         },
         {
@@ -1120,8 +1121,8 @@
           },
           "correct": false,
           "why": {
-            "es": "El exceso también daña: el feto no escapa del efecto Wolff–Chaikoff hasta alrededor de la semana 36.",
-            "en": "Excess also harms: the fetus does not escape the Wolff–Chaikoff effect until about week 36."
+            "es": "El exceso también es un riesgo: la ATA recomienda evitar la exposición excesiva al yodo en el embarazo.",
+            "en": "Excess is also a risk: the ATA recommends avoiding excessive iodine exposure in pregnancy."
           }
         },
         {
@@ -1132,26 +1133,26 @@
           },
           "correct": false,
           "why": {
-            "es": "La recomendación de la ATA es empezar el suplemento adecuado (150 µg) antes del embarazo, no un exceso.",
-            "en": "The ATA recommendation is to start the appropriate supplement (150 µg) before pregnancy, not an excess."
+            "es": "La pauta que sugiere la ATA antes del embarazo es un suplemento de 150 µg/día en mujeres con riesgo, idealmente desde al menos 3 meses antes, no una dosis alta que se corta con el positivo.",
+            "en": "The pre-pregnancy approach the ATA suggests is a 150 µg/day supplement in women at risk, ideally from at least 3 months before, not a high dose stopped at the positive test."
           }
         }
       ],
       "explanation": {
-        "es": "El yodo tiene un margen: suplemento de 150 µg como yoduro potásico, evitando ingestas sostenidas >500 µg/día.",
-        "en": "Iodine has a window: a 150 µg supplement as potassium iodide, avoiding sustained intake >500 µg/day."
+        "es": "El yodo tiene un margen: 250 µg/día totales en el embarazo, 150 µg de suplemento si hay riesgo de déficit y nada por encima de 500 µg/día sostenidos.",
+        "en": "Iodine has a window: 250 µg/day total in pregnancy, a 150 µg supplement if there is a risk of deficiency, and nothing above a sustained 500 µg/day."
       },
       "refIds": [
-        "ata-2017-thyroid-pregnancy"
+        "ata-2026-thyroid-pregnancy"
       ],
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 3,
       "tags": [
         "supplements",
         "reproduction"
@@ -1160,69 +1161,69 @@
       "conceptId": "supp.pc.iodine-routine",
       "difficulty": 2,
       "stem": {
-        "es": "Según la ATA, ¿por qué se recomienda en EE. UU. un suplemento de yodo a todas las mujeres que planifican embarazo, en vez de decidirlo caso a caso?",
-        "en": "Per the ATA, why is an iodine supplement recommended in the US for all women planning pregnancy, rather than deciding case by case?"
+        "es": "Según la ATA 2026, ¿qué papel tiene la yoduria (concentración urinaria de yodo) para decidir el yodo de una mujer concreta que planifica un embarazo?",
+        "en": "Per the 2026 ATA guideline, what role does urinary iodine concentration play in deciding iodine for an individual woman planning pregnancy?"
       },
       "options": [
         {
           "id": "a",
           "text": {
-            "es": "Porque la ingesta individual de yodo no puede determinarse de forma fiable ni por la historia ni por pruebas de laboratorio.",
-            "en": "Because individual iodine intake cannot be reliably determined by history or laboratory tests."
+            "es": "Ninguno fiable: no hay biomarcadores validados de la ingesta crónica individual, y la decisión se apoya en los factores de riesgo de déficit.",
+            "en": "No reliable role: there are no validated biomarkers of individual chronic intake, and the decision rests on risk factors for deficiency."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: es el argumento de la ATA para suplementar a todas en vez de cribar.",
-            "en": "Correct: this is the ATA’s argument for supplementing everyone rather than screening."
+            "es": "Correcta: la guía subraya que la yoduria solo se interpreta como mediana poblacional y que deben seguir considerándose los factores de riesgo individuales.",
+            "en": "Correct: the guideline stresses that urinary iodine is interpreted only as a population median and that individual risk factors should still be considered."
           }
         },
         {
           "id": "b",
           "text": {
-            "es": "Porque el yodo mejora la tasa de nacido vivo en mujeres infértiles.",
-            "en": "Because iodine improves live birth rates in infertile women."
+            "es": "Una yoduria individual por debajo de 150 µg/l confirma el déficit y obliga a suplementar.",
+            "en": "An individual urinary iodine below 150 µg/L confirms deficiency and mandates supplementation."
           },
           "correct": false,
           "why": {
-            "es": "La recomendación busca un estado de yodo adecuado en el embarazo; no se basa en desenlaces de fertilidad.",
-            "en": "The recommendation targets adequate iodine status in pregnancy; it is not based on fertility outcomes."
+            "es": "Los rangos de yoduria de la ATA (100–199 µg/l fuera del embarazo y la lactancia; 150–249 µg/l en gestantes) son medianas poblacionales, no puntos de corte individuales.",
+            "en": "The ATA urinary iodine ranges (100–199 µg/L outside pregnancy and lactation; 150–249 µg/L in pregnant women) are population medians, not individual cut-offs."
           }
         },
         {
           "id": "c",
           "text": {
-            "es": "Porque la sal yodada está prohibida en EE. UU.",
-            "en": "Because iodised salt is banned in the US."
+            "es": "La TSH materna sustituye a la yoduria como marcador del estado de yodo.",
+            "en": "Maternal TSH replaces urinary iodine as a marker of iodine status."
           },
           "correct": false,
           "why": {
-            "es": "Es falso; la guía habla de fuentes dietéticas variables, no de prohibición.",
-            "en": "False; the guideline discusses variable dietary sources, not a ban."
+            "es": "La guía indica que las pruebas de función tiroidea no son indicadores sensibles del estado de yodo de una población, tampoco en embarazadas y puérperas.",
+            "en": "The guideline states that thyroid function tests are not sensitive indicators of population iodine status, including in pregnant and postpartum women."
           }
         },
         {
           "id": "d",
           "text": {
-            "es": "Porque el yodo urinario individual define con precisión quién tiene déficit.",
-            "en": "Because individual urinary iodine accurately defines who is deficient."
+            "es": "Se mide para ajustar la dosis exacta del suplemento entre 50 y 300 µg/día.",
+            "en": "It is measured to set the exact supplement dose between 50 and 300 µg/day."
           },
           "correct": false,
           "why": {
-            "es": "La guía dice lo contrario: ninguna prueba de laboratorio estima de forma fiable la ingesta individual.",
-            "en": "The guideline says the opposite: no laboratory test reliably estimates individual intake."
+            "es": "50–300 µg/día es el rango de dosis usado en los estudios, acorde con la ingesta de fondo de cada población; no es una escala para ajustar por yoduria individual.",
+            "en": "50–300 µg/day is the range of doses used in studies, in line with each population’s background intake; it is not a scale to adjust by individual urinary iodine."
           }
         }
       ],
       "explanation": {
-        "es": "No hay una prueba individual útil, así que la estrategia es poblacional, adaptada al estado de yodo de cada región.",
-        "en": "There is no useful individual test, so the strategy is population-based, adapted to each region’s iodine status."
+        "es": "Sin un biomarcador individual válido, la ATA basa la sugerencia formal en el riesgo (región, restricciones dietéticas, malabsorción); su texto va más allá y aconseja 150 µg/día a todas como medida de salud pública.",
+        "en": "Without a valid individual biomarker, the ATA bases its formal suggestion on risk (region, dietary restrictions, malabsorption); its text goes further and advises 150 µg/day for all as a public-health measure."
       },
       "refIds": [
-        "ata-2017-thyroid-pregnancy"
+        "ata-2026-thyroid-pregnancy"
       ],
       "editorial": {
-        "status": "sources-verified",
-        "reviewedAt": "2026-10-13"
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
