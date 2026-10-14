@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ata-2026-thyroid-pregnancy",
+    "title": "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum",
+    "authors": "Korevaar TIM, Leung AM, Alexander EK, Bliddal S, Boelaert K, Brenta G, Chou R, Dhillon-Smith R, Dosiou C, Eaton JL, Guan H, Kilpatrick SJ, Lasserre BJ, Lee SY, Maraka S, Meister KD, Morris-Wiseman LF, Nguyen CT, Pearce EN, Shan Z",
+    "year": 2026,
+    "url": "https://doi.org/10.1177/10507256261445624",
+    "doi": "10.1177/10507256261445624",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres que planifican un embarazo (incluidas las que tienen infertilidad, abortos de repetición o tratamientos de fertilidad), embarazadas y en el posparto o la lactancia. Sustituye a la guía ATA de 2017; avalada, entre otras, por ESHRE, la European Thyroid Association, ACOG, la Endocrine Society y la Sociedad Latinoamericana de Tiroides.",
+      "en": "Women planning pregnancy (including those with infertility, recurrent miscarriage or fertility treatment), pregnant women and women postpartum or breastfeeding. Replaces the 2017 ATA guideline; endorsed by, among others, ESHRE, the European Thyroid Association, ACOG, the Endocrine Society and the Latin American Thyroid Society."
+    },
+    "finding": {
+      "es": "Infertilidad: TSH a todas las mujeres con infertilidad o abortos de repetición (GPS) y TPOAb opcional (condicional, baja); con levotiroxina, TSH objetivo 0,5–2,5 mU/l (GPS). Hipotiroidismo subclínico: confirmar a las 4–6 semanas (condicional, moderada); TSH > 10 mU/l, tratar (GPS); si persiste, levotiroxina a dosis baja (25–75 mcg/día; 25–50 en el diagrama 1) (condicional, certeza baja). Autoinmunidad eutiroidea (TPOAb y/o TgAb): no ofrecer levotiroxina (fuerte, alta), controlar TSH y T4L cada 3–6 meses; ni prednisolona ni inmunoglobulinas. Embarazo: sin intervalo propio del laboratorio, TSH 0,1–4,0 mU/l en el primer y segundo trimestre. Yodo: 250 mcg/día de ingesta total en embarazo y lactancia (fuerte, moderada); 150 mcg/día de suplemento en mujeres con riesgo de déficit (condicional, moderada); evitar > 500 mcg/día. No ofrecer selenio a embarazadas eutiroideas con anticuerpos (condicional, moderada).",
+      "en": "Infertility: TSH for all women with infertility or recurrent miscarriage (GPS) and optional TPOAb (conditional, low); on levothyroxine, target TSH 0.5–2.5 mU/L (GPS). Subclinical hypothyroidism: confirm after 4–6 weeks (conditional, moderate); TSH > 10 mU/L, treat (GPS); if persistent, low-dose levothyroxine (25–75 mcg/day; 25–50 in flowchart 1) (conditional, low certainty). Euthyroid autoimmunity (TPOAb and/or TgAb): do not offer levothyroxine (strong, high), recheck TSH and FT4 every 3–6 months; no prednisolone or immunoglobulin. Pregnancy: without a laboratory-specific interval, TSH 0.1–4.0 mU/L in the first and second trimesters. Iodine: 250 mcg/day total intake in pregnancy and lactation (strong, moderate); 150 mcg/day supplement in women at risk of deficiency (conditional, moderate); avoid > 500 mcg/day. Do not offer selenium to euthyroid antibody-positive pregnant women (conditional, moderate)."
+    },
+    "limitations": {
+      "es": "Texto completo leído en la versión publicada depositada en el repositorio de la Universidad de California (eScholarship). Las recomendaciones no llevan número individual: se citan por su «Recommendations Table» y página. Fuerza strong («should») o conditional («may»), certeza GRADE muy baja a alta, o declaración de buena práctica (GPS). Los propios autores reconocen que gran parte de la evidencia es de calidad baja o moderada; hay comentarios discrepantes de miembros del grupo en material suplementario no revisado. No aporta datos específicos de Argentina ni de España.",
+      "en": "Full text read in the published version deposited in the University of California repository (eScholarship). Recommendations carry no individual number: they are cited by their “Recommendations Table” and page. Strength strong (“should”) or conditional (“may”), GRADE certainty very low to high, or good practice statement (GPS). The authors acknowledge that much of the evidence is of low or moderate quality; dissenting comments from group members are in supplementary material that was not reviewed. It gives no data specific to Argentina or Spain."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "eta-2021-thyroid-art",
+    "title": "2021 European Thyroid Association Guideline on Thyroid Disorders prior to and during Assisted Reproduction",
+    "authors": "Poppe K, Bisschop P, Fugazzola L, Minziori G, Unuane D, Weghofer A",
+    "year": 2021,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7923920/",
+    "doi": "10.1159/000512790",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres y hombres de parejas con subfertilidad, antes y durante la reproducción asistida (FIV/ICSI), en el contexto europeo. Dirigida a endocrinólogos y ginecólogos.",
+      "en": "Women and men in subfertile couples, before and during assisted reproduction (IVF/ICSI), in the European context. Aimed at endocrinologists and gynaecologists."
+    },
+    "finding": {
+      "es": "Cribar TSH y TPOAb a toda mujer que consulta por subfertilidad (R1; 1, ØØØO); TgAb si TSH > 2,5 mUI/l con TPOAb negativos (R2). Define el hipotiroidismo subclínico como TSH > 4,0 mUI/l o por encima del límite superior del ensayo si este es mayor; tratar con levotiroxina para mantener TSH < 2,5 mUI/l, con o sin autoinmunidad (R12, R13; 1, ØØOO). Con autoinmunidad y TSH entre 2,5 y 4,0, levotiroxina a dosis baja (25–50 µg) caso a caso (R15; 2, ØØOO). No tratar de forma sistemática a eutiroideas con autoinmunidad que van a FIV/ICSI (R19; 2, ØØOO). Controlar la TSH tras la estimulación en mujeres con autoinmunidad tratadas con levotiroxina (R17).",
+      "en": "Screen TSH and TPOAb in every woman seeking advice for subfertility (R1; 1, ØØØO); TgAb if TSH > 2.5 mIU/L with negative TPOAb (R2). Defines subclinical hypothyroidism as TSH > 4.0 mIU/L or above the assay upper limit if that is higher; treat with levothyroxine to keep TSH < 2.5 mIU/L, with or without autoimmunity (R12, R13; 1, ØØOO). With autoimmunity and TSH between 2.5 and 4.0, low-dose levothyroxine (25–50 µg) case by case (R15; 2, ØØOO). Do not systematically treat euthyroid women with autoimmunity undergoing IVF/ICSI (R19; 2, ØØOO). Check TSH after stimulation in women with autoimmunity on levothyroxine (R17)."
+    },
+    "limitations": {
+      "es": "Texto completo leído en la página HTML de PubMed Central (sin paginación). Grados: 1 = recomendación fuerte, 2 = débil o sugerencia; ØOOO muy baja a ØØØØ alta calidad. Es anterior a la ATA 2026 y al ensayo T4LIFE (2022), aunque ya incluye TABLET y el ensayo chino en FIV; sus umbrales y su postura caso a caso con levotiroxina en la autoinmunidad eutiroidea no coinciden con guías posteriores.",
+      "en": "Full text read on the PubMed Central HTML page (no pagination). Grades: 1 = strong recommendation, 2 = weak or suggestion; ØOOO very low to ØØØØ high quality. It predates ATA 2026 and the T4LIFE trial (2022), although it already includes TABLET and the Chinese IVF trial; its thresholds and its case-by-case levothyroxine stance in euthyroid autoimmunity differ from later guidelines."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "asrm-2024-subclinical-hypothyroidism",
+    "title": "Subclinical hypothyroidism in the infertile female population: a guideline",
+    "authors": "Practice Committee of the American Society for Reproductive Medicine",
+    "year": 2024,
+    "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/subclinical-hypothyroidism-in-the-infertile-female-population-a-guideline/",
+    "doi": "10.1016/j.fertnstert.2023.12.038",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres con infertilidad o abortos y embarazadas, en relación con el hipotiroidismo subclínico. Sustituye a la versión ASRM de 2015.",
+      "en": "Women with infertility or miscarriage and pregnant women, in relation to subclinical hypothyroidism. Replaces the 2015 ASRM version."
+    },
+    "finding": {
+      "es": "Usar los puntos de corte de TSH del laboratorio; si no los hay, 4,12 mUI/l en no embarazadas y en quienes buscan embarazo (B; moderada). Aconsejar que el hipotiroidismo subclínico y una TSH de 2,5–4,0 mUI/l no se asocian a más abortos (B; moderada). No se recomienda tratar con levotiroxina el hipotiroidismo subclínico en mujeres que desean embarazo o embarazadas (B; moderada). Medir TSH y T4 ante signos o síntomas de hipotiroidismo (incluidos ciclos irregulares), no en todas las pacientes con infertilidad (B; moderada). No cribar autoinmunidad tiroidea en asintomáticas; puede considerarse en pérdida gestacional recurrente (C; débil).",
+      "en": "Use the laboratory TSH cut-offs; if unavailable, 4.12 mIU/L for non-pregnant women and those attempting pregnancy (B; moderate). Counsel that subclinical hypothyroidism and a TSH of 2.5–4.0 mIU/L are not associated with more miscarriage (B; moderate). Treating subclinical hypothyroidism with levothyroxine in women desiring pregnancy or pregnant is not recommended (B; moderate). Test TSH and T4 when there are signs or symptoms of hypothyroidism (including irregular cycles), not in all infertility patients (B; moderate). Do not screen asymptomatic women for thyroid autoimmunity; it may be considered in recurrent pregnancy loss (C; weak)."
+    },
+    "limitations": {
+      "es": "PDF completo leído (Fertil Steril 2024;121:765-82). Fuerza de la evidencia A/B/C y fuerza de la recomendación fuerte/moderada/débil. Gran parte de su postura se apoya en que un ensayo influyente tiene problemas de integridad de datos. Contexto estadounidense.",
+      "en": "Full PDF read (Fertil Steril 2024;121:765-82). Strength of evidence A/B/C and strength of recommendation strong/moderate/weak. Much of its position rests on an influential trial having data-integrity concerns. US context."
+    },
+    "accessed": "2026-10-14"
+  }
+]
