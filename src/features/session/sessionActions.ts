@@ -99,7 +99,8 @@ export async function answerCurrentStep(
   const failed = rating === 'again';
 
   let steps: Step[] = session.steps;
-  if (failed && entry) {
+  // Question practice stays questions-only: no information card is inserted after a miss.
+  if (failed && entry && session.options.mode !== 'questions') {
     const card = [...index.values()].find((e) => e.kind === 'card' && e.conceptId === step.conceptId);
     steps = requeueAfterFailure(session.steps, session.position, step, card?.id);
   }

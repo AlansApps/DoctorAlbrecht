@@ -226,3 +226,26 @@ describe('audit re-verification (ARCH-025/026)', () => {
     expect(buildSession({ index, progress, options: opts({ scope: { kind: 'mistakes' } }), now, seed: 3 })).toEqual([]);
   });
 });
+
+describe('questions mode (multiple-choice practice)', () => {
+  it('returns only questions, one per concept, random across topics', () => {
+    const index = corpus();
+    const steps = buildSession({ index, progress: new Map(), options: opts({ mode: 'questions', onlyStudied: false, minutes: 10 }), now, seed: 7 });
+    expect(steps.length).toBe(12); // 10 min / 50 s
+    expect(steps.every((s) => s.mode === 'question')).toBe(true);
+    expect(new Set(steps.map((s) => s.conceptId)).size).toBe(steps.length);
+    expect(new Set(steps.map((s) => s.microId)).size).toBeGreaterThan(2);
+  });
+
+  it('by default only asks about concepts already studied, due questions first', () => {
+    const index = corpus();
+    const card = index.find((e) => e.id === 'pcos.a.c1.card')!;
+    const dueQ = index.find((e) => e.id === 'nutr.b.c2.q')!;
+    const progress = new Map<string, ItemProgress>([
+      [card.id, applyExposure(newProgress(card.id, 'card', card.conceptId, earlier), earlier)],
+      [dueQ.id, reviewed(dueQ)],
+    ]);
+    const steps = buildSession({ index, progress, options: opts({ mode: 'questions' }), now, seed: 1 });
+    expect(steps.map((s) => s.itemId)).toEqual(['nutr.b.c2.q', 'pcos.a.c1.q']);
+  });
+});

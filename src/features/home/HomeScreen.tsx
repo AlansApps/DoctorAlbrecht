@@ -1,4 +1,4 @@
-import { BookOpen, ChevronRight, Headphones, LayoutGrid, RefreshCcw, Timer } from 'lucide-react';
+import { BookOpen, ChevronRight, Headphones, LayoutGrid, RefreshCcw, Timer, ListChecks } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { useAppState } from '../../app/AppState.tsx';
 import { href } from '../../app/router.ts';
@@ -78,6 +78,16 @@ export function HomeScreen() {
             </span>
             <ChevronRight className="icon" aria-hidden="true" />
           </button>
+        </li>
+        <li className="list__item">
+          <a className="list__link" href={href({ name: 'questions' })}>
+            <ListChecks className="icon" aria-hidden="true" />
+            <span className="list__text">
+              <span className="list__title">{t('home.questions')}</span>
+              <span className="list__sub">{t('home.questions.sub')}</span>
+            </span>
+            <ChevronRight className="icon" aria-hidden="true" />
+          </a>
         </li>
         <li className="list__item">
           <a className="list__link" href={href({ name: 'topics' })}>

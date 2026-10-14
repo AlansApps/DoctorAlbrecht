@@ -12,6 +12,7 @@ export type Route =
   | { name: 'settings' }
   | { name: 'session' }
   | { name: 'listen' }
+  | { name: 'questions' }
   | { name: 'card'; itemId: string }
   | { name: 'case'; itemId: string };
 
@@ -35,6 +36,8 @@ export function parseHash(hash: string): Route {
       return { name: 'session' };
     case 'listen':
       return { name: 'listen' };
+    case 'questions':
+      return { name: 'questions' };
     case 'card':
       return parts[1] ? { name: 'card', itemId: parts[1] } : { name: 'home' };
     case 'case':

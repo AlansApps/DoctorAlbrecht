@@ -13,6 +13,7 @@ const MacroScreen = lazy(() => import('../features/topics/MacroScreen.tsx').then
 const ReviewScreen = lazy(() => import('../features/review/ReviewScreen.tsx').then((m) => ({ default: m.ReviewScreen })));
 const SettingsScreen = lazy(() => import('../features/settings/SettingsScreen.tsx').then((m) => ({ default: m.SettingsScreen })));
 const ListenScreen = lazy(() => import('../features/listen/ListenScreen.tsx').then((m) => ({ default: m.ListenScreen })));
+const QuestionsScreen = lazy(() => import('../features/questions/QuestionsScreen.tsx').then((m) => ({ default: m.QuestionsScreen })));
 const CaseScreen = lazy(() => import('../features/case/CaseScreen.tsx').then((m) => ({ default: m.CaseScreen })));
 const CardScreen = lazy(() => import('../features/card/CardScreen.tsx').then((m) => ({ default: m.CardScreen })));
 
@@ -26,7 +27,7 @@ function Shell() {
   useEffect(() => {
     const section: Record<string, string> = {
       home: t('nav.home'), topics: t('nav.topics'), macro: t('nav.topics'), review: t('nav.review'), card: t('nav.review'),
-      settings: t('nav.settings'), listen: t('listen.title'), session: t('session.title'), case: t('case.section'),
+      settings: t('nav.settings'), listen: t('listen.title'), questions: t('questions.title'), session: t('session.title'), case: t('case.section'),
     };
     document.title = `${section[route.name] ?? ''} · DoctorAlbrecht`;
   }, [route.name, t]);
@@ -48,6 +49,7 @@ function Shell() {
       case 'review': screen = <ReviewScreen />; break;
       case 'settings': screen = <SettingsScreen />; break;
       case 'listen': screen = <ListenScreen />; break;
+      case 'questions': screen = <QuestionsScreen />; break;
       case 'card': screen = <CardScreen itemId={route.itemId} />; break;
       case 'case': screen = <CaseScreen itemId={route.itemId} />; break;
     }

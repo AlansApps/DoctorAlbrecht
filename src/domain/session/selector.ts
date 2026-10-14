@@ -23,13 +23,16 @@ export type Scope =
   | { kind: 'fertility' }
   | { kind: 'mistakes' };
 
-export type SessionMode = 'balanced' | 'review' | 'new';
+/** 'questions' = multiple-choice practice only (no information cards). */
+export type SessionMode = 'balanced' | 'review' | 'new' | 'questions';
 
 export interface SessionOptions {
   minutes: Minutes;
   scope: Scope;
   filters: ClinicalTag[];
   mode: SessionMode;
+  /** Questions mode: only concepts already studied (default) or every topic. */
+  onlyStudied?: boolean;
 }
 
 export type StepMode = 'learn' | 'review' | 'question';
@@ -104,6 +107,7 @@ export function isActiveMistake(p: ItemProgress, now: Date): boolean {
 }
 
 export function buildSession(input: SelectorInput): Step[] {
+  if (input.options.mode === 'questions') return buildQuiz(input);
   const { index, progress, options, now, seed } = input;
   const dayEnd = input.dayEnd ?? now;
   const suspended = input.suspended ?? new Set<string>();
@@ -312,4 +316,56 @@ export function requeueAfterFailure(
   const insertAt = Math.min(position + 1 + gap, queue.length);
   const step: Step = { itemId: target, mode: 'review', conceptId: failed.conceptId, microId: failed.microId, requeued: true };
   return [...queue.slice(0, insertAt), step, ...queue.slice(insertAt)];
+}
+
+/**
+ * Multiple-choice practice: questions only, one per concept. Due questions first, then
+ * active mistakes, then the rest in random order. With `onlyStudied` (default) a question
+ * is eligible only if its concept card was read or the question was answered before.
+ */
+export function buildQuiz(input: SelectorInput): Step[] {
+  const { index, progress, options, now, seed } = input;
+  const dayEnd = input.dayEnd ?? now;
+  const suspended = input.suspended ?? new Set<string>();
+  const random = rng(seed);
+  const max = Math.max(1, Math.floor((options.minutes * 60) / STEP_SECONDS.question));
+  const onlyStudied = options.onlyStudied !== false;
+
+  const seenConcepts = new Set<string>();
+  for (const e of index) {
+    const p = progress.get(e.id);
+    if (e.kind === 'card' && p && (p.exposures > 0 || p.retrievals > 0)) seenConcepts.add(e.conceptId);
+  }
+  const pool = index.filter((e) => {
+    if (e.kind !== 'question' || !inScope(e, options.scope) || suspended.has(e.id)) return false;
+    if (options.filters.length > 0 && !e.tags.some((t) => options.filters.includes(t))) return false;
+    const p = progress.get(e.id);
+    if (p?.status === 'suspended') return false;
+    if (options.scope.kind === 'mistakes') return !!p && isActiveMistake(p, now);
+    return !onlyStudied || seenConcepts.has(e.conceptId) || (!!p && p.retrievals > 0);
+  });
+
+  const due: IndexEntry[] = [];
+  const mistakes: IndexEntry[] = [];
+  const rest: IndexEntry[] = [];
+  for (const e of pool) {
+    const p = progress.get(e.id);
+    if (p && isDue(p, e.rev, now, dayEnd)) due.push(e);
+    else if (p && isActiveMistake(p, now) && now.getTime() - new Date(p.lastReviewAt!).getTime() >= MISTAKE_MIN_GAP_MS) mistakes.push(e);
+    else rest.push(e);
+  }
+  // Fisher–Yates with the seeded generator (deterministic for a given seed).
+  for (let i = rest.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [rest[i], rest[j]] = [rest[j]!, rest[i]!];
+  }
+  const steps: Step[] = [];
+  const used = new Set<string>();
+  for (const e of [...due, ...mistakes, ...rest]) {
+    if (steps.length >= max) break;
+    if (used.has(e.conceptId)) continue;
+    used.add(e.conceptId);
+    steps.push({ itemId: e.id, mode: 'question', conceptId: e.conceptId, microId: e.microId, ...(progress.get(e.id) ? {} : { isNew: true as const }) });
+  }
+  return steps;
 }
