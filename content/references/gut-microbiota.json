@@ -1,0 +1,133 @@
+[
+  {
+    "id": "wgo-2023-probiotics-prebiotics",
+    "title": "World Gastroenterology Organisation Global Guidelines: Probiotics and prebiotics",
+    "authors": "Guarner F, Sanders ME, Szajewska H, Cohen H, Eliakim R, Herrera C, Karakan T, Merenstein D, Piscoya A, Ramakrishna B, Salminen S",
+    "year": 2023,
+    "url": "https://www.worldgastroenterology.org/UserFiles/file/guidelines/probiotics-and-prebiotics-english-2023.pdf",
+    "type": "guideline",
+    "population": {
+      "es": "Uso de probióticos y prebióticos en salud y enfermedad gastrointestinal en adultos y niños; guía mundial de la WGO (febrero de 2023).",
+      "en": "Use of probiotics and prebiotics in gastrointestinal health and disease in adults and children; WGO global guideline (February 2023)."
+    },
+    "finding": {
+      "es": "Definiciones de probiótico, prebiótico (redacción antigua), simbiótico y posbiótico. La evidencia más sólida liga cada beneficio a cepas concretas a la dosis eficaz; agrupar cepas solo vale con un mecanismo compartido demostrado. La etiqueta debe incluir cepa, recuento viable al final de la vida útil y dosis basada en el efecto; no hay dosis general. Productos que no cumplen la etiqueta; seguridad alta en población sana y uso restringido en inmunodeprimidos. Menciona fuera de su alcance que los probióticos pueden reducir la vaginosis.",
+      "en": "Definitions of probiotic, prebiotic (older wording), synbiotic and postbiotic. The strongest evidence links each benefit to specific strains at the effective dose; pooling strains is valid only with a demonstrated shared mechanism. The label should state strain, viable count at end of shelf-life and an effect-based dose; there is no general dose. Some products fail label claims; safety is good in healthy people and use is restricted in the immunocompromised. Mentions, outside its scope, that probiotics can reduce bacterial vaginosis."
+    },
+    "limitations": {
+      "es": "PDF completo de la web de la WGO leído (52 pp.). Guía centrada en gastroenterología: no evalúa probióticos para indicaciones ginecológicas ni de fertilidad. Las indicaciones clínicas usan niveles de Oxford 2011; las secciones generales no tienen grado. Existe una versión de revista (J Clin Gastroenterol 2024;58(6):533-553, DOI 10.1097/MCG.0000000000002002) que no se leyó.",
+      "en": "Full PDF from the WGO website read (52 pp.). Gastroenterology-focused: it does not assess probiotics for gynaecological or fertility indications. Clinical indications use Oxford 2011 levels; general sections are ungraded. A journal version exists (J Clin Gastroenterol 2024;58(6):533-553, DOI 10.1097/MCG.0000000000002002) and was not read."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "isapp-2020-synbiotics",
+    "title": "The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of synbiotics",
+    "authors": "Swanson KS, Gibson GR, Hutkins R, Reimer RA, Reid G, Verbeke K, Scott KP, Holscher HD, Azad MB, Delzenne NM, Sanders ME",
+    "year": 2020,
+    "url": "https://doi.org/10.1038/s41575-020-0344-2",
+    "doi": "10.1038/s41575-020-0344-2",
+    "type": "consensus",
+    "population": {
+      "es": "Panel de expertos de la ISAPP (nutrición, fisiología, microbiología) sobre la definición y el alcance de los simbióticos; Nat Rev Gastroenterol Hepatol 2020;17(11):687-701.",
+      "en": "ISAPP expert panel (nutrition, physiology, microbiology) on the definition and scope of synbiotics; Nat Rev Gastroenterol Hepatol 2020;17(11):687-701."
+    },
+    "finding": {
+      "es": "Simbiótico: «una mezcla de microorganismos vivos y sustrato(s) utilizado(s) selectivamente por microorganismos del huésped que confiere un beneficio para la salud del huésped»; complementario (probiótico más prebiótico) o sinérgico (sustrato para el microorganismo coadministrado). Su cuadro de definiciones recoge también las definiciones ISAPP de probiótico y de prebiótico («sustrato utilizado selectivamente por microorganismos del huésped que confiere un beneficio para la salud»).",
+      "en": "Synbiotic: “a mixture comprising live microorganisms and substrate(s) selectively utilized by host microorganisms that confers a health benefit on the host”; complementary (probiotic plus prebiotic) or synergistic (substrate for the co-administered microorganism). Its definitions box also gives the ISAPP definitions of probiotic and prebiotic (“a substrate that is selectively utilized by host microorganisms conferring a health benefit”)."
+    },
+    "limitations": {
+      "es": "Texto completo de Europe PMC (PMC7581511) leído. Documento de consenso de expertos sobre terminología y criterios, no una guía clínica; no evalúa indicaciones ginecológicas. Los consensos originales de probiótico (2014) y prebiótico (2017) no se leyeron directamente.",
+      "en": "Full text from Europe PMC (PMC7581511) read. Expert consensus on terminology and criteria, not a clinical guideline; it does not assess gynaecological indications. The original probiotic (2014) and prebiotic (2017) consensus papers were not read directly."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "isapp-2021-postbiotics",
+    "title": "The International Scientific Association of Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of postbiotics",
+    "authors": "Salminen S, Collado MC, Endo A, Hill C, Lebeer S, Quigley EMM, Sanders ME, Shamir R, Swann JR, Szajewska H, Vinderola G",
+    "year": 2021,
+    "url": "https://doi.org/10.1038/s41575-021-00440-6",
+    "doi": "10.1038/s41575-021-00440-6",
+    "type": "consensus",
+    "population": {
+      "es": "Panel de expertos de la ISAPP sobre la definición y el alcance de los posbióticos; Nat Rev Gastroenterol Hepatol 2021;18(9):649-667.",
+      "en": "ISAPP expert panel on the definition and scope of postbiotics; Nat Rev Gastroenterol Hepatol 2021;18(9):649-667."
+    },
+    "finding": {
+      "es": "Posbiótico: «una preparación de microorganismos inanimados y/o sus componentes que confiere un beneficio para la salud del huésped». Son células microbianas inactivadas deliberadamente, con o sin metabolitos o componentes; los metabolitos purificados y las vacunas no son posbióticos.",
+      "en": "Postbiotic: a “preparation of inanimate microorganisms and/or their components that confers a health benefit on the host”. They are deliberately inactivated microbial cells, with or without metabolites or components; purified metabolites and vaccines are not postbiotics."
+    },
+    "limitations": {
+      "es": "Texto completo de Europe PMC (PMC8387231) leído. Consenso de expertos sobre terminología; no evalúa indicaciones ginecológicas. Hay correcciones posteriores del editor y de los autores que no se revisaron.",
+      "en": "Full text from Europe PMC (PMC8387231) read. Expert consensus on terminology; it does not assess gynaecological indications. Later publisher and author corrections were not reviewed."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "cdc-2021-sti-guidelines",
+    "title": "Sexually Transmitted Infections Treatment Guidelines, 2021",
+    "authors": "Workowski KA, Bachmann LH, Chan PA, Johnston CM, Muzny CA, Park I, Reno H, Zenilman JM, Bolan GA",
+    "year": 2021,
+    "url": "https://doi.org/10.15585/mmwr.rr7004a1",
+    "doi": "10.15585/mmwr.rr7004a1",
+    "type": "guideline",
+    "population": {
+      "es": "Personas con infecciones de transmisión sexual o síndromes relacionados en EE. UU.; aquí se usa la sección de vaginosis bacteriana. MMWR Recomm Rep 2021;70(4):1-187.",
+      "en": "People with sexually transmitted infections or related syndromes in the USA; the bacterial vaginosis section is used here. MMWR Recomm Rep 2021;70(4):1-187."
+    },
+    "finding": {
+      "es": "Vaginosis: disbiosis con sustitución de Lactobacillus por anaerobios; mayoría asintomática. Diagnóstico por Amsel (3 de 4) o Nugent (Gram de referencia); NAAT solo en sintomáticas; no cultivo de G. vaginalis ni citología. Tratar a las sintomáticas: metronidazol oral 7 días, metronidazol gel 5 días o clindamicina crema 7 días. Recurrencia: metronidazol gel 2 veces por semana > 3 meses. No tratar de rutina a las parejas. Ningún estudio respalda los probióticos como complemento ni sustituto; Lactin-V redujo la recurrencia en un ensayo pero no estaba comercializado. Vitamina D a dosis altas no recomendada.",
+      "en": "BV: dysbiosis with replacement of Lactobacillus by anaerobes; mostly asymptomatic. Diagnosis by Amsel (3 of 4) or Nugent (Gram stain reference); NAATs only in symptomatic women; no G. vaginalis culture or cytology. Treat symptomatic women: oral metronidazole 7 days, metronidazole gel 5 days or clindamycin cream 7 days. Recurrence: metronidazole gel twice weekly > 3 months. Routine partner treatment not recommended. No studies support probiotics as adjunct or replacement; Lactin-V lowered recurrence in one trial but was not commercially available. High-dose vitamin D not recommended."
+    },
+    "limitations": {
+      "es": "Texto completo de Europe PMC (PMC8344968) leído; solo se usó la sección de vaginosis. Sin graduación formal de las recomendaciones en el texto (pautas recomendadas y alternativas). Contexto estadounidense; nombres comerciales y autorizaciones de la FDA de 2021.",
+      "en": "Full text from Europe PMC (PMC8344968) read; only the BV section was used. No formal recommendation grading in the text (recommended and alternative regimens). US context; brand names and FDA clearances as of 2021."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "iusti-2018-vaginal-discharge",
+    "title": "2018 European (IUSTI/WHO) International Union against sexually transmitted infections (IUSTI) World Health Organisation (WHO) guideline on the management of vaginal discharge",
+    "authors": "Sherrard J, Wilson J, Donders G, Mendling W, Jensen JS",
+    "year": 2018,
+    "url": "https://iusti.org/wp-content/uploads/2019/12/Vagdx2018.pdf",
+    "doi": "10.1177/0956462418785451",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres con flujo vaginal (vaginosis bacteriana, vaginitis aerobia, candidiasis y tricomoniasis) en Europa; Int J STD AIDS 2018;29(13):1258-1272.",
+      "en": "Women with vaginal discharge (bacterial vaginosis, aerobic vaginitis, candidiasis and trichomoniasis) in Europe; Int J STD AIDS 2018;29(13):1258-1272."
+    },
+    "finding": {
+      "es": "Las asintomáticas no necesitan pruebas de vaginosis. Mejor prueba: microscopia con criterios de Hay–Ison (1A). Primera línea: metronidazol oral o tópico 5–7 días o clindamicina intravaginal 7 días (1A). Vaginosis persistente y recurrente: metronidazol intravaginal (2B). Parejas masculinas: no tratar; femeninas: pueden tratarse si tienen vaginosis (2B). Embarazo: clindamicina (2C). Probióticos: revisión sistemática sin evidencia suficiente y metanálisis posterior favorable con estudios de calidad variable.",
+      "en": "Asymptomatic women do not need BV testing. Best test: microscopy with Hay–Ison criteria (1A). First line: oral or topical metronidazole 5–7 days or intravaginal clindamycin 7 days (1A). Persistent and recurrent BV: intravaginal metronidazole (2B). Male partners: no treatment; female partners may be treated if they have BV (2B). Pregnancy: clindamycin (2C). Probiotics: a systematic review found insufficient evidence and a later meta-analysis was favourable with studies of variable quality."
+    },
+    "limitations": {
+      "es": "PDF completo de la web de IUSTI leído (15 pp.). Fuerza «grado 1/2» y calidad «grado A–C» sin leyenda en el texto extraído. La web de IUSTI la lista como «Under review» (consultada el 14-10-2026); puede haber una actualización no leída.",
+      "en": "Full PDF from the IUSTI website read (15 pp.). Strength “grade 1/2” and quality “grade A–C” with no legend in the extracted text. The IUSTI website lists it as “Under review” (accessed 14-10-2026); an update may exist that was not read."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "porcari-2025-microbiome-testing",
+    "title": "International consensus statement on microbiome testing in clinical practice",
+    "authors": "Porcari S, Mullish BH, Asnicar F, Ng SC, Zhao L, Hansen R, O'Toole PW, Raes J, Hold G, Putignani L, et al.; Cammarota G, Gasbarrini A, Ianiro G",
+    "year": 2025,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12343204/",
+    "doi": "10.1016/S2468-1253(24)00311-X",
+    "type": "consensus",
+    "population": {
+      "es": "Pruebas de microbioma (sobre todo intestinal) en la práctica clínica; 69 expertos de 18 países, consenso Delphi. Lancet Gastroenterol Hepatol 2025;10(2):154-167.",
+      "en": "Microbiome testing (mainly gut) in clinical practice; 69 experts from 18 countries, Delphi consensus. Lancet Gastroenterol Hepatol 2025;10(2):154-167."
+    },
+    "finding": {
+      "es": "No hay evidencia suficiente para recomendar de forma amplia el uso rutinario de pruebas de microbioma (90 %). Se desaconseja la solicitud directa por el paciente sin indicación (80,4 %), los consejos terapéuticos del proveedor (98 %), la razón Firmicutes/Bacteroidetes (86 %), los índices de disbiosis (90 %) y los rangos «sanos» estrictos (90 %). La PCR multiplex y los cultivos no son pruebas de microbioma (90 %); las muestras vaginales deben procesarse según la evidencia y las indicaciones existentes (97,5 %).",
+      "en": "There is insufficient evidence to widely recommend routine microbiome testing (90%). It discourages direct patient requests without a clinical recommendation (80.4%), therapeutic advice from the provider (98%), the Firmicutes/Bacteroidetes ratio (86%), dysbiosis indices (90%) and strict healthy reference ranges (90%). Multiplex PCR and cultures are not microbiome testing (90%); vaginal samples should be processed according to existing evidence and indications (97.5%)."
+    },
+    "limitations": {
+      "es": "Leído el manuscrito aceptado de autor en PMC (PMC12343204), no la versión maquetada; apéndices no incluidos. Declaraciones de opinión de expertos (Delphi, umbral ≥ 80 %), no recomendaciones GRADE; centrado en el microbioma intestinal y no en el vaginal ni el endometrial.",
+      "en": "The accepted author manuscript on PMC (PMC12343204) was read, not the typeset version; appendices not included. Expert-opinion statements (Delphi, ≥ 80% threshold), not GRADE recommendations; focused on the gut microbiome rather than vaginal or endometrial microbiome."
+    },
+    "accessed": "2026-10-14"
+  }
+]
