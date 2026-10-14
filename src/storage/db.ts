@@ -10,6 +10,7 @@ import type { Manifest, Pack } from '../domain/content/schema.ts';
 import type { ItemProgress, ItemKind, RecallRating } from '../domain/scheduler/scheduler.ts';
 import type { SessionOptions, Step } from '../domain/session/selector.ts';
 
+/** Internal name kept from the app's first name (TarjetAlan) so existing progress is preserved. */
 export const DB_NAME = 'tarjetalan';
 export const DB_VERSION = 1;
 

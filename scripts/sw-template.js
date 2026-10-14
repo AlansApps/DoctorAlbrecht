@@ -1,4 +1,4 @@
-/* TarjetAlan service worker — generated at build time from scripts/sw-template.js.
+/* DoctorAlbrecht service worker — generated at build time from scripts/sw-template.js.
  * App shell: cache-first for versioned assets. Content packs are NOT cached here
  * (they live in IndexedDB), so nothing is stored twice.
  * New versions wait: the page decides when to activate (never mid-question).

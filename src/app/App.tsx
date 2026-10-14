@@ -28,7 +28,7 @@ function Shell() {
       home: t('nav.home'), topics: t('nav.topics'), macro: t('nav.topics'), review: t('nav.review'), card: t('nav.review'),
       settings: t('nav.settings'), listen: t('listen.title'), session: t('session.title'), case: t('case.section'),
     };
-    document.title = `${section[route.name] ?? ''} · TarjetAlan`;
+    document.title = `${section[route.name] ?? ''} · DoctorAlbrecht`;
   }, [route.name, t]);
 
   let screen;

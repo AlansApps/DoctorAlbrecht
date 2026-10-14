@@ -1,6 +1,6 @@
 /** Interface strings, neutral Spanish with "tú" (D-016). Keys are the source of truth for EN. */
 export const es = {
-  'app.name': 'TarjetAlan',
+  'app.name': 'DoctorAlbrecht',
   'app.tagline': 'Medicina funcional e integradora en ginecología y fertilidad',
   'app.updateReady': 'Hay una versión nueva. Se aplicará al terminar la sesión.',
   'app.updateNow': 'Actualizar ahora',
@@ -246,7 +246,7 @@ export const es = {
   'settings.backup.done': 'Respaldo importado. Progreso recalculado.',
   'settings.backup.undo.dated': 'Deshacer el reemplazo del {date}',
   'settings.backup.undo.confirm': 'Se restaurará tu progreso tal como estaba el {date}, antes de reemplazarlo. Lo estudiado después se perderá.',
-  'settings.backup.invalid': 'El archivo no es un respaldo válido de TarjetAlan.',
+  'settings.backup.invalid': 'El archivo no es un respaldo válido de DoctorAlbrecht.',
   'settings.reports': 'Reportes',
   'settings.reports.export': 'Exportar reportes ({n})',
   'settings.reset': 'Borrar todo el progreso',

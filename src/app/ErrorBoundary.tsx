@@ -13,7 +13,7 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, { failed: 
   }
 
   override componentDidCatch(error: unknown, info: ErrorInfo): void {
-    console.error('TarjetAlan render error', error, info.componentStack);
+    console.error('DoctorAlbrecht render error', error, info.componentStack);
   }
 
   override render(): ReactNode {

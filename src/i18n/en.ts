@@ -1,7 +1,7 @@
 import type { MessageKey } from './es.ts';
 
 export const en: Record<MessageKey, string> = {
-  'app.name': 'TarjetAlan',
+  'app.name': 'DoctorAlbrecht',
   'app.tagline': 'Functional and integrative medicine in gynaecology and fertility',
   'app.updateReady': 'A new version is ready. It will be applied when you finish the session.',
   'app.updateNow': 'Update now',
@@ -247,7 +247,7 @@ export const en: Record<MessageKey, string> = {
   'settings.backup.done': 'Backup imported. Progress recalculated.',
   'settings.backup.undo.dated': 'Undo the replace of {date}',
   'settings.backup.undo.confirm': 'Your progress will be restored as it was on {date}, before the replace. Anything studied since will be lost.',
-  'settings.backup.invalid': 'The file is not a valid TarjetAlan backup.',
+  'settings.backup.invalid': 'The file is not a valid DoctorAlbrecht backup.',
   'settings.reports': 'Reports',
   'settings.reports.export': 'Export reports ({n})',
   'settings.reset': 'Erase all progress',

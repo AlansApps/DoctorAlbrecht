@@ -46,7 +46,7 @@ function serviceWorker(): Plugin {
 }
 
 export default defineConfig({
-  // Relative base: works on the GitHub Pages subpath (/TarjetAlan/) and any host.
+  // Relative base: works on the GitHub Pages subpath (/DoctorAlbrecht/) and any host.
   base: './',
   plugins: [react(), serviceWorker()],
   build: {

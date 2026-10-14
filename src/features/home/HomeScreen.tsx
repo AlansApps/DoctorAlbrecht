@@ -32,7 +32,7 @@ export function HomeScreen() {
   return (
     <div className="stack stack--lg">
       <header className="stack">
-        <p className="brand" aria-label="TarjetAlan">Tarjet<span>Alan</span></p>
+        <p className="brand" aria-label="DoctorAlbrecht">Doctor<span>Albrecht</span></p>
         <h1 className="screen-title">{t(greetingKey() as 'home.greeting.morning')}</h1>
       </header>
 

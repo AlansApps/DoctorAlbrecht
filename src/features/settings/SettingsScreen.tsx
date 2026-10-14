@@ -155,7 +155,7 @@ function BackupSection({ saveFile }: { saveFile: (name: string, text: string) =>
 
   const doExport = async () => {
     const backup = await withDb((db) => exportBackup(db, APP_VERSION, new Date()));
-    saveFile(`tarjetalan-respaldo-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(backup));
+    saveFile(`doctoralbrecht-respaldo-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(backup));
   };
 
   const onFile = async (file: File | undefined) => {
@@ -257,7 +257,7 @@ function ReportsSection({ saveFile }: { saveFile: (name: string, text: string) =
       <p className="small muted">{t('report.note')}</p>
       <Button icon={Download} disabled={count === 0} onClick={async () => {
         const reports = await withDb((db) => db.getAll('reports'));
-        saveFile(`tarjetalan-reportes-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify({ format: 'tarjetalan-reports', version: 1, reports }, null, 2));
+        saveFile(`doctoralbrecht-reportes-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify({ format: 'tarjetalan-reports', version: 1, reports }, null, 2));
       }}>
         {t('settings.reports.export', { n: count })}
       </Button>
