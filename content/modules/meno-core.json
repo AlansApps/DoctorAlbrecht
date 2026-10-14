@@ -1,0 +1,1545 @@
+{
+  "id": "meno-core",
+  "macroId": "meno",
+  "title": {
+    "es": "Menopausia: síntomas vasomotores, terapia hormonal y alternativas",
+    "en": "Menopause: vasomotor symptoms, hormone therapy and alternatives"
+  },
+  "lessons": [
+    {
+      "id": "meno-core.l1-vms-identification",
+      "microId": "meno.vms",
+      "title": {
+        "es": "Síntomas vasomotores: carga, mecanismo e identificación",
+        "en": "Vasomotor symptoms: burden, mechanism and identification"
+      },
+      "objective": {
+        "es": "Describir la frecuencia, la duración y el impacto de los SVM, explicar su mecanismo hipotalámico (neuronas KNDy y neurocinina B) e identificar la perimenopausia y la menopausia por la clínica según NICE NG23, sabiendo qué pruebas no pedir.",
+        "en": "Describe the frequency, duration and impact of VMS, explain their hypothalamic mechanism (KNDy neurons and neurokinin B) and identify perimenopause and menopause clinically according to NICE NG23, knowing which tests not to order."
+      },
+      "closing": {
+        "es": "Los sofocos son frecuentes, duran años y tienen un mecanismo conocido en el hipotálamo. A partir de los 45 años, la perimenopausia y la menopausia se reconocen por la clínica: la AMH, el estradiol y otras pruebas hormonales no cambian la decisión, y los análisis de saliva u orina tampoco sirven para ajustar la dosis de la terapia hormonal.",
+        "en": "Hot flashes are common, last for years and have a known hypothalamic mechanism. From age 45, perimenopause and menopause are recognised clinically: AMH, estradiol and other hormone tests do not change the decision, and saliva or urine tests are not reliable for setting hormone therapy doses either."
+      },
+      "prerequisites": [
+        "meno.transition-staging"
+      ],
+      "level": "base",
+      "itemIds": [
+        "meno-core.c1-vms-burden",
+        "meno-core.c2-kndy-mechanism",
+        "meno-core.c3-identify-clinically",
+        "meno-core.c4-tests-not-to-order",
+        "meno-core.q1-identify-48",
+        "meno-core.q2-neurokinin-b"
+      ]
+    },
+    {
+      "id": "meno-core.l2-hormone-therapy",
+      "microId": "meno.ht",
+      "title": {
+        "es": "Terapia hormonal: beneficios, riesgos, vía y «bioidénticos»",
+        "en": "Hormone therapy: benefits, risks, route and “bioidenticals”"
+      },
+      "objective": {
+        "es": "Indicar la terapia hormonal como tratamiento más eficaz de los SVM, elegir la pauta según haya útero o no, elegir la vía según el riesgo trombótico, explicar en números el riesgo de cáncer de mama, comparar la «ventana» de inicio y la duración en NICE y la NAMS, y responder con evidencia a la demanda de «bioidénticos» magistrales.",
+        "en": "Prescribe hormone therapy as the most effective treatment for VMS, choose the regimen by whether there is a uterus, choose the route by thrombotic risk, explain breast cancer risk in numbers, compare the initiation “window” and duration in NICE and NAMS, and answer requests for compounded “bioidenticals” with evidence."
+      },
+      "closing": {
+        "es": "Con útero, siempre progestágeno; con riesgo trombótico, vía transdérmica; y los riesgos, en números absolutos. NICE y la NAMS coinciden en lo esencial y discrepan en matices: la «ventana» coronaria y el énfasis en la dosis más baja. Los bioidénticos aprobados ya existen; el magistral no aporta seguridad.",
+        "en": "With a uterus, always a progestogen; with thrombotic risk, the transdermal route; and risks in absolute numbers. NICE and NAMS agree on the essentials and differ on nuances: the coronary “window” and the emphasis on the lowest dose. Approved bioidenticals already exist; compounding adds no safety."
+      },
+      "prerequisites": [
+        "meno.vms"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "meno-core.c5-ht-most-effective",
+        "meno-core.c6-timing-window",
+        "meno-core.c7-endometrial-protection",
+        "meno-core.c8-route-vte-stroke",
+        "meno-core.c9-breast-cancer",
+        "meno-core.c10-dose-duration",
+        "meno-core.c11-compounded",
+        "meno-core.q3-uterus-combined",
+        "meno-core.q4-bmi-transdermal",
+        "meno-core.q5-start-at-66",
+        "meno-core.q6-compounded-pellets",
+        "meno-core.q7-breast-risk-size",
+        "meno-core.case1-paloma"
+      ]
+    },
+    {
+      "id": "meno-core.l3-nonhormonal-supplements",
+      "microId": "meno.nonhormonal",
+      "title": {
+        "es": "Sin hormonas: terapias psicológicas, fármacos, suplementos y hábitos",
+        "en": "Without hormones: psychological therapies, drugs, supplements and lifestyle"
+      },
+      "objective": {
+        "es": "Ofrecer alternativas con respaldo a quien no puede o no quiere THS (TCC, hipnosis clínica, ISRS/IRSN, gabapentina, fezolinetant), conocer sus dosis y precauciones, como la interacción con tamoxifeno, y explicar por qué la NAMS no recomienda la cimicífuga, la soja ni la mayoría de los suplementos y hábitos, señalando en qué discrepa NICE.",
+        "en": "Offer evidence-backed alternatives for those who cannot or will not take HRT (CBT, clinical hypnosis, SSRIs/SNRIs, gabapentin, fezolinetant), know their doses and precautions, such as the tamoxifen interaction, and explain why NAMS does not recommend black cohosh, soy or most supplements and lifestyle measures, noting where NICE differs."
+      },
+      "closing": {
+        "es": "Sin hormonas hay opciones reales: TCC e hipnosis clínica, ISRS/IRSN, gabapentina y fezolinetant. Los suplementos, la soja y los cambios de hábitos tienen poco respaldo para los sofocos, y donde NICE es más permisiva, su texto es de 2015.",
+        "en": "Without hormones there are real options: CBT and clinical hypnosis, SSRIs/SNRIs, gabapentin and fezolinetant. Supplements, soy and lifestyle changes have little support for hot flashes, and where NICE is more permissive, its wording dates from 2015."
+      },
+      "prerequisites": [
+        "meno.vms",
+        "meno.ht"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "meno-core.c12-cbt-hypnosis",
+        "meno-core.c13-prescription-options",
+        "meno-core.c14-supplements",
+        "meno-core.c15-lifestyle",
+        "meno-core.q8-tamoxifen-ssri",
+        "meno-core.q9-black-cohosh",
+        "meno-core.q10-hypnosis"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c1-vms-burden",
+      "type": "concept",
+      "conceptId": "meno-core.vms-burden",
+      "title": {
+        "es": "Síntomas vasomotores: frecuentes, largos y con impacto",
+        "en": "Vasomotor symptoms: common, long-lasting and with impact"
+      },
+      "core": {
+        "es": "Los sofocos y los sudores nocturnos (síntomas vasomotores, SVM) son los síntomas más frecuentes de la menopausia: aparecen hasta en el 80 % de las mujeres y duran de media de 7 a 9 años; en un tercio de ellas, más de 10 años. [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "Hot flashes and night sweats (vasomotor symptoms, VMS) are the most common symptoms of menopause: they occur in up to 80% of women and last a mean of 7 to 9 years; in one-third, more than 10 years. [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "body": {
+        "es": "El posicionamiento de 2022 de la NAMS señala que los SVM pueden empezar en la perimenopausia, que los frecuentes persisten de media 7,4 años o más, que afectan a la calidad de vida y que pueden asociarse con la salud cardiovascular, ósea y cerebral. Las mujeres con SVM refieren más a menudo un sueño alterado. [[ref:nams-2022-hormone-therapy]]\n\nNICE identifica la perimenopausia, sin análisis, en personas sanas de 45 años o más con SVM de inicio reciente y cambios en el ciclo menstrual. [[ref:nice-2026-ng23]]",
+        "en": "The 2022 NAMS position statement notes that VMS may begin in perimenopause, that frequent VMS persist on average 7.4 years or longer, that they affect quality of life and that they may be associated with cardiovascular, bone and brain health. Women with VMS more often report disrupted sleep. [[ref:nams-2022-hormone-therapy]]\n\nNICE identifies perimenopause, without laboratory tests, in healthy people aged 45 or over with recently started VMS and changes in their menstrual cycle. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Cuando una paciente pregunta «¿cuánto me va a durar esto?», la respuesta honesta es: de media, años; en una de cada tres, más de una década.",
+        "en": "When a patient asks “how long will this last?”, the honest answer is: on average, years; in one in three, more than a decade."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NAMS 2023: cifras del texto introductorio (sin nivel). NAMS 2022: duración y asociaciones de los SVM, nivel I/II; sueño alterado con SVM, nivel I. NICE NG23 1.3.1 [2015]. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2023: figures from the introductory text (no level). NAMS 2022: duration and associations of VMS, Level I/II; disrupted sleep with VMS, Level I. NICE NG23 1.3.1 [2015]. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿En qué proporción de mujeres aparecen los SVM y cuánto duran de media?",
+        "en": "In what proportion of women do VMS occur, and how long do they last on average?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c2-kndy-mechanism",
+      "type": "mechanism",
+      "conceptId": "meno-core.kndy-mechanism",
+      "title": {
+        "es": "Neuronas KNDy y neurocinina B: por qué aparecen los sofocos",
+        "en": "KNDy neurons and neurokinin B: why hot flashes happen"
+      },
+      "core": {
+        "es": "Las neuronas KNDy del hipotálamo (kisspeptina, neurocinina B y dinorfina) forman el generador de pulsos de GnRH y actúan también sobre el centro termorregulador vecino. Al caer el estradiol en la transición, ese plexo se vuelve hiperactivo y secreta en exceso neurocinina B, que altera el control de la temperatura y desencadena los SVM. [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "Hypothalamic KNDy neurons (kisspeptin, neurokinin B and dynorphin) form the GnRH pulse generator and also act on the adjacent thermoregulatory centre. As estradiol falls across the transition, this plexus becomes hyperactive and hypersecretes neurokinin B, which disrupts temperature control and triggers VMS. [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "body": {
+        "es": "Ese conocimiento dio lugar a los antagonistas de la neurocinina B, que actúan directamente sobre el mecanismo neural de los SVM. Fezolinetant es un antagonista selectivo del receptor 3 de la neurocinina B aprobado por la FDA; elinzanetant, antagonista dual de los receptores 1 y 3, estaba en desarrollo en 2023, y un tercer compuesto (MLE4901) se abandonó para esta indicación. [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "This understanding led to neurokinin B antagonists, which target the neural mechanism of VMS directly. Fezolinetant is a selective neurokinin B receptor-3 antagonist approved by the FDA; elinzanetant, a dual receptor-1 and receptor-3 antagonist, was in development in 2023, and a third compound (MLE4901) is no longer being pursued for this indication. [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "pearl": {
+        "es": "Por eso un fármaco no hormonal puede aliviar los sofocos «desde el hipotálamo» sin aportar estrógenos.",
+        "en": "This is why a non-hormonal drug can relieve hot flashes “from the hypothalamus” without supplying estrogen."
+      },
+      "evidence": {
+        "label": "mechanistic",
+        "note": {
+          "es": "NAMS 2023, sección sobre antagonistas de la neurocinina B: texto explicativo (sin nivel). Estado regulatorio en Estados Unidos en 2023. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NAMS 2023, section on neurokinin B antagonists: explanatory text (no level). US regulatory status in 2023. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué neuronas y qué neuropéptido explican los SVM, y qué fármaco actúa sobre ese paso?",
+        "en": "Which neurons and which neuropeptide explain VMS, and which drug acts on that step?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c3-identify-clinically",
+      "type": "what-i-would-do",
+      "conceptId": "meno-core.identify-clinically",
+      "title": {
+        "es": "Perimenopausia y menopausia: se identifican por la clínica",
+        "en": "Perimenopause and menopause: identified clinically"
+      },
+      "core": {
+        "es": "NICE recomienda identificar sin pruebas de laboratorio, en personas sanas de 45 años o más con síntomas: la perimenopausia si hay SVM de inicio reciente y cambios en el ciclo; la menopausia si no hay regla desde hace al menos 12 meses sin anticoncepción hormonal; y, tras una histerectomía, la menopausia según el tipo y la combinación de síntomas. [[ref:nice-2026-ng23]]",
+        "en": "NICE recommends identifying, without laboratory tests, in healthy people aged 45 or over with symptoms: perimenopause if there are recently started VMS and cycle changes; menopause if there has been no period for at least 12 months without hormonal contraception; and, after a hysterectomy, menopause based on the type and combination of symptoms. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "La FSH solo se considera para confirmar la menopausia entre los 40 y los 45 años con síntomas, incluido un cambio del ciclo, o antes de los 40 si se sospecha (véase el módulo de insuficiencia ovárica prematura). NICE advierte de que identificarla es difícil con tratamientos hormonales, por ejemplo para el sangrado menstrual abundante, y de que algunas personas de minorías étnicas o con enfermedades crónicas pueden tenerla a una edad más temprana. [[ref:nice-2026-ng23]]",
+        "en": "FSH is only considered to confirm menopause between 40 and 45 with symptoms, including a cycle change, or under 40 if it is suspected (see the premature ovarian insufficiency module). NICE warns that it is difficult to identify in people on hormonal treatments, for example for heavy menstrual bleeding, and that some people from ethnic minority backgrounds or with lifelong conditions may reach it at a younger age. [[ref:nice-2026-ng23]]"
+      },
+      "application": {
+        "es": "Ante una mujer de 47 años con sofocos recientes y ciclos que se alargan, el diagnóstico es clínico: pregunta, registra los síntomas y pasa a hablar de opciones.",
+        "en": "Faced with a 47-year-old with recent hot flashes and lengthening cycles, the diagnosis is clinical: ask, record the symptoms and move on to discussing options."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 1.3.1 [2015], 1.3.2 [2015], 1.3.3 [2024] y 1.3.6 [2015]. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NICE NG23 1.3.1 [2015], 1.3.2 [2015], 1.3.3 [2024] and 1.3.6 [2015]. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Cuándo identifica NICE la perimenopausia y la menopausia sin análisis, y cuándo considera la FSH?",
+        "en": "When does NICE identify perimenopause and menopause without tests, and when does it consider FSH?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c4-tests-not-to-order",
+      "type": "what-i-would-not-order",
+      "conceptId": "meno-core.tests-not-to-order",
+      "title": {
+        "es": "Pruebas que no aportan: AMH, estradiol, saliva y orina",
+        "en": "Tests that add nothing: AMH, estradiol, saliva and urine"
+      },
+      "core": {
+        "es": "Para identificar la perimenopausia o la menopausia a partir de los 45 años, NICE indica no usar AMH, inhibina A, inhibina B, estradiol, recuento de folículos antrales ni volumen ovárico. [[ref:nice-2026-ng23]]",
+        "en": "To identify perimenopause or menopause from age 45, NICE advises against using AMH, inhibin A, inhibin B, estradiol, antral follicle count or ovarian volume. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "Tampoco debe usarse la FSH para identificar la menopausia en quien toma anticoncepción combinada de estrógeno y progestágeno o progestágeno a dosis altas. [[ref:nice-2026-ng23]]\n\nPara ajustar la dosis de la terapia hormonal, la NAMS considera poco fiables y no recomienda las pruebas hormonales en saliva u orina, y estima que las determinaciones séricas rara vez son necesarias. [[ref:nams-2022-hormone-therapy]]",
+        "en": "Nor should FSH be used to identify menopause in people taking combined estrogen and progestogen contraception or high-dose progestogen. [[ref:nice-2026-ng23]]\n\nTo set hormone therapy doses, NAMS considers saliva and urine hormone testing unreliable and does not recommend it, and regards serum testing as rarely needed. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "pearl": {
+        "es": "Un «perfil hormonal de menopausia» a los 50 años no cambia la decisión; la clínica, sí.",
+        "en": "A “menopause hormone panel” at 50 does not change the decision; the clinical picture does."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "NICE NG23 1.3.4 y 1.3.5 [2015]. NAMS 2022: pruebas en saliva, orina y suero, nivel II/III. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 1.3.4 and 1.3.5 [2015]. NAMS 2022: saliva, urine and serum testing, Level II/III. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué pruebas desaconseja NICE para identificar la menopausia a partir de los 45 años?",
+        "en": "Which tests does NICE advise against for identifying menopause from age 45?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q1-identify-48",
+      "conceptId": "meno-core.identify-clinically",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 48 años (caso ficticio), sana y sin anticoncepción hormonal, consulta por sofocos desde hace 3 meses y ciclos cada 45–60 días. Según NICE NG23, ¿qué es lo más adecuado?",
+        "en": "A 48-year-old woman (fictional case), healthy and not using hormonal contraception, has had hot flashes for 3 months and cycles every 45–60 days. According to NICE NG23, what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Identificar la perimenopausia por la clínica, sin análisis, y hablar de opciones.",
+            "en": "Identify perimenopause clinically, without tests, and discuss options."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: a partir de los 45 años, SVM de inicio reciente y cambios del ciclo bastan para NICE.",
+            "en": "Correct: from age 45, recently started VMS and cycle changes are enough for NICE."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pedir FSH y estradiol en el día 3 del ciclo para confirmarla.",
+            "en": "Order FSH and estradiol on cycle day 3 to confirm it."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE desaconseja el estradiol a esta edad y reserva la FSH para los 40–45 años o para menores de 40.",
+            "en": "NICE advises against estradiol at this age and reserves FSH for ages 40–45 or under 40."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir una AMH para estimar cuánto falta para la menopausia.",
+            "en": "Order AMH to estimate how long until menopause."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH está entre las pruebas que NICE indica no usar a partir de los 45 años.",
+            "en": "AMH is among the tests NICE advises against from age 45."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Esperar a 12 meses de amenorrea antes de hablar de tratamiento.",
+            "en": "Wait for 12 months of amenorrhoea before discussing treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los 12 meses sin regla identifican la menopausia; la perimenopausia ya se identifica con estos síntomas y se pueden comentar opciones.",
+            "en": "Twelve months without a period identify menopause; perimenopause is already identified with these symptoms and options can be discussed."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE quiere evitar análisis que no cambian la decisión: en personas sanas de 45 años o más, la perimenopausia y la menopausia se identifican por los síntomas y el patrón menstrual.",
+        "en": "NICE aims to avoid tests that do not change the decision: in healthy people aged 45 or over, perimenopause and menopause are identified by symptoms and menstrual pattern."
+      },
+      "refIds": [
+        "nice-2026-ng23"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q2-neurokinin-b",
+      "conceptId": "meno-core.kndy-mechanism",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según el posicionamiento de 2023 de la NAMS, ¿qué mecanismo explica los SVM y es la diana de fezolinetant?",
+        "en": "According to the 2023 NAMS position statement, which mechanism explains VMS and is the target of fezolinetant?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La hiperactividad de las neuronas KNDy, con exceso de neurocinina B sobre el centro termorregulador.",
+            "en": "Hyperactivity of KNDy neurons, with excess neurokinin B acting on the thermoregulatory centre."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: fezolinetant bloquea el receptor 3 de la neurocinina B.",
+            "en": "Correct: fezolinetant blocks the neurokinin B receptor-3."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El aumento de la FSH, que actúa directamente sobre el centro termorregulador.",
+            "en": "The rise in FSH, acting directly on the thermoregulatory centre."
+          },
+          "correct": false,
+          "why": {
+            "es": "La FSH sube por el generador de pulsos, pero el documento atribuye los SVM a la neurocinina B, no a la FSH.",
+            "en": "FSH rises through the pulse generator, but the statement attributes VMS to neurokinin B, not FSH."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un déficit de serotonina en la corteza cerebral.",
+            "en": "A serotonin deficit in the cerebral cortex."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los ISRS/IRSN alivian los SVM, pero el mecanismo descrito, y la diana de fezolinetant, es la neurocinina B hipotalámica.",
+            "en": "SSRIs/SNRIs relieve VMS, but the mechanism described, and fezolinetant’s target, is hypothalamic neurokinin B."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Un exceso de orexina, que fezolinetant bloquea.",
+            "en": "Excess orexin, which fezolinetant blocks."
+          },
+          "correct": false,
+          "why": {
+            "es": "La orexina se menciona como posible implicada, pero fezolinetant no actúa sobre ella y el suvorexant no se recomienda.",
+            "en": "Orexin is mentioned as possibly involved, but fezolinetant does not act on it and suvorexant is not recommended."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con la caída del estradiol, el plexo KNDy secreta en exceso neurocinina B sobre el centro termorregulador; los antagonistas de la neurocinina B actúan justo en ese paso.",
+        "en": "As estradiol falls, the KNDy plexus hypersecretes neurokinin B onto the thermoregulatory centre; neurokinin B antagonists act at exactly that step."
+      },
+      "refIds": [
+        "nams-2023-nonhormone-therapy"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c5-ht-most-effective",
+      "type": "concept",
+      "conceptId": "meno-core.ht-most-effective",
+      "title": {
+        "es": "Terapia hormonal: el tratamiento más eficaz de los SVM",
+        "en": "Hormone therapy: the most effective treatment for VMS"
+      },
+      "core": {
+        "es": "NICE recomienda ofrecer terapia hormonal sustitutiva (THS) a las personas con SVM de la menopausia. [[ref:nice-2026-ng23]] La NAMS la considera el tratamiento más eficaz de los SVM y del síndrome genitourinario, que además previene la pérdida ósea y las fracturas; las distintas formulaciones, dosis y vías de los preparados con receta tienen una eficacia alta y comparable sobre los SVM. [[ref:nams-2022-hormone-therapy]]",
+        "en": "NICE recommends offering hormone replacement therapy (HRT) to people with menopausal VMS. [[ref:nice-2026-ng23]] NAMS considers it the most effective treatment for VMS and the genitourinary syndrome of menopause, and it also prevents bone loss and fracture; the various formulations, doses and routes of prescription preparations have comparably high efficacy for VMS. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "Antes de empezar, NICE pide hablar de los beneficios y riesgos de la THS combinada frente a la de estrógeno solo, la vía transdérmica frente a la oral, los tipos de estrógeno y progestágeno, las pautas secuencial y continua, y la dosis y la duración, adaptándolo a la edad y a los factores de riesgo de cada persona. [[ref:nice-2026-ng23]]\n\nLa NAMS enumera como contraindicaciones de la terapia oral y transdérmica el sangrado vaginal no explicado, la enfermedad hepática, el cáncer sensible a estrógenos previo (incluido el de mama), la cardiopatía coronaria, el ictus, el infarto o la tromboembolia venosa previos, y el antecedente personal o el alto riesgo hereditario de enfermedad tromboembólica. [[ref:nams-2022-hormone-therapy]]",
+        "en": "Before starting, NICE asks for a discussion of the benefits and risks of combined versus estrogen-only HRT, transdermal versus oral routes, types of estrogen and progestogen, sequential versus continuous regimens, and dose and duration, tailored to each person’s age and risk factors. [[ref:nice-2026-ng23]]\n\nNAMS lists as contraindications to oral and transdermal therapy unexplained vaginal bleeding, liver disease, prior estrogen-sensitive cancer (including breast cancer), prior coronary heart disease, stroke, myocardial infarction or venous thromboembolism, and a personal history or inherited high risk of thromboembolic disease. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "pearl": {
+        "es": "Si no hay contraindicación, la pregunta no es «¿THS sí o no?», sino «¿qué THS, por qué vía y a qué dosis para esta mujer?».",
+        "en": "Without a contraindication, the question is not “HRT, yes or no?” but “which HRT, by which route and at what dose for this woman?”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 1.5.1 [2015] y 1.4.2 [2024]. NAMS 2022: eficacia comparable de formulaciones, dosis y vías, nivel I; «tratamiento más eficaz», conclusión del documento; contraindicaciones, texto del documento (sin nivel). NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 1.5.1 [2015] and 1.4.2 [2024]. NAMS 2022: comparable efficacy of formulations, doses and routes, Level I; “most effective treatment”, conclusion of the statement; contraindications, statement text (no level). NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué recomienda NICE ante SVM de la menopausia y qué contraindicaciones de la terapia hormonal enumera la NAMS?",
+        "en": "What does NICE recommend for menopausal VMS, and which contraindications to hormone therapy does NAMS list?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c6-timing-window",
+      "type": "comparison",
+      "conceptId": "meno-core.timing-window",
+      "title": {
+        "es": "Edad de inicio: la «ventana» de la NAMS y la cautela de NICE",
+        "en": "Age at initiation: the NAMS “window” and NICE’s caution"
+      },
+      "core": {
+        "es": "La NAMS sitúa el balance más favorable al iniciar la terapia hormonal antes de los 60 años o en los 10 años siguientes al inicio de la menopausia, sin contraindicaciones; si se empieza más tarde, el balance parece menos favorable por mayores riesgos absolutos de cardiopatía coronaria, ictus, tromboembolia venosa y demencia. [[ref:nams-2022-hormone-therapy]]",
+        "en": "NAMS places the most favourable balance in women starting hormone therapy before 60 or within 10 years of menopause onset, without contraindications; when started later, the balance appears less favourable because of greater absolute risks of coronary heart disease, stroke, venous thromboembolism and dementia. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "Para la NAMS, el efecto sobre la cardiopatía coronaria puede variar según la edad o el tiempo desde la menopausia al empezar; los datos observacionales y los metaanálisis muestran menos cardiopatía coronaria al iniciarla antes de los 60 años o de los 10 años desde la menopausia, aunque el efecto es nulo al excluir los ensayos abiertos. La terapia hormonal no está aprobada para la cardioprotección. [[ref:nams-2022-hormone-therapy]]\n\nNICE no fija esa ventana: su comité encontró pocos datos y ninguna tendencia clara del riesgo coronario con la edad de inicio ni con el tiempo desde la menopausia, y lo dejó como pregunta de investigación. Sí explica que la THS combinada no aumenta el riesgo de cardiopatía coronaria, que la esperanza de vida probablemente no cambia, que el riesgo de demencia podría aumentar si se empieza a los 65 años o después y que el aumento del ictus con estrógeno oral es mayor cuanto mayor es la edad al empezar. [[ref:nice-2026-ng23]]",
+        "en": "For NAMS, the effect on coronary heart disease may vary with age or time since menopause at initiation; observational data and meta-analyses show less coronary heart disease when it is started before 60 or within 10 years of menopause, although the effect is null after excluding open-label trials. Hormone therapy is not approved for cardioprotection. [[ref:nams-2022-hormone-therapy]]\n\nNICE sets no such window: its committee found little data and no clear trend in coronary risk with age at initiation or time since menopause, and left it as a research question. It does explain that combined HRT does not increase coronary heart disease risk, that life expectancy is unlikely to change, that dementia risk might increase if started at 65 or over, and that the increase in stroke with oral estrogen is greater with older age at first use. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Coinciden en que algunos riesgos crecen cuanto más tarde se empieza; discrepan en si hay una «ventana» coronaria demostrada: la NAMS la apoya y NICE la deja como pregunta abierta.",
+        "en": "They agree that some risks grow the later treatment starts; they differ on whether a coronary “window” is proven: NAMS supports it and NICE leaves it as an open question."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NAMS 2022: seguridad más favorable antes de los 60 años o de los 10 años, nivel I; efecto coronario según el momento de inicio, nivel I; menos cardiopatía coronaria en datos observacionales, nivel II; mayores riesgos absolutos al iniciarla más tarde, nivel I; sin aprobación para cardioprotección, nivel I. NICE NG23 1.6.1 y tabla 1 [2024]; justificación sobre el momento de inicio (pp. 82–83) y recomendación de investigación 6. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2022: most favourable safety before 60 or within 10 years, Level I; coronary effect depending on timing of initiation, Level I; less coronary heart disease in observational data, Level II; greater absolute risks with later initiation, Level I; not approved for cardioprotection, Level I. NICE NG23 1.6.1 and table 1 [2024]; rationale on timing of initiation (pp. 82–83) and research recommendation 6. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué «ventana» de inicio propone la NAMS y qué concluyó NICE sobre el momento de inicio y el riesgo coronario?",
+        "en": "What initiation “window” does NAMS propose, and what did NICE conclude about timing and coronary risk?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c7-endometrial-protection",
+      "type": "concept",
+      "conceptId": "meno-core.endometrial-protection",
+      "title": {
+        "es": "Con útero, siempre progestágeno",
+        "en": "With a uterus, always a progestogen"
+      },
+      "core": {
+        "es": "NICE recomienda ofrecer THS combinada a quien tiene útero y THS de estrógeno solo a quien ha tenido una histerectomía total. [[ref:nice-2026-ng23]] El estrógeno sistémico sin oposición en una mujer posmenopáusica con útero aumenta el riesgo de cáncer de endometrio, por lo que se recomienda un progestágeno adecuado. [[ref:nams-2022-hormone-therapy]]",
+        "en": "NICE recommends offering combined HRT to people with a uterus and estrogen-only HRT to people who have had a total hysterectomy. [[ref:nice-2026-ng23]] Unopposed systemic estrogen in a postmenopausal woman with a uterus increases the risk of endometrial cancer, so adequate progestogen is recommended. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "NICE describe que el riesgo de cáncer de endometrio disminuye con la THS combinada continua y puede aumentar ligeramente con la secuencial, sobre todo con más duración de uso, menos días de progestágeno por ciclo y más dosis de estrógeno. [[ref:nice-2026-ng23]]\n\nLa NAMS cita como única excepción la combinación de estrógenos conjugados con bazedoxifeno. Como ejemplo de dosis adecuada da la progesterona micronizada oral de 200 mg/día durante 12–14 días al mes. El DIU de levonorgestrel para proteger el endometrio es un uso fuera de ficha técnica con pocos datos de ensayos, que evita efectos sistémicos del progestágeno y aporta anticoncepción a quien empieza antes de la última regla. El estrógeno vaginal a dosis bajas no parece aumentar el riesgo de cáncer de endometrio, aunque los ensayos con biopsia solo llegan a 1 año. [[ref:nams-2022-hormone-therapy]]\n\nNICE explica que el sangrado vaginal es un efecto adverso frecuente en los primeros 6 meses de THS sistémica o en los 3 meses siguientes a un cambio de dosis o de preparado, y pide consultar sin demora ante un sangrado no programado fuera de esos plazos. [[ref:nice-2026-ng23]]",
+        "en": "NICE describes endometrial cancer risk as decreasing with continuous combined HRT and possibly increasing slightly with sequential HRT, especially with longer use, fewer days of progestogen per cycle and higher estrogen dosage. [[ref:nice-2026-ng23]]\n\nNAMS cites the combination of conjugated estrogens with bazedoxifene as the only exception. As an example of an adequate dose it gives oral micronized progesterone 200 mg/day for 12–14 days a month. A levonorgestrel IUD for endometrial protection is an off-label use with limited trial data, which avoids systemic progestogen effects and provides contraception for those starting before their final menstrual period. Low-dose vaginal estrogen does not appear to increase endometrial cancer risk, although trials with endometrial biopsy end points last only 1 year. [[ref:nams-2022-hormone-therapy]]\n\nNICE explains that vaginal bleeding is a common side effect during the first 6 months of systemic HRT or within 3 months of a dose or preparation change, and asks people to seek help promptly for unscheduled bleeding beyond these timeframes. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Cada vez que pautes estrógeno sistémico, la primera pregunta es: ¿tiene útero?",
+        "en": "Every time you prescribe systemic estrogen, the first question is: does she have a uterus?"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 1.8.1 [2024]; tabla 1, cáncer de endometrio [2024]; 1.8.4 [2015, modificada en 2026]. NAMS 2022: progestágeno adecuado, nivel I; estrógeno vaginal a dosis bajas, nivel II; dosis de progesterona y DIU de levonorgestrel, texto del documento (sin nivel). NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 1.8.1 [2024]; table 1, endometrial cancer [2024]; 1.8.4 [2015, amended 2026]. NAMS 2022: adequate progestogen, Level I; low-dose vaginal estrogen, Level II; progesterone dose and levonorgestrel IUD, statement text (no level). NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué THS corresponde con útero y sin él, y qué dosis de progesterona micronizada da la NAMS como ejemplo?",
+        "en": "Which HRT applies with and without a uterus, and what micronized progesterone dose does NAMS give as an example?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c8-route-vte-stroke",
+      "type": "comparison",
+      "conceptId": "meno-core.route-vte-stroke",
+      "title": {
+        "es": "Vía transdérmica u oral: trombosis e ictus",
+        "en": "Transdermal or oral: thrombosis and stroke"
+      },
+      "core": {
+        "es": "Para NICE, la THS transdérmica no aumenta el riesgo de tromboembolia venosa (TEV), la oral sí, y el riesgo es mayor con la oral que con la transdérmica. El ictus probablemente no aumenta con la THS combinada con estrógeno transdérmico, mientras que con estrógeno oral aumenta, más con dosis más altas, uso más largo y mayor edad al empezar. [[ref:nice-2026-ng23]]",
+        "en": "For NICE, transdermal HRT does not increase venous thromboembolism (VTE) risk, oral HRT does, and the risk is greater with oral than with transdermal HRT. Stroke risk is unlikely to increase with combined HRT containing transdermal estrogen, whereas with oral estrogen it increases, more so with higher dosage, longer use and older age at first use. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "NICE recomienda considerar la vía transdérmica en lugar de la oral cuando hay más riesgo de TEV, incluido un IMC superior a 30 kg/m², y valorar la derivación a hematología antes de la THS si el riesgo es alto, como con antecedentes familiares marcados o trombofilia hereditaria. [[ref:nice-2026-ng23]]\n\nLa NAMS es más prudente con la evidencia: los estudios observacionales no muestran más TEV con estrógeno transdérmico y sugieren menos riesgo que con el oral, pero faltan ensayos comparativos; las vías no orales evitan el primer paso hepático, aunque no se sabe si reducen la TEV, el cáncer de mama o los eventos cardiovasculares. La progesterona micronizada podría ser menos trombogénica que otros progestágenos. [[ref:nams-2022-hormone-therapy]]",
+        "en": "NICE recommends considering transdermal rather than oral HRT when VTE risk is increased, including a BMI over 30 kg/m², and considering referral to a haematologist before HRT when risk is high, such as with a strong family history or hereditary thrombophilia. [[ref:nice-2026-ng23]]\n\nNAMS is more cautious about the evidence: observational studies have not shown increased VTE with transdermal estrogen and suggest less risk than with oral estrogen, but comparative trials are lacking; non-oral routes bypass the hepatic first pass, but it is unknown whether they lower VTE, breast cancer or cardiovascular events. Micronized progesterone may be less thrombogenic than other progestins. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "pearl": {
+        "es": "Misma conclusión práctica (transdérmica si hay riesgo trombótico) con distinto grado de certeza: NICE lo afirma; la NAMS recuerda que se apoya en estudios observacionales.",
+        "en": "Same practical conclusion (transdermal if there is thrombotic risk) with different certainty: NICE states it; NAMS reminds us it rests on observational studies."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 tabla 1: TEV [2015], ictus [2024]; 1.5.28 y 1.5.29 [2015]. NAMS 2022: distintos efectos según dosis, formulación y vía, nivel II; resto, texto del documento (sin nivel). NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 table 1: VTE [2015], stroke [2024]; 1.5.28 and 1.5.29 [2015]. NAMS 2022: different effects by dose, formulation and route, Level II; the rest, statement text (no level). NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice NICE sobre la TEV y el ictus según la vía de la THS, y cuándo propone la transdérmica?",
+        "en": "What does NICE say about VTE and stroke by HRT route, and when does it propose transdermal HRT?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c9-breast-cancer",
+      "type": "patient-phrase",
+      "conceptId": "meno-core.breast-cancer-risk",
+      "title": {
+        "es": "Cáncer de mama: explicar el riesgo con números",
+        "en": "Breast cancer: explaining the risk with numbers"
+      },
+      "core": {
+        "es": "NICE explica que la THS combinada aumenta el riesgo de cáncer de mama: más cuanto más dura el uso y más en usuarias actuales que en antiguas; disminuye al dejarla, pero persiste al menos 10 años. Es menor con la pauta secuencial que con la continua (aunque mayor que sin THS), y con estrógeno solo el aumento es muy pequeño o nulo. [[ref:nice-2026-ng23]]",
+        "en": "NICE explains that combined HRT increases breast cancer risk: more with longer use and more in current than past users; it declines after stopping but persists for at least 10 years. It is lower with sequential than continuous combined HRT (though higher than without HRT), and with estrogen-only HRT there is very little or no increase. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "La NAMS describe ese riesgo como raro: menos de un caso adicional por 1.000 mujeres y año de uso, o tres casos adicionales por 1.000 mujeres en 5 años con estrógenos equinos conjugados más acetato de medroxiprogesterona. Propone ponerlo en perspectiva, porque es similar al de factores modificables como dos bebidas alcohólicas al día, la obesidad o la poca actividad física. [[ref:nams-2022-hormone-therapy]]\n\nNICE señala que no hay evidencia suficiente para saber si el aumento es distinto con progesterona micronizada o didrogesterona que con otros progestágenos, y pide usar su ayuda para la decisión, con los casos por 1.000 personas a 5 y 10 años. [[ref:nice-2026-ng23]]",
+        "en": "NAMS describes this risk as rare: fewer than one additional case per 1,000 women per year of use, or three additional cases per 1,000 women over 5 years with conjugated equine estrogens plus medroxyprogesterone acetate. It suggests putting this in perspective, as it is similar to modifiable risk factors such as two alcoholic drinks a day, obesity or low physical activity. [[ref:nams-2022-hormone-therapy]]\n\nNICE notes that there is insufficient evidence to know whether the increase differs with micronized progesterone or dydrogesterone compared with other progestogens, and asks clinicians to use its discussion aid, with cases per 1,000 people over 5 and 10 years. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "«Con la THS combinada el riesgo de cáncer de mama sube un poco y crece con los años de uso; para hacerte una idea, se parece al de tomar dos copas al día. Lo revisaremos juntas cada año.»",
+        "en": "“With combined HRT, breast cancer risk rises a little and grows with years of use; to give you an idea, it is similar to having two drinks a day. We will review it together every year.”"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 1.6.2 y 1.6.3 [2024]; tablas 1 y 2, cáncer de mama [2024]. NAMS 2022: magnitud del riesgo, nivel I; comparación con factores modificables, nivel III. La frase para la paciente es una propuesta editorial, no un texto de las fuentes. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 1.6.2 and 1.6.3 [2024]; tables 1 and 2, breast cancer [2024]. NAMS 2022: size of the risk, Level I; comparison with modifiable factors, Level III. The patient phrase is an editorial suggestion, not text from the sources. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Cómo cambia el riesgo de cáncer de mama con la duración, la pauta y el tipo de THS, y qué magnitud da la NAMS?",
+        "en": "How does breast cancer risk change with duration, regimen and type of HRT, and what size does NAMS give?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c10-dose-duration",
+      "type": "comparison",
+      "conceptId": "meno-core.dose-duration",
+      "title": {
+        "es": "Dosis, duración y retirada: NICE frente a la NAMS",
+        "en": "Dose, duration and stopping: NICE versus NAMS"
+      },
+      "core": {
+        "es": "NICE pide usar la dosis eficaz más baja, hablar de la posible duración desde el principio y revisar cada tratamiento a los 3 meses y después una vez al año. [[ref:nice-2026-ng23]] La NAMS habla de la dosis «adecuada, a menudo la más baja eficaz» según los objetivos, y afirma que no hay que suspender la terapia hormonal de forma rutinaria a partir de los 60 o 65 años. [[ref:nams-2022-hormone-therapy]]",
+        "en": "NICE asks for the lowest effective dosage, a discussion of possible duration at the outset, and review of each treatment at 3 months and then annually. [[ref:nice-2026-ng23]] NAMS speaks of the “appropriate, often lowest, effective dose” for the treatment goals, and states that hormone therapy does not need to be routinely discontinued in women older than 60 or 65. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "Para la NAMS, el uso prolongado, también después de los 60 años, puede considerarse en mujeres sanas con bajo riesgo cardiovascular y de cáncer de mama que tienen SVM persistentes o alto riesgo de fractura sin otras opciones adecuadas, con reevaluación periódica y pruebas periódicas de bajar la dosis o suspender. Reducir el riesgo con la dosis eficaz más baja y, quizá, una vía no oral gana importancia con la edad y con la duración. [[ref:nams-2022-hormone-therapy]]\n\nAl dejarla, NICE recomienda ofrecer elegir entre reducción gradual o suspensión inmediata: la reducción gradual puede limitar la reaparición de los síntomas a corto plazo, pero a largo plazo no hay diferencia. Los síntomas pueden volver al dejar la THS, y puede reiniciarse si hace falta. [[ref:nice-2026-ng23]]",
+        "en": "For NAMS, long-term use, including after 60, may be considered in healthy women at low risk of cardiovascular disease and breast cancer with persistent VMS or high fracture risk for whom other therapies are not appropriate, with periodic reevaluation and periodic trials of lowering or stopping. Mitigating risk with the lowest effective dose and possibly a non-oral route becomes more important with age and longer duration. [[ref:nams-2022-hormone-therapy]]\n\nWhen stopping, NICE recommends offering a choice between gradual reduction and stopping immediately: gradual reduction may limit symptom recurrence in the short term, but makes no difference in the longer term. Symptoms may return when HRT is stopped, and it can be restarted if needed. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "En lo revisado, ninguna de las dos fija una duración máxima; el matiz está en la formulación: NICE pide la dosis eficaz más baja; la NAMS, la dosis adecuada (a menudo la más baja) para el objetivo, y da más peso a la dosis más baja a medida que aumentan la edad y la duración.",
+        "en": "In what was reviewed, neither sets a maximum duration; the nuance is in the wording: NICE asks for the lowest effective dosage; NAMS for the appropriate (often lowest) dose for the goal, giving the lowest dose more weight as age and duration increase."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG23 1.8.3 [2024], 1.4.3 [2024], 1.9.2 [2015], 1.8.6 y 1.8.7 [2015]. NAMS 2022: dosis adecuada, nivel III; no suspender de rutina, uso prolongado y reevaluación, nivel III. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NICE NG23 1.8.3 [2024], 1.4.3 [2024], 1.9.2 [2015], 1.8.6 and 1.8.7 [2015]. NAMS 2022: appropriate dose, Level III; no routine discontinuation, long-term use and reevaluation, Level III. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dicen NICE y la NAMS sobre la dosis, la revisión y la suspensión de la THS a partir de los 60–65 años?",
+        "en": "What do NICE and NAMS say about HRT dose, review and stopping after 60–65?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c11-compounded",
+      "type": "myth",
+      "conceptId": "meno-core.compounded-bioidentical",
+      "title": {
+        "es": "Mito: el «bioidéntico» magistral es más natural y más seguro",
+        "en": "Myth: compounded “bioidentical” hormones are more natural and safer"
+      },
+      "core": {
+        "es": "«Bioidéntico» puede confundir: hay hormonas bioidénticas aprobadas y reguladas (estradiol, estrona, progesterona micronizada) y preparados magistrales que pueden combinar varias hormonas (estradiol, estrona, estriol, DHEA, testosterona, progesterona) en combinaciones, formulaciones o vías no probadas, como implantes subdérmicos, pellets o trociscos. [[ref:nams-2022-hormone-therapy]]",
+        "en": "“Bioidentical” can mislead: there are approved, regulated bioidentical hormones (estradiol, estrone, micronized progesterone) and compounded preparations that may combine several hormones (estradiol, estrone, estriol, DHEA, testosterone, progesterone) in untested combinations, formulations or routes, such as subdermal implants, pellets or troches. [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "La NAMS señala que los magistrales plantean problemas de seguridad: poca regulación y vigilancia, sobredosificación e infradosificación, impurezas y falta de esterilidad, falta de datos de eficacia y seguridad, y ausencia de un prospecto con los riesgos. La preferencia de la paciente por sí sola no justifica usarlos; solo deberían considerarse cuando no puede usarse un preparado aprobado, por ejemplo por alergia a uno de sus componentes o porque la dosis o la formulación necesaria no existe en los preparados aprobados. [[ref:nams-2022-hormone-therapy]]\n\nNICE pide explicar que la eficacia y la seguridad de los preparados hormonales no regulados son desconocidas. [[ref:nice-2026-ng23]]",
+        "en": "NAMS notes that compounded preparations raise safety concerns: minimal regulation and monitoring, overdosing and underdosing, impurities and lack of sterility, lack of efficacy and safety data, and no label outlining risks. Patient preference alone should not justify their use; they should be considered only when an approved product cannot be used, for example because of allergy to one of its ingredients or because the dose or formulation needed is not available in approved products. [[ref:nams-2022-hormone-therapy]]\n\nNICE asks clinicians to explain that the efficacy and safety of unregulated hormone preparations are unknown. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Si lo que busca es una hormona «idéntica a la propia», el estradiol y la progesterona micronizada aprobados ya lo son, y con control de calidad.",
+        "en": "If what she wants is a hormone “identical to her own”, approved estradiol and micronized progesterone already are, with quality control."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "NAMS 2022: problemas de seguridad de los magistrales, nivel I; la preferencia sola no los justifica, nivel III; situaciones en que podrían considerarse, nivel III. NICE NG23 1.4.5 [2015]. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2022: safety concerns with compounded preparations, Level I; preference alone does not justify them, Level III; situations in which they could be considered, Level III. NICE NG23 1.4.5 [2015]. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué problemas de seguridad atribuye la NAMS a los «bioidénticos» magistrales y cuándo podrían considerarse?",
+        "en": "Which safety concerns does NAMS attribute to compounded “bioidenticals”, and when could they be considered?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q3-uterus-combined",
+      "conceptId": "meno-core.endometrial-protection",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 52 años (caso ficticio) con útero y SVM molestos quiere THS sistémica. Según NICE y la NAMS, ¿qué pauta corresponde?",
+        "en": "A 52-year-old woman (fictional case) with a uterus and bothersome VMS wants systemic HRT. According to NICE and NAMS, which regimen applies?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Estrógeno con un progestágeno adecuado (THS combinada).",
+            "en": "Estrogen with adequate progestogen (combined HRT)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE ofrece THS combinada con útero, y la NAMS recomienda progestágeno adecuado (nivel I).",
+            "en": "Correct: NICE offers combined HRT with a uterus, and NAMS recommends adequate progestogen (Level I)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Estrógeno solo transdérmico, porque la vía transdérmica protege el endometrio.",
+            "en": "Transdermal estrogen alone, because the transdermal route protects the endometrium."
+          },
+          "correct": false,
+          "why": {
+            "es": "La vía no protege: NICE indica que, con útero, el estrógeno solo aumenta el cáncer de endometrio por vía oral y transdérmica.",
+            "en": "The route does not protect: NICE states that, with a uterus, estrogen alone increases endometrial cancer by both oral and transdermal routes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Estrógeno solo con ecografía endometrial anual.",
+            "en": "Estrogen alone with an annual endometrial ultrasound."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las dos fuentes propone la vigilancia ecográfica como alternativa al progestágeno.",
+            "en": "Neither source proposes ultrasound surveillance as an alternative to progestogen."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Progesterona micronizada sola, sin estrógeno.",
+            "en": "Micronized progesterone alone, without estrogen."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS recoge que reduce los SVM, pero sin datos a largo plazo y fuera de ficha técnica (nivel II); no es la pauta estándar.",
+            "en": "NAMS reports that it reduces VMS, but without long-term data and off-label (Level II); it is not the standard regimen."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El progestágeno no es para los sofocos, sino para proteger el endometrio del estrógeno sistémico; por eso la THS de estrógeno solo se reserva para quien no tiene útero.",
+        "en": "The progestogen is not for the hot flashes but to protect the endometrium from systemic estrogen; that is why estrogen-only HRT is reserved for those without a uterus."
+      },
+      "refIds": [
+        "nice-2026-ng23",
+        "nams-2022-hormone-therapy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q4-bmi-transdermal",
+      "conceptId": "meno-core.route-vte-stroke",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 50 años (caso ficticio), con IMC de 33 kg/m² y sin antecedentes personales ni familiares de trombosis, va a empezar THS por SVM. Según NICE, ¿qué es lo más adecuado?",
+        "en": "A 50-year-old woman (fictional case), with a BMI of 33 kg/m² and no personal or family history of thrombosis, is about to start HRT for VMS. According to NICE, what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Considerar la vía transdérmica en lugar de la oral.",
+            "en": "Consider the transdermal rather than the oral route."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE la propone ante un riesgo aumentado de TEV, incluido un IMC superior a 30 kg/m².",
+            "en": "Correct: NICE proposes it when VTE risk is increased, including a BMI over 30 kg/m²."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Vía oral a dosis baja, que tiene el mismo riesgo de TEV que la transdérmica.",
+            "en": "Low-dose oral HRT, which carries the same VTE risk as transdermal."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica más TEV con la vía oral que con la transdérmica; la NAMS apunta que las dosis orales bajas quizá tengan menos riesgo, sin ensayos comparativos.",
+            "en": "NICE states more VTE with oral than transdermal HRT; NAMS notes lower oral doses may carry less risk, without comparative trials."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No indicar THS: un IMC superior a 30 kg/m² la contraindica.",
+            "en": "Do not prescribe HRT: a BMI over 30 kg/m² contraindicates it."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no lo trata como contraindicación, sino como motivo para elegir la vía.",
+            "en": "NICE does not treat it as a contraindication, but as a reason to choose the route."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Derivar a hematología antes de cualquier THS.",
+            "en": "Refer to haematology before any HRT."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE reserva la derivación para el riesgo alto, como antecedentes familiares marcados o trombofilia hereditaria.",
+            "en": "NICE reserves referral for high risk, such as a strong family history or hereditary thrombophilia."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La obesidad aumenta el riesgo basal de TEV; la vía transdérmica no lo aumenta según NICE, mientras que la oral sí. La NAMS coincide en la dirección, aunque recuerda que la evidencia es observacional.",
+        "en": "Obesity raises baseline VTE risk; according to NICE the transdermal route does not increase it, whereas the oral route does. NAMS agrees on the direction, while noting the evidence is observational."
+      },
+      "refIds": [
+        "nice-2026-ng23",
+        "nams-2022-hormone-therapy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q5-start-at-66",
+      "conceptId": "meno-core.timing-window",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 66 años (caso ficticio), con la menopausia a los 51 y sin tratamiento previo, pide empezar THS sistémica por sofocos persistentes. Según la NAMS, ¿qué afirmación es correcta?",
+        "en": "A 66-year-old woman (fictional case), who reached menopause at 51 and has never had treatment, asks to start systemic HRT for persistent hot flashes. According to NAMS, which statement is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El balance beneficio-riesgo parece menos favorable que en una mujer más joven y exige valorar con cuidado sus beneficios y riesgos individuales.",
+            "en": "The benefit-risk balance appears less favourable than in a younger woman and requires careful weighing of her individual benefits and risks."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: al iniciarla después de los 60 años o a más de 10 años de la menopausia, los riesgos absolutos de cardiopatía coronaria, ictus, TEV y demencia son mayores.",
+            "en": "Correct: when started after 60 or more than 10 years from menopause, absolute risks of coronary heart disease, stroke, VTE and dementia are greater."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Está contraindicada a partir de los 65 años.",
+            "en": "It is contraindicated from age 65."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS no la contraindica por edad: pide una valoración cuidadosa e individual.",
+            "en": "NAMS does not contraindicate it by age: it asks for careful individual assessment."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Iniciarla ahora la protegerá del infarto.",
+            "en": "Starting it now will protect her from myocardial infarction."
+          },
+          "correct": false,
+          "why": {
+            "es": "Al empezar tarde el riesgo coronario absoluto es mayor, y la terapia hormonal no está aprobada para cardioprotección (nivel I).",
+            "en": "With late initiation absolute coronary risk is greater, and hormone therapy is not approved for cardioprotection (Level I)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La edad de inicio no influye en ningún riesgo.",
+            "en": "Age at initiation does not affect any risk."
+          },
+          "correct": false,
+          "why": {
+            "es": "Influye según la NAMS, y NICE también señala más demencia si se empieza a los 65 años o después y más ictus con estrógeno oral a mayor edad de inicio.",
+            "en": "It does according to NAMS, and NICE also notes more dementia if started at 65 or over and more stroke with oral estrogen at older starting age."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La «ventana» de la NAMS (menos de 60 años o menos de 10 años desde la menopausia) no es una prohibición fuera de ella, sino un cambio en el balance que obliga a individualizar.",
+        "en": "The NAMS “window” (under 60 or within 10 years of menopause) is not a prohibition outside it, but a shift in the balance that requires individualisation."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy",
+        "nice-2026-ng23"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q6-compounded-pellets",
+      "conceptId": "meno-core.compounded-bioidentical",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una paciente de 53 años (caso ficticio) pide «hormonas bioidénticas» en pellets, con la dosis ajustada por un análisis de saliva, porque las cree más naturales. Según la NAMS, ¿qué es lo más adecuado?",
+        "en": "A 53-year-old patient (fictional case) asks for “bioidentical hormones” as pellets, dosed by a saliva test, because she believes they are more natural. According to NAMS, what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Explicarle que el estradiol y la progesterona micronizada aprobados ya son bioidénticos y regulados, y que la saliva no sirve para ajustar la dosis.",
+            "en": "Explain that approved estradiol and micronized progesterone are already bioidentical and regulated, and that saliva testing cannot guide dosing."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la NAMS considera los magistrales un problema de seguridad (nivel I) y las pruebas en saliva poco fiables (nivel II/III).",
+            "en": "Correct: NAMS considers compounded preparations a safety concern (Level I) and saliva testing unreliable (Level II/III)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Aceptar: la preferencia de la paciente justifica el preparado magistral.",
+            "en": "Agree: patient preference justifies the compounded preparation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Para la NAMS, la preferencia sola no justifica un magistral cuando hay preparados regulados (nivel III).",
+            "en": "For NAMS, preference alone does not justify a compounded product when regulated ones are available (Level III)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Aceptar, pero ajustar la dosis con un análisis de orina en lugar de saliva.",
+            "en": "Agree, but adjust the dose with a urine test instead of saliva."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS considera poco fiables y no recomienda ni las pruebas en saliva ni las de orina.",
+            "en": "NAMS considers both saliva and urine testing unreliable and does not recommend them."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Preferir los pellets porque dan niveles más estables.",
+            "en": "Prefer pellets because they give more stable levels."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS incluye los pellets entre las vías no estándar o no probadas; no les atribuye esa ventaja.",
+            "en": "NAMS lists pellets among nonstandard or untested routes; it does not credit them with that advantage."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La decisión compartida importa, pero ofrecer hormonas idénticas a las propias no requiere un magistral: los preparados aprobados ya lo son y tienen control de calidad y prospecto. NICE añade que la eficacia y la seguridad de los preparados no regulados son desconocidas.",
+        "en": "Shared decision-making matters, but offering hormones identical to her own does not require compounding: approved products already are, with quality control and a label. NICE adds that the efficacy and safety of unregulated preparations are unknown."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy",
+        "nice-2026-ng23"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q7-breast-risk-size",
+      "conceptId": "meno-core.breast-cancer-risk",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según el posicionamiento de 2022 de la NAMS, ¿cómo se describe la magnitud del riesgo de cáncer de mama asociado a la terapia hormonal?",
+        "en": "According to the 2022 NAMS position statement, how is the size of the breast cancer risk associated with hormone therapy described?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Raro: menos de un caso adicional por 1.000 mujeres y año de uso.",
+            "en": "Rare: fewer than one additional case per 1,000 women per year of use."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la NAMS da esa cifra (nivel I) y la compara con factores como dos bebidas alcohólicas al día.",
+            "en": "Correct: NAMS gives this figure (Level I) and compares it with factors such as two alcoholic drinks a day."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Frecuente: más de 10 casos adicionales por 1.000 mujeres y año.",
+            "en": "Common: more than 10 additional cases per 1,000 women per year."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS lo clasifica como raro, muy por debajo de esa cifra.",
+            "en": "NAMS classifies it as rare, far below that figure."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Nulo con cualquier pauta combinada.",
+            "en": "Zero with any combined regimen."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tanto la NAMS como NICE describen un aumento con la THS combinada, que crece con la duración.",
+            "en": "Both NAMS and NICE describe an increase with combined HRT, which grows with duration."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Igual con estrógeno solo que con la pauta combinada.",
+            "en": "The same with estrogen alone as with combined therapy."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE describe un aumento muy pequeño o nulo con estrógeno solo, y en el WHI los estrógenos conjugados solos se asociaron a menos cáncer de mama.",
+            "en": "NICE describes very little or no increase with estrogen alone, and in the WHI conjugated estrogens alone were associated with less breast cancer."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Hablar en riesgos absolutos ayuda a decidir: un aumento real pero raro, mayor con la pauta combinada y con más años de uso.",
+        "en": "Speaking in absolute risks helps decision-making: a real but rare increase, greater with combined therapy and with more years of use."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy",
+        "nice-2026-ng23"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c12-cbt-hypnosis",
+      "type": "comparison",
+      "conceptId": "meno-core.cbt-hypnosis",
+      "title": {
+        "es": "TCC e hipnosis clínica: las opciones no farmacológicas con mejor respaldo",
+        "en": "CBT and clinical hypnosis: the best-supported non-drug options"
+      },
+      "core": {
+        "es": "La NAMS recomienda la terapia cognitivo-conductual (TCC) y la hipnosis clínica para los SVM, ambas con nivel I. [[ref:nams-2023-nonhormone-therapy]] NICE recomienda considerar la TCC específica para la menopausia como opción para los SVM, junto a la THS, cuando la THS está contraindicada o cuando se prefiere no tomarla. [[ref:nice-2026-ng23]]",
+        "en": "NAMS recommends cognitive behavioural therapy (CBT) and clinical hypnosis for VMS, both at Level I. [[ref:nams-2023-nonhormone-therapy]] NICE recommends considering menopause-specific CBT as an option for VMS, alongside HRT, when HRT is contraindicated or when people prefer not to take it. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "Según NICE, la TCC mejoró la frecuencia, la intensidad y, sobre todo, cuánto molestan los síntomas, aunque la evidencia tenía limitaciones de diseño y posible sesgo. [[ref:nice-2026-ng23]]\n\nLa NAMS precisa que los estudios de TCC usan sobre todo controles en lista de espera o atención habitual, menos rigurosos, y que en conjunto apoyan que alivia los SVM molestos en supervivientes de cáncer de mama y en mujeres menopáusicas. En un ensayo, la hipnosis clínica redujo la frecuencia de los sofocos un 74 % frente a un 17 % con un control de atención; puede hacerse con un profesional formado o con una aplicación móvil. En cambio, no recomienda la respiración pautada (nivel I) ni la relajación o el mindfulness (nivel II). [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "According to NICE, CBT improved frequency, severity and, above all, how much symptoms bothered people, although the evidence had design limitations and potential bias. [[ref:nice-2026-ng23]]\n\nNAMS notes that CBT studies mostly use waitlist or usual-care controls, which are less rigorous, and that overall they support relief of bothersome VMS in breast cancer survivors and menopausal women. In one trial, clinical hypnosis reduced hot flash frequency by 74% versus 17% with an attention control; it can be delivered by a trained provider or through a smartphone app. By contrast, it does not recommend paced respiration (Level I) or relaxation or mindfulness (Level II). [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "pearl": {
+        "es": "Son opciones reales para quien no puede o no quiere THS, y también complementos: la TCC actúa sobre todo en cuánto molestan los sofocos.",
+        "en": "They are real options for those who cannot or will not take HRT, and also add-ons: CBT acts mainly on how bothersome the hot flashes are."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NAMS 2023: TCC e hipnosis clínica, nivel I, recomendadas; respiración pautada, nivel I, no recomendada; relajación y mindfulness, nivel II, no recomendados. NICE NG23 1.5.2 [2024] y su justificación (p. 60). NG23 no trata la hipnosis. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2023: CBT and clinical hypnosis, Level I, recommended; paced respiration, Level I, not recommended; relaxation and mindfulness, Level II, not recommended. NICE NG23 1.5.2 [2024] and its rationale (p. 60). NG23 does not address hypnosis. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué intervenciones psicológicas recomiendan la NAMS y NICE para los SVM, y cuáles no recomienda la NAMS?",
+        "en": "Which psychological interventions do NAMS and NICE recommend for VMS, and which does NAMS not recommend?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c13-prescription-options",
+      "type": "comparison",
+      "conceptId": "meno-core.nonhormonal-drugs",
+      "title": {
+        "es": "Fármacos no hormonales: ISRS/IRSN, gabapentina y fezolinetant",
+        "en": "Non-hormonal drugs: SSRIs/SNRIs, gabapentin and fezolinetant"
+      },
+      "core": {
+        "es": "La NAMS recomienda ISRS/IRSN, gabapentina y fezolinetant (nivel I) y oxibutinina (niveles I-II); no recomienda la clonidina, la pregabalina ni el suvorexant. [[ref:nams-2023-nonhormone-therapy]] NICE indica no ofrecer de rutina ISRS, IRSN ni clonidina como primera línea para los SVM solos, y recomienda fezolinetant como opción para SVM moderados o graves cuando la THS no es adecuada. [[ref:nice-2026-ng23]]",
+        "en": "NAMS recommends SSRIs/SNRIs, gabapentin and fezolinetant (Level I) and oxybutynin (Levels I-II); it does not recommend clonidine, pregabalin or suvorexant. [[ref:nams-2023-nonhormone-therapy]] NICE advises against routinely offering SSRIs, SNRIs or clonidine as first-line treatment for VMS alone, and recommends fezolinetant as an option for moderate to severe VMS when HRT is unsuitable. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "Dosis de la tabla de la NAMS: paroxetina en sal 7,5 mg/día (aprobada por la FDA para los SVM); paroxetina 10–25 mg/día; citalopram y escitalopram 10–20 mg/día; venlafaxina 37,5–150 mg/día; desvenlafaxina 100–150 mg/día; gabapentina 900–2.400 mg/día en dosis divididas; fezolinetant 45 mg/día. Los ISRS/IRSN logran mejoras leves o moderadas; con sertralina y fluoxetina las mejoras no fueron significativas y no se recomiendan. [[ref:nams-2023-nonhormone-therapy]]\n\nCon tamoxifeno, la paroxetina y la fluoxetina pueden inhibir el CYP2D6 que lo convierte en su metabolito activo; la NAMS propone como opciones más seguras venlafaxina, desvenlafaxina, escitalopram o citalopram. La gabapentina produce mareo y somnolencia al principio, por lo que tomarla al acostarse puede convenir si los SVM nocturnos alteran el sueño; la oxibutinina prolongada puede asociarse a deterioro cognitivo en personas mayores. En los ensayos de fase 3 disponibles en 2023, el efecto adverso más frecuente de los antagonistas de la neurocinina B fue la cefalea, y la elevación de enzimas hepáticas fue rara y se resolvió con el tratamiento en curso o al suspenderlo. [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "Doses from the NAMS table: paroxetine salt 7.5 mg/day (FDA approved for VMS); paroxetine 10–25 mg/day; citalopram and escitalopram 10–20 mg/day; venlafaxine 37.5–150 mg/day; desvenlafaxine 100–150 mg/day; gabapentin 900–2,400 mg/day in divided doses; fezolinetant 45 mg/day. SSRIs/SNRIs give mild to moderate improvements; with sertraline and fluoxetine improvements were not significant and they are not recommended. [[ref:nams-2023-nonhormone-therapy]]\n\nWith tamoxifen, paroxetine and fluoxetine may inhibit CYP2D6, which converts it to its active metabolite; NAMS suggests venlafaxine, desvenlafaxine, escitalopram or citalopram as safer choices. Gabapentin causes dizziness and drowsiness at first, so bedtime dosing may suit women whose night-time VMS disrupt sleep; long-term oxybutynin may be associated with cognitive decline in older people. In the phase 3 trials available in 2023, headache was the most common adverse event with neurokinin B antagonists, and liver enzyme elevation was rare and resolved during continued treatment or after stopping it. [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "application": {
+        "es": "Antes de prescribir un fármaco reciente como fezolinetant, revisa la ficha técnica vigente en tu país, sobre todo el apartado de seguridad hepática: el posicionamiento de la NAMS es de 2023 y no recoge cambios posteriores de ficha técnica.",
+        "en": "Before prescribing a recent drug such as fezolinetant, check the current product information in your country, especially the liver safety section: the NAMS statement dates from 2023 and does not reflect later labelling changes."
+      },
+      "pearl": {
+        "es": "Discrepancia real: para la NAMS los ISRS/IRSN son opción de nivel I; para NICE (texto de 2015) no son primera línea para los SVM solos. En fezolinetant coinciden, NICE cuando la THS no es adecuada.",
+        "en": "A real disagreement: for NAMS, SSRIs/SNRIs are a Level I option; for NICE (2015 wording) they are not first line for VMS alone. On fezolinetant they agree, NICE when HRT is unsuitable."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NAMS 2023: ISRS/IRSN, gabapentina y fezolinetant, nivel I, recomendados; oxibutinina, niveles I-II, recomendada; clonidina, niveles I-III, pregabalina, nivel III, y suvorexant, nivel II, no recomendados; dosis de la tabla 1 (p. 6). NICE NG23 1.5.3 (remite a la evaluación tecnológica TA1143, 2026, no revisada aquí) y 1.5.4 [2015]. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2023: SSRIs/SNRIs, gabapentin and fezolinetant, Level I, recommended; oxybutynin, Levels I-II, recommended; clonidine, Levels I-III, pregabalin, Level III, and suvorexant, Level II, not recommended; doses from table 1 (p. 6). NICE NG23 1.5.3 (refers to technology appraisal TA1143, 2026, not reviewed here) and 1.5.4 [2015]. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Qué fármacos no hormonales recomienda la NAMS, en qué discrepa NICE y qué ISRS evitar con tamoxifeno?",
+        "en": "Which non-hormonal drugs does NAMS recommend, where does NICE differ, and which SSRIs to avoid with tamoxifen?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c14-supplements",
+      "type": "supplement",
+      "conceptId": "meno-core.supplements-vms",
+      "title": {
+        "es": "Cimicífuga, soja y otros suplementos: qué dice cada fuente",
+        "en": "Black cohosh, soy and other supplements: what each source says"
+      },
+      "core": {
+        "es": "La NAMS no recomienda suplementos ni remedios herbales para los SVM: la cimicífuga, con nivel I, por evidencia insuficiente; la soja, sus extractos y el equol, con nivel II, por evidencia mixta. [[ref:nams-2023-nonhormone-therapy]] NICE, con texto de 2015, pide explicar que hay cierta evidencia de que las isoflavonas o la cimicífuga pueden aliviar los SVM, pero que hay muchos preparados, su seguridad es incierta, varían entre sí y se han descrito interacciones con otros medicamentos. [[ref:nice-2026-ng23]]",
+        "en": "NAMS does not recommend supplements or herbal remedies for VMS: black cohosh at Level I, for insufficient evidence; soy, soy extracts and equol at Level II, for mixed evidence. [[ref:nams-2023-nonhormone-therapy]] NICE, with 2015 wording, asks clinicians to explain that there is some evidence that isoflavones or black cohosh may relieve VMS, but that many preparations exist, their safety is uncertain, they may vary, and interactions with other medicines have been reported. [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "Una revisión Cochrane de 2012 citada por la NAMS (16 ensayos, 2.027 mujeres) no encontró diferencias entre la cimicífuga y el placebo en la frecuencia de SVM. Se han descrito casos de posible hepatotoxicidad, y un comité de expertos de la Farmacopea de Estados Unidos dispuso que estos productos lleven una advertencia para suspenderlos y consultar si hay una enfermedad hepática o aparecen síntomas hepáticos. Los estudios de soja son pequeños, heterogéneos y cortos, y solo el 35 % de las mujeres norteamericanas metaboliza la daidzeína a equol. Tampoco se recomiendan, entre otros, el extracto de polen, el succinato de amonio, el ñame silvestre, el dong quai, el aceite de onagra, la maca, el ginseng, el sauzgatillo, el cardo mariano, los ácidos grasos omega-3, la vitamina E ni los cannabinoides. [[ref:nams-2023-nonhormone-therapy]]\n\nNICE recuerda que la seguridad, la calidad y la pureza de los preparados no regulados pueden ser desconocidas, y advierte a quienes tienen antecedentes o alto riesgo de cáncer de mama de que, aunque el hipérico podría aliviar los SVM, hay incertidumbre sobre la dosis, la persistencia del efecto, la variabilidad de los preparados y las interacciones graves, por ejemplo con tamoxifeno, anticoagulantes y anticonvulsivos. [[ref:nice-2026-ng23]]",
+        "en": "A 2012 Cochrane review cited by NAMS (16 trials, 2,027 women) found no difference between black cohosh and placebo in VMS frequency. Cases of possible hepatotoxicity have been reported, and an expert committee of the US Pharmacopeial Convention directed that these products carry a warning to stop them and seek advice if there is a liver disorder or liver symptoms appear. Soy studies are small, heterogeneous and short, and only 35% of North American women metabolise daidzein to equol. Also not recommended, among others, are pollen extract, ammonium succinate, wild yam, dong quai, evening primrose oil, maca, ginseng, chasteberry, milk thistle, omega-3 fatty acids, vitamin E and cannabinoids. [[ref:nams-2023-nonhormone-therapy]]\n\nNICE notes that the safety, quality and purity of unregulated preparations may be unknown, and advises people with a history of, or at high risk of, breast cancer that, although St John’s wort may relieve VMS, there is uncertainty about dosage, persistence of effect, variation between preparations and serious interactions, for example with tamoxifen, anticoagulants and anticonvulsants. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Si una paciente ya toma cimicífuga o hipérico, pregunta por síntomas hepáticos y revisa su medicación: ahí ponen la alerta las fuentes.",
+        "en": "If a patient already takes black cohosh or St John’s wort, ask about liver symptoms and review her medicines: that is where the sources raise the alarm."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "NAMS 2023: cimicífuga, nivel I, no recomendada; soja, extractos de soja y equol, nivel II, no recomendados; suplementos y remedios herbales en conjunto, niveles I-III, no recomendados (tabla 2, p. 12; el resumen y las conclusiones dicen niveles I-II); cannabinoides, nivel II, no recomendados. NICE NG23 1.4.6, 1.4.7 y 1.4.8 [2015], anteriores al posicionamiento de 2023: aquí las fuentes discrepan. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos. NICE no asigna niveles de evidencia a sus recomendaciones; entre corchetes, el año en que se hizo o actualizó cada una.",
+          "en": "NAMS 2023: black cohosh, Level I, not recommended; soy, soy extracts and equol, Level II, not recommended; supplements and herbal remedies as a group, Levels I-III, not recommended (table 2, p. 12; the abstract and conclusions say Levels I-II); cannabinoids, Level II, not recommended. NICE NG23 1.4.6, 1.4.7 and 1.4.8 [2015], which predate the 2023 statement: the sources disagree here. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion. NICE assigns no evidence levels to its recommendations; in brackets, the year each was made or updated."
+        }
+      },
+      "recall": {
+        "es": "¿Cómo clasifica la NAMS la cimicífuga y la soja para los SVM, y qué dice NICE de ellas?",
+        "en": "How does NAMS classify black cohosh and soy for VMS, and what does NICE say about them?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.c15-lifestyle",
+      "type": "myth",
+      "conceptId": "meno-core.lifestyle-vms",
+      "title": {
+        "es": "Mito: el ejercicio, el yoga o enfriarse tratan los sofocos",
+        "en": "Myth: exercise, yoga or cooling down treat hot flashes"
+      },
+      "core": {
+        "es": "La NAMS no recomienda como tratamiento de los SVM las técnicas de enfriamiento, evitar desencadenantes, el ejercicio ni el yoga (nivel II), ni la modificación de la dieta (nivel III); sí considera la pérdida de peso para algunas mujeres (niveles II-III). [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "NAMS does not recommend cooling techniques, avoiding triggers, exercise or yoga (Level II), or dietary modification (Level III), as treatment for VMS; it does consider weight loss for some women (Levels II-III). [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "body": {
+        "es": "Las revisiones Cochrane citadas encontraron evidencia insuficiente o pobre para el ejercicio, que incluso puede desencadenar SVM; en un estudio, la terapia hormonal fue mucho más eficaz que el ejercicio. Una dieta saludable es importante para la salud, pero hay poca evidencia de que mejore los SVM. Los datos sobre la pérdida de peso proceden de estudios pequeños, no aleatorizados o análisis post hoc, y su efecto puede ser mayor al principio de la transición. [[ref:nams-2023-nonhormone-therapy]]\n\nLa acupuntura tampoco se recomienda (nivel II). El bloqueo del ganglio estrellado podría aliviar SVM moderados a muy graves en mujeres seleccionadas, valorando sus riesgos por ser un procedimiento (niveles II-III, recomendado). [[ref:nams-2023-nonhormone-therapy]]",
+        "en": "The Cochrane reviews cited found insufficient or poor evidence for exercise, which may even trigger VMS; in one study, hormone therapy was far more effective than exercise. A healthy diet is important for health, but there is limited evidence that it improves VMS. Data on weight loss come from small, non-randomised studies or post hoc analyses, and its effect may be greater early in the transition. [[ref:nams-2023-nonhormone-therapy]]\n\nAcupuncture is not recommended either (Level II). Stellate ganglion block might relieve moderate to very severe VMS in selected women, weighing its risks as a procedure (Levels II-III, recommended). [[ref:nams-2023-nonhormone-therapy]]"
+      },
+      "application": {
+        "es": "Mantén los consejos de hábitos por la salud general, pero no los presentes como tratamiento de los sofocos; si hay sobrepeso, la pérdida de peso es la excepción que la NAMS sí contempla.",
+        "en": "Keep lifestyle advice for general health, but do not present it as treatment for hot flashes; if there is excess weight, weight loss is the exception NAMS does consider."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "NAMS 2023: enfriamiento, evitar desencadenantes, ejercicio y yoga, nivel II, no recomendados; dieta, nivel III, no recomendada; pérdida de peso, niveles II-III, recomendada; acupuntura, nivel II, no recomendada; bloqueo del ganglio estrellado, niveles II-III, recomendado. NICE NG23 no da recomendaciones de hábitos para los SVM en las secciones 1.4 y 1.5. Niveles de la NAMS (hoy The Menopause Society): I = evidencia científica buena y consistente; II = evidencia limitada o inconsistente; III = sobre todo consenso y opinión de expertos.",
+          "en": "NAMS 2023: cooling, avoiding triggers, exercise and yoga, Level II, not recommended; diet, Level III, not recommended; weight loss, Levels II-III, recommended; acupuncture, Level II, not recommended; stellate ganglion block, Levels II-III, recommended. NICE NG23 gives no lifestyle recommendations for VMS in sections 1.4 and 1.5. NAMS (now The Menopause Society) levels: I = good and consistent scientific evidence; II = limited or inconsistent scientific evidence; III = primarily consensus and expert opinion."
+        }
+      },
+      "recall": {
+        "es": "¿Qué medidas de estilo de vida no recomienda la NAMS para los SVM y cuál sí contempla?",
+        "en": "Which lifestyle measures does NAMS not recommend for VMS, and which does it consider?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q8-tamoxifen-ssri",
+      "conceptId": "meno-core.nonhormonal-drugs",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 49 años (caso ficticio) en tratamiento con tamoxifeno tras un cáncer de mama tiene SVM molestos y quiere un fármaco no hormonal. Según la NAMS, ¿cuál de estos conviene evitar?",
+        "en": "A 49-year-old woman (fictional case) on tamoxifen after breast cancer has bothersome VMS and wants a non-hormonal drug. According to NAMS, which of these is best avoided?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Paroxetina.",
+            "en": "Paroxetine."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la paroxetina, como la fluoxetina, puede inhibir el CYP2D6 que activa el tamoxifeno.",
+            "en": "Correct: paroxetine, like fluoxetine, may inhibit the CYP2D6 that activates tamoxifen."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Venlafaxina.",
+            "en": "Venlafaxine."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una de las opciones más seguras con tamoxifeno según la NAMS, por su menor efecto sobre el CYP2D6.",
+            "en": "It is one of the safer options with tamoxifen according to NAMS, owing to its smaller effect on CYP2D6."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Escitalopram.",
+            "en": "Escitalopram."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS lo incluye entre las opciones más seguras con tamoxifeno.",
+            "en": "NAMS includes it among the safer options with tamoxifen."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Desvenlafaxina.",
+            "en": "Desvenlafaxine."
+          },
+          "correct": false,
+          "why": {
+            "es": "También figura entre las opciones más seguras con tamoxifeno.",
+            "en": "It is also among the safer options with tamoxifen."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La interacción no es de eficacia sobre los sofocos sino de seguridad oncológica: inhibir el CYP2D6 reduce la conversión del tamoxifeno a endoxifeno, su metabolito más activo.",
+        "en": "The interaction is not about efficacy on hot flashes but about oncological safety: inhibiting CYP2D6 reduces conversion of tamoxifen to endoxifen, its most active metabolite."
+      },
+      "refIds": [
+        "nams-2023-nonhormone-therapy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q9-black-cohosh",
+      "conceptId": "meno-core.supplements-vms",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente de 50 años (caso ficticio) pregunta si la cimicífuga le servirá para los sofocos. ¿Qué respuesta refleja mejor las fuentes?",
+        "en": "A 50-year-old patient (fictional case) asks whether black cohosh will help her hot flashes. Which answer best reflects the sources?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La NAMS no la recomienda (nivel I, evidencia insuficiente); NICE, en 2015, habla de cierta evidencia, pero con seguridad incierta y preparados variables.",
+            "en": "NAMS does not recommend it (Level I, insufficient evidence); NICE, in 2015, mentions some evidence, but with uncertain safety and variable preparations."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recoge la postura de cada fuente y su discrepancia.",
+            "en": "Correct: it captures each source’s position and their disagreement."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas fuentes la recomiendan como primera opción no hormonal.",
+            "en": "Both sources recommend it as the first non-hormonal option."
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS no la recomienda y NICE no la propone como primera opción, solo informa con cautelas.",
+            "en": "NAMS does not recommend it and NICE does not propose it as a first option; it only informs, with caveats."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es natural, así que no requiere precauciones.",
+            "en": "It is natural, so no precautions are needed."
+          },
+          "correct": false,
+          "why": {
+            "es": "Se han descrito casos de posible hepatotoxicidad e interacciones con otros medicamentos.",
+            "en": "Cases of possible hepatotoxicity and interactions with other medicines have been reported."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Es tan eficaz como la terapia hormonal.",
+            "en": "It is as effective as hormone therapy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión Cochrane citada por la NAMS no encontró diferencias frente al placebo en la frecuencia de SVM.",
+            "en": "The Cochrane review cited by NAMS found no difference versus placebo in VMS frequency."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Es un punto donde las fuentes discrepan: la recomendación de NICE es de 2015 y el posicionamiento de la NAMS de 2023 revisó la evidencia posterior. Lo común es la cautela sobre seguridad e interacciones.",
+        "en": "This is a point where the sources disagree: the NICE recommendation dates from 2015 and the 2023 NAMS statement reviewed later evidence. What they share is caution about safety and interactions."
+      },
+      "refIds": [
+        "nams-2023-nonhormone-therapy",
+        "nice-2026-ng23"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "meno-core.q10-hypnosis",
+      "conceptId": "meno-core.cbt-hypnosis",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Qué intervención no farmacológica recomienda la NAMS para los SVM con nivel I?",
+        "en": "Which non-drug intervention does NAMS recommend for VMS at Level I?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La hipnosis clínica.",
+            "en": "Clinical hypnosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendada con nivel I, como la TCC.",
+            "en": "Correct: recommended at Level I, like CBT."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La respiración pautada.",
+            "en": "Paced respiration."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tiene nivel I, pero para no recomendarla: no fue mejor que los controles.",
+            "en": "It has Level I, but for not recommending it: it was no better than controls."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El yoga.",
+            "en": "Yoga."
+          },
+          "correct": false,
+          "why": {
+            "es": "No recomendado para los SVM (nivel II).",
+            "en": "Not recommended for VMS (Level II)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La acupuntura.",
+            "en": "Acupuncture."
+          },
+          "correct": false,
+          "why": {
+            "es": "No recomendada para los SVM (nivel II).",
+            "en": "Not recommended for VMS (Level II)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la NAMS, el nivel indica la calidad de la evidencia, no el sentido: una opción puede tener nivel I y no recomendarse, como la respiración pautada.",
+        "en": "In NAMS, the level indicates the quality of the evidence, not its direction: an option can have Level I and not be recommended, like paced respiration."
+      },
+      "refIds": [
+        "nams-2023-nonhormone-therapy"
+      ]
+    },
+    {
+      "id": "meno-core.case1-paloma",
+      "kind": "case",
+      "conceptId": "meno-core.case-paloma",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "supplements"
+      ],
+      "title": {
+        "es": "Caso: Paloma, 51 años, sofocos que no la dejan dormir",
+        "en": "Case: Paloma, 51, hot flashes that keep her awake"
+      },
+      "steps": [
+        {
+          "id": "meno-core.case1.s1",
+          "questionId": "meno-core.q1-identify-48",
+          "text": {
+            "es": "Paloma (caso ficticio), 51 años, sana y sin anticoncepción hormonal, no tiene la regla desde hace 14 meses. Tiene varios sofocos al día y sudores nocturnos que la despiertan. Con NICE, la menopausia se identifica por la clínica, sin FSH ni AMH. [[ref:nice-2026-ng23]]",
+            "en": "Paloma (fictional case), 51, healthy and not using hormonal contraception, has had no period for 14 months. She has several hot flashes a day and night sweats that wake her. Under NICE, menopause is identified clinically, without FSH or AMH. [[ref:nice-2026-ng23]]"
+          }
+        },
+        {
+          "id": "meno-core.case1.s2",
+          "questionId": "meno-core.q4-bmi-transdermal",
+          "text": {
+            "es": "Tiene útero, un IMC de 32 kg/m² y ningún antecedente de trombosis ni de cáncer. Se le ofrece THS y se comentan beneficios y riesgos. Por el IMC superior a 30 kg/m², NICE propone considerar la vía transdérmica; la NAMS añade que esa ventaja se apoya en estudios observacionales. [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]]",
+            "en": "She has a uterus, a BMI of 32 kg/m² and no history of thrombosis or cancer. She is offered HRT and benefits and risks are discussed. Because her BMI is over 30 kg/m², NICE proposes considering the transdermal route; NAMS adds that this advantage rests on observational studies. [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]]"
+          }
+        },
+        {
+          "id": "meno-core.case1.s3",
+          "questionId": "meno-core.q3-uterus-combined",
+          "text": {
+            "es": "Al tener útero, se pauta estradiol transdérmico con progesterona micronizada. Para una pauta cíclica, la NAMS da como ejemplo de dosis adecuada 200 mg/día durante 12–14 días al mes; NICE señala que el riesgo de cáncer de endometrio disminuye con la THS combinada continua y puede aumentar ligeramente con la secuencial, así que la pauta se acuerda con ella. Se le explica que el sangrado es frecuente en los primeros 6 meses y que se revisará el tratamiento a los 3 meses y después una vez al año. [[ref:nams-2022-hormone-therapy]] [[ref:nice-2026-ng23]]",
+            "en": "As she has a uterus, transdermal estradiol with micronized progesterone is prescribed. For a cyclic regimen, NAMS gives 200 mg/day for 12–14 days a month as an example of an adequate dose; NICE notes that endometrial cancer risk decreases with continuous combined HRT and may increase slightly with sequential HRT, so the regimen is agreed with her. She is told that bleeding is common in the first 6 months and that treatment will be reviewed at 3 months and then annually. [[ref:nams-2022-hormone-therapy]] [[ref:nice-2026-ng23]]"
+          }
+        },
+        {
+          "id": "meno-core.case1.s4",
+          "questionId": "meno-core.q6-compounded-pellets",
+          "text": {
+            "es": "Una amiga le recomienda pellets «bioidénticos» ajustados con análisis de saliva, y cimicífuga «por si acaso». Se le explica que el estradiol y la progesterona micronizada que ya usa son bioidénticos y regulados, que la saliva no sirve para ajustar la dosis y que la NAMS no recomienda la cimicífuga para los SVM. [[ref:nams-2022-hormone-therapy]] [[ref:nams-2023-nonhormone-therapy]]",
+            "en": "A friend recommends “bioidentical” pellets dosed by saliva testing, plus black cohosh “just in case”. It is explained that the estradiol and micronized progesterone she already uses are bioidentical and regulated, that saliva testing cannot guide dosing, and that NAMS does not recommend black cohosh for VMS. [[ref:nams-2022-hormone-therapy]] [[ref:nams-2023-nonhormone-therapy]]"
+          }
+        },
+        {
+          "id": "meno-core.case1.s5",
+          "questionId": "meno-core.q7-breast-risk-size",
+          "text": {
+            "es": "A los 3 meses duerme mejor y pregunta cuánto tiempo podrá seguir y qué pasa con la mama. Se le explica que la THS combinada aumenta un poco el riesgo de cáncer de mama, más cuantos más años de uso, y que la NAMS lo considera raro; que NICE pide rediscutir beneficios y riesgos en cada revisión, y que la NAMS no ve motivo para suspenderla de rutina a los 60–65 años. Si un día no pudiera usar THS, quedarían la TCC, la hipnosis clínica, los ISRS/IRSN, la gabapentina o fezolinetant. [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]] [[ref:nams-2023-nonhormone-therapy]]",
+            "en": "At 3 months she is sleeping better and asks how long she can continue and what about her breasts. It is explained that combined HRT slightly increases breast cancer risk, more with more years of use, and that NAMS considers it rare; that NICE asks for benefits and risks to be rediscussed at every review, and that NAMS sees no reason to stop it routinely at 60–65. If one day she could not use HRT, CBT, clinical hypnosis, SSRIs/SNRIs, gabapentin or fezolinetant would remain. [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]] [[ref:nams-2023-nonhormone-therapy]]"
+          }
+        }
+      ],
+      "refIds": [
+        "nice-2026-ng23",
+        "nams-2022-hormone-therapy",
+        "nams-2023-nonhormone-therapy"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    }
+  ]
+}

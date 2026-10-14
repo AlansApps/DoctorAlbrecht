@@ -1,0 +1,46 @@
+[
+  {
+    "id": "nams-2022-hormone-therapy",
+    "title": "The 2022 hormone therapy position statement of The North American Menopause Society",
+    "authors": "The 2022 Hormone Therapy Position Statement Advisory Panel of The North American Menopause Society (now The Menopause Society); Faubion SS (lead), Crandall CJ, Davis L, El Khoudary SR, Hodis HN, Lobo RA, Maki PM, Manson JE, Pinkerton JV, Santoro NF, Shifren JL, Shufelt CL, Thurston RC, Wolfman W",
+    "year": 2022,
+    "url": "https://doi.org/10.1097/GME.0000000000002028",
+    "doi": "10.1097/GME.0000000000002028",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres en la perimenopausia y la posmenopausia que consideran terapia hormonal, en el contexto de Estados Unidos (indicaciones de la FDA). Posicionamiento de un panel de expertos de la North American Menopause Society, aprobado por su junta directiva; Menopause 2022;29(7):767-794. Actualiza el posicionamiento de 2017.",
+      "en": "Perimenopausal and postmenopausal women considering hormone therapy, in the United States context (FDA indications). Position statement by an expert panel of The North American Menopause Society, approved by its Board of Trustees; Menopause 2022;29(7):767-794. Updates the 2017 statement."
+    },
+    "finding": {
+      "es": "La terapia hormonal es el tratamiento más eficaz de los síntomas vasomotores y del síndrome genitourinario, y previene la pérdida ósea y las fracturas. En menores de 60 años o en los 10 años siguientes al inicio de la menopausia, sin contraindicaciones, el balance beneficio-riesgo es favorable; al iniciarla después de los 60 años o a más de 10 años de la menopausia parece menos favorable por mayores riesgos absolutos de cardiopatía coronaria, ictus, tromboembolia venosa y demencia. Con útero se necesita un progestágeno adecuado. No hay que suspenderla de rutina a los 60–65 años. Los «bioidénticos» magistrales plantean problemas de seguridad y las pruebas de saliva u orina para ajustar la dosis no son fiables.",
+      "en": "Hormone therapy is the most effective treatment for vasomotor symptoms and the genitourinary syndrome of menopause, and prevents bone loss and fracture. In women under 60 or within 10 years of menopause onset without contraindications, the benefit-risk ratio is favourable; when started after 60 or more than 10 years from menopause it appears less favourable because of greater absolute risks of coronary heart disease, stroke, venous thromboembolism and dementia. Women with a uterus need adequate progestogen. It does not need to be routinely stopped at 60–65. Compounded “bioidentical” hormones raise safety concerns, and saliva or urine testing to set the dose is unreliable."
+    },
+    "limitations": {
+      "es": "PDF completo (28 pp.) leído en la web de la sociedad. Es un posicionamiento de consenso, no una guía con revisión sistemática formal: los «Key points» llevan niveles I (evidencia buena y consistente), II (limitada o inconsistente) y III (consenso y opinión de expertos), sin grado de fuerza separado. Gran parte de los datos de riesgo procede de los ensayos WHI (estrógenos equinos conjugados y acetato de medroxiprogesterona orales). Contexto regulatorio de Estados Unidos. Era la versión vigente a 14-10-2026 (la sociedad no ha publicado otra posterior).",
+      "en": "Full PDF (28 pp.) read on the society's website. It is a consensus position statement, not a guideline with a formal systematic review: the “Key points” carry levels I (good and consistent evidence), II (limited or inconsistent) and III (consensus and expert opinion), with no separate strength grade. Much of the risk data comes from the WHI trials (oral conjugated equine estrogens and medroxyprogesterone acetate). US regulatory context. It was the current version as of 14-10-2026 (the society has published no later one)."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "nams-2023-nonhormone-therapy",
+    "title": "The 2023 nonhormone therapy position statement of The North American Menopause Society",
+    "authors": "The 2023 Nonhormone Therapy Position Statement Advisory Panel of The North American Menopause Society (now The Menopause Society); Shufelt CL (lead), Brown V, Carpenter JS, Chism LA, Faubion SS, Joffe H, Kling JM, Soares CN, Thurston RC",
+    "year": 2023,
+    "url": "https://doi.org/10.1097/GME.0000000000002200",
+    "doi": "10.1097/GME.0000000000002200",
+    "type": "consensus",
+    "population": {
+      "es": "Mujeres con síntomas vasomotores de la menopausia que no son buenas candidatas a terapia hormonal (contraindicaciones como cánceres estrógeno-dependientes o enfermedad cardiovascular) o prefieren no usarla, incluidas supervivientes de cáncer de mama. Menopause 2023;30(6):573-590; actualiza el posicionamiento de 2015.",
+      "en": "Women with menopausal vasomotor symptoms who are not good candidates for hormone therapy (contraindications such as estrogen-dependent cancers or cardiovascular disease) or prefer not to use it, including breast cancer survivors. Menopause 2023;30(6):573-590; updates the 2015 statement."
+    },
+    "finding": {
+      "es": "Recomendados: terapia cognitivo-conductual, hipnosis clínica, ISRS/IRSN, gabapentina y fezolinetant (nivel I); oxibutinina (niveles I-II); pérdida de peso y bloqueo del ganglio estrellado (niveles II-III). No recomendados: respiración pautada (nivel I); suplementos y remedios herbales, entre ellos la cimicífuga (niveles I-III en la tabla 2; I-II en el resumen); técnicas de enfriamiento, evitar desencadenantes, ejercicio, yoga, mindfulness, relajación, suvorexant, soja y extractos de soja, equol, cannabinoides, acupuntura (nivel II); clonidina (niveles I-III); modificación de la dieta y pregabalina (nivel III). La terapia hormonal sigue siendo el tratamiento más eficaz.",
+      "en": "Recommended: cognitive-behavioral therapy, clinical hypnosis, SSRIs/SNRIs, gabapentin and fezolinetant (Level I); oxybutynin (Levels I-II); weight loss and stellate ganglion block (Levels II-III). Not recommended: paced respiration (Level I); supplements and herbal remedies, including black cohosh (Levels I-III in table 2; I-II in the abstract); cooling techniques, avoiding triggers, exercise, yoga, mindfulness, relaxation, suvorexant, soy foods and extracts, equol, cannabinoids, acupuncture (Level II); clonidine (Levels I-III); dietary modification and pregabalin (Level III). Hormone therapy remains the most effective treatment."
+    },
+    "limitations": {
+      "es": "PDF completo (18 pp.) leído en la web de la sociedad; tabla 1 de dosis (p. 6) y tabla 2 de recomendaciones con nivel (p. 12). Posicionamiento de consenso con niveles I-III (sin grado de fuerza separado; cada opción se clasifica como «recomendada» o «no recomendada»). Muchos estudios de opciones no farmacológicas y suplementos son pequeños y con controles en lista de espera. Anterior a la llegada de elinzanetant, que en 2023 seguía en desarrollo, y no recoge posibles cambios posteriores de ficha técnica. Era la versión vigente a 14-10-2026.",
+      "en": "Full PDF (18 pp.) read on the society's website; dosing table 1 (p. 6) and table 2 of recommendations with levels (p. 12). Consensus position statement with Levels I-III (no separate strength grade; each option is classified as “recommended” or “not recommended”). Many studies of non-drug options and supplements are small and use waitlist controls. It predates elinzanetant, still in development in 2023, and does not reflect any later labelling changes. It was the current version as of 14-10-2026."
+    },
+    "accessed": "2026-10-14"
+  }
+]
