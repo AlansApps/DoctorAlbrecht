@@ -3,8 +3,8 @@
  * (they live in IndexedDB), so nothing is stored twice.
  * New versions wait: the page decides when to activate (never mid-question).
  */
-const VERSION = '044d18dcd493';
-const SHELL = ["./","assets/AppState-laEzk2RM.js","assets/CardScreen-BYDysVfD.js","assets/CaseScreen-BtJt6APV.js","assets/ListenScreen-Clo_Ud_-.js","assets/MacroScreen-C6m1Ei8t.js","assets/QuestionsScreen-CvXp9Fh3.js","assets/ReviewScreen-D1OHp07q.js","assets/SettingsScreen-B8-R9fwv.js","assets/TopicsScreen-C3torTxz.js","assets/VoiceSettings-cCP6immK.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/en-B8nmPpAK.js","assets/index-BLBw8nxI.js","assets/index-Bd2qhltb.css","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","assets/sessionActions-BkOepYsm.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
+const VERSION = 'e3a958277982';
+const SHELL = ["./","assets/AppState-laEzk2RM.js","assets/CardScreen-BnRUOgjT.js","assets/CaseScreen-B0BRQqw3.js","assets/ListenScreen-B0JpiumO.js","assets/MacroScreen-B8g2FTL2.js","assets/QuestionsScreen-DM7ot-ym.js","assets/ReviewScreen-CKY4Ju4N.js","assets/SettingsScreen-DhrmqT57.js","assets/TopicsScreen-DtOBzgsy.js","assets/VoiceSettings-BsM76SZ3.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/en-B8nmPpAK.js","assets/index-BGSkGVMq.js","assets/index-Bd2qhltb.css","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","assets/sessionActions-BUdctBaY.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
 const CACHE = `tarjetalan-shell-${VERSION}`;
 
 self.addEventListener('install', (event) => {
