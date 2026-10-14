@@ -1,4 +1,4 @@
-import { Check, Pause, X } from 'lucide-react';
+import { Check, ChevronLeft, Pause, Square, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
 import { navigate } from '../../app/router.ts';
@@ -6,10 +6,10 @@ import type { PackQuestion } from '../../domain/content/schema.ts';
 import type { RecallRating } from '../../domain/scheduler/scheduler.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import type { MessageKey } from '../../i18n/es.ts';
-import { withDb, type StoredSession } from '../../storage/db.ts';
+import { withDb, type Attempt, type StoredSession } from '../../storage/db.ts';
 import { flush } from '../../storage/outbox.ts';
-import { activateSession, latestOpenSession, setSessionStatus, summarizeSession, type SessionSummary } from '../../storage/sessionRepo.ts';
-import { ActionBar, Button, Notice, RichText } from '../../ui/components.tsx';
+import { activateSession, attemptIdFor, cancelSession, latestOpenSession, setSessionStatus, summarizeSession, type SessionSummary } from '../../storage/sessionRepo.ts';
+import { ActionBar, Button, Notice, RichText, Sheet } from '../../ui/components.tsx';
 import { CardView, SourcesSheet } from '../card/CardView.tsx';
 import { answerCurrentStep, type StepOutcome } from './sessionActions.ts';
 import { useFlagToggle } from '../card/useFlagToggle.ts';
@@ -35,6 +35,10 @@ export function SessionScreen() {
   const [unsure, setUnsure] = useState(false);
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState<MessageKey | null>(null);
+  /** Index of an earlier step being re-read (read-only), or null for the current step. */
+  const [viewing, setViewing] = useState<number | null>(null);
+  const [pastAttempt, setPastAttempt] = useState<Attempt | undefined>(undefined);
+  const [cancelOpen, setCancelOpen] = useState(false);
   const toggleSave = useFlagToggle();
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -44,7 +48,16 @@ export function SessionScreen() {
     if (!root) return;
     const target = root.querySelector<HTMLElement>(checked ? '.feedback' : revealed ? '.card__core' : 'h1');
     target?.focus({ preventScroll: checked });
-  }, [session?.id, session?.position, revealed, checked, phase.kind]);
+  }, [session?.id, session?.position, revealed, checked, phase.kind, viewing]);
+
+  // The answer given at an earlier step, to show it when going back.
+  useEffect(() => {
+    setPastAttempt(undefined);
+    if (!session || viewing === null) return;
+    let alive = true;
+    void withDb((db) => db.get('attempts', attemptIdFor(session.id, viewing))).then((a) => { if (alive) setPastAttempt(a); }, () => {});
+    return () => { alive = false; };
+  }, [session?.id, viewing]);
 
   const finish = useCallback(async (s: StoredSession) => {
     const summary = await withDb((db) => summarizeSession(db, s.id));
@@ -63,7 +76,7 @@ export function SessionScreen() {
     setSession(current);
     if (current.status === 'done' || current.position >= current.steps.length) return finish(current);
     try {
-      const ids = current.steps.slice(current.position).map((x) => x.itemId);
+      const ids = current.steps.map((x) => x.itemId); // earlier steps too, for going back
       setItems(await app.loadItems(ids));
       setPhase({ kind: 'step' });
     } catch {
@@ -75,7 +88,8 @@ export function SessionScreen() {
     if (app.status === 'ready') void load();
   }, [app.status, app.prefs.locale]);
 
-  const step = session?.steps[session.position];
+  const shownIndex = viewing ?? session?.position ?? 0;
+  const step = session?.steps[shownIndex];
   const loaded = step ? items.get(step.itemId) : undefined;
 
   const resetStep = () => {
@@ -112,6 +126,31 @@ export function SessionScreen() {
     navigate({ name: 'home' });
   };
 
+  /** Erase this session as if it never happened, then go home. */
+  const cancel = async () => {
+    if (!session) return;
+    setBusy(true);
+    try {
+      await withDb((db) => cancelSession(db, session.id));
+      void app.refresh();
+      navigate({ name: 'home' });
+    } catch {
+      setNotice('app.saveFailed');
+      setCancelOpen(false);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const goBack = () => {
+    if (!session) return;
+    const from = viewing ?? session.position;
+    if (from > 0) {
+      setViewing(from - 1);
+      window.scrollTo(0, 0);
+    }
+  };
+
   if (phase.kind === 'loading' || app.status === 'loading') return <p className="muted">{t('app.loading')}</p>;
   if (phase.kind === 'none') {
     return (
@@ -142,7 +181,20 @@ export function SessionScreen() {
   let body: ReactNode = null;
   let actions: ReactNode = null;
 
-  if (item.kind === 'card') {
+  if (viewing !== null) {
+    // Read-only look at an earlier step; answers are already saved and cannot be changed here.
+    if (item.kind === 'card') {
+      body = <CardView card={item} references={loaded.references} lessonTitle={loaded.lessonTitle} mode="learn" saved={saved} onToggleSave={() => void toggleSave(item.id, !saved)} />;
+    } else if (item.kind === 'question') {
+      body = <QuestionView q={item} references={loaded.references} choice={pastAttempt?.optionId ?? null} checked onChoose={() => {}} />;
+    }
+    actions = (
+      <>
+        <p className="small muted">{t('session.viewingPast')}</p>
+        <Button variant="primary" block onClick={() => { setViewing(null); window.scrollTo(0, 0); }}>{t('session.backToCurrent')}</Button>
+      </>
+    );
+  } else if (item.kind === 'card') {
     const mode = step.mode === 'learn' ? 'learn' : revealed ? 'revealed' : 'recall';
     body = (
       <CardView card={item} references={loaded.references} lessonTitle={loaded.lessonTitle} mode={mode} saved={saved} onToggleSave={() => void toggleSave(item.id, !saved)} />
@@ -190,16 +242,31 @@ export function SessionScreen() {
   return (
     <div className="session" ref={rootRef}>
       <div className="session__top">
-        <span className="small muted tabular">{t('session.step', { i: session.position + 1, n: total })}</span>
-        {step.requeued ? <span className="chip">{t('session.consolidate')}</span> : null}
-        <button type="button" className="iconbtn" onClick={() => void pause()} aria-label={t('session.pause')}>
-          <Pause className="icon" aria-hidden="true" />
+        <button type="button" className="iconbtn" onClick={goBack} disabled={shownIndex === 0} aria-label={t('session.back')} title={t('session.back')}>
+          <ChevronLeft className="icon" aria-hidden="true" />
         </button>
+        <span className="small muted tabular">{t('session.step', { i: shownIndex + 1, n: total })}</span>
+        {step.requeued ? <span className="chip">{t('session.consolidate')}</span> : null}
+        <span className="session__tools">
+          <button type="button" className="iconbtn" onClick={() => void pause()} aria-label={t('session.pause')} title={t('session.pause')}>
+            <Pause className="icon" aria-hidden="true" />
+          </button>
+          <button type="button" className="iconbtn" onClick={() => setCancelOpen(true)} aria-label={t('session.cancel')} title={t('session.cancel')}>
+            <Square className="icon" aria-hidden="true" />
+          </button>
+        </span>
       </div>
       <div className="progressbar" aria-hidden="true"><span style={{ width: `${(session.position / total) * 100}%` }} /></div>
       {notice ? <Notice tone={notice === 'app.saveFailed' ? 'warn' : 'info'}>{t(notice)}</Notice> : null}
       {body}
       <ActionBar>{actions}</ActionBar>
+      <Sheet open={cancelOpen} onClose={() => setCancelOpen(false)} title={t('session.cancel.title')}>
+        <div className="stack">
+          <p>{t('session.cancel.confirm')}</p>
+          <Button variant="danger" block disabled={busy} onClick={() => void cancel()}>{t('session.cancel.yes')}</Button>
+          <Button block onClick={() => setCancelOpen(false)}>{t('session.cancel.no')}</Button>
+        </div>
+      </Sheet>
     </div>
   );
 }

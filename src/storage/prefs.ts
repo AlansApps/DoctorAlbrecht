@@ -9,23 +9,19 @@ export const Prefs = z.object({
   theme: z.enum(['system', 'light', 'dark']).catch('system'),
   textScale: z.union([z.literal(1), z.literal(1.125), z.literal(1.25), z.literal(1.375)]).catch(1),
   defaultMinutes: z.union([z.literal(3), z.literal(5), z.literal(10), z.literal(15)]).catch(5),
-  audioRate: z.number().min(0.6).max(1.6).catch(1),
+  /** Slightly slower than the platform default: explanations are dense. */
+  audioRate: z.number().min(0.6).max(1.6).catch(0.9),
   voiceURI: z.string().max(300).nullable().catch(null),
   /** Upper bound for automatically kept downloads (MB); larger downloads only on request. */
   downloadLimitMB: z.number().int().min(5).max(500).catch(25),
+  /** Preferences format; 2 = Spanish by default and calmer default speech rate. */
+  v: z.literal(2).catch(2),
 });
 export type Prefs = z.infer<typeof Prefs>;
 
 const KEY = 'tarjetalan:prefs';
 
-function defaultLocale(): Prefs['locale'] {
-  try {
-    return navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'es';
-  } catch {
-    return 'es';
-  }
-}
-
+/** Spanish is the default for everyone; English is chosen in Settings. */
 export function loadPrefs(): Prefs {
   let raw: unknown = {};
   try {
@@ -33,8 +29,13 @@ export function loadPrefs(): Prefs {
   } catch {
     raw = {};
   }
-  const base = typeof raw === 'object' && raw ? raw : {};
-  return Prefs.parse({ locale: defaultLocale(), ...base });
+  const base: Record<string, unknown> = typeof raw === 'object' && raw ? { ...(raw as Record<string, unknown>) } : {};
+  // v1 picked the language from the browser and spoke at 1×: move once to the new defaults.
+  if (base.v !== 2) {
+    delete base.locale;
+    if (base.audioRate === 1) delete base.audioRate;
+  }
+  return Prefs.parse({ locale: 'es', ...base });
 }
 
 export function savePrefs(p: Prefs): void {

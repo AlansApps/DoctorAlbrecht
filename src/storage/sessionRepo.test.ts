@@ -3,7 +3,7 @@ import { afterAll, describe, expect, it } from 'vitest';
 import type { Step } from '../domain/session/selector.ts';
 import { closeChannel } from './channel.ts';
 import { openDatabase } from './db.ts';
-import { answerStep, createSession, latestOpenSession, SessionConflictError, summarizeSession } from './sessionRepo.ts';
+import { answerStep, cancelSession, createSession, latestOpenSession, SessionConflictError, summarizeSession } from './sessionRepo.ts';
 
 afterAll(closeChannel);
 let n = 0;
@@ -54,6 +54,35 @@ describe('sessions', () => {
     await createSession(db, { ...init, id: 's2' }, new Date(now.getTime() + 1000));
     expect((await db.get('sessions', 's1'))!.status).toBe('paused');
     expect((await latestOpenSession(db))!.id).toBe('s2');
+  });
+
+  it('cancelling a session removes its answers and restores earlier progress, keeping other sessions intact', async () => {
+    const { recordAttempt } = await import('./progressRepo.ts');
+    const db = await freshDb();
+    // c1 was read before, outside this session
+    await recordAttempt(db, { ...read, id: 'old:c1', at: new Date(now.getTime() - 86_400_000).toISOString() });
+    const before = await db.get('progress', 'c1');
+    const s = await createSession(db, init, now);
+    const a = await answerStep(db, { sessionId: s.id, expectedRev: 0, attempt: read, now });
+    const q = { itemId: 'q2', kind: 'question' as const, conceptId: 'k2', rating: 'good' as const, correct: true, optionId: 'a', contentRev: 1, at: now.toISOString(), tz: 'UTC' };
+    await answerStep(db, { sessionId: s.id, expectedRev: a.session.rev, attempt: q, now });
+    const touched = await cancelSession(db, s.id);
+    expect(touched.sort()).toEqual(['c1', 'q2']);
+    expect(await db.getAllKeys('attempts')).toEqual(['old:c1']);
+    expect(await db.get('progress', 'c1')).toEqual(before);
+    expect(await db.get('progress', 'q2')).toBeUndefined();
+    expect(await db.get('sessions', 's1')).toBeUndefined();
+  });
+
+  it('a pending outbox copy for a cancelled session is discarded', async () => {
+    const { enqueue, flush, pendingCount } = await import('./outbox.ts');
+    const db = await freshDb();
+    const s = await createSession(db, init, now);
+    enqueue({ ...read, id: 's1:0', sessionId: s.id }, 0);
+    await cancelSession(db, s.id);
+    await flush(db);
+    expect(pendingCount()).toBe(0);
+    expect(await db.count('attempts')).toBe(0);
   });
 });
 

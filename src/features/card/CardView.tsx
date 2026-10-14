@@ -1,11 +1,12 @@
-import { Bookmark, BookmarkCheck, ExternalLink, Flag, Volume2, BookOpen } from 'lucide-react';
+import { Bookmark, BookmarkCheck, ExternalLink, Flag, Pause, Play, Square, Volume2, BookOpen } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import type { PackCard, PackReference } from '../../domain/content/schema.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import type { MessageKey } from '../../i18n/es.ts';
 import { EvidenceBadge, FlowDiagram, RichText, Sheet } from '../../ui/components.tsx';
 import { ReportSheet } from './ReportSheet.tsx';
-import { speak, speechSupported, stripForSpeech } from '../../audio/speech.ts';
+import { speechSupported, stripForSpeech } from '../../audio/speech.ts';
+import { useNarration } from '../../audio/useNarration.ts';
 import { useAppState } from '../../app/AppState.tsx';
 
 export function refNumbering(refIds: readonly string[]): Map<string, number> {
@@ -64,6 +65,12 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
     setSourcesOpen(true);
   };
 
+  const spoken = useMemo(
+    () => [card.title, card.core, card.body, card.application, card.pearl].filter(Boolean).map((s) => stripForSpeech(s!)).join('. '),
+    [card],
+  );
+  const narration = useNarration(spoken, { lang: prefs.locale, rate: prefs.audioRate, voiceURI: prefs.voiceURI });
+
   const status = card.editorial.status;
   const header = (
     <header className="card__head">
@@ -86,11 +93,6 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
       </article>
     );
   }
-
-  const readAloud = () => {
-    const text = [card.title, card.core, card.body, card.application, card.pearl].filter(Boolean).map((s) => stripForSpeech(s!)).join('. ');
-    speak(text, { lang: prefs.locale, rate: prefs.audioRate, voiceURI: prefs.voiceURI });
-  };
 
   return (
     <article className="card">
@@ -133,9 +135,21 @@ export function CardView({ card, references, lessonTitle, mode, onToggleSave, sa
             {saved ? <BookmarkCheck className="icon" aria-hidden="true" /> : <Bookmark className="icon" aria-hidden="true" />}
             <span>{saved ? t('card.saved') : t('card.save')}</span>
           </button>
-          <button type="button" className="cardaction" onClick={readAloud} disabled={!speechSupported()}>
-            <Volume2 className="icon" aria-hidden="true" /><span>{t('card.listen')}</span>
-          </button>
+          {narration.state === 'playing' ? (
+            <button type="button" className="cardaction is-active" onClick={narration.pause}>
+              <Pause className="icon" aria-hidden="true" /><span>{t('listen.pause')}</span>
+            </button>
+          ) : (
+            <button type="button" className="cardaction" onClick={narration.play} disabled={!speechSupported()}>
+              {narration.state === 'paused' ? <Play className="icon" aria-hidden="true" /> : <Volume2 className="icon" aria-hidden="true" />}
+              <span>{narration.state === 'paused' ? t('listen.resume') : t('card.listen')}</span>
+            </button>
+          )}
+          {narration.state !== 'idle' ? (
+            <button type="button" className="cardaction" onClick={narration.stop}>
+              <Square className="icon" aria-hidden="true" /><span>{t('listen.stop')}</span>
+            </button>
+          ) : null}
           <button type="button" className="cardaction" onClick={() => { setSourceFocus(null); setSourcesOpen(true); }}>
             <ExternalLink className="icon" aria-hidden="true" /><span>{t('card.source')}</span>
           </button>

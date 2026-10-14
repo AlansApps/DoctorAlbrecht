@@ -11,6 +11,7 @@ import { clearOutbox } from '../../storage/outbox.ts';
 import { notifyOtherTabs } from '../../storage/channel.ts';
 import type { Prefs } from '../../storage/prefs.ts';
 import { Button, Notice, Segmented } from '../../ui/components.tsx';
+import { VoiceSettings } from './VoiceSettings.tsx';
 
 function formatBytes(n: number | undefined): string {
   if (n === undefined) return '—';
@@ -48,6 +49,11 @@ export function SettingsScreen() {
           options={([1, 1.125, 1.25, 1.375] as const).map((v) => ({ value: v, label: `${Math.round(v * 100)}%` }))} />
         <Segmented<Prefs['defaultMinutes']> label={t('settings.defaultMinutes')} value={prefs.defaultMinutes} onChange={(v) => setPrefs({ defaultMinutes: v })}
           options={([3, 5, 10, 15] as const).map((n) => ({ value: n, label: t('minutes', { n }) }))} />
+      </section>
+
+      <section className="settings-group">
+        <h2 className="eyebrow">{t('settings.audio')}</h2>
+        <VoiceSettings />
       </section>
 
       <StorageSection />

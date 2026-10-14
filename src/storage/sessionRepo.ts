@@ -10,7 +10,7 @@ import type { ItemProgress } from '../domain/scheduler/scheduler.ts';
 import type { SessionOptions, Step } from '../domain/session/selector.ts';
 import { notifyOtherTabs } from './channel.ts';
 import type { Attempt, DB, StoredSession } from './db.ts';
-import { applyAttemptInTx } from './progressRepo.ts';
+import { applyAttemptInTx, replay } from './progressRepo.ts';
 
 /** The session moved on (another tab, a retry, or a finished session): reload and continue from `current`. */
 export class SessionConflictError extends Error {
@@ -135,6 +135,31 @@ export async function setSessionStatus(db: DB, sessionId: string, status: Stored
   await tx.done;
   notifyOtherTabs({ type: 'session', sessionId, rev: next.rev });
   return next;
+}
+
+/**
+ * Cancel a session "as if it never happened" (explicit user request only): its attempts
+ * are removed from the log, progress of the affected items is rebuilt from what remains,
+ * and the session is deleted. Pending outbox copies are discarded on the next flush
+ * because their session no longer exists.
+ */
+export async function cancelSession(db: DB, sessionId: string): Promise<string[]> {
+  const tx = db.transaction(['sessions', 'attempts', 'progress', 'flags'], 'readwrite');
+  const attempts = tx.objectStore('attempts');
+  const progress = tx.objectStore('progress');
+  const own = await attempts.index('bySession').getAll(sessionId);
+  const itemIds = [...new Set(own.map((a) => a.itemId))];
+  for (const a of own) await attempts.delete(a.id);
+  for (const itemId of itemIds) {
+    const rest = await attempts.index('byItem').getAll(itemId);
+    const p = replay(itemId, rest, await tx.objectStore('flags').get(itemId));
+    if (p) await progress.put(p);
+    else await progress.delete(itemId);
+  }
+  await tx.objectStore('sessions').delete(sessionId);
+  await tx.done;
+  if (itemIds.length) notifyOtherTabs({ type: 'progress', itemIds });
+  return itemIds;
 }
 
 export interface SessionSummary {

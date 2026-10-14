@@ -1,12 +1,13 @@
-import { Pause, Play, SkipBack, SkipForward } from 'lucide-react';
+import { Pause, Play, SkipBack, SkipForward, Square } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
 import { currentTimeZone } from '../../domain/scheduler/time.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
-import { speak, speechSupported, stopSpeaking, stripForSpeech, voicesFor } from '../../audio/speech.ts';
+import { speak, speechSupported, stopSpeaking, stripForSpeech } from '../../audio/speech.ts';
 import { withDb } from '../../storage/db.ts';
 import { recordAttempt } from '../../storage/progressRepo.ts';
 import { Button, Notice } from '../../ui/components.tsx';
+import { VoiceSettings } from '../settings/VoiceSettings.tsx';
 import { currentPlanState, planSteps } from '../session/sessionActions.ts';
 
 interface Segment {
@@ -46,15 +47,8 @@ export function ListenScreen() {
   const generation = useRef(0);
   const listenId = useMemo(() => crypto.randomUUID(), []);
   const supported = speechSupported();
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-
-  useEffect(() => {
-    if (!supported) return;
-    const update = () => setVoices(voicesFor(app.prefs.locale));
-    update();
-    speechSynthesis.addEventListener('voiceschanged', update);
-    return () => speechSynthesis.removeEventListener('voiceschanged', update);
-  }, [supported, app.prefs.locale]);
+  /** Sentence reached inside the current segment, so pause/resume continues from it. */
+  const chunk = useRef(0);
 
   // A ~10-minute set planned exactly like a study session (review + new, fertility first).
   useEffect(() => {
@@ -88,7 +82,7 @@ export function ListenScreen() {
     stopSpeaking();
   };
 
-  const play = (i: number) => {
+  const play = (i: number, fromChunk = 0) => {
     stop();
     const gen = generation.current;
     const seg = segments[i];
@@ -99,8 +93,10 @@ export function ListenScreen() {
     }
     setPos(i);
     setPlaying(true);
+    chunk.current = fromChunk;
     speak(seg.text, {
-      lang: app.prefs.locale, rate: app.prefs.audioRate, voiceURI: app.prefs.voiceURI,
+      lang: app.prefs.locale, rate: app.prefs.audioRate, voiceURI: app.prefs.voiceURI, fromChunk,
+      onChunk: (c) => { chunk.current = c; },
       onEnd: (finished) => {
         if (gen !== generation.current) return; // paused or skipped: ignore the late event
         // Only a card heard to the end counts, and only as exposure (never a successful recall).
@@ -123,6 +119,14 @@ export function ListenScreen() {
     setPlaying(false);
   };
 
+  /** Stop and go back to the beginning. */
+  const reset = () => {
+    stop();
+    setPlaying(false);
+    setPos(0);
+    chunk.current = 0;
+  };
+
   return (
     <div className="stack stack--lg">
       <h1 className="screen-title">{t('listen.title')}</h1>
@@ -137,24 +141,13 @@ export function ListenScreen() {
             {playing ? (
               <Button variant="primary" icon={Pause} onClick={pause}>{t('listen.pause')}</Button>
             ) : (
-              <Button variant="primary" icon={Play} onClick={() => play(pos)}>{pos === 0 ? t('listen.start') : t('listen.resume')}</Button>
+              <Button variant="primary" icon={Play} onClick={() => play(pos, chunk.current)}>{pos === 0 && chunk.current === 0 ? t('listen.start') : t('listen.resume')}</Button>
             )}
+            <button type="button" className="iconbtn" aria-label={t('listen.stop')} onClick={reset} disabled={!playing && pos === 0 && chunk.current === 0}><Square className="icon" aria-hidden="true" /></button>
             <button type="button" className="iconbtn" aria-label={t('listen.next')} onClick={() => play(Math.min(segments.length, pos + 1))}><SkipForward className="icon" aria-hidden="true" /></button>
           </div>
           <p className="small muted tabular" aria-live="polite">{Math.min(pos + 1, segments.length)} / {segments.length}</p>
-          <label className="field">
-            <span className="eyebrow">{t('listen.speed')} · <span className="tabular">{app.prefs.audioRate.toFixed(2)}×</span></span>
-            <input id="audio-rate" type="range" min={0.7} max={1.4} step={0.05} value={app.prefs.audioRate} onChange={(e) => app.setPrefs({ audioRate: Number(e.target.value) })} />
-          </label>
-          {voices.length > 1 ? (
-            <label className="field">
-              <span className="eyebrow">{t('listen.voice')}</span>
-              <select id="audio-voice" value={app.prefs.voiceURI ?? ''} onChange={(e) => app.setPrefs({ voiceURI: e.target.value || null })}>
-                <option value="">{t('listen.voice.default')}</option>
-                {voices.map((v) => <option key={v.voiceURI} value={v.voiceURI}>{v.name}</option>)}
-              </select>
-            </label>
-          ) : null}
+          <VoiceSettings />
         </div>
       ) : null}
 
