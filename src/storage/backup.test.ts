@@ -66,3 +66,14 @@ describe('backup', () => {
     expect(await db.getAllKeys('attempts')).toEqual(['mine']);
   });
 });
+
+describe('ARCH-050: exported backups always re-import', () => {
+  it('an attempt with an explicit undefined optional key still round-trips', async () => {
+    const { openDatabase } = await import('./db.ts');
+    const { exportBackup, parseBackup } = await import('./backup.ts');
+    const db = await openDatabase('backup-arch050');
+    await db.put('attempts', { id: 'a1', itemId: 'c1', kind: 'card', conceptId: 'k', rating: null, contentRev: 1, at: '2026-10-14T10:00:00.000Z', tz: 'UTC', sessionId: undefined } as never);
+    const backup = await exportBackup(db, '0.1.0', new Date('2026-10-14T11:00:00Z'));
+    expect(parseBackup(JSON.stringify(backup)).ok).toBe(true);
+  });
+});

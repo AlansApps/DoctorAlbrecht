@@ -58,6 +58,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const waitingWorker = useRef<ServiceWorker | null>(null);
   /** Only a tab that asked for the update reloads on controllerchange (ARCH-035). */
   const updateRequested = useRef(false);
+  /** Another tab already activated the new worker: this tab only needs a reload (ARCH-048). */
+  const controllerChanged = useRef(false);
 
   useEffect(() => applyPrefsToDocument(prefs), [prefs]);
 
@@ -131,6 +133,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       if (updateRequested.current && !reloading) {
         reloading = true;
         location.reload();
+      } else {
+        controllerChanged.current = true;
       }
     });
     void navigator.serviceWorker.register(`${BASE_URL}sw.js`).then((reg) => {
@@ -153,7 +157,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
 
   const applyUpdate = useCallback(() => {
     updateRequested.current = true;
-    if (waitingWorker.current) waitingWorker.current.postMessage({ type: 'SKIP_WAITING' });
+    if (controllerChanged.current || waitingWorker.current?.state === 'activated') location.reload();
+    else if (waitingWorker.current) waitingWorker.current.postMessage({ type: 'SKIP_WAITING' });
     else location.reload();
   }, []);
 

@@ -46,7 +46,9 @@ export type Backup = z.infer<typeof BackupSchema>;
 
 export async function exportBackup(db: DB, appVersion: string, now: Date): Promise<Backup> {
   const [attempts, flags, reports] = await Promise.all([db.getAll('attempts'), db.getAll('flags'), db.getAll('reports')]);
-  return { format: BACKUP_FORMAT, version: BACKUP_VERSION, exportedAt: now.toISOString(), appVersion, attempts, flags, reports };
+  // JSON round-trip drops keys explicitly set to undefined, so the file always re-imports (ARCH-050).
+  const clean = <T,>(x: T): T => JSON.parse(JSON.stringify(x)) as T;
+  return { format: BACKUP_FORMAT, version: BACKUP_VERSION, exportedAt: now.toISOString(), appVersion, attempts: clean(attempts), flags: clean(flags), reports: clean(reports) };
 }
 
 export type ParseResult = { ok: true; backup: Backup } | { ok: false; error: string };
@@ -134,12 +136,14 @@ export async function importBackup(
 export async function getPreImportSnapshot(db: DB, now: Date): Promise<PreImportSnapshot | null> {
   const value = (await db.get('meta', 'preImportBackup'))?.value as Partial<PreImportSnapshot> | undefined;
   if (!value?.takenAt) return null;
-  const parsed = BackupSchema.safeParse(value.backup);
   const age = now.getTime() - Date.parse(value.takenAt);
-  if (!parsed.success || !(age >= 0 && age <= SNAPSHOT_TTL_DAYS * 86_400_000)) {
+  if (!(age >= 0 && age <= SNAPSHOT_TTL_DAYS * 86_400_000)) {
     await db.delete('meta', 'preImportBackup');
     return null;
   }
+  // An unreadable copy is kept (never deleted silently) but cannot be offered for undo (ARCH-050).
+  const parsed = BackupSchema.safeParse(JSON.parse(JSON.stringify(value.backup ?? null)));
+  if (!parsed.success) return null;
   return { takenAt: value.takenAt, backup: parsed.data };
 }
 

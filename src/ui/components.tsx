@@ -5,8 +5,7 @@
  */
 import {
   Ban, BadgeCheck, CircleQuestionMark, FlaskConical, House, LayoutGrid, Link2, Microscope, RefreshCcw, Settings as SettingsIcon,
-  Check, X, ArrowRight, CornerDownRight, Info, type LucideIcon,
-} from 'lucide-react';
+  Check, X, ArrowRight, CornerDownRight, Info, CircleAlert, TriangleAlert, type LucideIcon, } from 'lucide-react';
 import { useEffect, useId, useLayoutEffect, useRef, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import { splitCitations, type EvidenceLabel } from '../domain/content/schema.ts';
 import { href, type Route } from '../app/router.ts';
@@ -146,7 +145,6 @@ export function FlowDiagram({ rows, alt }: { rows: { mark: string; text: string 
           );
         })}
       </ol>
-      <figcaption className="visually-hidden">{alt}</figcaption>
     </figure>
   );
 }
@@ -222,7 +220,7 @@ export function ActionBar({ children }: { children: ReactNode }) {
 export function Notice({ tone = 'info', children, action }: { tone?: 'info' | 'warn' | 'error'; children: ReactNode; action?: ReactNode }) {
   return (
     <div className={`notice notice--${tone}`} role={tone === 'error' ? 'alert' : 'status'}>
-      <Info className="icon" aria-hidden="true" />
+      {tone === 'info' ? <Info className="icon" aria-hidden="true" /> : tone === 'warn' ? <TriangleAlert className="icon" aria-hidden="true" /> : <CircleAlert className="icon" aria-hidden="true" />}
       <div className="notice__body">{children}</div>
       {action}
     </div>

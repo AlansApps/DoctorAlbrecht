@@ -41,7 +41,7 @@ export function ReviewScreen() {
         <h2 className="eyebrow">{t('review.mistakes')}</h2>
         <p className="small muted">{t('review.mistakes.sub')}</p>
         <Button block disabled={starting || stats.mistakes === 0} onClick={() => void start({ minutes, scope: { kind: 'mistakes' }, filters: [], mode: 'review' })}>
-          {t('review.mistakes')} <span className="tabular">({stats.mistakes})</span>
+          {t('review.mistakes.start')} <span className="tabular">({stats.mistakes})</span>
         </Button>
         {problem ? <Notice>{t(problem)}</Notice> : null}
       </section>

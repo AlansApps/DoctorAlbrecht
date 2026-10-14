@@ -13,6 +13,7 @@ import { ActionBar, Button, Notice, RichText, Sheet } from '../../ui/components.
 import { CardView, SourcesSheet } from '../card/CardView.tsx';
 import { answerCurrentStep, type StepOutcome } from './sessionActions.ts';
 import { useFlagToggle } from '../card/useFlagToggle.ts';
+import { useStartSession } from './useStartSession.ts';
 
 type Phase = { kind: 'loading' } | { kind: 'none' } | { kind: 'error'; offline: boolean } | { kind: 'step' } | { kind: 'summary'; summary: SessionSummary };
 
@@ -68,7 +69,8 @@ export function SessionScreen() {
   // Load the open session and the content for its remaining steps.
   const load = useCallback(async (s?: StoredSession | null) => {
     let current = s === undefined ? await withDb(latestOpenSession) : s;
-    if (current && current.status === 'paused') current = (await withDb((db) => activateSession(db, current!.id, new Date()))) ?? current;
+    // Activate only when the screen is opened, not after a conflict: avoids ping-pong between two tabs (ARCH-051).
+    if (s === undefined && current && current.status === 'paused') current = (await withDb((db) => activateSession(db, current!.id, new Date()))) ?? current;
     if (!current) {
       setPhase({ kind: 'none' });
       return;
@@ -171,7 +173,7 @@ export function SessionScreen() {
       </div>
     );
   }
-  if (phase.kind === 'summary') return <Summary summary={phase.summary} />;
+  if (phase.kind === 'summary') return <Summary summary={phase.summary} options={session?.options} />;
   if (!session || !step || !loaded) return <p className="muted">{t('app.loading')}</p>;
 
   const total = session.steps.length;
@@ -283,15 +285,14 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
   const wasRight = checked && choice === correctId;
   return (
     <article className="question">
-      <Stem className="question__stem" tabIndex={-1}>{q.stem}</Stem>
+      <Stem className="question__stem" id={`stem-${q.id}`} tabIndex={-1}>{q.stem}</Stem>
       {checked ? (
         <div className={`feedback ${wasRight ? 'feedback--ok' : 'feedback--err'}`} role="status" tabIndex={-1}>
           {wasRight ? <Check className="icon" aria-hidden="true" /> : <X className="icon" aria-hidden="true" />}
           <span>{wasRight ? t('session.correct') : t('session.incorrect')}</span>
         </div>
       ) : null}
-      <fieldset className="options" disabled={checked}>
-        <legend className="visually-hidden">{q.stem}</legend>
+      <fieldset className="options" disabled={checked} aria-labelledby={`stem-${q.id}`}>
         {q.options.map((o) => {
           const isChoice = o.id === choice;
           const isCorrect = o.id === correctId;
@@ -327,8 +328,9 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
   );
 }
 
-function Summary({ summary }: { summary: SessionSummary }) {
+function Summary({ summary, options }: { summary: SessionSummary; options: StoredSession['options'] | undefined }) {
   const { t } = useI18n();
+  const { start, starting } = useStartSession();
   const titleRef = useRef<HTMLHeadingElement>(null);
   useEffect(() => titleRef.current?.focus(), []); // UX-060
   const rows: { key: MessageKey; n: number }[] = [
@@ -346,9 +348,10 @@ function Summary({ summary }: { summary: SessionSummary }) {
           <div key={r.key} className="summary__row"><dt>{t(r.key)}</dt><dd className="tabular">{r.n}</dd></div>
         ))}
       </dl>
-      <p className="muted">{t('session.summary.note')}</p>
+      {summary.forgotten + summary.incorrect > 0 ? <p className="muted">{t('session.summary.note')}</p> : null}
       <div className="stack">
-        <Button variant="primary" block onClick={() => navigate({ name: 'home' })}>{t('session.summary.home')}</Button>
+        {options ? <Button variant="primary" block disabled={starting} onClick={() => void start(options)}>{t('session.summary.again')}</Button> : null}
+        <Button variant={options ? 'secondary' : 'primary'} block onClick={() => navigate({ name: 'home' })}>{t('session.summary.home')}</Button>
       </div>
     </div>
   );
