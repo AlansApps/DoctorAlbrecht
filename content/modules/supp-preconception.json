@@ -207,7 +207,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "supplements",
         "reproduction"
@@ -228,8 +228,8 @@
         "en": "NICE is specific: offer 5 mg a day of folic acid, when planning and in the first 12 weeks, when there is an increased risk of NTD or other congenital malformation. Examples it gives: NTD or malformation in the person, their partner or family; a previous affected pregnancy; type 1 or 2 diabetes; a haematological condition requiring folic acid (sickle cell disease, thalassaemia); or medicines that affect folate absorption or metabolism, such as anti-epileptics or HIV medicines. [[ref:nice-2025-ng247]]\n\nAfter bariatric surgery, NICE refers to the bariatric unit for individual advice on folic acid and other micronutrients. [[ref:nice-2025-ng247]]"
       },
       "application": {
-        "es": "Antes de “dar el fólico de siempre”, repasa antecedentes de DTN, diabetes, hemoglobinopatías, cirugía bariátrica y medicación (sobre todo antiepilépticos). Si hay alguno, la dosis forma parte de un plan individual con la guía local y el especialista que corresponda (neurología, endocrinología, hematología).",
-        "en": "Before “giving the usual folic acid”, review NTD history, diabetes, haemoglobinopathies, bariatric surgery and medicines (especially anti-epileptics). If any is present, the dose belongs to an individual plan with local guidance and the relevant specialist (neurology, endocrinology, haematology)."
+        "es": "Antes de “dar el fólico de siempre”, repasa antecedentes de DTN, diabetes, hemoglobinopatías, cirugía bariátrica y medicación (sobre todo antiepilépticos). Si hay alguno, la dosis forma parte de un plan individual con la guía local y el especialista que corresponda (neurología, endocrinología, hematología). Dosis locales: en España, la GPC del SNS (2014) indica 0,4 mg/día, o 5 mg/día con antecedente de DTN, diabetes o anticonvulsivos. En Argentina, el Ministerio de Salud indica 0,4 mg/día desde 3 meses antes, o 4 mg/día tras un hijo con DTN. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:msal-ar-acido-folico]]",
+        "en": "Before “giving the usual folic acid”, review NTD history, diabetes, haemoglobinopathies, bariatric surgery and medicines (especially anti-epileptics). If any is present, the dose belongs to an individual plan with local guidance and the relevant specialist (neurology, endocrinology, haematology). Local doses: in Spain, the national guideline (2014) gives 0.4 mg/day, or 5 mg/day with a history of NTD, diabetes or anticonvulsants. In Argentina, the Ministry of Health gives 0.4 mg/day from 3 months before, or 4 mg/day after a previous baby with an NTD. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:msal-ar-acido-folico]]"
       },
       "pearl": {
         "es": "Fíjate en las unidades: 400 µg es 0,4 mg; 5 mg es más de diez veces esa dosis. Confundir µg y mg en la receta es un error clásico.",
@@ -873,7 +873,7 @@
     },
     {
       "kind": "card",
-      "rev": 3,
+      "rev": 4,
       "tags": [
         "supplements",
         "reproduction"
@@ -894,8 +894,8 @@
         "en": "Nuance: the graded table recommendation is limited to women at risk, but the accompanying text advises 150 µg/day for all women preconception, in pregnancy and in lactation (unless high iodine intake is evident from traditional dietary habits) and allows higher amounts at increased risk, for example not using iodised salt, not eating dairy or following a vegan diet. [[ref:ata-2026-thyroid-pregnancy]]\n\nMechanism: in pregnancy thyroid hormone requirements and renal iodine excretion increase, and the fetus adds demand; the sodium/iodide symporter (NIS) mediates maternal and fetal thyroid uptake and the placental transfer of iodide. [[ref:ata-2026-thyroid-pregnancy]]\n\nThere are no validated biomarkers of an individual’s chronic iodine intake: urinary iodine is interpreted only as a population median. [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "Según la ATA, las estrategias para una ingesta óptima de yodo varían por región, y la guía no aporta datos de Argentina ni de España: comprueba la recomendación local y pregunta por la dieta (sal yodada, lácteos, dieta vegana) antes de trasladar la cifra.",
-        "en": "Per the ATA, strategies for optimal iodine intake vary by region, and the guideline gives no data for Argentina or Spain: check the local recommendation and ask about diet (iodised salt, dairy, vegan diet) before applying the figure."
+        "es": "En España, la GPC del SNS (2014) sugiere sal yodada y no dar yodo de forma sistemática antes del embarazo; en la gestación, yoduro potásico 200 µg/día solo si la dieta no llega (3 raciones de lácteos y 2 g de sal yodada al día). En Argentina, la ley obliga a yodar toda la sal de uso alimentario. Pregunta por la dieta (sal yodada, lácteos, dieta vegana) antes de trasladar la cifra de la ATA. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]",
+        "en": "In Spain, the national guideline (2014) suggests iodised salt and no routine iodine supplement before pregnancy; in pregnancy, potassium iodide 200 µg/day only if the diet falls short (3 servings of dairy and 2 g of iodised salt a day). In Argentina, the law requires all salt for food use to be iodised. Ask about diet (iodised salt, dairy, vegan diet) before applying the ATA figure. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]"
       },
       "pearl": {
         "es": "Ojo con las unidades: el yodo se dosifica en microgramos (µg). Un preparado que dé “mg” de yodo merece una segunda lectura.",

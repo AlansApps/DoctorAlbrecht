@@ -654,7 +654,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction",
         "hormones",
@@ -693,6 +693,10 @@
       "recall": {
         "es": "¿Qué dice la guía ESHRE de estimulación de 2025 sobre la hormona de crecimiento y la DHEA en bajas respondedoras, y con qué fuerza?",
         "en": "What does the 2025 ESHRE stimulation guideline say about growth hormone and DHEA in low responders, and with what strength?"
+      },
+      "application": {
+        "es": "En España, la ficha técnica de la somatropina de referencia (Genotonorm) no incluye ninguna indicación reproductiva, así que su uso en la estimulación ovárica es fuera de ficha técnica. No hay ninguna DHEA oral autorizada: la única prasterona en CIMA es un óvulo vaginal de 6,5 mg para la atrofia vulvovaginal (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]",
+        "en": "In Spain, the product information for the reference somatropin (Genotonorm) includes no reproductive indication, so its use in ovarian stimulation is off-label. There is no authorised oral DHEA: the only prasterone in CIMA is a 6.5 mg vaginal pessary for vulvovaginal atrophy (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]"
       }
     },
     {

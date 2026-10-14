@@ -622,7 +622,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "hormones",
         "reproduction"
@@ -660,6 +660,10 @@
       "recall": {
         "es": "¿Por qué se prefiere la cabergolina y qué rangos de dosis citan los consensos para cabergolina y bromocriptina?",
         "en": "Why is cabergoline preferred, and what dose ranges do the consensus statements give for cabergoline and bromocriptine?"
+      },
+      "application": {
+        "es": "En España, la quinagolida (Norprolac) ya no está autorizada (revocada en febrero de 2024) y la bromocriptina (Parlodel) sigue comercializada. La ficha de Dostinex 0,5 mg da en la hiperprolactinemia una dosis habitual de 1 mg/semana (0,25–2 mg). [[ref:aemps-2022-dostinex-ft]]",
+        "en": "In Spain, quinagolide (Norprolac) is no longer authorised (revoked in February 2024) and bromocriptine (Parlodel) is still marketed. The Dostinex 0.5 mg product information gives a usual dose of 1 mg/week (0.25–2 mg) for hyperprolactinaemia. [[ref:aemps-2022-dostinex-ft]]"
       }
     },
     {

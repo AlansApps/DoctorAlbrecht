@@ -354,7 +354,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "gut",
         "reproduction"
@@ -392,6 +392,10 @@
       "recall": {
         "es": "¿Qué tres pautas recomiendan los CDC y en qué situaciones sin síntomas trata la IUSTI?",
         "en": "Which three regimens does CDC recommend, and in which asymptomatic situations does IUSTI treat?"
+      },
+      "application": {
+        "es": "En España, el cloruro de decualinio 10 mg vaginal (Fluomizin) está autorizado y comercializado para la vaginosis bacteriana. El secnidazol 2 g (Deiron) está autorizado desde diciembre de 2025, pero CIMA lo marcaba como no comercializado a 14/10/2026. En Argentina, el Vademécum de ANMAT incluye decualinio 10 mg en óvulos (Ethopil). [[ref:aemps-2025-deiron-fluomizin]] [[ref:anmat-2026-vnm]]",
+        "en": "In Spain, dequalinium chloride 10 mg vaginal tablets (Fluomizin) are authorised and marketed for BV. Secnidazole 2 g (Deiron) has been authorised since December 2025, but CIMA listed it as not marketed as of 14 October 2026. In Argentina, ANMAT’s national formulary includes dequalinium 10 mg pessaries (Ethopil). [[ref:aemps-2025-deiron-fluomizin]] [[ref:anmat-2026-vnm]]"
       }
     },
     {

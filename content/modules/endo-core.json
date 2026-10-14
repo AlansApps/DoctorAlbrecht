@@ -679,7 +679,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones"
       ],
@@ -716,6 +716,10 @@
       "recall": {
         "es": "¿En qué lugar de la secuencia de tratamiento sitúa la ESHRE a los agonistas y antagonistas de la GnRH, y qué añade a los agonistas?",
         "en": "Where in the treatment sequence does ESHRE place GnRH agonists and antagonists, and what does it add to agonists?"
+      },
+      "application": {
+        "es": "En España están autorizados y comercializados el relugolix con estradiol y acetato de noretisterona (Ryeqo) y el linzagolix (Yselty), para la endometriosis sintomática tras un tratamiento médico o quirúrgico previo. El elagolix no tiene ningún medicamento registrado en CIMA. [[ref:aemps-2026-ryeqo-yselty]]",
+        "en": "In Spain, relugolix with estradiol and norethisterone acetate (Ryeqo) and linzagolix (Yselty) are authorised and marketed for symptomatic endometriosis after previous medical or surgical treatment. Elagolix has no registered medicine in CIMA. [[ref:aemps-2026-ryeqo-yselty]]"
       }
     },
     {

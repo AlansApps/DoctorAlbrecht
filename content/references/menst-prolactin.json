@@ -42,5 +42,26 @@
       "en": "Full text read (Chin Neurosurg J 2026;12:17, Europe PMC version, no page numbers). Chinese national consensus led by neurosurgery; most recommendations are weak with low or very low certainty. Cabergoline is unavailable in mainland China, so bromocriptine is its first choice, which shapes several recommendations. The supplementary tables could not be read."
     },
     "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2022-dostinex-ft",
+    "title": "Ficha técnica de Dostinex 0,5 mg comprimidos (cabergolina)",
+    "authors": "AEMPS, CIMA; titular Pfizer",
+    "year": 2022,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/60867/FT_60867.html",
+    "type": "other",
+    "population": {
+      "es": "Inhibición de la lactancia y trastornos hiperprolactinémicos (España).",
+      "en": "Lactation inhibition and hyperprolactinaemic disorders (Spain)."
+    },
+    "finding": {
+      "es": "Hiperprolactinemia: inicio 0,5 mg/semana en 1–2 tomas, subir 0,5 mg/semana a intervalos mensuales; dosis habitual 1 mg/semana (0,25–2 mg); se han usado hasta 4,5 mg/semana. Sogilen 1 y 2 mg solo está indicado en la enfermedad de Parkinson. La quinagolida (Norprolac) tiene la autorización revocada desde el 26/02/2024 y Parlodel (bromocriptina) sigue comercializado.",
+      "en": "Hyperprolactinaemia: start 0.5 mg/week in 1–2 doses, increase by 0.5 mg/week at monthly intervals; usual dose 1 mg/week (0.25–2 mg); up to 4.5 mg/week has been used. Sogilen 1 and 2 mg is indicated only for Parkinson’s disease. Quinagolide (Norprolac) authorisation was revoked on 26 February 2024 and Parlodel (bromocriptine) is still marketed."
+    },
+    "limitations": {
+      "es": "Secciones 4.1 y 4.2 (ficha de 18/02/2022). Los estados de Norprolac, Parlodel y Sogilen proceden de las búsquedas REST de CIMA.",
+      "en": "Sections 4.1 and 4.2 (SmPC dated 18 February 2022). Norprolac, Parlodel and Sogilen status come from CIMA REST searches."
+    },
+    "accessed": "2026-10-14"
   }
 ]

@@ -129,5 +129,26 @@
       "en": "The accepted author manuscript on PMC (PMC12343204) was read, not the typeset version; appendices not included. Expert-opinion statements (Delphi, ≥ 80% threshold), not GRADE recommendations; focused on the gut microbiome rather than vaginal or endometrial microbiome."
     },
     "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2025-deiron-fluomizin",
+    "title": "Fichas técnicas de Fluomizin 10 mg comprimidos vaginales (cloruro de decualinio) y Deiron 2 g granulado (secnidazol)",
+    "authors": "AEMPS, CIMA",
+    "year": 2025,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/75159/FT_75159.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con vaginosis bacteriana; tricomoniasis en el caso de Deiron (España).",
+      "en": "Women with bacterial vaginosis; trichomoniasis for Deiron (Spain)."
+    },
+    "finding": {
+      "es": "Fluomizin: indicado en la vaginosis bacteriana; comercializado. Deiron: indicado en la uretritis y vaginitis por Trichomonas vaginalis y en la vaginosis bacteriana en adultos; autorizado el 17/12/2025; no comercializado a 14/10/2026.",
+      "en": "Fluomizin: indicated for bacterial vaginosis; marketed. Deiron: indicated for Trichomonas vaginalis urethritis and vaginitis and for bacterial vaginosis in adults; authorised 17 December 2025; not marketed as of 14 October 2026."
+    },
+    "limitations": {
+      "es": "Solo se leyó la sección 4.1. Deiron: https://cima.aemps.es/cima/dochtml/ft/90874/FT_90874.html. El estado de comercialización puede cambiar.",
+      "en": "Only section 4.1 was read. Deiron: https://cima.aemps.es/cima/dochtml/ft/90874/FT_90874.html. Marketing status may change."
+    },
+    "accessed": "2026-10-14"
   }
 ]

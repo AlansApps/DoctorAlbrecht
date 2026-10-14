@@ -173,5 +173,26 @@
       "en": "Full text read (ASRM PDF). Committee opinion, not a GRADE guideline; US context; no formal strength or certainty grading."
     },
     "accessed": "2026-10-12"
+  },
+  {
+    "id": "anmat-2026-vnm",
+    "title": "Vademécum Nacional de Medicamentos (consulta pública)",
+    "authors": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica (ANMAT), Argentina",
+    "year": 2026,
+    "url": "https://servicios.pami.org.ar/vademecum/views/consultaPublica/listado.zul",
+    "type": "other",
+    "population": {
+      "es": "Presentaciones de medicamentos incluidas en el Vademécum Nacional de Medicamentos de ANMAT (Argentina).",
+      "en": "Medicine presentations listed in ANMAT’s National Medicines Formulary (Argentina)."
+    },
+    "finding": {
+      "es": "Figuran, entre otros: Ethopil (cloruro de decualinio 10 mg, óvulos; cert. 60233); Utrogestan (progesterona micronizada 100 y 200 mg; cert. 40881); Visanne (dienogest 2 mg); Mirena (levonorgestrel 20 µg/24 h); cabergolina 0,5 y 1 mg; prasterona 6,5 mg óvulos; ácido fólico 1, 5 y 10 mg.",
+      "en": "Listed products include: Ethopil (dequalinium chloride 10 mg pessaries; cert. 60233); Utrogestan (micronized progesterone 100 and 200 mg; cert. 40881); Visanne (dienogest 2 mg); Mirena (levonorgestrel 20 µg/24 h); cabergoline 0.5 and 1 mg; prasterone 6.5 mg pessaries; folic acid 1, 5 and 10 mg."
+    },
+    "limitations": {
+      "es": "La consulta no muestra indicaciones ni prospectos. La búsqueda por genérico es de coincidencia exacta, así que la ausencia de resultados no prueba que no haya registro. Solo se leyó la primera página de resultados.",
+      "en": "The search shows neither indications nor package leaflets. Generic-name search is exact-match, so no results does not prove absence of registration. Only the first page of results was read."
+    },
+    "accessed": "2026-10-14"
   }
 ]

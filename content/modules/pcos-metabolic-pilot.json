@@ -325,7 +325,7 @@
       "kind": "card",
       "type": "comparison",
       "conceptId": "pcos.mp.metformin",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones"
       ],
@@ -355,6 +355,10 @@
       "editorial": {
         "status": "ai-audited",
         "reviewedAt": "2026-10-12"
+      },
+      "application": {
+        "es": "En España, la ficha técnica de Dianben (metformina) solo recoge la diabetes tipo 2: en el SOP, su uso es fuera de ficha técnica. [[ref:aemps-2025-dianben-ft]]",
+        "en": "In Spain, the Dianben (metformin) product information covers only type 2 diabetes: its use in PCOS is off-label. [[ref:aemps-2025-dianben-ft]]"
       }
     },
     {
@@ -403,7 +407,7 @@
       "kind": "card",
       "type": "concept",
       "conceptId": "pcos.mp.letrozole",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -433,6 +437,10 @@
       "editorial": {
         "status": "needs-human-review",
         "reviewedAt": "2026-10-12"
+      },
+      "application": {
+        "es": "En España, la ficha técnica de Femara (letrozol de referencia) solo recoge indicaciones de cáncer de mama, así que su uso para inducir la ovulación es fuera de ficha técnica. El clomifeno (Omifin) sí tiene indicación en la infertilidad anovulatoria o disovulatoria, incluido el SOP. [[ref:aemps-2025-femara-ft]] [[ref:aemps-2021-omifin-ft]]",
+        "en": "In Spain, the Femara product information (reference letrozole) lists only breast cancer indications, so its use for ovulation induction is off-label. Clomiphene (Omifin) is licensed for anovulatory or dysovulatory infertility, including PCOS. [[ref:aemps-2025-femara-ft]] [[ref:aemps-2021-omifin-ft]]"
       }
     },
     {

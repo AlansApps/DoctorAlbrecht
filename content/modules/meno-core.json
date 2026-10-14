@@ -144,7 +144,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "hormones"
       ],
@@ -181,6 +181,10 @@
       "recall": {
         "es": "¿Qué neuronas y qué neuropéptido explican los SVM, y qué fármaco actúa sobre ese paso?",
         "en": "Which neurons and which neuropeptide explain VMS, and which drug acts on that step?"
+      },
+      "application": {
+        "es": "Actualización regulatoria: la UE autorizó el elinzanetant (Lynkuet 60 mg) en noviembre de 2025 para los síntomas vasomotores moderados a graves. En CIMA figura como autorizado, pero no comercializado, a 14/10/2026. [[ref:ema-2025-lynkuet-epar]]",
+        "en": "Regulatory update: the EU authorised elinzanetant (Lynkuet 60 mg) in November 2025 for moderate to severe vasomotor symptoms. CIMA lists it as authorised but not marketed in Spain as of 14 October 2026. [[ref:ema-2025-lynkuet-epar]]"
       }
     },
     {
@@ -499,7 +503,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "hormones"
       ],
@@ -536,6 +540,10 @@
       "recall": {
         "es": "¿Qué THS corresponde con útero y sin él, y qué dosis de progesterona micronizada da la NAMS como ejemplo?",
         "en": "Which HRT applies with and without a uterus, and what micronized progesterone dose does NAMS give as an example?"
+      },
+      "application": {
+        "es": "En España, las fichas técnicas de Mirena y Levosert (DIU de levonorgestrel 52 mg) recogen la anticoncepción y la menorragia o el sangrado menstrual abundante, pero no la protección endometrial durante la THS: también en España es un uso fuera de ficha técnica. [[ref:aemps-2026-mirena-ft]]",
+        "en": "In Spain, the product information for Mirena and Levosert (52 mg levonorgestrel IUDs) covers contraception and menorrhagia or heavy menstrual bleeding, but not endometrial protection during HRT: in Spain too, this is an off-label use. [[ref:aemps-2026-mirena-ft]]"
       }
     },
     {
@@ -663,7 +671,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones"
       ],
@@ -700,6 +708,10 @@
       "recall": {
         "es": "¿Qué problemas de seguridad atribuye la NAMS a los «bioidénticos» magistrales y cuándo podrían considerarse?",
         "en": "Which safety concerns does NAMS attribute to compounded “bioidenticals”, and when could they be considered?"
+      },
+      "application": {
+        "es": "Opciones autorizadas: en España, la progesterona micronizada oral (Progeffik 100 y 200 mg) tiene indicación como complemento del estrógeno en mujeres con útero, y Bijuva combina estradiol 1 mg y progesterona 100 mg. En Argentina, el Vademécum de ANMAT incluye Utrogestan (progesterona micronizada 100 y 200 mg). [[ref:aemps-2026-progeffik-bijuva]] [[ref:anmat-2026-vnm]]",
+        "en": "Authorised options: in Spain, oral micronized progesterone (Progeffik 100 and 200 mg) is licensed as an adjunct to estrogen in women with a uterus, and Bijuva combines estradiol 1 mg and progesterone 100 mg. In Argentina, ANMAT’s national formulary includes Utrogestan (micronized progesterone 100 and 200 mg). [[ref:aemps-2026-progeffik-bijuva]] [[ref:anmat-2026-vnm]]"
       }
     },
     {
@@ -1125,7 +1137,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones"
       ],
@@ -1149,8 +1161,8 @@
         "en": "Doses from the NAMS table: paroxetine salt 7.5 mg/day (FDA approved for VMS); paroxetine 10–25 mg/day; citalopram and escitalopram 10–20 mg/day; venlafaxine 37.5–150 mg/day; desvenlafaxine 100–150 mg/day; gabapentin 900–2,400 mg/day in divided doses; fezolinetant 45 mg/day. SSRIs/SNRIs give mild to moderate improvements; with sertraline and fluoxetine improvements were not significant and they are not recommended. [[ref:nams-2023-nonhormone-therapy]]\n\nWith tamoxifen, paroxetine and fluoxetine may inhibit CYP2D6, which converts it to its active metabolite; NAMS suggests venlafaxine, desvenlafaxine, escitalopram or citalopram as safer choices. Gabapentin causes dizziness and drowsiness at first, so bedtime dosing may suit women whose night-time VMS disrupt sleep; long-term oxybutynin may be associated with cognitive decline in older people. In the phase 3 trials available in 2023, headache was the most common adverse event with neurokinin B antagonists, and liver enzyme elevation was rare and resolved during continued treatment or after stopping it. [[ref:nams-2023-nonhormone-therapy]]"
       },
       "application": {
-        "es": "Antes de prescribir un fármaco reciente como fezolinetant, revisa la ficha técnica vigente en tu país, sobre todo el apartado de seguridad hepática: el posicionamiento de la NAMS es de 2023 y no recoge cambios posteriores de ficha técnica.",
-        "en": "Before prescribing a recent drug such as fezolinetant, check the current product information in your country, especially the liver safety section: the NAMS statement dates from 2023 and does not reflect later labelling changes."
+        "es": "En España y la UE, la ficha técnica de Veoza pide pruebas hepáticas antes de empezar, cada mes durante los 3 primeros meses y después según criterio clínico; no se inicia con ALT o AST ≥ 2 veces el límite superior ni con la bilirrubina total elevada. La ficha de la FDA añade un recuadro de advertencia por hepatotoxicidad y controles a los 6 y 9 meses. [[ref:aemps-2026-veoza-ft]] [[ref:fda-2026-veozah-label]]",
+        "en": "In Spain and the EU, the Veoza product information requires liver tests before starting, monthly for the first 3 months and then as clinically indicated; do not start if ALT or AST is ≥ 2 times the upper limit or total bilirubin is elevated. The FDA label adds a boxed warning for hepatotoxicity and checks at 6 and 9 months. [[ref:aemps-2026-veoza-ft]] [[ref:fda-2026-veozah-label]]"
       },
       "pearl": {
         "es": "Discrepancia real: para la NAMS los ISRS/IRSN son opción de nivel I; para NICE (texto de 2015) no son primera línea para los SVM solos. En fezolinetant coinciden, NICE cuando la THS no es adecuada.",

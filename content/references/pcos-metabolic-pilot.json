@@ -1,0 +1,65 @@
+[
+  {
+    "id": "aemps-2025-femara-ft",
+    "title": "Ficha técnica de Femara 2,5 mg comprimidos recubiertos con película (letrozol)",
+    "authors": "AEMPS, CIMA; titular Novartis",
+    "year": 2025,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/61628/FT_61628.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres posmenopáusicas con cáncer de mama hormonodependiente (España).",
+      "en": "Postmenopausal women with hormone-dependent breast cancer (Spain)."
+    },
+    "finding": {
+      "es": "Todas las indicaciones son de cáncer de mama (adyuvante, adyuvante extendido, avanzado y neoadyuvante); no hay indicación de inducción de la ovulación.",
+      "en": "All indications are for breast cancer (adjuvant, extended adjuvant, advanced and neoadjuvant); there is no ovulation induction indication."
+    },
+    "limitations": {
+      "es": "Solo se leyó la sección 4.1 de la marca de referencia (ficha de 14/04/2025); hay 41 presentaciones de letrozol en CIMA cuyas fichas no se leyeron.",
+      "en": "Only section 4.1 of the reference brand was read (SmPC dated 14 April 2025); CIMA lists 41 letrozole presentations whose SmPCs were not read."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2021-omifin-ft",
+    "title": "Ficha técnica de Omifin 50 mg comprimidos (citrato de clomifeno)",
+    "authors": "AEMPS, CIMA",
+    "year": 2021,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/43880/FT_43880.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con infertilidad anovulatoria o disovulatoria (España).",
+      "en": "Women with anovulatory or dysovulatory infertility (Spain)."
+    },
+    "finding": {
+      "es": "Indicado en la infertilidad por anovulación o disovulación normoprolactinémica de origen funcional (incluidos la insuficiencia luteínica y el síndrome de ovario poliquístico), como prueba en ciertas amenorreas y en la inducción de la ovulación en reproducción asistida (inseminación intrauterina, FIV).",
+      "en": "Indicated for normoprolactinaemic functional anovulatory or dysovulatory infertility (including luteal insufficiency and polycystic ovary syndrome), as a test in certain amenorrhoeas, and for ovulation induction in assisted reproduction (intrauterine insemination, IVF)."
+    },
+    "limitations": {
+      "es": "Solo se leyó la sección 4.1 (ficha de 04/12/2021). Es el único clomifeno que figura en CIMA.",
+      "en": "Only section 4.1 was read (SmPC dated 4 December 2021). It is the only clomiphene listed in CIMA."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2025-dianben-ft",
+    "title": "Ficha técnica de Dianben 850 mg comprimidos recubiertos con película (metformina)",
+    "authors": "AEMPS, CIMA",
+    "year": 2025,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/55211/FT_55211.html",
+    "type": "other",
+    "population": {
+      "es": "Adultos y niños desde 10 años con diabetes tipo 2 (España).",
+      "en": "Adults and children from 10 years with type 2 diabetes (Spain)."
+    },
+    "finding": {
+      "es": "Única indicación: diabetes mellitus tipo 2 cuando la dieta y el ejercicio no bastan, en monoterapia o en combinación; no menciona el SOP.",
+      "en": "Only indication: type 2 diabetes when diet and exercise are insufficient, alone or in combination; PCOS is not mentioned."
+    },
+    "limitations": {
+      "es": "Solo se leyó la sección 4.1 de una marca (ficha de 05/05/2025).",
+      "en": "Only section 4.1 of one brand was read (SmPC dated 5 May 2025)."
+    },
+    "accessed": "2026-10-14"
+  }
+]

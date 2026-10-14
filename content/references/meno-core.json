@@ -42,5 +42,110 @@
       "en": "Full PDF (18 pp.) read on the society's website; dosing table 1 (p. 6) and table 2 of recommendations with levels (p. 12). Consensus position statement with Levels I-III (no separate strength grade; each option is classified as “recommended” or “not recommended”). Many studies of non-drug options and supplements are small and use waitlist controls. It predates elinzanetant, still in development in 2023, and does not reflect any later labelling changes. It was the current version as of 14-10-2026."
     },
     "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2026-veoza-ft",
+    "title": "Ficha técnica de Veoza 45 mg comprimidos recubiertos con película (fezolinetant)",
+    "authors": "Agencia Española de Medicamentos y Productos Sanitarios (AEMPS), CIMA; titular Astellas Pharma Europe B.V.",
+    "year": 2026,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/1231771001/FT_1231771001.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con síntomas vasomotores moderados a graves asociados a la menopausia (España/UE; autorización centralizada EMEA/H/C/005851).",
+      "en": "Women with moderate to severe menopausal vasomotor symptoms (Spain/EU; centralised authorisation EMEA/H/C/005851)."
+    },
+    "finding": {
+      "es": "Indicación: SVM moderados a graves de la menopausia; 45 mg una vez al día. Pruebas de función hepática antes de iniciar; no iniciar si ALT o AST ≥ 2 × LSN o la bilirrubina total está elevada; repetirlas mensualmente los 3 primeros meses y después según criterio clínico; suspender si las transaminasas son ≥ 3 × LSN con bilirrubina > 2 × LSN o síntomas, o > 5 × LSN.",
+      "en": "Indication: moderate to severe menopausal VMS; 45 mg once daily. Liver function tests before starting; do not start if ALT or AST ≥ 2 × ULN or total bilirubin is elevated; repeat monthly for the first 3 months and then as clinically indicated; stop if transaminases are ≥ 3 × ULN with bilirubin > 2 × ULN or symptoms, or > 5 × ULN."
+    },
+    "limitations": {
+      "es": "Ficha técnica (no es una guía). Se leyeron las secciones 4.1, 4.2 y 4.4 de la versión de CIMA (nregistro 1231771001; sin fecha de revisión en la API). Medicamento con seguimiento adicional.",
+      "en": "Summary of product characteristics (not a guideline). Sections 4.1, 4.2 and 4.4 of the CIMA version were read (nregistro 1231771001; no revision date in the API). Medicine under additional monitoring."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "fda-2026-veozah-label",
+    "title": "VEOZAH (fezolinetant) tablets: prescribing information",
+    "authors": "U.S. Food and Drug Administration (FDA), DailyMed/openFDA; Astellas Pharma US",
+    "year": 2026,
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cae9f798-24f9-4580-a4fc-e6c710cbda3c",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con SVM moderados a graves por la menopausia (EE. UU.).",
+      "en": "Women with moderate to severe VMS due to menopause (US)."
+    },
+    "finding": {
+      "es": "Recuadro de advertencia por hepatotoxicidad poscomercialización: pruebas hepáticas basales, no iniciar con aminotransferasas o bilirrubina total ≥ 2 × LSN, y controles mensuales los 3 primeros meses y a los 6 y 9 meses.",
+      "en": "Boxed warning for postmarketing hepatotoxicity: baseline liver tests, do not start if aminotransferases or total bilirubin ≥ 2 × ULN, and monthly checks for the first 3 months and at 6 and 9 months."
+    },
+    "limitations": {
+      "es": "Ficha de EE. UU. (effective_time 26/02/2026) leída por la API de openFDA (recuadro y sección 2); no aplica directamente a España ni a Argentina.",
+      "en": "US label (effective_time 26 February 2026) read via the openFDA API (boxed warning and section 2); not directly applicable to Spain or Argentina."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "ema-2025-lynkuet-epar",
+    "title": "Lynkuet (elinzanetant): EPAR – medicine overview",
+    "authors": "European Medicines Agency (EMA); titular Bayer AG",
+    "year": 2025,
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynkuet",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con SVM moderados a graves (UE).",
+      "en": "Women with moderate to severe VMS (EU)."
+    },
+    "finding": {
+      "es": "Opinión del CHMP el 18/09/2025; autorización de comercialización de la UE el 17/11/2025 (EMEA/H/C/006298) para el tratamiento de los SVM moderados a graves; seguimiento adicional. En CIMA: Lynkuet 60 mg cápsulas blandas, con fecha de autorización 19/06/2026 y no comercializado a 14/10/2026.",
+      "en": "CHMP opinion 18 September 2025; EU marketing authorisation 17 November 2025 (EMEA/H/C/006298) for moderate to severe VMS; additional monitoring. In CIMA: Lynkuet 60 mg soft capsules, authorisation date 19 June 2026, not marketed as of 14 October 2026."
+    },
+    "limitations": {
+      "es": "Página resumen de EMA y estado en CIMA; no se leyó la ficha técnica completa (el PDF de CIMA redirige a EMA).",
+      "en": "EMA overview page and CIMA status; the full SmPC was not read (the CIMA PDF redirects to EMA)."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2026-mirena-ft",
+    "title": "Fichas técnicas de Mirena 0,02 mg cada 24 horas y Levosert 0,02 mg cada 24 horas, sistemas de liberación intrauterinos (levonorgestrel 52 mg)",
+    "authors": "AEMPS, CIMA; titulares Bayer Hispania y Gedeon Richter",
+    "year": 2026,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/63158/FT_63158.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres que usan un DIU de levonorgestrel 52 mg (España).",
+      "en": "Women using a 52 mg levonorgestrel IUD (Spain)."
+    },
+    "finding": {
+      "es": "Mirena: anticoncepción (8 años) y menorragia idiopática (5 años). Levosert: anticoncepción y sangrado menstrual abundante. Ninguna de las dos incluye la protección endometrial durante la terapia estrogénica.",
+      "en": "Mirena: contraception (8 years) and idiopathic menorrhagia (5 years). Levosert: contraception and heavy menstrual bleeding. Neither includes endometrial protection during estrogen therapy."
+    },
+    "limitations": {
+      "es": "Solo se leyeron las secciones 4.1 y 4.2 de Mirena y la 4.1 de Levosert (fichas de 12/08/2026 y 31/08/2026; nregistro 63158 y 80021); no se leyó la de Levosert One. Ficha de Levosert: https://cima.aemps.es/cima/dochtml/ft/80021/FT_80021.html.",
+      "en": "Only Mirena sections 4.1 and 4.2 and Levosert section 4.1 were read (SmPCs dated 12 and 31 August 2026; nregistro 63158 and 80021); Levosert One was not read. Levosert SmPC: https://cima.aemps.es/cima/dochtml/ft/80021/FT_80021.html."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "aemps-2026-progeffik-bijuva",
+    "title": "Fichas técnicas de Progeffik 100 y 200 mg cápsulas blandas (progesterona) y Bijuva 1 mg/100 mg cápsulas blandas (estradiol/progesterona)",
+    "authors": "AEMPS, CIMA",
+    "year": 2026,
+    "url": "https://cima.aemps.es/cima/dochtml/ft/60879/FT_60879.html",
+    "type": "other",
+    "population": {
+      "es": "Mujeres con útero que reciben estrógeno; insuficiencia lútea; fase lútea en reproducción asistida (España).",
+      "en": "Women with a uterus receiving estrogen; luteal insufficiency; luteal phase in assisted reproduction (Spain)."
+    },
+    "finding": {
+      "es": "Progeffik oral: complemento del tratamiento estrogénico en mujeres con útero, entre otras indicaciones; 200 mg/día durante las 2 últimas semanas de cada secuencia. Por vía vaginal: soporte de fase lútea en FIV y donación de ovocitos. Bijuva: THS combinada continua en posmenopáusicas con útero (≥ 12 meses de amenorrea).",
+      "en": "Oral Progeffik: adjunct to estrogen therapy in women with a uterus, among other indications; 200 mg/day for the last 2 weeks of each sequence. Vaginal route: luteal support in IVF and oocyte donation. Bijuva: continuous combined HRT in postmenopausal women with a uterus (≥ 12 months amenorrhoea)."
+    },
+    "limitations": {
+      "es": "Secciones 4.1 y 4.2 de Progeffik (ficha de 09/05/2019, antigua) y 4.1 de Bijuva (ficha de 27/08/2026): https://cima.aemps.es/cima/dochtml/ft/85988/FT_85988.html.",
+      "en": "Progeffik sections 4.1 and 4.2 (SmPC dated 9 May 2019, old) and Bijuva 4.1 (SmPC dated 27 August 2026): https://cima.aemps.es/cima/dochtml/ft/85988/FT_85988.html."
+    },
+    "accessed": "2026-10-14"
   }
 ]

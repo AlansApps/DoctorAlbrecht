@@ -238,5 +238,68 @@
       "en": "Full text read (Europe PMC). Mixes RCTs and cohorts, high heterogeneity, co-interventions (inositol, melatonin, etc.) and highly variable regimens; no GRADE assessment."
     },
     "accessed": "2026-10-12"
+  },
+  {
+    "id": "guiasalud-2014-gpc-embarazo",
+    "title": "Guía de práctica clínica de atención en el embarazo y puerperio",
+    "authors": "Grupo de trabajo de la GPC de atención en el embarazo y puerperio; Ministerio de Sanidad, Servicios Sociales e Igualdad; Agencia de Evaluación de Tecnologías Sanitarias de Andalucía (AETSA); GuíaSalud",
+    "year": 2014,
+    "url": "https://portal.guiasalud.es/egpc/embarazo-recomendaciones/",
+    "type": "guideline",
+    "population": {
+      "es": "Mujeres que planifican un embarazo y gestantes en el SNS (España).",
+      "en": "Women planning pregnancy and pregnant women in the Spanish NHS."
+    },
+    "finding": {
+      "es": "Antes del embarazo (puntos de buena práctica): ácido fólico 0,4 mg/día desde al menos 1–2 meses antes; 5 mg/día con antecedente de DTN, hijo previo con DTN, diabetes o anticonvulsivos; sal yodada y sin suplemento sistemático de yodo. En la gestación: yoduro potásico 200 µg/día solo si la dieta no alcanza la ingesta recomendada (3 raciones de lácteos y 2 g de sal yodada) (recomendación débil); no ofrecer hierro de forma rutinaria (débil).",
+      "en": "Before pregnancy (good practice points): folic acid 0.4 mg/day from at least 1–2 months before; 5 mg/day with a history of NTD, a previous child with NTD, diabetes or anticonvulsants; iodised salt and no routine iodine supplement. In pregnancy: potassium iodide 200 µg/day only if the diet does not reach the recommended intake (3 servings of dairy and 2 g of iodised salt) (weak recommendation); do not routinely offer iron (weak)."
+    },
+    "limitations": {
+      "es": "Se leyó la página de recomendaciones de GuíaSalud, no el texto completo. GuíaSalud marca documentos de esta guía como caducados (más de 5 años); no se localizó una actualización.",
+      "en": "The GuíaSalud recommendations page was read, not the full text. GuíaSalud flags documents of this guideline as out of date (over 5 years); no update was found."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "ar-1997-ley-24786-sal-yodada",
+    "title": "Ley 24.786: sal para uso alimentario humano o animal, modificación de la Ley 17.259",
+    "authors": "Congreso de la Nación Argentina (texto publicado por el Ministerio de Salud, Legisalud/e-legis-ar)",
+    "year": 1997,
+    "url": "https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/6315.pdf",
+    "type": "other",
+    "population": {
+      "es": "Población general de Argentina (sal de uso alimentario).",
+      "en": "General population of Argentina (salt for food use)."
+    },
+    "finding": {
+      "es": "Sustituye el art. 1 de la Ley 17.259: en todo el territorio nacional, la sal para uso alimentario humano o animal debe estar enriquecida con yodo, también las sales sin sodio o con menos sodio; se sanciona la venta de sal no yodada.",
+      "en": "Replaces article 1 of Law 17,259: throughout the country, salt for human or animal food use must be iodine-enriched, including sodium-free or reduced-sodium salts; selling non-iodised salt is penalised."
+    },
+    "limitations": {
+      "es": "Norma legal, no guía clínica; no fija dosis en el embarazo. No se pudo leer el texto original de la Ley 17.259 ni el documento del programa de ANMAT (argentina.gob.ar devolvió HTTP 522/523).",
+      "en": "Statute, not a clinical guideline; sets no dose for pregnancy. The original text of Law 17,259 and the ANMAT programme document could not be read (argentina.gob.ar returned HTTP 522/523)."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "msal-ar-acido-folico",
+    "title": "Ácido fólico (glosario de salud)",
+    "authors": "Ministerio de Salud de la Nación (Argentina)",
+    "year": 2026,
+    "url": "https://www.argentina.gob.ar/salud/glosario/acidofolico",
+    "type": "fact-sheet",
+    "population": {
+      "es": "Mujeres que pueden quedar embarazadas (Argentina).",
+      "en": "Women who could become pregnant (Argentina)."
+    },
+    "finding": {
+      "es": "0,4 mg/día desde tres meses antes de la concepción hasta las primeras 7 semanas; tras un hijo con defecto del tubo neural, 4 mg/día para prevenir la recurrencia; empezar después de saberse embarazada no previene los DTN.",
+      "en": "0.4 mg/day from three months before conception until the first 7 weeks; after a previous baby with a neural tube defect, 4 mg/day to prevent recurrence; starting after the pregnancy is known does not prevent NTDs."
+    },
+    "limitations": {
+      "es": "Página divulgativa sin fecha visible (el año es el de acceso). La GPC nacional de Atención Prenatal de Bajo Riesgo de 2023 recomienda, en la gestación, hierro 60 mg + ácido fólico 0,4 mg diarios.",
+      "en": "Public information page with no visible date (year is the access year). The 2023 national low-risk prenatal care guideline recommends daily iron 60 mg + folic acid 0.4 mg in pregnancy."
+    },
+    "accessed": "2026-10-14"
   }
 ]
