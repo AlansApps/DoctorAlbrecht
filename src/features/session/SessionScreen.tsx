@@ -1,5 +1,5 @@
 import { Check, ChevronLeft, Pause, Square, X } from 'lucide-react';
-import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
 import { navigate } from '../../app/router.ts';
 import type { PackQuestion } from '../../domain/content/schema.ts';
@@ -14,6 +14,7 @@ import { CardView, SourcesSheet } from '../card/CardView.tsx';
 import { answerCurrentStep, type StepOutcome } from './sessionActions.ts';
 import { useFlagToggle } from '../card/useFlagToggle.ts';
 import { useStartSession } from './useStartSession.ts';
+import { LETTERS, shuffled } from '../../domain/session/shuffle.ts';
 
 type Phase = { kind: 'loading' } | { kind: 'none' } | { kind: 'error'; offline: boolean } | { kind: 'step' } | { kind: 'summary'; summary: SessionSummary };
 
@@ -282,6 +283,8 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
   const { t } = useI18n();
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const correctId = q.options.find((o) => o.correct)?.id;
+  // Options are shown in a fresh random order each time the question appears; letters are positional.
+  const options = useMemo(() => shuffled(q.options, Math.floor(Math.random() * 2 ** 31)), [q.id]);
   const wasRight = checked && choice === correctId;
   return (
     <article className="question">
@@ -293,7 +296,7 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
         </div>
       ) : null}
       <fieldset className="options" disabled={checked} aria-labelledby={`stem-${q.id}`}>
-        {q.options.map((o) => {
+        {options.map((o, idx) => {
           const isChoice = o.id === choice;
           const isCorrect = o.id === correctId;
           const state = !checked ? (isChoice ? 'selected' : '') : isCorrect ? 'correct' : isChoice ? 'wrong' : 'dim';
@@ -301,7 +304,7 @@ export function QuestionView({ q, references, choice, checked, onChoose, heading
             <label key={o.id} className={`option option--${state || 'idle'}`}>
               <input type="radio" name={`q-${q.id}`} value={o.id} checked={isChoice} onChange={() => onChoose(o.id)} />
               <span className="option__mark" aria-hidden="true">
-                {checked && isCorrect ? <Check className="icon" /> : checked && isChoice ? <X className="icon" /> : o.id.toUpperCase()}
+                {checked && isCorrect ? <Check className="icon" /> : checked && isChoice ? <X className="icon" /> : LETTERS[idx]}
               </span>
               <span className="option__body">
                 {checked && (isCorrect || isChoice) ? (

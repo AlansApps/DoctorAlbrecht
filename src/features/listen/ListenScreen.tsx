@@ -9,6 +9,7 @@ import { recordAttempt } from '../../storage/progressRepo.ts';
 import { Button, Notice } from '../../ui/components.tsx';
 import { VoiceSettings } from '../settings/VoiceSettings.tsx';
 import { currentPlanState, planSteps } from '../session/sessionActions.ts';
+import { LETTERS, shuffled } from '../../domain/session/shuffle.ts';
 
 interface Segment {
   itemId: string;
@@ -26,10 +27,11 @@ export function buildScript(items: LoadedItem[], t: ReturnType<typeof useI18n>['
     if (item.kind === 'card') {
       out.push({ itemId: item.id, kind: 'card', text: stripForSpeech([item.title, item.core, item.body, item.pearl].filter(Boolean).join('. ')), pauseAfter: 800 });
     } else if (item.kind === 'question') {
-      const opts = item.options.map((o) => `${o.id.toUpperCase()}: ${o.text}`).join('. ');
+      const order = shuffled(item.options, Math.floor(Math.random() * 2 ** 31));
+      const opts = order.map((o, i) => `${LETTERS[i]}: ${o.text}`).join('. ');
       out.push({ itemId: item.id, kind: 'question', text: stripForSpeech(`${item.stem} ${opts}. ${t('listen.questionPause')}`), pauseAfter: QUESTION_PAUSE_MS });
       const correct = item.options.find((o) => o.correct)!;
-      out.push({ itemId: item.id, kind: 'answer', text: stripForSpeech(`${t('listen.answerIs', { answer: `${correct.id.toUpperCase()}, ${correct.text}` })} ${item.explanation}`), pauseAfter: 800 });
+      out.push({ itemId: item.id, kind: 'answer', text: stripForSpeech(`${t('listen.answerIs', { answer: `${LETTERS[order.indexOf(correct)]}, ${correct.text}` })} ${item.explanation}`), pauseAfter: 800 });
     }
   }
   return out;
