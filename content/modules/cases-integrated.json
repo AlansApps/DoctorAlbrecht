@@ -1,0 +1,1734 @@
+{
+  "id": "cases-integrated",
+  "macroId": "cases",
+  "title": {
+    "es": "Casos integrados: fertilidad, tiroides, endometriosis y menopausia",
+    "en": "Integrated cases: fertility, thyroid, endometriosis and menopause"
+  },
+  "lessons": [
+    {
+      "id": "cases-int.l1-pcos-thyroid",
+      "microId": "cases.labs-interpretation",
+      "title": {
+        "es": "SOP, anticuerpos tiroideos y suplementos preconcepcionales",
+        "en": "PCOS, thyroid antibodies and preconception supplements"
+      },
+      "objective": {
+        "es": "Integrar en una mujer con SOP que busca embarazo el estudio inicial, la lectura de una TSH de 3,2 con TPOAb positivos según ATA, ETA y ASRM, el lugar real del inositol y los suplementos de folato y yodo con respaldo.",
+        "en": "In a woman with PCOS trying to conceive, integrate the initial work-up, the reading of a TSH of 3.2 with positive TPOAb according to ATA, ETA and ASRM, the real place of inositol, and the supported folate and iodine supplements."
+      },
+      "closing": {
+        "es": "Eutiroidea con anticuerpos: la ATA recomienda no tratar y vigilar cada 3–6 meses; la ETA sugiere tratar caso a caso antes de una estimulación. El inositol es experimental como tratamiento de fertilidad; el letrozol es la primera línea. Ácido fólico para todas y yodo si hay riesgo de déficit, sin pasar de 500 µg/día.",
+        "en": "Euthyroid with antibodies: ATA recommends not treating and monitoring every 3–6 months; ETA suggests case-by-case treatment before stimulation. Inositol is experimental as a fertility treatment; letrozole is first line. Folic acid for everyone and iodine if at risk of deficiency, without exceeding 500 µg/day."
+      },
+      "prerequisites": [
+        "pcos.supplements",
+        "thyr.antibodies",
+        "supp.iodine"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "cases-int.c1-workup-first",
+        "cases-int.c2-tsh-tpo-disagree",
+        "cases-int.c3-tpo-followup",
+        "cases-int.c4-inositol-fertility",
+        "cases-int.c5-folate-iodine",
+        "cases-int.q1-tsh-tpo-ata",
+        "cases-int.q2-guidelines-map",
+        "cases-int.q3-inositol-experimental",
+        "cases-int.q4-iodine-vegan",
+        "cases-int.case1-olga"
+      ]
+    },
+    {
+      "id": "cases-int.l2-endo-male-addons",
+      "microId": "cases.integrated-plan",
+      "title": {
+        "es": "Endometrioma, seminograma límite y add-ons",
+        "en": "Endometrioma, borderline semen and add-ons"
+      },
+      "objective": {
+        "es": "Planificar el tratamiento de una pareja con endometrioma y un seminograma límite: qué confirmar, por qué no operar el endometrioma para mejorar la FIV, cuándo valorar la ICSI y cómo revisar un paquete de add-ons con ESHRE y NICE.",
+        "en": "Plan treatment for a couple with an endometrioma and a borderline semen analysis: what to confirm, why not to operate on the endometrioma to improve IVF, when to weigh ICSI, and how to review an add-ons package with ESHRE and NICE."
+      },
+      "closing": {
+        "es": "Los dos se evalúan a la vez; el seminograma límite se repite a los 3 meses. El endometrioma no se opera para mejorar la FIV. Receptividad, inmunología, PGT-A, scratching y antioxidantes no tienen respaldo; el ácido hialurónico en la transferencia sí.",
+        "en": "Both partners are assessed at once; a borderline semen analysis is repeated at 3 months. The endometrioma is not operated on to improve IVF. Receptivity, immunology, PGT-A, scratching and antioxidants are not supported; hyaluronic acid at transfer is."
+      },
+      "prerequisites": [
+        "fert.endometriosis",
+        "fert.male-semen",
+        "fert.addons-overview"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "cases-int.c6-endometrioma-art",
+        "cases-int.c7-semen-borderline",
+        "cases-int.c8-art-endo-male",
+        "cases-int.c9-addon-package",
+        "cases-int.q5-endometrioma-surgery",
+        "cases-int.q6-semen-14",
+        "cases-int.q7-hyaluronic",
+        "cases-int.case2-silvia-oscar"
+      ]
+    },
+    {
+      "id": "cases-int.l3-perimeno-prolactin-claims",
+      "microId": "cases.media-claims",
+      "title": {
+        "es": "Perimenopausia, prolactina, «bioidénticas» y test comerciales",
+        "en": "Perimenopause, prolactin, “bioidenticals” and commercial tests"
+      },
+      "objective": {
+        "es": "Estudiar a una mujer de 44 años con ciclos irregulares, sofocos y prolactina alta con antipsicótico, responder a la petición de hormonas magistrales y de un test de microbiota en heces y decidir con ella con números absolutos.",
+        "en": "Work up a 44-year-old with irregular cycles, hot flushes and raised prolactin on an antipsychotic, respond to requests for compounded hormones and a stool microbiome test, and decide with her using absolute numbers."
+      },
+      "closing": {
+        "es": "A los 44 no es IOP: la NICE permite considerar la FSH. La prolactina leve con antipsicótico se repite, se revisan causas y se habla con psiquiatría. Bioidéntico aprobado no es magistral. El test de heces no tiene uso rutinario. Todas las opciones, incluida no tratar, en frecuencias absolutas.",
+        "en": "At 44 it is not POI: NICE allows FSH to be considered. Mild prolactin elevation on an antipsychotic is repeated, causes are reviewed and psychiatry is involved. Approved bioidentical is not compounded. The stool test has no routine use. Every option, including no treatment, in absolute frequencies."
+      },
+      "prerequisites": [
+        "meno.ht",
+        "menst.hyperprolactinemia",
+        "found.diagnostic-tests"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "cases-int.c10-age-44",
+        "cases-int.c11-prolactin-antipsychotic",
+        "cases-int.c12-bioidentical",
+        "cases-int.c13-stool-test",
+        "cases-int.c14-sdm-uncertainty",
+        "cases-int.q8-fsh-44",
+        "cases-int.q9-prolactin-next",
+        "cases-int.q10-compounded",
+        "cases-int.q11-stool-test",
+        "cases-int.case3-mercedes"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c1-workup-first",
+      "conceptId": "cases-int.pcos-thyroid-workup",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "SOP que busca embarazo: qué pedir primero",
+        "en": "PCOS and trying to conceive: what to order first"
+      },
+      "core": {
+        "es": "La guía internacional de SOP 2023 diagnostica con dos de tres criterios tras excluir otras etiologías, y cuando coinciden ciclos irregulares e hiperandrogenismo no hacen falta ecografía ni AMH. [[ref:teede-2023-pcos-guideline]] Para el tiroides, la ATA 2026 indica medir la TSH a toda mujer no embarazada con infertilidad (GPS) y permite medir TPOAb (condicional, certeza baja); la ETA 2021 recomienda TSH y TPOAb en toda mujer subfértil; y la ASRM 2024 pide TSH y T4 cuando hay signos o síntomas de hipotiroidismo, entre ellos los ciclos irregulares, en lugar de en todas. [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]] [[ref:asrm-2024-subclinical-hypothyroidism]]",
+        "en": "The 2023 international PCOS guideline diagnoses with two of three criteria after excluding other aetiologies, and when irregular cycles and hyperandrogenism coexist, ultrasound and AMH are not needed. [[ref:teede-2023-pcos-guideline]] For the thyroid, ATA 2026 states that TSH should be measured in every non-pregnant woman with infertility (GPS) and allows TPOAb testing (conditional, low certainty); ETA 2021 recommends TSH and TPOAb in every subfertile woman; and ASRM 2024 asks for TSH and T4 when there are signs or symptoms of hypothyroidism, including irregular cycles, rather than in all patients. [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]] [[ref:asrm-2024-subclinical-hypothyroidism]]"
+      },
+      "body": {
+        "es": "En la mujer con SOP sin diabetes previa que planifica embarazo o busca tratamiento de fertilidad, la guía de SOP propone considerar una sobrecarga oral de glucosa por el alto riesgo de hiperglucemia en el embarazo (condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]] También pide considerar y optimizar, como en cualquier cuidado preconcepcional, el peso, la presión arterial, el tabaco, el alcohol, la dieta y el estado nutricional, el folato, el ejercicio, el sueño y la salud mental, emocional y sexual (consenso, fuerte). [[ref:teede-2023-pcos-guideline]] La ASRM 2024 no recomienda buscar autoinmunidad tiroidea en mujeres infértiles asintomáticas, mientras que la ATA y la ETA sí la contemplan. [[ref:asrm-2024-subclinical-hypothyroidism]] [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]]",
+        "en": "In a woman with PCOS and no pre-existing diabetes who is planning pregnancy or seeking fertility treatment, the PCOS guideline proposes considering an oral glucose tolerance test because of the high risk of hyperglycaemia in pregnancy (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]] It also asks that, as in any preconception care, weight, blood pressure, smoking, alcohol, diet and nutritional status, folate, exercise, sleep and mental, emotional and sexual health be considered and optimised (consensus, strong). [[ref:teede-2023-pcos-guideline]] ASRM 2024 does not recommend screening asymptomatic infertile women for thyroid autoimmunity, whereas ATA and ETA do contemplate it. [[ref:asrm-2024-subclinical-hypothyroidism]] [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]]"
+      },
+      "pearl": {
+        "es": "Antes de pedir TPOAb, decide qué harás con un resultado positivo: es justo lo que separa a las guías.",
+        "en": "Before ordering TPOAb, decide what you will do with a positive result: that is exactly where the guidelines part ways."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Teede 2023: diagnóstico; 1.9.11 (EBR, ❖❖❖, ⊕◯◯◯); 5.1.2 (CR, ❖❖❖❖). ATA 2026, tabla 4. ETA 2021, R1. ASRM 2024, resumen de recomendaciones.",
+          "en": "Teede 2023: diagnosis; 1.9.11 (EBR, ❖❖❖, ⊕◯◯◯); 5.1.2 (CR, ❖❖❖❖). ATA 2026, table 4. ETA 2021, R1. ASRM 2024, summary of recommendations."
+        }
+      },
+      "recall": {
+        "es": "En una mujer con SOP e infertilidad, ¿qué dicen ATA, ETA y ASRM sobre medir TSH y TPOAb, y qué prueba metabólica propone la guía de SOP?",
+        "en": "In a woman with PCOS and infertility, what do ATA, ETA and ASRM say about measuring TSH and TPOAb, and which metabolic test does the PCOS guideline propose?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c2-tsh-tpo-disagree",
+      "conceptId": "cases-int.tsh-tpo-disagreement",
+      "type": "comparison",
+      "title": {
+        "es": "TSH 3,2 con TPOAb positivos: qué dice cada guía",
+        "en": "TSH 3.2 with positive TPOAb: what each guideline says"
+      },
+      "core": {
+        "es": "La ATA 2026 aplica antes del embarazo las mismas definiciones de función tiroidea normal que en la población no gestante (GPS) y establece que no se ofrezca levotiroxina a las eutiroideas con TPOAb y/o TgAb positivos e infertilidad, sea cual sea la TSH o la historia de abortos (fuerte, certeza alta). [[ref:ata-2026-thyroid-pregnancy]] La ETA 2021, en cambio, sugiere levotiroxina a dosis baja (habitualmente 25–50 µg/día) caso a caso en mujeres con autoinmunidad y TSH entre 2,5 y 4,0 mUI/l antes de la estimulación ovárica (2, ØØOO). [[ref:eta-2021-thyroid-art]] Para la ASRM 2024, una TSH de 3,2 dentro del rango no es un hipotiroidismo subclínico (usa el límite superior del laboratorio o, si no lo hay, 4,12 mUI/l), y ni siquiera el hipotiroidismo subclínico recomienda tratarlo con levotiroxina en mujeres que buscan embarazo (evidencia B, moderada). [[ref:asrm-2024-subclinical-hypothyroidism]]",
+        "en": "Before pregnancy, ATA 2026 applies the same definitions of normal thyroid function as in the non-pregnant population (GPS) and states that levothyroxine should not be offered to euthyroid women with positive TPOAb and/or TgAb and infertility, regardless of TSH or miscarriage history (strong, high certainty). [[ref:ata-2026-thyroid-pregnancy]] ETA 2021, by contrast, suggests low-dose levothyroxine (usually 25–50 µg/day) case by case in women with autoimmunity and TSH between 2.5 and 4.0 mIU/L before ovarian stimulation (2, ØØOO). [[ref:eta-2021-thyroid-art]] For ASRM 2024, a TSH of 3.2 within the reference range is not subclinical hypothyroidism (it uses the laboratory upper limit or, if none, 4.12 mIU/L), and it does not recommend levothyroxine even for subclinical hypothyroidism in women desiring pregnancy (evidence B, moderate). [[ref:asrm-2024-subclinical-hypothyroidism]]"
+      },
+      "body": {
+        "es": "La propia ETA 2021 sugiere no tratar de forma sistemática a las eutiroideas con autoinmunidad que van a FIV/ICSI (R19), y para el caso a caso de R15 menciona abortos de repetición, edad > 35 años y causas ováricas de subfertilidad. [[ref:eta-2021-thyroid-art]] La ATA 2026 se apoya en tres ensayos de alta calidad (TABLET, T4LIFE y un ensayo chino en FIV) en los que la levotiroxina preconcepcional no mejoró los resultados de fertilidad ni de embarazo. [[ref:ata-2026-thyroid-pregnancy]] La ASRM 2024 recomienda explicar que una TSH entre 2,5 y 4 mUI/l no se asocia a más abortos (evidencia B, moderada). [[ref:asrm-2024-subclinical-hypothyroidism]]",
+        "en": "ETA 2021 itself suggests not systematically treating euthyroid women with autoimmunity undergoing IVF/ICSI (R19), and for the R15 case-by-case option it mentions recurrent miscarriage, age > 35 years and ovarian causes of subfertility. [[ref:eta-2021-thyroid-art]] ATA 2026 relies on three high-quality trials (TABLET, T4LIFE and a Chinese IVF trial) in which preconception levothyroxine did not improve fertility or pregnancy outcomes. [[ref:ata-2026-thyroid-pregnancy]] ASRM 2024 recommends counselling that a TSH between 2.5 and 4 mIU/L is not associated with more miscarriage (evidence B, moderate). [[ref:asrm-2024-subclinical-hypothyroidism]]"
+      },
+      "pearl": {
+        "es": "Formúlalo así: la ATA recomienda no tratar; la ETA sugiere tratar caso a caso antes de una estimulación. La recomendación con más certeza es la de la ATA (fuerte, alta).",
+        "en": "Put it this way: ATA recommends not treating; ETA suggests case-by-case treatment before stimulation. The recommendation with the highest certainty is ATA’s (strong, high)."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ATA 2026, tablas 1 y 7. ETA 2021, R15 y R19 (2, ØØOO). ASRM 2024, definición (p. 767) y resumen de recomendaciones (p. 777). Módulo de tiroides y fertilidad.",
+          "en": "ATA 2026, tables 1 and 7. ETA 2021, R15 and R19 (2, ØØOO). ASRM 2024, definition (p. 767) and summary of recommendations (p. 777). Thyroid and fertility module."
+        }
+      },
+      "recall": {
+        "es": "Eutiroidea con TPOAb positivos y TSH 3,2: ¿qué recomienda la ATA 2026 y qué sugiere la ETA 2021?",
+        "en": "Euthyroid woman with positive TPOAb and TSH 3.2: what does ATA 2026 recommend and what does ETA 2021 suggest?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c3-tpo-followup",
+      "conceptId": "cases-int.tpo-followup",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Anticuerpos positivos: vigilar en lugar de tratar",
+        "en": "Positive antibodies: monitor instead of treating"
+      },
+      "core": {
+        "es": "Según la ATA 2026, la positividad de TPOAb se asocia a un riesgo del 7–9 % de desarrollar hipotiroidismo subclínico antes o durante el embarazo, y la autoinmunidad en una eutiroidea no es indicación de levotiroxina. [[ref:ata-2026-thyroid-pregnancy]] Por eso sugiere repetir TSH y T4 libre cada 3–6 meses mientras planifica el embarazo (condicional, certeza baja). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "According to ATA 2026, TPOAb positivity is associated with a 7–9% risk of developing subclinical hypothyroidism before or during pregnancy, and autoimmunity in a euthyroid woman is not an indication for levothyroxine. [[ref:ata-2026-thyroid-pregnancy]] It therefore suggests rechecking TSH and free T4 every 3–6 months while she plans pregnancy (conditional, low certainty). [[ref:ata-2026-thyroid-pregnancy]]"
+      },
+      "body": {
+        "es": "La ATA 2026 indica no ofrecer prednisolona oral ni inmunoglobulina intravenosa a mujeres con TPOAb y/o TgAb e infertilidad (condicional, certeza baja), y en gestantes eutiroideas con anticuerpos desaconseja los suplementos de selenio (condicional, certeza moderada). [[ref:ata-2026-thyroid-pregnancy]] Si llegara a necesitar levotiroxina, el objetivo de TSH en mujeres con infertilidad es de 0,5–2,5 mU/l antes y durante el embarazo (GPS). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "ATA 2026 states that oral prednisolone or intravenous immunoglobulin should not be offered to women with TPOAb and/or TgAb and infertility (conditional, low certainty), and in euthyroid antibody-positive pregnant women it advises against selenium supplements (conditional, moderate certainty). [[ref:ata-2026-thyroid-pregnancy]] If she ever needs levothyroxine, the TSH target in women with infertility is 0.5–2.5 mU/L before and during pregnancy (GPS). [[ref:ata-2026-thyroid-pregnancy]]"
+      },
+      "pearl": {
+        "es": "El anticuerpo positivo cambia la frecuencia de los controles, no la receta.",
+        "en": "A positive antibody changes how often you check, not what you prescribe."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ATA 2026, tablas 4 y 7 (pp. 494 y 497), 7–9 % en el texto y en la nota del diagrama 1 (p. 501); selenio en gestantes eutiroideas con anticuerpos, tabla 11 (p. 504; condicional, moderada).",
+          "en": "ATA 2026, tables 4 and 7 (pp. 494 and 497), 7–9% in the text and in the flowchart 1 footnote (p. 501); selenium in euthyroid antibody-positive pregnant women, table 11 (p. 504; conditional, moderate)."
+        }
+      },
+      "recall": {
+        "es": "¿Cada cuánto sugiere la ATA 2026 repetir TSH y T4 libre en una eutiroidea con TPOAb que planifica embarazo, y qué tratamientos desaconseja?",
+        "en": "How often does ATA 2026 suggest rechecking TSH and free T4 in a euthyroid TPOAb-positive woman planning pregnancy, and which treatments does it advise against?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c4-inositol-fertility",
+      "conceptId": "cases-int.inositol-two-recs",
+      "type": "supplement",
+      "title": {
+        "es": "Inositol: «puede considerarse» no es «tratamiento de fertilidad»",
+        "en": "Inositol: “could be considered” is not “fertility treatment”"
+      },
+      "core": {
+        "es": "La guía internacional de SOP 2023 dice que el inositol, en cualquier forma, podría considerarse según preferencias y valores, con daño limitado, posible mejora de parámetros metabólicos y beneficio clínico limitado, también en la ovulación, el hirsutismo o el peso (condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]] Pero en mujeres con SOP e infertilidad establece que el inositol, solo o combinado con otras terapias, debe considerarse terapia experimental, con beneficios y riesgos demasiado inciertos para recomendarlo como tratamiento de fertilidad (condicional, certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The 2023 international PCOS guideline says that inositol, in any form, could be considered based on preferences and values, noting limited harm, potential improvement in metabolic measures and limited clinical benefit, including in ovulation, hirsutism or weight (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]] But in women with PCOS and infertility it states that inositol, alone or combined with other therapies, should be considered experimental therapy, with benefits and risks too uncertain to recommend it as a fertility treatment (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La misma guía señala que no puede recomendarse ningún tipo, dosis ni combinación concreta de inositol, que sus efectos adversos y su seguridad no se conocen y que estos productos pueden tener poca regulación, con dosis, calidad y combinaciones variables (puntos de práctica). [[ref:teede-2023-pcos-guideline]] Para inducir la ovulación en mujeres anovuladoras con SOP sin otros factores de infertilidad, el tratamiento farmacológico de primera línea es el letrozol (fuerte, certeza alta), y la intervención sobre el estilo de vida se recomienda a todas para mejorar la salud metabólica (fuerte, certeza muy baja). [[ref:teede-2023-pcos-guideline]]",
+        "en": "The same guideline notes that no specific type, dose or combination of inositol can be recommended, that its side effects and safety are not known, and that these products may have limited regulation, with variable dose, quality and combinations (practice points). [[ref:teede-2023-pcos-guideline]] For ovulation induction in anovulatory women with PCOS and no other infertility factors, the first-line pharmacological treatment is letrozole (strong, high certainty), and lifestyle intervention is recommended for all to improve metabolic health (strong, very low certainty). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "pearl": {
+        "es": "Si lo quiere tomar, que sea una decisión informada y que no retrase el letrozol si no ovula.",
+        "en": "If she wants to take it, make it an informed choice that does not delay letrozole if she is not ovulating."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "Teede 2023: 4.7.1 (EBR, ❖❖❖, certeza muy baja), 4.7.4 (PP), 5.8.1 (EBR, ❖❖❖, ⨁◯◯◯), 5.8.3–5.8.4 (PP), 5.3.1 (EBR, ❖❖❖❖, ⊕⊕⊕⊕); 3.1.1 (EBR, ❖❖❖❖, ⊕◯◯◯); 4.7.5 (PP).",
+          "en": "Teede 2023: 4.7.1 (EBR, ❖❖❖, very low certainty), 4.7.4 (PP), 5.8.1 (EBR, ❖❖❖, ⨁◯◯◯), 5.8.3–5.8.4 (PP), 5.3.1 (EBR, ❖❖❖❖, ⊕⊕⊕⊕); 3.1.1 (EBR, ❖❖❖❖, ⊕◯◯◯); 4.7.5 (PP)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué diferencia hay entre lo que dice la guía de SOP sobre el inositol en general y sobre el inositol como tratamiento de fertilidad?",
+        "en": "What is the difference between what the PCOS guideline says about inositol in general and about inositol as a fertility treatment?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c5-folate-iodine",
+      "conceptId": "cases-int.folate-iodine-pcos",
+      "type": "supplement",
+      "title": {
+        "es": "Folato y yodo: lo que sí tiene respaldo",
+        "en": "Folate and iodine: what is actually supported"
+      },
+      "core": {
+        "es": "El USPSTF recomienda (grado A) que toda persona que planifica o puede quedar embarazada tome a diario un suplemento con 0,4–0,8 mg (400–800 µg) de ácido fólico, desde al menos 1 mes antes de la concepción hasta los primeros 2–3 meses del embarazo. [[ref:uspstf-2023-folic-acid]] La guía de SOP incluye el folato en el cuidado preconcepcional, con una dosis más alta si el IMC es > 30 kg/m² (sin precisar cuál), y pide iniciar los suplementos vitamínicos prenatales junto con la inducción de la ovulación (consenso y punto de práctica). [[ref:teede-2023-pcos-guideline]]",
+        "en": "USPSTF recommends (grade A) that everyone who plans to or could become pregnant take a daily supplement containing 0.4–0.8 mg (400–800 µg) of folic acid, from at least 1 month before conception through the first 2–3 months of pregnancy. [[ref:uspstf-2023-folic-acid]] The PCOS guideline includes folate in preconception care, with a higher dose if BMI is > 30 kg/m² (without specifying it), and asks for prenatal vitamin supplementation to start together with ovulation induction (consensus and practice point). [[ref:teede-2023-pcos-guideline]]"
+      },
+      "body": {
+        "es": "La ATA 2026 recomienda que embarazadas y lactantes busquen una ingesta diaria de yodo de 250 µg, con dieta y suplementos según haga falta (fuerte, moderada), y sugiere un suplemento de 150 µg/día, idealmente desde al menos 3 meses antes del embarazo y hasta terminar la lactancia, en mujeres con riesgo de déficit por la región, restricciones dietéticas o malabsorción (condicional, moderada). [[ref:ata-2026-thyroid-pregnancy]] También pide evitar en el embarazo un aporte excesivo y sostenido de yodo y suplementos de más de 500 µg/día, por el riesgo de disfunción tiroidea fetal y materna (fuerte, moderada). [[ref:ata-2026-thyroid-pregnancy]]",
+        "en": "ATA 2026 recommends that pregnant and lactating women aim for a daily iodine intake of 250 µg, from diet plus supplements as required (strong, moderate), and suggests a 150 µg/day supplement, ideally from at least 3 months before pregnancy until lactation is complete, in women at risk of deficiency because of geographic region, dietary restrictions or malabsorption (conditional, moderate). [[ref:ata-2026-thyroid-pregnancy]] It also asks to avoid sustained excessive iodine intake and supplements above 500 µg/day in pregnancy, because of concerns for fetal and maternal thyroid dysfunction (strong, moderate). [[ref:ata-2026-thyroid-pregnancy]]"
+      },
+      "pearl": {
+        "es": "Al revisar su multivitamínico «para el SOP», suma el yodo de todos los suplementos que toma.",
+        "en": "When reviewing her “PCOS” multivitamin, add up the iodine from every supplement she takes."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "USPSTF 2023 (grado A). Teede 2023: 5.1.2 (CR, ❖❖❖❖) y punto de práctica sobre vitaminas prenatales. ATA 2026, tabla 3.",
+          "en": "USPSTF 2023 (grade A). Teede 2023: 5.1.2 (CR, ❖❖❖❖) and practice point on prenatal vitamins. ATA 2026, table 3."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dosis de ácido fólico recomienda el USPSTF y a quién sugiere la ATA 2026 un suplemento de 150 µg/día de yodo?",
+        "en": "What folic acid dose does USPSTF recommend, and to whom does ATA 2026 suggest a 150 µg/day iodine supplement?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q1-tsh-tpo-ata",
+      "conceptId": "cases-int.tsh-tpo-disagreement",
+      "difficulty": 2,
+      "stem": {
+        "es": "Olga (caso ficticio), 31 años, con SOP, busca embarazo sin reproducción asistida. TSH 3,2 mU/l dentro del rango de su laboratorio, T4 libre normal y TPOAb positivos. ¿Qué establece la ATA 2026?",
+        "en": "Olga (fictional case), 31, with PCOS, is trying to conceive without assisted reproduction. TSH 3.2 mU/L within her laboratory range, normal free T4 and positive TPOAb. What does ATA 2026 state?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Levotiroxina para bajar la TSH por debajo de 2,5 mU/l",
+            "en": "Levothyroxine to bring TSH below 2.5 mU/L"
+          },
+          "correct": false,
+          "why": {
+            "es": "El objetivo de 0,5–2,5 mU/l es para quien ya toma levotiroxina; en la eutiroidea con anticuerpos, la ATA dice no tratar sea cual sea la TSH.",
+            "en": "The 0.5–2.5 mU/L target is for women already on levothyroxine; in a euthyroid antibody-positive woman ATA says not to treat, whatever the TSH."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No ofrecer levotiroxina, sea cual sea la TSH dentro del rango normal",
+            "en": "Do not offer levothyroxine, regardless of TSH within the normal range"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación fuerte con certeza alta para eutiroideas con TPOAb y/o TgAb e infertilidad.",
+            "en": "Correct: a strong, high-certainty recommendation for euthyroid women with TPOAb and/or TgAb and infertility."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Selenio para bajar los anticuerpos",
+            "en": "Selenium to lower the antibodies"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA desaconseja el selenio en gestantes eutiroideas con anticuerpos (condicional, moderada); no lo propone como tratamiento.",
+            "en": "ATA advises against selenium in euthyroid antibody-positive pregnant women (conditional, moderate); it does not propose it as treatment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Prednisolona oral en dosis baja",
+            "en": "Low-dose oral prednisolone"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA indica no ofrecer prednisolona ni inmunoglobulina a mujeres con anticuerpos e infertilidad.",
+            "en": "ATA states that prednisolone or immunoglobulin should not be offered to antibody-positive women with infertility."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes del embarazo, la ATA usa las definiciones de la población no gestante, así que una TSH dentro de rango es eutiroidismo. Con anticuerpos positivos, lo que cambia es el seguimiento (TSH y T4 libre cada 3–6 meses), no el tratamiento.",
+        "en": "Before pregnancy ATA uses the non-pregnant definitions, so a TSH within range is euthyroidism. With positive antibodies, what changes is follow-up (TSH and free T4 every 3–6 months), not treatment."
+      },
+      "refIds": [
+        "ata-2026-thyroid-pregnancy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q2-guidelines-map",
+      "conceptId": "cases-int.tsh-tpo-disagreement",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Cuál de estas afirmaciones sobre las guías de tiroides y fertilidad es correcta?",
+        "en": "Which of these statements about thyroid and fertility guidelines is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ASRM 2024 recomienda medir TPOAb a toda mujer con infertilidad",
+            "en": "ASRM 2024 recommends TPOAb testing in every woman with infertility"
+          },
+          "correct": false,
+          "why": {
+            "es": "Al revés: la ASRM no recomienda buscar autoinmunidad en infértiles asintomáticas; quien la recomienda en toda subfértil es la ETA.",
+            "en": "The opposite: ASRM does not recommend screening asymptomatic infertile women for autoimmunity; ETA is the one recommending it in every subfertile woman."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ATA 2026 sugiere levotiroxina con TPOAb positivos si la TSH supera 2,5 mU/l",
+            "en": "ATA 2026 suggests levothyroxine with positive TPOAb if TSH exceeds 2.5 mU/L"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA dice no ofrecer levotiroxina a las eutiroideas con anticuerpos e infertilidad, sea cual sea la TSH.",
+            "en": "ATA says levothyroxine should not be offered to euthyroid antibody-positive women with infertility, regardless of TSH."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La ETA 2021 sugiere levotiroxina a dosis baja caso a caso con autoinmunidad y TSH 2,5–4,0 antes de la estimulación, y la ASRM 2024 no recomienda tratar el hipotiroidismo subclínico en quien busca embarazo",
+            "en": "ETA 2021 suggests case-by-case low-dose levothyroxine with autoimmunity and TSH 2.5–4.0 before stimulation, and ASRM 2024 does not recommend treating subclinical hypothyroidism in women desiring pregnancy"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la discrepancia real; la ETA (R15, 2, ØØOO) es anterior a T4LIFE.",
+            "en": "Correct: this is the real disagreement; ETA (R15, 2, ØØOO) predates T4LIFE."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Las tres guías coinciden en no medir la TSH salvo síntomas",
+            "en": "All three guidelines agree on not measuring TSH unless there are symptoms"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA (GPS) y la ETA miden TSH a todas las mujeres con infertilidad; solo la ASRM la limita a signos o síntomas, que incluyen ciclos irregulares.",
+            "en": "ATA (GPS) and ETA measure TSH in all women with infertility; only ASRM limits it to signs or symptoms, which include irregular cycles."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ATA recomienda no tratar a la eutiroidea con anticuerpos; la ETA sugiere tratar caso a caso antes de una estimulación; la ASRM no recomienda tratar el hipotiroidismo subclínico ni buscar autoinmunidad en asintomáticas.",
+        "en": "ATA recommends not treating euthyroid antibody-positive women; ETA suggests case-by-case treatment before stimulation; ASRM recommends neither treating subclinical hypothyroidism nor screening asymptomatic women for autoimmunity."
+      },
+      "refIds": [
+        "ata-2026-thyroid-pregnancy",
+        "eta-2021-thyroid-art",
+        "asrm-2024-subclinical-hypothyroidism"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q3-inositol-experimental",
+      "conceptId": "cases-int.inositol-two-recs",
+      "difficulty": 2,
+      "stem": {
+        "es": "Olga pregunta si un preparado de inositol la ayudará a quedar embarazada. Según la guía internacional de SOP 2023, ¿qué es correcto?",
+        "en": "Olga asks whether an inositol product will help her get pregnant. According to the 2023 international PCOS guideline, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es el tratamiento de primera línea antes del letrozol",
+            "en": "It is first-line treatment before letrozole"
+          },
+          "correct": false,
+          "why": {
+            "es": "La primera línea farmacológica para inducir la ovulación es el letrozol (fuerte, certeza alta).",
+            "en": "First-line pharmacological ovulation induction is letrozole (strong, high certainty)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Como tratamiento de fertilidad debe considerarse experimental, con beneficios y riesgos demasiado inciertos",
+            "en": "As a fertility treatment it should be considered experimental, with benefits and risks too uncertain"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación 5.8.1 (condicional, certeza muy baja).",
+            "en": "Correct: recommendation 5.8.1 (conditional, very low certainty)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Se recomienda una proporción concreta de mio- y D-quiro-inositol",
+            "en": "A specific ratio of myo- and D-chiro-inositol is recommended"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía dice que no puede recomendarse ningún tipo, dosis ni combinación concreta por falta de evidencia de calidad.",
+            "en": "The guideline says no specific type, dose or combination can be recommended because of a lack of quality evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Está contraindicado por daños demostrados",
+            "en": "It is contraindicated because of proven harm"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía habla de daño limitado y de seguridad no conocida, no de daños demostrados.",
+            "en": "The guideline speaks of limited harm and unknown safety, not proven harm."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía separa dos usos: en general, el inositol podría considerarse según preferencias (beneficio clínico limitado); como tratamiento de fertilidad es experimental. Si lo toma, que se lo cuente a sus profesionales y sepa que la calidad y la dosis de estos productos pueden variar.",
+        "en": "The guideline separates two uses: in general, inositol could be considered according to preferences (limited clinical benefit); as a fertility treatment it is experimental. If she takes it, she should tell her clinicians and know that quality and dose of these products can vary."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q4-iodine-vegan",
+      "conceptId": "cases-int.folate-iodine-pcos",
+      "difficulty": 2,
+      "stem": {
+        "es": "Olga sigue una dieta vegana estricta y apenas toma sal yodada. ¿Qué consejo sobre el yodo encaja con la ATA 2026?",
+        "en": "Olga follows a strict vegan diet and hardly uses iodised salt. Which iodine advice fits ATA 2026?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Suplemento de 150 µg/día, idealmente desde al menos 3 meses antes del embarazo",
+            "en": "150 µg/day supplement, ideally from at least 3 months before pregnancy"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ATA lo sugiere en mujeres con riesgo de déficit por restricciones dietéticas (condicional, moderada).",
+            "en": "Correct: ATA suggests it for women at risk of deficiency because of dietary restrictions (conditional, moderate)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "1000 µg/día «para apoyar el tiroides» por tener anticuerpos",
+            "en": "1000 µg/day “to support the thyroid” because of her antibodies"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA pide evitar suplementos de más de 500 µg/día en el embarazo (fuerte, moderada).",
+            "en": "ATA asks to avoid supplements above 500 µg/day in pregnancy (strong, moderate)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ningún yodo hasta tener una prueba de embarazo positiva",
+            "en": "No iodine until she has a positive pregnancy test"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ATA propone empezar idealmente al menos 3 meses antes del embarazo.",
+            "en": "ATA proposes starting ideally at least 3 months before pregnancy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las restricciones dietéticas son uno de los riesgos de déficit que nombra la ATA. La meta en embarazo y lactancia es una ingesta de 250 µg/día sumando dieta y suplementos, sin superar 500 µg/día en suplementos. El texto de la ATA añade que con dieta vegana pueden hacer falta cantidades algo mayores, siempre dentro de ese tope.",
+        "en": "Dietary restriction is one of the deficiency risks named by ATA. The goal in pregnancy and lactation is an intake of 250 µg/day from diet plus supplements, without exceeding 500 µg/day from supplements. The ATA text adds that a vegan diet may require somewhat larger amounts, always within that ceiling."
+      },
+      "refIds": [
+        "ata-2026-thyroid-pregnancy"
+      ]
+    },
+    {
+      "id": "cases-int.case1-olga",
+      "kind": "case",
+      "conceptId": "cases-int.case-olga",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "supplements",
+        "reproduction"
+      ],
+      "title": {
+        "es": "Caso: Olga, SOP, anticuerpos tiroideos e inositol",
+        "en": "Case: Olga, PCOS, thyroid antibodies and inositol"
+      },
+      "steps": [
+        {
+          "id": "cases-int.case1.s1",
+          "text": {
+            "es": "Olga (caso ficticio), 31 años, lleva 14 meses buscando embarazo; tiene ciclos de 35 a 60 días e hirsutismo. Con ciclos irregulares e hiperandrogenismo, el diagnóstico de SOP no necesita ecografía ni AMH, pero sí excluir otras etiologías; la guía de SOP propone además considerar una sobrecarga oral de glucosa al planificar el embarazo. [[ref:teede-2023-pcos-guideline]] Pides TSH, como indican la ATA para toda mujer con infertilidad y la ASRM ante ciclos irregulares, y TPOAb, que la ATA permite y la ETA recomienda. [[ref:ata-2026-thyroid-pregnancy]] [[ref:asrm-2024-subclinical-hypothyroidism]] [[ref:eta-2021-thyroid-art]]",
+            "en": "Olga (fictional case), 31, has been trying to conceive for 14 months; her cycles last 35 to 60 days and she has hirsutism. With irregular cycles and hyperandrogenism, the PCOS diagnosis needs neither ultrasound nor AMH, but other aetiologies must be excluded; the PCOS guideline also proposes considering an oral glucose tolerance test when planning pregnancy. [[ref:teede-2023-pcos-guideline]] You order TSH, as ATA indicates for every woman with infertility and ASRM for irregular cycles, and TPOAb, which ATA allows and ETA recommends. [[ref:ata-2026-thyroid-pregnancy]] [[ref:asrm-2024-subclinical-hypothyroidism]] [[ref:eta-2021-thyroid-art]]"
+          }
+        },
+        {
+          "id": "cases-int.case1.s2",
+          "text": {
+            "es": "Resultados: TSH 3,2 mU/l dentro del rango del laboratorio, T4 libre normal y TPOAb positivos. Con las definiciones de la población no gestante que la ATA aplica antes del embarazo, Olga es eutiroidea, y la ATA indica no ofrecer levotiroxina en esta situación, sea cual sea la TSH. [[ref:ata-2026-thyroid-pregnancy]]",
+            "en": "Results: TSH 3.2 mU/L within the laboratory range, normal free T4 and positive TPOAb. With the non-pregnant definitions that ATA applies before pregnancy, Olga is euthyroid, and ATA states that levothyroxine should not be offered in this situation, regardless of TSH. [[ref:ata-2026-thyroid-pregnancy]]"
+          },
+          "questionId": "cases-int.q1-tsh-tpo-ata"
+        },
+        {
+          "id": "cases-int.case1.s3",
+          "text": {
+            "es": "Una amiga le dijo que con anticuerpos «hay que tomar tiroides». Le explicas la discrepancia: la ATA recomienda no tratar; la ETA sugiere levotiroxina a dosis baja caso a caso con TSH 2,5–4,0 antes de una estimulación ovárica; para la ASRM, una TSH de 3,2 dentro del rango no es un hipotiroidismo subclínico, recomienda explicar que una TSH de 2,5–4 no se asocia a más abortos y no recomienda la levotiroxina ni siquiera en el hipotiroidismo subclínico. [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]] [[ref:asrm-2024-subclinical-hypothyroidism]]",
+            "en": "A friend told her that with antibodies “you have to take thyroid pills”. You explain the disagreement: ATA recommends not treating; ETA suggests case-by-case low-dose levothyroxine with TSH 2.5–4.0 before ovarian stimulation; for ASRM, a TSH of 3.2 within range is not subclinical hypothyroidism, it recommends counselling that a TSH of 2.5–4 is not associated with more miscarriage, and it does not recommend levothyroxine even for subclinical hypothyroidism. [[ref:ata-2026-thyroid-pregnancy]] [[ref:eta-2021-thyroid-art]] [[ref:asrm-2024-subclinical-hypothyroidism]]"
+          },
+          "questionId": "cases-int.q2-guidelines-map"
+        },
+        {
+          "id": "cases-int.case1.s4",
+          "text": {
+            "es": "Olga trae un preparado de inositol «para la fertilidad». La guía de SOP lo considera experimental como tratamiento de fertilidad, sin tipo ni dosis recomendables, y con seguridad no conocida. [[ref:teede-2023-pcos-guideline]]",
+            "en": "Olga brings an inositol product “for fertility”. The PCOS guideline considers it experimental as a fertility treatment, with no recommendable type or dose and unknown safety. [[ref:teede-2023-pcos-guideline]]"
+          },
+          "questionId": "cases-int.q3-inositol-experimental"
+        },
+        {
+          "id": "cases-int.case1.s5",
+          "text": {
+            "es": "Es vegana estricta. Le indicas ácido fólico de 0,4–0,8 mg/día, como recomienda el USPSTF, y valoras el yodo: la ATA sugiere 150 µg/día en mujeres con restricciones dietéticas y pide no superar 500 µg/día en suplementos durante el embarazo. [[ref:uspstf-2023-folic-acid]] [[ref:ata-2026-thyroid-pregnancy]]",
+            "en": "She is a strict vegan. You advise folic acid 0.4–0.8 mg/day, as USPSTF recommends, and consider iodine: ATA suggests 150 µg/day in women with dietary restrictions and asks not to exceed 500 µg/day from supplements in pregnancy. [[ref:uspstf-2023-folic-acid]] [[ref:ata-2026-thyroid-pregnancy]]"
+          },
+          "questionId": "cases-int.q4-iodine-vegan"
+        },
+        {
+          "id": "cases-int.case1.s6",
+          "text": {
+            "es": "Plan: hábitos según la guía de SOP, letrozol como primera línea si se confirma anovulación sin otros factores, seminograma de su pareja dentro de la evaluación simultánea de ambos, y TSH con T4 libre cada 3–6 meses mientras busca embarazo. [[ref:teede-2023-pcos-guideline]] [[ref:aua-asrm-2020-male-infertility]] [[ref:ata-2026-thyroid-pregnancy]]",
+            "en": "Plan: lifestyle according to the PCOS guideline, letrozole as first line if anovulation is confirmed with no other factors, a semen analysis for her partner as part of assessing both at once, and TSH with free T4 every 3–6 months while she tries to conceive. [[ref:teede-2023-pcos-guideline]] [[ref:aua-asrm-2020-male-infertility]] [[ref:ata-2026-thyroid-pregnancy]]"
+          }
+        }
+      ],
+      "refIds": [
+        "teede-2023-pcos-guideline",
+        "ata-2026-thyroid-pregnancy",
+        "eta-2021-thyroid-art",
+        "asrm-2024-subclinical-hypothyroidism",
+        "uspstf-2023-folic-acid",
+        "aua-asrm-2020-male-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c6-endometrioma-art",
+      "conceptId": "cases-int.endometrioma-before-art",
+      "type": "what-i-would-not-order",
+      "title": {
+        "es": "Endometrioma y FIV: no operar para «mejorar la FIV»",
+        "en": "Endometrioma and IVF: no surgery to “improve IVF”"
+      },
+      "core": {
+        "es": "La ESHRE 2022 no recomienda operar de rutina un endometrioma antes de la reproducción asistida para mejorar el nacido vivo, porque la evidencia no muestra beneficio y la cirugía probablemente reduce la reserva ovárica (fuerte, ⊕⊕); puede considerarse para tratar el dolor o mejorar el acceso a los folículos (GPP). [[ref:eshre-2022-endometriosis]] Tampoco recomienda la supresión ovárica para mejorar la fertilidad (fuerte, ⊕⊕) ni el agonista de GnRH prolongado antes de la reproducción asistida (fuerte, ⊕). [[ref:eshre-2022-endometriosis]]",
+        "en": "ESHRE 2022 does not recommend routine surgery for an endometrioma before assisted reproduction to improve live birth, because the evidence shows no benefit and surgery probably reduces ovarian reserve (strong, ⊕⊕); it may be considered to treat pain or improve follicle access (GPP). [[ref:eshre-2022-endometriosis]] Nor does it recommend ovarian suppression to improve fertility (strong, ⊕⊕) or extended GnRH agonist administration before assisted reproduction (strong, ⊕). [[ref:eshre-2022-endometriosis]]"
+      },
+      "body": {
+        "es": "Si la pareja prefiere intentar el embarazo espontáneo, la ESHRE dice que la laparoscopia operatoria puede considerarse en la infertilidad asociada a endometrioma, aunque no hay estudios comparativos (débil, ⊕), con precaución específica para minimizar el daño ovárico (fuerte, ⊕); la NICE ofrece cistectomía o drenaje y ablación teniendo en cuenta el posible impacto sobre la reserva ovárica (1.10.2). [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]] La NICE desaconseja el tratamiento hormonal, solo o con cirugía, en quien intenta concebir (1.10.4). [[ref:nice-2024-ng73]]",
+        "en": "If the couple prefers to try for a spontaneous pregnancy, ESHRE says operative laparoscopy may be considered for endometrioma-associated infertility, although no comparative studies exist (weak, ⊕), with specific caution to minimise ovarian damage (strong, ⊕); NICE offers cystectomy or drainage and ablation, taking into account the possible impact on ovarian reserve (1.10.2). [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]] NICE advises against hormonal treatment, alone or with surgery, for people trying to conceive (1.10.4). [[ref:nice-2024-ng73]]"
+      },
+      "pearl": {
+        "es": "La pregunta para el endometrioma antes de una FIV es «¿duele o impide la punción?», no «¿mejorará la FIV?».",
+        "en": "The question for an endometrioma before IVF is “does it hurt or block retrieval?”, not “will it improve IVF?”."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE 2022, recomendaciones 28, 39, 44, 53, 56 y 57; NICE NG73 1.10.2 y 1.10.4. Módulo de endometriosis y fertilidad.",
+          "en": "ESHRE 2022, recommendations 28, 39, 44, 53, 56 and 57; NICE NG73 1.10.2 and 1.10.4. Endometriosis and fertility module."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué la ESHRE no recomienda operar de rutina un endometrioma antes de una FIV, y en qué casos sí puede considerarse?",
+        "en": "Why does ESHRE not recommend routine endometrioma surgery before IVF, and when may it be considered?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c7-semen-borderline",
+      "conceptId": "cases-int.semen-borderline",
+      "type": "lab",
+      "title": {
+        "es": "Seminograma «en el límite»: repetir y valorar a los dos",
+        "en": "A “borderline” semen analysis: repeat and assess both partners"
+      },
+      "core": {
+        "es": "Los límites de referencia de la OMS 2021 son el percentil 5 de hombres cuyas parejas concibieron en 12 meses o menos: por ejemplo, concentración 16 × 10⁶/ml y motilidad progresiva 30 %. [[ref:who-2021-semen-manual]] La AUA/ASRM recuerda que el seminograma no distingue con precisión al hombre fértil del infértil salvo en la azoospermia y algunos cuadros extremos, recomienda evaluar a ambos miembros de la pareja a la vez (opinión de expertos) e incluir uno o más seminogramas en la evaluación inicial del varón (fuerte; evidencia B). [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "The WHO 2021 reference limits are the 5th centile of men whose partners conceived within 12 months: for example, concentration 16 × 10⁶/ml and progressive motility 30%. [[ref:who-2021-semen-manual]] AUA/ASRM points out that semen analysis cannot precisely distinguish fertile from infertile men except in azoospermia and some extreme pictures, recommends assessing both partners concurrently (expert opinion) and including one or more semen analyses in the initial male evaluation (strong; evidence B). [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "body": {
+        "es": "Si el primer seminograma es anormal, la NICE ofrece repetirlo, idealmente a los 3 meses para que se complete el ciclo de formación de los espermatozoides, salvo azoospermia u oligozoospermia grave, en que se repite cuanto antes (1.17.3–1.17.4). [[ref:nice-2026-ng257]] Con 2 o más seminogramas anormales, la NICE ofrece explorar escroto y testículos y sugiere considerar testosterona y gonadotropinas (1.17.5). [[ref:nice-2026-ng257]] La NICE sugiere considerar ICSI si el semen es anormal, teniendo en cuenta la gravedad, y no usarla sin factor masculino si el semen es normal (1.50.2–1.50.3). [[ref:nice-2026-ng257]]",
+        "en": "If the first semen analysis is abnormal, NICE offers a repeat, ideally at 3 months to allow the cycle of sperm formation to be completed, except in azoospermia or severe oligozoospermia, when it is repeated as soon as possible (1.17.3–1.17.4). [[ref:nice-2026-ng257]] With 2 or more abnormal analyses, NICE offers examination of the scrotum and testes and suggests considering testosterone and gonadotrophins (1.17.5). [[ref:nice-2026-ng257]] NICE suggests considering ICSI if semen parameters are abnormal, taking severity into account, and not using it without male factor if semen is normal (1.50.2–1.50.3). [[ref:nice-2026-ng257]]"
+      },
+      "pearl": {
+        "es": "Un valor justo por debajo del percentil 5 es un dato que hay que confirmar, no un diagnóstico.",
+        "en": "A value just below the 5th centile is a finding to confirm, not a diagnosis."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "OMS 2021, tabla de límites de referencia. AUA/ASRM 2020. NICE NG257 1.17.3–1.17.5 y 1.50.2–1.50.3. Módulo de factor masculino.",
+          "en": "WHO 2021, reference limits table. AUA/ASRM 2020. NICE NG257 1.17.3–1.17.5 and 1.50.2–1.50.3. Male factor module."
+        }
+      },
+      "recall": {
+        "es": "¿Qué significan los límites de la OMS 2021 y cuándo propone la NICE repetir un seminograma anormal?",
+        "en": "What do the WHO 2021 limits mean, and when does NICE propose repeating an abnormal semen analysis?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c8-art-endo-male",
+      "conceptId": "cases-int.art-endo-male",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Endometriosis más factor masculino: cuándo la reproducción asistida",
+        "en": "Endometriosis plus male factor: when assisted reproduction"
+      },
+      "core": {
+        "es": "La ESHRE 2022 indica que la reproducción asistida puede emplearse en la infertilidad asociada a endometriosis, sobre todo si la función tubárica está comprometida, hay factor masculino, el EFI es bajo o fracasaron otros tratamientos (débil, ⊕⊕). [[ref:eshre-2022-endometriosis]] No recomienda un protocolo concreto: antagonista o agonista de GnRH según preferencias, porque no se han demostrado diferencias en embarazo ni nacido vivo (débil, ⊕). [[ref:eshre-2022-endometriosis]]",
+        "en": "ESHRE 2022 states that assisted reproduction can be used for endometriosis-associated infertility, especially if tubal function is compromised, there is male factor, the EFI is low or other treatments have failed (weak, ⊕⊕). [[ref:eshre-2022-endometriosis]] It does not recommend a specific protocol: GnRH antagonist or agonist according to preferences, as no difference in pregnancy or live birth has been shown (weak, ⊕). [[ref:eshre-2022-endometriosis]]"
+      },
+      "body": {
+        "es": "La ESHRE de add-ons no recomienda la ICSI cuando no hay factor masculino («no recomendado»), y la NICE la reserva para el semen anormal según su gravedad o un fallo de fecundación previo (1.50.2). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] Para el factor masculino, la AUA/ASRM considera que los suplementos, como antioxidantes y vitaminas, tienen una utilidad clínica cuestionable y que los datos no permiten recomendar agentes concretos (moderada; grado B). [[ref:aua-asrm-2020-male-infertility]]",
+        "en": "The ESHRE add-ons document does not recommend ICSI without male factor (“not recommended”), and NICE reserves it for abnormal semen according to severity or previous failed fertilisation (1.50.2). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] For male factor, AUA/ASRM considers supplements such as antioxidants and vitamins of questionable clinical utility, with data that do not allow recommending specific agents (moderate; grade B). [[ref:aua-asrm-2020-male-infertility]]"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2022, recomendación 49 y protocolo; ESHRE add-ons 2023 (ICSI sin factor masculino); NICE NG257 1.50.2; AUA/ASRM 2020.",
+          "en": "ESHRE 2022, recommendation 49 and protocol; ESHRE add-ons 2023 (ICSI without male factor); NICE NG257 1.50.2; AUA/ASRM 2020."
+        }
+      },
+      "recall": {
+        "es": "¿En qué situaciones señala la ESHRE 2022 la reproducción asistida en la endometriosis, y cuándo sugiere la NICE considerar la ICSI?",
+        "en": "In which situations does ESHRE 2022 point to assisted reproduction in endometriosis, and when does NICE suggest considering ICSI?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c9-addon-package",
+      "conceptId": "cases-int.addon-package",
+      "type": "what-i-would-not-order",
+      "title": {
+        "es": "El paquete de «extras»: qué dicen ESHRE y NICE",
+        "en": "The “extras” package: what ESHRE and NICE say"
+      },
+      "core": {
+        "es": "La ESHRE no recomienda los test de receptividad endometrial disponibles ni los test inmunológicos en sangre periférica o de células NK uterinas («no recomendado»), y considera el PGT-A y el scratching endometrial «actualmente no recomendados para uso clínico rutinario»; la NICE aconseja no ofrecer test de receptividad, PGT-A para mejorar el nacido vivo ni scratching como pretratamiento (1.41.1, 1.48.1 y 1.40.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] En el varón, la ESHRE no recomienda antioxidantes en reproducción asistida y la NICE desaconseja el test de fragmentación del ADN espermático (1.17.6). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE does not recommend the currently available endometrial receptivity tests or peripheral blood immune tests and uterine NK-cell testing (“not recommended”), and considers PGT-A and endometrial scratching “currently not recommended for routine clinical use”; NICE advises not to offer receptivity testing, PGT-A to improve live birth or scratching as pre-treatment (1.41.1, 1.48.1 and 1.40.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] For the man, ESHRE does not recommend antioxidants in assisted reproduction, and NICE advises against sperm DNA fragmentation testing (1.17.6). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "No todo se rechaza: la ESHRE recomienda añadir ácido hialurónico al medio de transferencia («recomendado»), combinado con una política de transferencia de un solo embrión. [[ref:eshre-2023-addons]] Además pide evaluar cada prueba o intervención por eficacia, seguridad, relevancia y coste-efectividad, compartir esa evaluación como parte habitual del asesoramiento y ofrecer en la práctica clínica solo los add-ons basados en evidencia; de sus 42 recomendaciones, ninguna se apoya en evidencia de alta calidad y solo cuatro en evidencia moderada. [[ref:eshre-2023-addons]]",
+        "en": "Not everything is rejected: ESHRE recommends adding hyaluronic acid to the transfer medium (“recommended”), combined with a single embryo transfer policy. [[ref:eshre-2023-addons]] It also asks that every test or intervention be evaluated for efficacy, safety, relevance and cost-effectiveness, that this evaluation become a standard part of counselling, and that only evidence-based add-ons be offered in clinical practice; of its 42 recommendations, none rests on high-quality evidence and only four on moderate-quality evidence. [[ref:eshre-2023-addons]]"
+      },
+      "pearl": {
+        "es": "Revisa el paquete línea por línea con las cuatro frases de la ESHRE: así el «sí» al ácido hialurónico y el «no» a los test inmunológicos quedan igual de claros.",
+        "en": "Go through the package line by line with ESHRE’s four phrases: the “yes” to hyaluronic acid and the “no” to immune tests then become equally clear."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "ESHRE add-ons 2023 (receptividad, inmunología, PGT-A, scratching, antioxidantes, ácido hialurónico, asesoramiento). NICE NG257 1.17.6, 1.40.1, 1.41.1 y 1.48.1. Módulo de add-ons.",
+          "en": "ESHRE add-ons 2023 (receptivity, immunology, PGT-A, scratching, antioxidants, hyaluronic acid, counselling). NICE NG257 1.17.6, 1.40.1, 1.41.1 and 1.48.1. Add-ons module."
+        }
+      },
+      "recall": {
+        "es": "En un paquete con test de receptividad, células NK, PGT-A, scratching, antioxidantes y ácido hialurónico, ¿qué elemento recomienda la ESHRE?",
+        "en": "In a package with receptivity testing, NK cells, PGT-A, scratching, antioxidants and hyaluronic acid, which element does ESHRE recommend?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q5-endometrioma-surgery",
+      "conceptId": "cases-int.endometrioma-before-art",
+      "difficulty": 2,
+      "stem": {
+        "es": "Silvia (caso ficticio), 36 años, tiene un endometrioma izquierdo de 4 cm sin dolor y va a empezar una FIV. Le proponen una cistectomía previa «para mejorar los resultados». Según la ESHRE 2022, ¿qué es correcto?",
+        "en": "Silvia (fictional case), 36, has a 4 cm left endometrioma without pain and is about to start IVF. She is offered a cystectomy first “to improve results”. According to ESHRE 2022, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Operar de rutina mejora el nacido vivo y está recomendado",
+            "en": "Routine surgery improves live birth and is recommended"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE dice lo contrario: no muestra beneficio y probablemente reduce la reserva ovárica.",
+            "en": "ESHRE says the opposite: it shows no benefit and probably reduces ovarian reserve."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No se recomienda operar de rutina para mejorar el nacido vivo; puede considerarse por dolor o acceso a los folículos",
+            "en": "Routine surgery to improve live birth is not recommended; it may be considered for pain or follicle access"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación fuerte (⊕⊕) más un GPP para las otras indicaciones.",
+            "en": "Correct: a strong recommendation (⊕⊕) plus a GPP for the other indications."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mejor 3–6 meses de agonista de GnRH antes de la FIV",
+            "en": "Better 3–6 months of GnRH agonist before IVF"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda el agonista prolongado antes de la reproducción asistida porque su beneficio es incierto (fuerte, ⊕).",
+            "en": "ESHRE does not recommend extended GnRH agonist before assisted reproduction because the benefit is uncertain (strong, ⊕)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Operar solo si la AMH es alta",
+            "en": "Operate only if AMH is high"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no condiciona así la indicación: la cirugía antes de la FIV se plantea por dolor o acceso a los folículos.",
+            "en": "ESHRE does not frame the indication this way: surgery before IVF is considered for pain or follicle access."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La cirugía del endometrioma antes de la reproducción asistida no mejora el nacido vivo y probablemente reduce la reserva ovárica. Sin dolor y con folículos accesibles, no hay indicación de operar para «mejorar la FIV».",
+        "en": "Endometrioma surgery before assisted reproduction does not improve live birth and probably reduces ovarian reserve. With no pain and accessible follicles, there is no indication to operate to “improve IVF”."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q6-semen-14",
+      "conceptId": "cases-int.semen-borderline",
+      "difficulty": 2,
+      "stem": {
+        "es": "Óscar, pareja de Silvia, tiene en su primer seminograma una concentración de 14 × 10⁶/ml y el resto de parámetros por encima de los límites de la OMS 2021. ¿Qué es correcto?",
+        "en": "Óscar, Silvia’s partner, has a concentration of 14 × 10⁶/ml on his first semen analysis, with all other parameters above the WHO 2021 limits. What is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Confirma infertilidad masculina y obliga a ICSI",
+            "en": "It confirms male infertility and mandates ICSI"
+          },
+          "correct": false,
+          "why": {
+            "es": "El seminograma no distingue con precisión fértil de infértil salvo en extremos, y la NICE pide un análisis de confirmación.",
+            "en": "Semen analysis cannot precisely separate fertile from infertile men except in extreme cases, and NICE asks for a confirmatory analysis."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Está por debajo del percentil 5 de referencia; se repite, idealmente a los 3 meses",
+            "en": "It is below the 5th reference centile; repeat it, ideally at 3 months"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el límite de concentración es 16 × 10⁶/ml y la NICE repite idealmente a los 3 meses.",
+            "en": "Correct: the concentration limit is 16 × 10⁶/ml and NICE repeats ideally at 3 months."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es normal con la 6.ª edición de la OMS y se puede ignorar",
+            "en": "It is normal by the WHO 6th edition and can be ignored"
+          },
+          "correct": false,
+          "why": {
+            "es": "El límite de la 6.ª edición es 16 × 10⁶/ml, así que 14 queda por debajo.",
+            "en": "The 6th-edition limit is 16 × 10⁶/ml, so 14 lies below it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir de rutina fragmentación del ADN y ecografía escrotal",
+            "en": "Routinely order DNA fragmentation and scrotal ultrasound"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NICE desaconseja el test de fragmentación y la AUA/ASRM no recomienda la ecografía escrotal de rutina en la evaluación inicial.",
+            "en": "NICE advises against fragmentation testing, and AUA/ASRM does not recommend routine scrotal ultrasound in the initial evaluation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un valor bajo el percentil 5 se confirma antes de etiquetarlo. Si se repiten 2 o más alteraciones, la NICE añade exploración y valorar testosterona y gonadotropinas.",
+        "en": "A value below the 5th centile is confirmed before labelling it. If 2 or more analyses are abnormal, NICE adds examination and consideration of testosterone and gonadotrophins."
+      },
+      "refIds": [
+        "who-2021-semen-manual",
+        "aua-asrm-2020-male-infertility",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q7-hyaluronic",
+      "conceptId": "cases-int.addon-package",
+      "difficulty": 3,
+      "stem": {
+        "es": "La clínica ofrece a Silvia y Óscar un paquete con test de receptividad endometrial, estudio de células NK uterinas, PGT-A y ácido hialurónico en el medio de transferencia. ¿Qué elemento recomienda la ESHRE 2023?",
+        "en": "The clinic offers Silvia and Óscar a package with endometrial receptivity testing, uterine NK-cell testing, PGT-A and hyaluronic acid in the transfer medium. Which element does ESHRE 2023 recommend?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El test de receptividad endometrial",
+            "en": "Endometrial receptivity testing"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo recomienda y la NICE aconseja no ofrecerlo (1.41.1).",
+            "en": "ESHRE does not recommend it and NICE advises not to offer it (1.41.1)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El estudio de células NK uterinas",
+            "en": "Uterine NK-cell testing"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda los test inmunológicos ni de células NK uterinas.",
+            "en": "ESHRE does not recommend immune tests or uterine NK-cell testing."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El PGT-A",
+            "en": "PGT-A"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE lo considera «actualmente no recomendado para uso clínico rutinario» y la NICE aconseja no ofrecerlo para mejorar el nacido vivo.",
+            "en": "ESHRE considers it “currently not recommended for routine clinical use” and NICE advises not to offer it to improve live birth."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El ácido hialurónico en el medio de transferencia",
+            "en": "Hyaluronic acid in the transfer medium"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es «recomendado», combinado con transferencia de un solo embrión.",
+            "en": "Correct: it is “recommended”, combined with single embryo transfer."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Valorar un paquete exige ir elemento por elemento: la misma guía que rechaza la receptividad y la inmunología recomienda el ácido hialurónico.",
+        "en": "Appraising a package means going item by item: the same guideline that rejects receptivity and immune testing recommends hyaluronic acid."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "id": "cases-int.case2-silvia-oscar",
+      "kind": "case",
+      "conceptId": "cases-int.case-silvia-oscar",
+      "rev": 2,
+      "tags": [
+        "reproduction",
+        "supplements"
+      ],
+      "title": {
+        "es": "Caso: Silvia y Óscar, endometrioma, seminograma límite y un paquete de extras",
+        "en": "Case: Silvia and Óscar, endometrioma, borderline semen and an extras package"
+      },
+      "steps": [
+        {
+          "id": "cases-int.case2.s1",
+          "text": {
+            "es": "Silvia (caso ficticio), 36 años, y Óscar, 38, llevan 2 años buscando embarazo. Silvia tiene un endometrioma izquierdo de 4 cm sin dolor; el primer seminograma de Óscar muestra 14 × 10⁶/ml con el resto de parámetros normales. Evalúas a los dos a la vez, como recomienda la AUA/ASRM, y comparas con los límites de la OMS 2021. [[ref:aua-asrm-2020-male-infertility]] [[ref:who-2021-semen-manual]]",
+            "en": "Silvia (fictional case), 36, and Óscar, 38, have been trying to conceive for 2 years. Silvia has a painless 4 cm left endometrioma; Óscar’s first semen analysis shows 14 × 10⁶/ml with all other parameters normal. You assess both at once, as AUA/ASRM recommends, and compare with the WHO 2021 limits. [[ref:aua-asrm-2020-male-infertility]] [[ref:who-2021-semen-manual]]"
+          }
+        },
+        {
+          "id": "cases-int.case2.s2",
+          "text": {
+            "es": "La concentración queda por debajo del percentil 5, pero el seminograma no distingue con precisión fértil de infértil; la NICE repite el análisis idealmente a los 3 meses. [[ref:who-2021-semen-manual]] [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+            "en": "The concentration is below the 5th centile, but semen analysis cannot precisely separate fertile from infertile men; NICE repeats the analysis ideally at 3 months. [[ref:who-2021-semen-manual]] [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "cases-int.q6-semen-14"
+        },
+        {
+          "id": "cases-int.case2.s3",
+          "text": {
+            "es": "La repetición confirma una reducción leve. Con endometriosis y factor masculino, la ESHRE considera la reproducción asistida (débil, ⊕⊕), y la NICE sugiere valorar la ICSI según la gravedad de la alteración seminal. [[ref:eshre-2022-endometriosis]] [[ref:nice-2026-ng257]]",
+            "en": "The repeat confirms a mild reduction. With endometriosis and male factor, ESHRE considers assisted reproduction (weak, ⊕⊕), and NICE suggests weighing ICSI according to the severity of the semen abnormality. [[ref:eshre-2022-endometriosis]] [[ref:nice-2026-ng257]]"
+          }
+        },
+        {
+          "id": "cases-int.case2.s4",
+          "text": {
+            "es": "Les proponen operar antes el endometrioma «para mejorar la FIV». La ESHRE no lo recomienda de rutina: no muestra beneficio en el nacido vivo y probablemente reduce la reserva ovárica; sin dolor ni problemas de acceso a los folículos, no hay otra indicación. [[ref:eshre-2022-endometriosis]]",
+            "en": "They are offered surgery on the endometrioma first “to improve IVF”. ESHRE does not recommend it routinely: it shows no live-birth benefit and probably reduces ovarian reserve; with no pain or follicle access problems, there is no other indication. [[ref:eshre-2022-endometriosis]]"
+          },
+          "questionId": "cases-int.q5-endometrioma-surgery"
+        },
+        {
+          "id": "cases-int.case2.s5",
+          "text": {
+            "es": "La clínica añade un paquete: test de receptividad, células NK, PGT-A, scratching, antioxidantes para Óscar y ácido hialurónico en la transferencia. Lo revisas elemento por elemento con la ESHRE de add-ons y la NICE NG257. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+            "en": "The clinic adds a package: receptivity testing, NK cells, PGT-A, scratching, antioxidants for Óscar and hyaluronic acid at transfer. You go through it item by item with the ESHRE add-ons document and NICE NG257. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+          },
+          "questionId": "cases-int.q7-hyaluronic"
+        },
+        {
+          "id": "cases-int.case2.s6",
+          "text": {
+            "es": "Lo hablas con los dos siguiendo la NICE NG197: objetivo, beneficios, riesgos y consecuencias de cada opción, incluida no hacer nada, y separando con la ESHRE lo que ha mostrado beneficio de lo que no. Deciden FIV sin cirugía previa ni extras, salvo el ácido hialurónico que ofrece el laboratorio. [[ref:nice-2021-ng197]] [[ref:eshre-2023-addons]]",
+            "en": "You discuss it with both of them following NICE NG197: aim, benefits, risks and consequences of each option, including doing nothing, and separating with ESHRE what has shown benefit from what has not. They choose IVF without prior surgery or extras, except the hyaluronic acid the laboratory offers. [[ref:nice-2021-ng197]] [[ref:eshre-2023-addons]]"
+          }
+        }
+      ],
+      "refIds": [
+        "aua-asrm-2020-male-infertility",
+        "who-2021-semen-manual",
+        "nice-2026-ng257",
+        "eshre-2022-endometriosis",
+        "eshre-2023-addons",
+        "nice-2021-ng197"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c10-age-44",
+      "conceptId": "cases-int.age-44-workup",
+      "type": "lab",
+      "title": {
+        "es": "44 años, ciclos irregulares y sofocos: ni IOP ni «menopausia sin análisis»",
+        "en": "44, irregular cycles and hot flushes: neither POI nor “menopause without tests”"
+      },
+      "core": {
+        "es": "La guía ESHRE 2024 define la insuficiencia ovárica prematura como la pérdida de actividad ovárica antes de los 40 años; al cese de la función ovárica entre los 40 y los 44 lo llama menopausia precoz, que queda fuera de su alcance. [[ref:eshre-2024-poi]] La NICE identifica la perimenopausia sin análisis a partir de los 45 años, y entre los 40 y los 45, con síntomas que incluyen un cambio en el ciclo, propone considerar la FSH sérica para confirmar la menopausia (1.3.6). [[ref:nice-2026-ng23]]",
+        "en": "The 2024 ESHRE guideline defines premature ovarian insufficiency as loss of ovarian activity before age 40; it calls cessation of ovarian function between 40 and 44 early menopause, which is outside its scope. [[ref:eshre-2024-poi]] NICE identifies perimenopause without tests from age 45, and between 40 and 45, with symptoms including a change in the menstrual cycle, it proposes considering serum FSH to confirm menopause (1.3.6). [[ref:nice-2026-ng23]]"
+      },
+      "body": {
+        "es": "La NICE desaconseja usar la FSH para identificar la menopausia en quien usa anticoncepción combinada o progestágenos a dosis altas (1.3.5), y a partir de los 45 no usar AMH, inhibinas, estradiol, recuento de folículos antrales ni volumen ovárico (1.3.4). [[ref:nice-2026-ng23]] Los ciclos irregulares tienen aquí otra explicación posible: la hiperprolactinemia produce oligomenorrea o amenorrea, con o sin galactorrea. [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "NICE advises against using FSH to identify menopause in people using combined hormonal contraception or high-dose progestogen (1.3.5), and from age 45 against using AMH, inhibins, estradiol, antral follicle count or ovarian volume (1.3.4). [[ref:nice-2026-ng23]] Irregular cycles have another possible explanation here: hyperprolactinaemia causes oligomenorrhoea or amenorrhoea, with or without galactorrhoea. [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "A los 44, piensa en dos líneas a la vez: transición menopáusica y cualquier otra causa del cambio de ciclo.",
+        "en": "At 44, think along two lines at once: the menopause transition and any other cause of the cycle change."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "ESHRE 2024 IOP, definición y alcance. NICE NG23 1.3.4–1.3.6 [2015]. Pituitary Society 2023 (hiperprolactinemia y oligo/amenorrea, p. 723).",
+          "en": "ESHRE 2024 POI, definition and scope. NICE NG23 1.3.4–1.3.6 [2015]. Pituitary Society 2023 (hyperprolactinaemia and oligo/amenorrhoea, p. 723)."
+        }
+      },
+      "recall": {
+        "es": "Entre los 40 y los 45 años con síntomas y cambio de ciclo, ¿qué prueba propone considerar la NICE y en quién no debe usarse?",
+        "en": "Between 40 and 45 with symptoms and cycle change, which test does NICE propose considering, and in whom should it not be used?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c11-prolactin-antipsychotic",
+      "conceptId": "cases-int.prolactin-antipsychotic",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Prolactina alta con antipsicótico: primero las causas más probables",
+        "en": "High prolactin on an antipsychotic: the likeliest causes first"
+      },
+      "core": {
+        "es": "El consenso de la Pituitary Society 2023 recomienda revisar a fondo la medicación para descartar una hiperprolactinemia farmacológica, reconocer el hipotiroidismo primario y la insuficiencia renal y hepática como causas de elevaciones leves y no pasar por alto el embarazo (todas fuertes); además, los valores menores de cinco veces el límite superior deben repetirse (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] La hiperprolactinemia aparece en el 30–75 % de quienes reciben antipsicóticos en los primeros 3 meses, con elevaciones descritas de hasta diez veces el límite superior; por encima de diez veces debe sospecharse un prolactinoma (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends rigorously reviewing medication to exclude drug-induced hyperprolactinaemia, recognising primary hypothyroidism and renal and liver failure as causes of mild elevations, and not overlooking pregnancy (all strong); in addition, values below five times the upper limit of normal should be repeated (strong). [[ref:petersenn-2023-prolactinoma-consensus]] Hyperprolactinaemia occurs in 30–75% of people receiving antipsychotics within the first 3 months, with elevations of up to ten times the upper limit described; above ten times, a prolactinoma should be suspected (strong). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "El consenso indica resonancia en quien toma antipsicóticos si la prolactina supera diez veces el límite superior, hay síntomas de masa como cefalea o alteraciones visuales, o déficits hipofisarios distintos del eje gonadal; reducir la dosis o cambiar a un antipsicótico de segunda generación que no eleve la prolactina, como el aripiprazol, distingue el prolactinoma de la causa farmacológica en la mayoría (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] Por extensión, ese cambio se coordina con psiquiatría: el consenso pide colaboración entre endocrinología, neurocirugía y psiquiatría para manejar un prolactinoma en personas con un trastorno psiquiátrico (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The consensus indicates MRI in people on antipsychotics if prolactin exceeds ten times the upper limit, there are mass-effect symptoms such as headache or visual disturbance, or there are pituitary deficiencies other than the gonadal axis; dose reduction or switching to a second-generation antipsychotic that does not raise prolactin, such as aripiprazole, distinguishes prolactinoma from the drug cause in most patients (strong). [[ref:petersenn-2023-prolactinoma-consensus]] By extension, that switch is coordinated with psychiatry: the consensus asks for collaboration between endocrinology, neurosurgery and psychiatry to manage a prolactinoma in people with a psychiatric disorder (strong). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Nunca retires tú el antipsicótico para «aclarar» una prolactina: la conversación empieza con su psiquiatra.",
+        "en": "Never stop the antipsychotic yourself to “clarify” a prolactin result: the conversation starts with her psychiatrist."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023: evaluación inicial (repetir si < 5 × LSN; causas) y apartado de trastorno psiquiátrico. Módulo de prolactina.",
+          "en": "Pituitary Society 2023: initial assessment (repeat if < 5 × ULN; causes) and the psychiatric disorder section. Prolactin module."
+        }
+      },
+      "recall": {
+        "es": "En una mujer con antipsicótico y prolactina elevada, ¿qué causas hay que revisar, qué cifra hace sospechar prolactinoma y cuándo se pide resonancia?",
+        "en": "In a woman on an antipsychotic with raised prolactin, which causes must be reviewed, which level raises suspicion of prolactinoma, and when is MRI ordered?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c12-bioidentical",
+      "conceptId": "cases-int.compounded-bioidentical",
+      "type": "myth",
+      "title": {
+        "es": "«Bioidénticas»: hormonas aprobadas frente a preparados magistrales",
+        "en": "“Bioidentical”: approved hormones versus compounded preparations"
+      },
+      "core": {
+        "es": "La NAMS 2022 advierte que «bioidéntico» puede confundir: hay hormonas bioidénticas aprobadas y reguladas (estradiol, estrona y progesterona micronizada) y preparados magistrales que pueden combinar varias hormonas en combinaciones, formulaciones o vías no probadas, como implantes subdérmicos, pellets o trociscos. [[ref:nams-2022-hormone-therapy]] Los magistrales plantean problemas de seguridad: regulación y vigilancia mínimas, sobredosificación e infradosificación, impurezas y falta de esterilidad, falta de datos de eficacia y seguridad y ausencia de prospecto con los riesgos (nivel I). [[ref:nams-2022-hormone-therapy]]",
+        "en": "NAMS 2022 warns that “bioidentical” can mislead: there are approved, regulated bioidentical hormones (estradiol, estrone and micronized progesterone) and compounded preparations that may combine several hormones in untested combinations, formulations or routes, such as subdermal implants, pellets or troches. [[ref:nams-2022-hormone-therapy]] Compounded preparations raise safety concerns: minimal regulation and monitoring, overdosing and underdosing, impurities and lack of sterility, lack of efficacy and safety data, and no label outlining risks (Level I). [[ref:nams-2022-hormone-therapy]]"
+      },
+      "body": {
+        "es": "La NAMS considera poco fiables y no recomienda los análisis de hormonas en saliva u orina para ajustar la dosis (nivel II/III), y dice que la preferencia de la paciente por sí sola no justifica un magistral, sobre todo cuando hay bioidénticas reguladas (nivel III); solo se plantean ante alergia a un componente de un producto aprobado o una dosis no disponible (nivel III). [[ref:nams-2022-hormone-therapy]] Para los síntomas vasomotores, la NICE recomienda ofrecer THS, combinada en quien tiene útero. [[ref:nice-2026-ng23]]",
+        "en": "NAMS considers salivary and urine hormone testing to set doses unreliable and does not recommend it (Level II/III), and states that patient preference alone does not justify a compounded preparation, particularly when regulated bioidentical hormones are available (Level III); they are only considered for allergy to an ingredient of an approved product or a dose that is not available (Level III). [[ref:nams-2022-hormone-therapy]] For vasomotor symptoms, NICE recommends offering HRT, combined HRT for people with a uterus. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "Si lo que pide es «natural», puedes ofrecer estradiol y progesterona micronizada aprobados: bioidénticos y regulados.",
+        "en": "If what she wants is “natural”, you can offer approved estradiol and micronized progesterone: bioidentical and regulated."
+      },
+      "evidence": {
+        "label": "not-recommended",
+        "note": {
+          "es": "NAMS 2022, apartado de hormonas bioidénticas magistrales y puntos clave (niveles I, II/III y III). NICE NG23 (THS para síntomas vasomotores; combinada con útero).",
+          "en": "NAMS 2022, compounded bioidentical hormones section and key points (Levels I, II/III and III). NICE NG23 (HRT for vasomotor symptoms; combined with a uterus)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué hormonas bioidénticas aprobadas cita la NAMS y qué problemas de seguridad atribuye a los preparados magistrales?",
+        "en": "Which approved bioidentical hormones does NAMS list, and which safety concerns does it attribute to compounded preparations?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c13-stool-test",
+      "conceptId": "cases-int.stool-microbiome-test",
+      "type": "what-i-would-not-order",
+      "title": {
+        "es": "Test de microbiota en heces: lo que dice el consenso internacional",
+        "en": "Stool microbiome test: what the international consensus says"
+      },
+      "core": {
+        "es": "El consenso internacional de 2025 sobre test de microbioma concluye que no hay evidencia suficiente para recomendar de forma general su uso rutinario en la práctica clínica (90 % de acuerdo) y desaconseja que los pacientes los pidan directamente sin indicación clínica (80,4 %). [[ref:porcari-2025-microbiome-testing]] También desaconseja que el proveedor incluya consejos terapéuticos en el informe (98 %) y establece que cualquier cambio de manejo lo decide solo el profesional que lo solicitó (100 %). [[ref:porcari-2025-microbiome-testing]]",
+        "en": "The 2025 international consensus on microbiome testing concludes that there is insufficient evidence to widely recommend routine use in clinical practice (90% agreement) and discourages patients from requesting tests directly without a clinical recommendation (80.4%). [[ref:porcari-2025-microbiome-testing]] It also discourages the provider from including therapeutic advice in the report (98%) and states that any change in management should be made only by the referring professional (100%). [[ref:porcari-2025-microbiome-testing]]"
+      },
+      "body": {
+        "es": "El mismo consenso indica que, en general, no hay información suficiente para dar rangos de referencia «sanos» estrictos de abundancia de especies (90 %), desaconseja el cociente Firmicutes/Bacteroidetes (86 %) y considera insuficiente la evidencia para incluir índices de disbiosis (90 %). [[ref:porcari-2025-microbiome-testing]] Además, los pacientes no deberían suspender su tratamiento ni cambiar su dieta antes del test salvo indicación del médico que lo solicita (100 %). [[ref:porcari-2025-microbiome-testing]]",
+        "en": "The same consensus states that there is generally not enough information to report strict “healthy” reference ranges for species abundance (90%), discourages the Firmicutes-to-Bacteroidetes ratio (86%) and considers the evidence insufficient to include dysbiosis indices (90%). [[ref:porcari-2025-microbiome-testing]] In addition, patients should not suspend their therapy or change their diet before testing unless the referring physician recommends it (100%). [[ref:porcari-2025-microbiome-testing]]"
+      },
+      "pearl": {
+        "es": "Un informe que trae su propio plan de suplementos ya incumple lo que pide el consenso.",
+        "en": "A report that comes with its own supplement plan already goes against what the consensus asks."
+      },
+      "evidence": {
+        "label": "insufficient",
+        "note": {
+          "es": "Porcari et al. 2025, enunciados 3, 6, 8, 26, 27, 28, 30 y 32 (Delphi, 69 expertos). Módulos de microbiota y de evidencia.",
+          "en": "Porcari et al. 2025, statements 3, 6, 8, 26, 27, 28, 30 and 32 (Delphi, 69 experts). Microbiota and evidence modules."
+        }
+      },
+      "recall": {
+        "es": "¿Qué dice el consenso de 2025 sobre el uso rutinario de los test de microbioma, la petición directa del paciente y los consejos terapéuticos del informe?",
+        "en": "What does the 2025 consensus say about routine microbiome testing, direct patient requests and therapeutic advice in the report?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.c14-sdm-uncertainty",
+      "conceptId": "cases-int.sdm-uncertainty",
+      "type": "patient-phrase",
+      "title": {
+        "es": "Decidir con ella: todas las opciones, incluida no hacer nada, y con números",
+        "en": "Deciding with her: every option, including doing nothing, and with numbers"
+      },
+      "core": {
+        "es": "La NICE NG197 define la decisión compartida como un proceso colaborativo en el que la persona y su profesional llegan juntos a una decisión, y pide explicar el objetivo de cada opción, hablar abiertamente de riesgos, beneficios y consecuencias de cada una, incluida no tratar o no cambiar nada, aclarar qué espera conseguir la persona y comentar los malentendidos. [[ref:nice-2021-ng197]] Recomienda usar datos numéricos cuando existan, en riesgo absoluto, con frecuencias naturales y el mismo denominador al comparar. [[ref:nice-2021-ng197]]",
+        "en": "NICE NG197 defines shared decision making as a collaborative process in which a person and their professional reach a decision together, and asks to explain the aim of each option, openly discuss the risks, benefits and consequences of each, including no treatment or no change, clarify what the person hopes to gain, and discuss misconceptions. [[ref:nice-2021-ng197]] It recommends using numerical data when available, as absolute risk, with natural frequencies and the same denominator when comparing. [[ref:nice-2021-ng197]]"
+      },
+      "body": {
+        "es": "La NAMS considera el riesgo absoluto más útil que el relativo para explicar beneficios y riesgos en consulta, y sitúa el balance más favorable de la terapia hormonal en quien la empieza antes de los 60 años o en los 10 primeros años desde la menopausia, sin contraindicaciones. [[ref:nams-2022-hormone-therapy]] Para los síntomas vasomotores, la NICE recomienda ofrecer THS y considerar la terapia cognitivo-conductual específica de la menopausia como opción, también cuando la persona prefiere no tomar hormonas. [[ref:nice-2026-ng23]]",
+        "en": "NAMS considers absolute risk more useful than relative risk for conveying benefits and risks in clinic, and places the most favourable balance of hormone therapy in women who start it before 60 or within 10 years of menopause onset, without contraindications. [[ref:nams-2022-hormone-therapy]] For vasomotor symptoms, NICE recommends offering HRT and considering menopause-specific cognitive behavioural therapy as an option, including when the person prefers not to take hormones. [[ref:nice-2026-ng23]]"
+      },
+      "pearl": {
+        "es": "«Lo que me pides no tiene datos de seguridad; lo que te ofrezco, sí. ¿Qué es lo que más te preocupa de las hormonas?»",
+        "en": "“What you are asking for has no safety data; what I am offering does. What worries you most about hormones?”"
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG197, definición, 1.2.10 y 1.4.6–1.4.9. NAMS 2022 (riesgo absoluto y ventana de inicio). NICE NG23 (THS y TCC para síntomas vasomotores).",
+          "en": "NICE NG197, definition, 1.2.10 and 1.4.6–1.4.9. NAMS 2022 (absolute risk and timing window). NICE NG23 (HRT and CBT for vasomotor symptoms)."
+        }
+      },
+      "recall": {
+        "es": "Según la NICE NG197, ¿qué opciones hay que comentar siempre y cómo deben presentarse los números?",
+        "en": "According to NICE NG197, which options must always be discussed, and how should numbers be presented?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q8-fsh-44",
+      "conceptId": "cases-int.age-44-workup",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mercedes (caso ficticio), 44 años, sin anticoncepción hormonal, tiene ciclos irregulares desde hace 8 meses y sofocos. Según la NICE NG23, ¿qué es correcto?",
+        "en": "Mercedes (fictional case), 44, not using hormonal contraception, has had irregular cycles for 8 months and hot flushes. According to NICE NG23, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Diagnosticar insuficiencia ovárica prematura con una FSH > 25 UI/l",
+            "en": "Diagnose premature ovarian insufficiency with an FSH > 25 IU/L"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP es antes de los 40; si la función ovárica cesa entre los 40 y los 44, se habla de menopausia precoz.",
+            "en": "POI is before 40; if ovarian function ceases between 40 and 44, it is called early menopause."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Puede considerarse la FSH sérica para confirmar la menopausia",
+            "en": "Serum FSH may be considered to confirm menopause"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la NICE lo propone entre los 40 y los 45 con síntomas, incluido un cambio en el ciclo (1.3.6).",
+            "en": "Correct: NICE proposes it between 40 and 45 with symptoms, including a change in the cycle (1.3.6)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir AMH para diagnosticar la perimenopausia",
+            "en": "Order AMH to diagnose perimenopause"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NICE no incluye la AMH para esto: la desaconseja a partir de los 45 y entre los 40 y los 45 solo contempla la FSH.",
+            "en": "NICE does not include AMH for this: it advises against it from 45, and between 40 and 45 it only contemplates FSH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No hacer ningún análisis, como a partir de los 45",
+            "en": "Order no tests at all, as from age 45"
+          },
+          "correct": false,
+          "why": {
+            "es": "La identificación sin análisis es para quienes tienen 45 años o más.",
+            "en": "Identification without tests applies to people aged 45 or over."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Entre los 40 y los 45, la NICE propone considerar la FSH para confirmar la menopausia si hay síntomas y cambios de ciclo, salvo con anticoncepción combinada o progestágeno a dosis alta. En Mercedes, además, la prolactina alta obliga a pensar en otra causa del cambio de ciclo.",
+        "en": "Between 40 and 45, NICE proposes considering FSH to confirm menopause if there are symptoms and cycle changes, except with combined contraception or high-dose progestogen. In Mercedes, the raised prolactin also forces you to consider another cause of the cycle change."
+      },
+      "refIds": [
+        "nice-2026-ng23",
+        "eshre-2024-poi"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q9-prolactin-next",
+      "conceptId": "cases-int.prolactin-antipsychotic",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mercedes toma un antipsicótico desde hace años. Su prolactina es de dos veces el límite superior, sin cefalea ni alteraciones visuales. ¿Cuál es el siguiente paso más coherente con el consenso de la Pituitary Society 2023?",
+        "en": "Mercedes has been on an antipsychotic for years. Her prolactin is twice the upper limit, with no headache or visual disturbance. What next step best fits the 2023 Pituitary Society consensus?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Resonancia hipofisaria urgente",
+            "en": "Urgent pituitary MRI"
+          },
+          "correct": false,
+          "why": {
+            "es": "En quien toma antipsicóticos, el consenso indica resonancia con prolactina > 10 veces el límite, síntomas de masa u otros déficits hipofisarios; con dos veces el límite y sin síntomas de masa, no hay motivo para una resonancia urgente.",
+            "en": "In people on antipsychotics, the consensus indicates MRI with prolactin > 10 times the limit, mass-effect symptoms or other pituitary deficiencies; at twice the limit and without mass-effect symptoms, there is no reason for an urgent MRI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Empezar cabergolina ya",
+            "en": "Start cabergoline now"
+          },
+          "correct": false,
+          "why": {
+            "es": "Antes hay que confirmar el valor y descartar las causas farmacológicas y sistémicas.",
+            "en": "The value must first be confirmed and drug and systemic causes excluded."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Repetir la prolactina, descartar embarazo, hipotiroidismo e insuficiencia renal o hepática, y valorar con psiquiatría",
+            "en": "Repeat prolactin, rule out pregnancy, hypothyroidism and renal or liver failure, and review with psychiatry"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los valores < 5 veces el límite se repiten y la revisión de causas es una recomendación fuerte.",
+            "en": "Correct: values < 5 times the limit are repeated, and reviewing causes is a strong recommendation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Suspender tú el antipsicótico 4 días y repetir",
+            "en": "Stop the antipsychotic yourself for 4 days and repeat"
+          },
+          "correct": false,
+          "why": {
+            "es": "Cualquier cambio de antipsicótico se coordina con su psiquiatra; el consenso pide esa colaboración en el prolactinoma con trastorno psiquiátrico, y la misma lógica vale aquí.",
+            "en": "Any antipsychotic change is coordinated with her psychiatrist; the consensus asks for that collaboration in prolactinoma with a psychiatric disorder, and the same logic applies here."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con antipsicóticos se describen elevaciones de hasta diez veces el límite. A dos veces el límite, lo primero es confirmar y revisar causas; si hay que aclarar el origen, reducir o cambiar el antipsicótico se hace con su psiquiatra.",
+        "en": "Elevations of up to ten times the limit are described with antipsychotics. At twice the limit, the first step is to confirm and review causes; if the origin must be clarified, reducing or switching the antipsychotic is done with her psychiatrist."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q10-compounded",
+      "conceptId": "cases-int.compounded-bioidentical",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mercedes quiere pellets de hormonas «bioidénticas» magistrales, con la dosis ajustada por un test de saliva. ¿Qué es coherente con la NAMS 2022?",
+        "en": "Mercedes wants compounded “bioidentical” hormone pellets, with the dose set by a saliva test. What is consistent with NAMS 2022?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Son más seguras porque son idénticas a las propias",
+            "en": "They are safer because they are identical to her own"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS describe problemas de seguridad de los magistrales y falta de datos de eficacia y seguridad (nivel I).",
+            "en": "NAMS describes safety concerns with compounded preparations and a lack of efficacy and safety data (Level I)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El test de saliva permite dosificar con precisión",
+            "en": "The saliva test allows precise dosing"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS considera poco fiables y no recomienda los análisis en saliva u orina para dosificar.",
+            "en": "NAMS considers saliva and urine testing for dosing unreliable and does not recommend it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Su preferencia basta para prescribirlas",
+            "en": "Her preference is enough to prescribe them"
+          },
+          "correct": false,
+          "why": {
+            "es": "La preferencia sola no justifica un magistral, sobre todo cuando hay bioidénticas reguladas (nivel III).",
+            "en": "Preference alone does not justify a compounded preparation, particularly when regulated bioidentical options exist (Level III)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ofrecer estradiol y progesterona micronizada aprobados y reservar los magistrales para alergias o dosis no disponibles",
+            "en": "Offer approved estradiol and micronized progesterone, and reserve compounded products for allergies or unavailable doses"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son bioidénticos regulados, y esas son las situaciones en que la NAMS plantea un magistral.",
+            "en": "Correct: they are regulated bioidentical hormones, and those are the situations in which NAMS considers a compounded product."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "«Bioidéntico» no es sinónimo de magistral. Las bioidénticas aprobadas están reguladas; los magistrales tienen problemas de dosis, pureza y falta de datos, y su dosificación por saliva no es fiable.",
+        "en": "“Bioidentical” is not a synonym for compounded. Approved bioidentical hormones are regulated; compounded products have dose and purity problems and lack data, and saliva-based dosing is unreliable."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "cases-int.q11-stool-test",
+      "conceptId": "cases-int.stool-microbiome-test",
+      "difficulty": 2,
+      "stem": {
+        "es": "Mercedes trae un test de microbiota en heces que le promete un plan personalizado de suplementos «para equilibrar sus hormonas». ¿Qué es coherente con el consenso internacional de 2025?",
+        "en": "Mercedes brings a stool microbiome test that promises her a personalised supplement plan “to balance her hormones”. What is consistent with the 2025 international consensus?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es útil si el laboratorio da rangos de referencia sanos",
+            "en": "It is useful if the laboratory provides healthy reference ranges"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso dice que, en general, no hay información suficiente para dar rangos estrictos de referencia (90 %).",
+            "en": "The consensus says there is generally not enough information to report strict reference ranges (90%)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El cociente Firmicutes/Bacteroidetes guía el probiótico",
+            "en": "The Firmicutes-to-Bacteroidetes ratio guides the probiotic"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja informar ese cociente (86 %).",
+            "en": "The consensus discourages reporting that ratio (86%)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Debería dejar su medicación antes del test para un resultado más limpio",
+            "en": "She should stop her medication before the test for a cleaner result"
+          },
+          "correct": false,
+          "why": {
+            "es": "No debe suspender su tratamiento salvo indicación del médico que solicita el test (100 %).",
+            "en": "She should not suspend therapy unless the referring physician recommends it (100%)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No hay evidencia suficiente para su uso rutinario y no se recomiendan los consejos terapéuticos en el informe",
+            "en": "There is insufficient evidence for routine use, and therapeutic advice in the report is discouraged"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: enunciados 32 (90 %) y 30 (98 %).",
+            "en": "Correct: statements 32 (90%) and 30 (98%)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso no ve evidencia suficiente para el uso rutinario, desaconseja la petición directa sin indicación clínica y que el proveedor incluya tratamiento en el informe: cualquier cambio lo decide el profesional que lo pidió.",
+        "en": "The consensus sees insufficient evidence for routine use, discourages direct requests without a clinical recommendation and the provider including treatment in the report: any change is decided by the referring professional."
+      },
+      "refIds": [
+        "porcari-2025-microbiome-testing"
+      ]
+    },
+    {
+      "id": "cases-int.case3-mercedes",
+      "kind": "case",
+      "conceptId": "cases-int.case-mercedes",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "gut",
+        "supplements"
+      ],
+      "title": {
+        "es": "Caso: Mercedes, 44 años, sofocos, prolactina alta, «bioidénticas» y un test de heces",
+        "en": "Case: Mercedes, 44, hot flushes, high prolactin, “bioidenticals” and a stool test"
+      },
+      "steps": [
+        {
+          "id": "cases-int.case3.s1",
+          "text": {
+            "es": "Mercedes (caso ficticio), 44 años, sin anticoncepción hormonal, tiene ciclos irregulares desde hace 8 meses y sofocos. A su edad no se trata de una IOP, y la NICE propone considerar la FSH para confirmar la menopausia entre los 40 y los 45 con síntomas y cambio de ciclo. [[ref:eshre-2024-poi]] [[ref:nice-2026-ng23]]",
+            "en": "Mercedes (fictional case), 44, not using hormonal contraception, has had irregular cycles for 8 months and hot flushes. At her age this is not POI, and NICE proposes considering FSH to confirm menopause between 40 and 45 with symptoms and cycle change. [[ref:eshre-2024-poi]] [[ref:nice-2026-ng23]]"
+          },
+          "questionId": "cases-int.q8-fsh-44"
+        },
+        {
+          "id": "cases-int.case3.s2",
+          "text": {
+            "es": "Toma un antipsicótico desde hace años y su médico de familia le encontró una prolactina de dos veces el límite superior, sin cefalea ni alteraciones visuales. La oligo/amenorrea puede ser un síntoma de hiperprolactinemia, y el consenso de la Pituitary Society pide repetir los valores menores de cinco veces el límite y revisar fármacos, embarazo, tiroides, riñón e hígado. [[ref:petersenn-2023-prolactinoma-consensus]]",
+            "en": "She has been on an antipsychotic for years, and her GP found a prolactin of twice the upper limit, with no headache or visual disturbance. Oligo/amenorrhoea can be a symptom of hyperprolactinaemia, and the Pituitary Society consensus asks to repeat values below five times the limit and to review drugs, pregnancy, thyroid, kidney and liver. [[ref:petersenn-2023-prolactinoma-consensus]]"
+          },
+          "questionId": "cases-int.q9-prolactin-next"
+        },
+        {
+          "id": "cases-int.case3.s3",
+          "text": {
+            "es": "La prueba de embarazo es negativa, la TSH y la función renal y hepática son normales, y la prolactina repetida sigue en torno a dos veces el límite. Con antipsicóticos se describen elevaciones de hasta diez veces el límite, Mercedes no tiene una prolactina > 10 veces el límite ni síntomas de masa; si tampoco hay datos de déficits de otros ejes hipofisarios (el tercer criterio del consenso para pedir resonancia), no la necesita por ahora, y lo comentas con su psiquiatra. [[ref:petersenn-2023-prolactinoma-consensus]]",
+            "en": "The pregnancy test is negative, TSH and renal and liver function are normal, and the repeat prolactin remains around twice the limit. Elevations of up to ten times the limit are described with antipsychotics, Mercedes has neither prolactin > 10 times the limit nor mass-effect symptoms; if there is also no evidence of deficiencies in other pituitary axes (the consensus’s third criterion for MRI), she does not need it for now, and you discuss it with her psychiatrist. [[ref:petersenn-2023-prolactinoma-consensus]]"
+          }
+        },
+        {
+          "id": "cases-int.case3.s4",
+          "text": {
+            "es": "Para los sofocos pide pellets «bioidénticos» magistrales dosificados por saliva. La NAMS describe sus problemas de seguridad, no recomienda dosificar por saliva y dice que la preferencia sola no los justifica cuando hay bioidénticas reguladas. [[ref:nams-2022-hormone-therapy]]",
+            "en": "For the hot flushes she asks for compounded “bioidentical” pellets dosed by saliva. NAMS describes their safety concerns, does not recommend saliva-based dosing and states that preference alone does not justify them when regulated bioidentical options exist. [[ref:nams-2022-hormone-therapy]]"
+          },
+          "questionId": "cases-int.q10-compounded"
+        },
+        {
+          "id": "cases-int.case3.s5",
+          "text": {
+            "es": "También trae un test de microbiota en heces con un plan de suplementos. El consenso internacional de 2025 no ve evidencia suficiente para su uso rutinario y desaconseja que el informe incluya consejos terapéuticos. [[ref:porcari-2025-microbiome-testing]]",
+            "en": "She also brings a stool microbiome test with a supplement plan. The 2025 international consensus sees insufficient evidence for routine use and discourages therapeutic advice in the report. [[ref:porcari-2025-microbiome-testing]]"
+          },
+          "questionId": "cases-int.q11-stool-test"
+        },
+        {
+          "id": "cases-int.case3.s6",
+          "text": {
+            "es": "Decides con ella siguiendo la NICE NG197: THS con estradiol y progesterona micronizada aprobados (combinada, porque tiene útero), terapia cognitivo-conductual o no tratar por ahora, con riesgos en frecuencias absolutas; como sigue teniendo ciclos, le das también información sobre anticoncepción. Elige probar la THS aprobada, con revisión a los 3 meses, y dejar el test de heces. [[ref:nice-2021-ng197]] [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]]",
+            "en": "You decide with her following NICE NG197: HRT with approved estradiol and micronized progesterone (combined, because she has a uterus), cognitive behavioural therapy, or no treatment for now, with risks given as absolute frequencies; as she still has cycles, you also give her information about contraception. She chooses to try approved HRT, with a review at 3 months, and to drop the stool test. [[ref:nice-2021-ng197]] [[ref:nice-2026-ng23]] [[ref:nams-2022-hormone-therapy]]"
+          }
+        }
+      ],
+      "refIds": [
+        "eshre-2024-poi",
+        "nice-2026-ng23",
+        "petersenn-2023-prolactinoma-consensus",
+        "nams-2022-hormone-therapy",
+        "porcari-2025-microbiome-testing",
+        "nice-2021-ng197"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    }
+  ]
+}
