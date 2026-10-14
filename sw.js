@@ -3,8 +3,8 @@
  * (they live in IndexedDB), so nothing is stored twice.
  * New versions wait: the page decides when to activate (never mid-question).
  */
-const VERSION = 'e4a0df4aa45c';
-const SHELL = ["./","assets/AppState-DmgKHL21.js","assets/CardScreen-5ZA89QJQ.js","assets/CaseScreen-CbcEralW.js","assets/ListenScreen-D_scAWrW.js","assets/MacroScreen-B4BGftYR.js","assets/QuestionsScreen-NxY-QX3A.js","assets/ReviewScreen-CkQoUV97.js","assets/SettingsScreen-C6er4bvy.js","assets/TopicsScreen-CiBRQB_X.js","assets/VoiceSettings-Dk7q88JS.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/en-DAijoDfV.js","assets/index-BJrabMv2.js","assets/index-D4LYAH5A.css","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
+const VERSION = '044d18dcd493';
+const SHELL = ["./","assets/AppState-laEzk2RM.js","assets/CardScreen-BYDysVfD.js","assets/CaseScreen-BtJt6APV.js","assets/ListenScreen-Clo_Ud_-.js","assets/MacroScreen-C6m1Ei8t.js","assets/QuestionsScreen-CvXp9Fh3.js","assets/ReviewScreen-D1OHp07q.js","assets/SettingsScreen-B8-R9fwv.js","assets/TopicsScreen-C3torTxz.js","assets/VoiceSettings-cCP6immK.js","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/en-B8nmPpAK.js","assets/index-BLBw8nxI.js","assets/index-Bd2qhltb.css","assets/manrope-latin-ext-wght-normal-Ch3YOpNY.woff2","assets/manrope-latin-wght-normal-DHIcAJRg.woff2","assets/sessionActions-BkOepYsm.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
 const CACHE = `tarjetalan-shell-${VERSION}`;
 
 self.addEventListener('install', (event) => {
