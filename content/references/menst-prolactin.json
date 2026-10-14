@@ -1,0 +1,46 @@
+[
+  {
+    "id": "petersenn-2023-prolactinoma-consensus",
+    "title": "Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement",
+    "authors": "Petersenn S, Fleseriu M, Casanueva FF, Giustina A, Biermasz N, Biller BMK, Bronstein M, Chanson P, Fukuoka H, Gadelha M, Greenman Y, Gurnell M, Ho KKY, Honegger J, Ioachimescu AG, Kaiser UB, Karavitaki N, Katznelson L, Lodish M, Maiter D, Marcus HJ, McCormack A, Molitch M, Muir CA, Neggers S, Pereira AM, Pivonello R, Post K, Raverot G, Salvatori R, Samson SL, Shimon I, Spencer-Segal J, Vila G, Wass J, Melmed S",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s41574-023-00886-5",
+    "doi": "10.1038/s41574-023-00886-5",
+    "type": "consensus",
+    "population": {
+      "es": "Personas con hiperprolactinemia o adenomas hipofisarios secretores de prolactina (adultos, embarazo y fertilidad, niños y adolescentes, trastornos psiquiátricos, menopausia). Taller internacional multidisciplinar de la Pituitary Society con expertos de 13 países.",
+      "en": "People with hyperprolactinaemia or prolactin-secreting pituitary adenomas (adults, pregnancy and fertility, children and adolescents, psychiatric disorders, menopause). International multidisciplinary Pituitary Society workshop with experts from 13 countries."
+    },
+    "finding": {
+      "es": "Investigar la prolactina ante infertilidad, alteraciones menstruales nuevas, amenorrea o galactorrea (fuerte). Con prolactina < 5 veces el límite superior, repetir la medición; extracción con cánula si se sospecha estrés (fuerte). Revisar fármacos, hipotiroidismo, insuficiencia renal o hepática y embarazo (fuerte). Macroprolactina si la elevación es moderada (< 200 ng/ml), al menos si la clínica o la imagen no concuerdan (fuerte); dilución 1:100 ante adenoma gigante con prolactina normal o poco elevada (fuerte). RM al confirmar la hiperprolactinemia si no hay otra causa evidente (fuerte). Cabergolina, agonista preferido (fuerte). Ecocardiograma según dosis (> 2,0 mg/semana: basal y cada 2–3 años; ≤ 2,0 mg/semana: a los 5–6 años) (débil). Considerar la retirada con dosis bajas, > 2 años de tratamiento y reducción del adenoma (fuerte). Suspender el agonista al confirmar el embarazo (fuerte); no usar la prolactina para vigilar el crecimiento en el embarazo (fuerte); la lactancia no suele estar contraindicada (fuerte).",
+      "en": "Investigate prolactin with infertility, new menstrual irregularity, amenorrhoea or galactorrhoea (strong). With prolactin < 5 times the upper limit, repeat the measurement; use cannulated sampling if stress is suspected (strong). Review drugs, hypothyroidism, renal or liver failure and pregnancy (strong). Test macroprolactin when the rise is moderate (< 200 ng/ml), at least when clinical or imaging findings are discordant (strong); 1:100 dilution for a giant adenoma with normal or mildly raised prolactin (strong). MRI once hyperprolactinaemia is confirmed if no other cause is evident (strong). Cabergoline is the preferred agonist (strong). Echocardiography by dose (> 2.0 mg/week: baseline and every 2–3 years; ≤ 2.0 mg/week: after 5–6 years) (weak). Consider withdrawal with low doses, > 2 years of treatment and adenoma shrinkage (strong). Stop the agonist once pregnancy is confirmed (strong); do not use prolactin to monitor growth in pregnancy (strong); breastfeeding is usually not contraindicated (strong)."
+    },
+    "limitations": {
+      "es": "PDF completo leído (Nat Rev Endocrinol 2023;19:722-740). Consenso de expertos por votación; grados «strong» (evidencia moderada o alta) y «weak» (baja o muy baja) según el Box 1 (p. 724), sin certeza GRADE por recomendación. Literatura hasta enero de 2023. Los cuadros suplementarios (incluida la discusión del embarazo y la retirada) no se pudieron leer. Avalado por la Pituitary Society; no es una guía de fertilidad.",
+      "en": "Full PDF read (Nat Rev Endocrinol 2023;19:722-740). Expert consensus by vote; grades “strong” (moderate or high evidence) and “weak” (low or very low) per Box 1 (p. 724), with no per-recommendation GRADE certainty. Literature up to January 2023. The supplementary boxes (including the pregnancy and withdrawal discussion) could not be read. Pituitary Society statement; not a fertility guideline."
+    },
+    "accessed": "2026-10-14"
+  },
+  {
+    "id": "cpasc-2026-prolactinoma-consensus",
+    "title": "Chinese consensus on the diagnosis and treatment of prolactinomas (2025 edition)",
+    "authors": "Lin S, Chen Z, Ji L, Wang L, Zhang W, Tang X, Wu Y, Fan Q, Li J, Pan L, Yao Z, Deng C, Ye H, Li S, Zhu H, Zhao Y, Wang Y, Wu ZB; China Pituitary Adenoma Specialist Council",
+    "year": 2026,
+    "url": "https://doi.org/10.1186/s41016-026-00437-7",
+    "doi": "10.1186/s41016-026-00437-7",
+    "type": "consensus",
+    "population": {
+      "es": "Pacientes con prolactinoma (diagnóstico, tratamiento médico, quirúrgico y radioterápico, embarazo y lactancia). Grupo de 60 expertos de neurocirugía, endocrinología, ginecología y obstetricia, neurorradiología, radioterapia y metodología, con apoyo del MAGIC China Center (GRADE).",
+      "en": "Patients with prolactinoma (diagnosis, medical, surgical and radiation treatment, pregnancy and lactation). Panel of 60 experts from neurosurgery, endocrinology, obstetrics and gynaecology, neuroradiology, radiation oncology and methodology, supported by the MAGIC China Center (GRADE)."
+    },
+    "finding": {
+      "es": "Medir prolactina ante alteraciones menstruales, infertilidad o galactorrea en mujeres en edad fértil (certeza baja; fuerte); extracción en reposo, en ayunas y tras al menos 2 h despierta; repetir si < 100 ng/ml. Macroprolactina si la clínica no concuerda (baja; débil); dilución para descartar efecto gancho en macroadenomas (baja; débil). RM tras excluir otras causas (baja; débil). Micro asintomático: observar (muy baja; débil). Ecocardiograma periódico con cabergolina a dosis altas a largo plazo (baja; débil). Retirada tras > 2 años de dosis baja de mantenimiento con prolactina normal y reducción tumoral (muy baja; débil). Micro: no hace falta suspender el agonista al buscar embarazo, sí al confirmarlo (muy baja; débil). Lactancia: se fomenta; si hace falta el agonista, suspenderla (muy baja; débil).",
+      "en": "Measure prolactin with menstrual disorders, infertility or galactorrhoea in women of reproductive age (low certainty; strong); sample at rest, fasting and after at least 2 h awake; repeat if < 100 ng/ml. Macroprolactin when clinical findings are discordant (low; weak); dilution to exclude the hook effect in macroadenomas (low; weak). MRI after excluding other causes (low; weak). Asymptomatic microadenoma: observe (very low; weak). Periodic echocardiography with long-term high-dose cabergoline (low; weak). Withdrawal after > 2 years on a low maintenance dose with normal prolactin and tumour shrinkage (very low; weak). Microadenoma: no need to stop the agonist while trying to conceive, but stop it once pregnancy is confirmed (very low; weak). Breastfeeding: encouraged; if the agonist is needed, stop breastfeeding (very low; weak)."
+    },
+    "limitations": {
+      "es": "Texto completo leído (Chin Neurosurg J 2026;12:17, versión de Europe PMC, sin paginación). Consenso nacional chino liderado por neurocirugía; la mayoría de las recomendaciones son débiles con certeza baja o muy baja. En China continental no hay cabergolina, por lo que la bromocriptina es su primera opción: esto condiciona varias recomendaciones. Las tablas suplementarias no se pudieron leer.",
+      "en": "Full text read (Chin Neurosurg J 2026;12:17, Europe PMC version, no page numbers). Chinese national consensus led by neurosurgery; most recommendations are weak with low or very low certainty. Cabergoline is unavailable in mainland China, so bromocriptine is its first choice, which shapes several recommendations. The supplementary tables could not be read."
+    },
+    "accessed": "2026-10-14"
+  }
+]

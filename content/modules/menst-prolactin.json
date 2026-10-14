@@ -1,0 +1,1520 @@
+{
+  "id": "menst-prolactin",
+  "macroId": "menst",
+  "title": {
+    "es": "Hiperprolactinemia: estudio, tratamiento y fertilidad",
+    "en": "Hyperprolactinaemia: work-up, treatment and fertility"
+  },
+  "lessons": [
+    {
+      "id": "menst-prl.l1-measure-workup",
+      "microId": "menst.endocrine-eval",
+      "title": {
+        "es": "Medir la prolactina y orientar la causa",
+        "en": "Measuring prolactin and finding the cause"
+      },
+      "objective": {
+        "es": "Saber a quién pedir prolactina según cada guía, extraer y repetir bien la muestra, excluir causas no tumorales, reconocer la macroprolactina y el efecto gancho y decidir cuándo pedir una RM.",
+        "en": "Know whom to test for prolactin under each guideline, draw and repeat the sample properly, exclude non-tumour causes, recognise macroprolactin and the hook effect, and decide when to order MRI."
+      },
+      "closing": {
+        "es": "Prolactina con clínica (NICE, ESHRE, ASRM) o también por infertilidad (consensos hipofisarios). Elevación leve: repetir en reposo. Embarazo, fármacos, TSH, riñón e hígado antes de la RM. Sin síntomas: macroprolactina; tumor grande con cifra baja: dilución.",
+        "en": "Prolactin with clinical features (NICE, ESHRE, ASRM) or also for infertility (pituitary consensus statements). Mild rise: repeat at rest. Pregnancy, drugs, TSH, kidney and liver before MRI. No symptoms: macroprolactin; large tumour with a low value: dilution."
+      },
+      "prerequisites": [
+        "horm.prolactin-oxytocin",
+        "menst.amenorrhea-workup"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "menst-prl.c1-who-to-test",
+        "menst-prl.c2-how-to-sample",
+        "menst-prl.c3-causes",
+        "menst-prl.c4-macroprolactin-hook",
+        "menst-prl.c5-mri",
+        "menst-prl.q1-who-tests",
+        "menst-prl.q2-mild-after-stress",
+        "menst-prl.q3-asymptomatic-high",
+        "menst-prl.q4-hook"
+      ]
+    },
+    {
+      "id": "menst-prl.l2-treatment",
+      "microId": "menst.hyperprolactinemia",
+      "title": {
+        "es": "Tratamiento con agonistas dopaminérgicos",
+        "en": "Treatment with dopamine agonists"
+      },
+      "objective": {
+        "es": "Elegir agonista y dosis según las fuentes, saber a quién no tratar, vigilar efectos adversos y válvulas, plantear la retirada y manejar la hiperprolactinemia por antipsicóticos con psiquiatría.",
+        "en": "Choose the agonist and dose according to the sources, know whom not to treat, monitor adverse effects and valves, plan withdrawal and manage antipsychotic-induced hyperprolactinaemia with psychiatry."
+      },
+      "closing": {
+        "es": "Cabergolina de elección (bromocriptina donde no la hay). Micro sin síntomas ni deseo gestacional: observar o reemplazo hormonal. Ecocardiograma según 2 mg/semana. Retirada tras > 2 años con dosis baja y tumor reducido. Antipsicóticos: con psiquiatría, sospecha de tumor > 10 veces el límite.",
+        "en": "Cabergoline first (bromocriptine where it is unavailable). Microadenoma without symptoms or wish to conceive: observe or hormone replacement. Echocardiography by the 2 mg/week threshold. Withdrawal after > 2 years on a low dose with tumour shrinkage. Antipsychotics: with psychiatry, suspect tumour > 10 times the limit."
+      },
+      "prerequisites": [
+        "menst.endocrine-eval",
+        "horm.endocrine-pharmacology"
+      ],
+      "level": "intermediate",
+      "itemIds": [
+        "menst-prl.c6-cabergoline-vs-bromocriptine",
+        "menst-prl.c7-who-to-treat",
+        "menst-prl.c8-adverse-effects",
+        "menst-prl.c9-valves",
+        "menst-prl.c10-withdrawal",
+        "menst-prl.c11-antipsychotics",
+        "menst-prl.q5-first-line-agonist",
+        "menst-prl.q6-echo-low-dose",
+        "menst-prl.q7-withdrawal-candidate",
+        "menst-prl.q8-antipsychotic"
+      ]
+    },
+    {
+      "id": "menst-prl.l3-fertility-pregnancy",
+      "microId": "menst.hyperprolactinemia",
+      "title": {
+        "es": "Fertilidad, embarazo y lactancia",
+        "en": "Fertility, pregnancy and breastfeeding"
+      },
+      "objective": {
+        "es": "Preparar el embarazo en una mujer con prolactinoma, saber cuándo suspender el agonista, cómo vigilar micro y macroadenomas durante la gestación y qué dicen las fuentes sobre la lactancia.",
+        "en": "Prepare for pregnancy in a woman with prolactinoma, know when to stop the agonist, how to monitor micro- and macroadenomas during pregnancy and what the sources say about breastfeeding."
+      },
+      "closing": {
+        "es": "Macro: que responda (o cirugía) antes de concebir. Al confirmar el embarazo, suspender el agonista. Micro: control clínico cada 3 meses; macro: mensual y campo visual trimestral. Síntomas: RM sin gadolinio y reintroducir el agonista. La lactancia suele permitirse.",
+        "en": "Macroadenoma: response (or surgery) before conception. On confirming pregnancy, stop the agonist. Microadenoma: clinical check every 3 months; macroadenoma: monthly and visual fields quarterly. Symptoms: MRI without gadolinium and restart the agonist. Breastfeeding is usually allowed."
+      },
+      "prerequisites": [
+        "menst.hyperprolactinemia",
+        "fert.couple-evaluation"
+      ],
+      "level": "advanced",
+      "itemIds": [
+        "menst-prl.c12-before-conception",
+        "menst-prl.c13-pregnancy",
+        "menst-prl.c14-breastfeeding",
+        "menst-prl.q9-pregnant-micro",
+        "menst-prl.q10-macro-symptoms-pregnancy",
+        "menst-prl.case1-abril"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c1-who-to-test",
+      "conceptId": "menst-prl.who-to-test",
+      "type": "comparison",
+      "title": {
+        "es": "¿A quién pedir prolactina? Las guías no coinciden",
+        "en": "Who should have prolactin measured? Guidelines disagree"
+      },
+      "core": {
+        "es": "NICE NG257 indica no pedir prolactina a quien consulta por fertilidad y ofrecerla solo si hay un trastorno ovulatorio, galactorrea o un tumor hipofisario. [[ref:nice-2026-ng257]] La ESHRE 2023 no recomienda medir prolactina en la infertilidad inexplicada (fuerte; certeza muy baja, ⊕), y la ESHRE 2022 de pérdida gestacional recurrente tampoco, salvo síntomas de hiperprolactinemia como oligo/amenorrea (condicional). [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2022-rpl]]",
+        "en": "NICE NG257 advises against measuring prolactin in people concerned about their fertility and offers it only with an ovulatory disorder, galactorrhoea or a pituitary tumour. [[ref:nice-2026-ng257]] ESHRE 2023 does not recommend prolactin testing in unexplained infertility (strong; very low certainty, ⊕), and the ESHRE 2022 recurrent pregnancy loss guideline does not either, unless there are symptoms of hyperprolactinaemia such as oligo/amenorrhoea (conditional). [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2022-rpl]]"
+      },
+      "body": {
+        "es": "La ASRM 2021 tampoco incluye la prolactina en el estudio rutinario de infertilidad y la indica ante galactorrea, oligomenorrea o amenorrea. [[ref:asrm-2021-fertility-evaluation]] En cambio, el consenso de la Pituitary Society 2023 considera que la pérdida de libido y/o la infertilidad, las irregularidades menstruales de nueva aparición o la amenorrea deben llevar a investigar la hiperprolactinemia (fuerte), igual que la galactorrea fuera del embarazo y la lactancia (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 recomienda medirla en mujeres en edad fértil con alteraciones menstruales, infertilidad y/o galactorrea (certeza baja; fuerte). [[ref:cpasc-2026-prolactinoma-consensus]]\n\nEs decir: NICE, ESHRE y ASRM limitan la prueba a quien tiene clínica (ciclos alterados o galactorrea); los consensos hipofisarios incluyen la infertilidad como motivo suficiente. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "ASRM 2021 also leaves prolactin out of the routine infertility evaluation and indicates it with galactorrhoea, oligomenorrhoea or amenorrhoea. [[ref:asrm-2021-fertility-evaluation]] By contrast, the 2023 Pituitary Society consensus states that loss of libido and/or infertility, new-onset menstrual irregularity or amenorrhoea should trigger investigation for hyperprolactinaemia (strong), as should galactorrhoea outside pregnancy and lactation (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus recommends measuring it in women of reproductive age with menstrual disorders, infertility and/or galactorrhoea (low certainty; strong). [[ref:cpasc-2026-prolactinoma-consensus]]\n\nIn short: NICE, ESHRE and ASRM restrict the test to women with clinical features (disturbed cycles or galactorrhoea); the pituitary consensus statements count infertility itself as sufficient reason. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Con ciclos regulares y sin galactorrea, las guías de fertilidad no piden prolactina: el resultado probablemente no cambie nada y una cifra límite abre un estudio innecesario.",
+        "en": "With regular cycles and no galactorrhoea, fertility guidelines do not order prolactin: the result is unlikely to change anything, and a borderline value opens an unnecessary work-up."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "NICE NG257 1.18.11 [2004] (p. 27). ESHRE IU 2023 rec. 34, fuerte, ⊕ (p. 71). ESHRE PGR 2022, prolactina condicional (p. 11). ASRM 2021 (pp. 4 y 7). Pituitary Society 2023 (pp. 723–724): galactorrea e infertilidad/alteración menstrual, strong. Consenso chino 2025, recomendación 1: certeza baja; fuerte. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "NICE NG257 1.18.11 [2004] (p. 27). ESHRE UI 2023 rec. 34, strong, ⊕ (p. 71). ESHRE RPL 2022, prolactin conditional (p. 11). ASRM 2021 (pp. 4 and 7). Pituitary Society 2023 (pp. 723–724): galactorrhoea and infertility/menstrual disturbance, strong. 2025 Chinese consensus, recommendation 1: low certainty; strong. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué guías piden prolactina por infertilidad sola y cuáles solo con trastorno ovulatorio o galactorrea?",
+        "en": "Which guidelines order prolactin for infertility alone, and which only with an ovulatory disorder or galactorrhoea?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c2-how-to-sample",
+      "conceptId": "menst-prl.sampling",
+      "type": "lab",
+      "title": {
+        "es": "Cómo extraer la muestra y cuándo repetirla",
+        "en": "How to draw the sample and when to repeat it"
+      },
+      "core": {
+        "es": "Según la Pituitary Society 2023, el estrés de la venopunción puede multiplicar la prolactina por 2–4 durante menos de 1 hora; con valores < 5 veces el límite superior de normalidad se repite la medición, y se recomienda la extracción con cánula si se sospecha estrés (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 aconseja extraer en reposo, tras ayuno nocturno y al menos 2 horas después de despertar, y repetir si la prolactina es < 100 ng/ml (2120 mU/l). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "According to the 2023 Pituitary Society consensus, venipuncture stress can raise prolactin two- to fourfold for less than 1 hour; values < 5 times the upper limit of normal should be repeated, and cannulated sampling is recommended if stress is suspected (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus advises sampling at rest, after an overnight fast and at least 2 hours after waking, and repeating if prolactin is < 100 ng/ml (2120 mU/L). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La Pituitary Society añade que el ejercicio, las comidas ricas en proteínas y el alcohol pueden elevar la prolactina de forma fisiológica, y que las pruebas de estímulo y supresión dan resultados inespecíficos y se han abandonado en gran parte. [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino describe una secreción pulsátil, más alta durante el sueño y a primera hora, con un mínimo entre las 10 y las 12 h. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nOjo con las unidades: 1 μg/l equivale a 21,2 mUI/l, los valores normales son más altos en mujeres que en hombres y los límites publicados son más bajos que los de muchos fabricantes, por lo que conviene usar los intervalos del propio ensayo. [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The Pituitary Society adds that exercise, high-protein meals and alcohol can raise prolactin physiologically, and that stimulation and suppression tests give non-specific results and have largely been abandoned. [[ref:petersenn-2023-prolactinoma-consensus]] The Chinese consensus describes pulsatile secretion, higher during sleep and early morning, with a nadir between 10:00 and 12:00. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nWatch the units: 1 μg/L equals 21.2 mIU/L, normal values are higher in women than in men, and published upper limits are lower than those of many manufacturers, so the assay’s own intervals should be used. [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Una prolactina discretamente alta tras una extracción difícil, a primera hora o tras entrenar no es un diagnóstico: es una indicación de repetir bien la muestra.",
+        "en": "A mildly raised prolactin after a difficult draw, early in the morning or after training is not a diagnosis: it is a reason to repeat the sample properly."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Causes of hyperprolactinaemia» (p. 724): repetir con < 5 × LSN y cánula si hay estrés, strong; texto y «Prolactin assays» (pp. 724–725). Consenso chino 2025, texto de la recomendación 1 (condiciones de extracción y repetición si < 100 ng/ml; no es una recomendación graduada aparte). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724).",
+          "en": "Pituitary Society 2023, “Causes of hyperprolactinaemia” (p. 724): repeat with < 5 × ULN and cannula if stress, strong; text and “Prolactin assays” (pp. 724–725). 2025 Chinese consensus, recommendation 1 text (sampling conditions and repeat if < 100 ng/ml; not a separately graded recommendation). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724)."
+        }
+      },
+      "recall": {
+        "es": "¿Cuánto puede subir la prolactina el estrés de la venopunción y cuándo hay que repetir la muestra según cada consenso?",
+        "en": "How much can venipuncture stress raise prolactin, and when should the sample be repeated under each consensus?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c3-causes",
+      "conceptId": "menst-prl.causes",
+      "type": "concept",
+      "title": {
+        "es": "Antes de pensar en un prolactinoma: embarazo, fármacos, tiroides, riñón e hígado",
+        "en": "Before thinking prolactinoma: pregnancy, drugs, thyroid, kidney and liver"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 recomienda revisar a fondo la medicación para excluir una hiperprolactinemia farmacológica, reconocer el hipotiroidismo primario, la insuficiencia renal y la insuficiencia hepática como causas de elevaciones leves, y no pasar por alto el embarazo (todas fuertes). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 exige excluir causas fisiológicas, farmacológicas y otras patológicas antes de diagnosticar un prolactinoma, empezando por descartar embarazo y revisar los fármacos (GPS). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends rigorously reviewing medication to exclude drug-induced hyperprolactinaemia, recognising primary hypothyroidism, renal insufficiency and liver failure as causes of mild elevations, and not overlooking pregnancy (all strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus requires excluding physiological, pharmacological and other pathological causes before diagnosing a prolactinoma, starting by ruling out pregnancy and reviewing drugs (GPS). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "Entre las causas fisiológicas, la Pituitary Society enumera embarazo, estimulación mamaria o del pezón, estrés, sueño, coito y ejercicio; entre los fármacos, neurolépticos y antipsicóticos (por ejemplo risperidona y haloperidol), metoclopramida, domperidona, metildopa, verapamilo, opiáceos, antidepresivos tricíclicos e ISRS; los anticonceptivos orales figuran como causa controvertida. [[ref:petersenn-2023-prolactinoma-consensus]] La hiperprolactinemia del hipotiroidismo primario revierte con hormona tiroidea; las lesiones que comprimen el tallo hipofisario elevan la prolactina por pérdida del freno dopaminérgico. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nEn el SOP, la elevación de prolactina requiere estudio adicional, porque el SOP por sí mismo rara vez se asocia a hiperprolactinemia. [[ref:petersenn-2023-prolactinoma-consensus]] Ni este consenso ni el chino mencionan fitoterapia (como el sauzgatillo o vitex) ni suplementos para bajar la prolactina: estas fuentes no hacen ninguna recomendación al respecto. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "Among physiological causes, the Pituitary Society lists pregnancy, breast or nipple stimulation, stress, sleep, coitus and exercise; among drugs, neuroleptics and antipsychotics (for example risperidone and haloperidol), metoclopramide, domperidone, methyldopa, verapamil, opiates, tricyclic antidepressants and SSRIs; oral contraceptives are listed as a controversial cause. [[ref:petersenn-2023-prolactinoma-consensus]] The hyperprolactinaemia of primary hypothyroidism reverses with thyroid hormone; lesions compressing the pituitary stalk raise prolactin by removing the dopaminergic brake. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nIn PCOS, raised prolactin needs further evaluation, because PCOS itself is rarely associated with hyperprolactinaemia. [[ref:petersenn-2023-prolactinoma-consensus]] Neither this consensus nor the Chinese one mentions herbal remedies (such as chasteberry or vitex) or supplements to lower prolactin: these sources make no recommendation on them. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Prueba de embarazo, TSH y lista completa de fármacos (incluidos antieméticos y psicofármacos) antes de pedir una resonancia.",
+        "en": "Pregnancy test, TSH and a full drug list (including antiemetics and psychotropics) before ordering an MRI."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Causes of hyperprolactinaemia» (p. 724), strong; Box 2 (p. 726). Consenso chino 2025, recomendación 4: GPS. La ausencia de recomendación sobre fitoterapia se refiere solo a estas dos fuentes. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Causes of hyperprolactinaemia” (p. 724), strong; Box 2 (p. 726). 2025 Chinese consensus, recommendation 4: GPS. The absence of any herbal recommendation refers only to these two sources. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué causas no tumorales de hiperprolactinemia hay que excluir antes de diagnosticar un prolactinoma?",
+        "en": "Which non-tumour causes of hyperprolactinaemia must be excluded before diagnosing a prolactinoma?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c4-macroprolactin-hook",
+      "conceptId": "menst-prl.assay-pitfalls",
+      "type": "lab",
+      "title": {
+        "es": "Macroprolactina y efecto gancho: dos trampas del laboratorio",
+        "en": "Macroprolactin and the hook effect: two laboratory traps"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 recomienda estudiar la macroprolactina cuando la prolactina está moderadamente elevada (< 200 ng/ml), al menos si la clínica o la imagen no concuerdan (fuerte), y diluir 1:100 la muestra ante un adenoma gigante con clínica de hiperprolactinemia y prolactina normal o poco elevada, para descartar el efecto gancho (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 hace las mismas propuestas con menos fuerza: macroprolactina si la clínica no concuerda y dilución en macroadenomas con prolactina normal o poco elevada (certeza baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends testing for macroprolactin when prolactin is moderately raised (< 200 ng/ml), at least when clinical or imaging findings are discordant (strong), and diluting the sample 1:100 for a giant adenoma with clinical hyperprolactinaemia and normal or mildly raised prolactin, to exclude the hook effect (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus makes the same proposals with less strength: macroprolactin when clinical findings are discordant and dilution for macroadenomas with normal or mildly raised prolactin (low certainty; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La macroprolactina (complejos de prolactina con IgG) se detecta en el 10–25 % de las hiperprolactinemias según la Pituitary Society y es biológicamente inactiva, por lo que la mayoría de estas pacientes no tiene síntomas; la precipitación con polietilenglicol suele distinguirla. [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino da una frecuencia del 5,32–22,90 % y considera sugestiva de macroprolactinemia una recuperación de prolactina monomérica < 40 % tras PEG. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nEl efecto gancho es raro con los ensayos actuales; el consenso chino propone sospecharlo sobre todo con tumores de diámetro máximo ≥ 3 cm y prolactina < 100 ng/ml. [[ref:cpasc-2026-prolactinoma-consensus]] Ante síntomas y valores incoherentes, la Pituitary Society también pide considerar la biotina o los anticuerpos heterófilos (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "Macroprolactin (prolactin–IgG complexes) is found in 10–25% of hyperprolactinaemia cases according to the Pituitary Society and is biologically inactive, so most of these patients have no symptoms; polyethylene glycol precipitation usually distinguishes it. [[ref:petersenn-2023-prolactinoma-consensus]] The Chinese consensus gives a frequency of 5.32–22.90% and considers a monomeric prolactin recovery < 40% after PEG suggestive of macroprolactinaemia. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nThe hook effect is rare with current assays; the Chinese consensus suggests suspecting it especially with tumours of maximum diameter ≥ 3 cm and prolactin < 100 ng/ml. [[ref:cpasc-2026-prolactinoma-consensus]] With inconsistent symptoms and values, the Pituitary Society also asks to consider biotin or heterophile antibodies (strong). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Prolactina alta sin síntomas: piensa en macroprolactina. Tumor grande con prolactina «solo un poco alta»: pide dilución.",
+        "en": "High prolactin without symptoms: think macroprolactin. Large tumour with prolactin “only slightly high”: ask for dilution."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Biochemical evaluation» (p. 725), strong; texto (pp. 725–726). Consenso chino 2025, recomendaciones 2 y 3: certeza baja; débil. Ninguna de las dos fuentes da una recomendación explícita sobre tratar o no la macroprolactinemia aislada; solo la describen como inactiva. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Biochemical evaluation” (p. 725), strong; text (pp. 725–726). 2025 Chinese consensus, recommendations 2 and 3: low certainty; weak. Neither source gives an explicit recommendation on treating isolated macroprolactinaemia; they only describe it as inactive. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Cuándo pedir macroprolactina y cuándo una dilución 1:100, y con qué fuerza lo recomienda cada consenso?",
+        "en": "When should you order macroprolactin and when a 1:100 dilution, and how strongly does each consensus recommend it?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c5-mri",
+      "conceptId": "menst-prl.mri",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Resonancia hipofisaria: cuándo y con qué lectura",
+        "en": "Pituitary MRI: when, and how to read the result"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 recomienda RM al confirmar la hiperprolactinemia si no hay otra causa no adenomatosa evidente (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 la indica tras excluir causas fisiológicas, farmacológicas y sistémicas (certeza baja; débil) y propone RM dinámica con contraste para detectar mejor los microadenomas (muy baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends MRI once hyperprolactinaemia is confirmed if no other non-adenomatous cause is evident (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus indicates it after excluding physiological, pharmacological and systemic causes (low certainty; weak) and proposes dynamic contrast-enhanced MRI to detect microadenomas better (very low; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "En su algoritmo diagnóstico, la Pituitary Society señala que con elevaciones moderadas (≤ 200 ng/ml) deben considerarse diagnósticos distintos del prolactinoma; con un adenoma y prolactina moderadamente alta, un efecto tallo por un adenoma no funcionante. [[ref:petersenn-2023-prolactinoma-consensus]] El tamaño del adenoma y la prolactina suelen correlacionarse, y la discordancia debe hacer pensar en otras causas (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nEl seguimiento por imagen se individualiza; la Pituitary Society pide repetir RM ante resistencia al tratamiento, síntomas nuevos (visión, cefalea, galactorrea), disfunción hipofisaria nueva o subida de la prolactina (fuerte), y considera innecesaria la imagen seriada más allá del primer año en tumores que responden si la prolactina no sube. [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino recuerda la retención de gadolinio y prefiere quelantes macrocíclicos. [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "In its diagnostic algorithm, the Pituitary Society notes that with moderate elevations (≤ 200 ng/ml) diagnoses other than prolactinoma should be considered; with an adenoma and moderately raised prolactin, a stalk effect from a non-functioning adenoma. [[ref:petersenn-2023-prolactinoma-consensus]] Adenoma size and prolactin usually correlate, and discordance should prompt consideration of other causes (strong). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nImaging follow-up is individualised; the Pituitary Society asks for repeat MRI with treatment resistance, new symptoms (vision, headache, galactorrhoea), new pituitary dysfunction or rising prolactin (strong), and considers serial imaging beyond the first year unnecessary for responding tumours if prolactin does not rise. [[ref:petersenn-2023-prolactinoma-consensus]] The Chinese consensus notes gadolinium retention and prefers macrocyclic agents. [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Un macroadenoma con prolactina de 60 no es un «macroprolactinoma que responde mal»: puede ser un adenoma no funcionante con efecto tallo o un efecto gancho.",
+        "en": "A macroadenoma with a prolactin of 60 is not a “poorly responding macroprolactinoma”: it may be a non-functioning adenoma with stalk effect, or a hook effect."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Imaging» (p. 726), strong; fig. 2 (p. 727); discordancia tamaño–prolactina (p. 724), strong. Consenso chino 2025, recomendaciones 6 (baja; débil y muy baja; débil) y 7 (GPS). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Imaging” (p. 726), strong; Fig. 2 (p. 727); size–prolactin discordance (p. 724), strong. 2025 Chinese consensus, recommendations 6 (low; weak and very low; weak) and 7 (GPS). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Cuándo pedir RM hipofisaria y qué sugiere una prolactina ≤ 200 ng/ml con un adenoma grande?",
+        "en": "When should you order pituitary MRI, and what does prolactin ≤ 200 ng/ml with a large adenoma suggest?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q1-who-tests",
+      "conceptId": "menst-prl.who-to-test",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 34 años (caso ficticio) con ciclos regulares de 28 días y sin galactorrea consulta tras 18 meses buscando embarazo; el estudio básico es normal (infertilidad inexplicada). ¿Qué indican NICE NG257 y la ESHRE 2023 sobre la prolactina?",
+        "en": "A 34-year-old woman (fictional case) with regular 28-day cycles and no galactorrhoea attends after 18 months trying to conceive; the basic work-up is normal (unexplained infertility). What do NICE NG257 and ESHRE 2023 say about prolactin?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Medirla en todas las mujeres con infertilidad",
+            "en": "Measure it in every woman with infertility"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es la postura más amplia de los consensos hipofisarios, no la de NICE ni la de la ESHRE.",
+            "en": "That is the broader stance of the pituitary consensus statements, not that of NICE or ESHRE."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No medirla: solo con trastorno ovulatorio, galactorrea o tumor hipofisario (NICE); no recomendada en la infertilidad inexplicada (ESHRE)",
+            "en": "Do not measure it: only with an ovulatory disorder, galactorrhoea or pituitary tumour (NICE); not recommended in unexplained infertility (ESHRE)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.18.11 y ESHRE rec. 34 (fuerte; certeza muy baja, ⊕).",
+            "en": "Correct: NICE 1.18.11 and ESHRE rec. 34 (strong; very low certainty, ⊕)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Medirla solo en fase lútea media",
+            "en": "Measure it only in the mid-luteal phase"
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de estas guías fija una fase del ciclo para la prolactina.",
+            "en": "Neither guideline sets a cycle phase for prolactin."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacer una prueba de estímulo con TRH",
+            "en": "Perform a TRH stimulation test"
+          },
+          "correct": false,
+          "why": {
+            "es": "La Pituitary Society señala que las pruebas de estímulo dan resultados inespecíficos y se han abandonado en gran parte.",
+            "en": "The Pituitary Society notes that stimulation tests give non-specific results and have largely been abandoned."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las guías de fertilidad limitan la prolactina a quien tiene clínica; la Pituitary Society y el consenso chino incluyen la infertilidad como motivo para medirla. Es un desacuerdo real que conviene conocer.",
+        "en": "Fertility guidelines restrict prolactin to women with clinical features; the Pituitary Society and the Chinese consensus include infertility as a reason to measure it. It is a real disagreement worth knowing."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "eshre-2023-unexplained-infertility",
+        "petersenn-2023-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q2-mild-after-stress",
+      "conceptId": "menst-prl.sampling",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 29 años (caso ficticio) con oligomenorrea tiene una prolactina de 1,8 veces el límite superior, extraída tras tres pinchazos fallidos. TSH normal y prueba de embarazo negativa. ¿Qué es lo más adecuado según la Pituitary Society 2023?",
+        "en": "A 29-year-old woman (fictional case) with oligomenorrhoea has a prolactin of 1.8 times the upper limit, drawn after three failed attempts. TSH is normal and the pregnancy test is negative. What is most appropriate per the 2023 Pituitary Society consensus?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Iniciar cabergolina",
+            "en": "Start cabergoline"
+          },
+          "correct": false,
+          "why": {
+            "es": "Primero hay que confirmar la hiperprolactinemia: con < 5 veces el límite se repite la medición.",
+            "en": "Hyperprolactinaemia must be confirmed first: with < 5 times the limit the measurement is repeated."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pedir RM hipofisaria directamente",
+            "en": "Order pituitary MRI straight away"
+          },
+          "correct": false,
+          "why": {
+            "es": "La RM se pide con la hiperprolactinemia confirmada y sin otra causa evidente.",
+            "en": "MRI is ordered once hyperprolactinaemia is confirmed and no other cause is evident."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Repetir la prolactina, con cánula si se sospecha estrés",
+            "en": "Repeat prolactin, with a cannula if stress is suspected"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: repetir con < 5 × LSN y extracción con cánula si se sospecha estrés (ambas fuertes).",
+            "en": "Correct: repeat with < 5 × ULN and cannulated sampling if stress is suspected (both strong)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Descartar el resultado y no volver a medirla",
+            "en": "Disregard the result and not measure it again"
+          },
+          "correct": false,
+          "why": {
+            "es": "Hay oligomenorrea, un motivo para investigar la hiperprolactinemia; el valor debe repetirse, no ignorarse.",
+            "en": "There is oligomenorrhoea, a reason to investigate hyperprolactinaemia; the value should be repeated, not ignored."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El estrés de la venopunción puede multiplicar la prolactina por 2–4 durante menos de 1 hora; una elevación leve se confirma antes de buscar un adenoma.",
+        "en": "Venipuncture stress can raise prolactin two- to fourfold for less than 1 hour; a mild rise is confirmed before looking for an adenoma."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q3-asymptomatic-high",
+      "conceptId": "menst-prl.assay-pitfalls",
+      "difficulty": 2,
+      "stem": {
+        "es": "En un chequeo, una mujer de 38 años (caso ficticio) con ciclos regulares, sin galactorrea ni cefalea, tiene una prolactina de 90 ng/ml, confirmada en una segunda muestra en reposo. No toma fármacos; la prueba de embarazo es negativa y la TSH y la función renal y hepática son normales. ¿Cuál es el siguiente paso más razonable?",
+        "en": "At a check-up, a 38-year-old woman (fictional case) with regular cycles, no galactorrhoea and no headache has a prolactin of 90 ng/ml, confirmed on a second resting sample. She takes no drugs; her pregnancy test is negative and TSH, renal and liver function are normal. What is the most reasonable next step?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Estudiar la macroprolactina (precipitación con PEG)",
+            "en": "Test for macroprolactin (PEG precipitation)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: elevación moderada con clínica discordante; la Pituitary Society lo recomienda (fuerte) y el consenso chino también (débil).",
+            "en": "Correct: moderate elevation with discordant clinical findings; the Pituitary Society recommends it (strong) and so does the Chinese consensus (weak)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cabergolina para normalizar la cifra",
+            "en": "Cabergoline to normalise the value"
+          },
+          "correct": false,
+          "why": {
+            "es": "Sin confirmar que la prolactina sea biológicamente activa y sin síntomas, no hay nada que tratar todavía.",
+            "en": "Without confirming that the prolactin is biologically active and without symptoms, there is nothing to treat yet."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Dilución 1:100 por efecto gancho",
+            "en": "1:100 dilution for a hook effect"
+          },
+          "correct": false,
+          "why": {
+            "es": "La dilución se reserva para adenomas grandes con prolactina normal o poco elevada.",
+            "en": "Dilution is reserved for large adenomas with normal or mildly raised prolactin."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Prueba de supresión con dopamina",
+            "en": "Dopamine suppression test"
+          },
+          "correct": false,
+          "why": {
+            "es": "Las pruebas de estímulo y supresión dan resultados inespecíficos.",
+            "en": "Stimulation and suppression tests give non-specific results."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La macroprolactina es frecuente (10–25 % según la Pituitary Society) y biológicamente inactiva: explica cifras altas sin clínica y evita resonancias y tratamientos innecesarios.",
+        "en": "Macroprolactin is common (10–25% per the Pituitary Society) and biologically inactive: it explains high values without symptoms and avoids unnecessary MRI and treatment."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q4-hook",
+      "conceptId": "menst-prl.assay-pitfalls",
+      "difficulty": 3,
+      "stem": {
+        "es": "Un hombre de 45 años (caso ficticio) tiene un macroadenoma hipofisario de 4 cm con hipogonadismo y una prolactina de 55 ng/ml. ¿Qué debes pedir antes de etiquetarlo como no funcionante?",
+        "en": "A 45-year-old man (fictional case) has a 4 cm pituitary macroadenoma with hypogonadism and a prolactin of 55 ng/ml. What should you ask for before labelling it non-functioning?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Macroprolactina",
+            "en": "Macroprolactin"
+          },
+          "correct": false,
+          "why": {
+            "es": "La macroprolactina explica cifras altas sin clínica, no cifras bajas con un tumor grande.",
+            "en": "Macroprolactin explains high values without symptoms, not low values with a large tumour."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Repetir la prolactina con la muestra diluida 1:100",
+            "en": "Repeat prolactin on a 1:100 diluted sample"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: descarta el efecto gancho (Pituitary Society, fuerte; consenso chino, débil, sobre todo con tumores ≥ 3 cm).",
+            "en": "Correct: it excludes the hook effect (Pituitary Society, strong; Chinese consensus, weak, especially with tumours ≥ 3 cm)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Prolactina con cánula tras 30 minutos de reposo",
+            "en": "Cannulated prolactin after 30 minutes of rest"
+          },
+          "correct": false,
+          "why": {
+            "es": "Sirve para descartar el estrés como causa de una elevación leve, no un valor falsamente bajo.",
+            "en": "It helps exclude stress as the cause of a mild rise, not a falsely low value."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Nada: con 55 ng/ml el prolactinoma está descartado",
+            "en": "Nothing: at 55 ng/ml prolactinoma is excluded"
+          },
+          "correct": false,
+          "why": {
+            "es": "Con concentraciones extremadamente altas, el ensayo puede dar un valor solo moderadamente elevado.",
+            "en": "With extremely high concentrations, the assay can return only a moderately raised value."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En ensayos de dos sitios, un exceso enorme de prolactina satura los anticuerpos y da un valor falsamente bajo; diluir la muestra revela la cifra real y cambia el tratamiento (agonista en lugar de cirugía).",
+        "en": "In two-site assays, a vast excess of prolactin saturates the antibodies and gives a falsely low value; diluting the sample reveals the true value and changes treatment (agonist instead of surgery)."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c6-cabergoline-vs-bromocriptine",
+      "conceptId": "menst-prl.agonist-choice",
+      "type": "comparison",
+      "title": {
+        "es": "Cabergolina frente a bromocriptina",
+        "en": "Cabergoline versus bromocriptine"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 considera la cabergolina el agonista dopaminérgico preferido por su vida media larga, su eficacia y su tolerancia (fuerte); bromocriptina y quinagolida se usan menos, según aprobación y disponibilidad regional. [[ref:petersenn-2023-prolactinoma-consensus]] NICE NG257 (2026) ofrece cabergolina para los trastornos ovulatorios por hiperprolactinemia, en lugar de la bromocriptina que recomendaba en 2013. [[ref:nice-2026-ng257]]",
+        "en": "The 2023 Pituitary Society consensus considers cabergoline the preferred dopamine agonist because of its long half-life, efficacy and tolerability (strong); bromocriptine and quinagolide are used less, depending on regional approval and availability. [[ref:petersenn-2023-prolactinoma-consensus]] NICE NG257 (2026) offers cabergoline for ovulatory disorders due to hyperprolactinaemia, instead of the bromocriptine it recommended in 2013. [[ref:nice-2026-ng257]]"
+      },
+      "body": {
+        "es": "Dosis habituales según la Pituitary Society: cabergolina 0,5–3,5 mg por semana (la dosis máxima aprobada por la FDA es 2 mg semanales), bromocriptina 2,5–15 mg al día y quinagolida 75–300 μg al día. [[ref:petersenn-2023-prolactinoma-consensus]] NICE justifica el cambio por menos efectos adversos, menor coste y una sola toma semanal. [[ref:nice-2026-ng257]]\n\nEl consenso chino 2025 da los mismos rangos (bromocriptina en 2–3 tomas; cabergolina con vida media de 80 h) y propone empezar con cabergolina 0,25–0,5 mg/semana o bromocriptina 0,625–1,25 mg/día; en un ensayo, la bromocriptina causó más náuseas (≈ 50 % frente a 31 %) y más abandonos por efectos adversos (12 % frente a 3 %). [[ref:cpasc-2026-prolactinoma-consensus]] Como en China continental no hay cabergolina, allí la bromocriptina sigue siendo la primera opción. [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "Usual doses per the Pituitary Society: cabergoline 0.5–3.5 mg per week (the maximum FDA-approved dose is 2 mg weekly), bromocriptine 2.5–15 mg per day and quinagolide 75–300 μg per day. [[ref:petersenn-2023-prolactinoma-consensus]] NICE justifies the switch by fewer adverse effects, lower cost and once-weekly dosing. [[ref:nice-2026-ng257]]\n\nThe 2025 Chinese consensus gives the same ranges (bromocriptine in 2–3 doses; cabergoline half-life 80 h) and suggests starting cabergoline at 0.25–0.5 mg/week or bromocriptine at 0.625–1.25 mg/day; in one trial, bromocriptine caused more nausea (≈ 50% versus 31%) and more discontinuation for adverse effects (12% versus 3%). [[ref:cpasc-2026-prolactinoma-consensus]] Because cabergoline is unavailable in mainland China, bromocriptine remains the first choice there. [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "La disponibilidad cambia la recomendación: comprueba qué agonistas están comercializados en tu país antes de seguir una guía extranjera al pie de la letra.",
+        "en": "Availability changes the recommendation: check which agonists are marketed in your country before following a foreign guideline to the letter."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Dopamine agonists: efficacy» (p. 729), strong; dosis en el texto (p. 729). NICE NG257 1.32.1 [2026] (p. 38) y justificación (p. 75). Consenso chino 2025, texto de la recomendación 9 (moderada; fuerte). No se ha verificado la disponibilidad de cada fármaco en Argentina ni en España (AEMPS/CIMA y ANMAT no consultados). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Dopamine agonists: efficacy” (p. 729), strong; doses in the text (p. 729). NICE NG257 1.32.1 [2026] (p. 38) and rationale (p. 75). 2025 Chinese consensus, recommendation 9 text (moderate; strong). Availability of each drug in Argentina or Spain has not been verified (AEMPS/CIMA and ANMAT not consulted). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Por qué se prefiere la cabergolina y qué rangos de dosis citan los consensos para cabergolina y bromocriptina?",
+        "en": "Why is cabergoline preferred, and what dose ranges do the consensus statements give for cabergoline and bromocriptine?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c7-who-to-treat",
+      "conceptId": "menst-prl.who-to-treat",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "No toda hiperprolactinemia se trata con un agonista",
+        "en": "Not every hyperprolactinaemia needs an agonist"
+      },
+      "core": {
+        "es": "Para la Pituitary Society 2023, las mujeres con hiperprolactinemia o microprolactinoma y función gonadal normal pueden observarse (débil), y en premenopáusicas con microprolactinoma que no buscan embarazo una opción es el reemplazo hormonal sin otras intervenciones (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 sugiere observar el microprolactinoma sin clínica de hiperprolactinemia y tratar si aparecen síntomas o crece (muy baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "For the 2023 Pituitary Society consensus, women with hyperprolactinaemia or microprolactinoma and normal gonadal function can be observed (weak), and in premenopausal women with microprolactinoma not seeking pregnancy one option is hormone replacement without other interventions (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus suggests observing microprolactinoma without clinical hyperprolactinaemia and treating if symptoms appear or it grows (very low; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "Los anticonceptivos combinados pueden usarse con un agonista, pero pueden reducir su eficacia y mantener la galactorrea (débil); al iniciar el agonista en quien no busca embarazo se aconseja anticoncepción de barrera, porque puede haber embarazo antes de que vuelva la regla (débil). [[ref:petersenn-2023-prolactinoma-consensus]] En la posmenopausia, el microprolactinoma puede no requerir intervención y vigilarse con prolactina anual (débil). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nSobre la cirugía, los dos consensos coinciden más de lo que discrepan: en microprolactinomas y macroprolactinomas bien delimitados (Knosp 0–1), ambos la plantean como opción de primera línea junto al agonista. La Pituitary Society pide comentar con la paciente, antes de empezar el tratamiento médico, la cirugía por un neurocirujano hipofisario experto (fuerte), aunque usa la cabergolina como tratamiento médico primario; el consenso chino deja elegir entre cirugía y agonista según la preferencia de la paciente (baja; débil). [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "Combined contraceptives can be used with an agonist, but they may reduce its efficacy and sustain galactorrhoea (weak); when starting an agonist in someone not seeking pregnancy, barrier contraception is advised because pregnancy can occur before menses return (weak). [[ref:petersenn-2023-prolactinoma-consensus]] After menopause, a microprolactinoma may need no intervention and can be followed with annual prolactin (weak). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nOn surgery, the two consensus statements agree more than they differ: for microprolactinomas and well-circumscribed macroprolactinomas (Knosp 0–1), both present it as a first-line option alongside an agonist. The Pituitary Society asks for surgery by an expert pituitary neurosurgeon to be discussed with the patient before medical treatment starts (strong), while using cabergoline as primary medical therapy; the Chinese consensus lets the patient choose between surgery and an agonist according to preference (low; weak). [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Sin deseo gestacional, el objetivo en un microprolactinoma es el estado estrogénico y los síntomas, no «normalizar la cifra».",
+        "en": "Without a wish for pregnancy, the aim in microprolactinoma is oestrogen status and symptoms, not “normalising the number”."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Hypogonadism» (p. 728) y «Dopamine agonists: efficacy» (p. 729); cirugía (p. 731), strong. Consenso chino 2025, recomendaciones 10 (baja; débil) y 12 (muy baja; débil). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Hypogonadism” (p. 728) and “Dopamine agonists: efficacy” (p. 729); surgery (p. 731), strong. 2025 Chinese consensus, recommendations 10 (low; weak) and 12 (very low; weak). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué opciones tiene una mujer con microprolactinoma que no busca embarazo, y en qué discrepan los consensos sobre la cirugía?",
+        "en": "What options does a woman with microprolactinoma not seeking pregnancy have, and where do the consensus statements disagree on surgery?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c8-adverse-effects",
+      "conceptId": "menst-prl.adverse-effects",
+      "type": "concept",
+      "title": {
+        "es": "Efectos adversos: náuseas al principio, impulsividad a vigilar",
+        "en": "Adverse effects: early nausea, impulsivity to watch"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 pide advertir antes de empezar de los efectos adversos leves y frecuentes de la cabergolina (digestivos, mareo, cansancio) (fuerte); tomarla al acostarse o con comida y empezar con dosis bajas puede mejorar la tolerancia (débil). [[ref:petersenn-2023-prolactinoma-consensus]] Los agonistas pueden causar efectos neuropsiquiátricos, como compras compulsivas, juego, agresividad, cambios de humor o hipersexualidad; si aparecen, hay que suspender o ajustar la dosis (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus asks clinicians to warn, before starting, about the frequent mild adverse effects of cabergoline (gastrointestinal, dizziness, fatigue) (strong); taking it at bedtime or with food and starting low may improve tolerability (weak). [[ref:petersenn-2023-prolactinoma-consensus]] Agonists can cause neuropsychiatric effects such as compulsive buying, gambling, aggression, mood changes or hypersexuality; if they appear, the drug should be stopped or the dose adjusted (strong). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La impulsividad es más frecuente en hombres pero aparece en ambos sexos y no depende de la dosis; la Pituitary Society sugiere preguntar también a la pareja y la familia, porque la paciente puede ocultar conductas como el juego. [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 cita una incidencia de trastornos del control de impulsos muy variable (9,8–52 %) y pide informar y vigilar especialmente a hombres, menores de 40 años y personas con antecedentes de tabaco, alcohol, ansiedad o depresión. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nSi la intolerancia a la cabergolina persiste, la Pituitary Society propone probar otro agonista D2 como la quinagolida (débil). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "Impulsivity is more frequent in men but occurs in both sexes and is not dose-related; the Pituitary Society suggests also asking the partner and family, because the patient may hide behaviours such as gambling. [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus cites a highly variable incidence of impulse control disorders (9.8–52%) and asks for information and monitoring especially in men, people under 40 and those with a history of smoking, alcohol, anxiety or depression. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nIf cabergoline intolerance persists, the Pituitary Society suggests trying another D2 agonist such as quinagolide (weak). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Pregunta en cada visita por gastos, juego y cambios de conducta: la paciente rara vez lo cuenta espontáneamente.",
+        "en": "Ask at every visit about spending, gambling and behaviour change: patients rarely volunteer it."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Dopamine agonists: adverse effects» (p. 729), strong/weak según cada viñeta; texto (pp. 729–731). Consenso chino 2025, texto de la recomendación 9. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724).",
+          "en": "Pituitary Society 2023, “Dopamine agonists: adverse effects” (p. 729), strong/weak per bullet; text (pp. 729–731). 2025 Chinese consensus, recommendation 9 text. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué efectos adversos de la cabergolina hay que explicar al empezar y qué hacer ante un trastorno del control de impulsos?",
+        "en": "Which cabergoline adverse effects should be explained at the start, and what should be done about an impulse control disorder?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c9-valves",
+      "conceptId": "menst-prl.valve-monitoring",
+      "type": "lab",
+      "title": {
+        "es": "Cabergolina y válvulas cardíacas: cuándo pedir ecocardiograma",
+        "en": "Cabergoline and heart valves: when to order echocardiography"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 propone ecocardiograma basal si se prevé cabergolina a largo plazo a dosis > 2,0 mg por semana, y repetirlo cada 2–3 años con esas dosis; con ≤ 2,0 mg por semana, ecocardiograma a los 5–6 años; y ante un soplo, ecocardiograma (todas débiles). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 recomienda ecocardiograma periódico con cabergolina a dosis altas y a largo plazo (certeza baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus proposes baseline echocardiography if long-term cabergoline > 2.0 mg per week is anticipated, repeated every 2–3 years at those doses; with ≤ 2.0 mg per week, echocardiography after 5–6 years; and with a murmur, echocardiography (all weak). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus recommends periodic echocardiography with long-term high-dose cabergoline (low certainty; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "Algunos participantes de la Pituitary Society consideraron innecesario repetirlo con < 1,0 mg por semana sin signos de valvulopatía, y la mayoría consideró innecesaria la exploración cardíaca anual; el consenso reconoce que los intervalos varían entre países y que se aparta algo de recomendaciones previas. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nEl consenso chino cita una incidencia de valvulopatía asociada a cabergolina del 0,11 % en prolactinomas, aconseja en su texto un ecocardiograma basal antes de empezar el tratamiento, indica el ecocardiograma con dosis > 2 mg/semana, más de 5 años de tratamiento, edad > 50 años o soplo, propone repetirlo cada 2–3 años y no apoya el control ecocardiográfico rutinario con bromocriptina. [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "Some Pituitary Society participants considered repeat studies unnecessary with < 1.0 mg per week and no signs of valve disease, and most considered annual cardiac examination unnecessary; the consensus acknowledges that intervals vary between countries and that it departs somewhat from earlier recommendations. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nThe Chinese consensus cites an incidence of cabergoline-associated valvulopathy of 0.11% in prolactinoma, advises in its text a baseline echocardiogram before starting treatment, indicates echocardiography with doses > 2 mg/week, more than 5 years of treatment, age > 50 or a murmur, proposes repeating it every 2–3 years and does not support routine echocardiographic monitoring with bromocriptine. [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "El umbral de dosis que comparten ambos consensos es 2 mg por semana; el consenso chino añade más de 5 años de tratamiento o edad > 50 años, y en los dos un soplo adelanta el estudio.",
+        "en": "The dose threshold shared by both consensus statements is 2 mg per week; the Chinese consensus adds more than 5 years of treatment or age > 50, and in both a murmur brings the study forward."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Dopamine agonists: cardiac valvulopathy» (p. 731), weak; se basa en la guía conjunta de la British Society of Echocardiography, la British Heart Valve Society y la Society for Endocrinology. Consenso chino 2025, recomendación 14 (baja; débil). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Dopamine agonists: cardiac valvulopathy” (p. 731), weak; based on the joint guidance of the British Society of Echocardiography, the British Heart Valve Society and the Society for Endocrinology. 2025 Chinese consensus, recommendation 14 (low; weak). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Cuándo pedir ecocardiograma a una paciente con 1 mg semanal de cabergolina y cuándo con 3 mg semanales?",
+        "en": "When should echocardiography be ordered for a patient on 1 mg of cabergoline weekly, and when on 3 mg weekly?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c10-withdrawal",
+      "conceptId": "menst-prl.withdrawal",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Retirar el agonista: a quién y cómo vigilar",
+        "en": "Stopping the agonist: who, and how to follow up"
+      },
+      "core": {
+        "es": "Según la Pituitary Society 2023, alrededor de una de cada cinco pacientes sigue en remisión tras suspender la cabergolina, por lo que hay que valorar periódicamente la reducción o la retirada (fuerte); predicen éxito una dosis de mantenimiento baja, más de 2 años de tratamiento y una reducción importante del adenoma (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 propone considerar la retirada tras más de 2 años con dosis baja de mantenimiento, prolactina normal y reducción tumoral notable o sin masa visible en la RM (muy baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "According to the 2023 Pituitary Society consensus, about one in five patients remains in remission after stopping cabergoline, so dose reduction or withdrawal should be assessed periodically (strong); success is predicted by a low maintenance dose, more than 2 years of treatment and substantial adenoma shrinkage (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus proposes considering withdrawal after more than 2 years on a low maintenance dose, with normal prolactin and notable tumour shrinkage or no visible mass on MRI (very low; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La mejor probabilidad es con un adenoma pequeño no invasivo, prolactina normal y reducción tumoral tras al menos 2 años de cabergolina a dosis baja (0,25–0,50 mg por semana): en ese subgrupo, cerca del 55 % de los micro y el 43 % de los macro siguen en remisión. [[ref:petersenn-2023-prolactinoma-consensus]] Tras retirar, prolactina cada 3 meses el primer año y después anual (o antes si reaparecen síntomas), de por vida; si recae, el agonista suele volver a funcionar (fuerte), y la menopausia o un embarazo aumentan la probabilidad de resolución (débil). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nEl consenso chino cita un metanálisis con remisión tras la retirada del 21 % en micro y 16 % en macro, del 34 % si el tratamiento duró más de 2 años y del 35 % con cabergolina frente al 20 % con bromocriptina. [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The best chance is with a small non-invasive adenoma, normal prolactin and tumour shrinkage after at least 2 years of low-dose cabergoline (0.25–0.50 mg per week): in that subgroup, about 55% of micro- and 43% of macroprolactinomas stay in remission. [[ref:petersenn-2023-prolactinoma-consensus]] After withdrawal, prolactin every 3 months in the first year and then annually (or sooner if symptoms recur), lifelong; if it relapses, the agonist usually works again (strong), and menopause or a pregnancy increases the chance of resolution (weak). [[ref:petersenn-2023-prolactinoma-consensus]]\n\nThe Chinese consensus cites a meta-analysis with remission after withdrawal of 21% in micro- and 16% in macroadenomas, 34% if treatment lasted more than 2 years, and 35% with cabergoline versus 20% with bromocriptine. [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Tras un embarazo o al llegar a la menopausia es buen momento para intentar la retirada.",
+        "en": "After a pregnancy or at menopause is a good time to try withdrawal."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Dopamine agonists: treatment withdrawal» (p. 731), strong/weak según cada viñeta; texto (p. 731). Consenso chino 2025, recomendaciones 15–18 (baja o muy baja; débil). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Dopamine agonists: treatment withdrawal” (p. 731), strong/weak per bullet; text (p. 731). 2025 Chinese consensus, recommendations 15–18 (low or very low; weak). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué tres predictores de retirada con éxito citan los consensos y cómo se vigila la prolactina después?",
+        "en": "Which three predictors of successful withdrawal do the consensus statements cite, and how is prolactin followed afterwards?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c11-antipsychotics",
+      "conceptId": "menst-prl.antipsychotics",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Hiperprolactinemia por antipsicóticos",
+        "en": "Antipsychotic-induced hyperprolactinaemia"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 recomienda medir la prolactina antes de iniciar un antipsicótico (fuerte) y sospechar un prolactinoma si supera 10 veces el límite superior, porque es poco habitual en la hiperprolactinemia por antipsicóticos (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] Reducir la dosis o cambiar a un antipsicótico de segunda generación que no eleve la prolactina, como el aripiprazol, distingue en la mayoría de los casos el prolactinoma de la causa farmacológica (fuerte); la RM puede excluir una lesión grande con efecto tallo (débil). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends measuring prolactin before starting an antipsychotic (strong) and suspecting a prolactinoma if it exceeds 10 times the upper limit, because that is uncommon in antipsychotic-induced hyperprolactinaemia (strong). [[ref:petersenn-2023-prolactinoma-consensus]] Reducing the dose or switching to a second-generation antipsychotic that does not raise prolactin, such as aripiprazole, distinguishes prolactinoma from the drug cause in most patients (strong); MRI may exclude a large lesion with stalk effect (weak). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La hiperprolactinemia aparece en el 30–75 % de quienes reciben antipsicóticos en los 3 primeros meses, y al retirarlos se resuelve en 48–96 horas. [[ref:petersenn-2023-prolactinoma-consensus]] La RM está indicada con prolactina > 10 veces el límite, síntomas de masa (cefalea, alteración visual) o déficits hipofisarios distintos del gonadal. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nEl manejo de un prolactinoma con enfermedad psiquiátrica exige colaborar con psiquiatría (fuerte); iniciar un agonista es probablemente seguro pero con cautela y consulta psiquiátrica (débil), su eficacia puede ser menor (débil) y añadir aripiprazol puede permitir reducir la dosis (débil). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "Hyperprolactinaemia occurs in 30–75% of people receiving antipsychotics within the first 3 months, and it resolves within 48–96 hours of withdrawal. [[ref:petersenn-2023-prolactinoma-consensus]] MRI is indicated with prolactin > 10 times the limit, mass symptoms (headache, visual disturbance) or pituitary deficits other than gonadal. [[ref:petersenn-2023-prolactinoma-consensus]]\n\nManaging a prolactinoma with psychiatric illness requires collaboration with psychiatry (strong); starting an agonist is probably safe but needs caution and psychiatric input (weak), its efficacy may be lower (weak), and adding aripiprazole may allow dose reduction (weak). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "Ante amenorrea y galactorrea con risperidona, coordina con su psiquiatra antes de tocar el antipsicótico o recetar cabergolina; la resonancia no espera si la prolactina supera 10 veces el límite o hay síntomas de masa u otros déficits hipofisarios.",
+        "en": "With amenorrhoea and galactorrhoea on risperidone, coordinate with the psychiatrist before changing the antipsychotic or prescribing cabergoline; MRI does not wait if prolactin exceeds 10 times the upper limit or there are mass symptoms or other pituitary deficits."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Patients with an underlying psychiatric disorder» (p. 736), strong/weak según cada viñeta; texto (p. 736). El consenso chino 2025 no tiene recomendaciones específicas sobre antipsicóticos. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724).",
+          "en": "Pituitary Society 2023, “Patients with an underlying psychiatric disorder” (p. 736), strong/weak per bullet; text (p. 736). The 2025 Chinese consensus has no specific antipsychotic recommendations. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724)."
+        }
+      },
+      "recall": {
+        "es": "¿Qué umbral de prolactina hace sospechar un prolactinoma en quien toma antipsicóticos y qué estrategia ayuda a distinguirlo?",
+        "en": "Which prolactin threshold raises suspicion of prolactinoma in someone on antipsychotics, and which strategy helps tell them apart?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q5-first-line-agonist",
+      "conceptId": "menst-prl.agonist-choice",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 30 años (caso ficticio) con amenorrea, deseo gestacional y un microprolactinoma confirmado decide tratamiento médico. ¿Qué agonista ofrecen NICE NG257 y la Pituitary Society 2023?",
+        "en": "A 30-year-old woman (fictional case) with amenorrhoea, a wish to conceive and a confirmed microprolactinoma chooses medical treatment. Which agonist do NICE NG257 and the 2023 Pituitary Society consensus offer?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Bromocriptina",
+            "en": "Bromocriptine"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE la recomendaba en 2013; en 2026 la sustituyó por cabergolina. Sigue siendo la primera opción donde no hay cabergolina, como en China continental.",
+            "en": "NICE recommended it in 2013; in 2026 it replaced it with cabergoline. It remains first choice where cabergoline is unavailable, as in mainland China."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cabergolina",
+            "en": "Cabergoline"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.32.1 [2026] y Pituitary Society (fuerte) por eficacia, tolerancia y toma semanal.",
+            "en": "Correct: NICE 1.32.1 [2026] and the Pituitary Society (strong) for efficacy, tolerability and weekly dosing."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Metformina",
+            "en": "Metformin"
+          },
+          "correct": false,
+          "why": {
+            "es": "No es un tratamiento de la hiperprolactinemia en estas fuentes.",
+            "en": "It is not a treatment for hyperprolactinaemia in these sources."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Anticonceptivos combinados",
+            "en": "Combined contraceptives"
+          },
+          "correct": false,
+          "why": {
+            "es": "Impedirían el embarazo; además, pueden reducir la eficacia del agonista.",
+            "en": "They would prevent pregnancy; they may also reduce agonist efficacy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE justifica la cabergolina por menos efectos adversos, menor coste y una toma semanal; la Pituitary Society, por su vida media larga, eficacia y tolerancia.",
+        "en": "NICE justifies cabergoline by fewer adverse effects, lower cost and weekly dosing; the Pituitary Society, by its long half-life, efficacy and tolerability."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q6-echo-low-dose",
+      "conceptId": "menst-prl.valve-monitoring",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 36 años (caso ficticio) lleva 1 año con cabergolina 1 mg por semana, sin soplo. Según la Pituitary Society 2023, ¿cuándo corresponde el ecocardiograma?",
+        "en": "A 36-year-old woman (fictional case) has taken cabergoline 1 mg per week for 1 year, with no murmur. Per the 2023 Pituitary Society consensus, when is echocardiography due?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ahora y cada año",
+            "en": "Now and every year"
+          },
+          "correct": false,
+          "why": {
+            "es": "La mayoría del panel consideró innecesaria la exploración cardíaca anual.",
+            "en": "Most of the panel considered annual cardiac examination unnecessary."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cada 2–3 años desde el inicio",
+            "en": "Every 2–3 years from the start"
+          },
+          "correct": false,
+          "why": {
+            "es": "Ese intervalo es para dosis > 2,0 mg por semana.",
+            "en": "That interval is for doses > 2.0 mg per week."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "A los 5–6 años de tratamiento",
+            "en": "After 5–6 years of treatment"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con ≤ 2,0 mg por semana, ecocardiograma a los 5–6 años (débil); algunos lo consideran innecesario con < 1,0 mg sin signos.",
+            "en": "Correct: with ≤ 2.0 mg per week, echocardiography after 5–6 years (weak); some consider it unnecessary below 1.0 mg without signs."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Nunca, con dosis de prolactinoma no hay riesgo",
+            "en": "Never; prolactinoma doses carry no risk"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso pide informar del riesgo raro de alteraciones valvulares con tratamiento largo y/o dosis altas (fuerte).",
+            "en": "The consensus asks clinicians to inform patients of the rare risk of valve changes with long-term and/or high-dose treatment (strong)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El umbral práctico es 2 mg por semana: por encima, basal y cada 2–3 años; por debajo, a los 5–6 años. Un soplo adelanta el estudio.",
+        "en": "The practical threshold is 2 mg per week: above it, baseline and every 2–3 years; below it, after 5–6 years. A murmur brings the study forward."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q7-withdrawal-candidate",
+      "conceptId": "menst-prl.withdrawal",
+      "difficulty": 2,
+      "stem": {
+        "es": "¿Cuál de estas pacientes (casos ficticios) es mejor candidata a intentar retirar la cabergolina?",
+        "en": "Which of these patients (fictional cases) is the best candidate for a cabergoline withdrawal trial?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Microprolactinoma, 8 meses de tratamiento, 2 mg por semana",
+            "en": "Microprolactinoma, 8 months of treatment, 2 mg per week"
+          },
+          "correct": false,
+          "why": {
+            "es": "Le faltan tiempo de tratamiento (> 2 años) y dosis baja de mantenimiento.",
+            "en": "She lacks treatment duration (> 2 years) and a low maintenance dose."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Microprolactinoma, 3 años con 0,25 mg por semana, prolactina normal y sin masa visible en la RM",
+            "en": "Microprolactinoma, 3 years on 0.25 mg per week, normal prolactin and no visible mass on MRI"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: cumple los predictores favorables (dosis baja, > 2 años, reducción tumoral) de ambos consensos.",
+            "en": "Correct: she meets the favourable predictors (low dose, > 2 years, tumour shrinkage) of both consensus statements."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Macroprolactinoma invasivo con resto tumoral y prolactina en el límite alto",
+            "en": "Invasive macroprolactinoma with residual tumour and prolactin at the upper limit"
+          },
+          "correct": false,
+          "why": {
+            "es": "La invasión y el resto tumoral reducen la probabilidad de remisión.",
+            "en": "Invasion and residual tumour lower the chance of remission."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cualquier paciente tras 6 meses con prolactina normal",
+            "en": "Any patient after 6 months of normal prolactin"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los consensos piden al menos 2 años y otros criterios, no solo prolactina normal.",
+            "en": "The consensus statements require at least 2 years and other criteria, not just normal prolactin."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En pacientes seleccionadas como la del caso b, la Pituitary Society cita remisión mantenida en cerca del 55 % de los microprolactinomas; después, prolactina cada 3 meses el primer año y luego anual.",
+        "en": "In selected patients like case b, the Pituitary Society cites sustained remission in about 55% of microprolactinomas; afterwards, prolactin every 3 months in the first year and then annually."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q8-antipsychotic",
+      "conceptId": "menst-prl.antipsychotics",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 27 años (caso ficticio) con esquizofrenia estable con risperidona tiene amenorrea, galactorrea y una prolactina de 4 veces el límite superior; no tiene cefalea ni alteraciones visuales. ¿Qué indica la Pituitary Society 2023?",
+        "en": "A 27-year-old woman (fictional case) with schizophrenia stable on risperidone has amenorrhoea, galactorrhoea and a prolactin 4 times the upper limit; she has no headache or visual symptoms. What does the 2023 Pituitary Society consensus indicate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Suspender tú la risperidona y repetir la prolactina a las 48 horas",
+            "en": "Stop the risperidone yourself and repeat prolactin in 48 hours"
+          },
+          "correct": false,
+          "why": {
+            "es": "El manejo exige colaborar con psiquiatría (fuerte): no es una decisión unilateral de ginecología.",
+            "en": "Management requires collaboration with psychiatry (strong): it is not a unilateral gynaecology decision."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cabergolina a dosis altas sin consultar",
+            "en": "High-dose cabergoline without consultation"
+          },
+          "correct": false,
+          "why": {
+            "es": "Iniciar un agonista requiere cautela y consulta psiquiátrica (débil).",
+            "en": "Starting an agonist requires caution and psychiatric input (weak)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Coordinar con psiquiatría una reducción de dosis o el cambio a un antipsicótico que no eleve la prolactina, como el aripiprazol",
+            "en": "Coordinate with psychiatry a dose reduction or a switch to a prolactin-sparing antipsychotic such as aripiprazole"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: distingue el origen farmacológico en la mayoría de los casos (fuerte) y requiere colaboración con psiquiatría.",
+            "en": "Correct: it distinguishes the drug cause in most patients (strong) and requires collaboration with psychiatry."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cirugía transesfenoidal",
+            "en": "Transsphenoidal surgery"
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay ninguna lesión demostrada ni criterios de RM (> 10 veces el límite, síntomas de masa u otros déficits hipofisarios).",
+            "en": "There is no demonstrated lesion and no MRI criteria (> 10 times the limit, mass symptoms or other pituitary deficits)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Por debajo de 10 veces el límite y sin síntomas de masa, lo esperable es una hiperprolactinemia por antipsicóticos; la RM se reserva para > 10 veces el límite, síntomas de masa u otros déficits hipofisarios.",
+        "en": "Below 10 times the limit and without mass symptoms, antipsychotic-induced hyperprolactinaemia is expected; MRI is reserved for > 10 times the limit, mass symptoms or other pituitary deficits."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c12-before-conception",
+      "conceptId": "menst-prl.preconception",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Antes de buscar embarazo con un prolactinoma",
+        "en": "Before trying to conceive with a prolactinoma"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 pide informar de las opciones médicas y quirúrgicas a quien planifica un embarazo (fuerte), sugiere una evaluación basal poco antes (prolactina, campo visual y tamaño del adenoma) (débil) y, en el macroprolactinoma, confirmar la respuesta al agonista antes de concebir y valorar cirugía si no la hay (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 sugiere reducir el macroadenoma al tamaño de un microadenoma antes de buscar embarazo, y considera innecesario suspender el agonista en el microprolactinoma mientras se busca (muy baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus asks clinicians to inform people planning pregnancy of medical and surgical options (strong), suggests a baseline assessment shortly before (prolactin, visual fields and adenoma size) (weak) and, in macroprolactinoma, confirming agonist response before conception and considering surgery if there is none (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus suggests shrinking a macroadenoma to microadenoma size before trying to conceive, and considers it unnecessary to stop the agonist in microprolactinoma while trying (very low; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "La Pituitary Society aconseja anticoncepción de barrera en lugar de hormonal para confirmar la eficacia del tratamiento y conocer el intervalo menstrual antes del embarazo (débil), e informar del riesgo de hipopituitarismo si se opera antes (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] Si persiste el hipogonadismo hipogonadotrópico con prolactina normal y deseo gestacional, hacen falta gonadotropinas (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] NICE NG257 ofrece cabergolina para los trastornos ovulatorios por hiperprolactinemia. [[ref:nice-2026-ng257]]\n\nEl consenso chino recoge que el tratamiento previo reduce el riesgo de crecimiento del macroadenoma en el embarazo del 18 % al 4,7 %, frente a un 1–5 % en microadenomas. [[ref:cpasc-2026-prolactinoma-consensus]] En la pérdida gestacional recurrente con hiperprolactinemia, la ESHRE 2022 considera insuficiente la evidencia (un único ensayo pequeño) para recomendar bromocriptina. [[ref:eshre-2022-rpl]]",
+        "en": "The Pituitary Society advises barrier rather than hormonal contraception to confirm treatment efficacy and learn the menstrual interval before pregnancy (weak), and informing patients of the risk of hypopituitarism if surgery is done first (strong). [[ref:petersenn-2023-prolactinoma-consensus]] If hypogonadotrophic hypogonadism persists with normal prolactin and a wish for pregnancy, gonadotrophins are needed (strong). [[ref:petersenn-2023-prolactinoma-consensus]] NICE NG257 offers cabergoline for ovulatory disorders due to hyperprolactinaemia. [[ref:nice-2026-ng257]]\n\nThe Chinese consensus reports that prior treatment lowers the risk of macroadenoma growth in pregnancy from 18% to 4.7%, versus 1–5% in microadenomas. [[ref:cpasc-2026-prolactinoma-consensus]] In recurrent pregnancy loss with hyperprolactinaemia, ESHRE 2022 considers the evidence (a single small trial) insufficient to recommend bromocriptine. [[ref:eshre-2022-rpl]]"
+      },
+      "pearl": {
+        "es": "Con un macroadenoma, primero que encoja con el agonista (o cirugía si no responde) y después el embarazo.",
+        "en": "With a macroadenoma, shrink it first with the agonist (or surgery if it does not respond), then pregnancy."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Pregnancy and fertility» (p. 734), strong/weak según cada viñeta; gonadotropinas en «Hypogonadism» (p. 728), strong. Consenso chino 2025, recomendación 31 (muy baja; débil). NICE NG257 1.32.1 [2026] (p. 38). ESHRE PGR 2022, sección 14.5 (p. 119), sin recomendación. En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Pregnancy and fertility” (p. 734), strong/weak per bullet; gonadotrophins under “Hypogonadism” (p. 728), strong. 2025 Chinese consensus, recommendation 31 (very low; weak). NICE NG257 1.32.1 [2026] (p. 38). ESHRE RPL 2022, section 14.5 (p. 119), no recommendation. In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué hay que confirmar antes de que una mujer con macroprolactinoma intente concebir, y qué anticoncepción se aconseja mientras tanto?",
+        "en": "What must be confirmed before a woman with macroprolactinoma tries to conceive, and which contraception is advised meanwhile?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c13-pregnancy",
+      "conceptId": "menst-prl.pregnancy",
+      "type": "comparison",
+      "title": {
+        "es": "Embarazo: suspender el agonista y vigilar por clínica",
+        "en": "Pregnancy: stop the agonist and monitor clinically"
+      },
+      "core": {
+        "es": "La Pituitary Society 2023 recomienda suspender el agonista en cuanto se confirma el embarazo (fuerte); en macroprolactinomas grandes, mantenerlo también es una opción (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El microprolactinoma suele cursar sin incidencias y se controla clínicamente cada 3 meses; el macroprolactinoma, cada mes, con campo visual cada 3 meses, y RM sin gadolinio si se sospecha crecimiento (todas fuertes). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The 2023 Pituitary Society consensus recommends stopping the agonist as soon as pregnancy is confirmed (strong); in large macroprolactinomas, continuing it is also an option (strong). [[ref:petersenn-2023-prolactinoma-consensus]] Microprolactinoma pregnancies are usually uneventful and are followed clinically every 3 months; macroprolactinomas monthly, with visual fields every 3 months, and MRI without gadolinium if growth is suspected (all strong). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "Los consensos discrepan en la prolactina: la Pituitary Society recomienda no usarla para vigilar el crecimiento durante el embarazo (fuerte); el consenso chino no la recomienda en microadenomas, pero en macroadenomas propone medirla cada 2–3 meses e interpretar una subida > 50 % como posible crecimiento junto con la clínica (muy baja; débil). [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]] Ambos proponen reintroducir el agonista ante un crecimiento clínicamente relevante y valorar cirugía si no responde; la Pituitary Society añade el parto si el embarazo está suficientemente avanzado. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]\n\nLa mayoría del panel de la Pituitary Society prefiere la cabergolina a la dosis eficaz más baja antes que cambiar a bromocriptina al buscar embarazo (débil). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino recoge una tasa de malformaciones del 3,9 % con bromocriptina en el primer trimestre, similar al 2–4 % basal, y del 2,7 % con cabergolina, sin patrón específico. [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "The consensus statements disagree on prolactin: the Pituitary Society recommends not using it to monitor growth during pregnancy (strong); the Chinese consensus does not recommend it in microadenomas, but in macroadenomas suggests measuring it every 2–3 months and reading a rise > 50% as possible growth together with the clinical picture (very low; weak). [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]] Both propose restarting the agonist with clinically relevant growth and considering surgery if it does not respond; the Pituitary Society adds delivery if the pregnancy is sufficiently advanced. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]\n\nMost of the Pituitary Society panel prefers cabergoline at the lowest effective dose rather than switching to bromocriptine when trying to conceive (weak). [[ref:petersenn-2023-prolactinoma-consensus]] The Chinese consensus reports a malformation rate of 3.9% with first-trimester bromocriptine, similar to the 2–4% background, and 2.7% with cabergoline, with no specific pattern. [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "En el embarazo la prolactina sube de forma fisiológica: vigila cefalea y visión. La cifra solo orienta, según el consenso chino, en el macroadenoma y siempre junto con la clínica.",
+        "en": "Prolactin rises physiologically in pregnancy: watch headache and vision. According to the Chinese consensus, the number only helps in macroadenomas, and always together with clinical findings."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Pregnancy and fertility» (pp. 734–735), strong salvo la preferencia por cabergolina (weak). Consenso chino 2025, recomendaciones 32–35 (muy baja; débil). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Pregnancy and fertility” (pp. 734–735), strong except the cabergoline preference (weak). 2025 Chinese consensus, recommendations 32–35 (very low; weak). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Qué se hace con el agonista al confirmar el embarazo, cómo se vigila un macroprolactinoma y en qué discrepan los consensos sobre la prolactina?",
+        "en": "What happens to the agonist once pregnancy is confirmed, how is a macroprolactinoma monitored, and where do the consensus statements disagree on prolactin?"
+      }
+    },
+    {
+      "kind": "card",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.c14-breastfeeding",
+      "conceptId": "menst-prl.breastfeeding",
+      "type": "what-i-would-do",
+      "title": {
+        "es": "Lactancia con un prolactinoma",
+        "en": "Breastfeeding with a prolactinoma"
+      },
+      "core": {
+        "es": "Para la Pituitary Society 2023, la lactancia no suele estar contraindicada y puede permitirse durante un tiempo, según haga falta reintroducir el tratamiento para controlar la masa (fuerte). [[ref:petersenn-2023-prolactinoma-consensus]] El consenso chino 2025 fomenta la lactancia y, si la situación exige un agonista, indica suspenderla (muy baja; débil). [[ref:cpasc-2026-prolactinoma-consensus]]",
+        "en": "For the 2023 Pituitary Society consensus, breastfeeding is usually not contraindicated and may be allowed for a period, depending on whether treatment must be restarted to control the mass (strong). [[ref:petersenn-2023-prolactinoma-consensus]] The 2025 Chinese consensus encourages breastfeeding and, if the situation requires an agonist, advises stopping it (very low; weak). [[ref:cpasc-2026-prolactinoma-consensus]]"
+      },
+      "body": {
+        "es": "El consenso chino cita un crecimiento tumoral durante 12 meses de lactancia del 1,2 % en microadenomas y del 4,3 % en macroadenomas, y que el 85–90 % de los micro y el 60–70 % de los macro no necesitan reiniciar el agonista durante la lactancia; no recomienda amamantar mientras se toma el agonista. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nLa Pituitary Society añade que la probabilidad de resolución aumenta tras un embarazo, por lo que estas pacientes pueden probar la retirada del tratamiento (débil). [[ref:petersenn-2023-prolactinoma-consensus]]",
+        "en": "The Chinese consensus cites tumour growth during 12 months of breastfeeding of 1.2% in microadenomas and 4.3% in macroadenomas, and that 85–90% of micro- and 60–70% of macroadenomas need no agonist restart during lactation; it does not recommend breastfeeding while on the agonist. [[ref:cpasc-2026-prolactinoma-consensus]]\n\nThe Pituitary Society adds that the chance of resolution rises after a pregnancy, so these patients may try withdrawal of treatment (weak). [[ref:petersenn-2023-prolactinoma-consensus]]"
+      },
+      "pearl": {
+        "es": "La pregunta clave no es la prolactina de la lactancia, sino si el tumor obliga a reiniciar el agonista.",
+        "en": "The key question is not lactation prolactin but whether the tumour forces the agonist to be restarted."
+      },
+      "evidence": {
+        "label": "guideline",
+        "note": {
+          "es": "Pituitary Society 2023, «Pregnancy and fertility» (p. 735), strong; retirada tras el embarazo en «Dopamine agonists: treatment withdrawal» (p. 731), weak. Consenso chino 2025, recomendación 36 (muy baja; débil). En el consenso de la Pituitary Society 2023, «strong» se apoya en evidencia de calidad moderada o alta y «weak» en calidad baja o muy baja (Box 1, p. 724). En el consenso chino 2025, la certeza GRADE va de muy baja a alta y la fuerza es fuerte o débil; GPS = declaración de buena práctica.",
+          "en": "Pituitary Society 2023, “Pregnancy and fertility” (p. 735), strong; withdrawal after pregnancy under “Dopamine agonists: treatment withdrawal” (p. 731), weak. 2025 Chinese consensus, recommendation 36 (very low; weak). In the 2023 Pituitary Society consensus, “strong” rests on moderate- or high-quality evidence and “weak” on low- or very-low-quality evidence (Box 1, p. 724). In the 2025 Chinese consensus, GRADE certainty runs from very low to high and strength is strong or weak; GPS = good practice statement."
+        }
+      },
+      "recall": {
+        "es": "¿Puede amamantar una mujer con prolactinoma y qué ocurre si necesita reiniciar el agonista?",
+        "en": "Can a woman with a prolactinoma breastfeed, and what happens if she needs to restart the agonist?"
+      }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q9-pregnant-micro",
+      "conceptId": "menst-prl.pregnancy",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 32 años (caso ficticio) con un microprolactinoma controlado con cabergolina tiene una prueba de embarazo positiva. ¿Qué es lo más adecuado según la Pituitary Society 2023?",
+        "en": "A 32-year-old woman (fictional case) with a microprolactinoma controlled on cabergoline has a positive pregnancy test. What is most appropriate per the 2023 Pituitary Society consensus?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Mantener la cabergolina hasta el final del primer trimestre",
+            "en": "Continue cabergoline until the end of the first trimester"
+          },
+          "correct": false,
+          "why": {
+            "es": "Se recomienda suspenderla en cuanto se confirma el embarazo para reducir la exposición fetal (fuerte).",
+            "en": "Stopping it as soon as pregnancy is confirmed is recommended to reduce fetal exposure (strong)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cambiar a bromocriptina",
+            "en": "Switch to bromocriptine"
+          },
+          "correct": false,
+          "why": {
+            "es": "La mayoría del panel no cambia sistemáticamente a bromocriptina; en un micro controlado lo indicado es suspender.",
+            "en": "Most of the panel does not routinely switch to bromocriptine; in a controlled microadenoma the indication is to stop."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Suspender la cabergolina y hacer control clínico cada 3 meses, sin medir la prolactina",
+            "en": "Stop cabergoline and follow clinically every 3 months, without measuring prolactin"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: suspender al confirmar el embarazo y control clínico trimestral (fuertes); la prolactina no sirve para vigilar el crecimiento.",
+            "en": "Correct: stop on confirmation and quarterly clinical follow-up (strong); prolactin is not useful to monitor growth."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "RM con gadolinio en cada trimestre",
+            "en": "Gadolinium MRI each trimester"
+          },
+          "correct": false,
+          "why": {
+            "es": "La RM se reserva para sospecha de crecimiento y se hace sin gadolinio.",
+            "en": "MRI is reserved for suspected growth and is done without gadolinium."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso chino coincide en suspender al confirmar el embarazo en el microadenoma (muy baja; débil), con un riesgo de crecimiento sintomático del 1–5 %.",
+        "en": "The Chinese consensus agrees on stopping once pregnancy is confirmed in microadenoma (very low; weak), with a 1–5% risk of symptomatic growth."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      },
+      "id": "menst-prl.q10-macro-symptoms-pregnancy",
+      "conceptId": "menst-prl.pregnancy",
+      "difficulty": 3,
+      "stem": {
+        "es": "Una embarazada de 24 semanas (caso ficticio) con un macroprolactinoma, cuya cabergolina se suspendió al confirmar la gestación, refiere cefalea intensa y pérdida de campo visual temporal. ¿Qué es lo indicado?",
+        "en": "A woman 24 weeks pregnant (fictional case) with a macroprolactinoma, whose cabergoline was stopped when pregnancy was confirmed, reports severe headache and temporal visual field loss. What is indicated?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Medir la prolactina y actuar según la cifra",
+            "en": "Measure prolactin and act on the value"
+          },
+          "correct": false,
+          "why": {
+            "es": "La Pituitary Society recomienda no usar la prolactina para valorar el crecimiento en el embarazo (fuerte).",
+            "en": "The Pituitary Society recommends not using prolactin to assess growth in pregnancy (strong)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "RM sin gadolinio y reintroducir el agonista; cirugía si no responde",
+            "en": "MRI without gadolinium and restart the agonist; surgery if there is no response"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambos consensos coinciden; si no responde, cirugía (la Pituitary Society añade el parto si el embarazo está suficientemente avanzado).",
+            "en": "Correct: both consensus statements agree; if there is no response, surgery (the Pituitary Society adds delivery if the pregnancy is sufficiently advanced)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Esperar al parto para estudiarla",
+            "en": "Wait until delivery to investigate"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un crecimiento con afectación visual exige estudio y tratamiento inmediatos.",
+            "en": "Growth with visual involvement requires immediate investigation and treatment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "TC craneal con contraste yodado",
+            "en": "Head CT with iodinated contrast"
+          },
+          "correct": false,
+          "why": {
+            "es": "La prueba indicada es la RM sin gadolinio.",
+            "en": "The indicated test is MRI without gadolinium."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso chino añade que el 70–80 % mejora en 2–4 semanas tras reiniciar el agonista y que, si hace falta cirugía, es más segura en el segundo trimestre.",
+        "en": "The Chinese consensus adds that 70–80% improve within 2–4 weeks of restarting the agonist and that, if surgery is needed, it is safer in the second trimester."
+      },
+      "refIds": [
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ]
+    },
+    {
+      "id": "menst-prl.case1-abril",
+      "kind": "case",
+      "conceptId": "menst-prl.case-abril",
+      "rev": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "title": {
+        "es": "Caso: Abril, ciclos largos y galactorrea",
+        "en": "Case: Abril, long cycles and galactorrhoea"
+      },
+      "steps": [
+        {
+          "id": "menst-prl.case1.s1",
+          "text": {
+            "es": "Abril (caso ficticio), 31 años, lleva 10 meses buscando embarazo con su pareja, Bruno. Tiene ciclos de 45–60 días y galactorrea bilateral. Con un trastorno ovulatorio y galactorrea, NICE NG257 sí indica medir la prolactina, y la Pituitary Society también. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]",
+            "en": "Abril (fictional case), 31, has been trying to conceive with her partner, Bruno, for 10 months. Her cycles last 45–60 days and she has bilateral galactorrhoea. With an ovulatory disorder and galactorrhoea, NICE NG257 does indicate measuring prolactin, and so does the Pituitary Society. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]"
+          },
+          "questionId": "menst-prl.q1-who-tests"
+        },
+        {
+          "id": "menst-prl.case1.s2",
+          "text": {
+            "es": "La prolactina es de 2,5 veces el límite superior. Antes de nada: prueba de embarazo negativa, TSH normal, no toma antieméticos ni psicofármacos; como es < 5 veces el límite, se repite en reposo y sale de nuevo elevada. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]",
+            "en": "Prolactin is 2.5 times the upper limit. First: negative pregnancy test, normal TSH, no antiemetics or psychotropics; because it is < 5 times the limit, it is repeated at rest and is raised again. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]"
+          },
+          "questionId": "menst-prl.q2-mild-after-stress"
+        },
+        {
+          "id": "menst-prl.case1.s3",
+          "text": {
+            "es": "Con hiperprolactinemia confirmada y sin otra causa, la RM muestra un microadenoma de 6 mm. Abril quiere embarazo: se le explican las opciones médica y quirúrgica y elige cabergolina, la opción de NICE y de la Pituitary Society, con anticoncepción de barrera hasta conocer su intervalo menstrual. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]",
+            "en": "With confirmed hyperprolactinaemia and no other cause, MRI shows a 6 mm microadenoma. Abril wants to conceive: the medical and surgical options are explained and she chooses cabergoline, the option of NICE and the Pituitary Society, with barrier contraception until her menstrual interval is known. [[ref:nice-2026-ng257]] [[ref:petersenn-2023-prolactinoma-consensus]]"
+          },
+          "questionId": "menst-prl.q5-first-line-agonist"
+        },
+        {
+          "id": "menst-prl.case1.s4",
+          "text": {
+            "es": "A los 4 meses tiene ciclos de 30 días, sin galactorrea, y deja la barrera. Dos ciclos después, la prueba de embarazo es positiva: suspende la cabergolina y sigue control clínico cada 3 meses, sin medir la prolactina. Tras el parto, podrá amamantar y, más adelante, valorar si sigue necesitando el agonista. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]",
+            "en": "After 4 months her cycles are 30 days, with no galactorrhoea, and she stops barrier contraception. Two cycles later the pregnancy test is positive: she stops cabergoline and has clinical follow-up every 3 months, without prolactin measurement. After delivery she can breastfeed and, later, reassess whether she still needs the agonist. [[ref:petersenn-2023-prolactinoma-consensus]] [[ref:cpasc-2026-prolactinoma-consensus]]"
+          },
+          "questionId": "menst-prl.q9-pregnant-micro"
+        }
+      ],
+      "refIds": [
+        "nice-2026-ng257",
+        "petersenn-2023-prolactinoma-consensus",
+        "cpasc-2026-prolactinoma-consensus"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    }
+  ]
+}
