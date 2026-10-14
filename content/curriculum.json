@@ -475,6 +475,29 @@
             "ritmo circadiano",
             "clock genes"
           ]
+        },
+        {
+          "id": "horm.cycle-reading",
+          "title": {
+            "es": "Lectura del ciclo en la práctica: temperatura basal, moco y señales",
+            "en": "Reading the cycle in practice: basal temperature, mucus and signs"
+          },
+          "aliases": [
+            "temperatura basal",
+            "moco cervical",
+            "BBT"
+          ]
+        },
+        {
+          "id": "horm.tissue-modulators",
+          "title": {
+            "es": "Tejido adiposo, músculo e insulina como moduladores del eje",
+            "en": "Adipose tissue, muscle and insulin as modulators of the axis"
+          },
+          "aliases": [
+            "adipoquinas",
+            "miocinas"
+          ]
         }
       ]
     },
@@ -723,6 +746,24 @@
           },
           "aliases": [
             "nutrición aplicada"
+          ]
+        },
+        {
+          "id": "nutr.cycle-nutrition",
+          "title": {
+            "es": "Alimentación y ciclo menstrual",
+            "en": "Nutrition and the menstrual cycle"
+          },
+          "aliases": []
+        },
+        {
+          "id": "nutr.polyphenols",
+          "title": {
+            "es": "Polifenoles en la dieta",
+            "en": "Dietary polyphenols"
+          },
+          "aliases": [
+            "flavonoides"
           ]
         }
       ]
@@ -994,6 +1035,17 @@
             "DAO",
             "intolerancia a la histamina",
             "MCAS"
+          ]
+        },
+        {
+          "id": "gut.gut-ovary-axis",
+          "title": {
+            "es": "Eje intestino-ovario",
+            "en": "Gut–ovary axis"
+          },
+          "aliases": [
+            "estroboloma",
+            "andrógenos y microbiota"
           ]
         }
       ]
@@ -1318,6 +1370,25 @@
             "adaptógenos",
             "ashwagandha"
           ]
+        },
+        {
+          "id": "supp.phytotherapy-urogenital",
+          "title": {
+            "es": "Fitoterapia en infecciones urinarias y vulvovaginales",
+            "en": "Phytotherapy in urinary and vulvovaginal infections"
+          },
+          "aliases": [
+            "arándano rojo",
+            "D-manosa"
+          ]
+        },
+        {
+          "id": "supp.medicinal-mushrooms",
+          "title": {
+            "es": "Hongos medicinales",
+            "en": "Medicinal mushrooms"
+          },
+          "aliases": []
         }
       ]
     },
@@ -2507,6 +2578,17 @@
             "clamidia",
             "gonococo"
           ]
+        },
+        {
+          "id": "vulv.hpv",
+          "title": {
+            "es": "VPH: historia natural, microbiota y prevención",
+            "en": "HPV: natural history, microbiota and prevention"
+          },
+          "aliases": [
+            "virus del papiloma humano",
+            "HPV"
+          ]
         }
       ]
     },
@@ -2707,6 +2789,18 @@
             "PMB",
             "postmenopausal bleeding",
             "cáncer de endometrio"
+          ]
+        },
+        {
+          "id": "meno.osteoporosis-nutrition-exercise",
+          "title": {
+            "es": "Osteoporosis: nutrición, ejercicio y prevención",
+            "en": "Osteoporosis: nutrition, exercise and prevention"
+          },
+          "aliases": [
+            "densitometría",
+            "DXA",
+            "FRAX"
           ]
         }
       ]
@@ -3454,6 +3548,74 @@
             "PUL",
             "ectopic pregnancy"
           ]
+        },
+        {
+          "id": "preg.placenta-immunology",
+          "title": {
+            "es": "Placenta e inmunología del embarazo",
+            "en": "Placenta and pregnancy immunology"
+          },
+          "aliases": [
+            "tolerancia materno-fetal"
+          ]
+        },
+        {
+          "id": "preg.fetal-programming",
+          "title": {
+            "es": "Programación fetal y epigenética",
+            "en": "Fetal programming and epigenetics"
+          },
+          "aliases": [
+            "DOHaD"
+          ]
+        },
+        {
+          "id": "preg.microbiota-perinatal",
+          "title": {
+            "es": "Microbiota materna y perinatal",
+            "en": "Maternal and perinatal microbiota"
+          },
+          "aliases": []
+        },
+        {
+          "id": "preg.food-safety",
+          "title": {
+            "es": "Seguridad alimentaria en el embarazo",
+            "en": "Food safety in pregnancy"
+          },
+          "aliases": [
+            "listeria",
+            "toxoplasma",
+            "mercurio"
+          ]
+        },
+        {
+          "id": "preg.breastmilk",
+          "title": {
+            "es": "Leche materna: composición, inmunidad y microbiota",
+            "en": "Breast milk: composition, immunity and microbiota"
+          },
+          "aliases": [
+            "eje enteromamario"
+          ]
+        },
+        {
+          "id": "preg.preterm-breastfeeding",
+          "title": {
+            "es": "Prematuros y lactancia materna",
+            "en": "Preterm infants and breastfeeding"
+          },
+          "aliases": []
+        },
+        {
+          "id": "preg.birth-preparation",
+          "title": {
+            "es": "Preparación física al parto",
+            "en": "Physical preparation for birth"
+          },
+          "aliases": [
+            "masaje perineal"
+          ]
         }
       ]
     },
@@ -3687,6 +3849,157 @@
             "desinformación",
             "misinformation"
           ]
+        }
+      ]
+    },
+    {
+      "id": "lgyn",
+      "order": 17,
+      "priority": false,
+      "title": {
+        "es": "Longevidad ginecológica",
+        "en": "Gynecological longevity"
+      },
+      "micros": [
+        {
+          "id": "lgyn.ovarian-aging",
+          "title": {
+            "es": "Envejecimiento ovárico como reloj del envejecimiento",
+            "en": "Ovarian ageing as a clock of ageing"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.menopause-age-outcomes",
+          "title": {
+            "es": "Edad de la menopausia y riesgo cardiovascular, óseo y de mortalidad",
+            "en": "Age at menopause and cardiovascular, bone and mortality risk"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.early-menopause-long-term",
+          "title": {
+            "es": "Menopausia temprana e IOP: consecuencias a largo plazo",
+            "en": "Early menopause and POI: long-term consequences"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.ht-timing-long-term",
+          "title": {
+            "es": "Terapia hormonal: momento de inicio y resultados a largo plazo",
+            "en": "Hormone therapy: timing and long-term outcomes"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.gsm-pelvic-floor-lifespan",
+          "title": {
+            "es": "Salud genitourinaria y suelo pélvico a lo largo de la vida",
+            "en": "Genitourinary and pelvic floor health across the lifespan"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.cancer-screening",
+          "title": {
+            "es": "Prevención y cribado de cánceres ginecológicos y de mama",
+            "en": "Prevention and screening of gynecological and breast cancers"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lgyn.sexuality-aging",
+          "title": {
+            "es": "Sexualidad en el envejecimiento",
+            "en": "Sexuality and ageing"
+          },
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "lwom",
+      "order": 18,
+      "priority": false,
+      "title": {
+        "es": "Longevidad en la mujer",
+        "en": "Longevity in women"
+      },
+      "micros": [
+        {
+          "id": "lwom.pregnancy-pcos-cv-risk",
+          "title": {
+            "es": "Complicaciones del embarazo y SOP como señales de riesgo cardiovascular",
+            "en": "Pregnancy complications and PCOS as cardiovascular risk markers"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lwom.sarcopenia-strength",
+          "title": {
+            "es": "Sarcopenia y entrenamiento de fuerza",
+            "en": "Sarcopenia and strength training"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lwom.cognition-dementia",
+          "title": {
+            "es": "Cognición y demencia en la mujer",
+            "en": "Cognition and dementia in women"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lwom.sleep-aging",
+          "title": {
+            "es": "Sueño y envejecimiento",
+            "en": "Sleep and ageing"
+          },
+          "aliases": []
+        },
+        {
+          "id": "lwom.healthy-aging-nutrition",
+          "title": {
+            "es": "Nutrición para envejecer bien",
+            "en": "Nutrition for healthy ageing"
+          },
+          "aliases": [
+            "proteína",
+            "mediterránea"
+          ]
+        },
+        {
+          "id": "lwom.anti-aging-claims",
+          "title": {
+            "es": "Fármacos y suplementos «anti-edad»: evidencia y límites",
+            "en": "“Anti-ageing” drugs and supplements: evidence and limits"
+          },
+          "aliases": [
+            "NAD",
+            "metformina",
+            "rapamicina"
+          ]
+        },
+        {
+          "id": "lwom.biological-age-tests",
+          "title": {
+            "es": "Tests de edad biológica: validez",
+            "en": "Biological age tests: validity"
+          },
+          "aliases": [
+            "relojes epigenéticos"
+          ]
+        },
+        {
+          "id": "lwom.mental-health-social",
+          "title": {
+            "es": "Salud mental y vínculos en el envejecimiento",
+            "en": "Mental health and social connection in ageing"
+          },
+          "aliases": []
         }
       ]
     }
