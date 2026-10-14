@@ -32,7 +32,17 @@
         "horm-ol.c4-fertile-window",
         "horm-ol.q1-feedback",
         "horm-ol.q2-long-cycle",
-        "horm-ol.q3-fertile-window"
+        "horm-ol.q3-fertile-window",
+        "horm-ol.qx01",
+        "horm-ol.qx02",
+        "horm-ol.qx03",
+        "horm-ol.qx04",
+        "horm-ol.qx05",
+        "horm-ol.qx06",
+        "horm-ol.qx07",
+        "horm-ol.qx08",
+        "horm-ol.qx09",
+        "horm-ol.qx10"
       ]
     },
     {
@@ -62,7 +72,18 @@
         "horm-ol.c9-patient-phrase",
         "horm-ol.q4-lpd-statement",
         "horm-ol.q5-lpd-management",
-        "horm-ol.q6-biopsy"
+        "horm-ol.q6-biopsy",
+        "horm-ol.qx11",
+        "horm-ol.qx12",
+        "horm-ol.qx13",
+        "horm-ol.qx14",
+        "horm-ol.qx15",
+        "horm-ol.qx16",
+        "horm-ol.qx17",
+        "horm-ol.qx18",
+        "horm-ol.qx19",
+        "horm-ol.qx20",
+        "horm-ol.qx21"
       ]
     },
     {
@@ -94,7 +115,19 @@
         "horm-ol.q8-regular-cycles",
         "horm-ol.q9-lh-pcos",
         "horm-ol.q10-grading",
-        "horm-ol.case1-marta"
+        "horm-ol.case1-marta",
+        "horm-ol.qx22",
+        "horm-ol.qx23",
+        "horm-ol.qx24",
+        "horm-ol.qx25",
+        "horm-ol.qx26",
+        "horm-ol.qx27",
+        "horm-ol.qx28",
+        "horm-ol.qx29",
+        "horm-ol.qx30",
+        "horm-ol.qx31",
+        "horm-ol.qx32",
+        "horm-ol.qx33"
       ]
     }
   ],
@@ -1684,6 +1717,2529 @@
       "editorial": {
         "status": "ai-audited",
         "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "horm-ol.qx01",
+      "kind": "question",
+      "conceptId": "horm.ol.feedback-switch",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Por qué se considera que el estradiol actúa de forma indirecta sobre las neuronas GnRH?",
+        "en": "Why is oestradiol thought to act indirectly on GnRH neurons?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Porque el estradiol no atraviesa la barrera hematoencefálica.",
+            "en": "Because oestradiol does not cross the blood–brain barrier."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es el argumento de la revisión: lo que falta son los receptores en las propias neuronas GnRH.",
+            "en": "That is not the review’s argument: what is missing are the receptors on the GnRH neurons themselves."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque el estradiol actúa solo sobre la hipófisis, nunca sobre el hipotálamo.",
+            "en": "Because oestradiol acts only on the pituitary, never on the hypothalamus."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión describe una acción hipotalámica a través de neuronas aguas arriba, como las de kisspeptina.",
+            "en": "The review describes a hypothalamic action through upstream neurons, such as kisspeptin neurons."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque las neuronas GnRH carecen de los receptores esteroideos que median la retroalimentación (REα, receptor de progesterona, receptor de andrógenos).",
+            "en": "Because GnRH neurons lack the steroid receptors that mediate feedback (ERα, progesterone receptor, androgen receptor)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: por eso actúa a través de neuronas “aguas arriba”.",
+            "en": "Correct: that is why it acts through “upstream” neurons."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Porque el estradiol se convierte primero en progesterona.",
+            "en": "Because oestradiol is first converted into progesterone."
+          },
+          "correct": false,
+          "why": {
+            "es": "No existe esa conversión; la acción es indirecta por la falta de receptores en las neuronas GnRH.",
+            "en": "There is no such conversion; the action is indirect because GnRH neurons lack the receptors."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las neuronas GnRH no tienen REα, receptor de progesterona ni receptor de andrógenos; el estradiol actúa a través de neuronas aguas arriba, con las de kisspeptina como principal candidata.",
+        "en": "GnRH neurons lack ERα, progesterone and androgen receptors; oestradiol acts through upstream neurons, with kisspeptin neurons as the main candidate."
+      },
+      "refIds": [
+        "kauffman-2022-lh-surge"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx02",
+      "kind": "question",
+      "conceptId": "horm.ol.feedback-switch",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué dato apoya que las neuronas de kisspeptina son mediadoras clave del eje reproductivo?",
+        "en": "Which finding supports kisspeptin neurons as key mediators of the reproductive axis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Estimulan directamente a las neuronas GnRH, y las personas sin kisspeptina o sin su receptor son infértiles.",
+            "en": "They directly stimulate GnRH neurons, and people lacking kisspeptin or its receptor are infertile."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son los dos argumentos de la revisión.",
+            "en": "Correct: these are the review’s two arguments."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Producen directamente el pico de LH en la hipófisis.",
+            "en": "They directly produce the LH surge in the pituitary."
+          },
+          "correct": false,
+          "why": {
+            "es": "La LH la secreta la hipófisis; la kisspeptina actúa estimulando a las neuronas GnRH.",
+            "en": "LH is secreted by the pituitary; kisspeptin acts by stimulating GnRH neurons."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Son las únicas neuronas que carecen de receptores de estrógenos.",
+            "en": "They are the only neurons lacking oestrogen receptors."
+          },
+          "correct": false,
+          "why": {
+            "es": "Son las neuronas GnRH las que carecen de los receptores que median la retroalimentación.",
+            "en": "It is GnRH neurons that lack the receptors mediating feedback."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Su papel está totalmente demostrado en ensayos en mujeres.",
+            "en": "Their role has been fully demonstrated in trials in women."
+          },
+          "correct": false,
+          "why": {
+            "es": "Gran parte de los datos detallados proceden de roedores y los mecanismos del cambio se conocen mal.",
+            "en": "Much of the detailed data come from rodents and the switch mechanisms are poorly understood."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Kisspeptina: principal candidata para transmitir la retroalimentación del estradiol a las neuronas GnRH; su ausencia, o la de su receptor, causa infertilidad.",
+        "en": "Kisspeptin: the main candidate for relaying oestradiol feedback to GnRH neurons; its absence, or that of its receptor, causes infertility."
+      },
+      "refIds": [
+        "kauffman-2022-lh-surge"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx03",
+      "kind": "question",
+      "conceptId": "horm.ol.feedback-switch",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué afirmación describe con más precisión el conocimiento actual sobre el cambio de retroalimentación negativa a positiva del estradiol?",
+        "en": "Which statement most accurately describes current knowledge of oestradiol’s switch from negative to positive feedback?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Está completamente aclarado en humanos.",
+            "en": "It is fully elucidated in humans."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión indica que los mecanismos del cambio se conocen mal.",
+            "en": "The review states that the switch mechanisms are poorly understood."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Se debe a una caída del estradiol al final de la fase folicular.",
+            "en": "It is due to a fall in oestradiol at the end of the follicular phase."
+          },
+          "correct": false,
+          "why": {
+            "es": "Lo que desencadena el cambio es el aumento del estradiol, no su caída.",
+            "en": "What triggers the switch is rising oestradiol, not a fall."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Depende de la progesterona del cuerpo lúteo.",
+            "en": "It depends on corpus luteum progesterone."
+          },
+          "correct": false,
+          "why": {
+            "es": "El pico ocurre antes de la ovulación y, por tanto, antes de que exista cuerpo lúteo; el disparador descrito es el aumento del estradiol.",
+            "en": "The surge occurs before ovulation and therefore before there is a corpus luteum; the trigger described is rising oestradiol."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Se sabe que ocurre, pero sus mecanismos se conocen mal y gran parte de los datos detallados procede de roedores.",
+            "en": "It is known to happen, but its mechanisms are poorly understood and much of the detailed data come from rodents."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo plantea la revisión.",
+            "en": "Correct: that is how the review frames it."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El mismo estradiol frena o estimula según el momento del ciclo; cómo ocurre el cambio sigue sin entenderse bien.",
+        "en": "The same oestradiol restrains or stimulates depending on the time in the cycle; how the switch occurs remains poorly understood."
+      },
+      "refIds": [
+        "kauffman-2022-lh-surge"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx04",
+      "kind": "question",
+      "conceptId": "horm.ol.dominant-follicle",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué modelo de reclutamiento de folículos antrales apoya cada vez más la evidencia ecográfica?",
+        "en": "Which model of antral follicle recruitment is increasingly supported by ultrasound evidence?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un único reclutamiento de una cohorte al inicio de la fase folicular, y nada más.",
+            "en": "A single cohort recruitment at the start of the follicular phase, and nothing else."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es uno de los tres modelos, pero la ecografía apoya cada vez más varias ondas por ciclo.",
+            "en": "It is one of the three models, but ultrasound increasingly supports several waves per cycle."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Varias ondas foliculares por ciclo.",
+            "en": "Several follicular waves per cycle."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: y en algunas mujeres puede seleccionarse un folículo dominante en ondas anovulatorias previas.",
+            "en": "Correct: and in some women a dominant follicle may be selected in preceding anovulatory waves."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ningún reclutamiento hasta el pico de LH.",
+            "en": "No recruitment until the LH surge."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es ninguno de los modelos descritos.",
+            "en": "It is not one of the models described."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Reclutamiento exclusivo durante la fase lútea media.",
+            "en": "Recruitment exclusively during the mid-luteal phase."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es uno de los modelos descritos; el modelo de cohorte sitúa el reclutamiento al final de la fase lútea o al inicio de la folicular.",
+            "en": "It is not one of the models described; the cohort model places recruitment in the late luteal or early follicular phase."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Tres modelos: reclutamiento continuo, una cohorte única (fase lútea tardía o folicular temprana) o dos o tres ondas por ciclo. La ecografía apoya cada vez más las ondas; los mecanismos no están del todo aclarados.",
+        "en": "Three models: continuous recruitment, a single cohort (late luteal or early follicular) or two or three waves per cycle. Ultrasound increasingly supports waves; the mechanisms are not fully elucidated."
+      },
+      "refIds": [
+        "baerwald-2012-folliculogenesis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx05",
+      "kind": "question",
+      "conceptId": "horm.ol.dominant-follicle",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En un ciclo ovulatorio típico, ¿cuándo se selecciona en general el folículo dominante?",
+        "en": "In a typical ovulatory cycle, when is the dominant follicle generally selected?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En el momento del pico de LH.",
+            "en": "At the time of the LH surge."
+          },
+          "correct": false,
+          "why": {
+            "es": "La selección ocurre antes, en la fase folicular media; el pico desencadena la ovulación.",
+            "en": "Selection happens earlier, in the mid-follicular phase; the surge triggers ovulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "En la fase lútea temprana del mismo ciclo.",
+            "en": "In the early luteal phase of the same cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la fase lútea el folículo ya ha ovulado; la selección es en la fase folicular media.",
+            "en": "In the luteal phase the follicle has already ovulated; selection is in the mid-follicular phase."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "En la fase folicular media, y ovula a mitad de ciclo.",
+            "en": "In the mid-follicular phase, and it ovulates at mid-cycle."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en general se selecciona un único folículo dominante.",
+            "en": "Correct: generally a single dominant follicle is selected."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Al azar en cualquier momento del ciclo.",
+            "en": "At random at any time in the cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "Se describe en la fase folicular media, aunque sus mecanismos no están del todo aclarados.",
+            "en": "It is described in the mid-follicular phase, although its mechanisms are not fully elucidated."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En general, un único folículo dominante se selecciona en la fase folicular media y ovula a mitad de ciclo; los mecanismos de reclutamiento y selección no están del todo aclarados.",
+        "en": "Generally, a single dominant follicle is selected in the mid-follicular phase and ovulates at mid-cycle; the mechanisms of recruitment and selection are not fully elucidated."
+      },
+      "refIds": [
+        "baerwald-2012-folliculogenesis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx06",
+      "kind": "question",
+      "conceptId": "horm.ol.not-day-14",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el estudio de Bull et al. (2019) con más de 600 000 ciclos, ¿qué fase explicó sobre todo las diferencias de duración del ciclo y cuál fue la duración media de la fase lútea?",
+        "en": "In the Bull et al. (2019) study of over 600,000 cycles, which phase mainly drove differences in cycle length, and what was the mean luteal phase length?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La fase folicular; fase lútea media de 12,4 ± 2,4 días.",
+            "en": "The follicular phase; mean luteal phase 12.4 ± 2.4 days."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la lútea varía menos que la folicular, pero también varía.",
+            "en": "Correct: the luteal phase varies less than the follicular, but it does vary."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La fase lútea; media de 14 días exactos.",
+            "en": "The luteal phase; mean of exactly 14 days."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las diferencias se debieron sobre todo a la fase folicular; la lútea media fue de 12,4 días.",
+            "en": "Differences were driven mainly by the follicular phase; the mean luteal phase was 12.4 days."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La fase folicular; fase lútea media de 16,9 días.",
+            "en": "The follicular phase; mean luteal phase 16.9 days."
+          },
+          "correct": false,
+          "why": {
+            "es": "16,9 días fue la media de la fase folicular, no de la lútea.",
+            "en": "16.9 days was the mean follicular phase, not the luteal."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas por igual; fase lútea media de 19,5 días.",
+            "en": "Both equally; mean luteal phase 19.5 days."
+          },
+          "correct": false,
+          "why": {
+            "es": "19,5 días fue la fase folicular media con ciclos de 31–35 días.",
+            "en": "19.5 days was the mean follicular phase with 31–35-day cycles."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Bull 2019: fase folicular media 16,9 días (15,2 con ciclos de 25–30; 19,5 con ciclos de 31–35); fase lútea media 12,4 ± 2,4 días. La mayoría no ovuló el día 14.",
+        "en": "Bull 2019: mean follicular phase 16.9 days (15.2 with 25–30-day cycles; 19.5 with 31–35-day cycles); mean luteal phase 12.4 ± 2.4 days. Most women did not ovulate on day 14."
+      },
+      "refIds": [
+        "bull-2019-cycle-characteristics"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx07",
+      "kind": "question",
+      "conceptId": "horm.ol.not-day-14",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué limitación conviene recordar al citar el estudio de Bull 2019 sobre el día de ovulación?",
+        "en": "Which limitation should you remember when citing the Bull 2019 study on the day of ovulation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ovulación se confirmó con ecografía seriada en todos los ciclos.",
+            "en": "Ovulation was confirmed by serial ultrasound in every cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hubo ecografía: la ovulación se estimó con un algoritmo.",
+            "en": "There was no ultrasound: ovulation was estimated by an algorithm."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo se incluyeron ciclos de exactamente 28 días.",
+            "en": "Only cycles of exactly 28 days were included."
+          },
+          "correct": false,
+          "why": {
+            "es": "El estudio analizó ciclos de distintas duraciones (por ejemplo, de 25–30 y de 31–35 días).",
+            "en": "The study analysed cycles of various lengths (for example, 25–30 and 31–35 days)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Se midió la progesterona sérica en cada ciclo.",
+            "en": "Serum progesterone was measured in every cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "No: la estimación fue algorítmica con temperatura basal y, opcionalmente, LH urinaria.",
+            "en": "No: the estimate was algorithmic, from basal body temperature and, optionally, urinary LH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ovulación se estimó con un algoritmo a partir de la temperatura basal y, opcionalmente, la LH urinaria, no con ecografía.",
+            "en": "Ovulation was estimated by an algorithm from basal body temperature and, optionally, urinary LH, not by ultrasound."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son datos observacionales de una app.",
+            "en": "Correct: these are observational app data."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Datos de app con ovulación estimada por algoritmo: útiles para desmontar el mito del día 14, con esa limitación. ASRM describe una fase lútea típica de 12–14 días (rango 11–17).",
+        "en": "App data with algorithm-estimated ovulation: useful to dispel the day-14 myth, with that limitation. ASRM describes a typical luteal phase of 12–14 days (range 11–17)."
+      },
+      "refIds": [
+        "bull-2019-cycle-characteristics",
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx08",
+      "kind": "question",
+      "conceptId": "horm.ol.fertile-window",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el estudio de Wilcox et al. (1995), ¿cuál fue la probabilidad de concepción con relaciones cinco días antes de la ovulación?",
+        "en": "In the Wilcox et al. (1995) study, what was the probability of conception with intercourse five days before ovulation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "0 (ninguna concepción).",
+            "en": "0 (no conceptions)."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cinco días antes todavía está dentro de la ventana de seis días que termina el día de la ovulación.",
+            "en": "Five days before is still within the six-day window ending on the day of ovulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "0,10.",
+            "en": "0.10."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: frente a 0,33 el día de la ovulación.",
+            "en": "Correct: versus 0.33 on the day of ovulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "0,33.",
+            "en": "0.33."
+          },
+          "correct": false,
+          "why": {
+            "es": "0,33 fue la probabilidad con relaciones el mismo día de la ovulación.",
+            "en": "0.33 was the probability with intercourse on the day of ovulation itself."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "0,50.",
+            "en": "0.50."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es una cifra del estudio; el máximo fue 0,33 el día de la ovulación.",
+            "en": "Not a figure from the study; the maximum was 0.33 on the day of ovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Wilcox 1995: concepción solo con relaciones en los seis días que terminan el día estimado de ovulación; 0,10 a los cinco días antes y 0,33 el día de la ovulación.",
+        "en": "Wilcox 1995: conception only with intercourse in the six days ending on the estimated day of ovulation; 0.10 five days before and 0.33 on the day of ovulation."
+      },
+      "refIds": [
+        "wilcox-1995-intercourse-timing"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx09",
+      "kind": "question",
+      "conceptId": "horm.ol.fertile-window",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el estudio de Wilcox et al. (1995), ¿cómo se definió la “concepción” y cómo se estimó la ovulación?",
+        "en": "In the Wilcox et al. (1995) study, how was “conception” defined and how was ovulation estimated?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Concepción = nacido vivo; ovulación por ecografía.",
+            "en": "Conception = live birth; ovulation by ultrasound."
+          },
+          "correct": false,
+          "why": {
+            "es": "La concepción fue un aumento de hCG urinaria; la ovulación se estimó con metabolitos urinarios.",
+            "en": "Conception was a rise in urinary hCG; ovulation was estimated from urinary metabolites."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Concepción = latido fetal; ovulación por temperatura basal.",
+            "en": "Conception = fetal heartbeat; ovulation by basal body temperature."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguno de los dos: hCG urinaria y metabolitos urinarios.",
+            "en": "Neither: urinary hCG and urinary metabolites."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Concepción = aumento de hCG urinaria (embarazo temprano); ovulación estimada por metabolitos urinarios de estrógenos y progesterona.",
+            "en": "Conception = rise in urinary hCG (early pregnancy); ovulation estimated from urinary oestrogen and progesterone metabolites."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: y dos tercios de esas concepciones terminaron en nacido vivo.",
+            "en": "Correct: and two thirds of those conceptions ended in a live birth."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Concepción = prueba de embarazo en sangre; ovulación por LH sérica.",
+            "en": "Conception = blood pregnancy test; ovulation by serum LH."
+          },
+          "correct": false,
+          "why": {
+            "es": "Se usaron mediciones urinarias, no séricas.",
+            "en": "Urinary, not serum, measurements were used."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "625 ciclos; “concepción” fue el aumento de hCG urinaria (embarazo temprano) y dos tercios terminaron en nacido vivo. Conviene nombrar el desenlace al citar las cifras.",
+        "en": "625 cycles; “conception” was a rise in urinary hCG (early pregnancy), and two thirds ended in a live birth. Name the outcome when quoting the figures."
+      },
+      "refIds": [
+        "wilcox-1995-intercourse-timing"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx10",
+      "kind": "question",
+      "conceptId": "horm.ol.fertile-window",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una paciente programa las relaciones según la ventana fértil que le marca una app de seguimiento del ciclo. Según ASRM 2021, ¿qué conviene hacer?",
+        "en": "A patient times intercourse to the fertile window shown by a cycle-tracking app. According to ASRM 2021, what should you do?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Comentar con ella las limitaciones de la app para predecir con exactitud la ventana fértil.",
+            "en": "Discuss with her the app’s limitations in accurately predicting the fertile window."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que aconseja ASRM.",
+            "en": "Correct: that is what ASRM advises."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Decirle que la app identifica el día exacto de ovulación.",
+            "en": "Tell her the app identifies the exact day of ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM aconseja comentar precisamente sus limitaciones.",
+            "en": "ASRM advises discussing precisely its limitations."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Recomendarle relaciones solo el día que marque la app.",
+            "en": "Advise intercourse only on the day the app shows."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las relaciones en los días previos a la ovulación también cuentan; no hace falta acertar el día exacto.",
+            "en": "Intercourse in the days before ovulation also counts; there is no need to hit the exact day."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Indicarle que el día 14 es más fiable que la app.",
+            "en": "Tell her day 14 is more reliable than the app."
+          },
+          "correct": false,
+          "why": {
+            "es": "La mayoría de las mujeres no ovula el día 14.",
+            "en": "Most women do not ovulate on day 14."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ventana fértil son los seis días que terminan en la ovulación: no hace falta acertar el día exacto, y las apps tienen limitaciones para predecirla.",
+        "en": "The fertile window is the six days ending at ovulation: there is no need to hit the exact day, and apps have limitations in predicting it."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation",
+        "wilcox-1995-intercourse-timing"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx11",
+      "kind": "question",
+      "conceptId": "horm.ol.luteal-physiology",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ASRM 2026, en un ciclo sin embarazo, ¿cuándo alcanza la progesterona su pico?",
+        "en": "According to ASRM 2026, in a non-pregnancy cycle, when does progesterone peak?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El día de la ovulación.",
+            "en": "On the day of ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "El pico se produce después, 6–8 días tras la ovulación.",
+            "en": "The peak comes later, 6–8 days after ovulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El día 21 de todos los ciclos.",
+            "en": "On day 21 of every cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "El pico se relaciona con la ovulación, no con un día fijo del ciclo.",
+            "en": "The peak relates to ovulation, not to a fixed cycle day."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Justo antes de la menstruación.",
+            "en": "Just before menstruation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Antes de la regla, sin hCG, el cuerpo lúteo declina y la progesterona cae.",
+            "en": "Before the period, without hCG, the corpus luteum declines and progesterone falls."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "6–8 días después de la ovulación.",
+            "en": "6–8 days after ovulation."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la cifra de ASRM.",
+            "en": "Correct: that is ASRM’s figure."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Fase lútea típica de 12–14 días (rango 11–17); pico de progesterona 6–8 días tras la ovulación; secreción pulsátil en respuesta a los pulsos de LH.",
+        "en": "Typical luteal phase 12–14 days (range 11–17); progesterone peak 6–8 days after ovulation; pulsatile secretion in response to LH pulses."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx12",
+      "kind": "question",
+      "conceptId": "horm.ol.luteal-physiology",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Si se produce la implantación, ¿de qué pasa a depender la secreción del cuerpo lúteo?",
+        "en": "If implantation occurs, what does corpus luteum secretion come to depend on?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "De un nuevo pico de LH.",
+            "en": "A new LH surge."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tras la implantación, el sostén del cuerpo lúteo es la hCG.",
+            "en": "After implantation, corpus luteum support is hCG."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Del aumento de hCG.",
+            "en": "Rising hCG."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: si la hCG no aumenta, el cuerpo lúteo falla y la progesterona cae.",
+            "en": "Correct: if hCG fails to rise, the corpus luteum fails and progesterone falls."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Del estradiol del folículo dominante siguiente.",
+            "en": "Oestradiol from the next dominant follicle."
+          },
+          "correct": false,
+          "why": {
+            "es": "No: el cuerpo lúteo pasa a depender de la hCG.",
+            "en": "No: the corpus luteum comes to depend on hCG."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "De la progesterona placentaria desde el primer día.",
+            "en": "Placental progesterone from day one."
+          },
+          "correct": false,
+          "why": {
+            "es": "La progesterona del cuerpo lúteo es esencial hasta que la placenta produce suficiente.",
+            "en": "Corpus luteum progesterone is essential until the placenta produces enough."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La progesterona del cuerpo lúteo mantiene el embarazo hasta que la placenta produce suficiente; en ese intervalo el cuerpo lúteo depende del aumento de hCG.",
+        "en": "Corpus luteum progesterone maintains pregnancy until the placenta produces enough; during that interval the corpus luteum depends on rising hCG."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx13",
+      "kind": "question",
+      "conceptId": "horm.ol.luteal-physiology",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ASRM 2026, ¿cuánto puede variar la progesterona en 90 minutos durante la fase lútea, y qué implica?",
+        "en": "According to ASRM 2026, how much can progesterone vary within 90 minutes in the luteal phase, and what does that imply?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hasta un 10 %; un valor aislado es representativo.",
+            "en": "Up to 10%; a single value is representative."
+          },
+          "correct": false,
+          "why": {
+            "es": "La variación descrita es mucho mayor: hasta 8 veces.",
+            "en": "The variation described is much larger: up to 8-fold."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No varía: la secreción del cuerpo lúteo es constante.",
+            "en": "It does not vary: corpus luteum secretion is constant."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es pulsátil, sobre todo en la fase lútea media y tardía.",
+            "en": "It is pulsatile, especially in the mid and late luteal phase."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Hasta 8 veces; un valor aislado es una instantánea, no la película.",
+            "en": "Up to 8-fold; a single value is a snapshot, not the film."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la secreción es pulsátil, en respuesta a los pulsos de LH.",
+            "en": "Correct: secretion is pulsatile, in response to LH pulses."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hasta 8 veces, por eso hay que hacer siempre una curva de 3 días.",
+            "en": "Up to 8-fold, so a 3-day curve should always be done."
+          },
+          "correct": false,
+          "why": {
+            "es": "La variación explica por qué un valor no juzga la calidad lútea; no hay ninguna prueba fiable de deficiencia lútea, tampoco las curvas.",
+            "en": "The variation explains why one value cannot judge luteal quality; there is no reliable test for luteal deficiency, curves included."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Progesterona pulsátil: hasta 8 veces en 90 minutos (ASRM 2026). Un valor confirma la ovulación, pero no evalúa la calidad de la fase lútea.",
+        "en": "Pulsatile progesterone: up to 8-fold within 90 minutes (ASRM 2026). One value confirms ovulation but does not assess luteal phase quality."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency",
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx14",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-controversy",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 30 años con ciclos regulares: en un ciclo registró una fase lútea de 9 días y teme ser infértil. ¿Qué dato de ASRM 2026 es más útil para responderle?",
+        "en": "A 30-year-old woman with regular cycles recorded a 9-day luteal phase in one cycle and fears she is infertile. Which ASRM 2026 data point is most useful for answering her?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Las fases lúteas cortas son frecuentes en mujeres fértiles: en un estudio, el 13 % de los ciclos ovulatorios tuvo una fase lútea de menos de 10 días.",
+            "en": "Short luteal phases are common in fertile women: in one study, 13% of ovulatory cycles had a luteal phase of less than 10 days."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: y la deficiencia lútea no se ha demostrado como entidad independiente causante de infertilidad.",
+            "en": "Correct: and luteal deficiency has not been proven to be an independent entity causing infertility."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una fase lútea ≤10 días demuestra una causa independiente de infertilidad.",
+            "en": "A luteal phase ≤10 days proves an independent cause of infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM indica que no se ha demostrado que la deficiencia lútea sea una entidad independiente causante de infertilidad.",
+            "en": "ASRM states that luteal deficiency has not been proven to be an independent entity causing infertility."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Debe confirmarse con biopsia endometrial.",
+            "en": "It must be confirmed by endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La datación histológica no se recomienda y no distingue fértiles de infértiles.",
+            "en": "Histological dating is not recommended and does not distinguish fertile from infertile women."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Requiere progesterona en cada ciclo natural desde ahora.",
+            "en": "It requires progesterone in every natural cycle from now on."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay pruebas de que la progesterona beneficie la fertilidad en ciclos naturales.",
+            "en": "There is no evidence that progesterone benefits fertility in natural cycles."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La deficiencia lútea es un diagnóstico clínico asociado a una fase lútea ≤10 días, pero no probado como causa independiente de infertilidad o de pérdida gestacional recurrente. Las fases cortas aparecen en mujeres fértiles.",
+        "en": "Luteal phase deficiency is a clinical diagnosis associated with a luteal phase ≤10 days, but not proven as an independent cause of infertility or recurrent pregnancy loss. Short phases occur in fertile women."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx15",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-controversy",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "ASRM 2026 cita un estudio en el que el 18 % de los ciclos tuvo una fase lútea de menos de 12 días. ¿Qué se observó en esas mujeres?",
+        "en": "ASRM 2026 cites a study in which 18% of cycles had a luteal phase of less than 12 days. What was observed in those women?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Menor fecundidad a 12 meses.",
+            "en": "Lower 12-month fecundity."
+          },
+          "correct": false,
+          "why": {
+            "es": "Su fecundidad a 12 meses no fue menor.",
+            "en": "Their 12-month fecundity was not lower."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Más pérdida gestacional recurrente.",
+            "en": "More recurrent pregnancy loss."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es lo que describe ese estudio; además, la deficiencia lútea no se ha demostrado como causa independiente de pérdida recurrente.",
+            "en": "That is not what the study describes; moreover, luteal deficiency has not been proven as an independent cause of recurrent loss."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguna diferencia en ningún momento.",
+            "en": "No difference at any time."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí fueron menos propensas a concebir el mes siguiente.",
+            "en": "They were less likely to conceive the following month."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Menor probabilidad de concebir el mes siguiente, pero sin menor fecundidad a 12 meses.",
+            "en": "A lower chance of conceiving the following month, but no lower 12-month fecundity."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: un efecto a corto plazo no se tradujo en menor fecundidad a 12 meses.",
+            "en": "Correct: a short-term effect did not translate into lower 12-month fecundity."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Fases lúteas cortas: frecuentes en mujeres fértiles; en un estudio, menos concepción el mes siguiente pero igual fecundidad a 12 meses. Ante una fase corta, busca una causa subyacente (energía, tiroides, prolactina…).",
+        "en": "Short luteal phases: common in fertile women; in one study, less conception the next month but equal 12-month fecundity. Faced with a short phase, look for an underlying cause (energy, thyroid, prolactin…)."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx16",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-tests",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer con ciclos regulares; progesterona en fase lútea media de 8 ng/mL. Le dijeron que tiene un “defecto lúteo”. ¿Qué interpretación es correcta?",
+        "en": "A woman with regular cycles; mid-luteal progesterone 8 ng/mL. She was told she has a “luteal defect”. Which interpretation is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Confirma deficiencia lútea porque está por debajo de 10 ng/mL.",
+            "en": "It confirms luteal deficiency because it is below 10 ng/mL."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay una concentración mínima que defina una función lútea normal; valores <10 ng/mL aparecen en el 31,3 % de los ciclos ovulatorios.",
+            "en": "No minimum concentration defines normal luteal function; values <10 ng/mL occur in 31.3% of ovulatory cycles."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Indica que ovuló (>3 ng/mL), pero no permite diagnosticar una deficiencia lútea: ninguna concentración define una función lútea normal.",
+            "en": "It indicates she ovulated (>3 ng/mL), but it cannot diagnose luteal deficiency: no concentration defines normal luteal function."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: confirma ovulación, no calidad lútea.",
+            "en": "Correct: it confirms ovulation, not luteal quality."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Indica anovulación.",
+            "en": "It indicates anovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Para ASRM, una progesterona >3 ng/mL es evidencia presuntiva y suficiente de ovulación reciente.",
+            "en": "For ASRM, progesterone >3 ng/mL is presumptive and sufficient evidence of recent ovulation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Debe completarse con biopsia endometrial para datar el endometrio.",
+            "en": "It should be complemented by endometrial biopsy for dating."
+          },
+          "correct": false,
+          "why": {
+            "es": "La datación histológica no se recomienda.",
+            "en": "Histological dating is not recommended."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ninguna prueba de deficiencia lútea es fiable en la clínica. Una progesterona >3 ng/mL indica ovulación; valores lúteos <10 ng/mL son frecuentes (31,3 %) en ciclos ovulatorios.",
+        "en": "No test for luteal deficiency is reliable in clinical practice. Progesterone >3 ng/mL indicates ovulation; luteal values <10 ng/mL are common (31.3%) in ovulatory cycles."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency",
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx17",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-tests",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el ensayo multicéntrico de 847 mujeres con ciclos regulares citado por ASRM, ¿qué mostraron las biopsias endometriales de fase lútea media?",
+        "en": "In the multicentre trial of 847 women with regular cycles cited by ASRM, what did mid-luteal endometrial biopsies show?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El 5 % estaban desfasadas, todas en mujeres infértiles.",
+            "en": "5% were out of phase, all in infertile women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La cifra fue 49 % y no hubo diferencias entre fértiles e infértiles.",
+            "en": "The figure was 49% and there was no difference between fertile and infertile women."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El 49 % estaban desfasadas, sobre todo en mujeres infértiles.",
+            "en": "49% were out of phase, mostly in infertile women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La cifra es correcta, pero no hubo diferencias entre fértiles e infértiles.",
+            "en": "The figure is right, but there was no difference between fertile and infertile women."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El 49 % estaban “desfasadas”, sin diferencias entre mujeres fértiles e infértiles.",
+            "en": "49% were “out of phase”, with no difference between fertile and infertile women."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: por eso la datación histológica no sirve para diagnosticar la deficiencia lútea.",
+            "en": "Correct: that is why histological dating is useless for diagnosing luteal deficiency."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los marcadores moleculares de receptividad resolvieron el problema diagnóstico.",
+            "en": "Molecular receptivity markers solved the diagnostic problem."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los marcadores moleculares de receptividad siguen siendo experimentales.",
+            "en": "Molecular receptivity markers remain experimental."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Biopsia endometrial: 49 % de desfase en fase lútea media en mujeres con ciclos regulares, igual en fértiles e infértiles. ESHRE tampoco la recomienda sin otras indicaciones (fuerte, certeza baja).",
+        "en": "Endometrial biopsy: 49% out of phase in the mid-luteal phase in regularly cycling women, the same in fertile and infertile. ESHRE does not recommend it without other indications either (strong, low certainty)."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency",
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx18",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-treatment",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 28 años con fases lúteas cortas y galactorrea. ¿Cuál es el primer paso adecuado según ASRM 2026?",
+        "en": "A 28-year-old woman with short luteal phases and galactorrhoea. What is the appropriate first step according to ASRM 2026?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Buscar y corregir una causa subyacente, como la hiperprolactinemia.",
+            "en": "Look for and correct an underlying cause, such as hyperprolactinaemia."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la galactorrea orienta a medir prolactina; corregir la causa es el primer paso.",
+            "en": "Correct: galactorrhoea points to measuring prolactin; correcting the cause is the first step."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Progesterona vaginal en la segunda mitad de cada ciclo.",
+            "en": "Vaginal progesterone in the second half of each cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sin corregir la causa, el tratamiento sería empírico y no se recomienda en general.",
+            "en": "Without correcting the cause, treatment would be empiric and is generally not recommended."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Inducción de la ovulación para mejorar el cuerpo lúteo.",
+            "en": "Ovulation induction to improve the corpus luteum."
+          },
+          "correct": false,
+          "why": {
+            "es": "No se ha demostrado que la inducción de la ovulación trate la deficiencia lútea.",
+            "en": "Ovulation induction has not been shown to treat luteal deficiency."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Biopsia endometrial para confirmar el defecto.",
+            "en": "Endometrial biopsy to confirm the defect."
+          },
+          "correct": false,
+          "why": {
+            "es": "La datación histológica no es una herramienta diagnóstica válida.",
+            "en": "Histological dating is not a valid diagnostic tool."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Primero, corregir causas como la disfunción hipotalámica o tiroidea o la hiperprolactinemia; si no se identifica ninguna, el tratamiento es empírico y en general no se recomienda. La evaluación se inicia tras una decisión compartida.",
+        "en": "First, correct causes such as hypothalamic or thyroid dysfunction or hyperprolactinaemia; if none is identified, treatment is empiric and generally not recommended. Evaluation starts after shared decision-making."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx19",
+      "kind": "question",
+      "conceptId": "horm.ol.lpd-treatment",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Un colega argumenta: “Damos progesterona como apoyo lúteo en los tratamientos de fertilidad, así que también servirá para la deficiencia lútea en ciclos naturales”. ¿Cuál es el fallo del argumento?",
+        "en": "A colleague argues: “We give progesterone as luteal support in fertility treatments, so it will also work for luteal deficiency in natural cycles.” What is the flaw in the argument?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ninguno: la evidencia de los tratamientos de fertilidad se aplica igual a los ciclos naturales.",
+            "en": "None: the evidence from fertility treatments applies equally to natural cycles."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM distingue expresamente ambos contextos.",
+            "en": "ASRM explicitly distinguishes the two settings."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El fallo es la vía: por vía oral sí funcionaría en ciclos naturales.",
+            "en": "The flaw is the route: given orally it would work in natural cycles."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no respalda ninguna vía en el ciclo natural: no hay evidencia de que la progesterona beneficie la fertilidad en ciclos naturales, sea cual sea la vía.",
+            "en": "ASRM supports no route in the natural cycle: there is no evidence that progesterone benefits fertility in natural cycles, whatever the route."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El fallo es la dosis: con más progesterona funcionaría.",
+            "en": "The flaw is the dose: more progesterone would work."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay pruebas de beneficio en ciclos naturales, sea cual sea la dosis.",
+            "en": "There is no evidence of benefit in natural cycles, whatever the dose."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Son situaciones distintas: según ASRM, no hay pruebas de que la progesterona beneficie la fertilidad en ciclos naturales ni trate la deficiencia lútea, y no hay ensayos aleatorizados en mujeres con deficiencia lútea.",
+            "en": "They are different situations: per ASRM, there is no evidence that progesterone benefits fertility in natural cycles or treats luteal deficiency, and there are no randomised trials in women with luteal deficiency."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la progesterona tras tratamientos de fertilidad es distinta de suplementar el ciclo natural.",
+            "en": "Correct: progesterone after fertility treatment is different from supplementing the natural cycle."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ASRM: ningún tratamiento de la deficiencia lútea ha mejorado las tasas de embarazo en ciclos naturales no estimulados; el apoyo lúteo tras tratamientos de fertilidad es otro contexto.",
+        "en": "ASRM: no treatment for luteal deficiency has improved pregnancy rates in natural, unstimulated cycles; luteal support after fertility treatment is a different setting."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx20",
+      "kind": "question",
+      "conceptId": "horm.ol.patient-low-progesterone",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una paciente dice: “Me dijeron que tengo la progesterona baja”. ¿Qué respuesta es la más adecuada?",
+        "en": "A patient says: “I was told my progesterone is low.” Which answer is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "“Tu fase lútea es mala; necesitas progesterona cada mes.”",
+            "en": "“Your luteal phase is poor; you need progesterone every month.”"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un valor aislado no evalúa la calidad lútea, y la progesterona en ciclo natural no ha demostrado mejorar el embarazo.",
+            "en": "A single value cannot assess luteal quality, and progesterone in a natural cycle has not been shown to improve pregnancy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "“La progesterona sube y baja en pulsos a lo largo del día; un solo análisis no dice si tu fase lútea es ‘buena’ o ‘mala’, pero, bien programado, sí indica si ovulaste.”",
+            "en": "“Progesterone rises and falls in pulses through the day; a single test can’t say whether your luteal phase is ‘good’ or ‘bad’, but, if timed correctly, it does show whether you ovulated.”"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: separa confirmar ovulación de juzgar la calidad lútea.",
+            "en": "Correct: it separates confirming ovulation from judging luteal quality."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "“Repetiremos la progesterona tres días seguidos para saber si tu fase lútea es suficiente.”",
+            "en": "“We’ll repeat progesterone three days in a row to know whether your luteal phase is sufficient.”"
+          },
+          "correct": false,
+          "why": {
+            "es": "No existe hoy una prueba fiable de “defecto lúteo”.",
+            "en": "There is currently no reliable test for a “luteal defect”."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "“Con la progesterona baja no es posible quedarse embarazada.”",
+            "en": "“With low progesterone it is not possible to get pregnant.”"
+          },
+          "correct": false,
+          "why": {
+            "es": "Alarmista y sin base: ninguna concentración define una función lútea fértil.",
+            "en": "Alarmist and baseless: no concentration defines fertile luteal function."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un valor de progesterona puede confirmar la ovulación, pero no evaluar la calidad de la fase lútea. Lo útil es buscar una causa tratable, como tiroides o prolactina.",
+        "en": "A progesterone value can confirm ovulation but cannot assess luteal phase quality. What is useful is looking for a treatable cause, such as thyroid or prolactin."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation",
+        "asrm-2026-luteal-phase-deficiency"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx21",
+      "kind": "question",
+      "conceptId": "horm.ol.patient-low-progesterone",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una paciente con ciclos regulares toma “suplementos para la fase lútea” y progesterona recomendados tras un único análisis. ¿Qué le explicas?",
+        "en": "A patient with regular cycles takes “luteal phase supplements” and progesterone recommended after a single test. What do you explain?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que debe continuar mientras la progesterona siga por debajo de 10 ng/mL.",
+            "en": "That she should continue as long as progesterone stays below 10 ng/mL."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay un umbral que defina una función lútea normal; valores <10 ng/mL son frecuentes en ciclos ovulatorios.",
+            "en": "No threshold defines normal luteal function; values <10 ng/mL are common in ovulatory cycles."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que debe añadir una biopsia endometrial para ajustar la dosis.",
+            "en": "That she should add an endometrial biopsy to adjust the dose."
+          },
+          "correct": false,
+          "why": {
+            "es": "La datación histológica no se recomienda.",
+            "en": "Histological dating is not recommended."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que no hay hoy una prueba fiable de “defecto lúteo”, que la progesterona en ciclo natural no ha demostrado mejorar la probabilidad de embarazo y que conviene buscar una causa tratable (tiroides, prolactina).",
+            "en": "That there is currently no reliable test for a “luteal defect”, that progesterone in a natural cycle has not been shown to improve the chance of pregnancy, and that it is worth checking for a treatable cause (thyroid, prolactin)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: según ASRM, no hay prueba fiable de deficiencia lútea ni beneficio demostrado de la progesterona en ciclo natural, y el primer paso es buscar causas tratables.",
+            "en": "Correct: per ASRM, there is no reliable test for luteal deficiency and no proven benefit of progesterone in natural cycles, and the first step is to look for treatable causes."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que la progesterona en ciclo natural está demostrada en ensayos aleatorizados.",
+            "en": "That progesterone in natural cycles is proven in randomised trials."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay ensayos aleatorizados de progesterona en mujeres con deficiencia lútea.",
+            "en": "There are no randomised trials of progesterone in women with luteal deficiency."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ante progesterona o suplementos indicados por un único valor: confirmar qué se midió y cuándo, explicar la falta de beneficio demostrado en ciclo natural y buscar causas tratables.",
+        "en": "Faced with progesterone or supplements prescribed on the basis of one value: check what was measured and when, explain the lack of proven benefit in natural cycles and look for treatable causes."
+      },
+      "refIds": [
+        "asrm-2026-luteal-phase-deficiency",
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx22",
+      "kind": "question",
+      "conceptId": "horm.ol.confirm-ovulation",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 30 años con ciclos regulares cada 28 días e hirsutismo. Según ASRM 2021, ¿qué conviene hacer para valorar la ovulación?",
+        "en": "A 30-year-old woman with regular 28-day cycles and hirsutism. According to ASRM 2021, what should be done to assess ovulation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Considerar una progesterona en fase lútea, porque con hirsutismo solo el 60 % de las eumenorreicas tiene ciclos ovulatorios.",
+            "en": "Consider a luteal progesterone, because with hirsutism only 60% of eumenorrhoeic women have ovulatory cycles."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: frente a hasta el 99,5 % sin hirsutismo.",
+            "en": "Correct: versus up to 99.5% without hirsutism."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Nada: con ciclos regulares la ovulación está prácticamente garantizada.",
+            "en": "Nothing: with regular cycles ovulation is practically guaranteed."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con hirsutismo, la prevalencia de ciclos ovulatorios en eumenorreicas baja al 60 %.",
+            "en": "With hirsutism, the prevalence of ovulatory cycles in eumenorrhoeic women falls to 60%."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Registrar la temperatura basal durante 3 meses.",
+            "en": "Chart basal body temperature for 3 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no la recomienda de rutina.",
+            "en": "ASRM does not recommend it routinely."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacer una biopsia endometrial.",
+            "en": "Perform an endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no la recomienda de rutina para confirmar la ovulación.",
+            "en": "ASRM does not recommend it routinely to confirm ovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con historia menstrual normal y sin hirsutismo, hasta el 99,5 % de los ciclos son ovulatorios; con hirsutismo, el 60 %, y conviene considerar progesterona lútea.",
+        "en": "With a normal menstrual history and no hirsutism, up to 99.5% of cycles are ovulatory; with hirsutism, 60%, and luteal progesterone should be considered."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx23",
+      "kind": "question",
+      "conceptId": "horm.ol.confirm-ovulation",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Cuando la historia menstrual es indeterminada, ¿qué pruebas propone ASRM 2021 para confirmar la ovulación?",
+        "en": "When the menstrual history is indeterminate, which tests does ASRM 2021 propose to confirm ovulation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Temperatura basal y biopsia endometrial.",
+            "en": "Basal body temperature and endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas aparecen como no recomendadas de rutina.",
+            "en": "Both are listed as not routinely recommended."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un panel completo de FSH, LH, estradiol, prolactina y TSH el mismo día.",
+            "en": "A full panel of FSH, LH, oestradiol, prolactin and TSH on the same day."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un panel sin pregunta clínica ni día del ciclo no confirma la ovulación.",
+            "en": "A panel without a clinical question or cycle day does not confirm ovulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "AMH y recuento de folículos antrales.",
+            "en": "AMH and antral follicle count."
+          },
+          "correct": false,
+          "why": {
+            "es": "Estiman la reserva ovárica, no confirman la ovulación.",
+            "en": "They estimate ovarian reserve; they do not confirm ovulation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Progesterona lútea, tests de LH urinaria o ecografía transvaginal.",
+            "en": "Luteal progesterone, urinary LH kits or transvaginal ultrasound."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son las opciones que recoge ASRM.",
+            "en": "Correct: these are the options ASRM lists."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si la historia es indeterminada: progesterona lútea, LH urinaria o ecografía transvaginal. ESHRE, con ciclos regulares, no las considera de rutina (punto de buena práctica).",
+        "en": "If the history is indeterminate: luteal progesterone, urinary LH or transvaginal ultrasound. ESHRE, with regular cycles, does not consider them routine (good practice point)."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation",
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx24",
+      "kind": "question",
+      "conceptId": "horm.ol.day-21-pitfall",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Un informe muestra una progesterona lútea de 12 nmol/L. Aplicando el criterio de ASRM (>3 ng/mL), ¿cómo se interpreta?",
+        "en": "A report shows a luteal progesterone of 12 nmol/L. Applying ASRM’s criterion (>3 ng/mL), how is it interpreted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Anovulación, porque 12 está muy por debajo de los umbrales lúteos habituales.",
+            "en": "Anovulation, because 12 is far below usual luteal thresholds."
+          },
+          "correct": false,
+          "why": {
+            "es": "Confunde unidades: 12 nmol/L ≈ 3,8 ng/mL, por encima de 3 ng/mL.",
+            "en": "It confuses units: 12 nmol/L ≈ 3.8 ng/mL, above 3 ng/mL."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Evidencia presuntiva de ovulación reciente: 12 nmol/L ≈ 3,8 ng/mL, por encima de 3 ng/mL (≈ 9,5 nmol/L).",
+            "en": "Presumptive evidence of recent ovulation: 12 nmol/L ≈ 3.8 ng/mL, above 3 ng/mL (≈ 9.5 nmol/L)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 1 ng/mL ≈ 3,18 nmol/L.",
+            "en": "Correct: 1 ng/mL ≈ 3.18 nmol/L."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Deficiencia lútea, por estar por debajo de 10 ng/mL.",
+            "en": "Luteal deficiency, because it is below 10 ng/mL."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna concentración define una función lútea normal; no se diagnostica deficiencia lútea con un valor.",
+            "en": "No concentration defines normal luteal function; luteal deficiency is not diagnosed from one value."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No se puede interpretar sin una biopsia endometrial.",
+            "en": "It cannot be interpreted without an endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La biopsia no se recomienda; el valor basta para presumir ovulación.",
+            "en": "Biopsy is not recommended; the value suffices to presume ovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Comprueba las unidades antes de aplicar un umbral: 1 ng/mL ≈ 3,18 nmol/L; 3 ng/mL ≈ 9,5 nmol/L. Un valor >3 ng/mL confirma ovulación, no calidad lútea.",
+        "en": "Check the units before applying a threshold: 1 ng/mL ≈ 3.18 nmol/L; 3 ng/mL ≈ 9.5 nmol/L. A value >3 ng/mL confirms ovulation, not luteal quality."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx25",
+      "kind": "question",
+      "conceptId": "horm.ol.day-21-pitfall",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer con ciclos irregulares y prolongados en la que NICE indica medir progesterona en fase lútea media. ¿Cómo se adapta la prueba?",
+        "en": "A woman with prolonged irregular cycles in whom NICE indicates mid-luteal progesterone. How is the test adapted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Siempre el día 21, sea cual sea la duración del ciclo.",
+            "en": "Always on day 21, whatever the cycle length."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE plantea el día 21 para un ciclo de 28 días; con ciclos largos puede hacer falta más tarde.",
+            "en": "NICE frames day 21 for a 28-day cycle; with long cycles it may need to be later."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El día 14, porque es cuando se produce la ovulación.",
+            "en": "On day 14, because that is when ovulation occurs."
+          },
+          "correct": false,
+          "why": {
+            "es": "La mayoría no ovula el día 14, y la progesterona se mide en fase lútea.",
+            "en": "Most women do not ovulate on day 14, and progesterone is measured in the luteal phase."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Más tarde en el ciclo (por ejemplo, día 28 de un ciclo de 35) y repitiéndola cada semana hasta la siguiente regla.",
+            "en": "Later in the cycle (for example, day 28 of a 35-day cycle) and repeated weekly until the next period."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo describe NICE.",
+            "en": "Correct: that is how NICE describes it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No se mide en ciclos irregulares; se sustituye por la temperatura basal.",
+            "en": "It is not measured in irregular cycles; basal body temperature replaces it."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE desaconseja la temperatura basal para confirmar la ovulación.",
+            "en": "NICE advises against basal body temperature to confirm ovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Programa la progesterona según la siguiente regla esperada (unos 7 días antes); NICE: en ciclos irregulares prolongados, más tarde y semanalmente hasta la regla.",
+        "en": "Time progesterone to the next expected period (about 7 days before); NICE: in prolonged irregular cycles, later and weekly until the period."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx26",
+      "kind": "question",
+      "conceptId": "horm.ol.lh-kits-bbt",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cuánto tiempo antes de la ovulación aparece el pico de LH que detectan los tests urinarios?",
+        "en": "How long before ovulation does the LH surge detected by urinary kits occur?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "1–2 días.",
+            "en": "1–2 days."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: aportan evidencia indirecta de ovulación.",
+            "en": "Correct: they provide indirect evidence of ovulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "5–6 días.",
+            "en": "5–6 days."
+          },
+          "correct": false,
+          "why": {
+            "es": "Demasiado: según ASRM, el pico precede a la ovulación en 1–2 días.",
+            "en": "Too long: according to ASRM, the surge precedes ovulation by 1–2 days."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El pico aparece después de la ovulación.",
+            "en": "The surge occurs after ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "El pico de LH desencadena la ovulación; la precede.",
+            "en": "The LH surge triggers ovulation; it precedes it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una semana.",
+            "en": "One week."
+          },
+          "correct": false,
+          "why": {
+            "es": "Según ASRM, son 1–2 días.",
+            "en": "According to ASRM, it is 1–2 days."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los tests de LH urinaria detectan el pico que precede a la ovulación en 1–2 días: evidencia indirecta, con falsos positivos y negativos según el producto.",
+        "en": "Urinary LH kits detect the surge that precedes ovulation by 1–2 days: indirect evidence, with false positives and negatives depending on the product."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx27",
+      "kind": "question",
+      "conceptId": "horm.ol.lh-kits-bbt",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Para que un test de LH urinaria se correlacione mejor con el pico sérico, ¿qué muestra de orina se prefiere según ASRM 2021?",
+        "en": "For a urinary LH kit to correlate best with the serum peak, which urine sample is preferred according to ASRM 2021?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La primera orina de la mañana.",
+            "en": "First morning urine."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM señala mejor correlación con orina de mediodía o de la tarde-noche.",
+            "en": "ASRM notes better correlation with midday or evening urine."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cualquier muestra: la hora no influye.",
+            "en": "Any sample: the time makes no difference."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM señala una correlación especialmente buena con orina de mediodía o tarde-noche.",
+            "en": "ASRM notes especially good correlation with midday or evening urine."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Orina de 24 horas.",
+            "en": "A 24-hour urine collection."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es lo que describe ASRM para los tests de LH.",
+            "en": "That is not what ASRM describes for LH kits."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Orina de mediodía o de la tarde-noche.",
+            "en": "Midday or evening urine."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo indica ASRM.",
+            "en": "Correct: that is what ASRM states."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los tests de LH se correlacionan bien con el pico sérico, sobre todo con orina de mediodía o tarde-noche. En SOP, una LH basal elevada puede dar falsos positivos.",
+        "en": "LH kits correlate well with the serum peak, especially with midday or evening urine. In PCOS, an elevated basal LH can cause false positives."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx28",
+      "kind": "question",
+      "conceptId": "horm.ol.lh-kits-bbt",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer con ciclos regulares y progesterona lútea compatible con ovulación muestra una curva de temperatura basal sin patrón bifásico claro. ¿Cómo se interpreta?",
+        "en": "A woman with regular cycles and a luteal progesterone consistent with ovulation shows a basal temperature chart without a clear biphasic pattern. How is it interpreted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La curva demuestra anovulación, aunque la progesterona diga lo contrario.",
+            "en": "The chart proves anovulation, even though progesterone says otherwise."
+          },
+          "correct": false,
+          "why": {
+            "es": "Algunas mujeres que ovulan no muestran un patrón bifásico claro; la temperatura basal es poco exacta.",
+            "en": "Some ovulatory women do not show a clear biphasic pattern; basal temperature has poor accuracy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Algunas mujeres ovulatorias no muestran un patrón bifásico claro; por su baja exactitud, la temperatura basal no se recomienda de rutina.",
+            "en": "Some ovulatory women do not show a clear biphasic pattern; given its poor accuracy, basal temperature is not routinely recommended."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: y NICE desaconseja usarla para confirmar la ovulación.",
+            "en": "Correct: and NICE advises against using it to confirm ovulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Indica una deficiencia lútea.",
+            "en": "It indicates luteal deficiency."
+          },
+          "correct": false,
+          "why": {
+            "es": "La curva no diagnostica deficiencia lútea; no hay ninguna prueba fiable para ello.",
+            "en": "The chart does not diagnose luteal deficiency; there is no reliable test for it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hay que repetir la curva 6 meses más para confirmarlo.",
+            "en": "The chart must be repeated for 6 more months to confirm it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Repetir una prueba poco exacta no la hace fiable.",
+            "en": "Repeating an inaccurate test does not make it reliable."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Temperatura basal: los ciclos ovulatorios suelen ser bifásicos, pero no siempre; ASRM no la recomienda de rutina y NICE dice que no predice la ovulación de forma fiable.",
+        "en": "Basal body temperature: ovulatory cycles are usually biphasic, but not always; ASRM does not recommend it routinely and NICE says it does not reliably predict ovulation."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx29",
+      "kind": "question",
+      "conceptId": "horm.ol.guidelines-differ",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Sobre medir progesterona en fase lútea media en mujeres con ciclos regulares en estudio de infertilidad, ¿cómo se sitúan las guías?",
+        "en": "On measuring mid-luteal progesterone in women with regular cycles under infertility evaluation, where do the guidelines stand?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Las tres la recomiendan de rutina.",
+            "en": "All three recommend it routinely."
+          },
+          "correct": false,
+          "why": {
+            "es": "Solo NICE la ofrece incluso con ciclos regulares.",
+            "en": "Only NICE offers it even with regular cycles."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE la recomienda con fuerza; NICE la desaconseja.",
+            "en": "ESHRE strongly recommends it; NICE advises against it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: NICE la ofrece y ESHRE sugiere no hacerla de rutina (condicional, certeza muy baja).",
+            "en": "It is the other way round: NICE offers it and ESHRE suggests not doing it routinely (conditional, very low certainty)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE la ofrece; ESHRE sugiere no medirla de rutina; ASRM se acerca a ESHRE (la historia menstrual puede bastar).",
+            "en": "NICE offers it; ESHRE suggests not measuring it routinely; ASRM sits close to ESHRE (the menstrual history may suffice)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la discrepancia descrita.",
+            "en": "Correct: that is the discrepancy described."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ASRM coincide con NICE frente a ESHRE.",
+            "en": "ASRM agrees with NICE against ESHRE."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM se sitúa cerca de ESHRE.",
+            "en": "ASRM sits close to ESHRE."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE (recomendación de 2004, modificada en 2013) ofrece progesterona lútea media incluso con ciclos regulares; ESHRE sugiere no hacerlo de rutina (condicional, certeza muy baja); ASRM está cerca de ESHRE.",
+        "en": "NICE (2004 recommendation, amended 2013) offers mid-luteal progesterone even with regular cycles; ESHRE suggests not doing so routinely (conditional, very low certainty); ASRM sits close to ESHRE."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "eshre-2023-unexplained-infertility",
+        "asrm-2021-fertility-evaluation"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx30",
+      "kind": "question",
+      "conceptId": "horm.ol.guidelines-differ",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Cuando las guías discrepan y la certeza de la evidencia es muy baja, como ocurre con la progesterona lútea en ciclos regulares, ¿cuál es el criterio práctico más útil?",
+        "en": "When guidelines disagree and the certainty of evidence is very low, as with luteal progesterone in regular cycles, what is the most useful practical criterion?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Preguntarse si el resultado cambiará el manejo.",
+            "en": "Ask whether the result will change management."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con ciclos regulares ambas opciones son defendibles.",
+            "en": "Correct: with regular cycles both options are defensible."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Seguir siempre la guía más reciente.",
+            "en": "Always follow the most recent guideline."
+          },
+          "correct": false,
+          "why": {
+            "es": "La fecha no resuelve la discrepancia; el criterio útil es si el resultado cambia el manejo.",
+            "en": "The date does not resolve the discrepancy; the useful criterion is whether the result changes management."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir la prueba siempre, por si acaso.",
+            "en": "Always order the test, just in case."
+          },
+          "correct": false,
+          "why": {
+            "es": "El “por si acaso” no es un criterio; si se pide, hay que programarla bien y explicar qué indica.",
+            "en": "“Just in case” is not a criterion; if ordered, it must be timed correctly and explained."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No pedirla nunca, porque ESHRE la desaconseja.",
+            "en": "Never order it, because ESHRE advises against it."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE hace una recomendación condicional con certeza muy baja; NICE la ofrece. Ambas opciones son defendibles.",
+            "en": "ESHRE makes a conditional recommendation with very low certainty; NICE offers it. Both options are defensible."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con ciclos regulares, pedir o no la progesterona son opciones defendibles; si se pide, programarla bien y explicar que confirma la ovulación, no la “calidad hormonal”.",
+        "en": "With regular cycles, ordering progesterone or not are both defensible; if ordered, time it correctly and explain that it confirms ovulation, not “hormonal quality”."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx31",
+      "kind": "question",
+      "conceptId": "horm.ol.hormone-panel",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 27 años con ciclos irregulares en estudio de infertilidad. Según NICE, ¿qué análisis hormonal se le ofrece?",
+        "en": "A 27-year-old woman with irregular cycles under infertility evaluation. According to NICE, which hormonal test is offered?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo AMH.",
+            "en": "AMH only."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH no es lo que NICE recomienda ante ciclos irregulares.",
+            "en": "AMH is not what NICE recommends for irregular cycles."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Función tiroidea a todas, tenga o no síntomas.",
+            "en": "Thyroid function for everyone, with or without symptoms."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE solo la ofrece con síntomas de enfermedad tiroidea.",
+            "en": "NICE offers it only with symptoms of thyroid disease."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguno: con ciclos irregulares basta la historia.",
+            "en": "None: with irregular cycles the history is enough."
+          },
+          "correct": false,
+          "why": {
+            "es": "La historia establece la anovulación, pero luego hay que buscar la causa; NICE ofrece FSH y LH.",
+            "en": "The history establishes anovulation, but the cause must then be sought; NICE offers FSH and LH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "FSH y LH séricas.",
+            "en": "Serum FSH and LH."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.18.10.",
+            "en": "Correct: NICE 1.18.10."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE: FSH y LH con ciclos irregulares (1.18.10); prolactina solo con trastorno ovulatorio, galactorrea o tumor hipofisario (1.18.11); tiroides solo con síntomas (1.18.12).",
+        "en": "NICE: FSH and LH with irregular cycles (1.18.10); prolactin only with an ovulatory disorder, galactorrhoea or a pituitary tumour (1.18.11); thyroid only with symptoms (1.18.12)."
+      },
+      "refIds": [
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx32",
+      "kind": "question",
+      "conceptId": "horm.ol.hormone-panel",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ASRM 2020, ¿cuándo se interpreta la FSH basal y para qué sirve el estradiol basal?",
+        "en": "According to ASRM 2020, when is basal FSH interpreted and what is basal oestradiol for?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "FSH el día 21; el estradiol basal sirve como cribado aislado de baja reserva.",
+            "en": "FSH on day 21; basal oestradiol serves as a stand-alone screen for low reserve."
+          },
+          "correct": false,
+          "why": {
+            "es": "La FSH basal es de los días 2–4, y el estradiol basal no debe usarse solo para cribar.",
+            "en": "Basal FSH is for days 2–4, and basal oestradiol should not be used alone to screen."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "FSH en los días 2, 3 o 4 del ciclo; el estradiol basal no se usa solo para cribar baja reserva y sirve únicamente para interpretar una FSH normal.",
+            "en": "FSH on cycle day 2, 3 or 4; basal oestradiol is not used alone to screen for low reserve and serves only to interpret a normal FSH."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo plantea ASRM.",
+            "en": "Correct: that is ASRM’s framing."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "FSH en cualquier día; el estradiol basal no tiene ninguna utilidad.",
+            "en": "FSH on any day; basal oestradiol has no use at all."
+          },
+          "correct": false,
+          "why": {
+            "es": "La FSH basal tiene un día definido (2–4) y el estradiol sirve para interpretar una FSH normal.",
+            "en": "Basal FSH has a defined day (2–4), and oestradiol serves to interpret a normal FSH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "FSH a mitad de ciclo; el estradiol basal confirma la ovulación.",
+            "en": "FSH at mid-cycle; basal oestradiol confirms ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las dos cosas: días 2–4 para la FSH, y el estradiol basal no confirma la ovulación.",
+            "en": "Neither: days 2–4 for FSH, and basal oestradiol does not confirm ovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Vincula cada hormona a una pregunta clínica y a un día del ciclo: FSH basal en los días 2–4; estradiol basal solo para interpretar una FSH normal.",
+        "en": "Link each hormone to a clinical question and a cycle day: basal FSH on days 2–4; basal oestradiol only to interpret a normal FSH."
+      },
+      "refIds": [
+        "asrm-2020-ovarian-reserve"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "horm-ol.qx33",
+      "kind": "question",
+      "conceptId": "horm.ol.hormone-panel",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 32 años con oligomenorrea; se ha descartado el embarazo. Según ASRM 2021, ¿qué estudio corresponde para buscar la causa?",
+        "en": "A 32-year-old woman with oligomenorrhoea; pregnancy has been excluded. According to ASRM 2021, which work-up is appropriate to look for the cause?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ninguna prueba: la oligomenorrea basta para el diagnóstico y no requiere buscar la causa.",
+            "en": "No tests: oligomenorrhoea is enough for the diagnosis and the cause need not be sought."
+          },
+          "correct": false,
+          "why": {
+            "es": "La historia establece la anovulación, pero ASRM indica buscar su causa.",
+            "en": "The history establishes anovulation, but ASRM says to look for its cause."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Progesterona el día 21 para confirmar la anovulación.",
+            "en": "Day-21 progesterone to confirm anovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con oligomenorrea, la historia ya basta para establecer la anovulación.",
+            "en": "With oligomenorrhoea, the history already establishes anovulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "TSH y prolactina, entre otras pruebas dirigidas a la causa.",
+            "en": "TSH and prolactin, among other cause-directed tests."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la TSH identifica trastornos tiroideos y la prolactina está indicada con oligomenorrea.",
+            "en": "Correct: TSH identifies thyroid disorders and prolactin is indicated with oligomenorrhoea."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Biopsia endometrial.",
+            "en": "Endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "No se recomienda de rutina y no identifica la causa de la anovulación.",
+            "en": "It is not routinely recommended and does not identify the cause of anovulation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ASRM: confirmada la oligomenorrea o anovulación (y descartado el embarazo), se busca la causa; TSH para trastornos tiroideos y prolactina con galactorrea, oligomenorrea o amenorrea, no de rutina.",
+        "en": "ASRM: once oligomenorrhoea or anovulation is confirmed (and pregnancy excluded), look for the cause; TSH for thyroid disorders and prolactin with galactorrhoea, oligomenorrhoea or amenorrhoea, not routinely."
+      },
+      "refIds": [
+        "asrm-2021-fertility-evaluation",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-14"
       }
     },
     {
