@@ -32,7 +32,21 @@
         "endo-core.q1-symptoms",
         "endo-core.q2-normal-scan-not-conceiving",
         "endo-core.q3-referral",
-        "endo-core.q4-adolescent"
+        "endo-core.q4-adolescent",
+        "endo-core.qx1",
+        "endo-core.qx2",
+        "endo-core.qx3",
+        "endo-core.qx4",
+        "endo-core.qx5",
+        "endo-core.qx6",
+        "endo-core.qx7",
+        "endo-core.qx8",
+        "endo-core.qx9",
+        "endo-core.qx10",
+        "endo-core.qx11",
+        "endo-core.qx12",
+        "endo-core.qx13",
+        "endo-core.qx14"
       ]
     },
     {
@@ -63,7 +77,21 @@
         "endo-core.q5-hormone-choice",
         "endo-core.q6-gnrh-second-line",
         "endo-core.q7-preop-disagreement",
-        "endo-core.q8-postop-recurrence"
+        "endo-core.q8-postop-recurrence",
+        "endo-core.qx15",
+        "endo-core.qx16",
+        "endo-core.qx17",
+        "endo-core.qx18",
+        "endo-core.qx19",
+        "endo-core.qx20",
+        "endo-core.qx21",
+        "endo-core.qx22",
+        "endo-core.qx23",
+        "endo-core.qx24",
+        "endo-core.qx25",
+        "endo-core.qx26",
+        "endo-core.qx27",
+        "endo-core.qx28"
       ]
     },
     {
@@ -93,6 +121,14 @@
         "endo-core.c14-psychological-support",
         "endo-core.q9-supplements",
         "endo-core.q10-nonmedical",
+        "endo-core.qx29",
+        "endo-core.qx30",
+        "endo-core.qx31",
+        "endo-core.qx32",
+        "endo-core.qx33",
+        "endo-core.qx34",
+        "endo-core.qx35",
+        "endo-core.qx36",
         "endo-core.case1-nuria"
       ]
     }
@@ -1494,6 +1530,2696 @@
         "status": "ai-audited",
         "reviewedAt": "2026-10-14"
       }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx1",
+      "conceptId": "endo-core.symptoms-delay",
+      "difficulty": 3,
+      "stem": {
+        "es": "La ESHRE resume un estudio en una base de datos de atención primaria del Reino Unido: las odds de diagnóstico de endometriosis aumentaban con el número de síntomas (OR 5,0 con 1 síntoma y 84,7 con 7). ¿Qué interpretación es correcta?",
+        "en": "ESHRE summarises a study in a UK primary care database: the odds of an endometriosis diagnosis rose with the number of symptoms (OR 5.0 with 1 symptom and 84.7 with 7). Which interpretation is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El 84,7 % de las mujeres con 7 síntomas tiene endometriosis, así que con 7 síntomas el diagnóstico está prácticamente hecho.",
+            "en": "84.7% of women with 7 symptoms have endometriosis, so with 7 symptoms the diagnosis is practically made."
+          },
+          "correct": false,
+          "why": {
+            "es": "Confunde una odds ratio con una probabilidad: 84,7 no es un porcentaje de mujeres afectadas.",
+            "en": "It confuses an odds ratio with a probability: 84.7 is not a percentage of affected women."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Con un solo síntoma la probabilidad de endometriosis es del 5 %, por lo que un síntoma aislado permite descartarla.",
+            "en": "With a single symptom the probability of endometriosis is 5%, so an isolated symptom allows it to be ruled out."
+          },
+          "correct": false,
+          "why": {
+            "es": "De nuevo confunde la OR con una probabilidad, y la ESHRE no usa estos datos para descartar la enfermedad.",
+            "en": "Again it confuses the OR with a probability, and ESHRE does not use these data to rule out the disease."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Son odds ratios: las odds de diagnóstico aumentan con más síntomas, aunque los síntomas solos predicen de forma débil.",
+            "en": "They are odds ratios: the odds of diagnosis rise with more symptoms, although symptoms alone predict weakly."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ESHRE describe la capacidad predictiva de los síntomas como débil e incompleta, pero creciente con su número.",
+            "en": "Correct: ESHRE describes the predictive ability of symptoms as weak and incomplete, but increasing with their number."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Demuestran que los síntomas bastan para el diagnóstico, por lo que la ESHRE ya no considera necesaria la imagen.",
+            "en": "They show that symptoms are enough for diagnosis, so ESHRE no longer considers imaging necessary."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE afirma lo contrario: los síntomas solos predicen la enfermedad de forma débil e incompleta.",
+            "en": "ESHRE states the opposite: symptoms alone predict the disease weakly and incompletely."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Una odds ratio compara odds, no expresa el porcentaje de mujeres con la enfermedad. La ESHRE usa este estudio para mostrar que la probabilidad de diagnóstico aumenta con el número de síntomas, aunque la capacidad de los síntomas solos para predecir la endometriosis es débil e incompleta.",
+        "en": "An odds ratio compares odds; it does not express the percentage of women with the disease. ESHRE uses this study to show that the likelihood of diagnosis rises with the number of symptoms, although the ability of symptoms alone to predict endometriosis is weak and incomplete."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx2",
+      "conceptId": "endo-core.symptoms-delay",
+      "difficulty": 1,
+      "stem": {
+        "es": "Según la sección de contexto de NICE NG73, ¿qué retraso puede haber entre que una mujer refiere los síntomas y se confirma la endometriosis?",
+        "en": "According to the context section of NICE NG73, what delay can occur between a woman first reporting symptoms and confirmation of endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "De 4 a 10 años, en parte porque no se reconoce la importancia de los síntomas.",
+            "en": "4 to 10 years, partly because the importance of symptoms goes unrecognised."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la cifra y la explicación del contexto de NICE.",
+            "en": "Correct: this is the figure and the explanation in NICE’s context section."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "De 6 a 12 meses, sobre todo por las listas de espera para la laparoscopia en los hospitales públicos.",
+            "en": "6 to 12 months, mainly because of waiting lists for laparoscopy in public hospitals."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifra y causa inventadas: NICE describe de 4 a 10 años y cita la falta de reconocimiento de los síntomas.",
+            "en": "Figure and cause invented: NICE describes 4 to 10 years and cites failure to recognise the symptoms."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "De 15 a 20 años, porque la enfermedad casi nunca da síntomas hasta que aparece la infertilidad.",
+            "en": "15 to 20 years, because the disease almost never causes symptoms until infertility appears."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifra inventada, y la endometriosis da síntomas como dismenorrea o dispareunia antes de la infertilidad.",
+            "en": "Invented figure, and endometriosis causes symptoms such as dysmenorrhoea or dyspareunia before infertility."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "De 1 a 2 años, un retraso que NICE considera aceptable porque no cambia el pronóstico de la enfermedad.",
+            "en": "1 to 2 years, a delay NICE considers acceptable because it does not change the prognosis of the disease."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifra inventada, y NICE no presenta el retraso como aceptable.",
+            "en": "Invented figure, and NICE does not present the delay as acceptable."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE describe que pueden producirse retrasos de 4 a 10 años entre la primera consulta por síntomas y la confirmación del diagnóstico. Los grupos de pacientes señalan que los profesionales a menudo no reconocen la importancia de los síntomas y que las mujeres pueden tardar en consultar porque perciben el dolor pélvico como normal. La cifra procede del contexto de la guía, no de una recomendación.",
+        "en": "NICE describes that delays of 4 to 10 years can occur between first reporting symptoms and confirmation of the diagnosis. Patient groups note that clinicians often do not recognise the importance of symptoms and that women may delay seeking help because they perceive pelvic pain as normal. The figure comes from the guideline’s context, not from a recommendation."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx3",
+      "conceptId": "endo-core.symptoms-delay",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente con dismenorrea intensa pregunta si llevar un diario de dolor sirve para algo. ¿Qué refleja mejor lo que dicen NICE NG73 y la ESHRE?",
+        "en": "A patient with severe dysmenorrhoea asks whether keeping a pain diary is of any use. Which best reflects what NICE NG73 and ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE lo desaconseja porque retrasa el diagnóstico; la ESHRE lo recomienda con fuerza porque acorta el tiempo hasta el diagnóstico.",
+            "en": "NICE advises against it because it delays diagnosis; ESHRE strongly recommends it because it shortens time to diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide informar de que el diario ayuda en la conversación, y la ESHRE reconoce que no hay evidencia de que acorte el diagnóstico.",
+            "en": "NICE asks clinicians to say that a diary helps the discussion, and ESHRE acknowledges there is no evidence it shortens diagnosis."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas lo consideran imprescindible para diagnosticar la endometriosis sin necesidad de imagen ni de exploración física.",
+            "en": "Both consider it essential to diagnose endometriosis without the need for imaging or physical examination."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna lo presenta como herramienta diagnóstica que sustituya a la exploración o la imagen.",
+            "en": "Neither presents it as a diagnostic tool replacing examination or imaging."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE dice que ayuda en la conversación; la ESHRE, que complementa la anamnesis aunque no conste que acorte el diagnóstico.",
+            "en": "NICE says it aids the discussion; ESHRE says it complements history taking, though there is no evidence it shortens diagnosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.3.3 y una declaración del grupo elaborador de la ESHRE, sin grado.",
+            "en": "Correct: NICE 1.3.3 and an ungraded statement of ESHRE’s guideline development group."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna de las dos lo menciona; solo las aplicaciones validadas tienen evidencia sólida de que reducen el retraso diagnóstico de la endometriosis.",
+            "en": "Neither mentions it; only validated apps have solid evidence that they reduce diagnostic delay in endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas lo mencionan, y la ESHRE no encuentra evidencia de que diarios, cuestionarios o aplicaciones acorten el diagnóstico.",
+            "en": "Both mention it, and ESHRE finds no evidence that diaries, questionnaires or apps shorten diagnosis."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE aconseja decir a las mujeres que un diario de dolor y síntomas puede ayudar en la conversación (1.3.3). La ESHRE reconoce que no hay evidencia de que un diario, un cuestionario o una aplicación acorten el tiempo hasta el diagnóstico, pero considera que complementan la anamnesis porque ayudan a objetivar el dolor.",
+        "en": "NICE advises telling women that a pain and symptom diary can aid discussions (1.3.3). ESHRE acknowledges there is no evidence that a diary, questionnaire or app shortens time to diagnosis, but considers that they complement history taking because they help objectify pain."
+      },
+      "refIds": [
+        "nice-2024-ng73",
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx4",
+      "conceptId": "endo-core.clinical-exam",
+      "difficulty": 3,
+      "stem": {
+        "es": "En un estudio prospectivo de 129 mujeres resumido por la ESHRE, la exploración clínica para la afectación rectosigmoidea tuvo una sensibilidad del 39 % y una especificidad del 97 %. ¿Qué interpretación es correcta?",
+        "en": "In a prospective study of 129 women summarised by ESHRE, clinical examination for rectosigmoid involvement had a sensitivity of 39% and a specificity of 97%. Which interpretation is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una exploración normal descarta con seguridad la afectación rectosigmoidea, porque la especificidad es muy alta.",
+            "en": "A normal examination safely rules out rectosigmoid involvement, because specificity is very high."
+          },
+          "correct": false,
+          "why": {
+            "es": "Descartar depende de la sensibilidad, que es baja: una exploración normal pasa por alto muchas lesiones.",
+            "en": "Ruling out depends on sensitivity, which is low: a normal examination misses many lesions."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La exploración detecta el 97 % de las lesiones rectosigmoideas y da falsos positivos en el 39 % de los casos.",
+            "en": "The examination detects 97% of rectosigmoid lesions and gives false positives in 39% of cases."
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los términos: el 39 % es la sensibilidad (lesiones detectadas) y el 97 %, la especificidad.",
+            "en": "It reverses the terms: 39% is the sensitivity (lesions detected) and 97% is the specificity."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Con estas cifras la exploración es tan precisa que la ESHRE no considera necesaria la ecografía para el recto.",
+            "en": "With these figures the examination is so accurate that ESHRE considers ultrasound unnecessary for the rectum."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE señala que la ecografía transvaginal fue superior para el rectosigma y recomienda considerar la imagen aunque la exploración sea normal.",
+            "en": "ESHRE notes that transvaginal ultrasound was superior for the rectosigmoid and recommends considering imaging even if the examination is normal."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una exploración normal pasa por alto muchas lesiones, mientras que los falsos positivos son poco frecuentes.",
+            "en": "A normal examination misses many lesions, whereas false positives are uncommon."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: sensibilidad baja (39 %) y especificidad alta (97 %).",
+            "en": "Correct: low sensitivity (39%) and high specificity (97%)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La sensibilidad indica qué proporción de lesiones detecta la exploración (39 %); la especificidad, qué proporción de mujeres sin lesión la exploración identifica como normales (97 %). Por eso una exploración normal no cierra el estudio: la ESHRE recomienda (fuerte, ⊕⊕) considerar otros pasos diagnósticos, incluida la imagen, aunque la exploración sea normal.",
+        "en": "Sensitivity indicates what proportion of lesions the examination detects (39%); specificity, what proportion of women without a lesion the examination identifies as normal (97%). That is why a normal examination does not close the work-up: ESHRE recommends (strong, ⊕⊕) considering further diagnostic steps, including imaging, even if the examination is normal."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx5",
+      "conceptId": "endo-core.clinical-exam",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 26 años (caso ficticio) con sospecha de endometriosis y antecedente de abuso sexual no acepta la exploración vaginal. ¿Qué es lo adecuado según la ESHRE y NICE?",
+        "en": "A 26-year-old woman (fictional case) with suspected endometriosis and a history of sexual abuse declines vaginal examination. What is appropriate according to ESHRE and NICE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Insistir en la exploración vaginal, porque la ESHRE la considera imprescindible antes de pedir cualquier prueba de imagen.",
+            "en": "Insist on vaginal examination, because ESHRE considers it essential before ordering any imaging."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE señala que en estos casos la exploración vaginal debería omitirse y usarse primero otras técnicas.",
+            "en": "ESHRE notes that in these cases vaginal examination should ideally be omitted and other techniques used first."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Omitirla, ofrecer una exploración abdominal para descartar masas y usar primero otras técnicas, como la imagen.",
+            "en": "Omit it, offer an abdominal examination to exclude masses and use other techniques, such as imaging, first."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: combina la postura de la ESHRE y NICE 1.3.6.",
+            "en": "Correct: it combines the ESHRE position and NICE 1.3.6."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pedir un CA-125 en su lugar, porque sustituye a la exploración cuando la paciente no la acepta.",
+            "en": "Order a CA-125 instead, because it replaces examination when the patient declines it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna fuente propone el CA-125 como sustituto de la exploración; en adolescentes la ESHRE recomienda no usarlo para diagnosticar ni descartar.",
+            "en": "Neither source proposes CA-125 as a substitute for examination; in adolescents ESHRE recommends not using it to diagnose or rule out."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Descartar la endometriosis, ya que sin exploración pélvica normal ni patológica no puede sostenerse la sospecha.",
+            "en": "Rule out endometriosis, since without a pelvic examination, normal or abnormal, the suspicion cannot be sustained."
+          },
+          "correct": false,
+          "why": {
+            "es": "La sospecha se basa también en los síntomas, y la ESHRE recomienda considerar otros pasos diagnósticos, incluida la imagen, aunque la exploración no sea concluyente.",
+            "en": "Suspicion also rests on symptoms, and ESHRE recommends considering further diagnostic steps, including imaging, even when the examination is inconclusive."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE advierte que la exploración vaginal o rectovaginal puede ser inapropiada o muy dolorosa, por ejemplo en adolescentes, por motivos religiosos o tras abuso sexual, y que en esos casos debería omitirse y usarse primero otras técnicas. Si la exploración pélvica se rechaza o no es adecuada, NICE ofrece una exploración abdominal para descartar masas (1.3.6).",
+        "en": "ESHRE warns that vaginal or rectovaginal examination may be inappropriate or very painful, for example in adolescents, for religious reasons or after sexual abuse, and that in those cases it should ideally be omitted and other techniques used first. If pelvic examination is declined or not suitable, NICE offers an abdominal examination to exclude masses (1.3.6)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx6",
+      "conceptId": "endo-core.treat-while-investigating",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 23 años (caso ficticio) con dismenorrea que le impide trabajar tiene cita para ecografía dentro de 6 semanas. Según NICE NG73, ¿qué hacer con el tratamiento farmacológico?",
+        "en": "A 23-year-old woman (fictional case) with dysmenorrhoea that stops her working has an ultrasound appointment in 6 weeks. According to NICE NG73, what should be done about drug treatment?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Esperar a la ecografía, porque NICE pide confirmar la endometriosis antes de iniciar cualquier tratamiento.",
+            "en": "Wait for the ultrasound, because NICE asks for endometriosis to be confirmed before starting any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide lo contrario: hacer la ecografía y la derivación en paralelo con el tratamiento inicial.",
+            "en": "NICE asks for the opposite: ultrasound and referral in parallel with initial treatment."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Esperar a la valoración especializada, porque NICE reserva el tratamiento al especialista en endometriosis.",
+            "en": "Wait for the specialist assessment, because NICE reserves treatment for the endometriosis specialist."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no reserva el tratamiento inicial al especialista; lo inicia mientras se completa el estudio.",
+            "en": "NICE does not reserve initial treatment for the specialist; it starts it while the work-up is completed."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Iniciar el tratamiento farmacológico inicial ya, en paralelo con la ecografía y, si procede, la derivación.",
+            "en": "Start initial drug treatment now, in parallel with the ultrasound and, if needed, referral."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que recomienda NICE 1.5.1.",
+            "en": "Correct: this is what NICE 1.5.1 recommends."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Iniciar solo un agonista de la GnRH, porque su respuesta sirve como prueba diagnóstica antes de la ecografía.",
+            "en": "Start only a GnRH agonist, because the response serves as a diagnostic test before the ultrasound."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no propone agonistas como prueba diagnóstica; en NG73 solo aparecen como coadyuvante antes de cirugía de enfermedad profunda.",
+            "en": "NICE does not propose agonists as a diagnostic test; in NG73 they appear only as an adjunct before surgery for deep disease."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE indica hacer la ecografía y, si procede, la derivación en paralelo con el tratamiento farmacológico inicial (1.5.1). La ESHRE coincide en intentar aliviar los síntomas, con tratamiento empírico o tras el diagnóstico.",
+        "en": "NICE advises carrying out ultrasound and, if needed, referral in parallel with initial drug treatment (1.5.1). ESHRE agrees on trying to relieve symptoms, either empirically or after a diagnosis."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx7",
+      "conceptId": "endo-core.treat-while-investigating",
+      "difficulty": 3,
+      "stem": {
+        "es": "Sobre el papel de la laparoscopia en el diagnóstico de la endometriosis, ¿qué frase refleja mejor la diferencia de énfasis entre la ESHRE y NICE?",
+        "en": "On the role of laparoscopy in diagnosing endometriosis, which sentence best reflects the difference in emphasis between ESHRE and NICE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ESHRE cuestiona el «dogma» de la laparoscopia como patrón oro; el contexto de NICE la sigue presentando como única vía al diagnóstico definitivo.",
+            "en": "ESHRE questions the “dogma” of laparoscopy as the gold standard; NICE’s context section still presents it as the only route to a definitive diagnosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la diferencia de énfasis entre ambas guías.",
+            "en": "Correct: this is the difference in emphasis between the two guidelines."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ESHRE exige la laparoscopia antes de cualquier tratamiento; NICE la ha sustituido por completo por la ecografía y la RM.",
+            "en": "ESHRE requires laparoscopy before any treatment; NICE has completely replaced it with ultrasound and MRI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE acepta el tratamiento empírico sin laparoscopia, y NICE recomienda considerar la laparoscopia aunque la imagen sea normal.",
+            "en": "ESHRE accepts empirical treatment without laparoscopy, and NICE recommends considering laparoscopy even if imaging is normal."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas desaconsejan la laparoscopia diagnóstica por su morbilidad y la reservan para extirpar endometriomas mayores de 3 cm.",
+            "en": "Both advise against diagnostic laparoscopy because of its morbidity and reserve it for removing endometriomas larger than 3 cm."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna la desaconseja: la ESHRE la propone si la imagen es negativa o el tratamiento empírico falla, y NICE la considera aunque la imagen sea normal.",
+            "en": "Neither advises against it: ESHRE proposes it if imaging is negative or empirical treatment fails, and NICE considers it even with normal imaging."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "NICE cuestiona la laparoscopia como patrón oro; la ESHRE la mantiene como única vía para el diagnóstico definitivo.",
+            "en": "NICE questions laparoscopy as the gold standard; ESHRE keeps it as the only route to a definitive diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte las posturas: es la ESHRE quien cuestiona el patrón oro y el contexto de NICE el que mantiene la laparoscopia como única vía.",
+            "en": "It reverses the positions: it is ESHRE that questions the gold standard and NICE’s context that keeps laparoscopy as the only route."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE cuestiona el «dogma» de la laparoscopia como patrón oro por ser invasiva y con posible morbilidad, y propone ofrecerla si la imagen es negativa o el tratamiento empírico no funcionó o no era adecuado (GPP). El contexto de NICE la sigue describiendo como única vía al diagnóstico definitivo, y NICE recomienda considerarla aunque la ecografía o la RM sean normales (1.5.11).",
+        "en": "ESHRE questions the “dogma” of laparoscopy as the gold standard because it is invasive with potential morbidity, and proposes offering it if imaging is negative or empirical treatment was unsuccessful or inappropriate (GPP). NICE’s context still describes it as the only route to a definitive diagnosis, and NICE recommends considering it even if ultrasound or MRI was normal (1.5.11)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx8",
+      "conceptId": "endo-core.treat-while-investigating",
+      "difficulty": 2,
+      "stem": {
+        "es": "Se sospecha endometriosis profunda en una mujer de 34 años (caso ficticio) que va a ser intervenida. Según NICE NG73, ¿qué conviene antes de la laparoscopia quirúrgica?",
+        "en": "Deep endometriosis is suspected in a 34-year-old woman (fictional case) who is going to have surgery. According to NICE NG73, what is advisable before operative laparoscopy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un CA-125 seriado, para estadificar la enfermedad y decidir la extensión de la resección intestinal.",
+            "en": "Serial CA-125, to stage the disease and decide the extent of bowel resection."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no propone el CA-125 para estadificar ni planificar la cirugía.",
+            "en": "NICE does not propose CA-125 to stage disease or plan surgery."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una laparoscopia diagnóstica previa, separada de la quirúrgica, para confirmar la enfermedad antes de operar.",
+            "en": "A separate prior diagnostic laparoscopy, to confirm the disease before operating."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no propone una laparoscopia diagnóstica previa: propone considerar una ecografía especializada o una RM antes de la quirúrgica.",
+            "en": "NICE does not propose a prior diagnostic laparoscopy: it suggests considering a specialist ultrasound or MRI before the operative one."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Elegir el tratamiento según el estadio que marque la imagen, más que según los síntomas y las preferencias.",
+            "en": "Choose treatment according to the stage shown on imaging, rather than by symptoms and preferences."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide guiar el tratamiento por los síntomas, preferencias y prioridades de la mujer, no por el estadio (1.6.1).",
+            "en": "NICE asks for treatment to be guided by the woman’s symptoms, preferences and priorities, not by stage (1.6.1)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una ecografía especializada o una RM, para planificar la cirugía de la enfermedad profunda.",
+            "en": "A specialist ultrasound or MRI, to plan surgery for the deep disease."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que NICE 1.5.12 propone considerar ante sospecha de enfermedad profunda.",
+            "en": "Correct: this is what NICE 1.5.12 suggests considering when deep disease is suspected."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si se sospecha endometriosis profunda, NICE propone considerar una ecografía especializada o una RM antes de la laparoscopia quirúrgica (1.5.12). Además, pide ofrecer el tratamiento según los síntomas, las preferencias y las prioridades de la mujer, y no según el estadio (1.6.1).",
+        "en": "If deep endometriosis is suspected, NICE suggests considering a specialist ultrasound or MRI before operative laparoscopy (1.5.12). It also asks for treatment to be offered according to the woman’s symptoms, preferences and priorities rather than the stage (1.6.1)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx9",
+      "conceptId": "endo-core.referral",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 38 años (caso ficticio) con endometriosis confirmada y dos endometriomas de 4 cm decide no operarse. Según NICE NG73, ¿qué seguimiento conviene considerar?",
+        "en": "A 38-year-old woman (fictional case) with confirmed endometriosis and two 4-cm endometriomas decides not to have surgery. According to NICE NG73, what follow-up should be considered?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ninguno, porque NICE solo propone el seguimiento ambulatorio a las mujeres que ya han sido operadas de sus endometriomas.",
+            "en": "None, because NICE only proposes outpatient follow-up for women who have already had surgery for their endometriomas."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE propone el seguimiento sobre todo en quienes eligen no operarse.",
+            "en": "NICE proposes follow-up particularly for those who choose not to have surgery."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Seguimiento ambulatorio, con o sin exploración e imagen pélvica, por tener endometriomas mayores de 3 cm.",
+            "en": "Outpatient follow-up, with or without examination and pelvic imaging, as she has endometriomas larger than 3 cm."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es una de las situaciones de NICE 1.7.1.",
+            "en": "Correct: this is one of the situations in NICE 1.7.1."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una RM cada 3 meses de forma indefinida, porque NICE la exige para detectar precozmente la malignización.",
+            "en": "MRI every 3 months indefinitely, because NICE requires it to detect malignant change early."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no fija ese calendario, y la ESHRE señala que no hay evidencia de que el seguimiento detecte antes la malignización.",
+            "en": "NICE sets no such schedule, and ESHRE notes there is no evidence that monitoring detects malignancy earlier."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Alta definitiva, porque los endometriomas menores de 5 cm no requieren ningún tipo de vigilancia según NICE.",
+            "en": "Definitive discharge, because endometriomas under 5 cm need no surveillance at all according to NICE."
+          },
+          "correct": false,
+          "why": {
+            "es": "El umbral de NICE para considerar el seguimiento es un endometrioma mayor de 3 cm; el de 5 cm es inventado.",
+            "en": "NICE’s threshold for considering follow-up is an endometrioma larger than 3 cm; the 5-cm figure is invented."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE propone considerar el seguimiento ambulatorio, con o sin exploración e imagen pélvica, en endometriosis confirmada, sobre todo si la mujer elige no operarse, cuando hay enfermedad profunda de intestino, vejiga o uréter, o uno o más endometriomas mayores de 3 cm (1.7.1).",
+        "en": "NICE suggests considering outpatient follow-up, with or without examination and pelvic imaging, in confirmed endometriosis, particularly when the woman chooses not to have surgery, if there is deep disease of the bowel, bladder or ureter, or 1 or more endometriomas larger than 3 cm (1.7.1)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx10",
+      "conceptId": "endo-core.referral",
+      "difficulty": 3,
+      "stem": {
+        "es": "Según la ESHRE, ¿qué se sabe del seguimiento periódico de las mujeres con endometriosis confirmada?",
+        "en": "According to ESHRE, what is known about regular follow-up of women with confirmed endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Se recomienda con fuerza una ecografía semestral, porque está demostrado que detecta antes la malignización.",
+            "en": "A six-monthly ultrasound is strongly recommended, because it has been shown to detect malignancy earlier."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE señala que no hay evidencia de que el seguimiento detecte antes recurrencia, complicaciones o malignización.",
+            "en": "ESHRE notes there is no evidence that monitoring detects recurrence, complications or malignancy earlier."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No debe hacerse ningún seguimiento, porque la ESHRE lo desaconseja por falta de evidencia de beneficio.",
+            "en": "No follow-up should be done, because ESHRE advises against it for lack of evidence of benefit."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo desaconseja: propone considerarlo (débil, ⊕), sobre todo en enfermedad profunda y ovárica.",
+            "en": "ESHRE does not advise against it: it suggests considering it (weak, ⊕), especially in deep and ovarian disease."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Se recomienda solo en adolescentes, y con un CA-125 anual como marcador de recurrencia de la enfermedad.",
+            "en": "It is recommended only in adolescents, with an annual CA-125 as a marker of disease recurrence."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo limita a adolescentes ni propone el CA-125, que en adolescentes recomienda no usar para diagnosticar.",
+            "en": "ESHRE does not limit it to adolescents or propose CA-125, which in adolescents it recommends not using to diagnose."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Puede considerarse, sobre todo en enfermedad profunda y ovárica, con frecuencia individualizada.",
+            "en": "It may be considered, especially in deep and ovarian disease, with individualised frequency."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: débil, ⊕, y la frecuencia individualizada como GPP, aunque no haya evidencia de que detecte antes los problemas.",
+            "en": "Correct: weak, ⊕, with individualised frequency as a GPP, although there is no evidence it detects problems earlier."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE propone considerar el seguimiento y el apoyo psicológico en la endometriosis confirmada, sobre todo profunda y ovárica (débil, ⊕), aunque no hay evidencia de que la vigilancia periódica detecte antes la recurrencia, las complicaciones o la malignización, y pide individualizar su frecuencia (GPP).",
+        "en": "ESHRE suggests considering follow-up and psychological support in confirmed endometriosis, particularly deep and ovarian disease (weak, ⊕), although there is no evidence that regular monitoring detects recurrence, complications or malignancy earlier, and asks for its frequency to be individualised (GPP)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx11",
+      "conceptId": "endo-core.referral",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según NICE NG73, ¿a cuál de estos recursos debe tener acceso una unidad especializada en endometriosis?",
+        "en": "According to NICE NG73, which of these resources should a specialist endometriosis service have access to?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un servicio de oncología ginecológica que revise a todas las pacientes antes de cualquier cirugía de endometriosis.",
+            "en": "A gynaecological oncology service that reviews every patient before any endometriosis surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "No figura en la lista de NICE 1.1.4.",
+            "en": "It is not on the NICE 1.1.4 list."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un laboratorio propio para medir el CA-125 de forma seriada en todas las pacientes en seguimiento por endometriosis profunda.",
+            "en": "An in-house laboratory to measure CA-125 serially in every patient under follow-up for deep endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "No figura en la lista de NICE 1.1.4, que habla de instalaciones diagnósticas avanzadas como radiología e histopatología.",
+            "en": "It is not on the NICE 1.1.4 list, which mentions advanced diagnostic facilities such as radiology and histopathology."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un cirujano colorrectal y un urólogo con interés en endometriosis, y un servicio multidisciplinar del dolor.",
+            "en": "A colorectal surgeon and a urologist with an interest in endometriosis, and a multidisciplinary pain service."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: figuran en la lista de NICE 1.1.4, junto con otros recursos.",
+            "en": "Correct: they are on the NICE 1.1.4 list, together with other resources."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una unidad de cuidados intensivos pediátricos para atender a las adolescentes de 17 años o menos.",
+            "en": "A paediatric intensive care unit to care for young women aged 17 and under."
+          },
+          "correct": false,
+          "why": {
+            "es": "No figura en la lista; para las jóvenes de 17 años o menos NICE propone un servicio de ginecología pediátrica y adolescente o una unidad especializada.",
+            "en": "It is not on the list; for young women aged 17 and under NICE proposes a paediatric and adolescent gynaecology service or a specialist centre."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Para NICE, la unidad especializada debe tener acceso a ginecólogos con habilidades laparoscópicas avanzadas, un cirujano colorrectal y un urólogo con interés en endometriosis, una enfermera especializada, un servicio multidisciplinar del dolor con experiencia en dolor pélvico, un profesional experto en imagen ginecológica de la endometriosis, instalaciones diagnósticas avanzadas y servicios de fertilidad (1.1.4).",
+        "en": "For NICE, the specialist service should have access to gynaecologists with advanced laparoscopic skills, a colorectal surgeon and a urologist with an interest in endometriosis, a specialist nurse, a multidisciplinary pain service with expertise in pelvic pain, a professional with expertise in gynaecological imaging of endometriosis, advanced diagnostic facilities and fertility services (1.1.4)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx12",
+      "conceptId": "endo-core.adolescents",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una adolescente con dismenorrea, ¿qué factores de riesgo de endometriosis recomienda la ESHRE buscar en la anamnesis?",
+        "en": "In an adolescent with dysmenorrhoea, which risk factors for endometriosis does ESHRE recommend looking for in the history?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Antecedentes familiares, malformaciones genitales obstructivas, menarquia precoz o ciclos cortos.",
+            "en": "Family history, obstructive genital malformations, early menarche or short cycles."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la lista de la ESHRE (fuerte, ⊕).",
+            "en": "Correct: this is ESHRE’s list (strong, ⊕)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Menarquia tardía, ciclos largos y antecedentes familiares de síndrome de ovario poliquístico.",
+            "en": "Late menarche, long cycles and a family history of polycystic ovary syndrome."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE cita la menarquia precoz y los ciclos cortos, no la tardía ni los ciclos largos.",
+            "en": "ESHRE cites early menarche and short cycles, not late menarche or long cycles."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un CA-125 elevado en sangre, el sobrepeso y el inicio precoz de las relaciones sexuales.",
+            "en": "A raised serum CA-125, overweight and early onset of sexual activity."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda no usar el CA-125 en adolescentes, y los otros factores no figuran en su lista.",
+            "en": "ESHRE recommends not using CA-125 in adolescents, and the other factors are not on its list."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo la intensidad del dolor menstrual, porque los demás antecedentes personales y familiares no aportan información útil.",
+            "en": "Only the intensity of menstrual pain, because other personal and family history items add no useful information."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda expresamente buscar varios factores de riesgo en la anamnesis.",
+            "en": "ESHRE expressly recommends looking for several risk factors in the history."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En adolescentes, la ESHRE recomienda una anamnesis cuidadosa de factores de riesgo: antecedentes familiares, malformaciones genitales obstructivas, menarquia precoz o ciclos cortos (fuerte, ⊕). También sugiere considerar la endometriosis ante absentismo escolar cíclico o uso de anticonceptivos orales para la dismenorrea (débil, ⊕).",
+        "en": "In adolescents, ESHRE recommends careful history taking for risk factors: family history, obstructive genital malformations, early menarche or short cycles (strong, ⊕). It also suggests considering endometriosis with cyclical school absenteeism or use of oral contraceptives for dysmenorrhoea (weak, ⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx13",
+      "conceptId": "endo-core.adolescents",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una adolescente de 14 años (caso ficticio) con sospecha de endometriosis, la ecografía transvaginal no es apropiada. Según la ESHRE, ¿qué es lo adecuado?",
+        "en": "In a 14-year-old girl (fictional case) with suspected endometriosis, transvaginal ultrasound is not appropriate. According to ESHRE, what is appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Pedir un CA-125: si es normal, la endometriosis queda descartada y no hace falta imagen.",
+            "en": "Order CA-125: if normal, endometriosis is ruled out and no imaging is needed."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda no usar biomarcadores séricos como el CA-125 para diagnosticar ni descartar (fuerte, ⊕⊕⊕).",
+            "en": "ESHRE recommends not using serum biomarkers such as CA-125 to diagnose or rule out (strong, ⊕⊕⊕)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Hacer una laparoscopia diagnóstica directamente, sin intentar antes ninguna otra técnica de imagen.",
+            "en": "Perform a diagnostic laparoscopy straight away, without first trying any other imaging technique."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE propone imagen alternativa; la laparoscopia podría considerarse si la imagen es negativa y han fallado AINE o anticonceptivos.",
+            "en": "ESHRE proposes alternative imaging; laparoscopy may be considered if imaging is negative and NSAIDs or contraceptives have failed."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Considerar RM o ecografía transabdominal, transperineal o transrectal, sin usar CA-125.",
+            "en": "Consider MRI or transabdominal, transperineal or transrectal ultrasound, without using CA-125."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: fuerte, ⊕⊕, para la imagen alternativa y fuerte, ⊕⊕⊕, para no usar el CA-125.",
+            "en": "Correct: strong, ⊕⊕, for alternative imaging and strong, ⊕⊕⊕, for not using CA-125."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No hacer ninguna prueba hasta que cumpla 18 años, porque antes la imagen no es fiable.",
+            "en": "Do no tests until she turns 18, because imaging is unreliable before that age."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no fija esa edad: recomienda imagen adaptada a la situación de la adolescente.",
+            "en": "ESHRE sets no such age: it recommends imaging adapted to the adolescent’s situation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En adolescentes, la ESHRE recomienda la ecografía transvaginal cuando sea apropiada y, si no lo es, considerar la RM o la ecografía transabdominal, transperineal o transrectal (fuerte, ⊕⊕). Recomienda no usar biomarcadores séricos como el CA-125 para diagnosticar ni descartar la endometriosis (fuerte, ⊕⊕⊕).",
+        "en": "In adolescents, ESHRE recommends transvaginal ultrasound where appropriate and, if not, considering MRI or transabdominal, transperineal or transrectal ultrasound (strong, ⊕⊕). It recommends not using serum biomarkers such as CA-125 to diagnose or rule out endometriosis (strong, ⊕⊕⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx14",
+      "conceptId": "endo-core.adolescents",
+      "difficulty": 3,
+      "stem": {
+        "es": "Una adolescente de 16 años (caso ficticio) con endometriosis confirmada por laparoscopia sigue con dolor pese a anticonceptivos hormonales y un progestágeno. ¿Qué es correcto sobre los agonistas de la GnRH según la ESHRE?",
+        "en": "A 16-year-old girl (fictional case) with laparoscopically confirmed endometriosis still has pain despite hormonal contraceptives and a progestogen. Which is correct about GnRH agonists according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Están contraindicados en menores de 18 años, por lo que la única opción restante es la cirugía radical.",
+            "en": "They are contraindicated under age 18, so the only remaining option is radical surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no los contraindica en adolescentes: los contempla en esta situación con condiciones.",
+            "en": "ESHRE does not contraindicate them in adolescents: it considers them in this situation, with conditions."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pueden usarse sin limitación de tiempo y sin add-back, porque a esta edad la masa ósea se recupera sola.",
+            "en": "They can be used without time limit and without add-back, because at this age bone mass recovers by itself."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE los limita a 1 año y con add-back.",
+            "en": "ESHRE limits them to 1 year and with add-back."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Deben ser el primer escalón hormonal en adolescentes, antes que los anticonceptivos o los progestágenos.",
+            "en": "They should be the first hormonal step in adolescents, before contraceptives or progestogens."
+          },
+          "correct": false,
+          "why": {
+            "es": "En adolescentes la ESHRE recomienda como primera línea anticonceptivos hormonales o progestágenos.",
+            "en": "In adolescents ESHRE recommends hormonal contraceptives or progestogens as first line."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hasta 1 año, con add-back y tras comentarlo en atención secundaria o terciaria.",
+            "en": "For up to 1 year, with add-back and after discussion in secondary or tertiary care."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: débil, ⊕⊕, con la discusión especializada como GPP.",
+            "en": "Correct: weak, ⊕⊕, with the specialist discussion as a GPP."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En adolescentes, la ESHRE reserva los agonistas de la GnRH para la endometriosis confirmada por laparoscopia tras el fracaso de anticonceptivos hormonales o progestágenos, durante un máximo de 1 año y con add-back (débil, ⊕⊕), y solo tras comentarlo con un profesional de atención secundaria o terciaria (GPP). NICE deriva a las jóvenes de 17 años o menos a ginecología pediátrica y adolescente o a una unidad especializada.",
+        "en": "In adolescents, ESHRE reserves GnRH agonists for laparoscopically confirmed endometriosis after hormonal contraceptives or progestogens have failed, for up to 1 year and with add-back (weak, ⊕⊕), and only after discussion with a secondary or tertiary care practitioner (GPP). NICE refers young women aged 17 and under to paediatric and adolescent gynaecology or a specialist centre."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx15",
+      "conceptId": "endo-core.analgesics",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 29 años (caso ficticio) con sospecha de endometriosis lleva 3 meses con naproxeno y paracetamol sin alivio suficiente. Según NICE NG73, ¿qué es lo siguiente?",
+        "en": "A 29-year-old woman (fictional case) with suspected endometriosis has taken naproxen and paracetamol for 3 months without enough relief. According to NICE NG73, what comes next?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Seguir con los mismos analgésicos 12 meses más, porque NICE fija el año como duración mínima de la prueba.",
+            "en": "Continue the same analgesics for 12 more months, because NICE sets one year as the minimum trial length."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pone como ejemplo una prueba de unos 3 meses, no de un año.",
+            "en": "NICE gives a trial of about 3 months as an example, not a year."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Considerar otras formas de manejo del dolor y la derivación para una valoración adicional.",
+            "en": "Consider other forms of pain management and referral for further assessment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que propone NICE 1.4.3 si el alivio es insuficiente.",
+            "en": "Correct: this is what NICE 1.4.3 proposes if relief is inadequate."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pasar directamente a un inhibidor de la aromatasa, que NICE recomienda como segundo escalón.",
+            "en": "Move straight to an aromatase inhibitor, which NICE recommends as the second step."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE NG73 no incluye recomendaciones sobre los inhibidores de la aromatasa.",
+            "en": "NICE NG73 contains no recommendations on aromatase inhibitors."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Añadir un opioide potente de forma indefinida, que NICE considera el siguiente paso habitual.",
+            "en": "Add a strong opioid indefinitely, which NICE considers the usual next step."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE NG73 no menciona los opioides; propone considerar otras formas de manejo del dolor y la derivación.",
+            "en": "NICE NG73 does not mention opioids; it proposes considering other forms of pain management and referral."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE propone considerar una prueba corta (por ejemplo, 3 meses) de paracetamol o un AINE, solos o combinados, como primera línea (1.4.2) y, si no alivian lo suficiente, considerar otras formas de manejo del dolor y la derivación para una valoración adicional (1.4.3).",
+        "en": "NICE suggests considering a short trial (for example, 3 months) of paracetamol or an NSAID, alone or in combination, as first line (1.4.2) and, if relief is inadequate, considering other forms of pain management and referral for further assessment (1.4.3)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx16",
+      "conceptId": "endo-core.analgesics",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 31 años (caso ficticio) con endometriosis busca embarazo y toma un AINE a diario durante todo el ciclo. Según la ESHRE, ¿qué es relevante?",
+        "en": "A 31-year-old woman (fictional case) with endometriosis is trying to conceive and takes an NSAID daily throughout the cycle. According to ESHRE, what is relevant?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hay alguna evidencia limitada de que los AINE tomados de forma continua podrían inhibir la ovulación.",
+            "en": "There is some limited evidence that NSAIDs taken continuously through the cycle might inhibit ovulation."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ESHRE lo menciona por su relevancia cuando se busca embarazo.",
+            "en": "Correct: ESHRE mentions it because of its relevance when pregnancy is sought."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Los AINE frenan la progresión de la endometriosis, por lo que conviene tomarlos a diario mientras busca embarazo.",
+            "en": "NSAIDs slow the progression of endometriosis, so they should be taken daily while trying to conceive."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE afirma que no hay evidencia de que los analgésicos influyan en la progresión de la enfermedad.",
+            "en": "ESHRE states there is no evidence that analgesics affect disease progression."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La evidencia de los AINE en endometriosis procede de varios ensayos grandes de alta calidad, sin efectos sobre la ovulación.",
+            "en": "The evidence for NSAIDs in endometriosis comes from several large high-quality trials, with no effect on ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia se limita a un ensayo pequeño de muy baja calidad, y la ESHRE menciona un posible efecto sobre la ovulación.",
+            "en": "The evidence is limited to one small, very-low-quality trial, and ESHRE mentions a possible effect on ovulation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los AINE están contraindicados en la endometriosis por sus efectos digestivos, sea cual sea el deseo genésico.",
+            "en": "NSAIDs are contraindicated in endometriosis because of their gastrointestinal effects, whatever the wish for pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE indica que pueden ofrecerse (débil, ⊕); menciona los efectos digestivos como efecto adverso, no como contraindicación.",
+            "en": "ESHRE states they may be offered (weak, ⊕); it mentions gastrointestinal effects as a side effect, not a contraindication."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE indica que pueden ofrecerse AINE u otros analgésicos para reducir el dolor (débil, ⊕). Su evidencia se limita a un ensayo pequeño de muy baja calidad, no hay evidencia de que influyan en la progresión, pueden causar efectos digestivos, y hay alguna evidencia limitada de que su uso continuo durante el ciclo podría inhibir la ovulación.",
+        "en": "ESHRE states that NSAIDs or other analgesics may be offered to reduce pain (weak, ⊕). Their evidence is limited to one small, very-low-quality trial, there is no evidence they affect progression, they can cause gastrointestinal side effects, and there is some limited evidence that continuous use through the cycle might inhibit ovulation."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx17",
+      "conceptId": "endo-core.analgesics",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una mujer con dolor por endometriosis se plantea un neuromodulador (un antidepresivo tricíclico, duloxetina, gabapentina o pregabalina). ¿Qué recogen las fuentes?",
+        "en": "In a woman with endometriosis-associated pain, a neuromodulator (a tricyclic antidepressant, duloxetine, gabapentin or pregabalin) is being considered. What do the sources report?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ESHRE los recomienda con fuerza como primera línea, por delante de los AINE y del tratamiento hormonal.",
+            "en": "ESHRE strongly recommends them as first line, ahead of NSAIDs and hormone treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no los recomienda como primera línea; describe que no han mostrado una superioridad clara frente a placebo.",
+            "en": "ESHRE does not recommend them as first line; it describes that they have not shown clear superiority over placebo."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "En ensayos de dolor pélvico crónico no han sido claramente superiores a placebo; NICE remite a su guía de dolor neuropático.",
+            "en": "In chronic pelvic pain trials they have not been clearly superior to placebo; NICE refers to its neuropathic pain guideline."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo resume la ESHRE, y NICE 1.4.4 remite a esa guía.",
+            "en": "Correct: this is how ESHRE summarises it, and NICE 1.4.4 refers to that guideline."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE los desaconseja expresamente en la endometriosis por sus efectos adversos graves y limitantes de dosis.",
+            "en": "NICE expressly advises against them in endometriosis because of their severe, dose-limiting side effects."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no los desaconseja: remite a su guía de dolor neuropático para su uso.",
+            "en": "NICE does not advise against them: it refers to its neuropathic pain guideline for their use."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Han demostrado frenar la progresión de las lesiones, por lo que se recomiendan antes de la cirugía.",
+            "en": "They have been shown to slow lesion progression, so they are recommended before surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna fuente les atribuye efecto sobre la progresión ni los recomienda antes de la cirugía.",
+            "en": "Neither source attributes an effect on progression to them or recommends them before surgery."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los neuromoduladores se usan en el dolor crónico, pero en ensayos de dolor pélvico crónico no han sido claramente superiores a placebo y a veces causan efectos adversos graves que limitan la dosis. NICE remite a su guía de dolor neuropático para su uso (1.4.4).",
+        "en": "Neuromodulators are used for chronic pain, but in chronic pelvic pain trials they have not been clearly superior to placebo and sometimes cause severe, dose-limiting side effects. NICE refers to its neuropathic pain guideline for their use (1.4.4)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx18",
+      "conceptId": "endo-core.first-line-hormonal",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una mujer de 25 años (caso ficticio) con endometriosis no quiere tomar la píldora combinada porque teme que dañe su fertilidad futura. Según NICE NG73, ¿qué le explicas?",
+        "en": "A 25-year-old woman (fictional case) with endometriosis does not want to take the combined pill because she fears it will harm her future fertility. According to NICE NG73, what do you explain?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el tratamiento hormonal reduce el dolor y no tiene un efecto negativo permanente sobre la fertilidad posterior.",
+            "en": "That hormone treatment reduces pain and has no permanent negative effect on subsequent fertility."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que NICE pide explicar (1.4.5).",
+            "en": "Correct: this is what NICE asks clinicians to explain (1.4.5)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que tiene razón: NICE recomienda evitar el tratamiento hormonal en quien desea embarazo en el futuro.",
+            "en": "That she is right: NICE recommends avoiding hormone treatment in those who wish to conceive in the future."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no lo recomienda; explica que no tiene efecto negativo permanente sobre la fertilidad posterior.",
+            "en": "NICE does not recommend this; it explains there is no permanent negative effect on subsequent fertility."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el efecto sobre la fertilidad es permanente, pero compensa porque el tratamiento cura la endometriosis.",
+            "en": "That the effect on fertility is permanent, but worthwhile because treatment cures endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE explica que no hay efecto negativo permanente, y no presenta el tratamiento hormonal como curativo.",
+            "en": "NICE explains there is no permanent negative effect, and does not present hormone treatment as curative."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que solo la cirugía mejora el dolor sin afectar a la fertilidad, por lo que debe ser siempre la primera opción terapéutica.",
+            "en": "That only surgery improves pain without affecting fertility, so it should always be the first treatment option."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE ofrece tratamiento hormonal en la endometriosis sospechada, confirmada o recurrente; la cirugía no es la única opción.",
+            "en": "NICE offers hormone treatment for suspected, confirmed or recurrent endometriosis; surgery is not the only option."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE ofrece tratamiento hormonal, por ejemplo la píldora combinada o un progestágeno, en la endometriosis sospechada, confirmada o recurrente (1.4.6), y pide explicar que reduce el dolor y no tiene un efecto negativo permanente sobre la fertilidad posterior (1.4.5).",
+        "en": "NICE offers hormone treatment, for example the combined pill or a progestogen, for suspected, confirmed or recurrent endometriosis (1.4.6), and asks clinicians to explain that it reduces pain and has no permanent negative effect on subsequent fertility (1.4.5)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx19",
+      "conceptId": "endo-core.first-line-hormonal",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Con qué fuerza y calidad de evidencia permite la ESHRE ofrecer la píldora combinada de forma continua para la dismenorrea asociada a endometriosis?",
+        "en": "With what strength and quality of evidence does ESHRE allow the combined pill to be offered continuously for endometriosis-associated dysmenorrhoea?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Recomendación fuerte con evidencia alta (⊕⊕⊕⊕), sin necesidad de comentar el sangrado irregular.",
+            "en": "Strong recommendation with high-quality evidence (⊕⊕⊕⊕), with no need to discuss breakthrough bleeding."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación es débil con evidencia baja, y la ESHRE pide comentar el posible sangrado irregular.",
+            "en": "The recommendation is weak with low-quality evidence, and ESHRE asks for possible breakthrough bleeding to be discussed."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomendación fuerte con evidencia muy baja (⊕), solo en adolescentes que no toleran la pauta cíclica.",
+            "en": "Strong recommendation with very low-quality evidence (⊕), only in adolescents who do not tolerate cyclical use."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ni la fuerza ni la calidad ni la población son las de la ESHRE para esta recomendación.",
+            "en": "Neither the strength, the quality nor the population match ESHRE’s for this recommendation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No la permite: la ESHRE solo acepta la pauta cíclica, porque la continua carece de estudios en endometriosis.",
+            "en": "It does not allow it: ESHRE only accepts cyclical use, because continuous use lacks studies in endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE sí permite la pauta continua para la dismenorrea (débil, ⊕⊕).",
+            "en": "ESHRE does allow continuous use for dysmenorrhoea (weak, ⊕⊕)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Recomendación débil con evidencia baja (⊕⊕), comentando el posible sangrado irregular.",
+            "en": "Weak recommendation with low-quality evidence (⊕⊕), discussing possible breakthrough bleeding."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así figura en la ESHRE 2022.",
+            "en": "Correct: this is how it appears in ESHRE 2022."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE recomienda el anticonceptivo hormonal combinado en píldora, anillo o parche para la dispareunia, la dismenorrea y el dolor no menstrual (fuerte, ⊕⊕), y permite ofrecer la píldora combinada de forma continua para la dismenorrea (débil, ⊕⊕), comentando el posible sangrado irregular. Fuerza y calidad de la evidencia son cosas distintas.",
+        "en": "ESHRE recommends the combined hormonal contraceptive as a pill, ring or patch for dyspareunia, dysmenorrhoea and non-menstrual pain (strong, ⊕⊕), and allows the combined pill to be offered continuously for dysmenorrhoea (weak, ⊕⊕), discussing possible breakthrough bleeding. Strength and quality of evidence are different things."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx20",
+      "conceptId": "endo-core.first-line-hormonal",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente va a empezar dienogest por endometriosis. Según los estudios a largo plazo resumidos por la ESHRE, ¿qué dato es correcto?",
+        "en": "A patient is about to start dienogest for endometriosis. According to the long-term studies summarised by ESHRE, which fact is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Usaron 20 mg/día, y el efecto adverso más frecuente en uno de ellos fue la ganancia de peso, en el 7 %.",
+            "en": "They used 20 mg/day, and the most frequent side effect in one of them was weight gain, in 7%."
+          },
+          "correct": false,
+          "why": {
+            "es": "Dosis y cifra inventadas: los estudios usaron 2 mg/día y el efecto más frecuente fue el sangrado vaginal (71,9 %).",
+            "en": "Invented dose and figure: the studies used 2 mg/day and the most frequent effect was vaginal bleeding (71.9%)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Usaron 2 mg/día, y no describieron ningún sangrado vaginal porque el dienogest produce amenorrea completa.",
+            "en": "They used 2 mg/day, and described no vaginal bleeding because dienogest produces complete amenorrhoea."
+          },
+          "correct": false,
+          "why": {
+            "es": "La dosis es correcta, pero en uno de ellos el sangrado vaginal fue el efecto adverso más frecuente.",
+            "en": "The dose is correct, but in one of them vaginal bleeding was the most frequent side effect."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Usaron 2 mg/día, y en uno de ellos el sangrado vaginal fue el efecto adverso más frecuente (71,9 %).",
+            "en": "They used 2 mg/day, and in one of them vaginal bleeding was the most frequent side effect (71.9%)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son los datos que resume la ESHRE.",
+            "en": "Correct: these are the data ESHRE summarises."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Demostraron que el dienogest reduce el dolor mucho más que cualquier otro tratamiento hormonal disponible.",
+            "en": "They showed that dienogest reduces pain far more than any other available hormone treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE describe que todos los tratamientos hormonales reducen el dolor en magnitud similar frente a placebo.",
+            "en": "ESHRE describes all hormone treatments as reducing pain by a similar magnitude compared with placebo."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE recomienda los progestágenos (fuerte, ⊕⊕) teniendo en cuenta sus distintos perfiles de efectos adversos (GPP). Los estudios a largo plazo de dienogest que resume usaron 2 mg/día, y en uno el sangrado vaginal fue el efecto adverso más frecuente (71,9 %). Conviene anticiparlo al prescribirlo.",
+        "en": "ESHRE recommends progestogens (strong, ⊕⊕), taking their different side-effect profiles into account (GPP). The long-term dienogest studies it summarises used 2 mg/day, and in one vaginal bleeding was the most frequent side effect (71.9%). It is worth anticipating this when prescribing."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx21",
+      "conceptId": "endo-core.gnrh-addback",
+      "difficulty": 3,
+      "stem": {
+        "es": "La ESHRE califica los antagonistas orales de la GnRH para el dolor como «débil, ⊕⊕⊕». ¿Qué explica esa combinación?",
+        "en": "ESHRE grades oral GnRH antagonists for pain as “weak, ⊕⊕⊕”. What explains this combination?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es un error de la guía: con evidencia moderada, la recomendación tendría que ser fuerte por definición.",
+            "en": "It is an error in the guideline: with moderate evidence, the recommendation would by definition have to be strong."
+          },
+          "correct": false,
+          "why": {
+            "es": "Fuerza y calidad de la evidencia son cosas distintas; una evidencia moderada puede acompañar a una recomendación débil.",
+            "en": "Strength and quality of evidence are different things; moderate evidence can accompany a weak recommendation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La evidencia es muy baja, pero el grupo los recomienda con fuerza por su comodidad oral frente a los agonistas.",
+            "en": "The evidence is very low, but the group recommends them strongly because of their oral convenience over agonists."
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los términos: ⊕⊕⊕ es evidencia moderada y la recomendación es débil.",
+            "en": "It reverses the terms: ⊕⊕⊕ is moderate evidence and the recommendation is weak."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Evidencia moderada, pero recomendación débil por la incertidumbre sobre dosis, duración y necesidad de add-back.",
+            "en": "Moderate evidence, but a weak recommendation because of uncertainty about dose, duration and need for add-back."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la justificación que da la ESHRE.",
+            "en": "Correct: this is the justification ESHRE gives."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Evidencia moderada y recomendación débil porque los antagonistas no reducen el dolor más que el placebo.",
+            "en": "Moderate evidence and a weak recommendation because antagonists do not reduce pain more than placebo."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no dice que no superen al placebo: los recomienda considerar por su efecto, con incertidumbres sobre su uso.",
+            "en": "ESHRE does not say they fail to beat placebo: it recommends considering them for their effect, with uncertainties about their use."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la escala GRADE de la ESHRE, ⊕⊕⊕ es evidencia moderada. Aun así, la recomendación de considerar los antagonistas orales de la GnRH es débil por la incertidumbre sobre la dosis, la duración y la necesidad de add-back, y se sitúan como segunda línea (GPP).",
+        "en": "On ESHRE’s GRADE scale, ⊕⊕⊕ is moderate evidence. Even so, the recommendation to consider oral GnRH antagonists is weak because of uncertainty about dose, duration and need for add-back, and they are placed as second line (GPP)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx22",
+      "conceptId": "endo-core.gnrh-addback",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 36 años (caso ficticio) en España tiene dolor por endometriosis pese a tratamiento médico y quirúrgico previo. ¿Qué antagonista oral de la GnRH no tiene ningún medicamento registrado en el CIMA?",
+        "en": "A 36-year-old woman (fictional case) in Spain has endometriosis pain despite previous medical and surgical treatment. Which oral GnRH antagonist has no registered medicine in CIMA?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Relugolix con estradiol y acetato de noretisterona (Ryeqo), autorizado solo para miomas en España.",
+            "en": "Relugolix with estradiol and norethisterone acetate (Ryeqo), authorised only for fibroids in Spain."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ryeqo está autorizado y comercializado en España para la endometriosis sintomática tras tratamiento previo.",
+            "en": "Ryeqo is authorised and marketed in Spain for symptomatic endometriosis after previous treatment."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Linzagolix (Yselty), autorizado en la UE, pero sin registro en España para ninguna indicación.",
+            "en": "Linzagolix (Yselty), authorised in the EU, but not registered in Spain for any indication."
+          },
+          "correct": false,
+          "why": {
+            "es": "Yselty está autorizado y comercializado en España para la endometriosis sintomática tras tratamiento previo.",
+            "en": "Yselty is authorised and marketed in Spain for symptomatic endometriosis after previous treatment."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Los tres están autorizados y comercializados en España para la endometriosis sintomática.",
+            "en": "All three are authorised and marketed in Spain for symptomatic endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "El elagolix no tiene ningún medicamento registrado en el CIMA.",
+            "en": "Elagolix has no registered medicine in CIMA."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Elagolix, cuyos ensayos resume la ESHRE, pero que no tiene medicamento registrado en el CIMA.",
+            "en": "Elagolix, whose trials ESHRE summarises, but which has no registered medicine in CIMA."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: Ryeqo y Yselty sí están autorizados y comercializados en España.",
+            "en": "Correct: Ryeqo and Yselty are authorised and marketed in Spain."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En España, relugolix con estradiol y acetato de noretisterona (Ryeqo) y linzagolix (Yselty) están autorizados y comercializados para la endometriosis sintomática tras tratamiento médico o quirúrgico previo. El elagolix, cuyos ensayos resume la ESHRE, no tiene ningún medicamento registrado en el CIMA.",
+        "en": "In Spain, relugolix with estradiol and norethisterone acetate (Ryeqo) and linzagolix (Yselty) are authorised and marketed for symptomatic endometriosis after previous medical or surgical treatment. Elagolix, whose trials ESHRE summarises, has no registered medicine in CIMA."
+      },
+      "refIds": [
+        "aemps-2026-ryeqo-yselty"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx23",
+      "conceptId": "endo-core.gnrh-addback",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Qué frase describe mejor el lugar de los fármacos que actúan sobre la GnRH en NICE NG73 frente a la ESHRE?",
+        "en": "Which sentence best describes the place of GnRH-acting drugs in NICE NG73 compared with ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE recomienda los agonistas como primera línea para el dolor; la ESHRE los reserva para el preoperatorio.",
+            "en": "NICE recommends agonists as first line for pain; ESHRE reserves them for the preoperative period."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: la ESHRE los recomienda para el dolor como segunda línea, y en NICE solo aparecen antes de la cirugía de enfermedad profunda.",
+            "en": "It is the other way round: ESHRE recommends them for pain as second line, and in NICE they appear only before surgery for deep disease."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "En NICE, los agonistas solo aparecen antes de la cirugía de enfermedad profunda, y para los antagonistas remite a sus evaluaciones tecnológicas.",
+            "en": "In NICE, agonists appear only before surgery for deep disease, and for antagonists it points to its technology appraisals."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.9.5 para los agonistas y 1.4.7 y 1.9.8 (TA1057 y TA1067) para los antagonistas.",
+            "en": "Correct: NICE 1.9.5 for agonists and 1.4.7 and 1.9.8 (TA1057 and TA1067) for antagonists."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE desaconseja los antagonistas orales por falta de datos; la ESHRE los recomienda con fuerza como primera línea.",
+            "en": "NICE advises against oral antagonists for lack of data; ESHRE strongly recommends them as first line."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE remite a evaluaciones tecnológicas que los contemplan, y la ESHRE los propone considerar (débil) como segunda línea.",
+            "en": "NICE points to technology appraisals that cover them, and ESHRE suggests considering them (weak) as second line."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas guías recomiendan los agonistas sin add-back durante un máximo de 3 meses en cualquier situación clínica.",
+            "en": "Both guidelines recommend agonists without add-back for a maximum of 3 months in any clinical situation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda considerar add-back con los agonistas, y los 3 meses de NICE se refieren solo al preoperatorio de enfermedad profunda.",
+            "en": "ESHRE recommends considering add-back with agonists, and NICE’s 3 months refer only to the preoperative period for deep disease."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE recomienda los agonistas de la GnRH para el dolor como segunda línea, con add-back, y propone considerar los antagonistas orales. En NICE NG73 los agonistas solo aparecen como coadyuvante antes de la cirugía de enfermedad profunda (1.9.5), y para los antagonistas remite a sus evaluaciones tecnológicas en adultas en edad reproductiva tras tratamiento médico o quirúrgico: linzagolix con add-back (TA1067) y relugolix–estradiol–noretisterona (TA1057).",
+        "en": "ESHRE recommends GnRH agonists for pain as second line, with add-back, and suggests considering oral antagonists. In NICE NG73, agonists appear only as an adjunct before surgery for deep disease (1.9.5), and for antagonists it points to its technology appraisals in adults of reproductive age after medical or surgical treatment: linzagolix with add-back (TA1067) and relugolix–estradiol–norethisterone (TA1057)."
+      },
+      "refIds": [
+        "nice-2024-ng73",
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx24",
+      "conceptId": "endo-core.refractory-aromatase",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 33 años (caso ficticio) con dolor por endometriosis refractario a todos los tratamientos médicos y quirúrgicos va a empezar un inhibidor de la aromatasa. Según la ESHRE, ¿qué hay que tener en cuenta?",
+        "en": "A 33-year-old woman (fictional case) with endometriosis pain refractory to all medical and surgical treatments is about to start an aromatase inhibitor. According to ESHRE, what must be taken into account?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el embarazo, con más gestaciones múltiples, es una posible complicación.",
+            "en": "That pregnancy, with more multiples, is a potential complication."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la ESHRE lo señala como posible complicación, porque estos fármacos se usan para inducir la ovulación.",
+            "en": "Correct: ESHRE notes it as a potential complication, because these drugs are used to induce ovulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que debe usarse siempre sin otro tratamiento hormonal, porque las combinaciones anulan su efecto.",
+            "en": "That it must always be used without any other hormone treatment, because combinations cancel its effect."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE indica que puede combinarse con anticonceptivos orales, progestágenos o agonistas o antagonistas de la GnRH.",
+            "en": "ESHRE states it can be combined with oral contraceptives, progestogens or GnRH agonists or antagonists."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que no tiene efectos hipoestrogénicos, por lo que no es necesario vigilar la masa ósea durante el tratamiento.",
+            "en": "That it has no hypoestrogenic effects, so bone mass need not be monitored during treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sus efectos adversos son sobre todo hipoestrogénicos, incluida la reducción de la densidad mineral ósea.",
+            "en": "Its side effects are mainly hypoestrogenic, including reduced bone mineral density."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que hay datos sólidos a largo plazo de ensayos aleatorizados grandes que avalan su seguridad durante años.",
+            "en": "That there are solid long-term data from large randomised trials supporting its safety over years."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia es una revisión de 2011, sobre todo de estudios no aleatorizados, y faltan datos a largo plazo.",
+            "en": "The evidence is a 2011 review, mostly of non-randomised studies, and long-term data are lacking."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Para el dolor refractario a otros tratamientos, la ESHRE recomienda los inhibidores de la aromatasa, combinables con anticonceptivos orales, progestágenos o agonistas o antagonistas de la GnRH (fuerte, ⊕⊕). Sus efectos son sobre todo hipoestrogénicos, faltan datos a largo plazo y, como se usan para inducir la ovulación, el embarazo, con más gestaciones múltiples, es una posible complicación.",
+        "en": "For pain refractory to other treatments, ESHRE recommends aromatase inhibitors, which can be combined with oral contraceptives, progestogens or GnRH agonists or antagonists (strong, ⊕⊕). Their side effects are mainly hypoestrogenic, long-term data are lacking and, because they are used to induce ovulation, pregnancy, with higher rates of multiples, is a potential complication."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx25",
+      "conceptId": "endo-core.refractory-aromatase",
+      "difficulty": 3,
+      "stem": {
+        "es": "Sobre los inhibidores de la aromatasa en el dolor refractario por endometriosis, ¿qué frase refleja correctamente las dos guías?",
+        "en": "On aromatase inhibitors for refractory endometriosis pain, which sentence correctly reflects the two guidelines?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ESHRE los recomienda en el dolor refractario (fuerte, ⊕⊕); NICE NG73 no incluye recomendaciones sobre ellos.",
+            "en": "ESHRE recommends them for refractory pain (strong, ⊕⊕); NICE NG73 contains no recommendations on them."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: que NICE no los trate no equivale a que los desaconseje.",
+            "en": "Correct: NICE not addressing them is not the same as advising against them."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ESHRE los recomienda en el dolor refractario (fuerte, ⊕⊕); NICE NG73 los desaconseja expresamente.",
+            "en": "ESHRE recommends them for refractory pain (strong, ⊕⊕); NICE NG73 expressly advises against them."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE NG73 no los desaconseja: simplemente no incluye recomendaciones sobre ellos.",
+            "en": "NICE NG73 does not advise against them: it simply contains no recommendations on them."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas los recomiendan como segunda línea, justo después de los anticonceptivos y antes de los agonistas.",
+            "en": "Both recommend them as second line, right after contraceptives and before agonists."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE los reserva para cuando se han agotado las demás opciones, y NICE no los trata.",
+            "en": "ESHRE reserves them for when the other options are exhausted, and NICE does not address them."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ESHRE los recomienda con evidencia alta (⊕⊕⊕⊕) de ensayos aleatorizados; NICE los propone en adolescentes.",
+            "en": "ESHRE recommends them with high-quality evidence (⊕⊕⊕⊕) from randomised trials; NICE proposes them in adolescents."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia de la ESHRE es baja (⊕⊕) y sobre todo no aleatorizada, y NICE no los trata.",
+            "en": "ESHRE’s evidence is low (⊕⊕) and mostly non-randomised, and NICE does not address them."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE recomienda los inhibidores de la aromatasa para el dolor refractario a otros tratamientos médicos o quirúrgicos (fuerte, ⊕⊕), basándose sobre todo en una revisión de 2011 de estudios no aleatorizados, y los reserva para cuando se han agotado las demás opciones. NICE NG73 no incluye recomendaciones sobre esta clase de fármacos.",
+        "en": "ESHRE recommends aromatase inhibitors for pain refractory to other medical or surgical treatment (strong, ⊕⊕), based mainly on a 2011 review of non-randomised studies, and reserves them for when the other options are exhausted. NICE NG73 contains no recommendations on this drug class."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx26",
+      "conceptId": "endo-core.surgery-recurrence",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la cirugía de la endometriosis para el dolor, ¿qué propone la ESHRE sobre la técnica y sobre los endometriomas?",
+        "en": "In endometriosis surgery for pain, what does ESHRE propose about technique and about endometriomas?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ablación mejor que escisión, y drenaje con electrocoagulación del endometrioma para proteger la reserva ovárica.",
+            "en": "Ablation rather than excision, and drainage with electrocoagulation of the endometrioma to protect ovarian reserve."
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte ambas propuestas: la ESHRE prefiere la escisión y la quistectomía.",
+            "en": "It reverses both proposals: ESHRE prefers excision and cystectomy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Escisión o ablación indistintamente, y ningún tratamiento quirúrgico del endometrioma si es menor de 5 cm.",
+            "en": "Excision or ablation interchangeably, and no surgical treatment of an endometrioma under 5 cm."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE propone considerar la escisión, y el umbral de 5 cm es inventado.",
+            "en": "ESHRE suggests considering excision, and the 5-cm threshold is invented."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Escisión mejor que ablación, y quistectomía mejor que drenaje con electrocoagulación, valorando la reserva ovárica.",
+            "en": "Excision rather than ablation, and cystectomy rather than drainage with electrocoagulation, weighing ovarian reserve."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: escisión, débil, ⊕⊕; quistectomía, fuerte, ⊕⊕.",
+            "en": "Correct: excision, weak, ⊕⊕; cystectomy, strong, ⊕⊕."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Histerectomía de entrada en toda mujer con endometrioma, porque garantiza la curación definitiva de los síntomas y de la enfermedad.",
+            "en": "Hysterectomy from the outset in every woman with an endometrioma, because it guarantees definitive cure of symptoms and disease."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE reserva la histerectomía a casos concretos y advierte que no necesariamente cura síntomas ni enfermedad.",
+            "en": "ESHRE reserves hysterectomy for specific cases and warns that it does not necessarily cure symptoms or disease."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE propone considerar la escisión en lugar de la ablación (débil, ⊕⊕). Para el endometrioma recomienda la quistectomía en lugar del drenaje y la electrocoagulación para la prevención secundaria del dolor, teniendo en cuenta el riesgo para la reserva ovárica (fuerte, ⊕⊕), seguida de tratamiento hormonal prolongado si no se busca embarazo inmediato.",
+        "en": "ESHRE suggests considering excision rather than ablation (weak, ⊕⊕). For endometrioma it recommends cystectomy rather than drainage and electrocoagulation for secondary prevention of pain, taking the risk to ovarian reserve into account (strong, ⊕⊕), followed by long-term hormone treatment if pregnancy is not sought immediately."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx27",
+      "conceptId": "endo-core.surgery-recurrence",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 44 años (caso ficticio) con endometriosis, sin deseo de embarazo y con fracaso de los tratamientos conservadores, pide una histerectomía. Según la ESHRE, ¿qué es correcto?",
+        "en": "A 44-year-old woman (fictional case) with endometriosis, not wishing to conceive and with failed conservative treatments, asks for a hysterectomy. According to ESHRE, which is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Está desaconsejada en la endometriosis, porque la ESHRE considera que nunca mejora el dolor.",
+            "en": "It is discouraged in endometriosis, because ESHRE considers it never improves pain."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no la desaconseja: puede considerarse en esta situación (débil, ⊕⊕).",
+            "en": "ESHRE does not discourage it: it can be considered in this situation (weak, ⊕⊕)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Puede considerarse, extirpando todas las lesiones visibles y explicando que no necesariamente curará los síntomas ni la enfermedad.",
+            "en": "It can be considered, removing all visible lesions and explaining that it will not necessarily cure the symptoms or disease."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: débil, ⊕⊕, en mujeres sin deseo de embarazo y tras fracasar tratamientos más conservadores.",
+            "en": "Correct: weak, ⊕⊕, in women not wishing to conceive after more conservative treatments have failed."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es la opción de primera línea para toda mujer mayor de 40 años, con recomendación fuerte y evidencia alta.",
+            "en": "It is the first-line option for every woman over 40, with a strong recommendation and high-quality evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE la plantea tras el fracaso de opciones conservadoras, con recomendación débil.",
+            "en": "ESHRE considers it after conservative options have failed, with a weak recommendation."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Garantiza la curación si se hace sin extirpar las lesiones, porque basta con retirar el útero.",
+            "en": "It guarantees cure if done without removing the lesions, because removing the uterus is enough."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE habla de extirpar todas las lesiones visibles y advierte que no necesariamente cura.",
+            "en": "ESHRE refers to removing all visible lesions and warns that it does not necessarily cure."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE propone considerar la histerectomía con extirpación de todas las lesiones visibles cuando ya no se desea embarazo y han fracasado tratamientos más conservadores, explicando que no necesariamente curará los síntomas ni la enfermedad (débil, ⊕⊕). Para el dolor recurrente puede ofrecerse cualquier tratamiento hormonal o cirugía (débil, ⊕).",
+        "en": "ESHRE suggests considering hysterectomy with removal of all visible lesions when pregnancy is no longer wanted and more conservative treatments have failed, explaining that it will not necessarily cure the symptoms or the disease (weak, ⊕⊕). For recurrent pain, any hormone treatment or surgery can be offered (weak, ⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "hormones"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx28",
+      "conceptId": "endo-core.surgery-recurrence",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 30 años (caso ficticio), operada de endometriosis peritoneal por dolor, no quiere embarazo en los próximos 3 años. ¿Qué refleja las guías sobre la prevención de la recurrencia de la dismenorrea?",
+        "en": "A 30-year-old woman (fictional case), operated on for peritoneal endometriosis because of pain, does not want a pregnancy for the next 3 years. What reflects the guidelines on preventing recurrence of dysmenorrhoea?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ESHRE propone un agonista de la GnRH durante 3 meses tras la cirugía y después ningún tratamiento.",
+            "en": "ESHRE proposes a GnRH agonist for 3 months after surgery and then no treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE propone un DIU de levonorgestrel de 52 mg o un anticonceptivo combinado durante al menos 18–24 meses.",
+            "en": "ESHRE proposes a 52-mg levonorgestrel IUS or a combined contraceptive for at least 18–24 months."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ninguna guía propone tratamiento posoperatorio, porque la cirugía por sí sola evita la recurrencia.",
+            "en": "Neither guideline proposes postoperative treatment, because surgery alone prevents recurrence."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas proponen tratamiento hormonal tras la cirugía.",
+            "en": "Both propose hormone treatment after surgery."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE exige repetir la laparoscopia al año para confirmar que no hay recurrencia antes de iniciar un tratamiento.",
+            "en": "NICE requires repeat laparoscopy at one year to confirm there is no recurrence before starting treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no propone una laparoscopia de control; propone considerar tratamiento hormonal tras la cirugía.",
+            "en": "NICE does not propose a check laparoscopy; it suggests considering hormone treatment after surgery."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ESHRE recomienda considerar un DIU de levonorgestrel de 52 mg o un anticonceptivo combinado al menos 18–24 meses; NICE, tratamiento hormonal.",
+            "en": "ESHRE recommends considering a 52-mg levonorgestrel IUS or a combined contraceptive for at least 18–24 months; NICE, hormone treatment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE (fuerte, ⊕⊕) y NICE 1.9.7, por ejemplo con la píldora combinada.",
+            "en": "Correct: ESHRE (strong, ⊕⊕) and NICE 1.9.7, for example with the combined pill."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Tras la cirugía, la ESHRE recomienda considerar un DIU de levonorgestrel de 52 mg o un anticonceptivo hormonal combinado durante al menos 18–24 meses para la prevención secundaria de la dismenorrea (fuerte, ⊕⊕). NICE propone considerar tratamiento hormonal tras la escisión o la ablación, por ejemplo con la píldora combinada, para prolongar el beneficio de la cirugía (1.9.7).",
+        "en": "After surgery, ESHRE recommends considering a 52-mg levonorgestrel IUS or a combined hormonal contraceptive for at least 18–24 months for secondary prevention of dysmenorrhoea (strong, ⊕⊕). NICE suggests considering hormone treatment after excision or ablation, for example with the combined pill, to prolong the benefits of surgery (1.9.7)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx29",
+      "conceptId": "endo-core.nonmedical-overview",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente con endometriosis pregunta si las hierbas chinas pueden tratar su enfermedad. ¿Qué respuesta refleja las guías?",
+        "en": "A patient with endometriosis asks whether Chinese herbs can treat her disease. Which answer reflects the guidelines?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE dice que la evidencia no respalda la medicina china para tratarla; la ESHRE no puede recomendarla, pero pide comentar estrategias no médicas.",
+            "en": "NICE says the evidence does not support Chinese medicine to treat it; ESHRE cannot recommend it, but asks for non-medical strategies to be discussed."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.8.1 y la recomendación 38 de la ESHRE (GPP).",
+            "en": "Correct: NICE 1.8.1 and ESHRE recommendation 38 (GPP)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas guías la recomiendan como complemento de primera línea porque mejora el dolor en ensayos de calidad.",
+            "en": "Both guidelines recommend it as a first-line complement because it improves pain in quality trials."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna la recomienda: NICE dice que la evidencia no la respalda y la ESHRE no puede recomendarla.",
+            "en": "Neither recommends it: NICE says the evidence does not support it and ESHRE cannot recommend it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La ESHRE la desaconseja con fuerza por sus daños demostrados, y NICE la recomienda solo en adolescentes.",
+            "en": "ESHRE strongly advises against it because of proven harms, and NICE recommends it only in adolescents."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no puede recomendarla porque beneficios y daños son inciertos, y NICE no la recomienda en ningún grupo.",
+            "en": "ESHRE cannot recommend it because benefits and harms are unclear, and NICE recommends it in no group."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna guía la menciona, así que no hay motivo para hablar con la paciente de terapias no médicas.",
+            "en": "Neither guideline mentions it, so there is no reason to discuss non-medical therapies with the patient."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas la mencionan, y la ESHRE recomienda comentar las estrategias no médicas para la calidad de vida.",
+            "en": "Both mention it, and ESHRE recommends discussing non-medical strategies for quality of life."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE indica que la evidencia no respalda la medicina tradicional china, otras hierbas chinas ni los suplementos para tratar la endometriosis (1.8.1). La ESHRE recomienda comentar estrategias no médicas para la calidad de vida y el bienestar psicológico, pero no puede recomendar ninguna intervención concreta porque sus beneficios y daños son inciertos (GPP).",
+        "en": "NICE states that the evidence does not support traditional Chinese medicine, other Chinese herbal medicines or supplements for treating endometriosis (1.8.1). ESHRE recommends discussing non-medical strategies for quality of life and psychological well-being, but cannot recommend any specific intervention because benefits and harms are unclear (GPP)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx30",
+      "conceptId": "endo-core.nonmedical-overview",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una encuesta en Suiza, Austria y Alemania resumida por la ESHRE, ¿qué proporción de pacientes con endometriosis usaba medicina complementaria y alternativa, y con qué se asociaba un mayor uso?",
+        "en": "In a survey in Switzerland, Austria and Germany summarised by ESHRE, what proportion of patients with endometriosis used complementary and alternative medicine, and what was greater use linked to?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El 12,5 %, y el mayor uso se asociaba a tener una enfermedad más leve y menos dolor.",
+            "en": "12.5%, and greater use was linked to milder disease and less pain."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifra y asociación inventadas: fue el 62,5 %, asociado a insatisfacción con la atención sanitaria.",
+            "en": "Invented figure and association: it was 62.5%, linked to dissatisfaction with healthcare."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El 95 %, y el mayor uso se asociaba a haber recibido un diagnóstico laparoscópico.",
+            "en": "95%, and greater use was linked to having had a laparoscopic diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifra y asociación inventadas: fue el 62,5 %, asociado a insatisfacción con la atención sanitaria.",
+            "en": "Invented figure and association: it was 62.5%, linked to dissatisfaction with healthcare."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El 62,5 %, y el mayor uso se asociaba a un nivel de estudios universitario.",
+            "en": "62.5%, and greater use was linked to a university level of education."
+          },
+          "correct": false,
+          "why": {
+            "es": "La cifra es correcta, pero la asociación descrita es con la insatisfacción con la atención sanitaria.",
+            "en": "The figure is right, but the association described is with dissatisfaction with healthcare."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El 62,5 %, y el mayor uso se asociaba a insatisfacción con la atención sanitaria.",
+            "en": "62.5%, and greater use was linked to dissatisfaction with healthcare."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el dato que resume la ESHRE.",
+            "en": "Correct: this is the finding ESHRE summarises."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El uso de terapias no médicas es amplio: en esa encuesta, el 62,5 % usaba medicina complementaria y alternativa, más cuanto mayor era la insatisfacción con la atención sanitaria. Aun así hay muy pocos estudios sobre su eficacia y seguridad, por lo que conviene preguntar qué usa cada paciente.",
+        "en": "Use of non-medical therapies is widespread: in that survey, 62.5% used complementary and alternative medicine, more so with greater dissatisfaction with healthcare. Even so, there are very few studies on their efficacy and safety, so it is worth asking what each patient uses."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "diet",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx31",
+      "conceptId": "endo-core.nutrition-supplements",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según un estudio resumido por la ESHRE, ¿qué diferencia había entre mujeres con endometriosis y controles en intolerancias alimentarias y síntomas digestivos?",
+        "en": "According to a study summarised by ESHRE, what was the difference between women with endometriosis and controls in food intolerances and gastrointestinal symptoms?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Más intolerancias (25,6 % frente a 7,7 %) y más síntomas digestivos (77 % frente a 29 %) con endometriosis.",
+            "en": "More intolerances (25.6% vs 7.7%) and gastrointestinal symptoms (77% vs 29%) with endometriosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los autores sugirieron que la ayuda de un profesional de la nutrición podría ser útil.",
+            "en": "Correct: the authors suggested that input from a nutrition professional might help."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Menos intolerancias (7,7 % frente a 25,6 %) y menos síntomas digestivos (29 % frente a 77 %) que en el grupo de control.",
+            "en": "Fewer intolerances (7.7% vs 25.6%) and fewer gastrointestinal symptoms (29% vs 77%) than the control group."
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los grupos: las cifras más altas correspondían a las mujeres con endometriosis.",
+            "en": "It reverses the groups: the higher figures belonged to women with endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguna diferencia, lo que demuestra que la dieta no influye en absoluto en los síntomas de la endometriosis.",
+            "en": "No difference, which shows that diet has no influence at all on endometriosis symptoms."
+          },
+          "correct": false,
+          "why": {
+            "es": "Hubo diferencias claras, y el estudio no permite concluir que la dieta no influya.",
+            "en": "There were clear differences, and the study does not allow concluding that diet has no influence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Más intolerancias, lo que llevó a la ESHRE a recomendar una dieta sin gluten específica para la endometriosis.",
+            "en": "More intolerances, which led ESHRE to recommend a specific gluten-free diet for endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE afirma que todavía no hay evidencia para una dieta específica, y el gluten está poco estudiado.",
+            "en": "ESHRE states there is not yet evidence for a specific diet, and gluten is poorly studied."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las mujeres con endometriosis cambian a menudo su dieta por los síntomas, lo que complica interpretar los estudios. En uno, tenían más intolerancias alimentarias (25,6 % frente a 7,7 %) y más síntomas digestivos (77 % frente a 29 %) que los controles, y los autores sugirieron la ayuda de un profesional de la nutrición. La ESHRE aun así no puede recomendar una dieta específica.",
+        "en": "Women with endometriosis often change their diet because of symptoms, which complicates interpreting the studies. In one, they had more food intolerances (25.6% vs 7.7%) and gastrointestinal symptoms (77% vs 29%) than controls, and the authors suggested input from a nutrition professional. ESHRE still cannot recommend a specific diet."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "diet",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx32",
+      "conceptId": "endo-core.nutrition-supplements",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Cómo debe entenderse la mención de la ESHRE a los aceites de pescado en la endometriosis, y cómo se compara con NICE?",
+        "en": "How should ESHRE’s mention of fish oils in endometriosis be understood, and how does it compare with NICE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es una recomendación numerada fuerte de la ESHRE, y NICE recomienda también el omega-3 como suplemento.",
+            "en": "It is a strong numbered ESHRE recommendation, and NICE also recommends omega-3 as a supplement."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es una recomendación numerada, y NICE indica que la evidencia no respalda los suplementos.",
+            "en": "It is not a numbered recommendation, and NICE states that the evidence does not support supplements."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ESHRE desaconseja expresamente el omega-3 por riesgo hemorrágico, y NICE lo permite como tratamiento.",
+            "en": "ESHRE expressly advises against omega-3 because of bleeding risk, and NICE allows it as treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo desaconseja, y NICE no respalda ningún suplemento para tratar la endometriosis.",
+            "en": "ESHRE does not advise against it, and NICE supports no supplement for treating endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es una sugerencia en el texto, basada en pocos estudios, como alternativa a antiinflamatorios más dañinos; NICE no respalda los suplementos.",
+            "en": "It is a suggestion in the text, based on a few studies, as an alternative to more harmful anti-inflammatories; NICE does not support supplements."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el matiz entre ambas guías.",
+            "en": "Correct: this is the nuance between the two guidelines."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Es una recomendación de la ESHRE para sustituir el tratamiento hormonal por omega-3 y vitamina D en la endometriosis leve.",
+            "en": "It is an ESHRE recommendation to replace hormone treatment with omega-3 and vitamin D in mild endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no propone sustituir el tratamiento hormonal; en un ensayo, la mejora con vitamina D fue similar a la del placebo.",
+            "en": "ESHRE does not propose replacing hormone treatment; in one trial, the improvement with vitamin D was similar to placebo."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE no puede recomendar la nutrición para el dolor, pero en su texto, basándose en unos pocos estudios, señala que los aceites de pescado podrían sugerirse como alternativa a antiinflamatorios más dañinos; no es una recomendación numerada. NICE indica que la evidencia no respalda los suplementos para tratar la endometriosis (1.8.1).",
+        "en": "ESHRE cannot recommend nutrition for pain, but in its text, based on a few studies, it notes that fish oils might be suggested as an alternative to more harmful anti-inflammatories; this is not a numbered recommendation. NICE states that the evidence does not support supplements for treating endometriosis (1.8.1)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx33",
+      "conceptId": "endo-core.acupuncture-tens-exercise",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente con endometriosis pregunta si hacer ejercicio le aliviará el dolor menstrual. ¿Qué describe la revisión Cochrane citada por la ESHRE?",
+        "en": "A patient with endometriosis asks whether exercise will relieve her menstrual pain. What does the Cochrane review cited by ESHRE describe?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En la endometriosis, 20 minutos diarios reducen el dolor a la mitad, con evidencia de alta calidad.",
+            "en": "In endometriosis, 20 minutes a day halves pain, with high-quality evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "Pauta, efecto y calidad inventados; la revisión se refiere a la dismenorrea en general y su evidencia es de baja calidad.",
+            "en": "Invented regimen, effect and quality; the review concerns dysmenorrhoea in general and its evidence is low quality."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "En la dismenorrea en general, ejercicio al menos 3 veces por semana unos 45–60 minutos podría reducir el dolor unos 25 mm sobre 100.",
+            "en": "In dysmenorrhoea in general, exercise at least 3 times a week for about 45–60 minutes may reduce pain by about 25 mm on a 100-mm scale."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: evidencia de baja calidad y no específica de la endometriosis.",
+            "en": "Correct: low-quality evidence and not specific to endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "En la endometriosis, el ejercicio empeora el dolor, por lo que la ESHRE lo desaconseja durante la regla.",
+            "en": "In endometriosis, exercise worsens pain, so ESHRE advises against it during menstruation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo desaconseja: lo considera parte de un estilo de vida saludable.",
+            "en": "ESHRE does not advise against it: it considers it part of a healthy lifestyle."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "En la dismenorrea en general, el ejercicio diario reduce el dolor más que los AINE, con evidencia moderada.",
+            "en": "In dysmenorrhoea in general, daily exercise reduces pain more than NSAIDs, with moderate-quality evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión no compara con AINE en esos términos, y su evidencia es de baja calidad.",
+            "en": "The review does not compare with NSAIDs in those terms, and its evidence is low quality."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Una revisión Cochrane sobre dismenorrea en general, con evidencia de baja calidad, sugiere que el ejercicio al menos 3 veces por semana durante unos 45–60 minutos podría reducir el dolor menstrual unos 25 mm en una escala de 100 mm. La ESHRE no puede recomendarlo para la endometriosis por falta de estudios, pero lo considera parte de un estilo de vida saludable.",
+        "en": "A Cochrane review on dysmenorrhoea in general, with low-quality evidence, suggests that exercise at least 3 times a week for about 45–60 minutes may reduce menstrual pain by around 25 mm on a 100-mm scale. ESHRE cannot recommend it for endometriosis for lack of studies, but considers it part of a healthy lifestyle."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx34",
+      "conceptId": "endo-core.acupuncture-tens-exercise",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según la ESHRE, ¿por qué no puede hacer recomendaciones sobre la acupuntura y la electroterapia en el dolor por endometriosis?",
+        "en": "According to ESHRE, why can it make no recommendations on acupuncture and electrotherapy for endometriosis pain?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Porque ensayos grandes y bien cegados demostraron que ambas son ineficaces frente a placebo.",
+            "en": "Because large, well-blinded trials showed that both are ineffective compared with placebo."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay ensayos grandes y bien cegados: el problema es la debilidad de los estudios, no una ineficacia demostrada.",
+            "en": "There are no large, well-blinded trials: the problem is the weakness of the studies, not proven ineffectiveness."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque ambas están contraindicadas en la endometriosis por el riesgo de estimular las lesiones.",
+            "en": "Because both are contraindicated in endometriosis owing to the risk of stimulating lesions."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no las contraindica ni menciona ese riesgo.",
+            "en": "ESHRE does not contraindicate them or mention that risk."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque solo se han estudiado en adolescentes, y los resultados no pueden extrapolarse a mujeres adultas.",
+            "en": "Because they have only been studied in adolescents, and the results cannot be extrapolated to adult women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no describe esa limitación; describe estudios pequeños y con problemas de diseño.",
+            "en": "ESHRE does not describe that limitation; it describes small studies with design problems."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Estudios de acupuntura pequeños y sin cegar, sin placebo inerte válido; de electroterapia, 3 estudios pequeños a interpretar con cautela.",
+            "en": "Acupuncture studies small and unblinded, with no valid inert placebo; for electrotherapy, 3 small studies to be viewed with caution."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo resume la ESHRE.",
+            "en": "Correct: this is how ESHRE summarises it."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE describe estudios de acupuntura pequeños, inespecíficos y sin cegar, con distintos tipos de acupuntura y sin un placebo inerte válido. Para la electroterapia hay 3 estudios pequeños con resultados favorables (TENS, estimulación eléctrica neuromuscular y láser), cuyas conclusiones deben verse con cautela por su diseño. Por eso no puede hacer recomendaciones.",
+        "en": "ESHRE describes acupuncture studies as small, non-specific and unblinded, with different types of acupuncture and no valid inert placebo. For electrotherapy there are 3 small studies with favourable results (TENS, neuromuscular electrical stimulation and laser), whose conclusions should be viewed with caution because of their design. That is why it cannot make recommendations."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx35",
+      "conceptId": "endo-core.psychological-support",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según NICE NG73, ¿qué deben ofrecer o tener los servicios que atienden a mujeres con endometriosis en cuanto a apoyo?",
+        "en": "According to NICE NG73, what should services caring for women with endometriosis offer or have in terms of support?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo apoyo psicológico durante el primer mes tras el diagnóstico, porque después ya no suele necesitarse.",
+            "en": "Psychological support only during the first month after diagnosis, because it is usually not needed afterwards."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE recuerda que puede ser una enfermedad de larga duración que requiera apoyo prolongado.",
+            "en": "NICE points out that it can be a long-term condition that may need long-term support."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una derivación obligatoria a psiquiatría de todas las mujeres con dolor crónico antes de cualquier tratamiento.",
+            "en": "Mandatory psychiatric referral of every woman with chronic pain before any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no propone esa derivación obligatoria; pide valorar necesidades y dar acceso a un servicio del dolor.",
+            "en": "NICE does not propose such mandatory referral; it asks for needs to be assessed and access to a pain service."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Acceso a un servicio multidisciplinar del dolor, valorar las necesidades psicosexuales y emocionales e informar de grupos de apoyo.",
+            "en": "Access to a multidisciplinary pain service, assessment of psychosexual and emotional needs and information on support groups."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.1.3, 1.2.2 y 1.2.3.",
+            "en": "Correct: NICE 1.1.3, 1.2.2 and 1.2.3."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Información solo a través de la web del hospital, porque NICE desaconseja los foros y las asociaciones de pacientes.",
+            "en": "Information only through the hospital website, because NICE advises against forums and patient associations."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide informar de grupos de apoyo locales, foros en línea y asociaciones nacionales.",
+            "en": "NICE asks for information on local support groups, online forums and national charities."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE pide que los servicios de ginecología tengan acceso a un servicio multidisciplinar del dolor (1.1.3), que se valoren las necesidades de información y apoyo, incluidas las psicosexuales y emocionales (1.2.2), y que se informe de grupos de apoyo locales, foros en línea y asociaciones nacionales (1.2.3). Recuerda que la endometriosis puede requerir apoyo prolongado (1.2.1).",
+        "en": "NICE asks that gynaecology services have access to a multidisciplinary pain management service (1.1.3), that information and support needs be assessed, including psychosexual and emotional needs (1.2.2), and that information be given on local support groups, online forums and national charities (1.2.3). It notes that endometriosis may need long-term support (1.2.1)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "habits"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      },
+      "id": "endo-core.qx36",
+      "conceptId": "endo-core.psychological-support",
+      "difficulty": 3,
+      "stem": {
+        "es": "Una mujer de 35 años (caso ficticio) con endometriosis profunda sigue con dolor pese al tratamiento óptimo. ¿Qué refleja mejor la postura de la ESHRE sobre el apoyo psicológico?",
+        "en": "A 35-year-old woman (fictional case) with deep endometriosis still has pain despite optimal treatment. Which best reflects ESHRE’s position on psychological support?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No puede recomendar una intervención concreta, pero pide valorar el acceso a apoyo psicológico y abordar factores psicológicos, sexuales y físicos.",
+            "en": "It cannot recommend a specific intervention, but asks for access to psychological support to be considered and psychological, sexual and physical factors addressed."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: incluso cuando el dolor no se reduce, ese enfoque puede mejorar la calidad de vida.",
+            "en": "Correct: even when pain cannot be reduced, this approach can improve quality of life."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ESHRE recomienda con fuerza una psicoterapia concreta porque varios ensayos de alta calidad muestran que cura el dolor.",
+            "en": "ESHRE strongly recommends a specific psychotherapy because several high-quality trials show it cures pain."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no puede recomendar una intervención psicológica concreta: los estudios son de baja calidad y heterogéneos.",
+            "en": "ESHRE cannot recommend a specific psychological intervention: the studies are low quality and heterogeneous."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El apoyo psicológico solo tiene sentido si el dolor desaparece, por lo que debe esperarse al éxito del tratamiento médico.",
+            "en": "Psychological support only makes sense once pain disappears, so treatment success must be awaited first."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE propone ofrecer opciones para mejorar la calidad de vida incluso cuando el dolor no puede reducirse.",
+            "en": "ESHRE proposes offering options to improve quality of life even when pain cannot be reduced."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ESHRE desaconseja el apoyo psicológico en la endometriosis profunda porque desvía la atención del tratamiento quirúrgico.",
+            "en": "ESHRE advises against psychological support in deep endometriosis because it distracts from surgical treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: propone considerar seguimiento y apoyo psicológico sobre todo en la enfermedad profunda y ovárica (débil, ⊕).",
+            "en": "It is the other way round: it suggests considering follow-up and psychological support particularly in deep and ovarian disease (weak, ⊕)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE no puede recomendar una intervención psicológica concreta por la baja calidad y heterogeneidad de los estudios, aunque en un ensayo de calidad moderada la psicoterapia con estimulación somatosensorial mejoró el dolor y la calidad de vida frente a lista de espera. Propone considerar seguimiento y apoyo psicológico, sobre todo en enfermedad profunda y ovárica (débil, ⊕), y, como en el dolor pélvico crónico, abordar factores psicológicos, sexuales y físicos aunque el dolor no se reduzca.",
+        "en": "ESHRE cannot recommend a specific psychological intervention because of the low quality and heterogeneity of the studies, although in a moderate-quality trial psychotherapy with somatosensory stimulation improved pain and quality of life compared with a waiting list. It suggests considering follow-up and psychological support, particularly in deep and ovarian disease (weak, ⊕), and, as in chronic pelvic pain, addressing psychological, sexual and physical factors even when pain cannot be reduced."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ]
     }
   ]
 }
