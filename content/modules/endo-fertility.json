@@ -33,7 +33,20 @@
         "endo-fert.c5-staging-efi",
         "endo-fert.q1-empirical-conceiving",
         "endo-fert.q2-normal-scan",
-        "endo-fert.q3-efi"
+        "endo-fert.q3-efi",
+        "endo-fert.qx01",
+        "endo-fert.qx02",
+        "endo-fert.qx03",
+        "endo-fert.qx04",
+        "endo-fert.qx05",
+        "endo-fert.qx06",
+        "endo-fert.qx07",
+        "endo-fert.qx08",
+        "endo-fert.qx09",
+        "endo-fert.qx10",
+        "endo-fert.qx11",
+        "endo-fert.qx12",
+        "endo-fert.qx13"
       ]
     },
     {
@@ -62,7 +75,18 @@
         "endo-fert.c9-deep-decision",
         "endo-fert.q4-postop-suppression",
         "endo-fert.q5-stage12-at-laparoscopy",
-        "endo-fert.q6-endometrioma-technique"
+        "endo-fert.q6-endometrioma-technique",
+        "endo-fert.qx14",
+        "endo-fert.qx15",
+        "endo-fert.qx16",
+        "endo-fert.qx17",
+        "endo-fert.qx18",
+        "endo-fert.qx19",
+        "endo-fert.qx20",
+        "endo-fert.qx21",
+        "endo-fert.qx22",
+        "endo-fert.qx23",
+        "endo-fert.qx24"
       ]
     },
     {
@@ -96,6 +120,20 @@
         "endo-fert.q8-endometrioma-before-ivf",
         "endo-fert.q9-gnrh-pre-ivf",
         "endo-fert.q10-complementary",
+        "endo-fert.qx25",
+        "endo-fert.qx26",
+        "endo-fert.qx27",
+        "endo-fert.qx28",
+        "endo-fert.qx29",
+        "endo-fert.qx30",
+        "endo-fert.qx31",
+        "endo-fert.qx32",
+        "endo-fert.qx33",
+        "endo-fert.qx34",
+        "endo-fert.qx35",
+        "endo-fert.qx36",
+        "endo-fert.qx37",
+        "endo-fert.qx38",
         "endo-fert.case1-elena-raul"
       ]
     }
@@ -1453,6 +1491,2874 @@
         "eshre-2022-endometriosis",
         "nice-2024-ng73"
       ]
+    },
+    {
+      "id": "endo-fert.qx01",
+      "kind": "question",
+      "conceptId": "endo-fert.imaging-first",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Para la endometriosis profunda, ¿cómo se comparan la ecografía transvaginal y la RM en los datos de precisión que resume ESHRE?",
+        "en": "For deep endometriosis, how do transvaginal ultrasound and MRI compare in the accuracy data summarised by ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La RM es muy superior: sensibilidad 99 % frente a 40 % de la ecografía.",
+            "en": "MRI is far superior: sensitivity 99% versus 40% for ultrasound."
+          },
+          "correct": false,
+          "why": {
+            "es": "Son cifras inventadas; las que resume ESHRE son de un orden parecido para ambas pruebas (sensibilidad 79 % con ecografía y 94 % con RM; especificidad 94 % y 77 %).",
+            "en": "These are invented figures; those summarised by ESHRE are of a similar order for both tests (sensitivity 79% with ultrasound and 94% with MRI; specificity 94% and 77%)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ecografía transvaginal no sirve para la endometriosis profunda.",
+            "en": "Transvaginal ultrasound is useless for deep endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Su sensibilidad (79 %) y especificidad (94 %) para la enfermedad profunda son útiles.",
+            "en": "Its sensitivity (79%) and specificity (94%) for deep disease are useful."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas tienen sensibilidad del 65 %, como en la enfermedad superficial.",
+            "en": "Both have 65% sensitivity, as in superficial disease."
+          },
+          "correct": false,
+          "why": {
+            "es": "El 65 % es la sensibilidad de la ecografía para la endometriosis pélvica superficial, no para la profunda.",
+            "en": "65% is the sensitivity of ultrasound for superficial pelvic endometriosis, not for deep disease."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Con perfiles distintos pero ambas útiles: ecografía transvaginal, sensibilidad 79 % y especificidad 94 %; RM, sensibilidad 94 % y especificidad 77 %.",
+            "en": "Different profiles, but both useful: transvaginal ultrasound, sensitivity 79% and specificity 94%; MRI, sensitivity 94% and specificity 77%."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo resume ESHRE (metaanálisis para la ecografía; revisión Cochrane para la RM, algo más sensible pero menos específica).",
+            "en": "Correct: this is how ESHRE summarises them (a meta-analysis for ultrasound; the Cochrane review for MRI, which is somewhat more sensitive but less specific)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La imagen funciona bien para el endometrioma y razonablemente para la enfermedad profunda; su punto débil es la enfermedad peritoneal superficial.",
+        "en": "Imaging works well for endometrioma and reasonably for deep disease; its weak point is superficial peritoneal disease."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx02",
+      "kind": "question",
+      "conceptId": "endo-fert.imaging-first",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En una mujer con sospecha de endometriosis, la ecografía transvaginal muestra un endometrioma de 4 cm. Según NICE NG73, ¿qué es lo adecuado?",
+        "en": "In a woman with suspected endometriosis, transvaginal ultrasound shows a 4-cm endometrioma. According to NICE NG73, what is appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Derivarla a un centro especializado en endometriosis.",
+            "en": "Refer her to a specialist endometriosis centre."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE pide derivar si se sospecha o confirma un endometrioma o enfermedad profunda (1.5.6).",
+            "en": "Correct: NICE asks for referral if an endometrioma or deep disease is suspected or confirmed (1.5.6)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pedir CA125 para confirmar el diagnóstico.",
+            "en": "Order CA125 to confirm the diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE desaconseja usar el CA125 sérico para diagnosticar la endometriosis (1.5.8).",
+            "en": "NICE advises against using serum CA125 to diagnose endometriosis (1.5.8)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Repetir la ecografía en un año sin más.",
+            "en": "Simply repeat the ultrasound in a year."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ante un endometrioma, NICE indica derivar a un centro especializado.",
+            "en": "With an endometrioma, NICE advises referral to a specialist centre."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Indicar anticonceptivos y no derivar.",
+            "en": "Prescribe contraceptives and do not refer."
+          },
+          "correct": false,
+          "why": {
+            "es": "La sospecha o confirmación de endometrioma es motivo de derivación, según NICE.",
+            "en": "Suspected or confirmed endometrioma is a reason for referral, according to NICE."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE ofrece ecografía transvaginal a toda persona con sospecha de endometriosis (1.5.2) y deriva a un centro especializado ante endometrioma o enfermedad profunda (1.5.6).",
+        "en": "NICE offers transvaginal ultrasound to everyone with suspected endometriosis (1.5.2) and refers to a specialist centre for endometrioma or deep disease (1.5.6)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx03",
+      "kind": "question",
+      "conceptId": "endo-fert.imaging-first",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "ESHRE 2022 recomienda la imagen en el estudio de la endometriosis con una recomendación «fuerte, ⊕⊕». ¿Qué significa?",
+        "en": "ESHRE 2022 recommends imaging in the endometriosis work-up with a “strong, ⊕⊕” recommendation. What does that mean?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una recomendación fuerte basada en evidencia de calidad alta.",
+            "en": "A strong recommendation based on high-quality evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "⊕⊕ indica calidad baja, no alta.",
+            "en": "⊕⊕ indicates low quality, not high."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una recomendación débil, porque solo tiene dos símbolos.",
+            "en": "A weak recommendation, because it has only two symbols."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los símbolos indican la calidad de la evidencia; la fuerza es «fuerte».",
+            "en": "The symbols indicate the quality of evidence; the strength is “strong”."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una recomendación fuerte basada en evidencia de calidad baja: fuerza y calidad de la evidencia son cosas distintas.",
+            "en": "A strong recommendation based on low-quality evidence: strength and quality of evidence are different things."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en la escala de ESHRE, ⊕ = muy baja, ⊕⊕ = baja, ⊕⊕⊕ = moderada y ⊕⊕⊕⊕ = alta.",
+            "en": "Correct: on ESHRE's scale, ⊕ = very low, ⊕⊕ = low, ⊕⊕⊕ = moderate and ⊕⊕⊕⊕ = high."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Un punto de buena práctica sin evidencia.",
+            "en": "A good practice point with no evidence."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una recomendación graduada (fuerte, ⊕⊕), no un GPP.",
+            "en": "It is a graded recommendation (strong, ⊕⊕), not a GPP."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lee siempre por separado la fuerza (fuerte/débil) y la calidad de la evidencia (⊕ a ⊕⊕⊕⊕).",
+        "en": "Always read strength (strong/weak) and quality of evidence (⊕ to ⊕⊕⊕⊕) separately."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx04",
+      "kind": "question",
+      "conceptId": "endo-fert.empirical-contraceptive",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "Mujer de 27 años con dismenorrea intensa y sospecha clínica de endometriosis, ecografía normal; no busca embarazo por ahora. Según ESHRE, ¿qué opciones diagnósticas y terapéuticas son aceptables?",
+        "en": "A 27-year-old woman with severe dysmenorrhoea and clinically suspected endometriosis, normal ultrasound; she is not trying to conceive for now. According to ESHRE, which diagnostic and therapeutic options are acceptable?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo la laparoscopia, porque el tratamiento empírico exige un diagnóstico confirmado.",
+            "en": "Only laparoscopy, because empirical treatment requires a confirmed diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE acepta el tratamiento empírico sin confirmación quirúrgica.",
+            "en": "ESHRE accepts empirical treatment without surgical confirmation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo CA125 y, si es normal, descartar la endometriosis.",
+            "en": "Only CA125 and, if normal, rule out endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja los biomarcadores en sangre para el diagnóstico (fuerte, ⊕⊕⊕).",
+            "en": "ESHRE recommends against blood biomarkers for diagnosis (strong, ⊕⊕⊕)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Tanto la laparoscopia diagnóstica como el tratamiento empírico (anticonceptivos hormonales o progestágenos), sin superioridad demostrada de ninguno.",
+            "en": "Either diagnostic laparoscopy or empirical treatment (hormonal contraceptives or progestogens), with no proven superiority of either."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE considera aceptables ambas opciones y enmarca el tratamiento empírico en la paciente que no busca embarazo, como ella.",
+            "en": "Correct: ESHRE considers both acceptable and frames empirical treatment for the patient who is not trying to conceive, as in her case."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna hasta que desee un embarazo.",
+            "en": "None until she wants a pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE contempla ambas opciones en la paciente que no busca embarazo.",
+            "en": "ESHRE contemplates both options in a patient who is not trying to conceive."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El tratamiento empírico es razonable cuando no hay deseo de embarazo; en quien lo busca, la anticoncepción no es apropiada.",
+        "en": "Empirical treatment is reasonable when pregnancy is not desired; in someone trying to conceive, contraception is not appropriate."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx05",
+      "kind": "question",
+      "conceptId": "endo-fert.empirical-contraceptive",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Por qué el tratamiento médico de la endometriosis no es una estrategia para mejorar la fertilidad, según ASRM (2012) y NICE NG73?",
+        "en": "Why is medical treatment of endometriosis not a strategy to improve fertility, according to ASRM (2012) and NICE NG73?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No hay evidencia de que mejore la fertilidad y, como todos los tratamientos médicos inhiben la ovulación, la fertilidad queda prácticamente anulada mientras dura.",
+            "en": "There is no evidence that it improves fertility and, because all medical treatments inhibit ovulation, fertility is essentially eliminated while it lasts."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el razonamiento de ASRM; NICE añade que el tratamiento hormonal no mejora las tasas de embarazo espontáneo (1.10.4).",
+            "en": "Correct: this is ASRM's reasoning; NICE adds that hormonal treatment does not improve spontaneous pregnancy rates (1.10.4)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque aumenta el riesgo de malformaciones fetales.",
+            "en": "Because it increases the risk of fetal malformations."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es el argumento de las fuentes; el motivo es la ausencia de beneficio y la inhibición de la ovulación.",
+            "en": "That is not the sources' argument; the reason is lack of benefit and inhibition of ovulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque solo es eficaz en estadios III–IV.",
+            "en": "Because it is only effective in stages III–IV."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no describe beneficio sobre la fertilidad en ningún estadio.",
+            "en": "ASRM describes no fertility benefit at any stage."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sí mejora la fertilidad, pero solo si se mantiene 2 años.",
+            "en": "It does improve fertility, but only if continued for 2 years."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay evidencia de que mejore la fertilidad, y mientras dura la impide.",
+            "en": "There is no evidence that it improves fertility, and while it lasts it prevents conception."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE pide además un manejo multidisciplinar de la subfertilidad asociada a endometriosis, con participación de un especialista en fertilidad.",
+        "en": "NICE also asks for multidisciplinary management of endometriosis-related subfertility, with input from a fertility specialist."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx06",
+      "kind": "question",
+      "conceptId": "endo-fert.no-biomarkers",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer con dismenorrea y dispareunia profunda; su CA125 sérico es de 18 U/ml. ¿Cómo se interpreta?",
+        "en": "A woman with dysmenorrhoea and deep dyspareunia; her serum CA125 is 18 U/ml. How should this be interpreted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Descarta la endometriosis, porque es normal.",
+            "en": "It rules out endometriosis, because it is normal."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con una sensibilidad del 52 %, un CA125 normal no permite descartarla.",
+            "en": "With a sensitivity of 52%, a normal CA125 cannot rule it out."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Confirma endometriosis leve.",
+            "en": "It confirms mild endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "El CA125 no se recomienda para diagnosticar endometriosis.",
+            "en": "CA125 is not recommended for diagnosing endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Obliga a repetirlo cada 3 meses.",
+            "en": "It requires repeating every 3 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es una prueba recomendada para el diagnóstico, y menos para seguimiento seriado con este fin.",
+            "en": "It is not a recommended diagnostic test, let alone for serial follow-up for this purpose."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No descarta la endometriosis: con un umbral de 30 U/ml, la sensibilidad es solo del 52 %, y NICE desaconseja usar el CA125 para diagnosticarla.",
+            "en": "It does not rule out endometriosis: at a 30 U/ml threshold, sensitivity is only 52%, and NICE advises against using CA125 to diagnose it."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en el metaanálisis citado por ESHRE, especificidad 93 % y sensibilidad 52 %; NICE 1.5.8.",
+            "en": "Correct: in the meta-analysis cited by ESHRE, specificity 93% and sensitivity 52%; NICE 1.5.8."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Baja sensibilidad: un CA125 normal no descarta; ESHRE desaconseja los biomarcadores en sangre para el diagnóstico (fuerte, ⊕⊕⊕).",
+        "en": "Low sensitivity: a normal CA125 does not rule out the disease; ESHRE recommends against blood biomarkers for diagnosis (strong, ⊕⊕⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx07",
+      "kind": "question",
+      "conceptId": "endo-fert.no-biomarkers",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una clínica ofrece un test de biomarcadores en sangre menstrual para «diagnosticar la endometriosis sin cirugía». ¿Qué dice ESHRE?",
+        "en": "A clinic offers a menstrual blood biomarker test to “diagnose endometriosis without surgery”. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Lo acepta si se combina con CA125.",
+            "en": "It accepts it if combined with CA125."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja los biomarcadores, incluidos los sanguíneos.",
+            "en": "ESHRE recommends against biomarkers, including blood ones."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomienda no usar biomarcadores en tejido endometrial, sangre, fluido menstrual o uterino para diagnosticar la endometriosis (fuerte, ⊕⊕⊕).",
+            "en": "It recommends against using biomarkers in endometrial tissue, blood, menstrual or uterine fluid to diagnose endometriosis (strong, ⊕⊕⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es una de las recomendaciones fuertes de ESHRE con evidencia de calidad moderada.",
+            "en": "Correct: this is one of ESHRE's strong recommendations, with moderate-quality evidence."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Lo recomienda como alternativa a la ecografía.",
+            "en": "It recommends it as an alternative to ultrasound."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE recomienda la imagen y desaconseja los biomarcadores.",
+            "en": "ESHRE recommends imaging and advises against biomarkers."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No se pronuncia sobre biomarcadores menstruales.",
+            "en": "It does not address menstrual biomarkers."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación incluye expresamente el fluido menstrual.",
+            "en": "The recommendation explicitly includes menstrual fluid."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ni biomarcadores ni exploración bastan: ESHRE pide imagen aunque la exploración sea normal (fuerte, ⊕⊕).",
+        "en": "Neither biomarkers nor examination are enough: ESHRE asks for imaging even if examination is normal (strong, ⊕⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx08",
+      "kind": "question",
+      "conceptId": "endo-fert.laparoscopy-role",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En una mujer con síntomas de endometriosis se hace una laparoscopia sistemática, con registro de hallazgos normales y anormales e imágenes intraoperatorias, y es normal. Según NICE NG73, ¿qué le explicas?",
+        "en": "A woman with endometriosis symptoms has a systematic laparoscopy, with normal and abnormal findings recorded and intra-operative images, and it is normal. According to NICE NG73, what do you explain?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la endometriosis es poco probable.",
+            "en": "That endometriosis is unlikely."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE 1.5.15 pide explicarlo así tras una laparoscopia sistemática normal.",
+            "en": "Correct: NICE 1.5.15 asks for this explanation after a normal systematic laparoscopy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que tiene endometriosis superficial que la laparoscopia no ve.",
+            "en": "That she has superficial endometriosis that laparoscopy cannot see."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es la ecografía la que tiene baja sensibilidad para la enfermedad superficial; tras una laparoscopia sistemática normal, NICE la considera poco probable.",
+            "en": "It is ultrasound that has low sensitivity for superficial disease; after a normal systematic laparoscopy, NICE considers it unlikely."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que hay que repetir la laparoscopia en 6 meses.",
+            "en": "That the laparoscopy must be repeated in 6 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no lo propone; explica que la endometriosis es poco probable.",
+            "en": "NICE does not propose this; it explains that endometriosis is unlikely."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que debe empezar un agonista de la GnRH para confirmarla.",
+            "en": "That she should start a GnRH agonist to confirm it."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es una prueba diagnóstica que propongan las fuentes.",
+            "en": "This is not a diagnostic test proposed by the sources."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Una laparoscopia sistemática normal hace poco probable la endometriosis; una histología negativa, en cambio, no la descarta del todo (ESHRE, GPP).",
+        "en": "A normal systematic laparoscopy makes endometriosis unlikely; negative histology, however, does not entirely rule it out (ESHRE, GPP)."
+      },
+      "refIds": [
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx09",
+      "kind": "question",
+      "conceptId": "endo-fert.laparoscopy-role",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ESHRE, ¿cuándo se considera la laparoscopia para diagnóstico y tratamiento de la endometriosis?",
+        "en": "According to ESHRE, when should laparoscopy be considered for the diagnosis and treatment of endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Siempre como primera prueba, antes de la imagen.",
+            "en": "Always as the first test, before imaging."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE recomienda la imagen en el estudio (fuerte, ⊕⊕) y reserva la laparoscopia para situaciones concretas.",
+            "en": "ESHRE recommends imaging in the work-up (strong, ⊕⊕) and reserves laparoscopy for specific situations."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Si la imagen es negativa o el tratamiento empírico fracasó o no es apropiado, confirmando las lesiones con histología (GPP).",
+            "en": "If imaging is negative or empirical treatment failed or is inappropriate, confirming lesions histologically (GPP)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son dos puntos de buena práctica de ESHRE; la histología negativa no descarta del todo la enfermedad.",
+            "en": "Correct: these are two ESHRE good practice points; negative histology does not entirely rule out the disease."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Nunca: el diagnóstico es solo por imagen.",
+            "en": "Never: diagnosis is by imaging only."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE sí contempla la laparoscopia cuando la imagen es negativa o el tratamiento empírico no sirve.",
+            "en": "ESHRE does contemplate laparoscopy when imaging is negative or empirical treatment does not work."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo si el CA125 está elevado.",
+            "en": "Only if CA125 is elevated."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja los biomarcadores para el diagnóstico; la indicación no depende del CA125.",
+            "en": "ESHRE advises against biomarkers for diagnosis; the indication does not depend on CA125."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si vas a hacer una laparoscopia en una paciente que busca embarazo, acuerda antes qué se hará si se encuentran lesiones.",
+        "en": "If you are doing a laparoscopy in a patient trying to conceive, agree beforehand what will be done if lesions are found."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx10",
+      "kind": "question",
+      "conceptId": "endo-fert.laparoscopy-role",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer asintomática de 30 años con infertilidad por lo demás inexplicada y ecografía normal. ¿Qué concluyó ASRM (2012) sobre hacer una laparoscopia solo para aumentar la probabilidad de embarazo?",
+        "en": "An asymptomatic 30-year-old woman with otherwise unexplained infertility and a normal ultrasound. What did ASRM (2012) conclude about laparoscopy solely to increase the chance of pregnancy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que está indicada en todas para estadificar antes de cualquier tratamiento.",
+            "en": "That it is indicated in all of them for staging before any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM consideró la laparoscopia de poca utilidad en este perfil.",
+            "en": "ASRM considered laparoscopy of low utility in this profile."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que duplica la tasa de nacido vivo y debe ofrecerse siempre.",
+            "en": "That it doubles the live birth rate and should always be offered."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no describe ese efecto: calculó una diferencia absoluta del 8,6 % a favor del tratamiento (NNT 12) en estadio I/II.",
+            "en": "ASRM describes no such effect: it calculated an absolute difference of 8.6% in favour of treatment (NNT 12) in stage I/II."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que solo debe hacerse si la ecografía muestra un endometrioma.",
+            "en": "That it should only be done if the ultrasound shows an endometrioma."
+          },
+          "correct": false,
+          "why": {
+            "es": "La paciente tiene ecografía normal; ASRM considera la laparoscopia de poca utilidad en mujeres asintomáticas, y no la condiciona a un hallazgo ecográfico.",
+            "en": "The patient has a normal scan; ASRM considers laparoscopy of low utility in asymptomatic women and does not make it conditional on an ultrasound finding."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que es de poca utilidad: la enfermedad avanzada es poco frecuente en mujeres asintomáticas con ecografía normal, aunque, si se hace una laparoscopia, debe considerarse tratar las lesiones visibles.",
+            "en": "That it is of low utility: advanced disease is uncommon in asymptomatic women with a normal ultrasound, although if laparoscopy is performed, treating visible lesions should be considered."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la conclusión de ASRM 2012 sobre la laparoscopia en mujeres asintomáticas con ecografía normal.",
+            "en": "Correct: this is the ASRM 2012 conclusion on laparoscopy in asymptomatic women with a normal ultrasound."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si la cirugía se hace por otro motivo, las lesiones visibles pueden tratarse; lo que no se justifica es operar solo para aumentar el embarazo en este perfil.",
+        "en": "If surgery is done for another reason, visible lesions may be treated; what is not justified is operating solely to increase pregnancy in this profile."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx11",
+      "kind": "question",
+      "conceptId": "endo-fert.staging-efi",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cuál de estos elementos NO forma parte del Endometriosis Fertility Index (EFI)?",
+        "en": "Which of these elements is NOT part of the Endometriosis Fertility Index (EFI)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La edad.",
+            "en": "Age."
+          },
+          "correct": false,
+          "why": {
+            "es": "La edad es uno de los factores de la paciente del EFI.",
+            "en": "Age is one of the EFI patient factors."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La puntuación de «menor función» de trompas y ovarios.",
+            "en": "The “least function” score of tubes and ovaries."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es uno de los factores quirúrgicos del EFI.",
+            "en": "It is one of the EFI surgical factors."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La AMH.",
+            "en": "AMH."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el EFI combina factores de la paciente y quirúrgicos; la AMH no es uno de ellos.",
+            "en": "Correct: the EFI combines patient and surgical factors; AMH is not one of them."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La duración de la subfertilidad.",
+            "en": "Duration of subfertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es uno de los factores de la paciente del EFI, junto con la edad y el embarazo previo.",
+            "en": "It is one of the EFI patient factors, together with age and prior pregnancy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "EFI: edad, duración de la subfertilidad y embarazo previo + menor función de trompas y ovarios y puntuaciones rASRM de lesión y total; de 0 a 10, al final de la cirugía.",
+        "en": "EFI: age, duration of subfertility and prior pregnancy + least function of tubes and ovaries and the rASRM lesion and total scores; 0 to 10, at the end of surgery."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx12",
+      "kind": "question",
+      "conceptId": "endo-fert.staging-efi",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una paciente con endometriosis rASRM estadio IV y dolor leve pregunta si su estadio predice cuánto dolor tendrá y si determina su tratamiento. ¿Qué es lo correcto?",
+        "en": "A patient with rASRM stage IV endometriosis and mild pain asks whether her stage predicts how much pain she will have and whether it determines her treatment. What is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El estadio IV predice dolor intenso y obliga a cirugía.",
+            "en": "Stage IV predicts severe pain and requires surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay correlación convincente entre estadio y síntomas, y NICE no trata según el estadio.",
+            "en": "There is no convincing correlation between stage and symptoms, and NICE does not treat by stage."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El estadio rASRM es el mejor predictor del embarazo sin TRA tras la cirugía.",
+            "en": "rASRM stage is the best predictor of non-ART pregnancy after surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "Para el pronóstico reproductivo, ESHRE se apoya en el EFI, que incluye las puntuaciones rASRM pero también otros factores.",
+            "en": "For reproductive prognosis, ESHRE relies on the EFI, which includes rASRM scores but also other factors."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El estadio se usa para decidir la dosis de analgésicos.",
+            "en": "Stage is used to decide analgesic dosing."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna fuente lo propone; el tratamiento se guía por los síntomas y las preferencias.",
+            "en": "No source proposes this; treatment is guided by symptoms and preferences."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE no encuentra una correlación convincente entre estadio rASRM y gravedad de los síntomas, y NICE trata según síntomas, preferencias y prioridades, no según el estadio.",
+            "en": "ESHRE finds no convincing correlation between rASRM stage and symptom severity, and NICE treats according to symptoms, preferences and priorities, not stage."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: según ESHRE, los sistemas de estadificación se diseñaron sobre todo para describir la extensión y la localización con fines quirúrgicos; NICE 1.6.1 pide tratar según los síntomas, las preferencias y las prioridades, no según el estadio.",
+            "en": "Correct: according to ESHRE, staging systems were designed mainly to describe extent and location for surgical purposes; NICE 1.6.1 asks for treatment according to symptoms, preferences and priorities, not stage."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El estadio describe la anatomía, no el dolor ni, por sí solo, el pronóstico reproductivo.",
+        "en": "Stage describes anatomy, not pain nor, on its own, reproductive prognosis."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx13",
+      "kind": "question",
+      "conceptId": "endo-fert.staging-efi",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Tras una laparoscopia por endometriosis, una mujer de 30 años tiene un EFI de 9, pero su pareja tiene una oligozoospermia grave. ¿Cómo encaja el EFI en la decisión, según ESHRE?",
+        "en": "After laparoscopy for endometriosis, a 30-year-old woman has an EFI of 9, but her partner has severe oligozoospermia. How does the EFI fit into the decision, according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Con un EFI de 9, basta con esperar el embarazo espontáneo.",
+            "en": "With an EFI of 9, waiting for spontaneous pregnancy is enough."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un EFI alto no compensa un seminograma alterado: el índice asume que los gametos funcionan.",
+            "en": "A high EFI does not offset an abnormal semen analysis: the index assumes the gametes work."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El EFI ya incluye el seminograma de la pareja.",
+            "en": "The EFI already includes the partner's semen analysis."
+          },
+          "correct": false,
+          "why": {
+            "es": "El EFI solo incluye factores de la paciente y quirúrgicos.",
+            "en": "The EFI includes only patient and surgical factors."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El EFI asume una función normal de los gametos; debe usarse teniendo en cuenta otras pruebas, como el seminograma de la pareja.",
+            "en": "The EFI assumes normal gamete function; it should be used taking into account other tests, such as the partner's semen analysis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE propone usar el EFI para identificar quién se beneficiará de TRA tras la cirugía, junto con pruebas como el seminograma (declaración del GDG).",
+            "en": "Correct: ESHRE proposes using the EFI to identify who will benefit from ART after surgery, together with tests such as the semen analysis (GDG statement)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El EFI no está validado y no debe usarse.",
+            "en": "The EFI is not validated and should not be used."
+          },
+          "correct": false,
+          "why": {
+            "es": "Según ESHRE, está validado externamente en más de 30 estudios y es reproducible.",
+            "en": "According to ESHRE, it has been externally validated in over 30 studies and is reproducible."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un EFI alto no compensa un factor masculino: el índice predice el embarazo sin TRA asumiendo gametos normales.",
+        "en": "A high EFI does not offset a male factor: the index predicts non-ART pregnancy assuming normal gametes."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx14",
+      "kind": "question",
+      "conceptId": "endo-fert.no-suppression",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "Tras la cirugía de su endometriosis, una mujer de 32 años no quiere intentar el embarazo hasta dentro de un año. ¿Qué permite ESHRE?",
+        "en": "After surgery for endometriosis, a 32-year-old woman does not want to try to conceive for another year. What does ESHRE allow?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Nada hormonal: ESHRE prohíbe cualquier tratamiento hormonal tras la cirugía.",
+            "en": "Nothing hormonal: ESHRE forbids any hormone therapy after surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sobregeneraliza: ESHRE lo permite si no busca embarazo de inmediato.",
+            "en": "This overgeneralises: ESHRE allows it if she is not trying to conceive right away."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ofrecer tratamiento hormonal, porque no perjudica su fertilidad y mejora el efecto inmediato de la cirugía sobre el dolor (débil, ⊕⊕).",
+            "en": "Offering hormone therapy, because it does not harm her fertility and improves the immediate effect of surgery on pain (weak, ⊕⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE (rec. 41) permite el tratamiento hormonal si no se busca embarazo de inmediato; la recomendación en contra de la supresión posoperatoria (rec. 40) se refiere a usarla solo para aumentar el embarazo.",
+            "en": "Correct: ESHRE (rec. 41) allows hormone therapy when pregnancy is not sought immediately; the recommendation against postoperative suppression (rec. 40) refers to using it solely to enhance pregnancy rates."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Supresión con agonista de la GnRH para aumentar después su tasa de embarazo.",
+            "en": "GnRH agonist suppression to increase her later pregnancy rate."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja la supresión posoperatoria solo para aumentar el embarazo (fuerte, ⊕⊕).",
+            "en": "ESHRE recommends against postoperative suppression solely to enhance pregnancy rates (strong, ⊕⊕)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Letrozol continuo para prevenir la recurrencia y mejorar la fertilidad.",
+            "en": "Continuous letrozole to prevent recurrence and improve fertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja el letrozol fuera de la inducción de la ovulación para mejorar el embarazo natural (fuerte, ⊕).",
+            "en": "ESHRE recommends against letrozole outside ovulation induction to improve natural pregnancy rates (strong, ⊕)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La clave es el objetivo: tratamiento hormonal para el dolor en quien no busca embarazo, sí; para aumentar la fertilidad, no.",
+        "en": "The key is the goal: hormone therapy for pain in someone not trying to conceive, yes; to increase fertility, no."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx15",
+      "kind": "question",
+      "conceptId": "endo-fert.no-suppression",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer con endometriosis que busca embarazo espontáneo pregunta por pentoxifilina, antiinflamatorios o letrozol «para mejorar la fertilidad». ¿Qué dice ESHRE?",
+        "en": "A woman with endometriosis trying to conceive spontaneously asks about pentoxifylline, anti-inflammatory drugs or letrozole “to improve fertility”. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Recomienda no prescribirlos para mejorar el embarazo natural, salvo el letrozol dentro de la inducción de la ovulación (fuerte, ⊕).",
+            "en": "It recommends against prescribing them to improve natural pregnancy rates, except letrozole within ovulation induction (strong, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la recomendación 42 de ESHRE.",
+            "en": "Correct: this is ESHRE recommendation 42."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomienda la pentoxifilina (débil, ⊕).",
+            "en": "It recommends pentoxifylline (weak, ⊕)."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE recomienda no prescribirla para mejorar el embarazo natural.",
+            "en": "ESHRE recommends against prescribing it to improve natural pregnancy rates."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Recomienda antiinflamatorios no esteroideos de forma continua.",
+            "en": "It recommends continuous non-steroidal anti-inflammatory drugs."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja los antiinflamatorios con este fin.",
+            "en": "ESHRE recommends against anti-inflammatory drugs for this purpose."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No se pronuncia sobre ellos.",
+            "en": "It does not address them."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí se pronuncia, con una recomendación fuerte en contra.",
+            "en": "It does address them, with a strong recommendation against."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Recomendación fuerte con evidencia de calidad muy baja (⊕): fuerza y calidad son cosas distintas.",
+        "en": "A strong recommendation with very low-quality evidence (⊕): strength and quality are different things."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx16",
+      "kind": "question",
+      "conceptId": "endo-fert.peritoneal-surgery",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "La revisión Cochrane de 2020 en que se apoya ESHRE para la cirugía de la endometriosis estadio I/II mostró una OR de 1,89 (IC95 % 1,25–2,86). ¿A qué desenlace se refiere y qué falta?",
+        "en": "The 2020 Cochrane review on which ESHRE relies for surgery in stage I/II endometriosis showed an OR of 1.89 (95% CI 1.25–2.86). Which outcome does it refer to, and what is missing?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Nacido vivo frente a FIV.",
+            "en": "Live birth versus IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "La revisión no aportó datos de nacido vivo ni comparó con la reproducción asistida.",
+            "en": "The review provided no live-birth data and did not compare with assisted reproduction."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Embarazo intrauterino viable confirmado por ecografía frente a laparoscopia diagnóstica sola; no hay datos de nacido vivo ni comparación directa con la reproducción asistida.",
+            "en": "Ultrasound-confirmed viable intrauterine pregnancy versus diagnostic laparoscopy alone; there are no live-birth data and no direct comparison with assisted reproduction."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: evidencia de calidad moderada de 3 ECA, con esas dos limitaciones que señala ESHRE.",
+            "en": "Correct: moderate-quality evidence from 3 RCTs, with the two limitations ESHRE points out."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Reducción del dolor frente a placebo.",
+            "en": "Pain reduction versus placebo."
+          },
+          "correct": false,
+          "why": {
+            "es": "El desenlace citado es el embarazo intrauterino viable.",
+            "en": "The outcome cited is viable intrauterine pregnancy."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Embarazo clínico, sin diferencia significativa.",
+            "en": "Clinical pregnancy, with no significant difference."
+          },
+          "correct": false,
+          "why": {
+            "es": "El intervalo 1,25–2,86 excluye el 1: el resultado es significativo.",
+            "en": "The 1.25–2.86 interval excludes 1: the result is significant."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Por eso ESHRE formula que la laparoscopia operatoria «could be offered» en estadio I/II (débil, ⊕⊕), no una recomendación fuerte.",
+        "en": "This is why ESHRE states that operative laparoscopy “could be offered” in stage I/II (weak, ⊕⊕), not a strong recommendation."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx17",
+      "kind": "question",
+      "conceptId": "endo-fert.peritoneal-surgery",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cómo formulan ESHRE y NICE NG73 la cirugía de la endometriosis peritoneal en mujeres que buscan embarazo?",
+        "en": "How do ESHRE and NICE NG73 frame surgery for peritoneal endometriosis in women trying to conceive?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ESHRE la recomienda con fuerza y NICE la desaconseja.",
+            "en": "ESHRE strongly recommends it and NICE advises against it."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE la formula como débil y NICE la ofrece.",
+            "en": "ESHRE frames it as weak and NICE offers it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas la desaconsejan porque no mejora el nacido vivo.",
+            "en": "Both advise against it because it does not improve live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna la desaconseja; la falta de datos de nacido vivo es una limitación, no una prueba de ineficacia.",
+            "en": "Neither advises against it; the lack of live-birth data is a limitation, not proof of inefficacy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas la reservan para la afectación intestinal.",
+            "en": "Both reserve it for bowel involvement."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación de NICE se refiere precisamente a la enfermedad sin afectación de intestino, vejiga ni uréter.",
+            "en": "NICE's recommendation refers precisely to disease without bowel, bladder or ureter involvement."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE: la laparoscopia operatoria podría ofrecerse en estadio I/II (débil, ⊕⊕); NICE: ofrecer escisión o ablación más adhesiolisis si no afecta a intestino, vejiga ni uréter (1.10.1).",
+            "en": "ESHRE: operative laparoscopy could be offered in stage I/II (weak, ⊕⊕); NICE: offer excision or ablation plus adhesiolysis if bowel, bladder or ureter are not involved (1.10.1)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas lo justifican por la mejora del embarazo (evolutivo en ESHRE; espontáneo en NICE).",
+            "en": "Correct: both justify it by improved pregnancy (ongoing in ESHRE; spontaneous in NICE)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "«Could be offered» (débil) no es lo mismo que «recomienda»: cita la fuerza de cada guía.",
+        "en": "“Could be offered” (weak) is not the same as “recommends”: quote each guideline's strength."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx18",
+      "kind": "question",
+      "conceptId": "endo-fert.peritoneal-surgery",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué cálculo hizo ASRM (2012) sobre la laparoscopia para tratar la endometriosis mínima o leve con el fin de aumentar el embarazo?",
+        "en": "What calculation did ASRM (2012) make about laparoscopy to treat minimal or mild endometriosis in order to increase pregnancy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "A partir de dos ECA, una diferencia absoluta del 8,6 % (NNT 12), pero unas 40 laparoscopias por embarazo adicional en mujeres asintomáticas con infertilidad por lo demás inexplicada.",
+            "en": "From two RCTs, an absolute difference of 8.6% (NNT 12), but about 40 laparoscopies per additional pregnancy in asymptomatic women with otherwise unexplained infertility."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el cálculo de ASRM 2012; el comité considera la laparoscopia de poca utilidad en mujeres asintomáticas con ecografía normal.",
+            "en": "Correct: this is the ASRM 2012 calculation; the committee considers laparoscopy of low utility in asymptomatic women with a normal ultrasound."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un NNT de 2: casi todas las operadas se embarazan.",
+            "en": "An NNT of 2: almost all operated women conceive."
+          },
+          "correct": false,
+          "why": {
+            "es": "El NNT calculado por ASRM es 12.",
+            "en": "The NNT calculated by ASRM is 12."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ningún beneficio en ningún ECA.",
+            "en": "No benefit in any RCT."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM calculó una diferencia absoluta del 8,6 % a favor del tratamiento.",
+            "en": "ASRM calculated an absolute difference of 8.6% in favour of treatment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "4 laparoscopias por embarazo adicional en mujeres asintomáticas.",
+            "en": "4 laparoscopies per additional pregnancy in asymptomatic women."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM estimó unas 40, no 4.",
+            "en": "ASRM estimated about 40, not 4."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La pregunta útil no es «¿opero para mejorar la fertilidad?», sino «si ya estoy dentro, ¿trato lo que veo?».",
+        "en": "The useful question is not “should I operate to improve fertility?” but “if I am already in, do I treat what I see?”."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx19",
+      "kind": "question",
+      "conceptId": "endo-fert.endometrioma-reserve",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según los datos que resume ESHRE, ¿en qué situación es mayor el daño de la cirugía del endometrioma sobre la reserva ovárica?",
+        "en": "According to the data ESHRE summarises, in which situation is the damage of endometrioma surgery to ovarian reserve greatest?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Endometrioma unilateral pequeño en la primera cirugía.",
+            "en": "A small unilateral endometrioma at first surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los datos de ESHRE señalan mayor daño con bilateralidad y recurrencia.",
+            "en": "ESHRE's data point to greater damage with bilateral and recurrent disease."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Drenaje y ablación frente a quistectomía.",
+            "en": "Drainage and ablation versus cystectomy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Según NICE, el drenaje y la ablación pueden preservar más la reserva que la quistectomía.",
+            "en": "According to NICE, drainage and ablation may preserve reserve more than cystectomy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Endometriomas bilaterales y cirugía de endometriomas recurrentes.",
+            "en": "Bilateral endometriomas and surgery for recurrent endometriomas."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: se describe un 2,4 % de fallo ovárico tras extirpar endometriomas bilaterales, y más daño en la cirugía de recurrencias que en la primera.",
+            "en": "Correct: a 2.4% risk of ovarian failure is described after removing bilateral endometriomas, and more damage with surgery for recurrence than with first surgery."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna: la quistectomía no afecta a la reserva.",
+            "en": "None: cystectomy does not affect reserve."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un metaanálisis confirma un efecto deletéreo y sostenido de la quistectomía sobre la reserva.",
+            "en": "A meta-analysis confirms a deleterious and sustained effect of cystectomy on reserve."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes de operar un endometrioma en quien busca embarazo, aclara el objetivo: dolor, embarazo espontáneo o acceso en la FIV.",
+        "en": "Before operating on an endometrioma in someone trying to conceive, be clear about the goal: pain, spontaneous pregnancy or access during IVF."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx20",
+      "kind": "question",
+      "conceptId": "endo-fert.endometrioma-reserve",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Ante un endometrioma que se va a operar, ¿cómo se comparan las posiciones de ESHRE y NICE sobre quistectomía frente a drenaje y ablación?",
+        "en": "For an endometrioma that is going to be operated on, how do ESHRE and NICE positions compare on cystectomy versus drainage and ablation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas prefieren el drenaje porque da más embarazos.",
+            "en": "Both prefer drainage because it gives more pregnancies."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no halló diferencias importantes de embarazo, y ESHRE recomienda la quistectomía frente al drenaje y la coagulación.",
+            "en": "NICE found no important difference in pregnancy, and ESHRE recommends cystectomy over drainage and coagulation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE prefiere el drenaje y NICE solo ofrece quistectomía.",
+            "en": "ESHRE prefers drainage and NICE offers only cystectomy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido: ESHRE recomienda la quistectomía y NICE ofrece ambas técnicas.",
+            "en": "It is inverted: ESHRE recommends cystectomy and NICE offers both techniques."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ESHRE recomienda la quistectomía en lugar del drenaje y la coagulación porque reduce la recurrencia del endometrioma y del dolor (fuerte, ⊕⊕), y pide además especial cautela para minimizar el daño ovárico (fuerte, ⊕); NICE ofrece ambas técnicas y señala que el drenaje y la ablación pueden preservar más la reserva.",
+            "en": "ESHRE recommends cystectomy instead of drainage and coagulation because it reduces recurrence of the endometrioma and of pain (strong, ⊕⊕), and also asks for specific caution to minimise ovarian damage (strong, ⊕); NICE offers both techniques and notes that drainage and ablation may preserve reserve more."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 26 y 28 de ESHRE; NICE no halló una diferencia importante de embarazo entre técnicas en endometriomas de más de 3 cm y mantiene el drenaje y la ablación como opción si la reserva ovárica es prioritaria (justificación de 1.10.2).",
+            "en": "Correct: ESHRE recommendations 26 and 28; NICE found no important difference in pregnancy between techniques for endometriomas larger than 3 cm and keeps drainage and ablation as an option when ovarian reserve is a priority (rationale for 1.10.2)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna tiene en cuenta la reserva ovárica.",
+            "en": "Neither takes ovarian reserve into account."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas piden tener en cuenta el impacto sobre la reserva ovárica.",
+            "en": "Both ask for the impact on ovarian reserve to be taken into account."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El objetivo de la cirugía (dolor frente a reserva) cambia el peso de cada técnica.",
+        "en": "The aim of surgery (pain versus reserve) changes the weight of each technique."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx21",
+      "kind": "question",
+      "conceptId": "endo-fert.endometrioma-reserve",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Con qué fuerza contempla ESHRE la laparoscopia operatoria en la infertilidad asociada a endometrioma?",
+        "en": "With what strength does ESHRE contemplate operative laparoscopy for endometrioma-associated infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Puede considerarse porque podría aumentar el embarazo natural, aunque no hay estudios comparativos (débil, ⊕), con precaución específica para minimizar el daño ovárico (fuerte, ⊕).",
+            "en": "It may be considered because it may increase natural pregnancy, although no comparative studies exist (weak, ⊕), with specific caution to minimise ovarian damage (strong, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 44 (débil) y 28 (fuerte) de ESHRE.",
+            "en": "Correct: ESHRE recommendations 44 (weak) and 28 (strong)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomendación fuerte basada en ECA de calidad alta.",
+            "en": "A strong recommendation based on high-quality RCTs."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay estudios comparativos; la recomendación es débil, con calidad muy baja.",
+            "en": "There are no comparative studies; the recommendation is weak, with very low quality."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No recomendada en ningún caso.",
+            "en": "Not recommended in any case."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE dice que puede considerarse.",
+            "en": "ESHRE says it may be considered."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Obligatoria antes de cualquier intento de embarazo.",
+            "en": "Mandatory before any attempt to conceive."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una recomendación débil, no una obligación.",
+            "en": "It is a weak recommendation, not an obligation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Débil para operar, fuerte para proteger el ovario: dos recomendaciones distintas sobre el mismo procedimiento.",
+        "en": "Weak for operating, strong for protecting the ovary: two different recommendations on the same procedure."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx22",
+      "kind": "question",
+      "conceptId": "endo-fert.deep-decision",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ESHRE, ¿qué debe guiar la decisión de operar la endometriosis profunda en una mujer sintomática que desea embarazo?",
+        "en": "According to ESHRE, what should guide the decision to operate on deep endometriosis in a symptomatic woman wishing to conceive?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo el estadio rASRM.",
+            "en": "rASRM stage alone."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE enumera varios factores; además, el estadio no se correlaciona de forma convincente con los síntomas.",
+            "en": "ESHRE lists several factors; moreover, stage does not correlate convincingly with symptoms."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo el CA125.",
+            "en": "CA125 alone."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE desaconseja los biomarcadores para el diagnóstico y no los usa para esta decisión.",
+            "en": "ESHRE advises against biomarkers for diagnosis and does not use them for this decision."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La evidencia de ECA de que la cirugía duplica la fertilidad.",
+            "en": "RCT evidence that surgery doubles fertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE dice que no hay evidencia convincente de que mejore la fertilidad.",
+            "en": "ESHRE states there is no compelling evidence that it improves fertility."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El dolor, la edad y las preferencias, la cirugía previa, otros factores de infertilidad, la reserva ovárica y el EFI estimado (GPP).",
+            "en": "Pain, age and preferences, previous surgery, other infertility factors, ovarian reserve and the estimated EFI (GPP)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE no tiene evidencia convincente de que la cirugía mejore la fertilidad, pero puede ser una opción (débil, ⊕).",
+            "en": "Correct: ESHRE has no compelling evidence that surgery improves fertility, but it may be an option (weak, ⊕)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE NG73 pide además hablar de beneficios y riesgos, del posible efecto en futuros embarazos y de las alternativas, y derivar a un centro especializado.",
+        "en": "NICE NG73 also asks for a discussion of benefits and risks, possible effects on future pregnancy and alternatives, and referral to a specialist centre."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx23",
+      "kind": "question",
+      "conceptId": "endo-fert.deep-decision",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el NHS, una mujer con endometriosis profunda no ha concebido tras 2 años. Según NICE (NG257, con la justificación de su comité, y NG73), ¿qué opción encaja peor?",
+        "en": "In the NHS, a woman with deep endometriosis has not conceived after 2 years. According to NICE (NG257, with its committee's rationale, and NG73), which option fits worst?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ofrecer FIV.",
+            "en": "Offering IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE contempla ofrecer FIV si no hay embarazo tras el manejo expectante o la cirugía, o si estos no son apropiados.",
+            "en": "NICE contemplates offering IVF if there is no pregnancy after expectant management or surgery, or if these are not appropriate."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "IUI con estimulación con gonadotropinas.",
+            "en": "IUI with gonadotrophin stimulation."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la recomendación 1.36.2 contempla hasta 4 IUI con gonadotropinas «si procede», pero el comité comentó que, en la práctica, esta opción podría ser adecuada para personas sin endometriosis profunda y con trompas permeables.",
+            "en": "Correct: recommendation 1.36.2 allows up to 4 IUI cycles with gonadotrophins “if appropriate”, but the committee noted that in practice this option could be appropriate for people without deep endometriosis and with patent tubes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Valorar la decisión según edad, reserva ovárica, síntomas y factor masculino.",
+            "en": "Weighing the decision by age, ovarian reserve, symptoms and male factor."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide tener en cuenta esos factores (1.36).",
+            "en": "NICE asks for those factors to be taken into account (1.36)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hablar de beneficios y riesgos de la cirugía y derivar a un centro especializado.",
+            "en": "Discussing the benefits and risks of surgery and referring to a specialist centre."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es lo que pide NICE NG73 para la endometriosis profunda (1.10.3, 1.5.6).",
+            "en": "This is what NICE NG73 asks for in deep endometriosis (1.10.3, 1.5.6)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE NG257: manejo expectante hasta 2 años (incluido el tiempo ya intentado) o cirugía; después, hasta 4 IUI con gonadotropinas si procede, u ofrecer FIV.",
+        "en": "NICE NG257: expectant management for up to 2 years (including time already trying) or surgery; then up to 4 IUI cycles with gonadotrophins if appropriate, or offer IVF."
+      },
+      "refIds": [
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx24",
+      "kind": "question",
+      "conceptId": "endo-fert.deep-decision",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer con endometriosis estadio III/IV ya operada por infertilidad, que no ha concebido. ¿Qué sugirió ASRM (2012)?",
+        "en": "A woman with stage III/IV endometriosis already operated on for infertility, who has not conceived. What did ASRM (2012) suggest?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la FIV suele ser mejor opción que reoperar, aunque no se ha estudiado en ECA.",
+            "en": "That IVF is often a better option than reoperation, although this has not been studied in RCTs."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la sugerencia de ASRM, sin ECA que la respalden.",
+            "en": "Correct: this is ASRM's suggestion, with no RCTs supporting it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Reoperar siempre antes de la FIV, según ECA.",
+            "en": "Always reoperate before IVF, based on RCTs."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM sugirió lo contrario y no hay ECA sobre este punto.",
+            "en": "ASRM suggested the opposite, and there are no RCTs on this point."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Supresión con agonista de la GnRH 6 meses y después embarazo espontáneo.",
+            "en": "GnRH agonist suppression for 6 months, then spontaneous pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La supresión no mejora la fertilidad y no es lo que sugirió ASRM.",
+            "en": "Suppression does not improve fertility and is not what ASRM suggested."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Esperar 5 años más de manejo expectante.",
+            "en": "Wait 5 more years of expectant management."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM no lo propone.",
+            "en": "ASRM does not propose this."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sugerencia sin ECA: preséntala como opinión razonada, no como evidencia firme.",
+        "en": "A suggestion without RCTs: present it as reasoned opinion, not firm evidence."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx25",
+      "kind": "question",
+      "conceptId": "endo-fert.iui-os",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En la IUI para endometriosis estadio I/II, ¿qué fármacos de estimulación se han estudiado específicamente, según ESHRE?",
+        "en": "In IUI for stage I/II endometriosis, which stimulation drugs have been specifically studied, according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sobre todo letrozol, con ECA en endometriosis.",
+            "en": "Mostly letrozole, with RCTs in endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "El letrozol para IUI no se ha estudiado en endometriosis.",
+            "en": "Letrozole for IUI has not been studied in endometriosis."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sobre todo gonadotropinas; el clomifeno y el letrozol no se han estudiado en endometriosis y solo hay evidencia indirecta de la infertilidad inexplicada.",
+            "en": "Mostly gonadotrophins; clomiphene and letrozole have not been studied in endometriosis and there is only indirect evidence from unexplained infertility."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo resume ESHRE.",
+            "en": "Correct: this is how ESHRE summarises it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sobre todo clomifeno, con ECA en endometriosis.",
+            "en": "Mostly clomiphene, with RCTs in endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "El clomifeno para IUI no se ha estudiado en endometriosis.",
+            "en": "Clomiphene for IUI has not been studied in endometriosis."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguno: no hay estudios de IUI en endometriosis.",
+            "en": "None: there are no IUI studies in endometriosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí los hay, y usaron sobre todo gonadotropinas.",
+            "en": "There are, and they mostly used gonadotrophins."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ESHRE añade que la IUI estimulada puede considerarse en los 6 meses posteriores a la cirugía del estadio I/II, con tasas de embarazo parecidas a las de la infertilidad inexplicada.",
+        "en": "ESHRE adds that stimulated IUI may be considered within 6 months after surgery for stage I/II, with pregnancy rates similar to unexplained infertility."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx26",
+      "kind": "question",
+      "conceptId": "endo-fert.iui-os",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 33 años con endometriosis rASRM estadio III, trompas permeables y seminograma normal de la pareja. ¿Qué dice ESHRE sobre la IUI con estimulación ovárica?",
+        "en": "A 33-year-old woman with rASRM stage III endometriosis, patent tubes and a normal partner semen analysis. What does ESHRE say about IUI with ovarian stimulation?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Está recomendada con la misma fuerza que en estadio I/II, porque aumenta el embarazo.",
+            "en": "It is recommended with the same strength as in stage I/II, because it increases pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "En estadio I/II, ESHRE dice que aumenta el embarazo; en III/IV su valor es incierto.",
+            "en": "In stage I/II, ESHRE says it increases pregnancy; in III/IV its value is uncertain."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Está contraindicada en estadio III/IV.",
+            "en": "It is contraindicated in stage III/IV."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no la contraindica: dice que podría considerarse.",
+            "en": "ESHRE does not contraindicate it: it says it could be considered."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo puede hacerse con clomifeno.",
+            "en": "It can only be done with clomiphene."
+          },
+          "correct": false,
+          "why": {
+            "es": "El clomifeno no se ha estudiado para IUI en endometriosis; los estudios usaron sobre todo gonadotropinas.",
+            "en": "Clomiphene has not been studied for IUI in endometriosis; studies mostly used gonadotrophins."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Su valor es incierto en estadio III/IV con trompas permeables, pero podría considerarse (débil, ⊕).",
+            "en": "Its value is uncertain in stage III/IV with patent tubes, but it could be considered (weak, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la recomendación 48 de ESHRE.",
+            "en": "Correct: this is ESHRE recommendation 48."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Estadio I/II: la IUI estimulada aumenta el embarazo (débil, ⊕); estadio III/IV con trompas permeables: valor incierto, podría considerarse (débil, ⊕).",
+        "en": "Stage I/II: stimulated IUI increases pregnancy (weak, ⊕); stage III/IV with patent tubes: uncertain value, could be considered (weak, ⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx27",
+      "kind": "question",
+      "conceptId": "endo-fert.ivf",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el metaanálisis que cita ESHRE, ¿cómo fue el nacido vivo tras FIV en mujeres con endometriosis frente a mujeres sin ella?",
+        "en": "In the meta-analysis cited by ESHRE, how did live birth after IVF compare between women with and without endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Menor en todos los estadios.",
+            "en": "Lower at all stages."
+          },
+          "correct": false,
+          "why": {
+            "es": "En estadio I/II, el intervalo incluye el 1: sin diferencia.",
+            "en": "In stage I/II, the interval includes 1: no difference."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Menor en estadio I/II y sin diferencia en III/IV.",
+            "en": "Lower in stage I/II and no difference in III/IV."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido.",
+            "en": "It is the other way round."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sin diferencia en estadio I/II (OR 0,96; IC95 % 0,82–1,12) y menor en estadio III/IV (OR 0,77; 0,64–0,92).",
+            "en": "No difference in stage I/II (OR 0.96; 95% CI 0.82–1.12) and lower in stage III/IV (OR 0.77; 0.64–0.92)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en estadio III/IV hubo además menos ovocitos y menos embarazos.",
+            "en": "Correct: in stage III/IV there were also fewer oocytes and fewer pregnancies."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Mayor en estadio III/IV, porque la FIV evita las trompas.",
+            "en": "Higher in stage III/IV, because IVF bypasses the tubes."
+          },
+          "correct": false,
+          "why": {
+            "es": "La OR de 0,77 con intervalo que no incluye el 1 indica un nacido vivo menor.",
+            "en": "An OR of 0.77 with an interval that excludes 1 indicates lower live birth."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lee la dirección y el intervalo: 0,96 (incluye el 1) = sin diferencia; 0,77 (excluye el 1) = menor.",
+        "en": "Read the direction and the interval: 0.96 (includes 1) = no difference; 0.77 (excludes 1) = lower."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx28",
+      "kind": "question",
+      "conceptId": "endo-fert.ivf",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer con endometriosis y un endometrioma va a empezar FIV y teme que la estimulación «empeore su endometriosis». ¿Qué dice ESHRE?",
+        "en": "A woman with endometriosis and an endometrioma is about to start IVF and fears that stimulation will “make her endometriosis worse”. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Debe operarse el endometrioma antes para evitar la progresión.",
+            "en": "The endometrioma must be operated on first to prevent progression."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda extirpar el endometrioma antes de la TRA para mejorar el nacido vivo (fuerte, ⊕⊕).",
+            "en": "ESHRE does not recommend removing the endometrioma before ART to improve live birth (strong, ⊕⊕)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La TRA aumenta la recurrencia y debe evitarse.",
+            "en": "ART increases recurrence and should be avoided."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE indica que la TRA no aumenta la recurrencia.",
+            "en": "ESHRE states that ART does not increase recurrence."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo puede usarse un protocolo con agonista largo para proteger.",
+            "en": "Only a long agonist protocol may be used, for protection."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda un protocolo concreto: antagonista o agonista según preferencias (débil, ⊕).",
+            "en": "ESHRE does not recommend a specific protocol: antagonist or agonist according to preferences (weak, ⊕)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Se la puede tranquilizar: la TRA no aumenta la recurrencia (débil, ⊕⊕⊕); en la punción puede usarse profilaxis antibiótica, aunque el riesgo de absceso ovárico es bajo (GPP).",
+            "en": "She can be reassured: ART does not increase recurrence (weak, ⊕⊕⊕); antibiotic prophylaxis may be used at retrieval, although the risk of ovarian abscess is low (GPP)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 51 y 52 de ESHRE.",
+            "en": "Correct: ESHRE recommendations 51 and 52."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La TRA es segura en este aspecto; el protocolo (antagonista o agonista) se elige según preferencias, sin diferencias demostradas en embarazo ni nacido vivo.",
+        "en": "ART is safe in this respect; the protocol (antagonist or agonist) is chosen by preference, with no proven difference in pregnancy or live birth."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx29",
+      "kind": "question",
+      "conceptId": "endo-fert.ivf",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según ESHRE, ¿en cuál de estas situaciones de infertilidad asociada a endometriosis está especialmente indicada la TRA?",
+        "en": "According to ESHRE, in which of these situations of endometriosis-associated infertility is ART especially indicated?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "EFI alto con trompas permeables y semen normal.",
+            "en": "High EFI with patent tubes and normal semen."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un EFI alto predice buen embarazo sin TRA; ESHRE destaca el EFI bajo.",
+            "en": "A high EFI predicts good non-ART pregnancy; ESHRE highlights a low EFI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Estadio I recién operado, con 25 años y sin otros factores.",
+            "en": "Stage I just operated on, aged 25 and with no other factors."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las situaciones que destaca ESHRE se cumple aquí.",
+            "en": "None of the situations ESHRE highlights applies here."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Función tubárica comprometida.",
+            "en": "Compromised tubal function."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE la señala especialmente con función tubárica comprometida, factor masculino, EFI bajo o fracaso de otros tratamientos (débil, ⊕⊕).",
+            "en": "Correct: ESHRE highlights it especially with compromised tubal function, male factor, low EFI or failure of other treatments (weak, ⊕⊕)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "CA125 elevado.",
+            "en": "Elevated CA125."
+          },
+          "correct": false,
+          "why": {
+            "es": "El CA125 no forma parte de estos criterios y no se recomienda para el diagnóstico.",
+            "en": "CA125 is not among these criteria and is not recommended for diagnosis."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Indicaciones destacadas por ESHRE: trompas comprometidas, factor masculino, EFI bajo o fracaso de otros tratamientos.",
+        "en": "Indications highlighted by ESHRE: compromised tubes, male factor, low EFI or failure of other treatments."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx30",
+      "kind": "question",
+      "conceptId": "endo-fert.pre-art-suppression",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Cómo gradúa ESHRE el pretratamiento prolongado antes de la TRA en mujeres con endometriosis?",
+        "en": "How does ESHRE grade prolonged pre-treatment before ART in women with endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambos recomendados (fuerte).",
+            "en": "Both recommended (strong)."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda ninguno de los dos para mejorar el nacido vivo.",
+            "en": "ESHRE recommends neither to improve live birth."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Agonista de la GnRH prolongado: no recomendado (fuerte, ⊕); anticonceptivos orales combinados o progestágenos prolongados: evidencia insuficiente (débil, ⊕).",
+            "en": "Extended GnRH agonist: not recommended (strong, ⊕); prolonged combined oral contraceptives or progestogens: insufficient evidence (weak, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 53 y 54 de ESHRE.",
+            "en": "Correct: ESHRE recommendations 53 and 54."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Agonista recomendado (débil); anticonceptivos no recomendados (fuerte).",
+            "en": "Agonist recommended (weak); contraceptives not recommended (strong)."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés en la fuerza, y el agonista no se recomienda.",
+            "en": "The strengths are the other way round, and the agonist is not recommended."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Agonista con evidencia de calidad alta a favor.",
+            "en": "Agonist with high-quality evidence in favour."
+          },
+          "correct": false,
+          "why": {
+            "es": "La actualización Cochrane (8 ECA, 640 participantes) juzga el efecto sobre el nacido vivo muy incierto, con datos de calidad muy baja.",
+            "en": "The Cochrane update (8 RCTs, 640 participants) judges the effect on live birth very uncertain, with very low-quality data."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Es un ejemplo de recomendación que cambia al actualizarse la evidencia: la revisión antigua sugería más embarazo clínico con el agonista.",
+        "en": "It is an example of a recommendation that changes when evidence is updated: the older review suggested more clinical pregnancy with the agonist."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx31",
+      "kind": "question",
+      "conceptId": "endo-fert.pre-art-suppression",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction",
+        "hormones"
+      ],
+      "stem": {
+        "es": "ASRM (2012) citó una revisión de 3 ECA con una OR de embarazo clínico de 4,28 para el agonista de la GnRH antes de la FIV. ¿Qué advertía ya ASRM y qué cambió después?",
+        "en": "ASRM (2012) cited a review of 3 RCTs with an OR for clinical pregnancy of 4.28 for GnRH agonist before IVF. What did ASRM already warn, and what changed afterwards?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que era difícil de extrapolar por las tasas de embarazo muy altas en los grupos tratados; la actualización Cochrane posterior juzgó muy incierto el efecto sobre el nacido vivo.",
+            "en": "That it was hard to extrapolate given the very high pregnancy rates in the treated arms; the later Cochrane update judged the effect on live birth very uncertain."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ASRM 2012 es anterior a esa actualización, que llevó a ESHRE a no recomendarlo (fuerte, ⊕).",
+            "en": "Correct: ASRM 2012 predates that update, which led ESHRE not to recommend it (strong, ⊕)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el resultado era definitivo; la actualización lo confirmó.",
+            "en": "That the result was definitive; the update confirmed it."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM ya advertía de su difícil extrapolación, y la actualización no lo confirmó.",
+            "en": "ASRM already warned that it was hard to extrapolate, and the update did not confirm it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el agonista reducía el embarazo; la actualización mostró beneficio.",
+            "en": "That the agonist reduced pregnancy; the update showed benefit."
+          },
+          "correct": false,
+          "why": {
+            "es": "La OR de 4,28 iba a favor del agonista; la actualización halló un efecto muy incierto.",
+            "en": "The OR of 4.28 favoured the agonist; the update found a very uncertain effect."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el desenlace era el nacido vivo; la actualización usó el embarazo clínico.",
+            "en": "That the outcome was live birth; the update used clinical pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La OR de 4,28 se refería al embarazo clínico; la actualización evaluó el nacido vivo.",
+            "en": "The OR of 4.28 referred to clinical pregnancy; the update assessed live birth."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las cifras de la revisión antigua no coinciden entre fuentes (165 mujeres según ASRM; 228 pacientes según ESHRE); lo que importa es que la actualización cambió la conclusión.",
+        "en": "The older review's figures differ between sources (165 women according to ASRM; 228 patients according to ESHRE); what matters is that the update changed the conclusion."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility",
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx32",
+      "kind": "question",
+      "conceptId": "endo-fert.surgery-before-art",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En los metaanálisis que resume ESHRE, la cirugía del endometrioma antes de la TRA dio una OR de nacido vivo de 1,08 (IC95 % 0,80–1,45; 7 estudios). ¿Cuál es la lectura correcta?",
+        "en": "In the meta-analyses ESHRE summarises, endometrioma surgery before ART gave a live birth OR of 1.08 (95% CI 0.80–1.45; 7 studies). What is the correct reading?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Aumentó el nacido vivo un 8 %.",
+            "en": "It increased live birth by 8%."
+          },
+          "correct": false,
+          "why": {
+            "es": "El intervalo incluye el 1: no hay diferencia significativa.",
+            "en": "The interval includes 1: there is no significant difference."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No cambió el nacido vivo, y además redujo el recuento de folículos antrales y aumentó la dosis de FSH necesaria.",
+            "en": "It did not change live birth, and it also reduced antral follicle count and increased the FSH dose required."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el intervalo incluye el 1, y el ovario operado dio menos ovocitos que el contralateral.",
+            "en": "Correct: the interval includes 1, and the operated ovary yielded fewer oocytes than the contralateral one."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Redujo el nacido vivo de forma significativa.",
+            "en": "It significantly reduced live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "Una OR de 1,08 con intervalo 0,80–1,45 no indica reducción significativa.",
+            "en": "An OR of 1.08 with a 0.80–1.45 interval does not indicate a significant reduction."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Mejoró la respuesta ovárica.",
+            "en": "It improved ovarian response."
+          },
+          "correct": false,
+          "why": {
+            "es": "Redujo el recuento de folículos antrales y aumentó la dosis de FSH.",
+            "en": "It reduced antral follicle count and increased the FSH dose."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sin beneficio en nacido vivo y con coste en reserva: por eso ESHRE no recomienda extirpar el endometrioma antes de la TRA (fuerte, ⊕⊕).",
+        "en": "No live-birth benefit and a cost to reserve: hence ESHRE does not recommend removing the endometrioma before ART (strong, ⊕⊕)."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx33",
+      "kind": "question",
+      "conceptId": "endo-fert.surgery-before-art",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 35 años con endometriosis profunda y dolor leve bien controlado va a empezar FIV. Según ESHRE, ¿qué debe guiar la decisión de operar antes?",
+        "en": "A 35-year-old woman with deep endometriosis and mild, well-controlled pain is about to start IVF. According to ESHRE, what should guide the decision to operate first?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La mejora demostrada del nacido vivo tras la cirugía.",
+            "en": "The proven improvement in live birth after surgery."
+          },
+          "correct": false,
+          "why": {
+            "es": "El efecto reproductivo de la cirugía de la endometriosis profunda antes de la TRA es incierto.",
+            "en": "The reproductive effect of deep endometriosis surgery before ART is uncertain."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El estadio rASRM: siempre operar el estadio IV.",
+            "en": "rASRM stage: always operate on stage IV."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE guía la decisión por el dolor y las preferencias, no por el estadio.",
+            "en": "ESHRE guides the decision by pain and preferences, not by stage."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El CA125.",
+            "en": "CA125."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es un criterio de ESHRE para esta decisión.",
+            "en": "It is not an ESHRE criterion for this decision."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sobre todo el dolor y sus preferencias, porque el efecto reproductivo de la cirugía es incierto (fuerte, ⊕).",
+            "en": "Mainly her pain and preferences, because the reproductive effect of surgery is uncertain (strong, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la recomendación 58 de ESHRE.",
+            "en": "Correct: this is ESHRE recommendation 58."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes de la TRA, la cirugía se justifica por síntomas o preferencias, no por un beneficio reproductivo demostrado.",
+        "en": "Before ART, surgery is justified by symptoms or preferences, not by a proven reproductive benefit."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx34",
+      "kind": "question",
+      "conceptId": "endo-fert.surgery-before-art",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Sobre la cirugía del endometrioma antes de la FIV, ¿en qué difieren ASRM (2012) y ESHRE (2022)?",
+        "en": "On endometrioma surgery before IVF, how do ASRM (2012) and ESHRE (2022) differ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ASRM sugería considerarla si medía más de 4 cm (confirmar el diagnóstico, mejorar el acceso y quizá la respuesta); ESHRE no la recomienda para mejorar el nacido vivo (fuerte, ⊕⊕) y solo la contempla por dolor o acceso folicular (GPP).",
+            "en": "ASRM suggested considering it if larger than 4 cm (to confirm the diagnosis, improve access and possibly response); ESHRE does not recommend it to improve live birth (strong, ⊕⊕) and only contemplates it for pain or follicle access (GPP)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas reconocen evidencia insuficiente de beneficio en la FIV y el posible daño ovárico.",
+            "en": "Correct: both acknowledge insufficient evidence of benefit for IVF and possible ovarian damage."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas la recomiendan siempre antes de la FIV.",
+            "en": "Both always recommend it before IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna la recomienda de rutina; ESHRE la desaconseja para mejorar el nacido vivo.",
+            "en": "Neither recommends it routinely; ESHRE advises against it to improve live birth."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ESHRE la recomienda por encima de 4 cm y ASRM la desaconseja.",
+            "en": "ESHRE recommends it above 4 cm and ASRM advises against it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido: el umbral de 4 cm es de ASRM 2012.",
+            "en": "It is inverted: the 4-cm threshold is ASRM 2012's."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna menciona el daño ovárico.",
+            "en": "Neither mentions ovarian damage."
+          },
+          "correct": false,
+          "why": {
+            "es": "ASRM advertía del posible daño ovárico y ESHRE señala que probablemente reduce la reserva.",
+            "en": "ASRM warned of possible ovarian damage and ESHRE notes it probably reduces reserve."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Ten en cuenta la fecha: ASRM 2012 es anterior a los metaanálisis que resume ESHRE 2022.",
+        "en": "Bear the date in mind: ASRM 2012 predates the meta-analyses summarised by ESHRE 2022."
+      },
+      "refIds": [
+        "asrm-2012-endometriosis-infertility",
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx35",
+      "kind": "question",
+      "conceptId": "endo-fert.fertility-preservation",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué recomienda ESHRE sobre la preservación de la fertilidad en la endometriosis?",
+        "en": "What does ESHRE recommend about fertility preservation in endometriosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Criopreservar ovocitos en todas las mujeres con endometriosis (fuerte).",
+            "en": "Cryopreserve oocytes in all women with endometriosis (strong)."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación fuerte es para hablarlo con las mujeres con enfermedad ovárica extensa, no para preservar en todas.",
+            "en": "The strong recommendation is to discuss it with women with extensive ovarian disease, not to preserve in everyone."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No mencionarla, porque no hay datos.",
+            "en": "Not mention it, because there are no data."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE pide comentarla con las mujeres con endometriosis ovárica extensa.",
+            "en": "ESHRE asks for it to be discussed with women with extensive ovarian endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Comentar sus pros y contras con las mujeres con endometriosis ovárica extensa, reconociendo que su beneficio real es desconocido (fuerte, ⊕).",
+            "en": "Discuss its pros and cons with women with extensive ovarian endometriosis, acknowledging that its true benefit is unknown (strong, ⊕)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la fuerza se refiere a informar y aconsejar, no a preservar en todas.",
+            "en": "Correct: the strength refers to counselling and information, not to preserving in everyone."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ofrecerla solo si la AMH preoperatoria es baja.",
+            "en": "Offer it only if preoperative AMH is low."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE señala que el valor de la AMH previa para predecir la necesidad de preservación no está claro.",
+            "en": "ESHRE notes that the value of pre-treatment AMH to predict the need for preservation is unclear."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La endometriosis grave, sobre todo con endometriomas bilaterales, conlleva alto riesgo de insuficiencia ovárica prematura y AMH más baja; la cirugía puede reducir más la reserva.",
+        "en": "Severe endometriosis, particularly with bilateral endometriomas, carries a high risk of premature ovarian insufficiency and lower AMH; surgery can reduce reserve further."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx36",
+      "kind": "question",
+      "conceptId": "endo-fert.fertility-preservation",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En la serie retrospectiva de Cobo (485 pacientes con endometrioma) que cita ESHRE, la supervivencia ovocitaria tras la desvitrificación fue del 83,2 % y el nacido vivo acumulado del 46,4 %. ¿Qué matiz añade ESHRE?",
+        "en": "In Cobo's retrospective series (485 patients with endometrioma) cited by ESHRE, oocyte survival after warming was 83.2% and cumulative live birth 46.4%. Which caveat does ESHRE add?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que es un ECA que demuestra el beneficio de preservar en todas.",
+            "en": "That it is an RCT proving the benefit of preserving in everyone."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una serie retrospectiva, y ESHRE reconoce que el beneficio real es desconocido.",
+            "en": "It is a retrospective series, and ESHRE acknowledges that the true benefit is unknown."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el 46,4 % es la tasa de supervivencia ovocitaria.",
+            "en": "That 46.4% is the oocyte survival rate."
+          },
+          "correct": false,
+          "why": {
+            "es": "La supervivencia fue del 83,2 %; el 46,4 % es el nacido vivo acumulado.",
+            "en": "Survival was 83.2%; 46.4% is cumulative live birth."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Muchas usaron sus ovocitos pronto, como parte del tratamiento de infertilidad, y no hay criterios para seleccionar quién se beneficia; además es caro y tiene algunos riesgos clínicos.",
+            "en": "Many used their oocytes early, as part of infertility treatment, and there are no criteria to select who benefits; it is also expensive and carries some clinical risks."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son las cautelas que ESHRE aplica a esta serie.",
+            "en": "Correct: these are the caveats ESHRE applies to this series."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que la técnica no tiene riesgos ni costes relevantes.",
+            "en": "That the technique has no relevant risks or costs."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE señala que es cara y conlleva algunos riesgos clínicos.",
+            "en": "ESHRE notes that it is expensive and carries some clinical risks."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si se mide la AMH, la guía de preservación de ESHRE indica valorarla después de la cirugía.",
+        "en": "If AMH is measured, the ESHRE fertility preservation guideline says it should be assessed after surgery."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx37",
+      "kind": "question",
+      "conceptId": "endo-fert.nutrition-complementary",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "diet",
+        "supplements",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una paciente con endometriosis que busca embarazo cita un ensayo chino con fórmulas de hierbas tras la cirugía (nacido vivo 34,7 % frente a 20,8 %). ¿Qué es lo más fiel a las fuentes?",
+        "en": "A patient with endometriosis trying to conceive cites a Chinese trial of herbal formulas after surgery (live birth 34.7% versus 20.8%). What is most faithful to the sources?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ESHRE lo describe como prometedor, pero con conceptos (p. ej., «estasis de sangre») y composiciones difíciles de aplicar en la medicina occidental, y no puede recomendar ninguna intervención no médica para aumentar el embarazo; NICE indica que la evidencia no respalda la medicina china ni otras hierbas para tratar la endometriosis.",
+            "en": "ESHRE describes it as promising, but with concepts (e.g. “blood stasis”) and compositions that are hard to apply in Western medicine, and it cannot recommend any non-medical intervention to increase pregnancy; NICE states that the evidence does not support Chinese or other herbal medicines for treating endometriosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que dice ESHRE sobre este ensayo, junto con su declaración del GDG sobre las intervenciones no médicas; NICE 1.8.1 no respalda las hierbas ni los suplementos para tratar la endometriosis.",
+            "en": "Correct: this is what ESHRE says about this trial, together with its GDG statement on non-medical interventions; NICE 1.8.1 does not support herbal medicines or supplements for treating endometriosis."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE recomienda esas fórmulas tras la cirugía (débil).",
+            "en": "ESHRE recommends those formulas after surgery (weak)."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda ninguna intervención no médica para aumentar el embarazo.",
+            "en": "ESHRE recommends no non-medical intervention to increase pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE las recomienda como complemento a la FIV.",
+            "en": "NICE recommends them as an adjunct to IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica que la evidencia no respalda la medicina tradicional china ni otras hierbas.",
+            "en": "NICE states that the evidence does not support traditional Chinese medicine or other herbal medicines."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Está demostrado que son perjudiciales y deben prohibirse.",
+            "en": "They have been shown to be harmful and must be banned."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las fuentes hablan de beneficios y daños poco claros, no de daño demostrado.",
+            "en": "The sources speak of unclear benefits and harms, not of proven harm."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "«Sin evidencia» no es «prohibido»: habla de coste y seguridad, y que nada de ello retrase el plan reproductivo.",
+        "en": "“No evidence” is not “forbidden”: discuss cost and safety, and do not let any of it delay the reproductive plan."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis",
+        "nice-2024-ng73"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "endo-fert.qx38",
+      "kind": "question",
+      "conceptId": "endo-fert.nutrition-complementary",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "diet",
+        "supplements",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué mostró el ensayo de vitaminas C y E frente a placebo en mujeres con endometriosis que cita ESHRE?",
+        "en": "What did the trial of vitamins C and E versus placebo in women with endometriosis, cited by ESHRE, show?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Duplicó la tasa de nacido vivo.",
+            "en": "It doubled the live birth rate."
+          },
+          "correct": false,
+          "why": {
+            "es": "No aumentó el embarazo.",
+            "en": "It did not increase pregnancy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Redujo la necesidad de FIV.",
+            "en": "It reduced the need for IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no describe ese resultado; el ensayo midió marcadores de estrés oxidativo.",
+            "en": "ESHRE does not describe that result; the trial measured oxidative stress markers."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Aumentó los abortos.",
+            "en": "It increased miscarriages."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no describe ese resultado.",
+            "en": "ESHRE does not describe that result."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Midió marcadores de estrés oxidativo y no aumentó el embarazo.",
+            "en": "It measured oxidative stress markers and did not increase pregnancy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es uno de los estudios pequeños y de baja calidad que encontró ESHRE.",
+            "en": "Correct: it is one of the small, low-quality studies ESHRE found."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Medir marcadores de laboratorio no equivale a medir embarazos: el ensayo no aumentó la tasa de embarazo, y la evidencia no permite recomendar suplementos en esta indicación.",
+        "en": "Measuring laboratory markers is not the same as measuring pregnancies: the trial did not increase the pregnancy rate, and the evidence does not allow recommending supplements in this indication."
+      },
+      "refIds": [
+        "eshre-2022-endometriosis"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
     },
     {
       "id": "endo-fert.case1-elena-raul",

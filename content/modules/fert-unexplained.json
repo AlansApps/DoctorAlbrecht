@@ -35,7 +35,22 @@
         "fert-ui.c5-addons-scale",
         "fert-ui.q1-dna-fragmentation",
         "fert-ui.q2-hysteroscopy",
-        "fert-ui.q3-coeliac"
+        "fert-ui.q3-coeliac",
+        "fert-ui.qx01",
+        "fert-ui.qx02",
+        "fert-ui.qx03",
+        "fert-ui.qx04",
+        "fert-ui.qx05",
+        "fert-ui.qx06",
+        "fert-ui.qx07",
+        "fert-ui.qx08",
+        "fert-ui.qx09",
+        "fert-ui.qx10",
+        "fert-ui.qx11",
+        "fert-ui.qx12",
+        "fert-ui.qx13",
+        "fert-ui.qx14",
+        "fert-ui.qx15"
       ]
     },
     {
@@ -66,7 +81,19 @@
         "fert-ui.c10-oil-hsg",
         "fert-ui.q4-strength",
         "fert-ui.q5-nice-two-years",
-        "fert-ui.q6-clomiphene-outcome"
+        "fert-ui.q6-clomiphene-outcome",
+        "fert-ui.qx16",
+        "fert-ui.qx17",
+        "fert-ui.qx18",
+        "fert-ui.qx19",
+        "fert-ui.qx20",
+        "fert-ui.qx21",
+        "fert-ui.qx22",
+        "fert-ui.qx23",
+        "fert-ui.qx24",
+        "fert-ui.qx25",
+        "fert-ui.qx26",
+        "fert-ui.qx27"
       ]
     },
     {
@@ -99,6 +126,17 @@
         "fert-ui.q8-icsi",
         "fert-ui.q9-scratching",
         "fert-ui.q10-multiples",
+        "fert-ui.qx28",
+        "fert-ui.qx29",
+        "fert-ui.qx30",
+        "fert-ui.qx31",
+        "fert-ui.qx32",
+        "fert-ui.qx33",
+        "fert-ui.qx34",
+        "fert-ui.qx35",
+        "fert-ui.qx36",
+        "fert-ui.qx37",
+        "fert-ui.qx38",
         "fert-ui.case1-ana-tomas"
       ]
     }
@@ -1521,6 +1559,2869 @@
       "editorial": {
         "status": "ai-audited",
         "reviewedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "fert-ui.qx01",
+      "kind": "question",
+      "conceptId": "fert-ui.definition",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según la definición de ESHRE 2023, ¿qué límite de edad de la mujer y qué tiempo mínimo de relaciones regulares sin protección forman parte del diagnóstico de infertilidad inexplicada?",
+        "en": "Under the ESHRE 2023 definition, which female age limit and which minimum time of regular unprotected intercourse are part of the diagnosis of unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "≤35 años y al menos 6 meses.",
+            "en": "≤35 years and at least 6 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ni la edad ni el tiempo coinciden con la definición de ESHRE (≤40 años; al menos 12 meses).",
+            "en": "Neither the age nor the duration matches ESHRE's definition (≤40 years; at least 12 months)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "≤42 años y al menos 24 meses.",
+            "en": "≤42 years and at least 24 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "Mezcla criterios de NICE: el 42.º cumpleaños es un criterio de acceso a la FIV del NHS y los 2 años son el plazo de NICE antes de tratar, no la definición de ESHRE.",
+            "en": "This mixes up NICE criteria: the 42nd birthday is an NHS IVF access criterion and 2 years is NICE's timeframe before treatment, not ESHRE's definition."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sin límite de edad y al menos 12 meses.",
+            "en": "No age limit and at least 12 months."
+          },
+          "correct": false,
+          "why": {
+            "es": "La definición de ESHRE sí incluye un límite de edad de la mujer: ≤40 años.",
+            "en": "ESHRE's definition does include a female age limit: ≤40 years."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "≤40 años y al menos 12 meses.",
+            "en": "≤40 years and at least 12 months."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la definición de ESHRE incluye edad ≤40 años de la mujer y, como en ICMART, al menos 12 meses de relaciones regulares sin protección.",
+            "en": "Correct: ESHRE's definition includes female age ≤40 years and, as in ICMART, at least 12 months of regular unprotected intercourse."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ESHRE: función ovárica, trompas, útero, cérvix y pelvis aparentemente normales, mujer ≤40 años, frecuencia coital adecuada y factor masculino aparentemente normal, tras al menos 12 meses de relaciones regulares sin protección.",
+        "en": "ESHRE: apparently normal ovarian function, tubes, uterus, cervix and pelvis, woman ≤40 years, adequate coital frequency and an apparently normal male factor, after at least 12 months of regular unprotected intercourse."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx02",
+      "kind": "question",
+      "conceptId": "fert-ui.definition",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer de 34 años etiquetada de infertilidad inexplicada tras un estudio básico completo se somete a una laparoscopia por otro motivo, y se encuentra de forma incidental endometriosis mínima. Según ESHRE, ¿cómo queda su diagnóstico?",
+        "en": "A 34-year-old woman labelled as having unexplained infertility after a complete basic work-up undergoes laparoscopy for another reason, and minimal endometriosis is found incidentally. According to ESHRE, what happens to her diagnosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Deja de considerarse infertilidad inexplicada.",
+            "en": "It is no longer considered unexplained infertility."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE indica que, si en una laparoscopia aparece de forma incidental endometriosis mínima o leve, ya no se considera infertilidad inexplicada.",
+            "en": "Correct: ESHRE states that if minimal to mild endometriosis is found incidentally at laparoscopy, it is no longer considered unexplained infertility."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sigue siendo inexplicada, porque la endometriosis mínima no cuenta.",
+            "en": "It remains unexplained, because minimal endometriosis does not count."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE es explícita: la endometriosis mínima o leve hallada en la laparoscopia saca a la pareja de la categoría de inexplicada.",
+            "en": "ESHRE is explicit: minimal to mild endometriosis found at laparoscopy takes the couple out of the unexplained category."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sigue siendo inexplicada hasta confirmar la endometriosis con biopsia endometrial.",
+            "en": "It remains unexplained until endometriosis is confirmed by endometrial biopsy."
+          },
+          "correct": false,
+          "why": {
+            "es": "La biopsia endometrial no forma parte de este criterio; ESHRE no la recomienda para histología sin otra indicación.",
+            "en": "Endometrial biopsy is not part of this criterion; ESHRE does not recommend it for histology without another indication."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo deja de ser inexplicada si la endometriosis es estadio III–IV.",
+            "en": "It only stops being unexplained if the endometriosis is stage III–IV."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE habla precisamente de endometriosis mínima o leve, no solo de estadios avanzados.",
+            "en": "ESHRE refers precisely to minimal to mild endometriosis, not only to advanced stages."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "«Inexplicada» depende de lo extenso que sea el estudio: un hallazgo en laparoscopia, como endometriosis mínima o leve, cambia la etiqueta según ESHRE.",
+        "en": "“Unexplained” depends on how extensive the work-up is: a laparoscopic finding such as minimal to mild endometriosis changes the label according to ESHRE."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx03",
+      "kind": "question",
+      "conceptId": "fert-ui.definition",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cuál de estos ciclos cumple el criterio de ciclo regular que usa la guía ESHRE 2023 de infertilidad inexplicada?",
+        "en": "Which of these cycle patterns meets the regular-cycle criterion used in the ESHRE 2023 unexplained infertility guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ciclos de 22 a 26 días, con sangrado de 5 días.",
+            "en": "Cycles of 22 to 26 days, with 5 days of bleeding."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un ciclo de 22 días queda por debajo del mínimo de 24 días.",
+            "en": "A 22-day cycle falls below the 24-day minimum."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ciclos de 25 a 40 días, con sangrado de 4 días.",
+            "en": "Cycles of 25 to 40 days, with 4 days of bleeding."
+          },
+          "correct": false,
+          "why": {
+            "es": "40 días supera el máximo de 38, y la variación de 15 días supera los 7–9 días.",
+            "en": "40 days exceeds the 38-day maximum, and a 15-day variation exceeds 7–9 days."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ciclos de 26 a 31 días, con sangrado de 5 días.",
+            "en": "Cycles of 26 to 31 days, with 5 days of bleeding."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: está dentro de 24–38 días, con sangrado ≤8 días y una diferencia entre el más corto y el más largo inferior a 7–9 días.",
+            "en": "Correct: it lies within 24–38 days, with bleeding ≤8 days and a shortest-to-longest variation below 7–9 days."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ciclos de 28 a 30 días, con sangrado de 10 días.",
+            "en": "Cycles of 28 to 30 days, with 10 days of bleeding."
+          },
+          "correct": false,
+          "why": {
+            "es": "El sangrado de 10 días supera el máximo de 8 días.",
+            "en": "Ten days of bleeding exceeds the 8-day maximum."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ESHRE considera regular un ciclo de 24–38 días, con sangrado de hasta 8 días y una diferencia entre el ciclo más corto y el más largo inferior a 7–9 días.",
+        "en": "ESHRE considers a cycle regular if it lasts 24–38 days, with bleeding of up to 8 days and a shortest-to-longest cycle variation below 7–9 days."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx04",
+      "kind": "question",
+      "conceptId": "fert-ui.workup",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Ella tiene 32 años y llevan 14 meses buscando embarazo, con ciclos regulares. Ya tienes la historia de ambos, un seminograma normal según la OMS y una ecografía 3D normal. Según ESHRE, ¿qué falta para hablar de infertilidad inexplicada?",
+        "en": "She is 32 and they have been trying for 14 months, with regular cycles. You already have both partners' history, a normal semen analysis by WHO criteria and a normal 3D ultrasound. According to ESHRE, what is missing before calling it unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una laparoscopia diagnóstica con cromopertubación.",
+            "en": "A diagnostic laparoscopy with chromopertubation."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda la laparoscopia diagnóstica de rutina (fuerte; ⊕○○○); HSG o HyCoSy son las pruebas tubáricas propuestas.",
+            "en": "ESHRE does not recommend routine diagnostic laparoscopy (strong; ⊕○○○); HSG or HyCoSy are the proposed tubal tests."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una AMH para identificar la causa.",
+            "en": "An AMH test to identify the cause."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda medir la reserva ovárica para identificar la causa ni para predecir la concepción espontánea (fuerte; ⊕⊕○○).",
+            "en": "ESHRE does not recommend measuring ovarian reserve to identify the cause or to predict spontaneous conception (strong; ⊕⊕○○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una prueba de permeabilidad tubárica: HSG o HyCoSy.",
+            "en": "A tubal patency test: HSG or HyCoSy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el estudio de ESHRE incluye una prueba de permeabilidad tubárica, y HSG y HyCoSy son pruebas válidas (fuerte; ⊕⊕⊕○).",
+            "en": "Correct: ESHRE's work-up includes a tubal patency test, and HSG and HyCoSy are valid tests (strong; ⊕⊕⊕○)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una progesterona en fase lútea media para confirmar la ovulación.",
+            "en": "A mid-luteal progesterone to confirm ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con ciclos regulares no hace falta confirmar la ovulación de rutina (GPP), y ESHRE sugiere no medir de rutina la progesterona lútea (condicional; ⊕○○○).",
+            "en": "With regular cycles there is no need to confirm ovulation routinely (GPP), and ESHRE suggests not routinely measuring luteal progesterone (conditional; ⊕○○○)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Estudio según ESHRE: historia de ambos, al menos un seminograma OMS, una prueba de permeabilidad tubárica (HSG o HyCoSy) y una ecografía, preferiblemente 3D. «Inexplicada» es un diagnóstico de exclusión: sin la prueba tubárica, el estudio no está completo.",
+        "en": "Work-up per ESHRE: history of both partners, at least one WHO semen analysis, a tubal patency test (HSG or HyCoSy) and an ultrasound, preferably 3D. “Unexplained” is a diagnosis of exclusion: without the tubal test, the work-up is not complete."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx05",
+      "kind": "question",
+      "conceptId": "fert-ui.workup",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el estudio de una pareja, el primer seminograma, hecho en un laboratorio con control de calidad externo, queda por debajo del límite de referencia del percentil 5 de la OMS (6.ª edición). ¿Qué indica ESHRE?",
+        "en": "In a couple's work-up, the first semen analysis, done in a laboratory with external quality control, falls below the WHO lower fifth percentile reference limit (6th edition). What does ESHRE advise?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Repetirlo tras un intervalo de 3 meses.",
+            "en": "Repeat it after a 3-month interval."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE indica repetir el seminograma tras 3 meses si el primero está por debajo del percentil 5 de la OMS.",
+            "en": "Correct: ESHRE advises repeating the semen analysis after 3 months if the first is below the WHO 5th percentile."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Etiquetar la infertilidad como inexplicada y empezar IUI.",
+            "en": "Label the infertility as unexplained and start IUI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La definición de inexplicada exige un eyaculado aparentemente normal; un resultado bajo debe repetirse antes.",
+            "en": "The definition of unexplained requires an apparently normal ejaculate; a low result should be repeated first."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Repetirlo a la semana para confirmarlo cuanto antes.",
+            "en": "Repeat it after one week to confirm it as soon as possible."
+          },
+          "correct": false,
+          "why": {
+            "es": "El intervalo que indica ESHRE es de 3 meses, no de una semana.",
+            "en": "The interval ESHRE advises is 3 months, not one week."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir directamente la fragmentación del ADN espermático en lugar de repetirlo.",
+            "en": "Order sperm DNA fragmentation testing directly instead of repeating it."
+          },
+          "correct": false,
+          "why": {
+            "es": "La conducta que indica ESHRE ante un primer seminograma bajo es repetirlo a los 3 meses.",
+            "en": "The step ESHRE advises after a low first semen analysis is to repeat it after 3 months."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ESHRE pide al menos un seminograma según la OMS en un laboratorio con control de calidad externo, y repetirlo tras 3 meses si el primero queda por debajo del percentil 5.",
+        "en": "ESHRE asks for at least one WHO semen analysis in a laboratory with external quality control, repeated after 3 months if the first falls below the 5th percentile."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx06",
+      "kind": "question",
+      "conceptId": "fert-ui.workup",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el estudio de la infertilidad inexplicada, ¿qué indica ESHRE sobre la imagen del útero?",
+        "en": "In the work-up of unexplained infertility, what does ESHRE advise about uterine imaging?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "RM pélvica de primera línea, por su mayor resolución.",
+            "en": "Pelvic MRI first line, because of its higher resolution."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE indica que la RM no es una prueba de primera línea (fuerte; ⊕○○○).",
+            "en": "ESHRE states that MRI is not a first-line test (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Histeroscopia diagnóstica a todas las mujeres.",
+            "en": "Diagnostic hysteroscopy for all women."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda la histeroscopia para buscar anomalías no vistas en la imagen de rutina (fuerte; ⊕⊕○○).",
+            "en": "ESHRE does not recommend hysteroscopy to look for abnormalities not seen at routine imaging (strong; ⊕⊕○○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ecografía 2D; ESHRE desaconseja la 3D por innecesaria.",
+            "en": "2D ultrasound; ESHRE advises against 3D as unnecessary."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: ESHRE recomienda la ecografía, preferiblemente 3D.",
+            "en": "It is the other way round: ESHRE recommends ultrasound, preferably 3D."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ecografía, preferiblemente 3D (fuerte); la RM no es prueba de primera línea (fuerte).",
+            "en": "Ultrasound, preferably 3D (strong); MRI is not a first-line test (strong)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas son recomendaciones fuertes con certeza muy baja (⊕○○○).",
+            "en": "Correct: both are strong recommendations with very low certainty (⊕○○○)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Para descartar anomalías uterinas, ESHRE propone ecografía, preferiblemente 3D; la RM no es de primera línea.",
+        "en": "To exclude uterine anomalies, ESHRE proposes ultrasound, preferably 3D; MRI is not first line."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx07",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-uterus-pelvis",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 33 años con infertilidad inexplicada tras un estudio básico normal; tuvo una enfermedad inflamatoria pélvica y un embarazo ectópico previos. Pregunta si debería hacerse una laparoscopia. ¿Qué es lo más fiel a ESHRE?",
+        "en": "A 33-year-old woman with unexplained infertility after a normal basic work-up; she has had pelvic inflammatory disease and a previous ectopic pregnancy. She asks whether she should have a laparoscopy. What is most faithful to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Decirle que ESHRE no recomienda la laparoscopia en ninguna mujer con infertilidad inexplicada.",
+            "en": "Tell her that ESHRE does not recommend laparoscopy in any woman with unexplained infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sobregeneraliza: la recomendación es contra la laparoscopia de rutina, y ESHRE la reserva para las mujeres de mayor riesgo.",
+            "en": "This overgeneralises: the recommendation is against routine laparoscopy, and ESHRE reserves it for higher-risk women."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Plantearle la laparoscopia, porque ESHRE la reserva para mujeres con HSG anormal o con riesgo de enfermedad tubo-peritoneal (EPI, ectópico previo, endometriosis conocida o sospechada).",
+            "en": "Consider laparoscopy, because ESHRE reserves it for women with an abnormal HSG or at risk of tubo-peritoneal disease (PID, previous ectopic pregnancy, known or suspected endometriosis)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la recomendación fuerte contra la laparoscopia de rutina se refiere a mujeres de bajo riesgo tubárico; ESHRE indica que debe reservarse para quienes tienen una HSG anormal o riesgo de enfermedad tubo-peritoneal por EPI, ectópico previo o endometriosis conocida o sospechada.",
+            "en": "Correct: the strong recommendation against routine laparoscopy addresses women at low risk for tubal pathology; ESHRE states it should be reserved for women with an abnormal HSG or at risk of tubo-peritoneal disease because of PID, a previous ectopic pregnancy, or known or suspected endometriosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Indicarle que la laparoscopia es obligatoria antes de cualquier tratamiento.",
+            "en": "Tell her that laparoscopy is mandatory before any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE la reserva para mujeres con HSG anormal o con riesgo de enfermedad tubo-peritoneal; no la plantea como obligatoria para todas.",
+            "en": "ESHRE reserves it for women with an abnormal HSG or at risk of tubo-peritoneal disease; it does not make it mandatory for everyone."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Explicarle que la HSG ya descarta endometriosis leve y adherencias, así que no aporta nada.",
+            "en": "Explain that HSG already rules out mild endometriosis and adhesions, so it adds nothing."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE reconoce que HSG y HyCoSy no detectan endometriosis leve, adherencias ni lesiones tubáricas sutiles.",
+            "en": "ESHRE acknowledges that HSG and HyCoSy do not detect mild endometriosis, adhesions or subtle tubal lesions."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La recomendación contra la laparoscopia de rutina (fuerte; ⊕○○○) se apoya en el beneficio clínico limitado y en que no está exenta de riesgos; ESHRE indica que debe reservarse para mujeres con HSG anormal o con riesgo de enfermedad tubo-peritoneal (EPI, ectópico previo, endometriosis conocida o sospechada).",
+        "en": "The recommendation against routine laparoscopy (strong; ⊕○○○) rests on limited clinical benefit and on the fact that it is not risk-free; ESHRE states it should be reserved for women with an abnormal HSG or at risk of tubo-peritoneal disease (PID, previous ectopic pregnancy, known or suspected endometriosis)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx08",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-uterus-pelvis",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En la infertilidad inexplicada con ciclos regulares, ¿cómo se posiciona ESHRE sobre el test poscoital y sobre la progesterona en fase lútea media?",
+        "en": "In unexplained infertility with regular cycles, what is ESHRE's position on the post-coital test and on mid-luteal progesterone?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Test poscoital no recomendado (fuerte); sugiere no medir de rutina la progesterona lútea (condicional).",
+            "en": "Post-coital test not recommended (strong); it suggests not routinely measuring luteal progesterone (conditional)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: test poscoital, fuerte en contra (⊕⊕○○); progesterona lútea media de rutina, condicional en contra (⊕○○○).",
+            "en": "Correct: post-coital test, strong against (⊕⊕○○); routine mid-luteal progesterone, conditional against (⊕○○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Progesterona lútea no recomendada (fuerte); test poscoital desaconsejado de forma condicional.",
+            "en": "Luteal progesterone not recommended (strong); post-coital test conditionally discouraged."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido: la fuerte es la del test poscoital y la condicional, la de la progesterona.",
+            "en": "It is the other way round: the strong one concerns the post-coital test and the conditional one, progesterone."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambos recomendados para completar el estudio del factor cervical y ovulatorio.",
+            "en": "Both recommended to complete the cervical and ovulatory work-up."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda ninguno de los dos de rutina en esta población.",
+            "en": "ESHRE recommends neither routinely in this population."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambos son solo puntos de buena práctica (GPP), sin dirección.",
+            "en": "Both are only good practice points (GPP), with no direction."
+          },
+          "correct": false,
+          "why": {
+            "es": "Son recomendaciones con dirección en contra: una fuerte y otra condicional.",
+            "en": "They are recommendations with a direction against: one strong and one conditional."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Distingue la fuerza: el test poscoital tiene recomendación fuerte en contra; la progesterona en fase lútea media con ciclos regulares, condicional en contra.",
+        "en": "Distinguish the strength: the post-coital test carries a strong recommendation against; mid-luteal progesterone with regular cycles, a conditional one against."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx09",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-uterus-pelvis",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "ESHRE resume que, en primeros ciclos de FIV, la histeroscopia sistemática frente a no hacerla dio un RR de nacido vivo de 1,20 (IC95 % 0,96–1,49; 2 ECA, 953 mujeres). ¿Cómo se interpreta?",
+        "en": "ESHRE summarises that, in first IVF cycles, routine hysteroscopy versus none gave a live birth RR of 1.20 (95% CI 0.96–1.49; 2 RCTs, 953 women). How should this be read?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La histeroscopia aumenta un 20 % el nacido vivo de forma demostrada.",
+            "en": "Hysteroscopy has been shown to increase live birth by 20%."
+          },
+          "correct": false,
+          "why": {
+            "es": "El punto estimado es 1,20, pero el intervalo incluye el 1: no es una diferencia significativa.",
+            "en": "The point estimate is 1.20, but the interval includes 1: it is not a significant difference."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No hubo diferencia significativa: el intervalo incluye el 1.",
+            "en": "There was no significant difference: the interval includes 1."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: un IC95 % que cruza el 1 no demuestra beneficio; además, ESHRE señala riesgo grave de sesgo en esos ensayos.",
+            "en": "Correct: a 95% CI crossing 1 does not show benefit; ESHRE also notes serious risk of bias in those trials."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La histeroscopia reduce el nacido vivo.",
+            "en": "Hysteroscopy reduces live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un RR por encima de 1 con un intervalo que cruza el 1 no indica reducción.",
+            "en": "An RR above 1 with an interval that crosses 1 does not indicate a reduction."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Demuestra con certeza alta que la histeroscopia no tiene ningún efecto.",
+            "en": "It shows with high certainty that hysteroscopy has no effect at all."
+          },
+          "correct": false,
+          "why": {
+            "es": "No significativo no equivale a efecto nulo demostrado, y la certeza es baja (⊕⊕○○) por riesgo de sesgo.",
+            "en": "Non-significant does not mean a proven null effect, and certainty is low (⊕⊕○○) because of risk of bias."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Por eso ESHRE no recomienda la histeroscopia para detectar y corregir anomalías no vistas en la imagen de rutina (fuerte; ⊕⊕○○).",
+        "en": "This is why ESHRE does not recommend hysteroscopy to detect and correct abnormalities not seen at routine imaging (strong; ⊕⊕○○)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx10",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-male-systemic",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 35 años con infertilidad inexplicada y TSH normal. Trae una lista: anticuerpos antitiroideos, estudio de trombofilia, vitamina D y prolactina. Según ESHRE, ¿cuáles de ellos están recomendados?",
+        "en": "A 35-year-old woman with unexplained infertility and a normal TSH. She brings a list: thyroid antibodies, thrombophilia testing, vitamin D and prolactin. According to ESHRE, which of them are recommended?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo los anticuerpos antitiroideos, porque la TSH normal no basta.",
+            "en": "Only thyroid antibodies, because a normal TSH is not enough."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con TSH normal, ESHRE no recomienda más evaluación tiroidea, incluidos los anticuerpos (fuerte; ⊕○○○).",
+            "en": "With a normal TSH, ESHRE recommends no further thyroid evaluation, including antibodies (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo la trombofilia, por si hay que añadir heparina.",
+            "en": "Only thrombophilia, in case heparin needs to be added."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda el estudio de trombofilia en la infertilidad inexplicada (fuerte; ⊕○○○).",
+            "en": "ESHRE does not recommend thrombophilia testing in unexplained infertility (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo la prolactina y la vitamina D, por ser baratas.",
+            "en": "Only prolactin and vitamin D, because they are cheap."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas están en la lista de pruebas que ESHRE no recomienda (fuerte; ⊕○○○).",
+            "en": "Both are on the list of tests ESHRE does not recommend (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguno: ESHRE no recomienda ninguna de esas pruebas (fuerte; ⊕○○○).",
+            "en": "None: ESHRE does not recommend any of those tests (strong; ⊕○○○)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con TSH normal no recomienda más evaluación tiroidea, y tampoco trombofilia, vitamina D para el diagnóstico ni prolactina.",
+            "en": "Correct: with a normal TSH it recommends no further thyroid evaluation, nor thrombophilia testing, vitamin D for diagnosis or prolactin."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la evaluación sistémica, ESHRE solo deja la TSH y el IMC (buena práctica) y considerar la celiaquía; el resto de la lista tiene recomendación fuerte en contra.",
+        "en": "In the systemic evaluation, ESHRE keeps only TSH and BMI (good practice) and considering coeliac disease; the rest of the list carries a strong recommendation against."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx11",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-male-systemic",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En una pareja con infertilidad inexplicada y seminograma normal según la OMS, se propone al varón una ecografía testicular, hormonas séricas y un estudio de estrés oxidativo seminal. ¿Qué dice ESHRE?",
+        "en": "In a couple with unexplained infertility and a normal semen analysis by WHO criteria, the male partner is offered testicular ultrasound, serum hormones and a seminal oxidative stress test. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Recomienda la ecografía testicular para descartar un varicocele.",
+            "en": "It recommends testicular ultrasound to rule out a varicocele."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con seminograma normal, ESHRE no recomienda la imagen testicular (fuerte; ⊕○○○).",
+            "en": "With a normal semen analysis, ESHRE does not recommend testicular imaging (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomienda las hormonas séricas, porque el seminograma no evalúa la función testicular.",
+            "en": "It recommends serum hormones, because semen analysis does not assess testicular function."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no recomienda las hormonas séricas con seminograma normal (fuerte; ⊕○○○).",
+            "en": "ESHRE does not recommend serum hormone testing with a normal semen analysis (strong; ⊕○○○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No recomienda la imagen testicular ni las hormonas séricas (fuerte), y el estrés oxidativo seminal queda solo para investigación.",
+            "en": "It does not recommend testicular imaging or serum hormones (strong), and seminal oxidative stress is for research only."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con seminograma normal, ambas tienen recomendación fuerte en contra (⊕○○○) y el estrés oxidativo seminal se reserva a investigación.",
+            "en": "Correct: with a normal semen analysis, both carry a strong recommendation against (⊕○○○) and seminal oxidative stress is reserved for research."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Recomienda el estrés oxidativo seminal para decidir antioxidantes.",
+            "en": "It recommends seminal oxidative stress testing to decide on antioxidants."
+          },
+          "correct": false,
+          "why": {
+            "es": "El estrés oxidativo seminal queda para investigación, y los antioxidantes orales adyuvantes probablemente no se recomiendan (condicional).",
+            "en": "Seminal oxidative stress is for research only, and adjunct oral antioxidants are probably not recommended (conditional)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con seminograma normal, ESHRE no recomienda más pruebas masculinas: ni imagen testicular ni hormonas séricas, y el estrés oxidativo seminal solo en investigación.",
+        "en": "With a normal semen analysis, ESHRE recommends no further male testing: neither testicular imaging nor serum hormones, and seminal oxidative stress only in research."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx12",
+      "kind": "question",
+      "conceptId": "fert-ui.not-order-male-systemic",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué argumento da ESHRE para no recomendar las pruebas adicionales (espermáticas, autoinmunes, trombofilia, genéticas) en la infertilidad inexplicada?",
+        "en": "What reasoning does ESHRE give for not recommending additional tests (sperm, autoimmune, thrombophilia, genetic) in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ECA de alta calidad demostraron que hacerlas reduce el nacido vivo.",
+            "en": "High-quality RCTs showed that doing them reduces live birth."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia es de muy baja calidad; el argumento es la falta de utilidad demostrada, no un daño probado en ECA.",
+            "en": "The evidence is of very low quality; the argument is lack of proven usefulness, not harm shown in RCTs."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Se ha demostrado con certeza alta que ninguna de ellas tiene valor.",
+            "en": "It has been shown with high certainty that none of them has any value."
+          },
+          "correct": false,
+          "why": {
+            "es": "Casi todas estas recomendaciones tienen certeza muy baja (⊕○○○); ESHRE reconoce además que el factor masculino está poco investigado.",
+            "en": "Almost all of these recommendations have very low certainty (⊕○○○); ESHRE also acknowledges that the male factor is under-researched."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo por su coste, aunque cambien el tratamiento.",
+            "en": "Only because of their cost, even though they change treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE señala precisamente que no han demostrado cambiar decisiones.",
+            "en": "ESHRE points out precisely that they have not been shown to change decisions."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Discriminan mal qué pareja se beneficiaría de cada técnica, usan puntos de corte heterogéneos y no validados, y no han demostrado utilidad para decidir.",
+            "en": "They discriminate poorly between couples who would benefit from each technique, use heterogeneous and unvalidated cut-offs, and have no proven value for decision-making."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la justificación de ESHRE, que además reconoce que la evidencia es de muy baja calidad.",
+            "en": "Correct: this is ESHRE's justification, which also acknowledges that the evidence is of very low quality."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "ESHRE justifica estas recomendaciones por la falta de utilidad demostrada de las pruebas para decidir, y reconoce que la evidencia es de muy baja calidad (⊕○○○).",
+        "en": "ESHRE justifies these recommendations by the lack of proven usefulness of the tests for decision-making, while acknowledging that the evidence is of very low quality (⊕○○○)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx13",
+      "kind": "question",
+      "conceptId": "fert-ui.addons-scale",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el documento de buenas prácticas de ESHRE sobre add-ons en reproducción asistida, ¿qué significa la categoría «currently not recommended for routine clinical use»?",
+        "en": "In ESHRE's good practice document on add-ons in assisted reproduction, what does the category “currently not recommended for routine clinical use” mean?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo en investigación, por problemas de seguridad, falta de eficacia o de base biológica.",
+            "en": "Research settings only, because of safety concerns, lack of efficacy or lack of biological rationale."
+          },
+          "correct": false,
+          "why": {
+            "es": "Esa es la definición de «not recommended», la cuarta categoría.",
+            "en": "That is the definition of “not recommended”, the fourth category."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Equivale a una recomendación GRADE fuerte en contra.",
+            "en": "It is equivalent to a strong GRADE recommendation against."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una escala propia del documento; ninguna de sus categorías es una calificación GRADE.",
+            "en": "It is the document's own scale; none of its categories is a GRADE rating."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No aplicarlo de rutina por ahora; puede cambiar con más evidencia y, opcionalmente, aplicarse a un grupo concreto de pacientes.",
+            "en": "Do not apply it routinely at this stage; this may change with more evidence and, optionally, it can be applied to a specific patient group."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así define el documento esta tercera categoría de su escala de cuatro niveles.",
+            "en": "Correct: this is how the document defines this third category of its four-level scale."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Equivale a «can be considered».",
+            "en": "It is equivalent to “can be considered”."
+          },
+          "correct": false,
+          "why": {
+            "es": "«Can be considered» es otra categoría distinta, más favorable.",
+            "en": "“Can be considered” is a separate, more favourable category."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La escala de add-ons tiene cuatro fórmulas: «recommended», «can be considered», «currently not recommended for routine clinical use» y «not recommended». Cita siempre la de la fuente.",
+        "en": "The add-ons scale has four phrases: “recommended”, “can be considered”, “currently not recommended for routine clinical use” and “not recommended”. Always quote the source's own one."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx14",
+      "kind": "question",
+      "conceptId": "fert-ui.addons-scale",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿En qué categoría sitúa el documento de add-ons de ESHRE la fragmentación del ADN espermático, el scratching endometrial y el genotipado KIR/HLA?",
+        "en": "In which category does the ESHRE add-ons document place sperm DNA damage testing, endometrial scratching and KIR/HLA genotyping?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "«Not recommended».",
+            "en": "“Not recommended”."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el documento de add-ons, estos tres están en «currently not recommended for routine clinical use», no en «not recommended».",
+            "en": "In the add-ons document, these three sit in “currently not recommended for routine clinical use”, not in “not recommended”."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "«Currently not recommended for routine clinical use».",
+            "en": "“Currently not recommended for routine clinical use”."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los tres están en la tercera categoría de la escala.",
+            "en": "Correct: all three sit in the third category of the scale."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "«Can be considered».",
+            "en": "“Can be considered”."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguno de los tres está en esa categoría.",
+            "en": "None of the three is in that category."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "«Recommended» en pacientes seleccionados.",
+            "en": "“Recommended” in selected patients."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguno de los tres está recomendado en el documento.",
+            "en": "None of the three is recommended in the document."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "No mezcles escalas: la guía específica de infertilidad inexplicada es más firme, con recomendación fuerte contra el scratching y contra la fragmentación con seminograma normal.",
+        "en": "Do not mix scales: the specific unexplained infertility guideline is firmer, with a strong recommendation against scratching and against fragmentation testing with a normal semen analysis."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx15",
+      "kind": "question",
+      "conceptId": "fert-ui.addons-scale",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 32 años con infertilidad inexplicada, sin tratamientos previos y con ecografía uterina normal. Un colega propone una histeroscopia citando que ESHRE dice que «can be considered». ¿Qué es lo correcto?",
+        "en": "A 32-year-old woman with unexplained infertility, no previous treatment and a normal uterine ultrasound. A colleague proposes hysteroscopy, quoting ESHRE as saying it “can be considered”. What is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ese «can be considered» del documento de add-ons se refiere al fallo de implantación recurrente; en la infertilidad inexplicada, ESHRE no recomienda la histeroscopia (fuerte).",
+            "en": "That add-ons “can be considered” refers to recurrent implantation failure; in unexplained infertility, ESHRE does not recommend hysteroscopy (strong)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: hay que respetar la población de cada recomendación; la guía específica es fuerte en contra (⊕⊕○○).",
+            "en": "Correct: each recommendation's population must be respected; the specific guideline is strong against (⊕⊕○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El colega tiene razón: «can be considered» se aplica a cualquier paciente en TRA.",
+            "en": "The colleague is right: “can be considered” applies to any ART patient."
+          },
+          "correct": false,
+          "why": {
+            "es": "Para la histeroscopia de cribado en general, el documento usa «currently not recommended for routine clinical use»; «can be considered» es para el fallo de implantación recurrente.",
+            "en": "For screening hysteroscopy in general, the document uses “currently not recommended for routine clinical use”; “can be considered” is for recurrent implantation failure."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Hacerla, porque NICE la ofrece de rutina antes de la IUI.",
+            "en": "Do it, because NICE offers it routinely before IUI."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no ofrece histeroscopia salvo sospecha clínica de anomalía uterina o endometrial.",
+            "en": "NICE does not offer hysteroscopy unless a uterine or endometrial abnormality is clinically suspected."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacerla solo si la AMH es baja.",
+            "en": "Do it only if AMH is low."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las fuentes vincula la histeroscopia a la AMH.",
+            "en": "Neither source links hysteroscopy to AMH."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Misma prueba, distinta población y escala: add-ons (TRA; «can be considered» solo en fallo de implantación recurrente) frente a la guía de infertilidad inexplicada (fuerte en contra).",
+        "en": "Same test, different population and scale: add-ons (ART; “can be considered” only in recurrent implantation failure) versus the unexplained infertility guideline (strong against)."
+      },
+      "refIds": [
+        "eshre-2023-addons",
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx16",
+      "kind": "question",
+      "conceptId": "fert-ui.prognosis",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "ESHRE destaca cuatro factores pronósticos para decidir cuándo iniciar tratamiento en la infertilidad inexplicada. ¿Cuál de estos NO es uno de ellos?",
+        "en": "ESHRE highlights four prognostic factors for deciding when to start treatment in unexplained infertility. Which of these is NOT one of them?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La edad.",
+            "en": "Age."
+          },
+          "correct": false,
+          "why": {
+            "es": "La edad es uno de los cuatro factores pronósticos más importantes según ESHRE.",
+            "en": "Age is one of the four most important prognostic factors according to ESHRE."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La AMH.",
+            "en": "AMH."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: no figura entre los cuatro factores, y ESHRE no recomienda medir la reserva ovárica para predecir la concepción espontánea en esta población.",
+            "en": "Correct: it is not among the four factors, and ESHRE does not recommend measuring ovarian reserve to predict spontaneous conception in this population."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La duración de la infertilidad.",
+            "en": "Duration of infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "La duración es uno de los cuatro factores pronósticos.",
+            "en": "Duration is one of the four prognostic factors."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El embarazo previo.",
+            "en": "Previous pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "El embarazo previo es uno de los cuatro factores (junto con el tratamiento previo).",
+            "en": "Previous pregnancy is one of the four factors (together with previous treatment)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los cuatro factores de ESHRE: edad, duración de la infertilidad, tratamiento previo y embarazo previo. La decisión de tratar se basa en el pronóstico (GPP).",
+        "en": "ESHRE's four factors: age, duration of infertility, previous treatment and previous pregnancy. The decision to treat is based on prognosis (GPP)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx17",
+      "kind": "question",
+      "conceptId": "fert-ui.prognosis",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué limitación señala ESHRE sobre el modelo de Hunault para estimar el embarazo espontáneo?",
+        "en": "What limitation does ESHRE point out about the Hunault model for estimating spontaneous pregnancy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es un modelo dinámico que debe recalcularse en cada consulta.",
+            "en": "It is a dynamic model that must be recalculated at every visit."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: el de Hunault solo sirve al diagnóstico; los dinámicos son modelos más recientes, aún no de uso común.",
+            "en": "It is the other way round: Hunault's model is used only at diagnosis; dynamic models are newer and not yet in common use."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Predice el nacido vivo con FIV, no el embarazo espontáneo.",
+            "en": "It predicts live birth with IVF, not spontaneous pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE lo cita como modelo de probabilidad de embarazo espontáneo.",
+            "en": "ESHRE cites it as a model of the chance of spontaneous pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ESHRE lo exige antes de cualquier tratamiento.",
+            "en": "ESHRE requires it before any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE aconseja decidir por pronóstico (GPP), pero no exige un modelo concreto, y reconoce sus limitaciones.",
+            "en": "ESHRE advises deciding on prognosis (GPP), but does not require a specific model, and acknowledges their limitations."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo se validó en población canadiense y neerlandesa y solo sirve una vez, al diagnóstico.",
+            "en": "It was validated only in Canadian and Dutch populations and can be used only once, at diagnosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: así lo describe ESHRE, que considera que ningún modelo está plenamente desarrollado.",
+            "en": "Correct: that is how ESHRE describes it, considering that no model is fully evolved."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los modelos pronósticos ayudan, pero ninguno está plenamente desarrollado: el de Hunault tiene validación geográfica limitada y uso único al diagnóstico.",
+        "en": "Prognostic models help, but none is fully evolved: Hunault's has limited geographic validation and single use at diagnosis."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx18",
+      "kind": "question",
+      "conceptId": "fert-ui.prognosis",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Dos parejas con infertilidad inexplicada y estudio normal: A) ella de 29 años, 13 meses de búsqueda; B) ella de 39 años, 4 años de búsqueda. Ninguna tiene embarazos ni tratamientos previos. Según el razonamiento de ESHRE, ¿qué es más probable?",
+        "en": "Two couples with unexplained infertility and a normal work-up: A) she is 29, 13 months trying; B) she is 39, 4 years trying. Neither has previous pregnancies or treatment. Following ESHRE's reasoning, what is most likely?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El beneficio añadido del tratamiento activo es mayor en la pareja B.",
+            "en": "The added benefit of active treatment is greater in couple B."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE explica que con más edad y más duración el beneficio añadido aumenta, y que en mujeres jóvenes con poca duración es pequeño.",
+            "en": "Correct: ESHRE explains that with older age and longer duration the added benefit increases, and that in young women with a short duration it is small."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El beneficio añadido es mayor en la pareja A, porque es más joven.",
+            "en": "The added benefit is greater in couple A, because she is younger."
+          },
+          "correct": false,
+          "why": {
+            "es": "En mujeres jóvenes con poca duración de la infertilidad, ESHRE describe un beneficio añadido pequeño.",
+            "en": "In young women with a short duration of infertility, ESHRE describes a small added benefit."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El beneficio es el mismo, porque ambas tienen la misma etiqueta de inexplicada.",
+            "en": "The benefit is the same, because both carry the same unexplained label."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE aconseja decidir por pronóstico, no por la etiqueta.",
+            "en": "ESHRE advises deciding by prognosis, not by the label."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna debe tratarse antes de completar 5 años de búsqueda.",
+            "en": "Neither should be treated before 5 years of trying."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las guías propone ese plazo; ESHRE decide según el pronóstico y NICE habla de 2 años.",
+            "en": "Neither guideline proposes that timeframe; ESHRE decides by prognosis and NICE speaks of 2 years."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La eficacia del tratamiento activo «depende» del pronóstico de partida; las preferencias de la pareja también cuentan.",
+        "en": "The efficacy of active treatment “depends” on baseline prognosis; the couple's preferences also count."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx19",
+      "kind": "question",
+      "conceptId": "fert-ui.expectant-vs-active",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En los datos que resume ESHRE para la infertilidad inexplicada, ¿qué comparación mostró un aumento estadísticamente significativo del nacido vivo?",
+        "en": "In the data ESHRE summarises for unexplained infertility, which comparison showed a statistically significant increase in live birth?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "IUI en ciclo natural frente a manejo expectante: 23 % frente a 16 %.",
+            "en": "Natural-cycle IUI versus expectant management: 23% versus 16%."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE resume que esta diferencia no fue significativa.",
+            "en": "ESHRE summarises that this difference was not significant."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "IUI estimulada frente a expectante en pronóstico moderado: OR 0,82 (0,45–1,49).",
+            "en": "Stimulated IUI versus expectant management with moderate prognosis: OR 0.82 (0.45–1.49)."
+          },
+          "correct": false,
+          "why": {
+            "es": "El intervalo incluye el 1: sin diferencia significativa.",
+            "en": "The interval includes 1: no significant difference."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "IUI estimulada frente a IUI en ciclo natural: OR 2,07 (IC95 % 1,22–3,50).",
+            "en": "Stimulated IUI versus natural-cycle IUI: OR 2.07 (95% CI 1.22–3.50)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el intervalo no incluye el 1 (4 ECA, 396 mujeres).",
+            "en": "Correct: the interval does not include 1 (4 RCTs, 396 women)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Clomifeno con coito programado frente a expectante: 13 % frente a 16 %.",
+            "en": "Clomiphene with timed intercourse versus expectant management: 13% versus 16%."
+          },
+          "correct": false,
+          "why": {
+            "es": "El clomifeno con coito programado no fue mejor que el manejo expectante.",
+            "en": "Clomiphene with timed intercourse was not better than expectant management."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lee el intervalo de confianza: de las comparaciones propuestas, solo la IUI estimulada frente a la IUI en ciclo natural muestra un aumento del nacido vivo cuyo intervalo excluye el 1; frente al manejo expectante, el beneficio solo aparece con mal pronóstico y en nacido vivo acumulado.",
+        "en": "Read the confidence interval: of the comparisons offered, only stimulated versus natural-cycle IUI shows an increase in live birth whose interval excludes 1; versus expectant management, the benefit appears only with poor prognosis and for cumulative live birth."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx20",
+      "kind": "question",
+      "conceptId": "fert-ui.expectant-vs-active",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En parejas con mal pronóstico, la revisión Cochrane citada por ESHRE da para la IUI estimulada frente al manejo expectante una OR de nacido vivo acumulado de 4,48 (IC95 % 2,00–10,01; 1 ECA, 201 mujeres). ¿Cuál es la lectura más correcta?",
+        "en": "In poor-prognosis couples, the Cochrane review cited by ESHRE gives an OR for cumulative live birth of 4.48 (95% CI 2.00–10.01; 1 RCT, 201 women) for stimulated IUI versus expectant management. What is the most accurate reading?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No es significativo, porque el intervalo es muy amplio.",
+            "en": "It is not significant, because the interval is very wide."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un intervalo amplio indica imprecisión, pero 2,00–10,01 no incluye el 1: es significativo.",
+            "en": "A wide interval indicates imprecision, but 2.00–10.01 does not include 1: it is significant."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Demuestra el mismo beneficio en parejas de pronóstico moderado.",
+            "en": "It shows the same benefit in couples with moderate prognosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "En pronóstico moderado, la OR fue 0,82 (0,45–1,49), sin diferencia.",
+            "en": "With moderate prognosis, the OR was 0.82 (0.45–1.49), with no difference."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Beneficio significativo, pero procedente de un solo ECA y con un intervalo amplio.",
+            "en": "A significant benefit, but from a single RCT and with a wide interval."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el intervalo excluye el 1, pero procede de un solo ECA de 201 mujeres y es muy amplio; ESHRE califica de muy baja (⊕○○○) la certeza de su recomendación de IUI estimulada.",
+            "en": "Correct: the interval excludes 1, but it comes from a single RCT of 201 women and is very wide; ESHRE rates the certainty behind its stimulated IUI recommendation as very low (⊕○○○)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Es evidencia de certeza alta para la IUI estimulada.",
+            "en": "It is high-certainty evidence for stimulated IUI."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE califica como muy baja (⊕○○○) la certeza de su recomendación de IUI con estimulación.",
+            "en": "ESHRE rates the certainty of its stimulated IUI recommendation as very low (⊕○○○)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El beneficio de la IUI estimulada depende del pronóstico de partida: marcado en mal pronóstico, no demostrado en pronóstico moderado.",
+        "en": "The benefit of stimulated IUI depends on baseline prognosis: striking with poor prognosis, not shown with moderate prognosis."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx21",
+      "kind": "question",
+      "conceptId": "fert-ui.expectant-vs-active",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué evidencia encontró ESHRE sobre el letrozol o las gonadotropinas con coito programado frente al manejo expectante en la infertilidad inexplicada?",
+        "en": "What evidence did ESHRE find on letrozole or gonadotrophins with timed intercourse versus expectant management in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No encontró ECA para esas comparaciones.",
+            "en": "It found no RCTs for those comparisons."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE indica que no se hallaron ECA; su conclusión sobre ellos es juicio del grupo elaborador.",
+            "en": "Correct: ESHRE states that no RCTs were found; its conclusion about them is the development group's judgement."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Varios ECA mostraron más nacidos vivos con letrozol.",
+            "en": "Several RCTs showed more live births with letrozole."
+          },
+          "correct": false,
+          "why": {
+            "es": "No se hallaron ECA de letrozol con coito programado frente al manejo expectante.",
+            "en": "No RCTs of letrozole with timed intercourse versus expectant management were found."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un ECA de 385 parejas con gonadotropinas que no mostró beneficio.",
+            "en": "A 385-couple RCT with gonadotrophins that showed no benefit."
+          },
+          "correct": false,
+          "why": {
+            "es": "El ECA de 385 parejas evaluó el clomifeno con coito programado, no las gonadotropinas.",
+            "en": "The 385-couple RCT assessed clomiphene with timed intercourse, not gonadotrophins."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Un metaanálisis que mostró más gestación múltiple sin más nacidos vivos.",
+            "en": "A meta-analysis showing more multiple pregnancies without more live births."
+          },
+          "correct": false,
+          "why": {
+            "es": "Para estas comparaciones frente a expectante no hubo ECA que metaanalizar.",
+            "en": "For these comparisons against expectant management there were no RCTs to meta-analyse."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ausencia de ECA no es lo mismo que evidencia de ineficacia: para letrozol y gonadotropinas con coito programado, la conclusión de ESHRE es juicio del grupo elaborador.",
+        "en": "Absence of RCTs is not evidence of inefficacy: for letrozole and gonadotrophins with timed intercourse, ESHRE's conclusion is the development group's judgement."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx22",
+      "kind": "question",
+      "conceptId": "fert-ui.eshre-vs-nice",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué afirmación resume correctamente la diferencia entre ESHRE 2023 y NICE NG257 en la primera línea de la infertilidad inexplicada?",
+        "en": "Which statement correctly summarises the difference between ESHRE 2023 and NICE NG257 on first-line treatment of unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas exigen 2 años de búsqueda antes de cualquier tratamiento.",
+            "en": "Both require 2 years of trying before any treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las recomendaciones de ESHRE no fijan ese segundo año: deciden según el pronóstico.",
+            "en": "ESHRE's recommendations do not set that second year: they decide by prognosis."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE recomienda la FIV de primera línea y NICE, la IUI.",
+            "en": "ESHRE recommends IVF first line and NICE recommends IUI."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido en lo esencial: ESHRE considera que la FIV probablemente no se recomienda frente a la IUI estimulada, y NICE ofrece la FIV como opción tras los 2 años.",
+            "en": "It is essentially inverted: ESHRE considers IVF probably not recommended over stimulated IUI, and NICE offers IVF as an option after the 2 years."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas recomiendan empezar con clomifeno y coito programado.",
+            "en": "Both recommend starting with clomiphene and timed intercourse."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna apoya la estimulación ovárica sola; NICE la desaconseja expresamente (1.38.2).",
+            "en": "Neither supports ovarian stimulation alone; NICE explicitly advises against it (1.38.2)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE recomienda IUI con estimulación como primera línea, decidiendo el inicio por pronóstico; NICE aconseja intentar hasta 2 años en total y después considerar hasta 4 IUI con gonadotropinas u ofrecer FIV.",
+            "en": "ESHRE recommends stimulated IUI as first line, deciding when to start on prognosis; NICE advises trying for 2 years in total and then considering up to 4 IUI cycles with gonadotrophins or offering IVF."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la discrepancia real entre ambas guías (ESHRE: fuerte, ⊕○○○, + GPP; NICE 1.38.1 y 1.38.3).",
+            "en": "Correct: this is the genuine discrepancy between the two guidelines (ESHRE: strong, ⊕○○○, + GPP; NICE 1.38.1 and 1.38.3)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La diferencia es de calendario y de criterio, no de que una guía esté equivocada.",
+        "en": "The difference is one of timeline and criteria, not that one guideline is wrong."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx23",
+      "kind": "question",
+      "conceptId": "fert-ui.eshre-vs-nice",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Por qué NICE y ESHRE llegan a posiciones distintas sobre la FIV frente a la IUI estimulada en la infertilidad inexplicada?",
+        "en": "Why do NICE and ESHRE reach different positions on IVF versus stimulated IUI in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE encontró que la IUI aumenta el riesgo de SHO grave.",
+            "en": "NICE found that IUI increases the risk of severe OHSS."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es el argumento de NICE; su razonamiento es de coste-efectividad.",
+            "en": "That is not NICE's argument; its reasoning is about cost-effectiveness."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "NICE se apoyó en un metaanálisis en red y un modelo económico del NHS que situaron la FIV como el primer tratamiento más coste-efectivo; ESHRE argumenta que, sin tratamiento previo, la FIV es tan eficaz como la IUI estimulada, que es menos invasiva y costosa.",
+            "en": "NICE relied on a network meta-analysis and an NHS economic model that placed IVF as the most cost-effective first-line treatment; ESHRE argues that, in treatment-naïve patients, IVF is as effective as stimulated IUI, which is less invasive and costly."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la explicación que dan las propias guías; NICE acepta además la IUI con gonadotropina como alternativa de primera línea.",
+            "en": "Correct: this is the explanation the guidelines themselves give; NICE also accepts IUI with a gonadotrophin as an alternative first-line option."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ESHRE se basó en un modelo económico y NICE, solo en ECA.",
+            "en": "ESHRE relied on an economic model and NICE only on RCTs."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: el modelo económico es el de NICE para el NHS.",
+            "en": "It is the other way round: the economic model is NICE's, for the NHS."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Usan definiciones distintas de infertilidad inexplicada.",
+            "en": "They use different definitions of unexplained infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "La discrepancia se explica por el criterio de coste-efectividad frente al de invasividad y coste, no por la definición.",
+            "en": "The discrepancy is explained by cost-effectiveness versus invasiveness and cost, not by the definition."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE: coste-efectividad para el NHS (aceptando la IUI con gonadotropina como alternativa); ESHRE: eficacia similar sin tratamiento previo y menor invasividad y coste de la IUI.",
+        "en": "NICE: NHS cost-effectiveness (accepting IUI with a gonadotrophin as an alternative); ESHRE: similar efficacy in treatment-naïve patients and the lower invasiveness and cost of IUI."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx24",
+      "kind": "question",
+      "conceptId": "fert-ui.stimulation-alone",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cuál es la posición de las guías sobre la estimulación ovárica sola (sin IUI) en la infertilidad inexplicada?",
+        "en": "What is the guidelines' position on ovarian stimulation alone (without IUI) in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE indica no ofrecerla (1.38.2); ESHRE llega a una conclusión parecida en la justificación, no como recomendación formal.",
+            "en": "NICE advises not offering it (1.38.2); ESHRE reaches a similar conclusion in its justification, not as a formal recommendation."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE la consideró ni eficaz ni coste-efectiva; en ESHRE es una conclusión de la justificación.",
+            "en": "Correct: NICE found it neither effective nor cost effective; in ESHRE it is a conclusion in the justification."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE tiene una recomendación formal fuerte contra el letrozol con coito programado.",
+            "en": "ESHRE has a formal strong recommendation against letrozole with timed intercourse."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sobrestima la posición de ESHRE: es una conclusión en la justificación, y para el letrozol no encontró ECA frente al manejo expectante.",
+            "en": "This overstates ESHRE's position: it is a conclusion in the justification, and for letrozole it found no RCTs against expectant management."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE recomienda hasta 6 ciclos de letrozol antes de la IUI.",
+            "en": "NICE recommends up to 6 cycles of letrozole before IUI."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica no ofrecer la estimulación ovárica como tratamiento aislado.",
+            "en": "NICE advises not offering ovarian stimulation as a stand-alone treatment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas la recomiendan como primera línea en mujeres jóvenes.",
+            "en": "Both recommend it as first line in young women."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna de las dos apoya la estimulación ovárica sola.",
+            "en": "Neither supports ovarian stimulation alone."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "No exageres la fuerza: NICE tiene una recomendación explícita en contra; ESHRE, una conclusión en la justificación de sus recomendaciones.",
+        "en": "Do not overstate the strength: NICE has an explicit recommendation against; ESHRE, a conclusion in the justification of its recommendations."
+      },
+      "refIds": [
+        "nice-2026-ng257",
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx25",
+      "kind": "question",
+      "conceptId": "fert-ui.stimulation-alone",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Un colega afirma: «En la infertilidad inexplicada está demostrado que el letrozol con coito programado da más nacidos vivos que el clomifeno». Según los datos que resume ESHRE, ¿qué es correcto?",
+        "en": "A colleague says: “In unexplained infertility, letrozole with timed intercourse has been shown to give more live births than clomiphene.” According to the data ESHRE summarises, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es correcto: dos ECA mostraron más nacidos vivos con letrozol.",
+            "en": "Correct: two RCTs showed more live births with letrozole."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguno de los dos ECA citados aporta nacido vivo; uno no halló diferencias en embarazo evolutivo.",
+            "en": "Neither cited RCT reports live birth; one found no difference in ongoing pregnancy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un ECA de 270 mujeres halló más embarazo clínico con letrozol, pero la guía no recoge datos de nacido vivo para esta comparación ni recomienda un fármaco.",
+            "en": "A 270-woman RCT found more clinical pregnancies with letrozole, but the guideline reports no live birth data for this comparison and recommends no drug."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 23,07 % frente a 10,68 % de embarazo clínico, con más gestación múltiple con clomifeno; otro ECA (172 mujeres) no halló diferencias en embarazo evolutivo.",
+            "en": "Correct: 23.07% versus 10.68% clinical pregnancy, with more multiple pregnancies with clomiphene; another RCT (172 women) found no difference in ongoing pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es al revés: el clomifeno dio más embarazos y menos gestación múltiple.",
+            "en": "It is the other way round: clomiphene gave more pregnancies and fewer multiple pregnancies."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el ECA de 270 mujeres, el letrozol dio más embarazo clínico y el clomifeno, más gestación múltiple.",
+            "en": "In the 270-woman RCT, letrozole gave more clinical pregnancies and clomiphene more multiple pregnancies."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE recomienda el letrozol frente al clomifeno (condicional).",
+            "en": "ESHRE recommends letrozole over clomiphene (conditional)."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no formula una recomendación sobre qué fármaco usar.",
+            "en": "ESHRE makes no recommendation on which drug to use."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Más embarazo clínico en un ECA pequeño no equivale a más nacidos vivos; además, la estimulación sola no se apoya en esta indicación.",
+        "en": "More clinical pregnancies in a small RCT do not equal more live births; moreover, stimulation alone is not supported in this indication."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx26",
+      "kind": "question",
+      "conceptId": "fert-ui.oil-hsg",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Vas a hacer una HSG con contraste oleoso a una mujer con infertilidad inexplicada. Según ESHRE, ¿qué precaución se relaciona con su principal riesgo?",
+        "en": "You are about to perform an oil-based contrast HSG in a woman with unexplained infertility. According to ESHRE, which precaution relates to its main risk?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Dar profilaxis antibiótica, porque aumenta las infecciones.",
+            "en": "Give antibiotic prophylaxis, because it increases infections."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE no describe diferencias en infección ni en hemorragia entre contrastes.",
+            "en": "ESHRE describes no difference in infection or haemorrhage between contrasts."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Hacerla siempre bajo anestesia general.",
+            "en": "Always perform it under general anaesthesia."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es la precaución que propone ESHRE; insiste en el control radioscópico.",
+            "en": "This is not the precaution ESHRE proposes; it stresses fluoroscopic control."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguna, porque el contraste oleoso es más seguro que el hidrosoluble.",
+            "en": "None, because oil-based contrast is safer than water-based contrast."
+          },
+          "correct": false,
+          "why": {
+            "es": "La intravasación es más frecuente con contraste oleoso (OR 5,00; IC95 % 2,25–11,12; en un estudio de 3289 HSG, 4,8 % frente a 1,3 %).",
+            "en": "Intravasation is more frequent with oil-based contrast (OR 5.00; 95% CI 2.25–11.12; in a study of 3,289 HSGs, 4.8% versus 1.3%)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacerla bajo control radioscópico (fluoroscopia) para poder interrumpirla si hay intravasación.",
+            "en": "Perform it under fluoroscopic control so that it can be stopped if intravasation occurs."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la intravasación es más frecuente con contraste oleoso (OR 5,00) y se han descrito cuatro casos de embolia grave desde 1928.",
+            "en": "Correct: intravasation is more frequent with oil-based contrast (OR 5.00) and four cases of serious embolism have been reported since 1928."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Beneficio (más embarazo clínico y, en el seguimiento del mayor ensayo, más nacidos vivos) frente a riesgo (intravasación, embolia rara): de ahí la decisión compartida y la fluoroscopia.",
+        "en": "Benefit (more clinical pregnancies and, in the largest trial's follow-up, more live births) versus risk (intravasation, rare embolism): hence shared decision-making and fluoroscopy."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx27",
+      "kind": "question",
+      "conceptId": "fert-ui.oil-hsg",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cómo formula ESHRE su posición sobre la HSG con contraste oleoso en la infertilidad inexplicada?",
+        "en": "How does ESHRE frame its position on oil-based contrast HSG in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Obligatoria en todas las parejas (fuerte; ⊕⊕⊕⊕).",
+            "en": "Mandatory for all couples (strong; ⊕⊕⊕⊕)."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación es condicional y de certeza baja, no fuerte ni de certeza alta.",
+            "en": "The recommendation is conditional with low certainty, not strong or high certainty."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No recomendada, por el riesgo de embolia.",
+            "en": "Not recommended, because of the risk of embolism."
+          },
+          "correct": false,
+          "why": {
+            "es": "ESHRE la considera preferible; el riesgo se maneja con información y control radioscópico.",
+            "en": "ESHRE considers it preferable; the risk is managed with counselling and fluoroscopic control."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Preferible al hidrosoluble, comentando riesgos y beneficios con todas las parejas (condicional; ⊕⊕○○).",
+            "en": "Preferable to water-based contrast, discussing risks and benefits with all couples (conditional; ⊕⊕○○)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es una recomendación condicional que requiere decisión compartida.",
+            "en": "Correct: it is a conditional recommendation that requires shared decision-making."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo para mujeres con obstrucción tubárica conocida.",
+            "en": "Only for women with known tubal obstruction."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación se dirige a todas las parejas con infertilidad inexplicada.",
+            "en": "The recommendation addresses all couples with unexplained infertility."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En el metaanálisis citado, el contraste oleoso probablemente aumenta el embarazo clínico (OR 1,42; 1,10–1,85), y en el seguimiento a 5 años del mayor ensayo hubo más nacidos vivos (RR 1,11; 1,03–1,20).",
+        "en": "In the meta-analysis cited, oil-based contrast probably increases clinical pregnancy (OR 1.42; 1.10–1.85), and in the 5-year follow-up of the largest trial there were more live births (RR 1.11; 1.03–1.20)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx28",
+      "kind": "question",
+      "conceptId": "fert-ui.iui-safety",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cuántos ciclos de IUI estimulada plantean ESHRE y NICE en la infertilidad inexplicada?",
+        "en": "How many stimulated IUI cycles do ESHRE and NICE envisage in unexplained infertility?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas, un máximo de 2 ciclos.",
+            "en": "Both, a maximum of 2 cycles."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna fija ese máximo: ESHRE habla de 3–6 y NICE de hasta 4.",
+            "en": "Neither sets that maximum: ESHRE speaks of 3–6 and NICE of up to 4."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE, hasta 4; NICE, de tres a seis.",
+            "en": "ESHRE, up to 4; NICE, three to six."
+          },
+          "correct": false,
+          "why": {
+            "es": "Está invertido.",
+            "en": "It is the other way round."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas, ciclos ilimitados mientras la respuesta sea monofolicular.",
+            "en": "Both, unlimited cycles as long as the response is monofollicular."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas guías plantean un número limitado de ciclos.",
+            "en": "Both guidelines envisage a limited number of cycles."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE, de tres a seis ciclos en su justificación; NICE, hasta 4 ciclos con gonadotropinas antes de la FIV.",
+            "en": "ESHRE, three to six cycles in its justification; NICE, up to 4 cycles with gonadotrophins before IVF."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE 3–6 (justificación) y NICE «hasta 4» (1.38.3).",
+            "en": "Correct: ESHRE 3–6 (justification) and NICE “up to 4” (1.38.3)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Acuerda con la pareja de antemano el número de ciclos: 3–6 en la justificación de ESHRE frente a «hasta 4» en la recomendación de NICE.",
+        "en": "Agree the number of cycles with the couple in advance: 3–6 in ESHRE's justification versus “up to 4” in the NICE recommendation."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx29",
+      "kind": "question",
+      "conceptId": "fert-ui.iui-safety",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Para la IUI de una pareja con infertilidad inexplicada, un colega propone subir la dosis de gonadotropinas para conseguir 4–5 folículos «y aumentar las posibilidades». ¿Qué es lo adecuado?",
+        "en": "For IUI in a couple with unexplained infertility, a colleague proposes raising the gonadotrophin dose to obtain 4–5 follicles “to increase the chances”. What is appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hacerlo: más folículos aumentan el nacido vivo sin riesgo añadido.",
+            "en": "Do it: more follicles increase live birth with no added risk."
+          },
+          "correct": false,
+          "why": {
+            "es": "El objetivo de la dosis baja es precisamente evitar la gestación múltiple y el SHO.",
+            "en": "The purpose of the low dose is precisely to avoid multiple pregnancy and OHSS."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Hacerlo, siempre que se haga transferencia de un solo embrión.",
+            "en": "Do it, as long as a single embryo is transferred."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la IUI no hay transferencia de embriones: el número de folículos determina el riesgo de gestación múltiple.",
+            "en": "There is no embryo transfer in IUI: the number of follicles determines the risk of multiple pregnancy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No hacerlo: ESHRE indica dosis baja con monitorización (GPP) para evitar muchos folículos, y NICE, la dosis eficaz más baja.",
+            "en": "Do not do it: ESHRE advises a low dose with monitoring (GPP) to avoid many follicles, and NICE the lowest effective dose."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: según ESHRE, la dosis baja reduce mucho la gestación múltiple sin reducir significativamente el nacido vivo; NICE 1.54.3 pide la dosis y la duración eficaces más bajas.",
+            "en": "Correct: according to ESHRE, a low dose greatly reduces multiple pregnancy without significantly reducing live birth; NICE 1.54.3 asks for the lowest effective dose and duration."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Hacerlo, pero solo en el primer ciclo.",
+            "en": "Do it, but only in the first cycle."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna guía avala una dosis alta en ningún ciclo de esta indicación.",
+            "en": "Neither guideline supports a high dose in any cycle in this indication."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Dosis baja con monitorización adecuada (GPP de ESHRE) y la dosis eficaz más baja (NICE 1.54.3): así se limitan la gestación múltiple y el SHO en la IUI estimulada.",
+        "en": "Low dose with adequate monitoring (ESHRE GPP) and the lowest effective dose (NICE 1.54.3): this is how multiple pregnancy and OHSS are limited in stimulated IUI."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx30",
+      "kind": "question",
+      "conceptId": "fert-ui.iui-safety",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Frente al manejo expectante, la OR de gestación múltiple con IUI estimulada fue 3,01 (IC95 % 0,47–19,28; 2 ECA). ¿Cuál es la lectura correcta?",
+        "en": "Compared with expectant management, the OR for multiple pregnancy with stimulated IUI was 3.01 (95% CI 0.47–19.28; 2 RCTs). What is the correct reading?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Demuestra que la IUI estimulada triplica la gestación múltiple.",
+            "en": "It shows that stimulated IUI triples multiple pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "El punto estimado es 3,01, pero el intervalo incluye el 1: no es significativo.",
+            "en": "The point estimate is 3.01, but the interval includes 1: it is not significant."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Estimación muy imprecisa y no significativa: no demuestra ni descarta un aumento del riesgo.",
+            "en": "A very imprecise, non-significant estimate: it neither shows nor rules out an increased risk."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el intervalo es muy amplio e incluye el 1; por eso ESHRE sigue insistiendo en la dosis baja y la monitorización.",
+            "en": "Correct: the interval is very wide and includes 1; this is why ESHRE still insists on low dose and monitoring."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Demuestra que la IUI estimulada no aumenta la gestación múltiple.",
+            "en": "It shows that stimulated IUI does not increase multiple pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un resultado no significativo con un intervalo tan amplio no demuestra ausencia de riesgo.",
+            "en": "A non-significant result with such a wide interval does not show absence of risk."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Demuestra que la gestación múltiple es menor que con manejo expectante.",
+            "en": "It shows that multiple pregnancy is lower than with expectant management."
+          },
+          "correct": false,
+          "why": {
+            "es": "Una OR por encima de 1 no indica menor riesgo, y el intervalo incluye el 1.",
+            "en": "An OR above 1 does not indicate a lower risk, and the interval includes 1."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Imprecisión no es seguridad: con un IC tan amplio, la prevención (dosis baja, monitorización) sigue siendo la norma.",
+        "en": "Imprecision is not safety: with such a wide CI, prevention (low dose, monitoring) remains the rule."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx31",
+      "kind": "question",
+      "conceptId": "fert-ui.when-ivf",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 32 años con infertilidad inexplicada y sin tratamientos previos. Pregunta si la FIV le daría más probabilidad de nacido vivo que la IUI estimulada. Según los datos que resume ESHRE, ¿qué le dices?",
+        "en": "A 32-year-old woman with unexplained infertility and no previous treatment asks whether IVF would give her a higher chance of live birth than stimulated IUI. According to the data ESHRE summarises, what do you tell her?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En mujeres sin tratamiento previo y menores de 38 años no hubo diferencia (RR 1,01; IC95 % 0,88–1,15).",
+            "en": "In treatment-naïve women under 38 there was no difference (RR 1.01; 95% CI 0.88–1.15)."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 3 ECA, 925 mujeres; de ahí que ESHRE considere que la FIV probablemente no se recomienda frente a la IUI estimulada (condicional).",
+            "en": "Correct: 3 RCTs, 925 women; hence ESHRE considers IVF probably not recommended over stimulated IUI (conditional)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sí: la FIV aumenta el nacido vivo un 54 % en todas las mujeres.",
+            "en": "Yes: IVF increases live birth by 54% in all women."
+          },
+          "correct": false,
+          "why": {
+            "es": "El RR global de 1,54 no se mantiene en el subgrupo sin tratamiento previo y menor de 38 años, que es el suyo.",
+            "en": "The overall RR of 1.54 does not hold in the treatment-naïve under-38 subgroup, which is hers."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sí, y además la FIV tiene menos gestación múltiple y SHO.",
+            "en": "Yes, and IVF also has less multiple pregnancy and OHSS."
+          },
+          "correct": false,
+          "why": {
+            "es": "El metaanálisis no mostró diferencias significativas en gestación múltiple ni SHO.",
+            "en": "The meta-analysis showed no significant difference in multiple pregnancy or OHSS."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No: la IUI estimulada da significativamente más nacidos vivos que la FIV.",
+            "en": "No: stimulated IUI gives significantly more live births than IVF."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tampoco: en su subgrupo no hubo diferencia en ninguna dirección.",
+            "en": "Not that either: in her subgroup there was no difference in either direction."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Aplica el subgrupo que corresponde a la paciente: sin tratamiento previo y <38 años, FIV e IUI estimulada no difieren en nacido vivo.",
+        "en": "Apply the subgroup that matches the patient: treatment-naïve and <38 years, IVF and stimulated IUI do not differ in live birth."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx32",
+      "kind": "question",
+      "conceptId": "fert-ui.when-ivf",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En el NHS (Reino Unido), una mujer de 40 años con problemas de fertilidad inexplicados no ha concebido tras 2 años de relaciones regulares sin protección y nunca ha hecho FIV. Según NICE NG257, ¿qué se le ofrece?",
+        "en": "In the NHS (UK), a 40-year-old woman with unexplained fertility problems has not conceived after 2 years of regular unprotected intercourse and has never had IVF. According to NICE NG257, what is she offered?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "3 ciclos completos, con posibilidad de 3 más.",
+            "en": "3 full cycles, with up to 3 more considered."
+          },
+          "correct": false,
+          "why": {
+            "es": "Eso corresponde a menores de 40 años (1.39.6, 1.39.7).",
+            "en": "That applies to those under 40 (1.39.6, 1.39.7)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "1 ciclo completo de FIV.",
+            "en": "1 full cycle of IVF."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: a los 40–41 años, si cumple los criterios de 1.39.3 y no ha hecho FIV antes, NICE ofrece 1 ciclo completo (1.39.9).",
+            "en": "Correct: at 40–41, if she meets the criteria in 1.39.3 and has not had IVF before, NICE offers 1 full cycle (1.39.9)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguno, porque la definición de ESHRE limita la infertilidad inexplicada a ≤40 años.",
+            "en": "None, because ESHRE's definition limits unexplained infertility to ≤40 years."
+          },
+          "correct": false,
+          "why": {
+            "es": "El límite del 42.º cumpleaños de NICE es un criterio de acceso del NHS, independiente de la definición de ESHRE.",
+            "en": "NICE's 42nd-birthday limit is an NHS access criterion, independent of ESHRE's definition."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Primero 4 ciclos obligatorios de IUI.",
+            "en": "First, 4 mandatory IUI cycles."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE ofrece la FIV tras 2 años, con o sin IUI previa; los 4 ciclos de IUI son algo a considerar, no un requisito.",
+            "en": "NICE offers IVF after 2 years, with or without previous IUI; the 4 IUI cycles are something to consider, not a requirement."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE: FIV antes del 42.º cumpleaños tras 2 años (1.39.3); 3 ciclos completos por debajo de 40 años y 1 a los 40–41 si no hubo FIV previa (1.39.9).",
+        "en": "NICE: IVF before the 42nd birthday after 2 years (1.39.3); 3 full cycles under 40 and 1 at 40–41 if there has been no previous IVF (1.39.9)."
+      },
+      "refIds": [
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx33",
+      "kind": "question",
+      "conceptId": "fert-ui.when-ivf",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Según NICE NG257, ¿qué incluye un «ciclo completo» de FIV?",
+        "en": "According to NICE NG257, what does a “full cycle” of IVF comprise?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una única transferencia de embrión fresco.",
+            "en": "A single fresh embryo transfer."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un ciclo completo incluye también la transferencia de los embriones congelados resultantes.",
+            "en": "A full cycle also includes transfer of the resulting frozen embryos."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Tres estimulaciones ováricas consecutivas.",
+            "en": "Three consecutive ovarian stimulations."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un ciclo completo es una sola estimulación ovárica.",
+            "en": "A full cycle is a single episode of ovarian stimulation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una estimulación y hasta 2 transferencias, sean cuales sean los embriones sobrantes.",
+            "en": "One stimulation and up to 2 transfers, whatever embryos remain."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE incluye la transferencia de todos los embriones resultantes, no un número fijo.",
+            "en": "NICE includes the transfer of all resulting embryos, not a fixed number."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una estimulación ovárica y la transferencia de todos los embriones frescos y congelados resultantes.",
+            "en": "One episode of ovarian stimulation and the transfer of all resulting fresh and frozen embryos."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la definición de NICE (1.39.4).",
+            "en": "Correct: this is NICE's definition (1.39.4)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Al contar ciclos de FIV financiados por el NHS, NICE usa esta definición de ciclo completo (1.39.4).",
+        "en": "When counting NHS-funded IVF cycles, NICE uses this definition of a full cycle (1.39.4)."
+      },
+      "refIds": [
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx34",
+      "kind": "question",
+      "conceptId": "fert-ui.no-icsi",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿En cuál de estas situaciones contempla NICE NG257 considerar la ICSI?",
+        "en": "In which of these situations does NICE NG257 consider ICSI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un ciclo de FIV previo con fallo de fecundación o tasa de fecundación muy baja.",
+            "en": "A previous IVF cycle with failed fertilisation or a very low fertilisation rate."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE considera la ICSI ante semen anormal (según la gravedad) o fallo de fecundación previo (1.50.2).",
+            "en": "Correct: NICE considers ICSI with abnormal semen parameters (taking severity into account) or previous failed fertilisation (1.50.2)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Infertilidad inexplicada con seminograma normal, para asegurar la fecundación.",
+            "en": "Unexplained infertility with a normal semen analysis, to secure fertilisation."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE indica no usar ICSI en problemas de fertilidad no masculinos con parámetros seminales normales (1.50.3).",
+            "en": "NICE advises not using ICSI for non-male factor fertility problems with normal semen parameters (1.50.3)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mujer de 39 años con seminograma normal, por la edad.",
+            "en": "A 39-year-old woman with a normal semen analysis, because of her age."
+          },
+          "correct": false,
+          "why": {
+            "es": "La edad de la mujer no figura entre las indicaciones; con semen normal y factor no masculino, NICE indica no usarla.",
+            "en": "Female age is not among the indications; with normal semen and a non-male factor, NICE advises against it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cualquier pareja que pague el procedimiento.",
+            "en": "Any couple paying for the procedure."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las indicaciones de NICE son clínicas: semen anormal o fallo de fecundación previo.",
+            "en": "NICE's indications are clinical: abnormal semen or previous failed fertilisation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE separa con claridad: considerar ICSI con semen anormal o fallo de fecundación previo (1.50.2); no usarla en factor no masculino con semen normal (1.50.3).",
+        "en": "NICE draws a clear line: consider ICSI with abnormal semen or previous failed fertilisation (1.50.2); do not use it for non-male factor with normal semen (1.50.3)."
+      },
+      "refIds": [
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx35",
+      "kind": "question",
+      "conceptId": "fert-ui.no-icsi",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Cómo califican la ICSI sin factor masculino los dos documentos de ESHRE de 2023 (guía de infertilidad inexplicada y documento de add-ons)?",
+        "en": "How do the two 2023 ESHRE documents (unexplained infertility guideline and add-ons document) rate ICSI without a male factor?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Guía: condicional en contra; add-ons: «can be considered».",
+            "en": "Guideline: conditional against; add-ons: “can be considered”."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía es fuerte en contra y el documento de add-ons usa «not recommended».",
+            "en": "The guideline is strong against and the add-ons document uses “not recommended”."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Guía: fuerte en contra; add-ons: «currently not recommended for routine clinical use».",
+            "en": "Guideline: strong against; add-ons: “currently not recommended for routine clinical use”."
+          },
+          "correct": false,
+          "why": {
+            "es": "En el documento de add-ons, la ICSI en factor no masculino figura como «not recommended».",
+            "en": "In the add-ons document, ICSI for non-male factor is rated “not recommended”."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Guía: no recomendada frente a la FIV convencional (fuerte; ⊕○○○); add-ons: «not recommended».",
+            "en": "Guideline: not recommended over conventional IVF (strong; ⊕○○○); add-ons: “not recommended”."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambos documentos coinciden en no recomendarla, cada uno con su escala.",
+            "en": "Correct: both documents agree on not recommending it, each with its own scale."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguno de los dos se pronuncia.",
+            "en": "Neither addresses it."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambos se pronuncian expresamente en contra.",
+            "en": "Both expressly address it, against."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En los ECA revisados, el nacido vivo fue similar (35,5 % con FIV frente a 36,7 % con ICSI; RR 1,03; 0,79–1,35), con más recursos y costes para la ICSI.",
+        "en": "In the RCTs reviewed, live birth was similar (35.5% with IVF versus 36.7% with ICSI; RR 1.03; 0.79–1.35), with greater resources and costs for ICSI."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility",
+        "eshre-2023-addons"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx36",
+      "kind": "question",
+      "conceptId": "fert-ui.no-extras",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "supplements",
+        "habits"
+      ],
+      "stem": {
+        "es": "Una mujer con infertilidad inexplicada pregunta por mio-inositol para ella y antioxidantes para los dos «para ayudar». Según ESHRE, ¿qué es lo correcto?",
+        "en": "A woman with unexplained infertility asks about myo-inositol for herself and antioxidants for both partners “to help”. According to ESHRE, what is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ESHRE recomienda el inositol (fuerte), pero no los antioxidantes.",
+            "en": "ESHRE recommends inositol (strong), but not antioxidants."
+          },
+          "correct": false,
+          "why": {
+            "es": "El inositol en la mujer se considera probablemente no recomendado (condicional; ⊕○○○).",
+            "en": "Inositol in women is considered probably not recommended (conditional; ⊕○○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE recomienda los antioxidantes solo en el varón.",
+            "en": "ESHRE recommends antioxidants only for the man."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación condicional en contra incluye a la mujer y al varón.",
+            "en": "The conditional recommendation against covers both women and men."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "ESHRE los considera probablemente no recomendados (condicional; ⊕○○○); como buena práctica sí recoge dieta saludable, ejercicio regular y apoyo psicológico.",
+            "en": "ESHRE considers them probably not recommended (conditional; ⊕○○○); as good practice it does endorse a healthy diet, regular exercise and psychological support."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: antioxidantes orales adyuvantes en ambos e inositol en la mujer, condicionales en contra; hábitos y apoyo psicológico, GPP.",
+            "en": "Correct: adjunct oral antioxidants in both partners and inositol in women, conditional against; lifestyle and psychological support, GPP."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "ESHRE tiene una recomendación fuerte en contra de ambos.",
+            "en": "ESHRE has a strong recommendation against both."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sobrestima la fuerza: ambas son recomendaciones condicionales.",
+            "en": "This overstates the strength: both are conditional recommendations."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Desde la mirada integrativa, lo que ESHRE respalda en esta indicación son los hábitos y el apoyo psicológico, no los antioxidantes ni el inositol.",
+        "en": "From an integrative perspective, what ESHRE supports in this indication is lifestyle and psychological support, not antioxidants or inositol."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx37",
+      "kind": "question",
+      "conceptId": "fert-ui.no-extras",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction",
+        "supplements",
+        "habits"
+      ],
+      "stem": {
+        "es": "En la infertilidad inexplicada, ¿cuál de estas intervenciones tiene en ESHRE una recomendación FUERTE en contra (y no solo condicional)?",
+        "en": "In unexplained infertility, which of these interventions carries a STRONG recommendation against in ESHRE (not just a conditional one)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El scratching endometrial.",
+            "en": "Endometrial scratching."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ESHRE indica que no debe ofrecerse (fuerte; ⊕⊕○○).",
+            "en": "Correct: ESHRE states that it should not be offered (strong; ⊕⊕○○)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La acupuntura en la mujer.",
+            "en": "Acupuncture in women."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una recomendación condicional (⊕⊕○○): probablemente no recomendada.",
+            "en": "It is a conditional recommendation (⊕⊕○○): probably not recommended."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El inositol en la mujer.",
+            "en": "Inositol in women."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una recomendación condicional (⊕○○○).",
+            "en": "It is a conditional recommendation (⊕○○○)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los antioxidantes orales adyuvantes.",
+            "en": "Adjunct oral antioxidants."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una recomendación condicional (⊕○○○), en la mujer y en el varón.",
+            "en": "It is a conditional recommendation (⊕○○○), in women and men."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Fuerza distinta, misma dirección: scratching, fuerte en contra; acupuntura, inositol y antioxidantes, condicionales en contra.",
+        "en": "Different strength, same direction: scratching, strong against; acupuncture, inositol and antioxidants, conditional against."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "fert-ui.qx38",
+      "kind": "question",
+      "conceptId": "fert-ui.no-extras",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction",
+        "supplements",
+        "habits"
+      ],
+      "stem": {
+        "es": "En el ECA más reciente de scratching endometrial con coito programado (220 mujeres) que cita ESHRE, el nacido vivo fue del 9 % frente al 7 % con procedimiento simulado (OR 1,39; IC95 % 0,50–4,03). ¿Cómo se interpreta?",
+        "en": "In the most recent RCT of endometrial scratching with timed intercourse (220 women) cited by ESHRE, live birth was 9% versus 7% with a sham procedure (OR 1.39; 95% CI 0.50–4.03). How should it be read?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Aumenta un 39 % el nacido vivo de forma demostrada.",
+            "en": "It has been shown to increase live birth by 39%."
+          },
+          "correct": false,
+          "why": {
+            "es": "La OR de 1,39 tiene un intervalo que incluye el 1: no es significativa.",
+            "en": "The OR of 1.39 has an interval that includes 1: it is not significant."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Reduce el nacido vivo frente al procedimiento simulado.",
+            "en": "It reduces live birth compared with sham."
+          },
+          "correct": false,
+          "why": {
+            "es": "9 % frente a 7 % no indica reducción, y la diferencia no es significativa.",
+            "en": "9% versus 7% does not indicate a reduction, and the difference is not significant."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es significativo porque 9 % es mayor que 7 %.",
+            "en": "It is significant because 9% is higher than 7%."
+          },
+          "correct": false,
+          "why": {
+            "es": "La significación depende del intervalo de confianza, que aquí incluye el 1.",
+            "en": "Significance depends on the confidence interval, which here includes 1."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sin diferencia significativa: el intervalo incluye el 1.",
+            "en": "No significant difference: the interval includes 1."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en conjunto, ESHRE concluye que la evidencia no muestra mejores resultados de embarazo con scratching antes del coito o la IUI.",
+            "en": "Correct: overall, ESHRE concludes that the evidence does not show better pregnancy outcomes with scratching before intercourse or IUI."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Algún ECA pequeño aislado describió más embarazos, pero el conjunto no muestra beneficio: por eso el scratching no debe ofrecerse (fuerte; ⊕⊕○○).",
+        "en": "A few small individual RCTs reported more pregnancies, but overall there is no benefit: hence scratching should not be offered (strong; ⊕⊕○○)."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
       }
     },
     {
