@@ -1,6 +1,7 @@
-import { Pause, Play, SkipBack, SkipForward, Square } from 'lucide-react';
+import { ChevronLeft, Pause, Play, SkipBack, SkipForward, Square } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAppState, type LoadedItem } from '../../app/AppState.tsx';
+import { href } from '../../app/router.ts';
 import { currentTimeZone } from '../../domain/scheduler/time.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import { speak, speechSupported, stopSpeaking, stripForSpeech } from '../../audio/speech.ts';
@@ -131,6 +132,9 @@ export function ListenScreen() {
 
   return (
     <div className="stack stack--lg">
+      <a className="backlink" href={href({ name: 'home' })}>
+        <ChevronLeft className="icon" aria-hidden="true" /> {t('nav.home')}
+      </a>
       <h1 className="screen-title">{t('listen.title')}</h1>
       <p className="muted">{t('listen.intro')}</p>
       {!supported ? <Notice tone="warn">{t('listen.unsupported')}</Notice> : <p className="small muted">{t('listen.limits')}</p>}

@@ -1,6 +1,7 @@
-import { ChevronRight, ListChecks, RotateCcw } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ListChecks, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { useAppState } from '../../app/AppState.tsx';
+import { href } from '../../app/router.ts';
 import type { Minutes, Scope } from '../../domain/session/selector.ts';
 import { useI18n } from '../../i18n/i18n.tsx';
 import { Notice, Segmented } from '../../ui/components.tsx';
@@ -26,6 +27,9 @@ export function QuestionsScreen() {
 
   return (
     <div className="stack stack--lg">
+      <a className="backlink" href={href({ name: 'home' })}>
+        <ChevronLeft className="icon" aria-hidden="true" /> {t('nav.home')}
+      </a>
       <h1 className="screen-title">{t('questions.title')}</h1>
       <p className="muted">{t('questions.intro')}</p>
 
