@@ -35,7 +35,20 @@
         "meno-poi.q1-single-fsh",
         "meno-poi.q2-amh-role",
         "meno-poi.q3-fmr1-test",
-        "meno-poi.q4-autoantibodies"
+        "meno-poi.q4-autoantibodies",
+        "meno-poi.qx01",
+        "meno-poi.qx02",
+        "meno-poi.qx03",
+        "meno-poi.qx04",
+        "meno-poi.qx05",
+        "meno-poi.qx06",
+        "meno-poi.qx07",
+        "meno-poi.qx08",
+        "meno-poi.qx09",
+        "meno-poi.qx10",
+        "meno-poi.qx11",
+        "meno-poi.qx12",
+        "meno-poi.qx13"
       ]
     },
     {
@@ -68,7 +81,20 @@
         "meno-poi.q5-ht-without-symptoms",
         "meno-poi.q6-coc-regimen",
         "meno-poi.q7-dxa",
-        "meno-poi.q8-complementary"
+        "meno-poi.q8-complementary",
+        "meno-poi.qx14",
+        "meno-poi.qx15",
+        "meno-poi.qx16",
+        "meno-poi.qx17",
+        "meno-poi.qx18",
+        "meno-poi.qx19",
+        "meno-poi.qx20",
+        "meno-poi.qx21",
+        "meno-poi.qx22",
+        "meno-poi.qx23",
+        "meno-poi.qx24",
+        "meno-poi.qx25",
+        "meno-poi.qx26"
       ]
     },
     {
@@ -96,6 +122,10 @@
         "meno-poi.c14-donation-preservation",
         "meno-poi.q9-contraception",
         "meno-poi.q10-sister-prp",
+        "meno-poi.qx27",
+        "meno-poi.qx28",
+        "meno-poi.qx29",
+        "meno-poi.qx30",
         "meno-poi.case1-irene-hugo"
       ]
     }
@@ -1478,6 +1508,2267 @@
       "editorial": {
         "status": "ai-audited",
         "reviewedAt": "2026-10-14"
+      }
+    },
+    {
+      "id": "meno-poi.qx01",
+      "kind": "question",
+      "conceptId": "meno-poi.definition",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Cómo define la guía ESHRE/ASRM/CRE-WHiRL/IMS de 2024 la insuficiencia ovárica prematura (IOP)?",
+        "en": "How does the 2024 ESHRE/ASRM/CRE-WHiRL/IMS guideline define premature ovarian insufficiency (POI)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Pérdida de la actividad ovárica antes de los 45 años, con FSH elevada y estradiol normal o incluso alto.",
+            "en": "Loss of ovarian activity before age 45, with raised FSH and normal or even high oestradiol."
+          },
+          "correct": false,
+          "why": {
+            "es": "El límite es 40 años y el estradiol es bajo; entre 40 y 44 la guía habla de menopausia precoz.",
+            "en": "The cut-off is 40 years and oestradiol is low; between 40 and 44 the guideline speaks of early menopause."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Pérdida de la actividad ovárica antes de los 40 años, con ciclos alterados, gonadotropinas altas y estradiol bajo.",
+            "en": "Loss of ovarian activity before age 40, with disturbed cycles, high gonadotrophins and low oestradiol."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el límite está unas dos desviaciones estándar por debajo de la edad habitual de la menopausia (50 ± 4 años).",
+            "en": "Correct: the cut-off is about two standard deviations below the usual age of menopause (50 ± 4 years)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una AMH baja antes de los 40 años, aunque los ciclos sean regulares y la FSH esté dentro de lo normal.",
+            "en": "A low AMH before age 40, even with regular cycles and normal FSH."
+          },
+          "correct": false,
+          "why": {
+            "es": "Eso describe una reserva ovárica baja, que la guía distingue de la IOP.",
+            "en": "That describes low ovarian reserve, which the guideline distinguishes from POI."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Amenorrea de al menos 12 meses antes de los 40 años, sin necesidad de medir las gonadotropinas en sangre.",
+            "en": "Amenorrhoea of at least 12 months before age 40, with no need to measure blood gonadotrophins."
+          },
+          "correct": false,
+          "why": {
+            "es": "La definición incluye ciclos irregulares y exige gonadotropinas elevadas; el criterio diagnóstico es de 4 meses.",
+            "en": "The definition includes irregular cycles and requires raised gonadotrophins; the diagnostic criterion is 4 months."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El grupo recomienda usar el término «insuficiencia ovárica prematura» en la práctica y la investigación.",
+        "en": "The group recommends using the term “premature ovarian insufficiency” in practice and research."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx02",
+      "kind": "question",
+      "conceptId": "meno-poi.definition",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer de 37 años (caso ficticio) con ciclos regulares tiene una AMH baja en un estudio de fertilidad y pregunta si tiene «menopausia precoz». ¿Qué es lo correcto según la guía de IOP de 2024?",
+        "en": "A 37-year-old woman (fictional case) with regular cycles has a low AMH in a fertility work-up and asks whether she has “early menopause”. What is correct according to the 2024 POI guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que tiene IOP, porque una AMH baja antes de los 40 años basta para el diagnóstico aunque menstrúe.",
+            "en": "That she has POI, because a low AMH before 40 is enough for the diagnosis even if she menstruates."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP exige alteración del ciclo durante al menos 4 meses y FSH > 25 UI/l; la AMH no es la prueba diagnóstica principal.",
+            "en": "POI requires at least 4 months of cycle disturbance and FSH > 25 IU/l; AMH is not the main diagnostic test."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que tiene menopausia precoz, porque ese es el término para cualquier fallo ovárico antes de los 45 años.",
+            "en": "That she has early menopause, because that is the term for any ovarian failure before 45."
+          },
+          "correct": false,
+          "why": {
+            "es": "La menopausia precoz se refiere a los 40–44 años y tampoco equivale a una AMH baja con ciclos regulares.",
+            "en": "Early menopause refers to ages 40–44 and is not the same as a low AMH with regular cycles."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que debe iniciar terapia hormonal hasta los 50 años para prevenir las secuelas a largo plazo de la IOP.",
+            "en": "That she should start hormone therapy until 50 to prevent the long-term sequelae of POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La terapia hormonal se recomienda en la IOP, no en la reserva ovárica baja con ciclos regulares.",
+            "en": "Hormone therapy is recommended in POI, not in low ovarian reserve with regular cycles."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que reserva ovárica baja e IOP son entidades distintas, con manejo diferente; la guía no se aplica a la primera.",
+            "en": "That low ovarian reserve and POI are distinct, with different management; the guideline does not apply to the former."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambas pueden confundirse, pero la guía las separa expresamente.",
+            "en": "Correct: they can be confused, but the guideline expressly separates them."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La prevalencia descrita de la IOP no iatrogénica va del 1 % en estudios antiguos al 3,5 % en publicaciones recientes: no es una enfermedad rara.",
+        "en": "The reported prevalence of non-iatrogenic POI ranges from 1% in older studies to 3.5% in recent publications: it is not a rare disease."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx03",
+      "kind": "question",
+      "conceptId": "meno-poi.diagnostic-criteria",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer de 31 años (caso ficticio), sin anticoncepción hormonal, lleva 2 meses en amenorrea; la prueba de embarazo es negativa y una FSH es de 45 UI/l. Según la ESHRE de 2024, ¿qué es lo más adecuado?",
+        "en": "A 31-year-old woman (fictional case), not on hormonal contraception, has had 2 months of amenorrhoea; the pregnancy test is negative and an FSH is 45 IU/l. According to ESHRE 2024, what is most appropriate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Aún no cumple el criterio de 4 meses: seguir la evolución y revalorar si persiste la alteración del ciclo.",
+            "en": "She does not yet meet the 4-month criterion: follow her course and reassess if the cycle disturbance persists."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el diagnóstico exige al menos 4 meses de alteración del ciclo y una FSH > 25 UI/l.",
+            "en": "Correct: the diagnosis requires at least 4 months of cycle disturbance and an FSH > 25 IU/l."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Descartar la IOP, porque la FSH debería medirse en el día 3 del ciclo para poder interpretarse.",
+            "en": "Rule out POI, because FSH should be measured on cycle day 3 to be interpretable."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía indica que no hace falta pedir la FSH en un día concreto del ciclo.",
+            "en": "The guideline states that FSH need not be requested on a specific cycle day."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Diagnosticar ya la IOP, porque una sola FSH > 25 UI/l basta aunque la amenorrea sea reciente.",
+            "en": "Diagnose POI now, because a single FSH > 25 IU/l is enough even if amenorrhoea is recent."
+          },
+          "correct": false,
+          "why": {
+            "es": "La FSH sola no basta: el criterio exige además al menos 4 meses de amenorrea o ciclos irregulares.",
+            "en": "FSH alone is not enough: the criterion also requires at least 4 months of amenorrhoea or irregular cycles."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Pedir estradiol: si es bajo, confirma la IOP sin necesidad de esperar ni de repetir la FSH más adelante.",
+            "en": "Order oestradiol: if low, it confirms POI without waiting or repeating FSH later."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP no se diagnostica por el estradiol; un valor bajo solo apoya el diagnóstico.",
+            "en": "POI is not diagnosed by oestradiol; a low value only supports the diagnosis."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Criterio de 2024 (buena práctica, GPP): amenorrea o ciclos irregulares durante al menos 4 meses y una FSH > 25 UI/l; la segunda FSH, a las 4–6 semanas, solo si hay incertidumbre. (La recomendación fuerte, ⊕⊕○○, es diagnosticar con ciclos alterados más confirmación bioquímica.)",
+        "en": "2024 criterion (good practice point, GPP): amenorrhoea or irregular cycles for at least 4 months and an FSH > 25 IU/l; a second FSH, 4–6 weeks later, only if there is uncertainty. (The strong recommendation, ⊕⊕○○, is to diagnose on disordered cycles plus biochemical confirmation.)"
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx04",
+      "kind": "question",
+      "conceptId": "meno-poi.diagnostic-criteria",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer de 33 años (caso ficticio) toma un anticonceptivo oral combinado y sospecha una IOP porque su hermana la tiene. Según la ESHRE de 2024, ¿qué hay que tener en cuenta?",
+        "en": "A 33-year-old woman (fictional case) takes a combined oral contraceptive and suspects POI because her sister has it. According to ESHRE 2024, what should be considered?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la FSH medida durante el anticonceptivo es fiable si se extrae el último día de la semana de descanso.",
+            "en": "That FSH measured while on the contraceptive is reliable if drawn on the last pill-free day."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no propone ese truco; advierte de que la anticoncepción hormonal puede bajar la FSH.",
+            "en": "The guideline proposes no such trick; it warns that hormonal contraception can lower FSH."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la anticoncepción hormonal puede ocultar la amenorrea y bajar la FSH, y quizá deba suspenderse.",
+            "en": "That hormonal contraception can mask amenorrhoea and lower FSH, and may need to be stopped."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la guía lo menciona expresamente para el anticonceptivo oral combinado.",
+            "en": "Correct: the guideline mentions this expressly for the combined oral contraceptive."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el anticonceptivo no interfiere, porque solo los dispositivos intrauterinos alteran la FSH en sangre.",
+            "en": "That the contraceptive does not interfere, because only intrauterine devices alter FSH."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía señala la anticoncepción oral, inyectable o de larga duración como posible fuente de confusión.",
+            "en": "The guideline flags oral, injectable or long-acting contraception as a possible confounder."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que basta con una AMH baja para diagnosticarla, sin necesidad de suspender el anticonceptivo oral.",
+            "en": "That a low AMH is enough to diagnose it, with no need to stop the oral contraceptive."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH no debe usarse como prueba diagnóstica principal (fuerte).",
+            "en": "AMH should not be used as the main diagnostic test (strong)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes de diagnosticar, descarta el embarazo y valora el efecto de la anticoncepción hormonal sobre el ciclo y la FSH.",
+        "en": "Before diagnosing, rule out pregnancy and consider the effect of hormonal contraception on the cycle and FSH."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx05",
+      "kind": "question",
+      "conceptId": "meno-poi.diagnostic-criteria",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "A una mujer de 36 años (caso ficticio) se le practicó una salpingo-ooforectomía bilateral. Según la ESHRE de 2024, ¿qué hace falta para diagnosticar la IOP?",
+        "en": "A 36-year-old woman (fictional case) underwent bilateral salpingo-oophorectomy. According to ESHRE 2024, what is needed to diagnose POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Esperar 4 meses de amenorrea y confirmar con una FSH > 25 UI/l.",
+            "en": "Wait for 4 months of amenorrhoea and confirm with an FSH > 25 IU/l."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tras una salpingo-ooforectomía bilateral antes de los 40 años no hacen falta más pruebas.",
+            "en": "After bilateral salpingo-oophorectomy before 40, no further tests are needed."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Dos FSH elevadas separadas 4–6 semanas y una AMH indetectable.",
+            "en": "Two raised FSH values 4–6 weeks apart and an undetectable AMH."
+          },
+          "correct": false,
+          "why": {
+            "es": "No se necesitan pruebas: la cirugía ya establece la IOP.",
+            "en": "No tests are needed: the surgery itself establishes POI."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Nada más: la salpingo-ooforectomía bilateral antes de los 40 años ya es IOP.",
+            "en": "Nothing further: bilateral salpingo-oophorectomy before 40 is already POI."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: no requiere más pruebas diagnósticas.",
+            "en": "Correct: it requires no further diagnostic tests."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Un estradiol bajo en dos ocasiones, porque en la IOP quirúrgica la FSH no es útil.",
+            "en": "A low oestradiol on two occasions, because FSH is not useful in surgical POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP no se diagnostica por el estradiol, y en este caso no hacen falta pruebas.",
+            "en": "POI is not diagnosed by oestradiol, and in this case no tests are needed."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lo importante en este caso no es confirmar el diagnóstico sino no retrasar la terapia hormonal.",
+        "en": "What matters in this case is not confirming the diagnosis but not delaying hormone therapy."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx06",
+      "kind": "question",
+      "conceptId": "meno-poi.eshre-vs-nice-amh",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿En qué difieren la ESHRE (2024) y NICE NG23 sobre el número de determinaciones de FSH para diagnosticar la IOP?",
+        "en": "How do ESHRE (2024) and NICE NG23 differ on the number of FSH measurements needed to diagnose POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "ESHRE: una sola FSH > 25 UI/l, y la segunda solo si hay duda; NICE: 2 muestras separadas 4–6 semanas.",
+            "en": "ESHRE: a single FSH > 25 IU/l, the second only if in doubt; NICE: 2 samples 4–6 weeks apart."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE (recomendaciones de 2015) indica no diagnosticar con un único análisis.",
+            "en": "Correct: NICE (2015 recommendations) says not to diagnose on a single blood test."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "ESHRE: 2 muestras separadas 4–6 semanas; NICE: acepta una sola FSH > 40 UI/l si hay amenorrea.",
+            "en": "ESHRE: 2 samples 4–6 weeks apart; NICE: accepts a single FSH > 40 IU/l with amenorrhoea."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés, y NICE no da un umbral numérico de FSH.",
+            "en": "It is the other way round, and NICE gives no numerical FSH threshold."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas aceptan una sola FSH desde 2024, porque NICE actualizó su sección de IOP en la versión de 2026.",
+            "en": "Both accept a single FSH since 2024, because NICE updated its POI section in 2026."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las recomendaciones de IOP de NICE son de 2015 y no cambiaron en la versión de 2026.",
+            "en": "NICE's POI recommendations date from 2015 and did not change in the 2026 version."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas exigen 3 determinaciones mensuales de FSH, para evitar falsos positivos por fluctuaciones.",
+            "en": "Both require 3 monthly FSH measurements, to avoid false positives from fluctuations."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna pide tres determinaciones.",
+            "en": "Neither requires three measurements."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Buena parte de la discrepancia se explica por las fechas: NICE no ha revisado su sección de IOP desde 2015 y la ESHRE pasó de dos a una FSH en 2024.",
+        "en": "Much of the disagreement is explained by dates: NICE has not revised its POI section since 2015, and ESHRE moved from two FSH tests to one in 2024."
+      },
+      "refIds": [
+        "eshre-2024-poi",
+        "nice-2026-ng23"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx07",
+      "kind": "question",
+      "conceptId": "meno-poi.eshre-vs-nice-amh",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Qué afirmación describe bien las recomendaciones de NICE NG23 sobre el diagnóstico de la IOP?",
+        "en": "Which statement correctly describes the NICE NG23 recommendations on diagnosing POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Fija un umbral de FSH de 25 UI/l y recomienda la AMH de rutina como prueba de confirmación diagnóstica.",
+            "en": "It sets an FSH threshold of 25 IU/l and recommends AMH as a routine confirmatory test."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no da umbral numérico e indica no usar la AMH de rutina para diagnosticar la IOP.",
+            "en": "NICE gives no numerical threshold and says not to use AMH routinely to diagnose POI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomienda diagnosticarla solo por los síntomas, sin analítica, para no retrasar el inicio del tratamiento.",
+            "en": "It recommends diagnosing it on symptoms alone, without blood tests, so as not to delay treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE exige FSH elevada en 2 muestras, además de los síntomas.",
+            "en": "NICE requires raised FSH on 2 samples, in addition to symptoms."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Recomienda una biopsia ovárica si la FSH es dudosa, antes de derivar a la paciente a un especialista.",
+            "en": "It recommends an ovarian biopsy if FSH is equivocal, before referring to a specialist."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no menciona la biopsia; ante la duda, recomienda derivar.",
+            "en": "NICE does not mention biopsy; in case of doubt, it recommends referral."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "FSH elevada en 2 muestras, sin umbral numérico, y derivar a un especialista si hay dudas diagnósticas.",
+            "en": "Raised FSH on 2 samples, no numerical threshold, and referral to a specialist if the diagnosis is in doubt."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 1.7.2, 1.7.3 y 1.7.5 [2015].",
+            "en": "Correct: recommendations 1.7.2, 1.7.3 and 1.7.5 [2015]."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sobre la AMH ESHRE y NICE coinciden en lo esencial: no es la prueba diagnóstica de rutina.",
+        "en": "On AMH, ESHRE and NICE agree on the essentials: it is not the routine diagnostic test."
+      },
+      "refIds": [
+        "nice-2026-ng23"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx08",
+      "kind": "question",
+      "conceptId": "meno-poi.genetic-workup",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué cifras sobre causas genéticas de la IOP recoge la guía ESHRE de 2024?",
+        "en": "Which figures on genetic causes of POI does the 2024 ESHRE guideline report?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Anomalías cromosómicas en el 40–50 % y premutación FMR1 en menos del 0,1 % de la IOP esporádica.",
+            "en": "Chromosomal abnormalities in 40–50%; FMR1 premutation in under 0.1% of sporadic POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifras inventadas: las anomalías cromosómicas rondan el 10–13 % y la premutación, el 1–5 % de la esporádica.",
+            "en": "Invented figures: chromosomal abnormalities are around 10–13% and the premutation 1–5% of sporadic cases."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cromosómicas en el 10–13 %; premutación FMR1 en el 1–5 % de la esporádica y hasta el 13 % si es familiar.",
+            "en": "Chromosomal in 10–13%; FMR1 premutation in 1–5% of sporadic cases and up to 13% if familial."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: las anomalías afectan sobre todo al cromosoma X; la premutación es de 55–200 repeticiones CGG.",
+            "en": "Correct: abnormalities mainly involve the X chromosome; the premutation is 55–200 CGG repeats."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Premutación FMR1 de más de 200 repeticiones CGG en el 25 % de las IOP, sobre todo en las esporádicas.",
+            "en": "FMR1 premutation of more than 200 CGG repeats in 25% of POI, mainly sporadic."
+          },
+          "correct": false,
+          "why": {
+            "es": "Más de 200 repeticiones es la mutación completa; la premutación es de 55–200 y su frecuencia es mucho menor.",
+            "en": "More than 200 repeats is the full mutation; the premutation is 55–200 and much less frequent."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Anomalías cromosómicas solo en el síndrome de Turner clásico; las demás IOP no tienen base genética.",
+            "en": "Chromosomal abnormalities only in classic Turner syndrome; other POI has no genetic basis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Incluyen aneuploidías, mosaicismos y defectos estructurales del X, y hay causas monogénicas como FMR1.",
+            "en": "They include X aneuploidies, mosaicism and structural defects, and there are monogenic causes such as FMR1."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Por eso la ESHRE recomienda cariotipo y estudio de la premutación FMR1 en toda IOP no iatrogénica (fuertes, ⊕⊕○○).",
+        "en": "That is why ESHRE recommends karyotype and FMR1 premutation testing in all non-iatrogenic POI (strong, ⊕⊕○○)."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx09",
+      "kind": "question",
+      "conceptId": "meno-poi.genetic-workup",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer de 39 años (caso ficticio) con IOP no iatrogénica tiene una premutación FMR1. ¿Qué debe incluir el consejo genético según la ESHRE?",
+        "en": "A 39-year-old woman (fictional case) with non-iatrogenic POI has an FMR1 premutation. What should genetic counselling include according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Solo el pronóstico ovárico, porque la premutación no tiene otras implicaciones para ella ni su familia.",
+            "en": "Only the ovarian prognosis, because the premutation has no other implications for her or her family."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tiene implicaciones: trastornos asociados, riesgo en la descendencia y estudio de familiares.",
+            "en": "It has implications: associated disorders, risk in offspring and testing of relatives."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que a su edad el estudio genético no estaba indicado, porque la guía lo limita a menores de 35 años.",
+            "en": "That at her age genetic testing was not indicated, because the guideline limits it to under-35s."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE recomienda no restringir el acceso al estudio genético por la edad.",
+            "en": "ESHRE recommends not restricting access to genetic testing by age."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el riesgo para la descendencia es nulo, porque una premutación no puede expandirse en la siguiente generación.",
+            "en": "That the risk to offspring is nil, because a premutation cannot expand in the next generation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Puede expandirse a mutación completa en la descendencia y causar el síndrome X frágil.",
+            "en": "It can expand to a full mutation in offspring and cause fragile X syndrome."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Trastornos asociados (como el FXTAS), posible expansión a mutación completa en hijos y estudio de familiares.",
+            "en": "Associated disorders (such as FXTAS), possible expansion to a full mutation in children, and testing of relatives."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: hay que ofrecer consejo y estudio a los familiares si se identifica la premutación.",
+            "en": "Correct: counselling and testing should be offered to relatives if the premutation is identified."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las implicaciones deben comentarse antes de cualquier prueba genética, no solo al dar el resultado.",
+        "en": "Implications should be discussed before any genetic test, not only when giving the result."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx10",
+      "kind": "question",
+      "conceptId": "meno-poi.autoimmune-workup",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "En una mujer con IOP recién diagnosticada, un colega pide anticuerpos antiovario y anti-TPO «para completar el estudio autoinmune». ¿Qué indica la ESHRE?",
+        "en": "In a woman with newly diagnosed POI, a colleague orders anti-ovarian and anti-TPO antibodies “to complete the autoimmune work-up”. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ni antiovario para diagnosticarla ni anti-TPO de rutina; sí TSH y, sin causa conocida, anti-21-hidroxilasa.",
+            "en": "Neither anti-ovarian antibodies to diagnose it nor routine anti-TPO; do order TSH and, if the cause is unknown, anti-21-hydroxylase."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los anti-TPO no se piden de rutina por su alta prevalencia en la población general.",
+            "en": "Correct: anti-TPO is not ordered routinely because of its high prevalence in the general population."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que los antiovario sí sirven para diagnosticar la IOP autoinmune, pero los anti-TPO no aportan nada.",
+            "en": "That anti-ovarian antibodies are useful for diagnosing autoimmune POI, but anti-TPO is not."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los antiovario no deben usarse para diagnosticar IOP autoinmune.",
+            "en": "Anti-ovarian antibodies should not be used to diagnose autoimmune POI."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que ambos están recomendados de rutina, porque la IOP autoinmune es la causa más frecuente de la enfermedad.",
+            "en": "That both are recommended routinely, because autoimmune POI is the most frequent cause."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no recomienda ninguno de los dos de rutina.",
+            "en": "ESHRE recommends neither routinely."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que los anti-TPO están indicados y, si son positivos, hay que iniciar levotiroxina aunque la TSH sea normal.",
+            "en": "That anti-TPO is indicated and, if positive, levothyroxine should be started even with normal TSH."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE desaconseja el cribado rutinario de anti-TPO; lo que guía es la TSH.",
+            "en": "ESHRE advises against routine anti-TPO screening; TSH is what guides management."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Son recomendaciones fuertes con evidencia muy baja (⊕○○○) las de TSH, anti-21-hidroxilasa y no usar antiováricos; la de no pedir anti-TPO de rutina es una buena práctica (GPP). La fuerza y la calidad son cosas distintas.",
+        "en": "The recommendations on TSH, 21-hydroxylase antibodies and not using anti-ovarian antibodies are strong with very low evidence (⊕○○○); not testing TPO antibodies routinely is a good practice point (GPP). Strength and quality are different things."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx11",
+      "kind": "question",
+      "conceptId": "meno-poi.autoimmune-workup",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP de causa desconocida (caso ficticio) tiene anticuerpos anti-21-hidroxilasa negativos y TSH normal. ¿Qué seguimiento indica la ESHRE?",
+        "en": "A woman with POI of unknown cause (fictional case) has negative anti-21-hydroxylase antibodies and normal TSH. What follow-up does ESHRE indicate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Repetir los anti-21-hidroxilasa cada año y la TSH cada 6 meses, por el riesgo de autoinmunidad tardía.",
+            "en": "Repeat anti-21-hydroxylase yearly and TSH every 6 months, given the risk of late autoimmunity."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los intervalos son inventados: la guía no pide repetir los anticuerpos negativos sin clínica.",
+            "en": "The intervals are invented: the guideline does not ask for negative antibodies to be repeated without symptoms."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No repetir los anticuerpos salvo síntomas de insuficiencia suprarrenal; TSH cada 5 años o si aparecen síntomas.",
+            "en": "Do not repeat the antibodies unless there are symptoms of adrenal insufficiency; TSH every 5 years or if symptoms appear."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: si fueran positivos, habría que derivar a endocrinología para valorar la función suprarrenal.",
+            "en": "Correct: if positive, she would need referral to endocrinology to assess adrenal function."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Derivar a endocrinología para un test de estimulación suprarrenal, aunque los anticuerpos sean negativos.",
+            "en": "Refer to endocrinology for an adrenal stimulation test, even though the antibodies are negative."
+          },
+          "correct": false,
+          "why": {
+            "es": "La derivación se indica si los anticuerpos son positivos.",
+            "en": "Referral is indicated if the antibodies are positive."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No volver a medir la TSH, porque una TSH normal al diagnóstico descarta la disfunción tiroidea futura.",
+            "en": "Never measure TSH again, because a normal TSH at diagnosis rules out future thyroid dysfunction."
+          },
+          "correct": false,
+          "why": {
+            "es": "La TSH se repite cada 5 años o si aparecen síntomas.",
+            "en": "TSH is repeated every 5 years or if symptoms appear."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Hay que informar a la paciente de que puede no encontrarse una causa concreta y de los límites de las pruebas actuales.",
+        "en": "The patient should be told that a specific cause may not be found and about the limits of current tests."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx12",
+      "kind": "question",
+      "conceptId": "meno-poi.conveying-diagnosis",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "La hermana de 30 años de una mujer con IOP no iatrogénica (caso ficticio) pregunta si puede saber si a ella también le pasará. ¿Qué indica la guía de 2024?",
+        "en": "The 30-year-old sister of a woman with non-iatrogenic POI (fictional case) asks whether she can find out if it will happen to her too. What does the 2024 guideline say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que tiene más riesgo, que nada la predice ni previene de forma establecida y que estudiar la reserva puede ser útil.",
+            "en": "That she is at higher risk, that nothing established predicts or prevents it and that reserve testing may be useful."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: también hay que informarla de los signos y síntomas y de la posible planificación familiar o preservación.",
+            "en": "Correct: she should also be told about signs and symptoms and possible family planning or preservation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que su riesgo es el mismo que el de la población general, salvo que comparta el mismo cariotipo alterado.",
+            "en": "That her risk is the same as the general population's, unless she shares the same abnormal karyotype."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las familiares de una mujer con IOP no iatrogénica tienen más riesgo.",
+            "en": "Relatives of a woman with non-iatrogenic POI are at higher risk."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que una AMH normal descarta que vaya a desarrollar una IOP en los próximos 10 años de su vida.",
+            "en": "That a normal AMH rules out POI developing over the next 10 years."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay métodos establecidos para predecir la IOP, y la ESHRE desaconseja la AMH de rutina para predecirla.",
+            "en": "There are no established methods to predict POI, and ESHRE advises against routine AMH to predict it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que empezar ya una terapia hormonal preventiva evita que llegue a desarrollar la IOP como su hermana.",
+            "en": "That starting preventive hormone therapy now stops her developing POI like her sister."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay métodos establecidos para prevenir la IOP.",
+            "en": "There are no established methods to prevent POI."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Algunas familiares quizá quieran planificar su familia o valorar la preservación de la fertilidad.",
+        "en": "Some relatives may wish to plan their family or consider fertility preservation."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx13",
+      "kind": "question",
+      "conceptId": "meno-poi.conveying-diagnosis",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué recomienda la guía de 2024 al comunicar el diagnóstico de IOP?",
+        "en": "What does the 2024 guideline recommend when communicating a POI diagnosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Darlo de forma breve y técnica, para no aumentar la ansiedad, y aplazar las preguntas a la siguiente visita.",
+            "en": "Give it briefly and technically, so as not to raise anxiety, and defer questions to the next visit."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide dejar tiempo para preguntas y comunicar con compasión.",
+            "en": "The guideline asks for time for questions and compassionate communication."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Con compasión, información personalizada, tiempo para preguntas, decisiones compartidas, continuidad y apoyo psicológico.",
+            "en": "With compassion, personalised information, time for questions, shared decisions, continuity and psychological support."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: incluye derivar a grupos de apoyo y a salud mental.",
+            "en": "Correct: it includes referral to support groups and mental health services."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Esperar a tener el resultado genético antes de comunicarlo, para dar un diagnóstico completo.",
+            "en": "Wait for the genetic result before communicating it, so as to give a complete diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no propone retrasar la comunicación del diagnóstico.",
+            "en": "The guideline does not propose delaying communication of the diagnosis."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Comunicarlo solo a la pareja, para que sea ella quien decida cómo contárselo a la paciente.",
+            "en": "Tell only the partner, so that they decide how to tell the patient."
+          },
+          "correct": false,
+          "why": {
+            "es": "La información se da a la paciente, de forma personalizada.",
+            "en": "Information is given to the patient, in a personalised way."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Estas recomendaciones (GPP) se informaron con la experiencia de mujeres que viven con IOP.",
+        "en": "These recommendations (GPP) were informed by the experience of women living with POI."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx14",
+      "kind": "question",
+      "conceptId": "meno-poi.somatic-consequences",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "habits"
+      ],
+      "stem": {
+        "es": "¿De qué consecuencias de la IOP sin terapia hormonal indica la ESHRE que hay que informar?",
+        "en": "Which consequences of POI without hormone therapy does ESHRE say patients should be told about?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Menor esperanza de vida, sobre todo cardiovascular, con más coronariopatía, insuficiencia cardiaca e ictus.",
+            "en": "Reduced life expectancy, mainly cardiovascular, with more coronary disease, heart failure and stroke."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: también menor densidad mineral ósea y alteraciones musculares.",
+            "en": "Correct: also lower bone mineral density and muscle changes."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo sofocos y sequedad vaginal, sin repercusión en la esperanza de vida cuando no hay síntomas.",
+            "en": "Only hot flushes and vaginal dryness, with no impact on life expectancy if there are no symptoms."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía describe menor esperanza de vida y más riesgo cardiovascular, haya o no síntomas.",
+            "en": "The guideline describes reduced life expectancy and higher cardiovascular risk, with or without symptoms."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Más riesgo de cáncer de mama que las mujeres de la misma edad, que es la principal causa de mortalidad.",
+            "en": "Higher breast cancer risk than women of the same age, which is the main cause of mortality."
+          },
+          "correct": false,
+          "why": {
+            "es": "La principal causa del exceso de mortalidad es cardiovascular.",
+            "en": "The main cause of excess mortality is cardiovascular."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Solo más riesgo de osteoporosis, porque a esas edades el corazón está protegido por la juventud.",
+            "en": "Only a higher risk of osteoporosis, because the heart is protected by young age."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP se asocia también a más enfermedad cardiovascular y mortalidad.",
+            "en": "POI is also associated with more cardiovascular disease and mortality."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los datos son sobre todo observacionales (⊕⊕○○), pero por eso se recomienda la terapia hormonal hasta la edad habitual de la menopausia.",
+        "en": "The data are mainly observational (⊕⊕○○), but this is why hormone therapy is recommended until the usual age of menopause."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx15",
+      "kind": "question",
+      "conceptId": "meno-poi.somatic-consequences",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "habits"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) tiene menor fuerza muscular y pregunta por testosterona «para el músculo». ¿Qué indica la ESHRE?",
+        "en": "A woman with POI (fictional case) has reduced muscle strength and asks about testosterone “for her muscles”. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ofrecer testosterona transdérmica, porque ha demostrado prevenir la sarcopenia en la IOP.",
+            "en": "Offer transdermal testosterone, as it has been shown to prevent sarcopenia in POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La testosterona no debe ofrecerse para la salud muscular, porque su efecto es incierto.",
+            "en": "Testosterone should not be offered for muscle health, because its effect is uncertain."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No hacer nada, porque la IOP no se asocia a cambios musculares.",
+            "en": "Do nothing, because POI is not associated with muscle changes."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP se asocia a menor masa, fuerza y rendimiento muscular.",
+            "en": "POI is associated with lower muscle mass, strength and performance."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sustituir la terapia hormonal por testosterona, que protege a la vez hueso y músculo.",
+            "en": "Replace hormone therapy with testosterone, which protects both bone and muscle."
+          },
+          "correct": false,
+          "why": {
+            "es": "Afirmación inventada: la guía no lo propone y desaconseja la testosterona para el músculo.",
+            "en": "Invented claim: the guideline does not propose it and advises against testosterone for muscle."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No ofrecer testosterona para el músculo por efecto incierto; puede valorarse ejercicio de resistencia.",
+            "en": "Do not offer testosterone for muscle given its uncertain effect; resistance exercise can be considered."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el ejercicio de resistencia puede valorarse aunque falta evidencia específica en IOP.",
+            "en": "Correct: resistance exercise can be considered although specific evidence in POI is lacking."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Además, el estilo de vida saludable (no fumar, dieta, actividad física con ejercicio de carga y peso adecuado) se recomienda en todas.",
+        "en": "In addition, a healthy lifestyle (no smoking, diet, physical activity with weight-bearing exercise and adequate weight) is recommended for all."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx16",
+      "kind": "question",
+      "conceptId": "meno-poi.brain-sexual-mental",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer de 35 años con IOP no iatrogénica (caso ficticio), con terapia hormonal adecuada, refiere bajo deseo sexual que le causa malestar. Excluidas otras causas, ¿qué dice la ESHRE de la testosterona?",
+        "en": "A 35-year-old woman with non-iatrogenic POI (fictional case), on adequate hormone therapy, reports distressing low sexual desire. Other causes excluded, what does ESHRE say about testosterone?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Transdérmica a dosis fisiológicas puede considerarse (condicional en la no iatrogénica); faltan datos a largo plazo.",
+            "en": "Transdermal at physiological doses can be considered (conditional in non-iatrogenic POI); long-term data are lacking."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es segura a corto plazo; en la IOP iatrogénica la recomendación es fuerte.",
+            "en": "Correct: it is safe short term; in iatrogenic POI the recommendation is strong."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Está contraindicada en la IOP no iatrogénica y solo puede usarse tras una ooforectomía bilateral previa.",
+            "en": "It is contraindicated in non-iatrogenic POI and can only be used after bilateral oophorectomy."
+          },
+          "correct": false,
+          "why": {
+            "es": "Puede considerarse en ambas; cambia la fuerza (condicional en la no iatrogénica).",
+            "en": "It can be considered in both; the strength changes (conditional in non-iatrogenic POI)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Se recomienda de forma fuerte en toda IOP, a dosis suprafisiológicas para conseguir un efecto clínico.",
+            "en": "It is strongly recommended in all POI, at supraphysiological doses to achieve an effect."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las dosis deben aproximarse a las concentraciones fisiológicas premenopáusicas.",
+            "en": "Doses should approximate physiological premenopausal concentrations."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Puede usarse por vía oral a largo plazo, porque su seguridad a largo plazo ya está bien demostrada.",
+            "en": "It can be used orally long term, because its long-term safety is proven."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía habla de vía transdérmica y faltan datos de seguridad a largo plazo.",
+            "en": "The guideline refers to the transdermal route, and long-term safety data are lacking."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Pide permiso de forma rutinaria y delicada para hablar de sexualidad y usa un abordaje biopsicosocial; la terapia hormonal puede mejorar la función sexual, con un efecto pequeño.",
+        "en": "Ask permission routinely and sensitively to discuss sexuality and use a biopsychosocial approach; hormone therapy may improve sexual function, with a small effect."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx17",
+      "kind": "question",
+      "conceptId": "meno-poi.brain-sexual-mental",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP en terapia hormonal sistémica (caso ficticio) sigue con sequedad vaginal y dispareunia. ¿Qué recomienda la ESHRE?",
+        "en": "A woman with POI on systemic hormone therapy (fictional case) still has vaginal dryness and dyspareunia. What does ESHRE recommend?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Láser vaginal como tratamiento estándar, porque la terapia sistémica ya está optimizada.",
+            "en": "Vaginal laser as standard treatment, because systemic therapy is already optimised."
+          },
+          "correct": false,
+          "why": {
+            "es": "El láser o la energía térmica no se recomiendan como tratamiento estándar por evidencia no concluyente.",
+            "en": "Laser or thermal energy is not recommended as standard treatment because evidence is inconclusive."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Suspender la terapia sistémica y pasar a estrógeno vaginal solo, que es más eficaz.",
+            "en": "Stop systemic therapy and switch to vaginal oestrogen alone, which is more effective."
+          },
+          "correct": false,
+          "why": {
+            "es": "La terapia sistémica se mantiene; el estrógeno vaginal se añade.",
+            "en": "Systemic therapy is continued; vaginal oestrogen is added."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Añadir estrógeno vaginal, también con terapia sistémica, y lubricantes o hidratantes.",
+            "en": "Add vaginal oestrogen, even alongside systemic therapy, plus lubricants or moisturisers."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el estrógeno vaginal se ofrece también si los síntomas no ceden del todo con la terapia sistémica.",
+            "en": "Correct: vaginal oestrogen is offered also if symptoms do not fully resolve on systemic therapy."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Evitar el estrógeno vaginal, porque duplicaría la dosis y aumentaría el riesgo endometrial.",
+            "en": "Avoid vaginal oestrogen, because it would double the dose and increase endometrial risk."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía recomienda ofrecerlo también junto con la terapia sistémica.",
+            "en": "The guideline recommends offering it alongside systemic therapy as well."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes de una ooforectomía bilateral en menores de 45 años, la guía pide comentar el posible efecto sobre la cognición y el riesgo de demencia, parkinsonismo y otras enfermedades neurológicas.",
+        "en": "Before bilateral oophorectomy under 45, the guideline asks for discussion of the possible effect on cognition and the risk of dementia, parkinsonism and other neurological diseases."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx18",
+      "kind": "question",
+      "conceptId": "meno-poi.hormone-therapy",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Para optimizar la densidad ósea en la IOP, ¿qué dosis diaria de estradiol sugiere la ESHRE (2024)?",
+        "en": "To optimise bone density in POI, which daily oestradiol dose does ESHRE (2024) suggest?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "0,5 mg de estradiol oral o 25 µg transdérmico, la dosis mínima eficaz de la menopausia habitual.",
+            "en": "0.5 mg oral oestradiol or 25 µg transdermal, the lowest effective dose for usual-age menopause."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las dosis bajas pensadas para la menopausia habitual pueden quedarse cortas en la IOP.",
+            "en": "Low doses designed for usual-age menopause may fall short in POI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No menos de 2 mg de estradiol oral o 100 µg transdérmico, o equivalente.",
+            "en": "No less than 2 mg oral oestradiol or 100 µg transdermal, or equivalent."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: condicional, ⊕○○○; en la tabla de pautas las dosis «IOP» son 2,0–4,0 mg oral o 75–100 µg/24 h en parche.",
+            "en": "Correct: conditional, ⊕○○○; in the regimen table the “POI” doses are 2.0–4.0 mg oral or 75–100 µg/24 h by patch."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "6 mg de estradiol oral o 200 µg transdérmico, para alcanzar concentraciones de mitad de ciclo.",
+            "en": "6 mg oral oestradiol or 200 µg transdermal, to reach mid-cycle concentrations."
+          },
+          "correct": false,
+          "why": {
+            "es": "Cifras inventadas que superan las dosis «IOP» de la guía.",
+            "en": "Invented figures that exceed the guideline's “POI” doses."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La dosis que controle los sofocos; sin síntomas, no hace falta estradiol.",
+            "en": "Whatever dose controls hot flushes; without symptoms, no oestradiol is needed."
+          },
+          "correct": false,
+          "why": {
+            "es": "La terapia hormonal se recomienda haya o no síntomas, como prevención primaria.",
+            "en": "Hormone therapy is recommended with or without symptoms, as primary prevention."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con útero, añade siempre un progestágeno y aumenta su dosis cuando la de estrógeno sea alta; el sangrado no programado debe evaluarse.",
+        "en": "With a uterus, always add a progestogen and increase its dose when the oestrogen dose is high; unscheduled bleeding should be evaluated."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx19",
+      "kind": "question",
+      "conceptId": "meno-poi.hormone-therapy",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer de 32 años con IOP (caso ficticio) tiene reglas esporádicas, desea un embarazo natural y teme que la THS se lo impida. ¿Qué indica la ESHRE?",
+        "en": "A 32-year-old woman with POI (fictional case) has occasional periods, wants a natural pregnancy and fears HRT will prevent it. What does ESHRE indicate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Suspender la THS mientras busque embarazo, porque inhibe la ovulación residual.",
+            "en": "Stop HRT while she tries to conceive, because it suppresses residual ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La recomendación de THS no cambia y no reduce la posibilidad de embarazo natural.",
+            "en": "The HRT recommendation does not change and does not reduce the chance of natural pregnancy."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cambiar a anticonceptivo combinado en pauta continua, para regular los ciclos.",
+            "en": "Switch to a continuous combined contraceptive, to regulate cycles."
+          },
+          "correct": false,
+          "why": {
+            "es": "Un anticonceptivo es incompatible con buscar embarazo; la guía recomienda THS secuencial.",
+            "en": "A contraceptive is incompatible with trying to conceive; the guideline recommends sequential HRT."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Mantener la THS, que no reduce esa posibilidad, en pauta secuencial.",
+            "en": "Continue HRT, which does not reduce that chance, using a sequential regimen."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con función ovárica intermitente y deseo de embarazo, la THS se mantiene en pauta secuencial.",
+            "en": "Correct: with intermittent ovarian function and a wish for pregnancy, HRT is continued sequentially."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Mantener la THS en pauta combinada continua, que maximiza la ovulación espontánea.",
+            "en": "Continue HRT as a continuous combined regimen, which maximises spontaneous ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía recomienda pauta secuencial, y no atribuye a ninguna pauta un aumento de la ovulación.",
+            "en": "The guideline recommends a sequential regimen, and attributes no increase in ovulation to any regimen."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La THS no es anticonceptiva: si en otro momento no desea embarazo, necesita anticoncepción.",
+        "en": "HRT is not contraceptive: if at another time she does not want pregnancy, she needs contraception."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx20",
+      "kind": "question",
+      "conceptId": "meno-poi.hormone-therapy",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) pide estrógenos y progesterona «bioidénticos» de fórmula magistral en lugar de la THS registrada. ¿Qué indica la ESHRE?",
+        "en": "A woman with POI (fictional case) asks for compounded “bioidentical” oestrogen and progesterone instead of licensed HRT. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que son preferibles porque se ajustan a su perfil hormonal medido en saliva.",
+            "en": "That they are preferable because they are tailored to her salivary hormone profile."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no los recomienda por falta de datos de eficacia y seguridad.",
+            "en": "The guideline does not recommend them for lack of efficacy and safety data."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no se recomiendan, por falta de datos de eficacia y seguridad.",
+            "en": "That they are not recommended, for lack of efficacy and safety data."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la alternativa es la THS registrada a dosis adecuadas.",
+            "en": "Correct: the alternative is licensed HRT at adequate doses."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que son equivalentes a la THS registrada y pueden usarse indistintamente.",
+            "en": "That they are equivalent to licensed HRT and can be used interchangeably."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay datos que respalden esa equivalencia.",
+            "en": "There are no data supporting that equivalence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que pueden usarse solo si no tiene útero, porque no necesitan progestágeno.",
+            "en": "That they can be used only if she has no uterus, because no progestogen is needed."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no los recomienda en ningún caso por falta de datos.",
+            "en": "The guideline does not recommend them in any case for lack of data."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Al llegar a la edad habitual de la menopausia, la continuación de la terapia se decide según una valoración individual de riesgos y beneficios.",
+        "en": "On reaching the usual age of menopause, continuation is decided on an individual assessment of risks and benefits."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx21",
+      "kind": "question",
+      "conceptId": "meno-poi.hrt-vs-coc",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Qué afirmación resume bien las posiciones de NICE NG23 y la ESHRE (2024) sobre THS frente a anticonceptivo hormonal combinado en la IOP?",
+        "en": "Which statement correctly summarises the positions of NICE NG23 and ESHRE (2024) on HRT versus combined hormonal contraception in POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "NICE ofrece elegir entre ambos; la ESHRE recomienda la THS fisiológica y admite el anticonceptivo si se necesita anticoncepción o por preferencia.",
+            "en": "NICE offers a choice of either; ESHRE recommends physiological HRT and accepts the contraceptive if contraception is needed or by preference."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE (1.7.6) ofrece ambos salvo contraindicación; la ESHRE ve el anticonceptivo como opción cuando se necesita anticoncepción o por preferencia y adherencia (en pauta continua o extendida), sin preferirlo.",
+            "en": "Correct: NICE (1.7.6) offers either unless contraindicated; ESHRE sees the contraceptive as an option when contraception is needed or for preference and adherence (continuous or extended regimen), without preferring it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "NICE recomienda solo THS y desaconseja el anticonceptivo; la ESHRE prefiere el anticonceptivo por proteger mejor el hueso.",
+            "en": "NICE recommends HRT only and advises against the contraceptive; ESHRE prefers the contraceptive as better for bone."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE ofrece elegir entre ambos, y la ESHRE no prefiere el anticonceptivo.",
+            "en": "NICE offers a choice of either, and ESHRE does not prefer the contraceptive."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas recomiendan el anticonceptivo como primera opción en menores de 30 años y la THS a partir de los 30.",
+            "en": "Both recommend the contraceptive as first choice under 30 and HRT after 30."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna establece un corte de edad de ese tipo.",
+            "en": "Neither sets such an age cut-off."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas consideran que la THS es anticonceptiva, así que el anticonceptivo sobra si no se desea embarazo.",
+            "en": "Both consider HRT to be contraceptive, making the contraceptive unnecessary if pregnancy is not wanted."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas subrayan que la THS no es anticonceptiva.",
+            "en": "Both stress that HRT is not contraceptive."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE explica que la THS puede tener un efecto más favorable sobre la presión arterial y que ambos protegen el hueso; el tratamiento debe mantenerse al menos hasta la edad de la menopausia natural.",
+        "en": "NICE explains that HRT may have a more favourable effect on blood pressure and that both protect bone; treatment should continue until at least the age of natural menopause."
+      },
+      "refIds": [
+        "eshre-2024-poi",
+        "nice-2026-ng23"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx22",
+      "kind": "question",
+      "conceptId": "meno-poi.hrt-vs-coc",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Por qué señala la ESHRE (2024) que el anticonceptivo oral combinado puede ser menos favorable que la THS fisiológica en la IOP?",
+        "en": "Why does ESHRE (2024) note that the combined oral contraceptive may be less favourable than physiological HRT in POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Porque el etinilestradiol no protege el hueso en ninguna pauta de administración, ni siquiera en la continua.",
+            "en": "Because ethinylestradiol does not protect bone in any regimen, not even continuous."
+          },
+          "correct": false,
+          "why": {
+            "es": "La pauta continua o extendida se recomienda precisamente para evitar la pérdida ósea de los días sin pastilla.",
+            "en": "Continuous or extended use is recommended precisely to avoid bone loss during pill-free days."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque los anticonceptivos con estradiol o estetrol han demostrado más riesgo tromboembólico que la THS.",
+            "en": "Because contraceptives with oestradiol or estetrol have been shown to carry more thromboembolic risk than HRT."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay estudios comparativos de riesgo tromboembólico con esos preparados.",
+            "en": "There are no comparative thromboembolic risk studies with these products."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque el etinilestradiol aporta más esteroide del necesario, con peor efecto en lípidos, hemostasia y trombosis.",
+            "en": "Because ethinylestradiol provides more steroid than needed, with worse effects on lipids, haemostasis and thrombosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: un estudio pequeño mostró además menor presión arterial con una pauta «fisiológica» de THS.",
+            "en": "Correct: a small study also showed lower blood pressure with a “physiological” HRT regimen."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Porque el anticonceptivo aumenta el cáncer de mama frente a mujeres de la misma edad, y la THS no lo hace.",
+            "en": "Because the contraceptive increases breast cancer compared with women of the same age, and HRT does not."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es el argumento de la guía, que se centra en lípidos, hemostasia y riesgo tromboembólico.",
+            "en": "This is not the guideline's argument, which focuses on lipids, haemostasis and thromboembolic risk."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los anticonceptivos con estradiol o estetrol carecen de estudios comparativos, así que su indicación en la IOP sigue siendo la anticoncepción.",
+        "en": "Contraceptives with oestradiol or estetrol lack comparative studies, so their indication in POI remains contraception."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx23",
+      "kind": "question",
+      "conceptId": "meno-poi.follow-up",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "habits"
+      ],
+      "stem": {
+        "es": "¿Qué seguimiento cardiovascular recomienda la ESHRE (2024) en la mujer con IOP?",
+        "en": "What cardiovascular follow-up does ESHRE (2024) recommend in women with POI?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ecocardiograma y prueba de esfuerzo anuales en todas las mujeres con IOP, desde el momento del diagnóstico.",
+            "en": "Yearly echocardiogram and exercise test in all women with POI, from the time of diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no propone esas pruebas de rutina (salvo la valoración cardiológica en el síndrome de Turner).",
+            "en": "The guideline does not propose these tests routinely (apart from cardiology assessment in Turner syndrome)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Nada específico hasta los 50 años, porque el riesgo cardiovascular antes de esa edad es despreciable.",
+            "en": "Nothing specific until 50, because cardiovascular risk at that age is negligible."
+          },
+          "correct": false,
+          "why": {
+            "es": "La IOP aumenta el riesgo cardiovascular y la guía pide evaluarlo desde el diagnóstico.",
+            "en": "POI increases cardiovascular risk and the guideline asks for assessment from diagnosis."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Perfil lipídico y glucemia cada 3 meses, y la presión arterial solo si aparecen síntomas cardiovasculares.",
+            "en": "Lipid profile and glucose every 3 months, and blood pressure only if cardiovascular symptoms appear."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los intervalos son inventados: la presión arterial se mide al menos una vez al año.",
+            "en": "The intervals are invented: blood pressure is measured at least yearly."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Presión arterial, peso y tabaco al menos cada año; lípidos y cribado de diabetes al diagnóstico y luego según hallazgos.",
+            "en": "Blood pressure, weight and smoking at least yearly; lipids and diabetes screening at diagnosis and then according to findings."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: después, según los hallazgos y el riesgo global.",
+            "en": "Correct: thereafter according to findings and overall risk."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El seguimiento incluye también la TSH cada 5 años o si hay síntomas, considerar el cribado de sarcopenia al diagnóstico y una revisión clínica regular centrada en la adherencia.",
+        "en": "Follow-up also includes TSH every 5 years or if symptomatic, considering sarcopenia screening at diagnosis and regular clinical review focused on adherence."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx24",
+      "kind": "question",
+      "conceptId": "meno-poi.follow-up",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "hormones",
+        "habits"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) tiene osteoporosis en la DXA del diagnóstico y planea un embarazo por donación en dos años. ¿Qué es lo más adecuado según la ESHRE?",
+        "en": "A woman with POI (fictional case) has osteoporosis on her diagnostic DXA and plans a donor-egg pregnancy in two years. What is most appropriate according to ESHRE?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Optimizar la THS, calcio y vitamina D si faltan, DXA cada 1–3 años y otros fármacos solo con un especialista.",
+            "en": "Optimise HRT, calcium and vitamin D if lacking, DXA every 1–3 years and other drugs only with a specialist."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con especial cautela con los bifosfonatos si se desea embarazo.",
+            "en": "Correct: with particular caution regarding bisphosphonates if pregnancy is desired."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Iniciar un bifosfonato de inmediato, para llegar al embarazo con mejor hueso, y repetir la DXA en 5 años.",
+            "en": "Start a bisphosphonate immediately, to reach pregnancy with better bone, and repeat DXA in 5 years."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los bifosfonatos solo con consejo de un especialista en osteoporosis y con cautela si se desea embarazo; la DXA se repite antes.",
+            "en": "Bisphosphonates only on osteoporosis specialist advice and with caution if pregnancy is desired; DXA is repeated sooner."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No repetir la DXA mientras tome terapia hormonal, porque esta normaliza la densidad ósea en todas.",
+            "en": "Do not repeat DXA while on hormone therapy, because it normalises bone density in all women."
+          },
+          "correct": false,
+          "why": {
+            "es": "Con osteoporosis o densidad baja, la DXA se repite cada 1–3 años según el riesgo.",
+            "en": "With osteoporosis or low density, DXA is repeated every 1–3 years according to risk."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sustituir la terapia hormonal por calcio y vitamina D a dosis altas hasta después del embarazo.",
+            "en": "Replace hormone therapy with high-dose calcium and vitamin D until after the pregnancy."
+          },
+          "correct": false,
+          "why": {
+            "es": "El calcio y la vitamina D se añaden si son insuficientes, no sustituyen a la terapia hormonal.",
+            "en": "Calcium and vitamin D are added if insufficient; they do not replace hormone therapy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Una caída de la densidad ósea obliga a revisar la terapia hormonal y otros factores; la guía reconoce que el intervalo óptimo de la DXA es incierto.",
+        "en": "A fall in bone density calls for a review of hormone therapy and other factors; the guideline acknowledges that the optimal DXA interval is uncertain."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx25",
+      "kind": "question",
+      "conceptId": "meno-poi.complementary",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "supplements",
+        "habits"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) en THS quiere añadir medicina herbal china y acupuntura para los síntomas. ¿Qué indica la ESHRE?",
+        "en": "A woman with POI (fictional case) on HRT wants to add Chinese herbal medicine and acupuncture for her symptoms. What does ESHRE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la medicina herbal china está contraindicada por los daños graves demostrados a corto plazo.",
+            "en": "That Chinese herbal medicine is contraindicated because of proven serious short-term harm."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía indica que no parece causar daños importantes a corto plazo.",
+            "en": "The guideline states it does not appear to cause major short-term harm."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la acupuntura añadida a la THS mejora claramente los síntomas y por eso se recomienda en la IOP.",
+            "en": "That acupuncture added to HRT clearly improves symptoms and is therefore recommended in POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia es limitada y no sugiere beneficio al añadirla a la terapia hormonal.",
+            "en": "The evidence is limited and suggests no benefit when added to hormone therapy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Herbal china: beneficio limitado, sin daños importantes a corto plazo; acupuntura: sin beneficio añadido a la THS.",
+            "en": "Chinese herbal medicine: limited benefit, no apparent major short-term harm; acupuncture: no added benefit over HRT."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el grupo pide preguntar por estas terapias e incorporar los valores de la paciente a la decisión.",
+            "en": "Correct: the group asks clinicians to enquire about these therapies and include the patient's values in the decision."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que ambas pueden sustituir a la THS si la paciente lo prefiere y no tiene síntomas de déficit estrogénico.",
+            "en": "That both can replace HRT if the patient prefers and has no oestrogen-deficiency symptoms."
+          },
+          "correct": false,
+          "why": {
+            "es": "Las terapias complementarias no deben sustituir a la terapia hormonal.",
+            "en": "Complementary therapies should not replace hormone therapy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Lo complementario puede acompañar, como elección informada de la paciente, pero no ocupar el lugar del estrógeno.",
+        "en": "Complementary approaches can accompany treatment, as the patient's informed choice, but cannot take the place of oestrogen."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx26",
+      "kind": "question",
+      "conceptId": "meno-poi.complementary",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "supplements",
+        "habits"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) no puede tomar terapia hormonal y tiene sofocos intensos. Según la ESHRE, ¿qué opciones pueden considerarse?",
+        "en": "A woman with POI (fictional case) cannot take hormone therapy and has severe hot flushes. According to ESHRE, which options can be considered?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ninguna: sin terapia hormonal no hay tratamiento posible para los síntomas en la IOP.",
+            "en": "None: without hormone therapy there is no possible treatment for symptoms in POI."
+          },
+          "correct": false,
+          "why": {
+            "es": "Pueden considerarse los tratamientos no hormonales eficaces en la peri y posmenopausia.",
+            "en": "Non-hormonal treatments effective in peri- and postmenopause can be considered."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Tratamientos no hormonales eficaces en la peri y posmenopausia, aunque falte evidencia específica en IOP.",
+            "en": "Non-hormonal treatments effective in peri- and postmenopause, although specific evidence in POI is lacking."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación condicional con evidencia muy baja (⊕○○○).",
+            "en": "Correct: conditional recommendation with very low evidence (⊕○○○)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Suplementos nutricionales y fitoterapia, que la guía respalda como alternativa de primera línea.",
+            "en": "Nutritional supplements and herbal products, which the guideline supports as first-line alternatives."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía indica informar de que no hay evidencia suficiente que respalde su uso.",
+            "en": "The guideline says to inform that there is insufficient evidence to support their use."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Testosterona a dosis altas, que sustituye al estrógeno en el control de los sofocos.",
+            "en": "High-dose testosterone, which replaces oestrogen in controlling hot flushes."
+          },
+          "correct": false,
+          "why": {
+            "es": "Afirmación inventada; la testosterona solo se contempla a dosis fisiológicas para el deseo sexual hipoactivo.",
+            "en": "Invented claim; testosterone is only contemplated at physiological doses for hypoactive sexual desire."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El estilo de vida saludable se recomienda en todas, aunque la evidencia específica en la IOP sea limitada.",
+        "en": "A healthy lifestyle is recommended for all, although specific evidence in POI is limited."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx27",
+      "kind": "question",
+      "conceptId": "meno-poi.natural-conception",
+      "rev": 1,
+      "difficulty": 3,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "En una cohorte de 507 mujeres con IOP que cita la guía, el 23 % recuperó actividad ovárica, con un 15,3 % de embarazos en ellas frente al 3,5 % en toda la cohorte. ¿Cómo se interpreta?",
+        "en": "In a cohort of 507 women with POI cited by the guideline, 23% regained ovarian activity, with 15.3% pregnancies among them versus 3.5% in the whole cohort. How is this interpreted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el 15,3 % de todas las mujeres con IOP, recuperen o no actividad, se embaraza de forma natural.",
+            "en": "That 15.3% of all women with POI, whether or not activity returns, conceive naturally."
+          },
+          "correct": false,
+          "why": {
+            "es": "El 15,3 % se refiere solo a las que recuperaron actividad; en toda la cohorte fue el 3,5 %.",
+            "en": "15.3% refers only to those who regained activity; in the whole cohort it was 3.5%."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que es posible pero poco probable en conjunto, y más frecuente si reaparece la actividad ovárica.",
+            "en": "That it is possible but unlikely overall, and more frequent if ovarian activity returns."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la guía estima hasta el 15 % en esas mujeres y probablemente < 5 % en conjunto.",
+            "en": "Correct: the guideline estimates up to 15% in those women and probably < 5% overall."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la terapia hormonal hace recuperar la actividad ovárica en una de cada cuatro mujeres.",
+            "en": "That hormone therapy restores ovarian activity in one in four women."
+          },
+          "correct": false,
+          "why": {
+            "es": "La cohorte no atribuye la recuperación a la terapia hormonal; ninguna intervención ha demostrado aumentarla.",
+            "en": "The cohort does not attribute recovery to hormone therapy; no intervention has been shown to increase it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el embarazo natural es imposible en la IOP, por lo que no hace falta anticoncepción.",
+            "en": "That natural pregnancy is impossible, so contraception is unnecessary."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es poco probable pero posible: si no desea embarazo, se recomienda anticoncepción.",
+            "en": "It is unlikely but possible: if pregnancy is not wanted, contraception is recommended."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En otra cohorte de 358 mujeres con IOP idiopática, el 25 % mostró actividad ovárica, sobre todo en el primer año, y el 4,8 % se embarazó.",
+        "en": "In another cohort of 358 women with idiopathic POI, 25% showed ovarian activity, mostly in the first year, and 4.8% conceived."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx28",
+      "kind": "question",
+      "conceptId": "meno-poi.natural-conception",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer con IOP (caso ficticio) pregunta qué tratamiento puede «despertar» sus ovarios para concebir con sus propios ovocitos. Según la ESHRE, ¿qué le dirías?",
+        "en": "A woman with POI (fictional case) asks which treatment can “wake up” her ovaries so she can conceive with her own eggs. According to ESHRE, what would you tell her?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la activación in vitro ha demostrado en ECA aumentar los nacidos vivos y es la primera opción.",
+            "en": "That in vitro activation has been shown in RCTs to increase live births and is the first option."
+          },
+          "correct": false,
+          "why": {
+            "es": "Se ha estudiado sin controles adecuados ni potencia suficiente y no puede recomendarse.",
+            "en": "It has been studied without adequate controls or sufficient power and cannot be recommended."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que las células madre mesenquimales son eficaces si se inyectan en el primer año tras el diagnóstico.",
+            "en": "That mesenchymal stem cells are effective if injected in the first year after diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay estudios controlados que lo respalden y no pueden recomendarse por ahora.",
+            "en": "No controlled studies support this and they cannot be recommended for now."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la terapia hormonal a dosis altas aumenta de forma fiable la ovulación espontánea.",
+            "en": "That high-dose hormone therapy reliably increases spontaneous ovulation."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna intervención ha demostrado aumentar de forma fiable la actividad ovárica.",
+            "en": "No intervention has reliably been shown to increase ovarian activity."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que ninguna intervención ha demostrado de forma fiable aumentar la actividad ovárica ni la concepción natural.",
+            "en": "That no intervention has reliably been shown to increase ovarian activity or natural conception."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: activación in vitro, células madre y PRP intraovárico no pueden recomendarse por ahora.",
+            "en": "Correct: in vitro activation, stem cells and intraovarian PRP cannot be recommended for now."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si hay un embarazo natural, conviene considerar la causa de la IOP por sus posibles implicaciones para el embarazo o el hijo, como la premutación FMR1.",
+        "en": "If a natural pregnancy occurs, consider the cause of POI for possible implications for the pregnancy or child, such as the FMR1 premutation."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx29",
+      "kind": "question",
+      "conceptId": "meno-poi.donation-preservation",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Una mujer con síndrome de Turner e IOP (caso ficticio) planea un embarazo con ovocitos donados. ¿Qué indica la ESHRE antes y durante el embarazo?",
+        "en": "A woman with Turner syndrome and POI (fictional case) plans a pregnancy with donor eggs. What does ESHRE indicate before and during pregnancy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que es un embarazo de bajo riesgo si la transferencia es de un solo embrión y puede seguirse en atención primaria.",
+            "en": "That it is a low-risk pregnancy if a single embryo is transferred and can be followed in primary care."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los embarazos por donación de ovocitos son de alto riesgo y requieren una unidad obstétrica adecuada.",
+            "en": "Donor-egg pregnancies are high risk and require an appropriate obstetric unit."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el síndrome de Turner contraindica cualquier embarazo y solo cabe la adopción.",
+            "en": "That Turner syndrome contraindicates any pregnancy and only adoption is possible."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no lo contraindica; pide cribado cardiaco completo y consejo especializado.",
+            "en": "The guideline does not contraindicate it; it asks for full cardiac screening and specialist counselling."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Cribado cardiaco completo y consejo por medicina maternofetal y cardiología, y control en una unidad obstétrica adecuada.",
+            "en": "Full cardiac screening and counselling by maternal-fetal medicine and cardiology, and care in an appropriate obstetric unit."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: además, estudiar la causa de la IOP y valorar la función cardiometabólica y tiroidea antes del embarazo.",
+            "en": "Correct: also investigate the cause of POI and assess cardiometabolic and thyroid function before pregnancy."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que basta con la valoración cardiológica en el posparto, porque el riesgo se concentra después del parto.",
+            "en": "That cardiology assessment after delivery is sufficient, because the risk is concentrated postpartum."
+          },
+          "correct": false,
+          "why": {
+            "es": "El cribado cardiaco se hace antes del embarazo.",
+            "en": "Cardiac screening is done before pregnancy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En cambio, los embarazos naturales tras IOP idiopática o la mayoría de las quimioterapias no muestran más riesgo obstétrico ni neonatal que la población general.",
+        "en": "By contrast, natural pregnancies after idiopathic POI or most chemotherapies show no higher obstetric or neonatal risk than the general population."
+      },
+      "refIds": [
+        "eshre-2024-poi"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "meno-poi.qx30",
+      "kind": "question",
+      "conceptId": "meno-poi.donation-preservation",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Sobre la preservación de la fertilidad y la donación de ovocitos en la IOP, ¿qué afirmación es correcta según la ESHRE (2024) y NICE NG257?",
+        "en": "On fertility preservation and oocyte donation in POI, which statement is correct according to ESHRE (2024) and NICE NG257?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La preservación es posible en la mayoría de las mujeres ya diagnosticadas si se estimula con dosis altas.",
+            "en": "Preservation is possible in most already-diagnosed women if stimulated with high doses."
+          },
+          "correct": false,
+          "why": {
+            "es": "En la mayoría de las ya diagnosticadas no es posible porque la reserva folicular está agotada.",
+            "en": "In most already-diagnosed women it is not possible because the follicle pool is depleted."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "NICE considera la donación ineficaz en la IOP secundaria a tratamientos oncológicos.",
+            "en": "NICE considers donation ineffective in POI secondary to cancer treatment."
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE NG257 la considera eficaz en la IOP, incluida la secundaria a tratamientos.",
+            "en": "NICE NG257 considers it effective in POI, including treatment-induced POI."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La donación de ovocitos está en fase experimental en la IOP y solo debe ofrecerse en ensayos.",
+            "en": "Oocyte donation is experimental in POI and should only be offered in trials."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE la describe como opción establecida tras el diagnóstico.",
+            "en": "ESHRE describes it as an established option after diagnosis."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La preservación puede considerarse antes de un tratamiento que pueda causar IOP; la donación es una opción establecida.",
+            "en": "Preservation can be considered before treatment that may cause POI; donation is an established option."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: NICE NG257 considera la donación eficaz en la IOP, incluida la secundaria a tratamientos.",
+            "en": "Correct: NICE NG257 considers donation effective in POI, including treatment-induced POI."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Identificar a las mujeres con factores de riesgo de IOP permite informarlas del riesgo y de la preservación antes de que la reserva se agote.",
+        "en": "Identifying women with risk factors for POI allows them to be informed of the risk and of preservation before reserve is depleted."
+      },
+      "refIds": [
+        "eshre-2024-poi",
+        "nice-2026-ng257"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
       }
     }
   ]
