@@ -29,7 +29,11 @@
         "pcos-mp.c1-amh-pcom",
         "pcos-mp.c2-amh-limits",
         "pcos-mp.q1-amh-single",
-        "pcos-mp.q2-amh-adolescent"
+        "pcos-mp.q2-amh-adolescent",
+        "pcos-mp.qx01",
+        "pcos-mp.qx02",
+        "pcos-mp.qx03",
+        "pcos-mp.qx04"
       ]
     },
     {
@@ -55,7 +59,11 @@
         "pcos-mp.c3-glycaemic-status",
         "pcos-mp.c4-insulin-assays",
         "pcos-mp.q3-ogtt",
-        "pcos-mp.q4-insulin-test"
+        "pcos-mp.q4-insulin-test",
+        "pcos-mp.qx05",
+        "pcos-mp.qx06",
+        "pcos-mp.qx07",
+        "pcos-mp.qx08"
       ]
     },
     {
@@ -83,7 +91,15 @@
         "pcos-mp.q5-inositol",
         "pcos-mp.q6-diet",
         "pcos-mp.q7-letrozole",
-        "pcos-mp.q8-ranking"
+        "pcos-mp.q8-ranking",
+        "pcos-mp.qx09",
+        "pcos-mp.qx10",
+        "pcos-mp.qx11",
+        "pcos-mp.qx12",
+        "pcos-mp.qx13",
+        "pcos-mp.qx14",
+        "pcos-mp.qx15",
+        "pcos-mp.qx16"
       ]
     }
   ],
@@ -130,7 +146,7 @@
       "kind": "card",
       "type": "what-i-would-not-order",
       "conceptId": "pcos.mp.amh-limits",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones"
       ],
@@ -143,8 +159,8 @@
         "en": "AMH should not be used as a single test to diagnose PCOS, nor, for now, in adolescents (both strong recommendations). [[ref:teede-2023-pcos-guideline]]"
       },
       "body": {
-        "es": "Si una paciente ya tiene ciclos irregulares e hiperandrogenismo, cumple criterios: la AMH no es necesaria para el diagnóstico (recomendación fuerte). En adolescentes no hay criterios definitivos de morfología ovárica poliquística por ecografía, y tampoco se recomienda la AMH. [[ref:teede-2023-pcos-guideline]]\n\nAdemás, la AMH puede estar suprimida por anticonceptivos hormonales combinados actuales o recientes y por cirugía ovárica, varía con la edad, el IMC y el día del ciclo, y debe interpretarse con puntos de corte específicos del ensayo (puntos de práctica 1.5.6 y 1.5.7). [[ref:teede-2023-pcos-guideline]]",
-        "en": "If a patient already has irregular cycles and hyperandrogenism, she meets criteria: AMH is not needed for diagnosis (strong recommendation). In adolescents there are no definitive ultrasound criteria for polycystic ovarian morphology, and AMH is not recommended either. [[ref:teede-2023-pcos-guideline]]\n\nIn addition, AMH may be suppressed by current or recent combined hormonal contraception and by ovarian surgery, varies with age, BMI and cycle day, and must be read against assay-specific cut-offs (practice points 1.5.6 and 1.5.7). [[ref:teede-2023-pcos-guideline]]"
+        "es": "Si una paciente ya tiene ciclos irregulares e hiperandrogenismo, cumple criterios: la AMH no es necesaria para el diagnóstico (recomendación fuerte). En adolescentes no hay criterios definitivos de morfología ovárica poliquística por ecografía, y tampoco se recomienda la AMH. [[ref:teede-2023-pcos-guideline]]\n\nAdemás, la AMH puede estar suprimida por anticonceptivos hormonales combinados actuales o recientes (la guía también menciona la cirugía ovárica entre los factores a considerar), varía con la edad, el IMC y el día del ciclo, y debe interpretarse con puntos de corte específicos del ensayo (puntos de práctica 1.5.6 y 1.5.7). [[ref:teede-2023-pcos-guideline]]",
+        "en": "If a patient already has irregular cycles and hyperandrogenism, she meets criteria: AMH is not needed for diagnosis (strong recommendation). In adolescents there are no definitive ultrasound criteria for polycystic ovarian morphology, and AMH is not recommended either. [[ref:teede-2023-pcos-guideline]]\n\nIn addition, AMH may be suppressed by current or recent combined hormonal contraception (the guideline also lists ovarian surgery among the factors to consider), varies with age, BMI and cycle day, and must be read against assay-specific cut-offs (practice points 1.5.6 and 1.5.7). [[ref:teede-2023-pcos-guideline]]"
       },
       "pearl": {
         "es": "Antes de pedir AMH por sospecha de SOP, pregúntate qué criterio te falta y si la paciente usa anticonceptivos combinados. Si no falta ninguno, no la pidas.",
@@ -1044,6 +1060,1212 @@
       "editorial": {
         "status": "ai-audited",
         "reviewedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "pcos-mp.qx01",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-pcom",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Mujer de 30 años con ciclos regulares e hiperandrogenismo bioquímico, ya con una ecografía que muestra morfología ovárica poliquística (MOP). ¿Qué aporta pedir además una AMH sérica?",
+        "en": "A 30-year-old woman with regular cycles and biochemical hyperandrogenism already has an ultrasound showing polycystic ovarian morphology (PCOM). What does also ordering a serum AMH add?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es obligatoria para confirmar el hallazgo ecográfico antes del diagnóstico.",
+            "en": "It is mandatory to confirm the ultrasound finding before diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía 2023 permite usar AMH o ecografía para definir MOP, no exige ambas.",
+            "en": "The 2023 guideline allows AMH or ultrasound to define PCOM; it does not require both."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sirve para excluir las otras causas de hiperandrogenismo.",
+            "en": "It serves to exclude other causes of hyperandrogenism."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH solo puede usarse para definir MOP; no es la prueba para excluir otras causas.",
+            "en": "AMH can only be used to define PCOM; it is not the test for excluding other causes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Nada útil: AMH o ecografía, pero no ambas, porque pedir las dos aumenta el riesgo de sobrediagnóstico.",
+            "en": "Nothing useful: AMH or ultrasound, but not both, because ordering both increases the risk of overdiagnosis."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: punto de práctica 1.5.5 de la guía internacional SOP 2023.",
+            "en": "Correct: practice point 1.5.5 of the 2023 international PCOS guideline."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Permite prescindir del hiperandrogenismo como criterio.",
+            "en": "It allows hyperandrogenism to be dropped as a criterion."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH solo puede ocupar el lugar del criterio de ovarios poliquísticos; no reemplaza otros criterios.",
+            "en": "AMH can only take the place of the polycystic ovary criterion; it does not replace other criteria."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con hiperandrogenismo y MOP ecográfica ya hay dos de tres elementos; una segunda prueba de morfología solo suma riesgo de sobrediagnóstico. El diagnóstico exige además excluir otras causas.",
+        "en": "With hyperandrogenism and PCOM on ultrasound there are already two of three elements; a second morphology test only adds overdiagnosis risk. Diagnosis also requires excluding other causes."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx02",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-pcom",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Según la guía internacional SOP 2023, ¿con qué fuerza y certeza puede usarse la AMH sérica para definir la morfología ovárica poliquística en adultas?",
+        "en": "According to the 2023 international PCOS guideline, with what strength and certainty can serum AMH be used to define polycystic ovarian morphology in adults?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Recomendación fuerte, certeza alta.",
+            "en": "Strong recommendation, high certainty."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es fuerte ni de certeza alta: es condicional con certeza moderada.",
+            "en": "It is neither strong nor high certainty: it is conditional with moderate certainty."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Recomendación fuerte, certeza moderada.",
+            "en": "Strong recommendation, moderate certainty."
+          },
+          "correct": false,
+          "why": {
+            "es": "Fuertes son las limitaciones (no como prueba única, no en adolescentes); el uso para definir MOP es condicional.",
+            "en": "The limits are strong (not as a single test, not in adolescents); use to define PCOM is conditional."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Punto de práctica, sin calificación de certeza.",
+            "en": "Practice point, with no certainty rating."
+          },
+          "correct": false,
+          "why": {
+            "es": "Punto de práctica es la indicación de no pedir AMH y ecografía a la vez (1.5.5), no el uso de la AMH para definir MOP.",
+            "en": "The practice point is the advice not to order AMH and ultrasound together (1.5.5), not the use of AMH to define PCOM."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Recomendación condicional, certeza moderada.",
+            "en": "Conditional recommendation, moderate certainty."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación 1.5.1 de la guía 2023 (“could be used”).",
+            "en": "Correct: recommendation 1.5.1 of the 2023 guideline (“could be used”)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Condicional (“podría usarse”) para definir MOP en adultas; en cambio, no usarla como prueba única ni en adolescentes son recomendaciones fuertes.",
+        "en": "Conditional (“could be used”) to define PCOM in adults; by contrast, not using it as a single test or in adolescents are strong recommendations."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx03",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-limits",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Mujer de 26 años con ciclos irregulares y sin hiperandrogenismo, que tomó anticoncepción hormonal combinada hasta hace dos meses. Su AMH es normal. ¿Cómo la interpretas según la guía 2023?",
+        "en": "A 26-year-old woman with irregular cycles and no hyperandrogenism, who used combined hormonal contraception until two months ago. Her AMH is normal. How do you interpret it according to the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Descarta SOP: con AMH normal no hay morfología ovárica poliquística.",
+            "en": "It rules out PCOS: with a normal AMH there is no polycystic ovarian morphology."
+          },
+          "correct": false,
+          "why": {
+            "es": "La AMH no es prueba única de SOP, y la anticoncepción combinada reciente puede suprimirla.",
+            "en": "AMH is not a single test for PCOS, and recent combined contraception may suppress it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Con cautela: el uso actual o reciente de anticoncepción combinada puede suprimir la AMH.",
+            "en": "With caution: current or recent combined contraceptive use may suppress AMH."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: punto de práctica 1.5.6 (factores que influyen en la AMH).",
+            "en": "Correct: practice point 1.5.6 (factors influencing AMH)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La anticoncepción no influye en la AMH, así que el resultado es fiable.",
+            "en": "Contraception does not affect AMH, so the result is reliable."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía señala que la anticoncepción combinada actual o reciente puede suprimir la AMH.",
+            "en": "The guideline notes that current or recent combined contraception may suppress AMH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Basta compararla con un punto de corte universal, válido para cualquier laboratorio.",
+            "en": "It is enough to compare it with a universal cut-off valid for any laboratory."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide puntos de corte específicos de la población y del ensayo (1.5.7).",
+            "en": "The guideline asks for population- and assay-specific cut-offs (1.5.7)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Antes de interpretar una AMH, pregunta por anticoncepción combinada actual o reciente y usa puntos de corte específicos de la población y del ensayo.",
+        "en": "Before interpreting an AMH, ask about current or recent combined contraception and use population- and assay-specific cut-offs."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx04",
+      "kind": "question",
+      "conceptId": "pcos.mp.amh-limits",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "¿Cuál de estas afirmaciones sobre los factores que influyen en la AMH es correcta según los puntos de práctica de la guía SOP 2023?",
+        "en": "Which of these statements about factors that influence AMH is correct according to the practice points of the 2023 PCOS guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En la población general, la AMH sérica es más baja con un IMC más alto.",
+            "en": "In the general population, serum AMH is lower with a higher BMI."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: punto de práctica 1.5.6, que también cita la edad, la anticoncepción, la cirugía ovárica y el día del ciclo.",
+            "en": "Correct: practice point 1.5.6, which also lists age, contraception, ovarian surgery and cycle day."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La AMH es estable a lo largo del ciclo menstrual, así que el día de extracción es indiferente.",
+            "en": "AMH is stable across the menstrual cycle, so the sampling day does not matter."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía señala que la AMH puede variar a lo largo del ciclo.",
+            "en": "The guideline notes that AMH may vary across the cycle."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La anticoncepción hormonal combinada eleva la AMH.",
+            "en": "Combined hormonal contraception raises AMH."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: puede suprimirla.",
+            "en": "It is the opposite: it may suppress it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Puede usarse un único punto de corte común a todos los ensayos.",
+            "en": "A single cut-off common to all assays can be used."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide puntos de corte específicos de la población y del ensayo.",
+            "en": "The guideline asks for population- and assay-specific cut-offs."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía pide tener en cuenta la edad, el IMC, la anticoncepción combinada (en un epígrafe que también nombra la cirugía ovárica) y el día del ciclo; por eso la AMH se interpreta con puntos de corte específicos de la población y del ensayo.",
+        "en": "The guideline asks to take into account age, BMI, combined contraception (under a heading that also names ovarian surgery) and cycle day; that is why AMH is read against population- and assay-specific cut-offs."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx05",
+      "kind": "question",
+      "conceptId": "pcos.mp.glycaemic-status",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer de 33 años con SOP, IMC 23 kg/m², que planea un tratamiento de fertilidad el año próximo. Hace dos años tuvo una glucemia en ayunas normal. ¿Qué es más coherente con la guía 2023?",
+        "en": "A 33-year-old woman with PCOS, BMI 23 kg/m², planning fertility treatment next year. Two years ago her fasting glucose was normal. What is most consistent with the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ninguna prueba: IMC normal y glucemia previa normal.",
+            "en": "No test: normal BMI and previous normal glucose."
+          },
+          "correct": false,
+          "why": {
+            "es": "La valoración glucémica no depende del IMC, y la planificación de embarazo o tratamiento de fertilidad es momento de considerar una SOG.",
+            "en": "Glycaemic assessment does not depend on BMI, and planning pregnancy or fertility treatment is the moment to consider an OGTT."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Solo HbA1c, que es más precisa que la SOG.",
+            "en": "HbA1c only, as it is more accurate than an OGTT."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: la SOG de 75 g es la prueba más precisa; la HbA1c es menos precisa.",
+            "en": "It is the opposite: the 75 g OGTT is the most accurate test; HbA1c is less accurate."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Considerar una SOG de 75 g al planificar el embarazo o el tratamiento de fertilidad.",
+            "en": "Consider a 75 g OGTT when planning pregnancy or fertility treatment."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación condicional de la guía 2023 (certeza muy baja), sea cual sea el IMC.",
+            "en": "Correct: conditional recommendation of the 2023 guideline (very low certainty), whatever the BMI."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Insulinemia basal y HOMA para decidir si hace falta SOG.",
+            "en": "Fasting insulin and HOMA to decide whether an OGTT is needed."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no recomienda los análisis de insulina en la práctica habitual.",
+            "en": "The guideline does not recommend insulin assays in routine care."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Peso normal no es igual a glucemia normal en SOP. Antes de buscar embarazo o tratamiento de fertilidad, la guía propone considerar una SOG.",
+        "en": "Normal weight is not the same as normal glycaemia in PCOS. Before trying to conceive or fertility treatment, the guideline proposes considering an OGTT."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx06",
+      "kind": "question",
+      "conceptId": "pcos.mp.glycaemic-status",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "En SOP, si no se puede hacer una SOG de 75 g, ¿qué propone la guía 2023 y cada cuánto revaluar el estado glucémico?",
+        "en": "In PCOS, if a 75 g OGTT cannot be done, what does the 2023 guideline propose, and how often should glycaemic status be reassessed?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "HbA1c, con la misma precisión que la SOG; revaluar solo si aumenta el IMC.",
+            "en": "HbA1c, as accurate as the OGTT; reassess only if BMI increases."
+          },
+          "correct": false,
+          "why": {
+            "es": "La HbA1c es menos precisa, y la revaluación se basa en factores de riesgo, no solo en el IMC.",
+            "en": "HbA1c is less accurate, and reassessment is based on risk factors, not just BMI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Glucemia en ayunas y/o HbA1c, menos precisas; revaluar cada 1–3 años según factores de riesgo.",
+            "en": "Fasting glucose and/or HbA1c, less accurate; reassess every 1–3 years based on risk factors."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: alternativa condicional si no hay SOG y revaluación por consenso cada 1–3 años.",
+            "en": "Correct: conditional alternative if no OGTT, and consensus reassessment every 1–3 years."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Insulinemia basal; revaluar cada año.",
+            "en": "Fasting insulin; reassess every year."
+          },
+          "correct": false,
+          "why": {
+            "es": "Los análisis de insulina no se usan en la práctica habitual.",
+            "en": "Insulin assays are not used in routine care."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna alternativa; evaluar una sola vez al diagnóstico.",
+            "en": "No alternative; assess only once at diagnosis."
+          },
+          "correct": false,
+          "why": {
+            "es": "Hay alternativa (glucemia en ayunas y/o HbA1c) y se revalúa periódicamente.",
+            "en": "There is an alternative (fasting glucose and/or HbA1c) and reassessment is periodic."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Valoración glucémica a todas al diagnóstico; SOG como prueba más precisa; si no es posible, glucemia en ayunas y/o HbA1c; revaluar cada 1–3 años según riesgo.",
+        "en": "Glycaemic assessment for everyone at diagnosis; OGTT as the most accurate test; if not possible, fasting glucose and/or HbA1c; reassess every 1–3 years based on risk."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx07",
+      "kind": "question",
+      "conceptId": "pcos.mp.insulin-assays",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Una residente propone pedir insulinemia basal a todas las pacientes con SOP para hacer la SOG solo a las que tengan resistencia a la insulina. ¿Qué responde la guía 2023?",
+        "en": "A resident proposes ordering fasting insulin in all patients with PCOS and doing an OGTT only in those with insulin resistance. What does the 2023 guideline answer?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es razonable: solo las insulinorresistentes necesitan valoración glucémica.",
+            "en": "It is reasonable: only insulin-resistant patients need glycaemic assessment."
+          },
+          "correct": false,
+          "why": {
+            "es": "La valoración glucémica se recomienda a todas, sea cual sea el IMC.",
+            "en": "Glycaemic assessment is recommended for everyone, whatever the BMI."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Mejor calcular HOMA que pedir insulina basal.",
+            "en": "Better to calculate HOMA than to order fasting insulin."
+          },
+          "correct": false,
+          "why": {
+            "es": "HOMA se basa en la misma insulinemia y comparte su escasa utilidad clínica.",
+            "en": "HOMA relies on the same insulin measurement and shares its limited clinical value."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Solo en pacientes con IMC ≥25 kg/m².",
+            "en": "Only in patients with BMI ≥25 kg/m²."
+          },
+          "correct": false,
+          "why": {
+            "es": "El IMC no cambia la indicación: ni insulina de rutina ni valoración glucémica restringida.",
+            "en": "BMI does not change the indication: no routine insulin and no restricted glycaemic assessment."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No: los análisis de insulina tienen escasa relevancia clínica y no se usan de rutina; la valoración glucémica es para todas.",
+            "en": "No: insulin assays are of limited clinical relevance and not used routinely; glycaemic assessment is for everyone."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: punto de práctica de la guía 2023 y recomendación fuerte de valorar la glucemia a todas.",
+            "en": "Correct: 2023 guideline practice point and strong recommendation to assess glycaemia in everyone."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La insulinemia no sirve como filtro: la guía pide valorar la glucemia a todas, con la SOG de 75 g como prueba más precisa.",
+        "en": "Insulin levels are not a useful filter: the guideline asks to assess glycaemia in everyone, with the 75 g OGTT as the most accurate test."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx08",
+      "kind": "question",
+      "conceptId": "pcos.mp.insulin-assays",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "En la guía SOP 2023, ¿qué tipo de enunciado indica que los análisis de insulina disponibles no deben usarse en la práctica habitual?",
+        "en": "In the 2023 PCOS guideline, what type of statement indicates that available insulin assays should not be used in routine care?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un punto de práctica (consenso de expertos), sin calificación de certeza.",
+            "en": "A practice point (expert consensus), with no certainty rating."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: puntos de práctica 1.9.12 y 3.1.10.",
+            "en": "Correct: practice points 1.9.12 and 3.1.10."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Una recomendación basada en evidencia, fuerte y de certeza alta.",
+            "en": "An evidence-based recommendation, strong and high certainty."
+          },
+          "correct": false,
+          "why": {
+            "es": "No es una recomendación basada en evidencia, sino un punto de práctica.",
+            "en": "It is not an evidence-based recommendation but a practice point."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Una recomendación condicional de certeza muy baja.",
+            "en": "A conditional recommendation of very low certainty."
+          },
+          "correct": false,
+          "why": {
+            "es": "No lleva calificación de certeza: es un punto de práctica.",
+            "en": "It carries no certainty rating: it is a practice point."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La guía no se pronuncia sobre los análisis de insulina.",
+            "en": "The guideline says nothing about insulin assays."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí se pronuncia, en dos puntos de práctica.",
+            "en": "It does, in two practice points."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Que sea consenso no lo hace opcional: la guía reconoce la resistencia a la insulina como mecanismo, pero no su medición de rutina.",
+        "en": "Being consensus does not make it optional: the guideline recognises insulin resistance as a mechanism, but not its routine measurement."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx09",
+      "kind": "question",
+      "conceptId": "pcos.mp.inositol",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "stem": {
+        "es": "Mujer con SOP e infertilidad anovulatoria, sin otros factores, pregunta si puede usar inositol en lugar de medicación para ovular. ¿Qué dice la guía 2023?",
+        "en": "A woman with PCOS and anovulatory infertility, no other factors, asks whether she can use inositol instead of medication to ovulate. What does the 2023 guideline say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es la primera línea por su buen perfil de seguridad.",
+            "en": "It is first line because of its good safety profile."
+          },
+          "correct": false,
+          "why": {
+            "es": "La primera línea farmacológica es el letrozol; en infertilidad la guía dice que la seguridad del inositol no se conoce.",
+            "en": "First-line pharmacological treatment is letrozole; in infertility the guideline says inositol safety is not known."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Puede usarse con el tipo, dosis y combinación que recomienda la guía.",
+            "en": "It can be used with the type, dose and combination the guideline recommends."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no recomienda tipos, dosis ni combinaciones específicas.",
+            "en": "The guideline does not recommend specific types, doses or combinations."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "En infertilidad, el inositol solo o combinado debe considerarse terapia experimental.",
+            "en": "In infertility, inositol alone or combined should be considered experimental therapy."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación condicional, certeza muy baja; efectos adversos y seguridad no conocidos.",
+            "en": "Correct: conditional recommendation, very low certainty; side effects and safety not known."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Equivale al letrozol en tasa de nacido vivo.",
+            "en": "It is equivalent to letrozole for live birth rate."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay base para esa equivalencia: el letrozol es primera línea con certeza alta y el inositol es experimental.",
+            "en": "There is no basis for that equivalence: letrozole is first line with high certainty and inositol is experimental."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En fertilidad, la guía separa claramente: letrozol primera línea (fuerte, certeza alta); inositol experimental.",
+        "en": "In fertility, the guideline draws a clear line: letrozole first line (strong, high certainty); inositol experimental."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx10",
+      "kind": "question",
+      "conceptId": "pcos.mp.inositol",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "supplements",
+        "hormones"
+      ],
+      "stem": {
+        "es": "Para el hirsutismo y la adiposidad central en el SOP, ¿qué dice la guía 2023 al comparar metformina e inositol?",
+        "en": "For hirsutism and central adiposity in PCOS, what does the 2023 guideline say when comparing metformin and inositol?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Se prefiere el inositol porque tiene menos efectos gastrointestinales.",
+            "en": "Inositol is preferred because it has fewer gastrointestinal effects."
+          },
+          "correct": false,
+          "why": {
+            "es": "Tener menos efectos gastrointestinales no lo hace preferible: la guía prefiere metformina para estos desenlaces.",
+            "en": "Fewer gastrointestinal effects do not make it preferable: the guideline prefers metformin for these outcomes."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Debería considerarse metformina antes que inositol, sabiendo que la metformina tiene más efectos gastrointestinales.",
+            "en": "Metformin should be considered over inositol, noting that metformin has more gastrointestinal side effects."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación condicional de la guía 2023.",
+            "en": "Correct: conditional recommendation of the 2023 guideline."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Son equivalentes; da igual cuál se elija.",
+            "en": "They are equivalent; either may be chosen."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no las considera equivalentes para estos desenlaces.",
+            "en": "The guideline does not consider them equivalent for these outcomes."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguno de los dos tiene lugar en el SOP.",
+            "en": "Neither has a place in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambos tienen recomendaciones condicionales en la guía.",
+            "en": "Both have conditional recommendations in the guideline."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si usa inositol, que sea decisión compartida, sabiendo que la calidad de los productos varía, y que se lo comunique a sus profesionales.",
+        "en": "If she uses inositol, make it a shared decision, knowing that product quality varies, and ask her to tell her clinicians."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx11",
+      "kind": "question",
+      "conceptId": "pcos.mp.metformin",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "Mujer de 25 años con SOP, IMC 22 kg/m², sin deseo gestacional, pregunta por metformina “para mejorar el metabolismo”. ¿Qué dice la guía 2023?",
+        "en": "A 25-year-old woman with PCOS, BMI 22 kg/m², not trying to conceive, asks about metformin “to improve her metabolism”. What does the 2023 guideline say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Debe considerarse con la misma recomendación basada en evidencia que con IMC ≥25 kg/m².",
+            "en": "It should be considered under the same evidence-based recommendation as with BMI ≥25 kg/m²."
+          },
+          "correct": false,
+          "why": {
+            "es": "Esa recomendación es para IMC ≥25; con IMC <25 es un consenso que reconoce evidencia limitada.",
+            "en": "That recommendation is for BMI ≥25; with BMI <25 it is a consensus that acknowledges limited evidence."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Está contraindicada con IMC <25 kg/m².",
+            "en": "It is contraindicated with BMI <25 kg/m²."
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay tal contraindicación: la guía dice que puede considerarse.",
+            "en": "There is no such contraindication: the guideline says it may be considered."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es una indicación universal en todo SOP.",
+            "en": "It is a universal indication in all PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "Todas las recomendaciones de metformina son condicionales o de consenso; ninguna es universal.",
+            "en": "All metformin recommendations are conditional or consensus; none is universal."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Puede considerarse, reconociendo que la evidencia es limitada.",
+            "en": "It may be considered, acknowledging limited evidence."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendación de consenso para IMC <25 kg/m².",
+            "en": "Correct: consensus recommendation for BMI <25 kg/m²."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Fíjate en los verbos: “debería considerarse” (IMC ≥25), “puede considerarse” (IMC <25), “podría usarse” (infertilidad). Ninguno es una indicación universal.",
+        "en": "Note the verbs: “should be considered” (BMI ≥25), “may be considered” (BMI <25), “could be used” (infertility). None is a universal indication."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx12",
+      "kind": "question",
+      "conceptId": "pcos.mp.metformin",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "hormones"
+      ],
+      "stem": {
+        "es": "En España, ¿qué recoge la ficha técnica de Dianben (metformina) en relación con el SOP?",
+        "en": "In Spain, what does the Dianben (metformin) product information state regarding PCOS?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sus indicaciones se limitan a la diabetes tipo 2: el uso en SOP es fuera de ficha técnica.",
+            "en": "Its indications are limited to type 2 diabetes: use in PCOS is off-label."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la sección 4.1 solo recoge diabetes mellitus tipo 2.",
+            "en": "Correct: section 4.1 lists only type 2 diabetes mellitus."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Incluye el SOP con IMC ≥25 kg/m².",
+            "en": "It includes PCOS with BMI ≥25 kg/m²."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ese umbral procede de la guía internacional, no de la ficha técnica.",
+            "en": "That threshold comes from the international guideline, not from the product information."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Incluye la infertilidad anovulatoria.",
+            "en": "It includes anovulatory infertility."
+          },
+          "correct": false,
+          "why": {
+            "es": "La ficha técnica no recoge indicaciones de fertilidad.",
+            "en": "The product information lists no fertility indications."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Incluye el SOP en adolescentes a partir de 10 años.",
+            "en": "It includes PCOS in adolescents from age 10."
+          },
+          "correct": false,
+          "why": {
+            "es": "El uso desde los 10 años se refiere a la diabetes tipo 2, no al SOP.",
+            "en": "Use from age 10 refers to type 2 diabetes, not PCOS."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía internacional y la ficha técnica responden preguntas distintas: qué es razonable según la evidencia y qué está autorizado. En España, la metformina en SOP es uso fuera de ficha.",
+        "en": "The international guideline and the product information answer different questions: what is reasonable per the evidence and what is licensed. In Spain, metformin in PCOS is off-label use."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline",
+        "aemps-2025-dianben-ft"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx13",
+      "kind": "question",
+      "conceptId": "pcos.mp.diet",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "diet"
+      ],
+      "stem": {
+        "es": "En la guía SOP 2023, ¿cómo se califican los dos enunciados sobre la dieta?",
+        "en": "In the 2023 PCOS guideline, how are the two statements on diet graded?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambos son recomendaciones fuertes basadas en evidencia de certeza alta.",
+            "en": "Both are strong evidence-based recommendations with high certainty."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguno tiene certeza alta: uno es condicional de certeza muy baja y el otro, consenso.",
+            "en": "Neither has high certainty: one is conditional with very low certainty and the other is consensus."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "“Ninguna composición es superior”: punto de práctica; “patrón saludable”: condicional.",
+            "en": "“No composition is superior”: practice point; “healthy pattern”: conditional."
+          },
+          "correct": false,
+          "why": {
+            "es": "Ninguna es punto de práctica: la de composición es condicional con certeza muy baja, y la del patrón saludable es de consenso y fuerte.",
+            "en": "Neither is a practice point: the composition statement is conditional with very low certainty, and the healthy-pattern statement is consensus and strong."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "“Ninguna composición es superior”: condicional, certeza muy baja; “cualquier patrón saludable acorde con las guías poblacionales”: consenso, fuerte.",
+            "en": "“No composition is superior”: conditional, very low certainty; “any healthy pattern consistent with population guidelines”: consensus, strong."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: recomendaciones 3.3.1 y 3.3.2.",
+            "en": "Correct: recommendations 3.3.1 and 3.3.2."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La guía no califica sus recomendaciones de dieta.",
+            "en": "The guideline does not grade its diet recommendations."
+          },
+          "correct": false,
+          "why": {
+            "es": "Sí las califica: 3.3.1 y 3.3.2.",
+            "en": "It does grade them: 3.3.1 and 3.3.2."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Certeza muy baja sobre la composición no significa que dé igual comer bien: el consenso fuerte respalda un patrón saludable y sostenible.",
+        "en": "Very low certainty about composition does not mean eating well is irrelevant: the strong consensus supports a healthy, sustainable pattern."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx14",
+      "kind": "question",
+      "conceptId": "pcos.mp.diet",
+      "rev": 1,
+      "difficulty": 1,
+      "tags": [
+        "diet"
+      ],
+      "stem": {
+        "es": "Paciente con SOP que ya sigue un patrón de alimentación variado y saludable y lo mantiene sin dificultad. Ha leído que una “dieta de índice glucémico bajo específica para el SOP” es mejor y pregunta si debe cambiar. ¿Qué es coherente con la guía de 2023?",
+        "en": "A patient with PCOS already follows a varied, healthy eating pattern that she sustains without difficulty. She has read that a “PCOS-specific low-glycaemic-index diet” is better and asks whether she should switch. What is consistent with the 2023 guideline?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "correct": false,
+          "text": {
+            "es": "Cambiar, porque la guía recomienda la dieta de índice glucémico bajo en el SOP.",
+            "en": "Switch, because the guideline recommends a low-glycaemic-index diet in PCOS."
+          },
+          "why": {
+            "es": "La guía no encuentra evidencia de que una composición supere a otra.",
+            "en": "The guideline finds no evidence that one composition beats another."
+          }
+        },
+        {
+          "id": "b",
+          "correct": false,
+          "text": {
+            "es": "Cambiar solo si busca mejorar los resultados hormonales, donde esa dieta es superior.",
+            "en": "Switch only if she wants better hormonal outcomes, where that diet is superior."
+          },
+          "why": {
+            "es": "Tampoco hay evidencia de superioridad para los resultados hormonales.",
+            "en": "There is no evidence of superiority for hormonal outcomes either."
+          }
+        },
+        {
+          "id": "c",
+          "correct": true,
+          "text": {
+            "es": "No hace falta cambiar por el SOP: ninguna composición ha demostrado ser superior, y un patrón saludable que pueda mantener ya tiene beneficios.",
+            "en": "No need to switch because of PCOS: no composition has been shown to be superior, and a healthy pattern she can sustain already has benefits."
+          },
+          "why": {
+            "es": "Correcta: recomendaciones 3.3.1 (condicional, certeza muy baja) y 3.3.2 (consenso, fuerte).",
+            "en": "Correct: recommendations 3.3.1 (conditional, very low certainty) and 3.3.2 (consensus, strong)."
+          }
+        },
+        {
+          "id": "d",
+          "correct": false,
+          "text": {
+            "es": "Mantener su patrón, pero añadir restricciones para reforzar el efecto.",
+            "en": "Keep her pattern but add restrictions to strengthen the effect."
+          },
+          "why": {
+            "es": "La guía pide evitar dietas indebidamente restrictivas o desequilibradas (3.3.3).",
+            "en": "The guideline asks to avoid unduly restrictive or unbalanced diets (3.3.3)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Si el patrón es saludable y sostenible, cambiarlo “por el SOP” no tiene respaldo; cualquier cambio debe adaptarse a sus preferencias y objetivos.",
+        "en": "If the pattern is healthy and sustainable, changing it “because of PCOS” has no support; any change should be tailored to her preferences and goals."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx15",
+      "kind": "question",
+      "conceptId": "pcos.mp.letrozole",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "¿Qué precaución señala la guía SOP 2023 al prescribir letrozol para inducir la ovulación?",
+        "en": "Which caution does the 2023 PCOS guideline give when prescribing letrozole for ovulation induction?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que es más teratógeno que el clomifeno.",
+            "en": "That it is more teratogenic than clomiphene."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía dice que no hay evidencia de mayor teratogenicidad que con otros inductores.",
+            "en": "The guideline says there is no evidence of greater teratogenicity than with other induction agents."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que solo puede usarse tras fracasar con clomifeno.",
+            "en": "That it can only be used after clomiphene fails."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es primera línea, y la guía lo prefiere al clomifeno.",
+            "en": "It is first line, and the guideline prefers it over clomiphene."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que siempre debe asociarse a metformina.",
+            "en": "That it must always be combined with metformin."
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no exige esa asociación.",
+            "en": "The guideline does not require that combination."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que no debe darse si hay cualquier posibilidad de embarazo previo, aunque no hay evidencia de más teratogenicidad que con otros inductores.",
+            "en": "That it should not be given if there is any possibility of a pre-existing pregnancy, though there is no evidence of more teratogenicity than with other agents."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: punto de práctica 5.3.3.",
+            "en": "Correct: practice point 5.3.3."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Descarta embarazo antes de cada ciclo con letrozol; la precaución no se basa en una teratogenicidad demostrada mayor.",
+        "en": "Rule out pregnancy before each letrozole cycle; the caution is not based on proven greater teratogenicity."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
+      }
+    },
+    {
+      "id": "pcos-mp.qx16",
+      "kind": "question",
+      "conceptId": "pcos.mp.letrozole",
+      "rev": 1,
+      "difficulty": 2,
+      "tags": [
+        "reproduction"
+      ],
+      "stem": {
+        "es": "La guía internacional SOP 2023 recomienda letrozol como primera línea para inducir la ovulación. En España, ¿qué recogen las fichas técnicas de letrozol (Femara) y clomifeno (Omifin)?",
+        "en": "The 2023 international PCOS guideline recommends letrozole as first line for ovulation induction. In Spain, what do the product information documents for letrozole (Femara) and clomiphene (Omifin) state?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Femara solo tiene indicaciones de cáncer de mama (inducción de ovulación fuera de ficha); Omifin está autorizado en infertilidad anovulatoria o disovulatoria, incluido el SOP.",
+            "en": "Femara has only breast cancer indications (ovulation induction off-label); Omifin is licensed for anovulatory or dysovulatory infertility, including PCOS."
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: secciones 4.1 de ambas fichas técnicas.",
+            "en": "Correct: section 4.1 of both product information documents."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambos están autorizados para inducir la ovulación en SOP.",
+            "en": "Both are licensed for ovulation induction in PCOS."
+          },
+          "correct": false,
+          "why": {
+            "es": "Femara solo recoge indicaciones de cáncer de mama.",
+            "en": "Femara lists only breast cancer indications."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El letrozol está autorizado en SOP y el clomifeno no.",
+            "en": "Letrozole is licensed for PCOS and clomiphene is not."
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés.",
+            "en": "It is the other way round."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguno está autorizado, así que la guía no es aplicable en España.",
+            "en": "Neither is licensed, so the guideline does not apply in Spain."
+          },
+          "correct": false,
+          "why": {
+            "es": "Omifin sí está autorizado; y el uso fuera de ficha no invalida la recomendación: donde se permite, obliga a informar y comentar la evidencia.",
+            "en": "Omifin is licensed; and off-label use does not invalidate the recommendation: where allowed, it requires informing the patient and discussing the evidence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía recomienda letrozol; la ficha técnica española no lo autoriza para esa indicación. La propia guía señala que su uso es fuera de ficha en muchos países: donde se permite, hay que informar a la paciente y comentar la evidencia; donde no, pueden usarse otros inductores.",
+        "en": "The guideline recommends letrozole; the Spanish product information does not license it for that indication. The guideline itself notes it is off-label in many countries: where allowed, inform the patient and discuss the evidence; where not, other induction agents can be used."
+      },
+      "refIds": [
+        "teede-2023-pcos-guideline",
+        "aemps-2025-femara-ft",
+        "aemps-2021-omifin-ft"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-15"
       }
     }
   ]
