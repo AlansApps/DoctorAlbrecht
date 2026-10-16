@@ -271,7 +271,7 @@
       "kind": "card",
       "type": "comparison",
       "conceptId": "fert-ae.ovulation-confirmation",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -284,8 +284,8 @@
         "en": "With regular 21–35-day cycles, no additional test is needed to confirm ovulation unless there is hirsutism; a history of oligo- or amenorrhoea is enough to establish anovulation. [[ref:asrm-2021-fertility-evaluation]]"
       },
       "body": {
-        "es": "ESHRE coincide: con ciclos regulares, las pruebas de confirmación de ovulación no se recomiendan de rutina (punto de buena práctica); si se considera necesaria, sugiere pruebas como la LH urinaria (condicional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nNICE difiere: tranquiliza a quien tiene ciclos mensuales regulares porque probablemente ovula (1.18.6), pero ofrece progesterona sérica en fase lútea media incluso con ciclos regulares (1.18.7). Coincide en no usar gráficas de temperatura basal para confirmar ovulación (1.18.9). [[ref:nice-2026-ng257]]\n\nSi se mide progesterona, ASRM aconseja hacerlo aproximadamente 1 semana antes de la menstruación esperada, no en un día fijo como el 21; un valor aislado confirma ovulación, pero no evalúa la calidad de la fase lútea. [[ref:asrm-2021-fertility-evaluation]]",
-        "en": "ESHRE agrees: with regular cycles, tests to confirm ovulation are not routinely recommended (good practice point); if confirmation is warranted, it suggests tests such as urinary LH (conditional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nNICE differs: it reassures people with regular monthly cycles that they are likely ovulating (1.18.6), but offers mid-luteal serum progesterone even with regular cycles (1.18.7). It agrees on not using basal body temperature charts to confirm ovulation (1.18.9). [[ref:nice-2026-ng257]]\n\nIf progesterone is measured, ASRM advises doing so about 1 week before expected menses, not on a fixed day such as day 21; a single value confirms ovulation but does not assess luteal phase quality. [[ref:asrm-2021-fertility-evaluation]]"
+        "es": "ESHRE coincide en lo esencial: con ciclos regulares, las pruebas de confirmación de ovulación no se recomiendan de rutina (punto de buena práctica); si se considera necesaria, indica que pueden usarse pruebas como la LH urinaria, la ecografía seriada o la progesterona lútea media (condicional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nNICE difiere: tranquiliza a quien tiene ciclos mensuales regulares porque probablemente ovula (1.18.6), pero ofrece progesterona sérica en fase lútea media incluso con ciclos regulares (1.18.7). Coincide en no usar gráficas de temperatura basal para confirmar ovulación (1.18.9). [[ref:nice-2026-ng257]]\n\nSi se mide progesterona, ASRM aconseja hacerlo aproximadamente 1 semana antes de la menstruación esperada, no en un día fijo como el 21; un valor aislado confirma ovulación, pero no evalúa la calidad de la fase lútea. [[ref:asrm-2021-fertility-evaluation]]",
+        "en": "ESHRE agrees in essence: with regular cycles, tests to confirm ovulation are not routinely recommended (good practice point); if confirmation is warranted, it states that tests such as urinary LH, ultrasound monitoring or mid-luteal progesterone can be used (conditional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nNICE differs: it reassures people with regular monthly cycles that they are likely ovulating (1.18.6), but offers mid-luteal serum progesterone even with regular cycles (1.18.7). It agrees on not using basal body temperature charts to confirm ovulation (1.18.9). [[ref:nice-2026-ng257]]\n\nIf progesterone is measured, ASRM advises doing so about 1 week before expected menses, not on a fixed day such as day 21; a single value confirms ovulation but does not assess luteal phase quality. [[ref:asrm-2021-fertility-evaluation]]"
       },
       "pearl": {
         "es": "Si pides progesterona, cronométrala respecto a la próxima regla esperada y no la uses para juzgar la “calidad” de la fase lútea.",
@@ -312,7 +312,7 @@
       "kind": "card",
       "type": "what-i-would-not-order",
       "conceptId": "fert-ae.not-routine",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -325,8 +325,8 @@
         "en": "Without a clinical indication, ASRM does not recommend as part of the routine work-up: laparoscopy, advanced sperm function testing, postcoital testing, thrombophilia testing, immunological testing, karyotype, endometrial biopsy or prolactin. [[ref:asrm-2021-fertility-evaluation]]"
       },
       "body": {
-        "es": "NICE va en la misma línea: no usar de rutina el test poscoital (1.18.1); prolactina solo ante trastorno ovulatorio, galactorrea o tumor hipofisario (1.18.11); no hacer pruebas de fragmentación del ADN espermático (1.17.6); no ofrecer histeroscopia salvo sospecha clínica de anomalía uterina o endometrial (1.18.16). [[ref:nice-2026-ng257]] ASRM tampoco recomienda de rutina la temperatura basal. [[ref:asrm-2021-fertility-evaluation]]\n\nUn matiz: ASRM incluye la TSH entre las pruebas potencialmente rutinarias, mientras que NICE solo ofrece función tiroidea si hay síntomas de enfermedad tiroidea (1.18.12). [[ref:asrm-2021-fertility-evaluation]] [[ref:nice-2026-ng257]]",
-        "en": "NICE takes the same line: do not routinely use postcoital testing (1.18.1); prolactin only with an ovulatory disorder, galactorrhoea or a pituitary tumour (1.18.11); do not test for sperm DNA fragmentation (1.17.6); do not offer hysteroscopy unless a uterine or endometrial abnormality is clinically suspected (1.18.16). [[ref:nice-2026-ng257]] ASRM also does not routinely recommend basal body temperature. [[ref:asrm-2021-fertility-evaluation]]\n\nOne nuance: ASRM lists TSH among potential routine tests, whereas NICE offers thyroid function only to people with symptoms of thyroid disease (1.18.12). [[ref:asrm-2021-fertility-evaluation]] [[ref:nice-2026-ng257]]"
+        "es": "NICE va en la misma línea: no usar de rutina el test poscoital (1.18.1); prolactina solo ante trastorno ovulatorio, galactorrea o tumor hipofisario (1.18.11); no hacer pruebas de fragmentación del ADN espermático (1.17.6); no ofrecer histeroscopia salvo sospecha clínica de anomalía uterina o endometrial (1.18.16). [[ref:nice-2026-ng257]] ASRM tampoco recomienda de rutina la temperatura basal. [[ref:asrm-2021-fertility-evaluation]]\n\nUn matiz: ASRM lista la TSH entre las pruebas potencialmente rutinarias de su Tabla 4 y la menciona sobre todo ante oligo-anovulación, mientras que NICE solo ofrece función tiroidea si hay síntomas de enfermedad tiroidea (1.18.12). [[ref:asrm-2021-fertility-evaluation]] [[ref:nice-2026-ng257]]",
+        "en": "NICE takes the same line: do not routinely use postcoital testing (1.18.1); prolactin only with an ovulatory disorder, galactorrhoea or a pituitary tumour (1.18.11); do not test for sperm DNA fragmentation (1.17.6); do not offer hysteroscopy unless a uterine or endometrial abnormality is clinically suspected (1.18.16). [[ref:nice-2026-ng257]] ASRM also does not routinely recommend basal body temperature. [[ref:asrm-2021-fertility-evaluation]]\n\nOne nuance: ASRM lists TSH among the potential routine tests in its Table 4 and mentions it mainly in oligo-anovulation, whereas NICE offers thyroid function only to people with symptoms of thyroid disease (1.18.12). [[ref:asrm-2021-fertility-evaluation]] [[ref:nice-2026-ng257]]"
       },
       "application": {
         "es": "Útil cuando la pareja llega con una lista de pruebas “por si acaso”: explica qué prueba cambiaría la conducta y cuál no.",
@@ -394,7 +394,7 @@
       "kind": "card",
       "type": "patient-phrase",
       "conceptId": "fert-ae.no-blame",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -403,12 +403,12 @@
         "en": "Phrase for the couple: assessing both without blame"
       },
       "core": {
-        "es": "NICE recomienda ofrecer asesoramiento psicológico porque los problemas de fertilidad, y también su estudio y tratamiento, pueden causar estrés psicológico (1.2.3). [[ref:nice-2026-ng257]]",
-        "en": "NICE recommends offering counselling because fertility problems, and their investigation and treatment, can cause psychological stress (1.2.3). [[ref:nice-2026-ng257]]"
+        "es": "Para estudiar a ambos sin buscar culpables: NICE pide atender juntos a los miembros de la pareja porque a ambos les afectan las decisiones de estudio y tratamiento (1.1.1), y ASRM fundamenta la evaluación simultánea en la alta prevalencia de un factor masculino contribuyente. [[ref:nice-2026-ng257]] [[ref:asrm-2021-fertility-evaluation]]",
+        "en": "To assess both partners without blame: NICE asks that couples be seen together because both are affected by decisions on investigation and treatment (1.1.1), and ASRM grounds simultaneous evaluation on the high prevalence of a contributing male factor. [[ref:nice-2026-ng257]] [[ref:asrm-2021-fertility-evaluation]]"
       },
       "body": {
-        "es": "Propuesta: “Vamos a estudiar a ambos al mismo tiempo. No buscamos un culpable: es la forma más completa de entender qué está pasando, y las decisiones les afectan a los dos”.\n\nNICE pide atender juntos a los miembros de la pareja (1.1.1) y que el entorno permita hablar de temas sensibles, como el abuso sexual (1.16.3). [[ref:nice-2026-ng257]] ASRM fundamenta el estudio simultáneo en la alta prevalencia de un factor masculino contribuyente. [[ref:asrm-2021-fertility-evaluation]]",
-        "en": "Suggested wording: “We are going to assess both of you at the same time. We are not looking for someone to blame: it is the most complete way to understand what is happening, and the decisions affect you both.”\n\nNICE asks that couples be seen together (1.1.1) and that the setting allows sensitive issues such as sexual abuse to be discussed (1.16.3). [[ref:nice-2026-ng257]] ASRM grounds simultaneous evaluation on the high prevalence of a contributing male factor. [[ref:asrm-2021-fertility-evaluation]]"
+        "es": "Propuesta: “Vamos a estudiar a ambos al mismo tiempo. No buscamos un culpable: es la forma más completa de entender qué está pasando, y las decisiones les afectan a los dos”.\n\nNICE recomienda además ofrecer asesoramiento (counselling) porque los problemas de fertilidad, y también su estudio y tratamiento, pueden causar estrés psicológico (1.2.3), y que el entorno permita hablar de temas sensibles, como el abuso sexual (1.16.3). [[ref:nice-2026-ng257]]",
+        "en": "Suggested wording: “We are going to assess both of you at the same time. We are not looking for someone to blame: it is the most complete way to understand what is happening, and the decisions affect you both.”\n\nNICE also recommends offering counselling because fertility problems, and their investigation and treatment, can cause psychological stress (1.2.3), and that the setting allows sensitive issues such as sexual abuse to be discussed (1.16.3). [[ref:nice-2026-ng257]]"
       },
       "application": {
         "es": "Evita frases como “relájate y llegará”: trasladan a la paciente una responsabilidad que no le corresponde.",
@@ -828,7 +828,7 @@
       "id": "fert-ae.q4-co589-ages",
       "kind": "question",
       "conceptId": "fert-ae.age-decline",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 1,
       "tags": [
         "reproduction"
@@ -882,8 +882,8 @@
           },
           "correct": false,
           "why": {
-            "es": "NICE y ASRM describen un efecto de la edad mucho menor en el varón.",
-            "en": "NICE and ASRM describe a much smaller age effect in men."
+            "es": "NICE indica que la fertilidad masculina declina en menor medida, y ASRM, que los efectos de la edad son mucho más marcados en la mujer.",
+            "en": "NICE says male fertility declines to a lesser extent, and ASRM that the effects of age are much more pronounced in women."
           }
         }
       ],
@@ -1191,7 +1191,7 @@
       "kind": "card",
       "type": "concept",
       "conceptId": "fert-ae.loss-clock",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -1204,8 +1204,8 @@
         "en": "If a miscarriage or ectopic pregnancy occurs during the year of trying before investigation, NICE advises continuing the timeframe rather than restarting it (1.16.7). [[ref:nice-2026-ng257]]"
       },
       "body": {
-        "es": "La misma regla se aplica al periodo de manejo expectante en la infertilidad inexplicada y a los 12 ciclos de inseminación artificial previos al acceso a FIV (distintos de los 6 ciclos de 1.16.6 antes de estudiar). [[ref:nice-2026-ng257]]\n\nMatiz: el glosario de NICE incluye el antecedente de embarazo ectópico entre las causas clínicas sospechadas, que justifican ofrecer derivación desde la primera consulta (1.16.8); NICE no aclara cómo combinar ambas recomendaciones. [[ref:nice-2026-ng257]]",
-        "en": "The same rule applies to the period of expectant management in unexplained infertility and to the 12 cycles of artificial insemination before IVF access (different from the 6 cycles in 1.16.6 before investigation). [[ref:nice-2026-ng257]]\n\nNuance: NICE's glossary lists a history of ectopic pregnancy among suspected clinical causes, which justify offering referral at presentation (1.16.8); NICE does not clarify how to combine both recommendations. [[ref:nice-2026-ng257]]"
+        "es": "La misma regla se aplica al periodo de manejo expectante en la infertilidad inexplicada y a los 12 ciclos de inseminación artificial previos al acceso a FIV (distintos de los 6 ciclos de 1.16.6 antes de estudiar). [[ref:nice-2026-ng257]]\n\nMatiz: el glosario de NICE incluye el antecedente de embarazo ectópico entre las causas clínicas sospechadas, que justifican ofrecer derivación desde la primera consulta (1.16.8); el texto de NICE no detalla cómo combinar ambas recomendaciones. [[ref:nice-2026-ng257]]",
+        "en": "The same rule applies to the period of expectant management in unexplained infertility and to the 12 cycles of artificial insemination before IVF access (different from the 6 cycles in 1.16.6 before investigation). [[ref:nice-2026-ng257]]\n\nNuance: NICE's glossary lists a history of ectopic pregnancy among suspected clinical causes, which justify offering referral at presentation (1.16.8); the NICE text does not detail how to combine both recommendations. [[ref:nice-2026-ng257]]"
       },
       "application": {
         "es": "Evita el mensaje desalentador de “empezar de cero” después de una pérdida.",
@@ -1232,7 +1232,7 @@
       "kind": "card",
       "type": "what-i-would-do",
       "conceptId": "fert-ae.natural-fertility",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -1245,8 +1245,8 @@
         "en": "The fertile window spans the 6 days ending on the day of ovulation; intercourse every 1–2 days within that window yields the highest pregnancy rates, and 2–3 times per week gives nearly equivalent results. [[ref:asrm-2022-optimizing-natural-fertility]]"
       },
       "body": {
-        "es": "No hay que aconsejar limitar la frecuencia de las relaciones. Los métodos de conciencia de fertilidad, como los test de ovulación o la observación del moco cervical, se asocian con mayor probabilidad de concebir en un ciclo, pero pueden generar estrés; si se usan, deben orientar las relaciones frecuentes, no sustituirlas. [[ref:asrm-2022-optimizing-natural-fertility]] NICE informa de que las relaciones vaginales cada 2–3 días optimizan la probabilidad de embarazo (1.5.1). [[ref:nice-2026-ng257]]\n\nLa postura coital y las rutinas poscoitales no influyen en la fertilidad, y no hay evidencia suficiente de que una dieta concreta mejore la fertilidad natural; el ácido fólico diario en la mujer reduce el riesgo de defectos del tubo neural. [[ref:asrm-2022-optimizing-natural-fertility]]",
-        "en": "Couples should not be advised to limit the frequency of intercourse. Fertility-awareness methods, such as ovulation kits or cervical mucus monitoring, are associated with a higher probability of conceiving in a given cycle but can cause stress; if used, they should guide frequent intercourse, not replace it. [[ref:asrm-2022-optimizing-natural-fertility]] NICE informs that vaginal intercourse every 2–3 days optimises the chance of pregnancy (1.5.1). [[ref:nice-2026-ng257]]\n\nCoital position and postcoital routines have no impact on fertility, and there is insufficient evidence that a specific diet improves natural fertility; daily folic acid in women reduces the risk of neural tube defects. [[ref:asrm-2022-optimizing-natural-fertility]]"
+        "es": "No hay que aconsejar limitar la frecuencia de las relaciones. Los métodos de conciencia de fertilidad, como los test de ovulación o la observación del moco cervical, se asocian con mayor probabilidad de concebir en un ciclo, pero pueden generar estrés; si se usan, deben orientar las relaciones frecuentes, no sustituirlas. [[ref:asrm-2022-optimizing-natural-fertility]] NICE informa de que las relaciones vaginales cada 2–3 días optimizan la probabilidad de embarazo (1.5.1). [[ref:nice-2026-ng257]]\n\nLa postura coital y las rutinas poscoitales no influyen en la fertilidad, y no hay evidencia suficiente de que una dieta concreta mejore la fertilidad natural; a las mujeres que buscan embarazo se les aconseja un suplemento de ácido fólico (al menos 400 µg al día) para reducir el riesgo de defectos del tubo neural. [[ref:asrm-2022-optimizing-natural-fertility]]",
+        "en": "Couples should not be advised to limit the frequency of intercourse. Fertility-awareness methods, such as ovulation kits or cervical mucus monitoring, are associated with a higher probability of conceiving in a given cycle but can cause stress; if used, they should guide frequent intercourse, not replace it. [[ref:asrm-2022-optimizing-natural-fertility]] NICE informs that vaginal intercourse every 2–3 days optimises the chance of pregnancy (1.5.1). [[ref:nice-2026-ng257]]\n\nCoital position and postcoital routines have no impact on fertility, and there is insufficient evidence that a specific diet improves natural fertility; women attempting to conceive should be advised to take a folic acid supplement (at least 400 µg daily) to reduce the risk of neural tube defects. [[ref:asrm-2022-optimizing-natural-fertility]]"
       },
       "pearl": {
         "es": "ASRM deja la frecuencia concreta a la preferencia de la pareja dentro de la ventana fértil: una agenda rígida puede sumar estrés sin beneficio.",
@@ -1272,14 +1272,14 @@
       "id": "fert-ae.q7-38-seven-months",
       "kind": "question",
       "conceptId": "fert-ae.when-to-start",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 1,
       "tags": [
         "reproduction"
       ],
       "stem": {
-        "es": "Mujer de 38 años, ciclos regulares, sin antecedentes relevantes; lleva 7 meses buscando embarazo con su pareja. Según ASRM, ¿qué corresponde?",
-        "en": "A 38-year-old woman, regular cycles, no relevant history; she has been trying to conceive with her partner for 7 months. According to ASRM, what is appropriate?"
+        "es": "Mujer de 37 años, ciclos regulares, sin antecedentes relevantes; lleva 7 meses buscando embarazo con su pareja. Según ASRM, ¿qué corresponde?",
+        "en": "A 37-year-old woman, regular cycles, no relevant history; she has been trying to conceive with her partner for 7 months. According to ASRM, what is appropriate?"
       },
       "options": [
         {
@@ -1314,8 +1314,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ASRM indica que las pruebas de reserva no deben usarse como cribado y que una reserva baja no implica incapacidad para concebir.",
-            "en": "ASRM states that reserve tests should not be used for screening and that low reserve does not imply inability to conceive."
+            "es": "Una AMH aislada no sustituye la evaluación: ASRM la considera un complemento del estudio de la mujer con infertilidad, y señala que una reserva baja no implica necesariamente incapacidad para concebir.",
+            "en": "A lone AMH does not replace the evaluation: ASRM sees it as an adjunct to the evaluation of the infertile woman, and notes that low reserve does not necessarily imply inability to conceive."
           }
         },
         {
@@ -1981,8 +1981,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE no la propone; si la confirmación está justificada, sugiere pruebas como la LH urinaria.",
-            "en": "ESHRE does not propose it; if confirmation is warranted, it suggests tests such as urinary LH."
+            "es": "ESHRE no la propone; si la confirmación está justificada, indica que pueden usarse pruebas como la LH urinaria.",
+            "en": "ESHRE does not propose it; if confirmation is warranted, it states that tests such as urinary LH can be used."
           }
         },
         {
@@ -2011,8 +2011,8 @@
         }
       ],
       "explanation": {
-        "es": "Con ciclos regulares, ASRM y ESHRE no consideran necesario confirmar la ovulación de rutina; NICE ofrece progesterona en fase lútea media. Sobre la temperatura basal: NICE desaconseja usarla para confirmar la ovulación, ASRM no la recomienda de rutina y ESHRE no la incluye entre las pruebas que sugiere, por su menor exactitud.",
-        "en": "With regular cycles, ASRM and ESHRE do not consider routine ovulation confirmation necessary; NICE offers mid-luteal progesterone. On basal body temperature: NICE advises against using it to confirm ovulation, ASRM does not recommend it routinely, and ESHRE does not include it among the tests it suggests, given its lower accuracy."
+        "es": "Con ciclos regulares, ASRM y ESHRE no consideran necesario confirmar la ovulación de rutina; NICE ofrece progesterona en fase lútea media. Sobre la temperatura basal: NICE desaconseja usarla para confirmar la ovulación, ASRM no la recomienda de rutina y ESHRE no la incluye entre las pruebas que cita, por su menor exactitud.",
+        "en": "With regular cycles, ASRM and ESHRE do not consider routine ovulation confirmation necessary; NICE offers mid-luteal progesterone. On basal body temperature: NICE advises against using it to confirm ovulation, ASRM does not recommend it routinely, and ESHRE does not include it among the tests it lists, given its lower accuracy."
       },
       "refIds": [
         "nice-2026-ng257",
@@ -2649,8 +2649,8 @@
           },
           "correct": false,
           "why": {
-            "es": "La fecundidad cae de forma significativa desde los ~32 años y más rápido después de los 37.",
-            "en": "Fecundity falls significantly from about 32 and faster after 37."
+            "es": "A los 40 años la fertilidad relativa ya es aproximadamente la mitad que a finales de los 20 y principios de los 30, según ASRM 2022.",
+            "en": "At 40, relative fertility is already about half that of the late 20s and early 30s, according to ASRM 2022."
           }
         },
         {
@@ -3638,13 +3638,13 @@
         {
           "id": "b",
           "text": {
-            "es": "El plazo continúa sin reiniciarse; además, el glosario de NICE incluye el ectópico previo entre las causas sospechadas que justifican derivar en la presentación, y NICE no aclara cómo combinar ambas recomendaciones.",
-            "en": "The timeframe continues without restarting; in addition, NICE’s glossary lists previous ectopic among the suspected causes that justify referral at presentation, and NICE does not clarify how to combine both recommendations."
+            "es": "El plazo continúa sin reiniciarse (1.16.7); además, el glosario de NICE incluye el antecedente de ectópico entre las causas clínicas sospechadas que justifican ofrecer derivación en la presentación (1.16.8), y el texto de la guía no detalla cómo se combinan ambas recomendaciones.",
+            "en": "The timeframe continues without restarting (1.16.7); in addition, NICE’s glossary lists a history of ectopic pregnancy among the suspected clinical causes that justify offering referral at presentation (1.16.8), and the guideline text does not detail how the two recommendations combine."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: NICE 1.16.7 manda continuar el plazo, y su glosario incluye el ectópico previo entre las causas sospechadas de 1.16.8, sin aclarar cómo combinar ambas.",
-            "en": "Correct: NICE 1.16.7 says to continue the timeframe, and its glossary lists previous ectopic among the suspected causes in 1.16.8, without clarifying how to combine the two."
+            "es": "Correcta: NICE 1.16.7 indica continuar el plazo, y su glosario incluye el ectópico previo entre las causas sospechadas de 1.16.8; el texto no detalla cómo combinarlas.",
+            "en": "Correct: NICE 1.16.7 says to continue the timeframe, and its glossary lists previous ectopic among the suspected causes in 1.16.8; the text does not detail how to combine them."
           }
         },
         {
@@ -3673,8 +3673,8 @@
         }
       ],
       "explanation": {
-        "es": "NICE 1.16.7 (2026): tras un aborto o ectópico, continuar el plazo. Por otro lado, un ectópico previo figura entre las causas sospechadas de 1.16.8; la guía no explica cómo combinarlas.",
-        "en": "NICE 1.16.7 (2026): after a miscarriage or ectopic, continue the timeframe. Separately, a previous ectopic is among the suspected causes in 1.16.8; the guideline does not explain how to combine them."
+        "es": "NICE 1.16.7 (2026): tras un aborto o ectópico, continuar el plazo. Por otro lado, un ectópico previo figura entre las causas sospechadas de 1.16.8; el texto de la guía no detalla cómo combinarlas.",
+        "en": "NICE 1.16.7 (2026): after a miscarriage or ectopic, continue the timeframe. Separately, a previous ectopic is among the suspected causes in 1.16.8; the guideline text does not detail how to combine them."
       },
       "refIds": [
         "nice-2026-ng257"
@@ -3939,8 +3939,8 @@
         {
           "id": "b",
           "text": {
-            "es": "El ácido fólico diario reduce el riesgo de defectos del tubo neural; no hay pruebas suficientes de que una dieta concreta mejore la fertilidad natural.",
-            "en": "Daily folic acid reduces the risk of neural tube defects; there is insufficient evidence that a specific diet improves natural fertility."
+            "es": "Se aconseja un suplemento de ácido fólico (al menos 400 µg al día) para reducir el riesgo de defectos del tubo neural; no hay pruebas suficientes de que una dieta concreta mejore la fertilidad natural.",
+            "en": "A folic acid supplement (at least 400 µg daily) is advised to reduce the risk of neural tube defects; there is insufficient evidence that a specific diet improves natural fertility."
           },
           "correct": true,
           "why": {

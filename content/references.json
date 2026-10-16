@@ -38,8 +38,8 @@
       "en": "AMH <0.7 ng/mL was not associated with a lower probability of conceiving by 6 cycles (65% vs 62%) or 12 cycles (84% vs 75%) versus normal AMH; neither was high FSH. Conception defined as a positive pregnancy test."
     },
     "limitations": {
-      "es": "Desenlace = prueba de embarazo positiva, no nacido vivo; observacional; excluye infertilidad conocida; pocas mujeres con AMH muy baja (n=84).",
-      "en": "Outcome = positive pregnancy test, not live birth; observational; excludes known infertility; few women with very low AMH (n=84)."
+      "es": "Desenlace = prueba de embarazo positiva, no nacido vivo; observacional; excluye infertilidad conocida; pocas mujeres con AMH baja (<0,7 ng/mL; n=84).",
+      "en": "Outcome = positive pregnancy test, not live birth; observational; excludes known infertility; few women with low AMH (<0.7 ng/mL; n=84)."
     },
     "accessed": "2026-10-12"
   },
@@ -77,8 +77,8 @@
       "en": "Women starting ovarian stimulation for IVF/ICSI."
     },
     "finding": {
-      "es": "Recomienda AFC o AMH para predecir respuesta alta y baja (fuerte). No recomienda AFC, AMH ni otros marcadores basales para predecir embarazo o nacido vivo (fuerte). La edad y el IMC de la mujer sí predicen embarazo y nacido vivo (fuerte). Edad, IMC, FSH, inhibina B y otras hormonas basales no deben usarse de rutina para predecir la respuesta.",
-      "en": "Recommends AFC or AMH to predict high and low response (strong). Does not recommend AFC, AMH or other basal markers to predict pregnancy or live birth (strong). Female age and BMI are predictors of pregnancy and live birth (strong). Age, BMI, FSH, inhibin B and other basal hormones should not be routinely used to predict response."
+      "es": "Recomienda AFC o AMH para predecir respuesta alta y baja (fuerte). No recomienda AFC, AMH ni otros marcadores basales para predecir embarazo o nacido vivo (fuerte). La edad y el IMC de la mujer sí predicen embarazo y nacido vivo (fuerte). Edad, IMC, FSH basal, inhibina B, estradiol, progesterona y LH basales no se recomiendan para predecir la respuesta (fuerte).",
+      "en": "Recommends AFC or AMH to predict high and low response (strong). Does not recommend AFC, AMH or other basal markers to predict pregnancy or live birth (strong). Female age and BMI are predictors of pregnancy and live birth (strong). Age, BMI, basal FSH, inhibin B, basal oestradiol, basal progesterone and basal LH are not recommended to predict response (strong)."
     },
     "limitations": {
       "es": "Guía completa v23 (septiembre 2026); versión de revista: Hum Reprod 2026;41(4):498-514. La certeza de cada recomendación se consulta en la guía completa.",

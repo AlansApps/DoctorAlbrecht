@@ -188,7 +188,7 @@
       "kind": "card",
       "type": "lab",
       "conceptId": "fert.or.measurement-limits",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones",
         "reproduction"
@@ -198,12 +198,12 @@
         "en": "Before interpreting an AMH: what changes it"
       },
       "core": {
-        "es": "La AMH puede estar suprimida por anticonceptivos hormonales combinados actuales o recientes (la guía también menciona la cirugía ovárica entre los factores a considerar), y varía con la edad, el IMC y el día del ciclo. [[ref:teede-2023-pcos-guideline]]",
-        "en": "AMH may be suppressed by current or recent combined hormonal contraception (the guideline also lists ovarian surgery among the factors to consider), and it varies with age, BMI and cycle day. [[ref:teede-2023-pcos-guideline]]"
+        "es": "La AMH puede estar suprimida por el uso actual o reciente de anticonceptivos orales combinados (la guía también menciona la cirugía ovárica entre los factores a considerar); además, su nivel depende de la edad y del IMC y puede variar a lo largo del ciclo. [[ref:teede-2023-pcos-guideline]]",
+        "en": "AMH may be suppressed by current or recent combined oral contraceptive use (the guideline also lists ovarian surgery among the factors to consider); in addition, its level depends on age and BMI and may vary across the cycle. [[ref:teede-2023-pcos-guideline]]"
       },
       "body": {
-        "es": "Según los puntos de práctica de la guía internacional de SOP 2023: en la población general la AMH alcanza su pico hacia los 20–25 años y es más baja con IMC más alto; puede estar suprimida por anticonceptivos combinados actuales o recientes, y la guía menciona también la cirugía ovárica entre los factores a considerar; y puede variar a lo largo del ciclo. [[ref:teede-2023-pcos-guideline]]\n\nLos laboratorios deben usar puntos de corte específicos de población y de ensayo: una AMH “baja según el rango del laboratorio” no se compara directamente con cifras de otro ensayo. [[ref:teede-2023-pcos-guideline]]",
-        "en": "According to the practice points of the 2023 international PCOS guideline: in the general population AMH peaks around ages 20–25 and is lower with higher BMI; it may be suppressed by current or recent combined contraception, and the guideline also lists ovarian surgery among the factors to consider; and it may vary across the cycle. [[ref:teede-2023-pcos-guideline]]\n\nLaboratories should use population- and assay-specific cut-offs: an AMH that is “low by the lab range” cannot be compared directly with figures from another assay. [[ref:teede-2023-pcos-guideline]]"
+        "es": "Según los puntos de práctica de la guía internacional de SOP 2023: en la población general la AMH alcanza su pico hacia los 20–25 años y es más baja con IMC más alto; puede estar suprimida por el uso actual o reciente de anticonceptivos orales combinados, y la guía menciona también la cirugía ovárica entre los factores a considerar; y puede variar a lo largo del ciclo. [[ref:teede-2023-pcos-guideline]]\n\nLos laboratorios deben usar puntos de corte específicos de población y de ensayo: una AMH “baja según el rango del laboratorio” no se compara directamente con cifras de otro ensayo. [[ref:teede-2023-pcos-guideline]]",
+        "en": "According to the practice points of the 2023 international PCOS guideline: in the general population AMH peaks around ages 20–25 and is lower with higher BMI; it may be suppressed by current or recent combined oral contraceptive use, and the guideline also lists ovarian surgery among the factors to consider; and it may vary across the cycle. [[ref:teede-2023-pcos-guideline]]\n\nLaboratories should use population- and assay-specific cut-offs: an AMH that is “low by the lab range” cannot be compared directly with figures from another assay. [[ref:teede-2023-pcos-guideline]]"
       },
       "application": {
         "es": "Antes de interpretar una AMH, pregunta por anticoncepción hormonal reciente y cirugía ovárica, y mira qué ensayo y qué punto de corte usó el laboratorio.",
@@ -230,7 +230,7 @@
       "kind": "card",
       "type": "lab",
       "conceptId": "fert.or.predicts-response",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones",
         "reproduction"
@@ -244,8 +244,8 @@
         "en": "ESHRE recommends using AFC or AMH to predict a high or low response to ovarian stimulation. [[ref:eshre-2025-ovarian-stimulation]]"
       },
       "body": {
-        "es": "Los marcadores de reserva son buenos predictores del número de ovocitos obtenidos en FIV. [[ref:asrm-2020-ovarian-reserve]]\n\nEn cambio, la guía ESHRE desaconseja usar de rutina la edad, el IMC, la FSH basal, la inhibina B, el estradiol, la progesterona o la LH basales para predecir la respuesta. [[ref:eshre-2025-ovarian-stimulation]] Es decir: para anticipar la respuesta, AFC o AMH; no una batería de hormonas basales.",
-        "en": "Reserve markers are good predictors of the number of oocytes retrieved in IVF. [[ref:asrm-2020-ovarian-reserve]]\n\nBy contrast, the ESHRE guideline advises against routinely using age, BMI, basal FSH, inhibin B, oestradiol, progesterone or basal LH to predict response. [[ref:eshre-2025-ovarian-stimulation]] In short: to anticipate response, AFC or AMH; not a panel of basal hormones."
+        "es": "Los marcadores de reserva son buenos predictores del número de ovocitos obtenidos en FIV. [[ref:asrm-2020-ovarian-reserve]]\n\nEn cambio, la guía ESHRE no recomienda usar la edad, el IMC, la FSH basal, la inhibina B, el estradiol, la progesterona ni la LH basales para predecir la respuesta (recomendación fuerte). [[ref:eshre-2025-ovarian-stimulation]] Es decir: para anticipar la respuesta, AFC o AMH; no una batería de hormonas basales.",
+        "en": "Reserve markers are good predictors of the number of oocytes retrieved in IVF. [[ref:asrm-2020-ovarian-reserve]]\n\nBy contrast, the ESHRE guideline does not recommend using age, BMI, basal FSH, inhibin B, basal oestradiol, basal progesterone or basal LH to predict response (strong recommendation). [[ref:eshre-2025-ovarian-stimulation]] In short: to anticipate response, AFC or AMH; not a panel of basal hormones."
       },
       "application": {
         "es": "Si una paciente va a estimulación, AMH o AFC ayudan a anticipar baja o alta respuesta y a asesorar sobre riesgos; no hace falta sumar inhibina B ni FSH para eso.",
@@ -668,7 +668,7 @@
       "id": "fert-or.q2-eshre-marker",
       "kind": "question",
       "conceptId": "fert.or.predicts-response",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 2,
       "tags": [
         "hormones",
@@ -687,8 +687,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE la incluye entre los marcadores que no deben usarse de rutina para predecir la respuesta.",
-            "en": "ESHRE lists it among markers not to be routinely used to predict response."
+            "es": "ESHRE la incluye entre los marcadores que no recomienda para predecir la respuesta.",
+            "en": "ESHRE lists it among the markers it does not recommend for predicting response."
           }
         },
         {
@@ -711,8 +711,8 @@
           },
           "correct": false,
           "why": {
-            "es": "Ambos están entre los marcadores que ESHRE desaconseja usar de rutina para predecir la respuesta.",
-            "en": "Both are among the markers ESHRE advises against routinely using to predict response."
+            "es": "Ambos están entre los marcadores que ESHRE no recomienda para predecir la respuesta.",
+            "en": "Both are among the markers ESHRE does not recommend for predicting response."
           }
         },
         {
@@ -723,8 +723,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE no recomienda usarlos de rutina para predecir la respuesta ovárica.",
-            "en": "ESHRE does not recommend routinely using them to predict ovarian response."
+            "es": "ESHRE no recomienda usarlos para predecir la respuesta ovárica.",
+            "en": "ESHRE does not recommend using them to predict ovarian response."
           }
         }
       ],
@@ -1488,8 +1488,8 @@
         }
       ],
       "explanation": {
-        "es": "Factores que modifican la AMH: edad (pico hacia los 20–25 años), IMC (más baja con IMC alto), anticonceptivos combinados actuales o recientes y día del ciclo. Los puntos de corte deben ser específicos de población y de ensayo.",
-        "en": "Factors that modify AMH: age (peak around 20–25), BMI (lower with higher BMI), current or recent combined contraception and cycle day. Cut-offs should be population- and assay-specific."
+        "es": "Factores que modifican la AMH: edad (pico hacia los 20–25 años), IMC (más baja con IMC alto), anticonceptivos orales combinados actuales o recientes y variación a lo largo del ciclo. Los puntos de corte deben ser específicos de población y de ensayo.",
+        "en": "Factors that modify AMH: age (peak around 20–25), BMI (lower with higher BMI), current or recent combined oral contraceptives and variation across the cycle. Cut-offs should be population- and assay-specific."
       },
       "refIds": [
         "teede-2023-pcos-guideline"
@@ -1623,8 +1623,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE desaconseja usar FSH basal e inhibina B para predecir la respuesta.",
-            "en": "ESHRE advises against using basal FSH and inhibin B to predict response."
+            "es": "ESHRE no recomienda usar FSH basal ni inhibina B para predecir la respuesta.",
+            "en": "ESHRE does not recommend using basal FSH or inhibin B to predict response."
           }
         },
         {
@@ -1663,8 +1663,8 @@
         "reproduction"
       ],
       "stem": {
-        "es": "La FSH basal y la inhibina B tienen algo de valor predictivo de la respuesta ovárica. ¿Por qué ESHRE 2025 desaconseja aun así usarlas con ese fin?",
-        "en": "Basal FSH and inhibin B have some predictive value for ovarian response. Why does ESHRE 2025 still advise against using them for that purpose?"
+        "es": "La FSH basal y la inhibina B tienen algo de valor predictivo de la respuesta ovárica. ¿Por qué ESHRE 2025 aun así no recomienda usarlas con ese fin?",
+        "en": "Basal FSH and inhibin B have some predictive value for ovarian response. Why does ESHRE 2025 still not recommend using them for that purpose?"
       },
       "options": [
         {
@@ -1793,8 +1793,8 @@
         }
       ],
       "explanation": {
-        "es": "Paradoja útil: AFC/AMH predicen la respuesta, pero no el nacido vivo; la edad y el IMC no sirven para predecir la respuesta, pero sí son predictores de embarazo y nacido vivo.",
-        "en": "A useful paradox: AFC/AMH predict response but not live birth; age and BMI are not used to predict response but are predictors of pregnancy and live birth."
+        "es": "Paradoja útil: AFC/AMH predicen la respuesta, pero no el nacido vivo; la edad y el IMC no se recomiendan para predecir la respuesta, pero sí son predictores de embarazo y nacido vivo.",
+        "en": "A useful paradox: AFC/AMH predict response but not live birth; age and BMI are not recommended to predict response but are predictors of pregnancy and live birth."
       },
       "refIds": [
         "eshre-2025-ovarian-stimulation"
@@ -2132,8 +2132,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE señala que, con ciclos regulares, las mujeres con reserva disminuida tienen tasas de embarazo espontáneo similares a las de su edad con reserva normal: la reserva baja per se no explica la infertilidad.",
-            "en": "ESHRE notes that, with regular cycles, women with decreased reserve have spontaneous pregnancy rates similar to same-age women with normal reserve: low reserve per se does not explain infertility."
+            "es": "ESHRE señala que, con ciclos regulares, las mujeres con reserva disminuida parecen tener tasas de embarazo espontáneo similares a las de mujeres de su edad con reserva normal, lo que descarta la reserva baja por sí sola como causa de la infertilidad.",
+            "en": "ESHRE notes that, with regular cycles, women with decreased reserve seem to have spontaneous pregnancy rates similar to same-age women with normal reserve, which effectively excludes low reserve per se as a reason for infertility."
           }
         },
         {
@@ -2144,8 +2144,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE indica que la reserva no determina la probabilidad de embarazo espontáneo a 6–12 meses, así que no informa ese pronóstico.",
-            "en": "ESHRE indicates reserve does not determine the probability of spontaneous pregnancy over 6–12 months, so it does not inform that prognosis."
+            "es": "ESHRE indica que los estudios revisados no sugieren que la reserva determine la probabilidad de embarazo espontáneo a 6–12 meses, así que la prueba puede no aportar información sobre ese pronóstico.",
+            "en": "ESHRE indicates that the studies reviewed do not suggest that reserve determines the probability of spontaneous pregnancy over 6–12 months, so testing may not be informative for that prognosis."
           }
         },
         {
@@ -2208,8 +2208,8 @@
           },
           "correct": true,
           "why": {
-            "es": "Correcta: las tres van en la misma línea.",
-            "en": "Correct: all three point the same way."
+            "es": "Correcta: las tres van en la misma línea (NICE lo desaconseja, ESHRE indica que no es necesaria y ASRM indica que no predice el potencial reproductivo actual).",
+            "en": "Correct: all three point the same way (NICE advises against it, ESHRE states it is not required and ASRM says it does not predict current reproductive potential)."
           }
         },
         {
@@ -2250,8 +2250,8 @@
         }
       ],
       "explanation": {
-        "es": "Acuerdo entre guías: ESHRE (fuerte, certeza baja), ASRM y NICE desaconsejan usar la AMH para pronosticar el embarazo espontáneo.",
-        "en": "Guideline agreement: ESHRE (strong, low certainty), ASRM and NICE advise against using AMH to forecast spontaneous pregnancy."
+        "es": "Acuerdo entre guías: NICE (1.18.3) desaconseja usar la AMH para predecir el embarazo clínico por concepción espontánea; ESHRE (fuerte, certeza baja) indica que, con ciclos regulares, la prueba de reserva no es necesaria para predecir la concepción espontánea a 6–12 meses; y ASRM señala que los marcadores no predicen el potencial reproductivo actual en mujeres con fertilidad no probada.",
+        "en": "Guideline agreement: NICE (1.18.3) advises against using AMH to predict clinical pregnancy through spontaneous conception; ESHRE (strong, low certainty) states that, with regular cycles, ovarian reserve testing is not required to predict spontaneous conception over 6–12 months; and ASRM says the markers do not predict current reproductive potential in women of unproven fertility."
       },
       "refIds": [
         "eshre-2023-unexplained-infertility",
@@ -2875,7 +2875,7 @@
       "id": "fert-or.case1-lucia",
       "kind": "case",
       "conceptId": "fert.or.case-lucia",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -2916,8 +2916,8 @@
         {
           "id": "fert-or.case1.s5",
           "text": {
-            "es": "Giro: meses después, con estudio completo y una indicación de FIV, la AMH (o el AFC) sí aporta: ayuda a anticipar su respuesta a la estimulación y a ajustar el asesoramiento, sin usarse para negar el tratamiento.",
-            "en": "Twist: months later, with a full work-up and an indication for IVF, AMH (or AFC) does help: it anticipates her response to stimulation and adjusts counselling, without being used to refuse treatment."
+            "es": "Giro: meses después, con estudio completo y una indicación de FIV, aun si la AMH resultara extremadamente baja, la AMH (o el AFC) sí aporta: ayuda a anticipar su respuesta a la estimulación y a ajustar el asesoramiento, sin usarse para negar el tratamiento.",
+            "en": "Twist: months later, with a full work-up and an indication for IVF, even if the AMH turned out to be extremely low, AMH (or AFC) does help: it anticipates her response to stimulation and adjusts counselling, without being used to refuse treatment."
           },
           "questionId": "fert-or.q6-very-low-amh-ivf"
         },
