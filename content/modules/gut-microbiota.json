@@ -30,7 +30,15 @@
         "gut-mb.c2-strain-specificity",
         "gut-mb.c3-label-dose-safety",
         "gut-mb.q1-postbiotic",
-        "gut-mb.q2-strain"
+        "gut-mb.q2-strain",
+        "gut-mb.qx1-synbiotic-types",
+        "gut-mb.qx2-wgo-terms",
+        "gut-mb.qx3-prebiotic-definition",
+        "gut-mb.qx4-nomenclature",
+        "gut-mb.qx5-no-strain-label",
+        "gut-mb.qx6-count-shelf-life",
+        "gut-mb.qx7-no-general-dose",
+        "gut-mb.qx8-immunocompromised"
       ]
     },
     {
@@ -66,7 +74,28 @@
         "gut-mb.q5-partner",
         "gut-mb.q6-probiotic-adjunct",
         "gut-mb.q7-recurrence",
-        "gut-mb.q8-ui-vaginal"
+        "gut-mb.q8-ui-vaginal",
+        "gut-mb.qx9-bv-risk-factors",
+        "gut-mb.qx10-sti-testing",
+        "gut-mb.qx11-asymptomatic-common",
+        "gut-mb.qx12-nugent-5",
+        "gut-mb.qx13-hay-ison",
+        "gut-mb.qx14-amsel-accuracy",
+        "gut-mb.qx15-culture-cytology",
+        "gut-mb.qx16-pcr-not-microbiome",
+        "gut-mb.qx17-cdc-regimens",
+        "gut-mb.qx18-iusti-asymptomatic",
+        "gut-mb.qx19-alcohol-condoms",
+        "gut-mb.qx20-regional-dequalinium",
+        "gut-mb.qx21-recurrence-rates",
+        "gut-mb.qx22-suppression-stops",
+        "gut-mb.qx23-vitd-lactate",
+        "gut-mb.qx24-female-partner",
+        "gut-mb.qx25-adherence-subgroup",
+        "gut-mb.qx26-lactin-v",
+        "gut-mb.qx27-three-sources",
+        "gut-mb.qx28-why-research-only",
+        "gut-mb.qx29-rpl-rif-dysbiosis"
       ]
     },
     {
@@ -95,6 +124,12 @@
         "gut-mb.c14-commercial-tests",
         "gut-mb.q9-endometritis-guidelines",
         "gut-mb.q10-commercial-report",
+        "gut-mb.qx30-not-recommended-meaning",
+        "gut-mb.qx31-vagina-vs-endometrium",
+        "gut-mb.qx32-or-ci-reading",
+        "gut-mb.qx33-rpl-endometritis",
+        "gut-mb.qx34-report-content",
+        "gut-mb.qx35-who-decides",
         "gut-mb.case1-beatriz-federico"
       ]
     }
@@ -1518,6 +1553,2683 @@
         "status": "ai-audited",
         "reviewedAt": "2026-10-14"
       }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx1-synbiotic-types",
+      "conceptId": "gut-mb.definitions",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un fabricante vende un «simbiótico sinérgico». Según el consenso ISAPP 2020, ¿qué lo distingue de un simbiótico complementario?",
+        "en": "A manufacturer sells a “synergistic synbiotic”. According to the 2020 ISAPP consensus, what distinguishes it from a complementary synbiotic?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que contiene más de una cepa viva, mientras que el complementario contiene una sola cepa acompañada de un sustrato cualquiera",
+            "en": "That it contains more than one live strain, whereas the complementary one contains a single strain accompanied by any substrate"
+          },
+          "correct": false,
+          "why": {
+            "es": "El número de cepas no define el tipo; lo que lo define es la relación entre el sustrato y el microorganismo.",
+            "en": "The number of strains does not define the type; what defines it is the relationship between substrate and microorganism."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no necesita demostrar beneficio en un ensayo, porque la sinergia entre sus componentes se da por supuesta a partir de estudios de laboratorio",
+            "en": "That it does not need to show benefit in a trial, because the synergy between its components is assumed from laboratory studies"
+          },
+          "correct": false,
+          "why": {
+            "es": "En ambos tipos la combinación debe demostrar beneficio en un ensayo adecuadamente diseñado.",
+            "en": "In both types the combination must show a benefit in an appropriately designed trial."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que su sustrato está diseñado para que lo utilice el microorganismo administrado junto con él",
+            "en": "That its substrate is designed to be used by the co-administered microorganism"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: en el complementario, probiótico y prebiótico cumplen cada uno sus propios criterios.",
+            "en": "Correct: in the complementary type, probiotic and prebiotic each meet their own criteria."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que contiene microorganismos inactivados por calor junto con sus metabolitos, lo que lo convierte a la vez en simbiótico y en posbiótico",
+            "en": "That it contains heat-inactivated microorganisms together with their metabolites, which makes it both a synbiotic and a postbiotic"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un simbiótico contiene microorganismos vivos; los inactivados corresponden a la definición de posbiótico.",
+            "en": "A synbiotic contains live microorganisms; inactivated ones fall under the postbiotic definition."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Según la ISAPP 2020, un simbiótico puede ser complementario (probiótico más prebiótico, cada uno con sus criterios) o sinérgico (el sustrato está diseñado para el microorganismo coadministrado); en ambos casos la combinación debe demostrar beneficio en un ensayo adecuadamente diseñado.",
+        "en": "Per ISAPP 2020, a synbiotic can be complementary (probiotic plus prebiotic, each meeting its own criteria) or synergistic (the substrate is designed for the co-administered microorganism); either way the combination must show a benefit in an appropriately designed trial."
+      },
+      "refIds": [
+        "isapp-2020-synbiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx2-wgo-terms",
+      "conceptId": "gut-mb.definitions",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un folleto describe un producto como «paraprobiótico» o «probiótico fantasma». ¿Qué dice la WGO 2023 sobre estos términos?",
+        "en": "A leaflet describes a product as a “paraprobiotic” or “ghost probiotic”. What does WGO 2023 say about these terms?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Los desaconseja porque carecen de una definición clara",
+            "en": "It discourages them because they lack a clear definition"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la WGO desaconseja paraprobiótico, inmunobiótico o «probiótico fantasma».",
+            "en": "Correct: WGO discourages paraprobiotic, immunobiotic or “ghost probiotic”."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Los acepta como sinónimos oficiales de posbiótico, de modo que el producto cumple automáticamente la definición de consenso de la ISAPP",
+            "en": "It accepts them as official synonyms of postbiotic, so the product automatically meets the ISAPP consensus definition"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO no los trata como sinónimos; los desaconseja por falta de definición clara.",
+            "en": "WGO does not treat them as synonyms; it discourages them for lack of a clear definition."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Los reserva para productos con microorganismos vivos que no han demostrado beneficio, como categoría intermedia antes de llamarse probióticos",
+            "en": "It reserves them for products with live microorganisms that have not shown benefit, as an intermediate category before being called probiotics"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no crea esa categoría; sin beneficio demostrado, ninguna de las etiquetas de consenso se aplica.",
+            "en": "The guideline creates no such category; without a demonstrated benefit, none of the consensus labels applies."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los recomienda para los prebióticos, porque su definición de prebiótico se basa en cambios de la microbiota y no en el beneficio para la salud",
+            "en": "It recommends them for prebiotics, because its definition of prebiotic is based on microbiota changes and not on health benefit"
+          },
+          "correct": false,
+          "why": {
+            "es": "Su definición de prebiótico (redacción antigua) también exige beneficio para la salud, y estos términos no se refieren a prebióticos.",
+            "en": "Its prebiotic definition (older wording) also requires a health benefit, and these terms do not refer to prebiotics."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La WGO 2023 usa las mismas definiciones de probiótico, simbiótico y posbiótico que la ISAPP, mantiene una redacción antigua para prebiótico («ingrediente fermentado selectivamente… que confiere beneficio(s) a la salud del huésped») y desaconseja términos como paraprobiótico, inmunobiótico o «probiótico fantasma» por carecer de definición clara.",
+        "en": "WGO 2023 uses the same definitions of probiotic, synbiotic and postbiotic as ISAPP, keeps an older wording for prebiotic (“a selectively fermented ingredient… conferring benefit(s) upon host health”) and discourages terms such as paraprobiotic, immunobiotic or “ghost probiotic” because they lack clear definitions."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx3-prebiotic-definition",
+      "conceptId": "gut-mb.definitions",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Cuál de estos productos encaja en la definición ISAPP de prebiótico?",
+        "en": "Which of these products fits the ISAPP definition of a prebiotic?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Una cápsula de lactobacilos vivos con beneficio demostrado, porque los microorganismos vivos actúan como sustrato para el resto de la microbiota",
+            "en": "A capsule of live lactobacilli with a demonstrated benefit, because live microorganisms act as substrate for the rest of the microbiota"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los microorganismos vivos con beneficio demostrado corresponden a la definición de probiótico.",
+            "en": "Live microorganisms with a demonstrated benefit fall under the probiotic definition."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un sustrato que utilizan selectivamente los microorganismos del huésped y que confiere un beneficio para la salud",
+            "en": "A substrate selectively utilized by host microorganisms that confers a health benefit"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la definición de consenso.",
+            "en": "Correct: this is the consensus definition."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Cualquier fibra alimentaria fermentable, aunque no se haya demostrado ningún beneficio para la salud, porque basta con que la microbiota la utilice",
+            "en": "Any fermentable dietary fibre, even with no demonstrated health benefit, because it is enough for the microbiota to use it"
+          },
+          "correct": false,
+          "why": {
+            "es": "La definición exige utilización selectiva y beneficio para la salud.",
+            "en": "The definition requires selective utilisation and a health benefit."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Una cápsula de ácido láctico purificado, porque es un metabolito microbiano que favorece a los lactobacilos vaginales e intestinales",
+            "en": "A capsule of purified lactic acid, because it is a microbial metabolite that favours vaginal and gut lactobacilli"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un metabolito purificado no es un prebiótico, y la ISAPP 2021 precisa que tampoco es un posbiótico.",
+            "en": "A purified metabolite is not a prebiotic, and ISAPP 2021 specifies that it is not a postbiotic either."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ISAPP define prebiótico como «un sustrato que utilizan selectivamente los microorganismos del huésped y que confiere un beneficio para la salud». Todas las definiciones de consenso exigen un beneficio para la salud demostrado; los metabolitos purificados como el ácido láctico no son posbióticos.",
+        "en": "ISAPP defines a prebiotic as “a substrate that is selectively utilized by host microorganisms conferring a health benefit”. All consensus definitions require a demonstrated health benefit; purified metabolites such as lactic acid are not postbiotics."
+      },
+      "refIds": [
+        "isapp-2020-synbiotics",
+        "isapp-2021-postbiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx4-nomenclature",
+      "conceptId": "gut-mb.strain-specificity",
+      "difficulty": 2,
+      "stem": {
+        "es": "Tras la reestructuración del género Lactobacillus en 2020 que recoge la WGO 2023, ¿qué afirmación es correcta?",
+        "en": "After the 2020 restructuring of the genus Lactobacillus reported by WGO 2023, which statement is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Todas las especies pasaron a nuevos géneros, de modo que el nombre Lactobacillus ya no se usa para ninguna especie de uso vaginal",
+            "en": "All species moved to new genera, so the name Lactobacillus is no longer used for any species of vaginal use"
+          },
+          "correct": false,
+          "why": {
+            "es": "L. crispatus, L. gasseri y L. acidophilus siguen en Lactobacillus.",
+            "en": "L. crispatus, L. gasseri and L. acidophilus remain in Lactobacillus."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "L. crispatus pasó a llamarse Lacticaseibacillus crispatus, mientras que L. rhamnosus permaneció en el género Lactobacillus",
+            "en": "L. crispatus was renamed Lacticaseibacillus crispatus, while L. rhamnosus stayed in the genus Lactobacillus"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los casos: es L. rhamnosus el que pasó a Lacticaseibacillus.",
+            "en": "It reverses the cases: it is L. rhamnosus that moved to Lacticaseibacillus."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El cambio de nombre implica que toda la evidencia clínica previa de cada cepa deja de ser válida y hay que repetir desde cero los ensayos con el nombre nuevo",
+            "en": "The name change means that all of each strain’s previous clinical evidence is no longer valid and the trials must be repeated from scratch under the new name"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía describe un cambio de nomenclatura; no afirma que invalide la evidencia previa.",
+            "en": "The guideline describes a nomenclature change; it does not state that this invalidates prior evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Se definieron 23 géneros nuevos: L. rhamnosus pasó a Lacticaseibacillus rhamnosus, y L. crispatus, L. gasseri y L. acidophilus siguen en Lactobacillus",
+            "en": "23 new genera were defined: L. rhamnosus became Lacticaseibacillus rhamnosus, and L. crispatus, L. gasseri and L. acidophilus remain in Lactobacillus"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que describe la guía.",
+            "en": "Correct: this is what the guideline describes."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En 2020 se reestructuró el género Lactobacillus y se definieron 23 géneros nuevos: L. rhamnosus pasó a Lacticaseibacillus rhamnosus, mientras que L. crispatus, L. gasseri y L. acidophilus siguen en Lactobacillus. La WGO pide que la etiqueta use la nomenclatura actual.",
+        "en": "In 2020 the genus Lactobacillus was restructured and 23 new genera were defined: L. rhamnosus became Lacticaseibacillus rhamnosus, whereas L. crispatus, L. gasseri and L. acidophilus remain in Lactobacillus. WGO asks for labels to use current nomenclature."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx5-no-strain-label",
+      "conceptId": "gut-mb.strain-specificity",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente trae un frasco que dice solo «Lactobacillus rhamnosus, 10 000 millones», sin designación de cepa. Según la WGO 2023, ¿cuál es el problema principal?",
+        "en": "A patient brings a bottle that says only “Lactobacillus rhamnosus, 10 billion”, with no strain designation. According to WGO 2023, what is the main problem?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sin la designación de cepa no puedes vincular el producto a la evidencia, porque los beneficios se atribuyen a cepas concretas a la dosis eficaz",
+            "en": "Without the strain designation you cannot link the product to the evidence, because benefits are attributed to specific strains at the effective dose"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la designación de cepa forma parte de la identidad del producto.",
+            "en": "Correct: the strain designation is part of the product’s identity."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ninguno, porque la WGO considera que todas las cepas de una misma especie comparten los mismos efectos clínicos en cualquier indicación",
+            "en": "None, because WGO considers that all strains of a species share the same clinical effects in any indication"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO pide vincular cada beneficio a cepas concretas; los mecanismos compartidos son un concepto emergente que debe demostrarse.",
+            "en": "WGO asks for each benefit to be tied to specific strains; shared mechanisms are an emerging concept that must be shown."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la dosis es demasiado baja, porque la WGO fija en 100 000 millones de UFC la dosis mínima eficaz de cualquier probiótico",
+            "en": "That the dose is too low, because WGO sets 100 billion CFU as the minimum effective dose of any probiotic"
+          },
+          "correct": false,
+          "why": {
+            "es": "No hay dosis general: hay cepas eficaces con 100 millones de UFC al día.",
+            "en": "There is no general dose: some strains are effective at 100 million CFU per day."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el producto no puede ser un probiótico, porque la WGO exige que los probióticos se fabriquen con estándares farmacéuticos y no como suplementos",
+            "en": "That the product cannot be a probiotic, because WGO requires probiotics to be manufactured to pharmaceutical standards and not sold as food supplements"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO señala que la mayoría no se fabrican con estándares farmacéuticos, pero no lo exige para la definición.",
+            "en": "WGO notes that most are not made to pharmaceutical standards, but does not require it for the definition."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Para la WGO 2023, la forma más sólida de evaluar un probiótico es vincular cada beneficio a cepas concretas, o combinaciones, a la dosis eficaz, a partir de estudios en humanos; por eso la designación de cepa (por ejemplo, Lacticaseibacillus rhamnosus GG ATCC 53103) forma parte de la identidad del producto.",
+        "en": "For WGO 2023, the most robust way to assess a probiotic is to link each benefit to specific strains, or combinations, at the effective dose, based on human studies; that is why the strain designation (for example, Lacticaseibacillus rhamnosus GG ATCC 53103) is part of the product’s identity."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx6-count-shelf-life",
+      "conceptId": "gut-mb.label-dose-safety",
+      "difficulty": 1,
+      "stem": {
+        "es": "Según la WGO 2023, ¿cuándo debe garantizar la etiqueta el recuento de microorganismos viables de cada cepa?",
+        "en": "According to WGO 2023, at what point should the label guarantee the viable count of each strain?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En el momento de la fabricación, porque es cuando el fabricante puede medir con precisión el número de microorganismos que contiene el envase",
+            "en": "At manufacture, because that is when the manufacturer can measure precisely the number of microorganisms in the pack"
+          },
+          "correct": false,
+          "why": {
+            "es": "El recuento que cuenta es el del final de la vida útil.",
+            "en": "The count that matters is the one at the end of shelf-life."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Tras la primera apertura del envase, porque desde ese momento la exposición al aire y a la humedad reduce el número de bacterias viables",
+            "en": "After the pack is first opened, because from then on exposure to air and moisture reduces the number of viable bacteria"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide el recuento al final de la vida útil, junto con las condiciones de conservación.",
+            "en": "The guideline asks for the count at the end of shelf-life, together with storage conditions."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Al final de la vida útil del producto",
+            "en": "At the end of the product’s shelf-life"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la WGO pide el recuento viable de cada cepa al final de la vida útil, y que los fabricantes responsables declaren la dosis esperada en la fecha de caducidad, no en la fabricación.",
+            "en": "Correct: WGO asks for the viable count of each strain at the end of shelf-life, and for responsible manufacturers to state the dose expected at the use-by date, not at manufacture."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No hace falta declararlo, porque basta con indicar el género y la especie para que el producto cumpla la definición de probiótico",
+            "en": "It need not be stated, because giving the genus and species is enough for the product to meet the probiotic definition"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO pide declarar el recuento viable de cada cepa, además de la designación de cepa y otros datos.",
+            "en": "WGO asks for the viable count of each strain to be stated, besides the strain designation and other items."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La WGO 2023 pide que la etiqueta indique género y especie (y subespecie) con la nomenclatura actual, la designación de cepa, el recuento viable de cada cepa al final de la vida útil, las condiciones de conservación, una dosis recomendada basada en el efecto, la descripción del efecto y un contacto para farmacovigilancia; aconseja fabricantes fiables que declaren la dosis a la fecha de caducidad.",
+        "en": "WGO 2023 asks for the label to state genus and species (and subspecies) in current nomenclature, the strain designation, the viable count of each strain at the end of shelf-life, storage conditions, a recommended dose based on the effect, a description of the effect and a post-market surveillance contact; it advises reliable manufacturers that state the dose at the use-by date."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx7-no-general-dose",
+      "conceptId": "gut-mb.label-dose-safety",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente pregunta si «cuantas más UFC, mejor». ¿Qué dice la WGO 2023 sobre la dosis de los probióticos?",
+        "en": "A patient asks whether “the more CFU, the better”. What does WGO 2023 say about probiotic doses?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la dosis eficaz es siempre de 1000 a 10 000 millones de UFC, y que por encima de ese rango no se ha demostrado ningún beneficio adicional",
+            "en": "That the effective dose is always 1 to 10 billion CFU, and that no additional benefit has been shown above that range"
+          },
+          "correct": false,
+          "why": {
+            "es": "Muchos productos aportan esa cantidad, pero la guía cita otros que necesitan 300 000–450 000 millones tres veces al día.",
+            "en": "Many products deliver that amount, but the guideline cites others that need 300–450 billion three times daily."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no hay una dosis general: Bifidobacterium longum 35624 fue eficaz en el colon irritable con 100 millones de UFC/día y otros productos necesitan 300 000–450 000 millones tres veces al día",
+            "en": "That there is no general dose: Bifidobacterium longum 35624 was effective in IBS at 100 million CFU/day and other products need 300–450 billion CFU three times daily"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la dosis depende de la cepa y del efecto estudiado.",
+            "en": "Correct: the dose depends on the strain and on the effect studied."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la dosis mínima para cualquier indicación ginecológica es de 50 000 millones de UFC al día durante al menos tres meses",
+            "en": "That the minimum dose for any gynaecological indication is 50 billion CFU per day for at least three months"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no da pautas para indicaciones ginecológicas; sus dosis son ejemplos de otras indicaciones.",
+            "en": "The guideline gives no regimens for gynaecological indications; its doses are examples from other indications."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que la dosis carece de importancia, porque cualquier número de bacterias vivas coloniza el intestino y produce el mismo efecto",
+            "en": "That the dose does not matter, because any number of live bacteria colonises the gut and produces the same effect"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO pide una dosis recomendada basada en el efecto, de modo que la dosis sí importa.",
+            "en": "WGO asks for a recommended dose based on the effect, so the dose does matter."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La WGO 2023 explica que no hay una dosis general: muchos productos aportan 1000–10 000 millones de UFC por dosis, pero Bifidobacterium longum 35624 fue eficaz en el colon irritable con 100 millones de UFC/día y otros productos necesitan 300 000–450 000 millones tres veces al día. Son ejemplos de la guía, no pautas para indicaciones ginecológicas.",
+        "en": "WGO 2023 explains that there is no general dose: many products deliver 1–10 billion CFU per dose, but Bifidobacterium longum 35624 was effective in IBS at 100 million CFU/day and other products need 300–450 billion CFU three times daily. These are the guideline’s examples, not regimens for gynaecological indications."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx8-immunocompromised",
+      "conceptId": "gut-mb.label-dose-safety",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer en tratamiento inmunosupresor tras un trasplante (caso ficticio) quiere tomar un probiótico. ¿Qué dice la WGO 2023 sobre la seguridad?",
+        "en": "A woman on immunosuppressive treatment after a transplant (fictional case) wants to take a probiotic. What does WGO 2023 say about safety?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que los probióticos están contraindicados en cualquier persona inmunodeprimida, porque los lactobacilos tienen un potencial patógeno elevado",
+            "en": "That probiotics are contraindicated in anyone who is immunocompromised, because lactobacilli have high pathogenic potential"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía considera bastante bajo el potencial patógeno de los lactobacilos y no establece una contraindicación absoluta.",
+            "en": "The guideline considers the pathogenic potential of lactobacilli quite low and sets no absolute contraindication."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no hay ninguna precaución especial, porque el perfil de seguridad de lactobacilos y bifidobacterias es el mismo en cualquier población",
+            "en": "That no special precaution applies, because the safety record of lactobacilli and bifidobacteria is the same in any population"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía pide restringir el uso en personas inmunodeprimidas o con enfermedad grave.",
+            "en": "The guideline asks for restricted use in people who are immunocompromised or seriously ill."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que debe elegir el producto con más UFC disponible, porque una dosis alta compensa la menor respuesta inmunitaria de estas pacientes",
+            "en": "That she should choose the product with the most CFU available, because a high dose offsets these patients’ weaker immune response"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no lo propone; pide limitarse a cepas e indicaciones con seguridad y eficacia probadas en esa población.",
+            "en": "The guideline does not propose this; it asks for use to be limited to strains and indications with proven safety and efficacy in that population."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que, con inmunidad comprometida o enfermedad grave, el uso debe restringirse a cepas e indicaciones con seguridad y eficacia probadas en esa población",
+            "en": "That, with compromised immunity or serious underlying disease, use should be restricted to strains and indications with proven safety and efficacy in that population"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la precaución que establece la guía.",
+            "en": "Correct: this is the precaution the guideline sets."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Según la WGO 2023, el potencial patógeno de los lactobacilos se considera bastante bajo y las bifidobacterias tienen un historial similar, pero en personas con inmunidad comprometida o enfermedad grave el uso debe restringirse a cepas e indicaciones con seguridad y eficacia probadas en esa población.",
+        "en": "According to WGO 2023, the pathogenic potential of lactobacilli is considered quite low and bifidobacteria have a similar record, but in people with compromised immunity or serious underlying disease use should be restricted to strains and indications with proven safety and efficacy in that population."
+      },
+      "refIds": [
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx9-bv-risk-factors",
+      "conceptId": "gut-mb.bv-definition",
+      "difficulty": 2,
+      "stem": {
+        "es": "Según los CDC 2021, ¿cuál de estos factores se asocia a la vaginosis bacteriana?",
+        "en": "According to CDC 2021, which of these factors is associated with bacterial vaginosis?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La anticoncepción hormonal combinada, que según los CDC aumenta el riesgo al modificar el pH vaginal y reducir los lactobacilos",
+            "en": "Combined hormonal contraception, which according to CDC increases the risk by changing vaginal pH and reducing lactobacilli"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC dicen lo contrario: la anticoncepción hormonal no aumenta el riesgo y podría proteger.",
+            "en": "CDC says the opposite: hormonal contraception does not increase the risk and might protect."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Las duchas vaginales y el DIU de cobre",
+            "en": "Douching and copper IUDs"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambos figuran entre los factores asociados, junto con parejas nuevas o múltiples, parejas femeninas y no usar preservativo.",
+            "en": "Correct: both are among the associated factors, along with new or multiple partners, female partners and lack of condom use."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El déficit de vitamina D, que los CDC citan como factor de riesgo y motivo para suplementar a dosis altas a las mujeres con recurrencias",
+            "en": "Vitamin D deficiency, which CDC cites as a risk factor and reason to give high-dose supplements to women with recurrences"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC señalan que no se ha descrito como factor de riesgo y no recomiendan vitamina D a dosis altas para prevenir recurrencias.",
+            "en": "CDC notes it has not been reported as a risk factor and does not recommend high-dose vitamin D to prevent recurrence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ausencia de relaciones sexuales, porque sin actividad sexual los lactobacilos no reciben el estímulo necesario para mantenerse dominantes",
+            "en": "Sexual abstinence, because without sexual activity lactobacilli do not receive the stimulus needed to remain dominant"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los factores que citan los CDC se asocian a la actividad sexual, no a su ausencia.",
+            "en": "The factors CDC cites are associated with sexual activity, not its absence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 asocian la vaginosis a parejas nuevas o múltiples, parejas femeninas, no usar preservativo, duchas vaginales y DIU de cobre; la anticoncepción hormonal no aumenta el riesgo y podría proteger, y el déficit de vitamina D no se ha descrito como factor de riesgo.",
+        "en": "CDC 2021 links BV to new or multiple partners, female partners, lack of condom use, douching and copper IUDs; hormonal contraception does not increase the risk and might protect, and vitamin D deficiency has not been reported as a risk factor."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx10-sti-testing",
+      "conceptId": "gut-mb.bv-definition",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer de 27 años (caso ficticio) es diagnosticada de vaginosis bacteriana sintomática. Además de tratarla, ¿qué indican los CDC 2021?",
+        "en": "A 27-year-old woman (fictional case) is diagnosed with symptomatic bacterial vaginosis. Besides treating her, what does CDC 2021 indicate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Hacerle la prueba de VIH y de otras ITS, porque la vaginosis se asocia a mayor riesgo de adquirirlas",
+            "en": "Test her for HIV and other STIs, because BV is associated with a higher risk of acquiring them"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los CDC indican que toda mujer con vaginosis debe hacerse la prueba de VIH y otras ITS.",
+            "en": "Correct: CDC states that all women with BV should be tested for HIV and other STIs."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ninguna prueba adicional, porque la IUSTI considera que la vaginosis no es una infección de transmisión sexual y por tanto no se asocia a otras ITS",
+            "en": "No further tests, because IUSTI considers that BV is not a sexually transmitted infection and therefore is not associated with other STIs"
+          },
+          "correct": false,
+          "why": {
+            "es": "Que no sea estrictamente una ITS no impide su asociación con mayor riesgo de adquirir ITS, y los CDC piden las pruebas.",
+            "en": "Not being strictly an STI does not prevent its association with a higher risk of acquiring STIs, and CDC asks for testing."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un cultivo de Gardnerella vaginalis para confirmar el diagnóstico y una citología cervical para valorar la extensión de la disbiosis",
+            "en": "A Gardnerella vaginalis culture to confirm the diagnosis and cervical cytology to assess the extent of the dysbiosis"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no recomiendan el cultivo de G. vaginalis y consideran que la citología no sirve para diagnosticar la vaginosis.",
+            "en": "CDC does not recommend G. vaginalis culture and considers cytology of no use for diagnosing BV."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Tratar de rutina a su pareja masculina con metronidazol oral 7 días para evitar la recurrencia y las ITS asociadas",
+            "en": "Routinely treat her male partner with 7 days of oral metronidazole to prevent recurrence and associated STIs"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no recomiendan tratar de rutina a la pareja: no cambia la respuesta ni la recurrencia.",
+            "en": "CDC does not recommend routine partner treatment: it does not change response or recurrence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La vaginosis se asocia a mayor riesgo de adquirir ITS (VIH, gonorrea, clamidia, tricomonas, M. genitalium, VPH y VHS-2), complicaciones tras cirugía ginecológica y del embarazo; los CDC indican que toda mujer con vaginosis debe hacerse la prueba de VIH y otras ITS (indicación de manejo sin grado). La IUSTI añade que no se considera estrictamente una ITS, aunque se asocia a la actividad sexual.",
+        "en": "BV is associated with a higher risk of acquiring STIs (HIV, gonorrhoea, chlamydia, trichomonas, M. genitalium, HPV and HSV-2), complications after gynaecological surgery and complications of pregnancy; CDC states that all women with BV should be tested for HIV and other STIs (ungraded management instruction). IUSTI adds that it is not strictly considered an STI, although it is associated with sexual activity."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx11-asymptomatic-common",
+      "conceptId": "gut-mb.bv-definition",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Qué afirmación sobre la vaginosis bacteriana es correcta según los CDC 2021 y la IUSTI 2018?",
+        "en": "Which statement about bacterial vaginosis is correct according to CDC 2021 and IUSTI 2018?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Siempre produce flujo y olor, de modo que una mujer sin síntomas no puede tenerla y no hace falta considerarla en la exploración",
+            "en": "It always causes discharge and odour, so a woman without symptoms cannot have it and it need not be considered on examination"
+          },
+          "correct": false,
+          "why": {
+            "es": "En una encuesta representativa citada por los CDC, la mayoría de las mujeres con vaginosis eran asintomáticas.",
+            "en": "In a representative survey cited by CDC, most women with BV were asymptomatic."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Es una infección por un único patógeno, Gardnerella vaginalis, que se transmite sexualmente y nunca remite sin un tratamiento antibiótico completo",
+            "en": "It is an infection by a single pathogen, Gardnerella vaginalis, that is sexually transmitted and never remits without a full course of antibiotics"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una disbiosis polimicrobiana que puede aparecer y remitir espontáneamente, y no se considera estrictamente una ITS.",
+            "en": "It is a polymicrobial dysbiosis that can arise and remit spontaneously, and is not strictly considered an STI."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es una infección fúngica que se diagnostica por un pH vaginal bajo y se trata igual que la candidiasis vulvovaginal",
+            "en": "It is a fungal infection diagnosed by low vaginal pH and treated in the same way as vulvovaginal candidiasis"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es una disbiosis bacteriana con pH > 4,5; la candidiasis cursa casi siempre con pH normal.",
+            "en": "It is a bacterial dysbiosis with pH > 4.5; candidiasis almost always has a normal pH."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Es una disbiosis en la que los lactobacilos se sustituyen por anaerobios, la causa más frecuente de flujo en el mundo, y a menudo sin síntomas",
+            "en": "It is a dysbiosis in which lactobacilli are replaced by anaerobes, the commonest cause of vaginal discharge worldwide, and often without symptoms"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: resume la definición de los CDC.",
+            "en": "Correct: it summarises the CDC definition."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 definen la vaginosis como una disbiosis en la que los lactobacilos productores de peróxido y ácido láctico se sustituyen por altas concentraciones de anaerobios, con un biofilm polimicrobiano; es la causa más frecuente de flujo en el mundo, pero la mayoría de las mujeres con vaginosis de una encuesta representativa eran asintomáticas. La IUSTI añade que puede aparecer y remitir espontáneamente.",
+        "en": "CDC 2021 defines BV as a dysbiosis in which hydrogen peroxide- and lactic acid-producing lactobacilli are replaced by high concentrations of anaerobes, with a polymicrobial biofilm; it is the commonest cause of discharge worldwide, but most women with BV in a representative survey were asymptomatic. IUSTI adds that it can arise and remit spontaneously."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx12-nugent-5",
+      "conceptId": "gut-mb.bv-diagnosis",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una tinción de Gram vaginal da una puntuación de Nugent de 5. ¿Cómo se interpreta?",
+        "en": "A vaginal Gram stain gives a Nugent score of 5. How is it interpreted?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Vaginosis bacteriana confirmada, porque cualquier puntuación por encima de 3 indica que los anaerobios han sustituido a los lactobacilos",
+            "en": "Confirmed bacterial vaginosis, because any score above 3 indicates that anaerobes have already replaced the normal vaginal lactobacilli"
+          },
+          "correct": false,
+          "why": {
+            "es": "La vaginosis corresponde a 7–10; 4–6 es microbiota intermedia.",
+            "en": "BV corresponds to 7–10; 4–6 is intermediate microbiota."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Microbiota normal con predominio de lactobacilos, ya que la vaginosis solo se diagnostica con una puntuación de 9 o 10",
+            "en": "Normal Lactobacillus-predominant microbiota, since BV is diagnosed only with a score of 9 or 10"
+          },
+          "correct": false,
+          "why": {
+            "es": "Lo compatible con predominio de lactobacilos es 0–3, y la vaginosis empieza en 7.",
+            "en": "Lactobacillus predominance corresponds to 0–3, and BV starts at 7."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Microbiota intermedia (4–6), de implicaciones clínicas poco claras según la IUSTI, aunque se asocia a complicaciones",
+            "en": "Intermediate microbiota (4–6), with unclear clinical implications according to IUSTI, although it is associated with complications"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 5 está dentro del rango intermedio.",
+            "en": "Correct: 5 falls within the intermediate range."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Flora de vaginitis aerobia, que según la IUSTI no se relaciona con la vaginosis y corresponde a la puntuación central de la escala",
+            "en": "Aerobic vaginitis flora, which according to IUSTI is unrelated to BV and corresponds to the middle score of the scale"
+          },
+          "correct": false,
+          "why": {
+            "es": "La flora de vaginitis aerobia corresponde al grado 4 de Hay–Ison, no a una puntuación de Nugent.",
+            "en": "Aerobic vaginitis flora corresponds to Hay–Ison grade 4, not to a Nugent score."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la escala de Nugent, 0–3 es compatible con predominio de lactobacilos, 4–6 con microbiota intermedia y 7–10 con vaginosis. La IUSTI señala que la «flora intermedia» tiene implicaciones clínicas poco claras, aunque se asocia a complicaciones.",
+        "en": "On the Nugent scale, 0–3 is consistent with Lactobacillus-predominant microbiota, 4–6 with intermediate microbiota and 7–10 with BV. IUSTI notes that “intermediate flora” has unclear clinical implications, although it is associated with complications."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx13-hay-ison",
+      "conceptId": "gut-mb.bv-diagnosis",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la microscopía con criterios de Hay–Ison, ¿qué significan los grados 0 y 4 según la IUSTI 2018?",
+        "en": "On microscopy with the Hay–Ison criteria, what do grades 0 and 4 mean according to IUSTI 2018?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El grado 0 sugiere antibióticos recientes y el 4 flora de vaginitis aerobia; ninguno se relaciona con la vaginosis",
+            "en": "Grade 0 suggests recent antibiotics and grade 4 aerobic vaginitis flora; neither is related to BV"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la IUSTI los describe así.",
+            "en": "Correct: IUSTI describes them this way."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El grado 0 indica una microbiota normal óptima y el 4 una vaginosis grave, de modo que la escala refleja la intensidad de la disbiosis",
+            "en": "Grade 0 indicates optimal normal microbiota and grade 4 severe BV, so the scale reflects the intensity of the dysbiosis"
+          },
+          "correct": false,
+          "why": {
+            "es": "El grado 1 es el normal y el 3 la vaginosis; 0 y 4 no se relacionan con la vaginosis.",
+            "en": "Grade 1 is normal and grade 3 is BV; 0 and 4 are unrelated to BV."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El grado 0 indica candidiasis y el 4 tricomoniasis, por lo que ambos obligan a hacer un cultivo antes de decidir el tratamiento",
+            "en": "Grade 0 indicates candidiasis and grade 4 trichomoniasis, so both require culture before deciding treatment"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI asocia el grado 0 a antibióticos recientes y el 4 a flora de vaginitis aerobia.",
+            "en": "IUSTI links grade 0 to recent antibiotics and grade 4 to aerobic vaginitis flora."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambos equivalen a microbiota intermedia, igual que una puntuación de Nugent de 4–6, y se tratan como una vaginosis leve",
+            "en": "Both are equivalent to intermediate microbiota, like a Nugent score of 4–6, and are treated as mild BV"
+          },
+          "correct": false,
+          "why": {
+            "es": "El grado intermedio es el 2; los grados 0 y 4 no se relacionan con la vaginosis.",
+            "en": "The intermediate grade is 2; grades 0 and 4 are unrelated to BV."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La IUSTI 2018 recomienda la microscopía con criterios de Hay–Ison como mejor prueba actual (fuerza 1, calidad A): grado 1 normal (predominan los lactobacilos), 2 intermedio y 3 vaginosis; los grados 0 (sugiere antibióticos recientes) y 4 (flora de vaginitis aerobia) no se relacionan con la vaginosis.",
+        "en": "IUSTI 2018 recommends microscopy with the Hay–Ison criteria as the current best test (strength 1, quality A): grade 1 normal (lactobacilli predominate), 2 intermediate and 3 BV; grades 0 (suggests recent antibiotics) and 4 (aerobic vaginitis flora) are unrelated to BV."
+      },
+      "refIds": [
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx14-amsel-accuracy",
+      "conceptId": "gut-mb.bv-diagnosis",
+      "difficulty": 3,
+      "stem": {
+        "es": "Frente a la tinción de Gram (Nugent), ¿qué sensibilidad y especificidad dan los CDC 2021 a los criterios de Amsel, y qué implica para una Amsel negativa?",
+        "en": "Against Gram stain (Nugent), what sensitivity and specificity does CDC 2021 give for the Amsel criteria, and what does this imply for a negative Amsel?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sensibilidad del 94–99% y especificidad del 37–70%: una Amsel negativa descarta casi con seguridad la vaginosis, pero una positiva no la confirma",
+            "en": "Sensitivity 94–99% and specificity 37–70%: a negative Amsel almost certainly rules out BV, but a positive one does not confirm it"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los valores: la sensibilidad es del 37–70% y la especificidad del 94–99%.",
+            "en": "It reverses the values: sensitivity is 37–70% and specificity 94–99%."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sensibilidad del 37-70% y especificidad del 94-99%: una Amsel negativa no descarta la vaginosis, mientras que una positiva la apoya con fuerza (alta especificidad)",
+            "en": "Sensitivity 37-70% and specificity 94-99%: a negative Amsel does not rule out BV, whereas a positive one strongly supports it (high specificity)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: con sensibilidad moderada, los falsos negativos son frecuentes.",
+            "en": "Correct: with moderate sensitivity, false negatives are common."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sensibilidad y especificidad del 100%, porque Amsel es el método de referencia con el que se validan los demás, incluida la tinción de Gram",
+            "en": "Sensitivity and specificity of 100%, because Amsel is the reference method against which the others, including Gram stain, are validated"
+          },
+          "correct": false,
+          "why": {
+            "es": "El método de referencia es la tinción de Gram, no Amsel.",
+            "en": "The reference method is Gram stain, not Amsel."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sensibilidad del 60–72% y especificidad del 10–20%, cifras de la IUSTI que muestran que Amsel no sirve para el diagnóstico clínico",
+            "en": "Sensitivity 60–72% and specificity 10–20%, IUSTI figures showing that Amsel is useless for clinical diagnosis"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI cita una sensibilidad del 60–72%, pero la especificidad del 10–20% es errónea; los CDC dan 94–99%.",
+            "en": "IUSTI quotes a sensitivity of 60–72%, but the 10–20% specificity is wrong; CDC gives 94–99%."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Frente a Nugent, los CDC dan a Amsel una sensibilidad del 37–70% y una especificidad del 94–99%; la IUSTI cita una sensibilidad del 60–72% frente a la tinción de Gram. Con esa sensibilidad, una Amsel negativa no excluye la vaginosis; con esa especificidad, una positiva apoya con fuerza el diagnóstico (el valor predictivo depende además de la prevalencia).",
+        "en": "Against Nugent, CDC gives Amsel a sensitivity of 37–70% and a specificity of 94–99%; IUSTI quotes a sensitivity of 60–72% against Gram stain. With that sensitivity, a negative Amsel does not exclude BV; with that specificity, a positive one strongly supports the diagnosis (the predictive value also depends on prevalence)."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx15-culture-cytology",
+      "conceptId": "gut-mb.bv-molecular-tests",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una citología cervical informa «flora sugestiva de vaginosis» y se ha pedido además un cultivo de G. vaginalis. ¿Qué dicen los CDC 2021 sobre estas pruebas?",
+        "en": "A cervical cytology reports “flora suggestive of BV”, and a G. vaginalis culture was also requested. What does CDC 2021 say about these tests?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el cultivo de G. vaginalis es la prueba de confirmación de elección y que la citología es útil para el cribado en mujeres asintomáticas",
+            "en": "That G. vaginalis culture is the confirmatory test of choice and that cervical cytology is useful for screening asymptomatic women in routine practice"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no recomiendan el cultivo y consideran que la citología no sirve para diagnosticar la vaginosis.",
+            "en": "CDC does not recommend culture and considers cytology of no use for diagnosing BV."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que ambas pruebas sustituyen a Amsel y Nugent, porque son más baratas y más rápidas que los métodos tradicionales",
+            "en": "That both tests replace Amsel and Nugent, because they are cheaper and faster than the traditional methods"
+          },
+          "correct": false,
+          "why": {
+            "es": "Son Amsel y Nugent los que los CDC consideran útiles por su menor coste y rapidez.",
+            "en": "It is Amsel and Nugent that CDC considers useful because of lower cost and rapid results."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el cultivo de G. vaginalis es diagnóstico si el recuento supera 10⁵ UFC/ml, mientras que la citología necesita confirmación con NAAT",
+            "en": "That G. vaginalis culture is diagnostic if the count exceeds 10⁵ CFU/ml, whereas cytology needs NAAT confirmation"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no dan ese umbral y no recomiendan el cultivo por falta de especificidad.",
+            "en": "CDC gives no such threshold and does not recommend culture because it is not specific."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el cultivo de G. vaginalis no se recomienda por no ser específico y que la citología cervical no sirve para diagnosticar la vaginosis",
+            "en": "That G. vaginalis culture is not recommended because it is not specific, and that cervical cytology has no utility for diagnosing BV"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que indican los CDC.",
+            "en": "Correct: this is what CDC states."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 no recomiendan el cultivo de G. vaginalis porque no es específico, y consideran que la citología cervical no sirve para diagnosticar la vaginosis. Los métodos tradicionales (Amsel, Nugent) siguen siendo útiles por su menor coste y rapidez.",
+        "en": "CDC 2021 does not recommend G. vaginalis culture because it is not specific, and considers cervical cytology of no use for diagnosing BV. Traditional methods (Amsel, Nugent) remain useful because of lower cost and rapid results."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx16-pcr-not-microbiome",
+      "conceptId": "gut-mb.bv-molecular-tests",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un laboratorio ofrece una «PCR multiplex vaginal» presentada como «estudio completo del microbioma». ¿Qué dice el consenso internacional de 2025 sobre pruebas de microbioma?",
+        "en": "A laboratory offers a “vaginal multiplex PCR” marketed as a “complete microbiome study”. What does the 2025 international consensus on microbiome testing say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la PCR multiplex es el método de referencia para el perfil del microbioma, y que los cultivos han quedado obsoletos en cualquier muestra",
+            "en": "That multiplex PCR is the reference method for microbiome profiling, and that cultures are obsolete for any sample"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso afirma que la PCR multiplex y los cultivos no son pruebas de microbioma.",
+            "en": "The consensus states that multiplex PCR and cultures are not microbiome testing."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la PCR multiplex y los cultivos, aunque puedan ser útiles, no son pruebas de microbioma ni sirven como sustituto del perfil del microbioma (90% de acuerdo)",
+            "en": "That multiplex PCR and cultures, although potentially useful, are not microbiome testing and cannot be used as a proxy for microbiome profiling (90% agreement)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: declaración 13 del consenso.",
+            "en": "Correct: statement 13 of the consensus."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que las muestras vaginales no deben analizarse nunca, porque el consenso solo admite pruebas de microbioma en heces",
+            "en": "That vaginal samples should never be analysed, because the consensus accepts microbiome testing only on faeces"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso pide procesar las muestras distintas de las heces según la evidencia y las indicaciones clínicas (97,5%), no prohibirlas.",
+            "en": "The consensus asks for non-faecal samples to be processed according to the evidence and clinical indications (97.5%), not banned."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que estas pruebas tienen recomendación GRADE fuerte en el cribado de mujeres asintomáticas en estudio de fertilidad",
+            "en": "That these tests carry a strong GRADE recommendation for screening asymptomatic women undergoing fertility work-up"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso es un Delphi de expertos, no emite recomendaciones GRADE, y los CDC reservan las NAAT de vaginosis para mujeres sintomáticas.",
+            "en": "The consensus is an expert Delphi, issues no GRADE recommendations, and CDC reserves BV NAATs for symptomatic women."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso de 2025 afirma que la PCR multiplex y los cultivos, aunque puedan ser útiles, no son pruebas de microbioma ni sustituyen al perfil del microbioma (90%), y que las muestras distintas de las heces, incluidos los exudados vaginales, deben procesarse según la evidencia y las indicaciones clínicas (97,5%). Son declaraciones Delphi (umbral ≥ 80%), no recomendaciones GRADE. Es un consenso centrado en el microbioma intestinal; su declaración 11 remite las muestras no fecales a la evidencia disponible y a las indicaciones clínicas.",
+        "en": "The 2025 consensus states that multiplex PCR and cultures, although potentially useful, are not microbiome testing and cannot be used as a proxy for microbiome profiling (90%), and that samples other than faeces, including vaginal swabs, should be processed according to the evidence and clinical indications (97.5%). These are Delphi statements (threshold ≥ 80%), not GRADE recommendations. This is a consensus centred on the gut microbiome; its statement 11 refers non-faecal samples to the available evidence and clinical indications."
+      },
+      "refIds": [
+        "porcari-2025-microbiome-testing",
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx17-cdc-regimens",
+      "conceptId": "gut-mb.bv-treatment",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Cuál de estas es una de las tres pautas recomendadas por los CDC 2021 para la vaginosis sintomática?",
+        "en": "Which of these is one of the three CDC 2021 recommended regimens for symptomatic BV?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Metronidazol 2 g oral en dosis única, que los CDC prefieren por su mejor cumplimiento y su eficacia equivalente a la pauta de 7 días",
+            "en": "Metronidazole 2 g orally as a single dose, which CDC prefers for better adherence and efficacy equivalent to the 7-day regimen"
+          },
+          "correct": false,
+          "why": {
+            "es": "La dosis única de 2 g figura entre las alternativas de la IUSTI, y la IUSTI señala que las pautas de dosis única curan menos.",
+            "en": "The 2 g single dose is among IUSTI’s alternatives, and IUSTI notes that single-dose regimens cure less often."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Clindamicina crema 2% intravaginal una vez al día durante 3 días, seguida de un probiótico vaginal durante un mes para evitar recurrencias",
+            "en": "Clindamycin cream 2% intravaginally once daily for 3 days, followed by a vaginal probiotic for a month to prevent recurrence"
+          },
+          "correct": false,
+          "why": {
+            "es": "La pauta de los CDC es de 7 días al acostarse, y los CDC concluyen que ningún estudio apoya los probióticos como adyuvantes.",
+            "en": "The CDC regimen is 7 days at bedtime, and CDC concludes that no studies support probiotics as adjuncts."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Metronidazol 500 mg oral dos veces al día durante 7 días",
+            "en": "Metronidazole 500 mg orally twice daily for 7 days"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: junto con el gel de metronidazol 0,75% 5 días y la clindamicina crema 2% 7 días.",
+            "en": "Correct: along with metronidazole gel 0.75% for 5 days and clindamycin cream 2% for 7 days."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Fluconazol 150 mg oral en dosis única, porque la vaginosis comparte tratamiento con la candidiasis en las guías de los CDC",
+            "en": "Fluconazole 150 mg orally as a single dose, because BV shares treatment with candidiasis in the CDC guidelines"
+          },
+          "correct": false,
+          "why": {
+            "es": "El fluconazol solo aparece combinado con metronidazol mensual en una opción de supresión con datos limitados.",
+            "en": "Fluconazole appears only combined with monthly metronidazole in a suppressive option with limited data."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 recomiendan metronidazol 500 mg oral dos veces al día 7 días, metronidazol gel 0,75% (5 g) intravaginal una vez al día 5 días o clindamicina crema 2% (5 g) intravaginal al acostarse 7 días. La IUSTI incluye el metronidazol 2 g en dosis única entre sus alternativas y señala que las pautas de dosis única curan menos.",
+        "en": "CDC 2021 recommends metronidazole 500 mg orally twice daily for 7 days, metronidazole gel 0.75% (5 g) intravaginally once daily for 5 days or clindamycin cream 2% (5 g) intravaginally at bedtime for 7 days. IUSTI includes metronidazole 2 g single dose among its alternatives and notes that single-dose regimens cure less often."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx18-iusti-asymptomatic",
+      "conceptId": "gut-mb.bv-treatment",
+      "difficulty": 3,
+      "stem": {
+        "es": "Una mujer asintomática (caso ficticio) con microscopía positiva para vaginosis va a someterse a una histeroscopia diagnóstica. ¿Qué diferencia hay entre la IUSTI 2018 y los CDC 2021?",
+        "en": "An asymptomatic woman (fictional case) with BV-positive microscopy is about to undergo diagnostic hysteroscopy. How do IUSTI 2018 and CDC 2021 differ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La IUSTI incluye entre sus indicaciones a las mujeres que se someten a cirugía ginecológica o procedimientos diagnósticos invasivos; los CDC tratan a las sintomáticas",
+            "en": "IUSTI includes women undergoing gynaecological surgery or invasive diagnostic procedures among its indications; CDC treats symptomatic women"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es una de las diferencias de indicación entre ambas guías.",
+            "en": "Correct: it is one of the differences in indication between the two guidelines."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas guías obligan a tratar a cualquier mujer asintomática con microscopía positiva, sin excepciones, antes de cualquier procedimiento",
+            "en": "Both guidelines require treatment of any asymptomatic woman with positive microscopy, without exception, before any procedure"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI deja como opcional tratar a las asintomáticas con microscopía positiva fuera de sus indicaciones concretas, y los CDC tratan a las sintomáticas.",
+            "en": "IUSTI leaves treating asymptomatic women with positive microscopy optional outside its specific indications, and CDC treats symptomatic women."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Los CDC recomiendan tratar a todas las asintomáticas antes de cualquier procedimiento ginecológico, mientras que la IUSTI desaconseja tratar a cualquier mujer sin síntomas",
+            "en": "CDC recommends treating all asymptomatic women before any gynaecological procedure, whereas IUSTI advises against treating any woman without symptoms"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte las posturas: es la IUSTI la que añade indicaciones en asintomáticas.",
+            "en": "It reverses the positions: it is IUSTI that adds indications in asymptomatic women."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ninguna de las dos menciona situaciones sin síntomas, y ambas limitan el tratamiento a las embarazadas con antecedente de parto prematuro idiopático",
+            "en": "Neither mentions asymptomatic situations, and both limit treatment to pregnant women with a history of idiopathic preterm birth or late loss"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI sí menciona cirugía ginecológica y procedimientos invasivos, además de algunas embarazadas.",
+            "en": "IUSTI does mention gynaecological surgery and invasive procedures, as well as some pregnant women."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC tratan a las mujeres sintomáticas. La IUSTI añade algunas embarazadas con microscopía positiva y antecedente de parto prematuro idiopático o pérdida en el segundo trimestre, y las mujeres que se someten a cirugía ginecológica o procedimientos diagnósticos invasivos, y deja como opcional tratar a las asintomáticas con microscopía positiva.",
+        "en": "CDC treats symptomatic women. IUSTI adds some pregnant women with positive microscopy and a history of idiopathic preterm birth or second-trimester loss, and women undergoing gynaecological surgery or invasive diagnostic procedures, and leaves treating asymptomatic women with positive microscopy as optional."
+      },
+      "refIds": [
+        "iusti-2018-vaginal-discharge",
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx19-alcohol-condoms",
+      "conceptId": "gut-mb.bv-treatment",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente que va a usar clindamicina crema vaginal y otra que toma metronidazol oral preguntan por las precauciones. ¿Qué dicen los CDC 2021?",
+        "en": "One patient about to use vaginal clindamycin cream and another taking oral metronidazole ask about precautions. What does CDC 2021 say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el metronidazol obliga a evitar el alcohol durante el tratamiento y 72 horas después, y que la clindamicina crema no interfiere con los métodos de barrera",
+            "en": "That metronidazole requires avoiding alcohol during treatment and for 72 hours afterwards, and that clindamycin cream does not interfere with barrier methods"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC consideran innecesario evitar el alcohol con metronidazol y advierten de que la crema puede debilitar el látex; las 72 horas son la restricción de uso de látex tras los óvulos de clindamicina, no una pauta de alcohol.",
+            "en": "CDC considers avoiding alcohol with metronidazole unnecessary and warns that the cream may weaken latex; 72 hours is the latex restriction after clindamycin ovules, not an alcohol rule."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que ambas pacientes deben abstenerse de relaciones sexuales durante un mes, porque los dos fármacos dañan cualquier preservativo",
+            "en": "That both patients must abstain from sex for a month, because both drugs damage any condom"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no indican eso; la advertencia se refiere a la clindamicina crema y al látex durante 5 días.",
+            "en": "CDC does not state this; the warning concerns clindamycin cream and latex for 5 days."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la clindamicina crema solo debilita los diafragmas, no los preservativos, y que el alcohol está contraindicado con cualquier antibiótico",
+            "en": "That clindamycin cream weakens only diaphragms, not condoms, and that alcohol is contraindicated with any antibiotic"
+          },
+          "correct": false,
+          "why": {
+            "es": "La advertencia incluye preservativos y diafragmas de látex, y los CDC no consideran necesario evitar el alcohol con metronidazol.",
+            "en": "The warning covers latex condoms and diaphragms, and CDC does not consider avoiding alcohol with metronidazole necessary."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que no es necesario evitar el alcohol con metronidazol y que la clindamicina crema puede debilitar preservativos y diafragmas de látex durante 5 días",
+            "en": "That avoiding alcohol with metronidazole is unnecessary and that clindamycin cream may weaken latex condoms and diaphragms for 5 days"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son las dos advertencias de los CDC.",
+            "en": "Correct: these are the two CDC statements."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 consideran innecesario evitar el alcohol con metronidazol y advierten de que la clindamicina crema puede debilitar preservativos y diafragmas de látex durante 5 días.",
+        "en": "CDC 2021 considers avoiding alcohol with metronidazole unnecessary and warns that clindamycin cream may weaken latex condoms and diaphragms for 5 days."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx20-regional-dequalinium",
+      "conceptId": "gut-mb.bv-treatment",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente en España (caso ficticio) con vaginosis bacteriana pregunta por el cloruro de decualinio y el secnidazol. ¿Qué afirmación es correcta?",
+        "en": "A patient in Spain (fictional case) with bacterial vaginosis asks about dequalinium chloride and secnidazole. Which statement is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El decualinio no está autorizado en España, mientras que el secnidazol 2 g (Deiron) se comercializa desde diciembre de 2025 y está disponible en farmacias",
+            "en": "Dequalinium is not authorised in Spain, whereas secnidazole 2 g (Deiron) has been marketed since December 2025 and is available in pharmacies"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte la situación: Fluomizin está autorizado y comercializado, y Deiron, autorizado desde diciembre de 2025, figuraba como no comercializado a 14/10/2026.",
+            "en": "It reverses the situation: Fluomizin is authorised and marketed, and Deiron, authorised since December 2025, was listed as not marketed as of 14 October 2026."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La IUSTI incluye el decualinio 10 mg vaginal 6 días entre sus alternativas; en España Fluomizin está autorizado y comercializado, y Deiron figuraba como no comercializado a 14/10/2026",
+            "en": "IUSTI lists dequalinium 10 mg vaginal for 6 days among its alternatives; in Spain Fluomizin is authorised and marketed, and Deiron was listed as not marketed as of 14 October 2026"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: coincide con la IUSTI y con la situación regulatoria descrita.",
+            "en": "Correct: it matches IUSTI and the regulatory situation described."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La IUSTI recomienda el decualinio como primera línea con fuerza 1 y calidad A, por delante del metronidazol y la clindamicina",
+            "en": "IUSTI recommends dequalinium as first line with strength 1 and quality A, ahead of metronidazole and clindamycin"
+          },
+          "correct": false,
+          "why": {
+            "es": "La primera línea de la IUSTI es metronidazol o clindamicina; el decualinio es una alternativa.",
+            "en": "IUSTI’s first line is metronidazole or clindamycin; dequalinium is an alternative."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "En Argentina el decualinio no figura en el Vademécum de ANMAT, por lo que la única opción local son los nitroimidazoles",
+            "en": "In Argentina dequalinium is not in ANMAT’s national formulary, so nitroimidazoles are the only local option"
+          },
+          "correct": false,
+          "why": {
+            "es": "El Vademécum de ANMAT incluye decualinio 10 mg en óvulos (Ethopil).",
+            "en": "ANMAT’s national formulary includes dequalinium 10 mg pessaries (Ethopil)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La IUSTI 2018 incluye el cloruro de decualinio 10 mg vaginal 6 días entre las alternativas. En España, Fluomizin está autorizado y comercializado para la vaginosis; el secnidazol 2 g (Deiron) está autorizado desde diciembre de 2025, pero CIMA lo marcaba como no comercializado a 14/10/2026. En Argentina, el Vademécum de ANMAT incluye decualinio 10 mg en óvulos (Ethopil).",
+        "en": "IUSTI 2018 lists dequalinium chloride 10 mg vaginal for 6 days among the alternatives. In Spain, Fluomizin is authorised and marketed for BV; secnidazole 2 g (Deiron) has been authorised since December 2025, but CIMA listed it as not marketed as of 14 October 2026. In Argentina, ANMAT’s national formulary includes dequalinium 10 mg pessaries (Ethopil)."
+      },
+      "refIds": [
+        "iusti-2018-vaginal-discharge",
+        "aemps-2025-deiron-fluomizin",
+        "anmat-2026-vnm"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx21-recurrence-rates",
+      "conceptId": "gut-mb.bv-recurrence",
+      "difficulty": 2,
+      "stem": {
+        "es": "Tras 7 días de metronidazol oral, ¿qué tasas de recurrencia halló el estudio longitudinal que cita la IUSTI 2018?",
+        "en": "After 7 days of oral metronidazole, which recurrence rates did the longitudinal study cited by IUSTI 2018 find?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "El 5% al mes, el 10% a los 3 meses y el 15% a los 12 meses, lo que confirma que la pauta de 7 días suele ser definitiva",
+            "en": "5% at one month, 10% at 3 months and 15% at 12 months, confirming that the 7-day regimen is usually definitive"
+          },
+          "correct": false,
+          "why": {
+            "es": "Estas cifras son erróneas; la recurrencia es mucho mayor.",
+            "en": "These figures are wrong; recurrence is much higher."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "El 58% al mes, el 43% a los 3 meses y el 23% a los 12 meses, porque la recurrencia disminuye a medida que se recupera la flora",
+            "en": "58% at one month, 43% at 3 months and 23% at 12 months, because recurrence falls as the flora recovers"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte el orden temporal: la recurrencia acumulada aumenta con el tiempo.",
+            "en": "It reverses the time order: cumulative recurrence rises over time."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "El 23% al mes, el 43% a los 3 meses y el 58% a los 12 meses",
+            "en": "23% at one month, 43% at 3 months and 58% at 12 months"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son las cifras citadas.",
+            "en": "Correct: these are the figures cited."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El 50% al mes y el 100% a los 12 meses, de modo que la IUSTI desaconseja tratar los episodios aislados de vaginosis",
+            "en": "50% at one month and 100% at 12 months, so IUSTI advises against treating isolated BV episodes"
+          },
+          "correct": false,
+          "why": {
+            "es": "Las cifras son erróneas y la IUSTI no desaconseja tratar los episodios.",
+            "en": "The figures are wrong and IUSTI does not advise against treating episodes."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un estudio longitudinal citado por la IUSTI halló, tras 7 días de metronidazol oral, recurrencias del 23% al mes, 43% a los 3 meses y 58% a los 12 meses. Para la vaginosis persistente y recurrente, la IUSTI recomienda metronidazol intravaginal como mejor tratamiento actual (fuerza 2, calidad B).",
+        "en": "A longitudinal study cited by IUSTI found, after 7 days of oral metronidazole, recurrence rates of 23% at one month, 43% at 3 months and 58% at 12 months. For persistent and recurrent BV, IUSTI recommends intravaginal metronidazole as the current best treatment (strength 2, quality B)."
+      },
+      "refIds": [
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx22-suppression-stops",
+      "conceptId": "gut-mb.bv-recurrence",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer (caso ficticio) con vaginosis de repetición termina 4 meses de metronidazol gel 0,75% dos veces por semana sin recurrencias y pregunta si ya está curada. ¿Qué dicen los CDC 2021?",
+        "en": "A woman (fictional case) with recurrent BV finishes 4 months of metronidazole gel 0.75% twice weekly with no recurrences and asks whether she is cured. What does CDC 2021 say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la supresión durante más de 3 meses reduce las recurrencias, pero el beneficio no se mantiene al suspenderla",
+            "en": "That suppression for more than 3 months reduces recurrences, but the benefit does not persist once it is stopped"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: conviene avisarla de que puede recaer.",
+            "en": "Correct: she should be warned that relapse may occur."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la supresión erradica el biofilm de forma permanente, de modo que tras 4 meses la recurrencia es excepcional",
+            "en": "That suppression permanently eradicates the biofilm, so that after 4 months recurrence is exceptional"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC señalan que el beneficio no persiste al suspender la supresión.",
+            "en": "CDC notes that the benefit does not persist once suppression stops."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que debe continuar la supresión de por vida, porque los CDC consideran la vaginosis recurrente una enfermedad crónica incurable",
+            "en": "That she must continue suppression for life, because CDC considers recurrent BV an incurable chronic disease"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no hacen esa afirmación ni proponen supresión indefinida.",
+            "en": "CDC makes no such statement and does not propose indefinite suppression."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el beneficio se consolida si añade duchas vaginales semanales, que según los CDC reducen las recaídas tras la supresión",
+            "en": "That the benefit is consolidated if she adds weekly douching, which according to CDC reduces relapses after suppression"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC advierten de que las duchas vaginales podrían aumentar las recaídas.",
+            "en": "CDC warns that douching might increase relapse."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con recurrencias múltiples, los CDC 2021 señalan que el metronidazol gel 0,75% o un óvulo de metronidazol 750 mg dos veces por semana durante más de 3 meses reduce las recurrencias, aunque el beneficio no se mantiene al suspenderlo. También advierten de que las duchas vaginales podrían aumentar las recaídas.",
+        "en": "With multiple recurrences, CDC 2021 notes that metronidazole gel 0.75% or a 750 mg metronidazole vaginal suppository twice weekly for more than 3 months reduces recurrences, although the benefit does not persist once stopped. It also warns that douching might increase relapse."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx23-vitd-lactate",
+      "conceptId": "gut-mb.bv-recurrence",
+      "difficulty": 3,
+      "stem": {
+        "es": "Sobre medidas no antibióticas en la vaginosis recurrente, ¿qué afirmación refleja bien las fuentes?",
+        "en": "On non-antibiotic measures for recurrent BV, which statement reflects the sources correctly?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Los CDC recomiendan vitamina D a dosis altas para prevenir recurrencias, y la IUSTI recomienda el gel de lactato como primera línea (fuerza 1, calidad A)",
+            "en": "CDC recommends high-dose vitamin D to prevent recurrence, and IUSTI recommends lactate gel as first line (strength 1, quality A)"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no recomiendan vitamina D a dosis altas, y la IUSTI solo cita un ensayo pequeño de gel de lactato.",
+            "en": "CDC does not recommend high-dose vitamin D, and IUSTI only cites a small trial of lactate gel."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Los CDC recomiendan duchas vaginales regulares para restablecer el pH, y la IUSTI desaconseja cualquier tratamiento local que no sea antibiótico",
+            "en": "CDC recommends regular douching to restore pH, and IUSTI advises against any local treatment that is not an antibiotic"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC advierten de que las duchas podrían aumentar las recaídas, y la IUSTI cita un ensayo con gel de lactato sin desaconsejarlo.",
+            "en": "CDC warns that douching might increase relapse, and IUSTI cites a lactate gel trial without advising against it."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas guías recomiendan ácido bórico intravaginal como tratamiento único de primera línea en lugar de los nitroimidazoles",
+            "en": "Both guidelines recommend intravaginal boric acid as sole first-line treatment instead of nitroimidazoles"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC mencionan el ácido bórico solo tras un nitroimidazol oral, con datos limitados.",
+            "en": "CDC mentions boric acid only after an oral nitroimidazole, with limited data."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los CDC no recomiendan vitamina D a dosis altas para prevenir recurrencias; la IUSTI cita un ensayo pequeño de gel de lactato con 88% libres de vaginosis frente a 10% con placebo",
+            "en": "CDC does not recommend high-dose vitamin D to prevent recurrence; IUSTI cites a small lactate gel trial with 88% free of BV versus 10% with placebo"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: un ensayo pequeño citado, no una recomendación graduada.",
+            "en": "Correct: a small trial cited, not a graded recommendation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 no recomiendan vitamina D a dosis altas para prevenir recurrencias y advierten de que las duchas vaginales podrían aumentar las recaídas. La IUSTI cita un ensayo pequeño de gel de lactato intravaginal (5 ml 3 días tras la menstruación, durante 6 meses): 88% libres de vaginosis frente a 10% con placebo. Con datos limitados, los CDC mencionan un nitroimidazol oral 7 días seguido de ácido bórico intravaginal 600 mg diario 21 días y gel de metronidazol dos veces por semana 4–6 meses.",
+        "en": "CDC 2021 does not recommend high-dose vitamin D to prevent recurrence and warns that douching might increase relapse. IUSTI cites a small trial of intravaginal lactate gel (5 ml for 3 days after menses, for 6 months): 88% free of BV versus 10% with placebo. With limited data, CDC mentions an oral nitroimidazole for 7 days followed by intravaginal boric acid 600 mg daily for 21 days and metronidazole gel twice weekly for 4–6 months."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx24-female-partner",
+      "conceptId": "gut-mb.bv-partners",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer (caso ficticio) con vaginosis tiene una pareja estable femenina. ¿Qué dicen la IUSTI 2018 y los CDC 2021 sobre la pareja?",
+        "en": "A woman (fictional case) with BV has a regular female partner. What do IUSTI 2018 and CDC 2021 say about the partner?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas guías recomiendan tratar siempre a la pareja femenina, aunque no tenga vaginosis, porque está demostrado que reduce las recurrencias",
+            "en": "Both guidelines recommend always treating the female partner, even without BV, because it is proven to reduce recurrences"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI propone tratarla si tiene vaginosis, sin evidencia de que reduzca recurrencias, y los CDC señalan que no hay estudios.",
+            "en": "IUSTI proposes treating her if she has BV, with no evidence it reduces recurrence, and CDC notes there are no studies."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas guías desaconsejan explorar a la pareja femenina, porque las microbiotas de las parejas de mujeres no suelen coincidir",
+            "en": "Both guidelines advise against examining the female partner, because the microbiota of female partners rarely match"
+          },
+          "correct": false,
+          "why": {
+            "es": "Las microbiotas de las parejas de mujeres suelen ser concordantes, y la IUSTI considera razonable explorarla.",
+            "en": "Female partners’ microbiota are often concordant, and IUSTI considers it reasonable to check her."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La IUSTI considera razonable explorarla y tratarla si tiene vaginosis (la pareja femenina puede tratarse: fuerza 2, calidad B), sin evidencia de que reduzca recurrencias; los CDC señalan que ningún estudio lo ha evaluado",
+            "en": "IUSTI considers it reasonable to check her and treat her if she has BV (a female partner may be treated: strength 2, quality B), with no evidence that this reduces recurrence; CDC notes no studies have evaluated it"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: resume ambas posturas.",
+            "en": "Correct: it summarises both positions."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Los CDC recomiendan tratar a la pareja femenina con metronidazol oral 7 días a partir del ensayo de fase 3 en parejas de mujeres",
+            "en": "CDC recommends treating the female partner with 7 days of oral metronidazole based on the phase 3 trial in female partners"
+          },
+          "correct": false,
+          "why": {
+            "es": "El ensayo de fase 3 fue en parejas masculinas, y los CDC señalan que no hay estudios sobre parejas femeninas.",
+            "en": "The phase 3 trial was in male partners, and CDC notes there are no studies on female partners."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La IUSTI 2018 recomienda que las parejas masculinas no requieren tratamiento y que las femeninas pueden tratarse si tienen vaginosis (fuerza 2, calidad B); considera razonable explorar y tratar a la pareja estable, aunque no hay evidencia de que reduzca las recurrencias. Los CDC señalan que ningún estudio ha evaluado tratar a las parejas femeninas.",
+        "en": "IUSTI 2018 recommends that male partners do not require treatment and that female partners may be treated if they have BV (strength 2, quality B); it considers it reasonable to check and treat the regular partner, although there is no evidence that this reduces recurrence. CDC notes that no studies have evaluated treating female partners."
+      },
+      "refIds": [
+        "iusti-2018-vaginal-discharge",
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx25-adherence-subgroup",
+      "conceptId": "gut-mb.bv-partners",
+      "difficulty": 3,
+      "stem": {
+        "es": "En el ensayo de fase 3 que citan los CDC, las mujeres cuyas parejas masculinas cumplieron el tratamiento tuvieron menos fracasos. ¿Qué concluyen los CDC 2021?",
+        "en": "In the phase 3 trial CDC cites, women whose male partners adhered to treatment had fewer failures. What does CDC 2021 conclude?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que hay que tratar de rutina a la pareja masculina, porque el subgrupo con buena adherencia demuestra un beneficio claro sobre la recurrencia",
+            "en": "That the male partner should be treated routinely, because the adherent subgroup demonstrates a clear benefit on recurrence"
+          },
+          "correct": false,
+          "why": {
+            "es": "Pese a ese dato, los CDC mantienen que no se recomienda el tratamiento rutinario.",
+            "en": "Despite that finding, CDC maintains that routine treatment is not recommended."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que, pese a ese dato y a un estudio piloto con cambios en la microbiota, el tratamiento rutinario de la pareja no se recomienda",
+            "en": "That, despite that finding and a pilot study showing microbiota changes, routine partner treatment is not recommended"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el ensayo no redujo la recurrencia en su conjunto.",
+            "en": "Correct: the trial did not reduce recurrence overall."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que hay que tratar a la pareja solo con clindamicina tópica en el pene, que según el ensayo de fase 3 fue la única pauta eficaz",
+            "en": "That the partner should be treated only with topical penile clindamycin, which according to the phase 3 trial was the only effective regimen"
+          },
+          "correct": false,
+          "why": {
+            "es": "La clindamicina tópica se usó en un estudio piloto; el ensayo de fase 3 evaluó metronidazol oral 7 días.",
+            "en": "Topical clindamycin was used in a pilot study; the phase 3 trial assessed 7 days of oral metronidazole."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que tratar a la pareja aumenta las recurrencias en la mujer, por lo que los CDC lo desaconsejan expresamente en cualquier circunstancia",
+            "en": "That treating the partner increases recurrences in the woman, so CDC expressly advises against it in any circumstance"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC no describen un aumento de recurrencias; el ensayo no las redujo.",
+            "en": "CDC does not describe increased recurrences; the trial did not reduce them."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 no recomiendan tratar de rutina a las parejas: un ensayo de fase 3 de metronidazol oral 7 días en parejas masculinas de mujeres con vaginosis recurrente no redujo la recurrencia, aunque las mujeres cuyas parejas cumplieron la pauta tuvieron menos fracasos. Citan además un estudio piloto (metronidazol oral más clindamicina tópica en el pene) que modificó la microbiota vaginal, pero mantienen que no se recomienda el tratamiento rutinario.",
+        "en": "CDC 2021 does not recommend routine partner treatment: a phase 3 trial of 7 days of oral metronidazole in male partners of women with recurrent BV did not reduce recurrence, although women whose partners adhered to the regimen had fewer treatment failures. It also cites a pilot study (oral metronidazole plus topical penile clindamycin) that changed the vaginal microbiota, but maintains that routine treatment is not recommended."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx26-lactin-v",
+      "conceptId": "gut-mb.probiotics-bv",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una paciente lee que «Lactobacillus crispatus CTV-05 previene la vaginosis». ¿Qué dicen los CDC 2021 sobre este producto (Lactin-V)?",
+        "en": "A patient reads that “Lactobacillus crispatus CTV-05 prevents BV”. What does CDC 2021 say about this product (Lactin-V)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que es la pauta recomendada de primera línea en la vaginosis recurrente y que puede comprarse sin receta en la mayoría de los países",
+            "en": "That it is the recommended first-line regimen for recurrent BV and can be bought over the counter in most countries"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC señalan que no está aún autorizado por la FDA ni comercializado, y el ensayo mostró menor recurrencia tras metronidazol, no una pauta de primera línea.",
+            "en": "CDC states it is not yet FDA cleared or commercially available, and the trial showed lower recurrence after metronidazole, not a first-line regimen."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que sustituye al metronidazol: aplicado solo, sin antibiótico previo, curó la vaginosis en la mayoría de las mujeres del ensayo",
+            "en": "That it replaces metronidazole: used alone, without prior antibiotic, it cured BV in most women in the trial"
+          },
+          "correct": false,
+          "why": {
+            "es": "En el ensayo se administró después de 5 días de gel de metronidazol, y redujo la recurrencia, no curó el episodio.",
+            "en": "In the trial it was given after 5 days of metronidazole gel, and it reduced recurrence rather than curing the episode."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que no redujo la recurrencia frente a placebo, por lo que los CDC lo descartan definitivamente y no prevén más estudios",
+            "en": "That it did not reduce recurrence versus placebo, so CDC rules it out definitively and expects no further studies"
+          },
+          "correct": false,
+          "why": {
+            "es": "Redujo sustancialmente la recurrencia a las 12 semanas frente a placebo.",
+            "en": "It substantially lowered recurrence at 12 weeks versus placebo."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que tras 5 días de gel de metronidazol redujo sustancialmente la recurrencia a las 12 semanas frente a placebo, pero no estaba autorizado por la FDA ni comercializado",
+            "en": "That after 5 days of metronidazole gel it substantially lowered recurrence at 12 weeks versus placebo, but was not FDA cleared or commercially available"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: datos prometedores, pero todavía sin autorización de la FDA ni comercialización.",
+            "en": "Correct: promising data, but still not FDA cleared or commercially available."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Según los CDC 2021, L. crispatus CTV-05 vaginal (Lactin-V), a diario 4 días en la semana 1 y luego dos veces por semana 10 semanas tras 5 días de gel de metronidazol, redujo sustancialmente la recurrencia a las 12 semanas frente a placebo, pero no estaba autorizado por la FDA ni comercializado. Los CDC concluyen que ningún estudio apoya los probióticos como tratamiento adyuvante o sustitutivo.",
+        "en": "According to CDC 2021, vaginal L. crispatus CTV-05 (Lactin-V), daily for 4 days in week 1 then twice weekly for 10 weeks after 5 days of metronidazole gel, substantially lowered recurrence at 12 weeks versus placebo, but was not FDA cleared or commercially available. CDC concludes that no studies support probiotics as adjunctive or replacement therapy."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx27-three-sources",
+      "conceptId": "gut-mb.probiotics-bv",
+      "difficulty": 2,
+      "stem": {
+        "es": "¿Qué emparejamiento de fuente y postura sobre los probióticos en la vaginosis es correcto?",
+        "en": "Which pairing of source and position on probiotics for BV is correct?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "WGO 2023: menciona, fuera de su alcance, que numerosos estudios muestran que pueden reducir la vaginosis, sin recomendar cepa ni pauta",
+            "en": "WGO 2023: mentions, outside its scope, that numerous studies show they can reduce BV, without recommending a strain or regimen"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es una mención sin recomendación.",
+            "en": "Correct: it is a mention without a recommendation."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "CDC 2021: los recomienda como alternativa al metronidazol en mujeres que prefieren evitar antibióticos, con una cepa y una pauta concretas",
+            "en": "CDC 2021: recommends them as an alternative to metronidazole for women who prefer to avoid antibiotics, with a specific strain"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los CDC concluyen que ningún estudio los apoya como tratamiento adyuvante o sustitutivo.",
+            "en": "CDC concludes that no studies support them as adjunctive or replacement therapy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "IUSTI 2018: los recomienda con fuerza 1 y calidad A para prevenir recurrencias tras cada episodio tratado",
+            "en": "IUSTI 2018: recommends them with strength 1 and quality A to prevent recurrences after each treated episode"
+          },
+          "correct": false,
+          "why": {
+            "es": "La IUSTI no formula una recomendación graduada: cita evidencia insuficiente o de calidad variable.",
+            "en": "IUSTI makes no graded recommendation: it cites insufficient or variable-quality evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "WGO 2023: recomienda L. crispatus CTV-05 como pauta estándar para la vaginosis dentro de sus indicaciones gastrointestinales",
+            "en": "WGO 2023: recommends L. crispatus CTV-05 as the standard regimen for BV within its gastrointestinal indications"
+          },
+          "correct": false,
+          "why": {
+            "es": "La WGO no recomienda ninguna cepa ni pauta para la vaginosis; los CDC señalan que Lactin-V no está aún autorizado por la FDA ni comercializado.",
+            "en": "WGO recommends no strain or regimen for BV; CDC states that Lactin-V is not yet FDA cleared or commercially available."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los CDC 2021 no apoyan los probióticos para la vaginosis; la IUSTI 2018 cita una revisión sistemática con evidencia insuficiente a favor o en contra y un metaanálisis posterior favorable pero con estudios de calidad variable, y pide más investigación; la WGO 2023, guía de gastroenterología, los menciona fuera de su alcance sin recomendar cepa ni pauta. Ninguna de estas fuentes evalúa probióticos para resultados de fertilidad.",
+        "en": "CDC 2021 does not support probiotics for BV; IUSTI 2018 cites a systematic review with insufficient evidence for or against and a later favourable meta-analysis with studies of variable quality, and calls for more research; WGO 2023, a gastroenterology guideline, mentions them outside its scope without recommending a strain or regimen. None of these sources assesses probiotics for fertility outcomes."
+      },
+      "refIds": [
+        "cdc-2021-sti-guidelines",
+        "iusti-2018-vaginal-discharge",
+        "wgo-2023-probiotics-prebiotics"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx28-why-research-only",
+      "conceptId": "gut-mb.lactobacillus-fertility",
+      "difficulty": 2,
+      "stem": {
+        "es": "¿Por qué la ESHRE 2023 limita el estudio de la microbiota vaginal en la infertilidad inexplicada al ámbito de la investigación?",
+        "en": "Why does ESHRE 2023 limit vaginal microbiota testing in unexplained infertility to research settings?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Porque la técnica de qPCR no está disponible fuera de los centros de investigación, aunque la evidencia sobre su utilidad clínica es sólida",
+            "en": "Because qPCR is not available outside research centres, although the evidence for its clinical usefulness is strong"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no lo justifica por disponibilidad; considera insuficiente la evidencia.",
+            "en": "The guideline does not justify it by availability; it considers the evidence insufficient."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Porque los ensayos aleatorizados demostraron que corregir la microbiota empeora la tasa de nacidos vivos en estas parejas",
+            "en": "Because randomised trials showed that correcting the microbiota worsens live birth rates in these couples"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no describe ese daño: señala que no hay evidencia de que corregirla mejore los resultados.",
+            "en": "The guideline describes no such harm: it notes there is no evidence that correcting it improves outcomes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Porque la evidencia sobre el papel de la microbiota anómala es insuficiente, los estudios usan métodos y definiciones de «dominancia» distintos, y no hay evidencia de que corregirla mejore la fertilidad",
+            "en": "Because evidence on the role of abnormal microbiota is insufficient, studies use different methods and definitions of “dominance”, and there is no evidence that correcting it improves fertility"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la justificación de la recomendación 15.",
+            "en": "Correct: this is the justification for recommendation 15."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Porque la ESHRE considera que la microbiota vaginal no tiene ninguna relación con la reproducción y desaconseja investigarla",
+            "en": "Because ESHRE considers that the vaginal microbiota has no relationship with reproduction and advises against researching it"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía la limita a la investigación, que es justo lo contrario de desaconsejar investigarla.",
+            "en": "The guideline limits it to research, which is the opposite of advising against researching it."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE 2023 de infertilidad inexplicada considera que el estudio de la microbiota vaginal podría plantearse solo en investigación (rec. 15, «research only»): la evidencia del papel de la microbiota anómala es insuficiente y no hay evidencia de que corregirla mejore los resultados. Los estudios son de casos y controles y de cohortes, con métodos distintos (microscopía, criterios de Spiegel, Nugent, qPCR), momentos de muestreo distintos y definiciones variables de «dominancia de Lactobacillus».",
+        "en": "ESHRE 2023 on unexplained infertility considers that vaginal microbiota testing could be considered only in research (rec. 15, “research only”): evidence for a role of abnormal microbiota is insufficient and there is no evidence that correcting it improves outcomes. The studies are case–control and cohort studies, with different methods (microscopy, Spiegel criteria, Nugent, qPCR), different sampling points and variable definitions of “Lactobacillus dominance”."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx29-rpl-rif-dysbiosis",
+      "conceptId": "gut-mb.lactobacillus-fertility",
+      "difficulty": 3,
+      "stem": {
+        "es": "Sobre la disbiosis vaginal en la pérdida gestacional recurrente y el fallo de implantación, ¿qué dicen los documentos de la ESHRE?",
+        "en": "On vaginal dysbiosis in recurrent pregnancy loss and implantation failure, what do the ESHRE documents say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la disbiosis predice la pérdida gestacional con alta precisión y que su corrección con probióticos vaginales está recomendada antes de intentar el siguiente embarazo",
+            "en": "That dysbiosis predicts pregnancy loss with high accuracy and that correcting it with vaginal probiotics is recommended before the next attempt to conceive is made"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía de 2022 señala que no hay estudios sobre su valor predictivo y no recomienda probióticos.",
+            "en": "The 2022 guideline notes there are no studies on its predictive value and does not recommend probiotics."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La guía de 2022 describe una asociación con la pérdida recurrente, sin estudios sobre su valor predictivo; el documento de 2023 duda de si es causa o marcador",
+            "en": "The 2022 guideline describes an association with recurrent loss, with no studies on predictive value; the 2023 document is unsure whether it is a cause or a marker"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: asociación, no causalidad demostrada.",
+            "en": "Correct: association, not proven causation."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambos documentos niegan cualquier asociación entre la microbiota vaginal y los resultados reproductivos, y desaconsejan investigarla",
+            "en": "Both documents deny any association between vaginal microbiota and reproductive outcomes, and advise against researching it"
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambos describen asociaciones; lo que falta es evidencia de causalidad, valor predictivo y eficacia de intervenciones.",
+            "en": "Both describe associations; what is missing is evidence of causation, predictive value and efficacy of interventions."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El documento de 2023 afirma que Lactobacillus es un patógeno que altera la implantación, por lo que su presencia debe tratarse con antibióticos",
+            "en": "The 2023 document states that Lactobacillus is a pathogen that disrupts implantation, so its presence should be treated with antibiotics"
+          },
+          "correct": false,
+          "why": {
+            "es": "Señala lo contrario: Lactobacillus forma parte de la flora fisiológica.",
+            "en": "It states the opposite: Lactobacillus is part of the physiological flora."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE 2022 de pérdida gestacional recurrente describe una asociación entre disbiosis vaginal (mayor diversidad y falta de lactobacilos) y pérdida recurrente, pero no hay estudios sobre su valor predictivo. El documento ESHRE 2023 de fallo de implantación recurrente señala que Lactobacillus forma parte de la flora fisiológica, pero no está claro si un microbioma desfavorable altera la implantación o es marcador de otro factor.",
+        "en": "The ESHRE 2022 recurrent pregnancy loss guideline describes an association between vaginal dysbiosis (greater diversity and lack of lactobacilli) and recurrent loss, but there are no studies on its predictive value. The ESHRE 2023 recurrent implantation failure document notes that Lactobacillus is part of the physiological flora, but it is unclear whether an unfavourable microbiome disrupts implantation itself or is a marker of another factor."
+      },
+      "refIds": [
+        "eshre-2022-rpl",
+        "eshre-2023-rif"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx30-not-recommended-meaning",
+      "conceptId": "gut-mb.endometrial-microbiome",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una pareja con fallo de implantación recurrente (caso ficticio) pide un análisis metagenómico del microbioma endometrial antes de la próxima transferencia. ¿Qué dicen la ESHRE 2023 y NICE NG257?",
+        "en": "A couple with recurrent implantation failure (fictional case) asks for endometrial microbiome metagenomic analysis before the next transfer. What do ESHRE 2023 and NICE NG257 say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La ESHRE lo recomienda (nivel verde) en todas las parejas con fallo de implantación, y NICE lo ofrece si han fallado tres transferencias",
+            "en": "ESHRE recommends it (green level) for every couple with implantation failure, and NICE offers it after three failed transfers"
+          },
+          "correct": false,
+          "why": {
+            "es": "La ESHRE no lo recomienda (nivel rojo) y NICE aconseja no ofrecerlo.",
+            "en": "ESHRE does not recommend it (red level) and NICE advises not offering it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La ESHRE lo prohíbe en cualquier circunstancia, y NICE lo permite solo dentro de ensayos clínicos financiados por el sistema público",
+            "en": "ESHRE forbids it in all circumstances, and NICE allows it only within publicly funded clinical trials"
+          },
+          "correct": false,
+          "why": {
+            "es": "Según la ESHRE, «not recommended» significa que no se ofrece de rutina, no que esté prohibido en cualquier circunstancia.",
+            "en": "Per ESHRE, “not recommended” means not routinely offered, not forbidden in all circumstances."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ninguna de las dos fuentes menciona el microbioma endometrial, de modo que no hay posición sobre el análisis",
+            "en": "Neither source mentions the endometrial microbiome, so there is no position on the analysis"
+          },
+          "correct": false,
+          "why": {
+            "es": "Ambas lo mencionan expresamente.",
+            "en": "Both mention it expressly."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La ESHRE no recomienda el perfil del microbioma uterino o vaginal (no se ofrece de rutina), y NICE aconseja no ofrecer el análisis microbiológico como complemento de la transferencia",
+            "en": "ESHRE does not recommend uterine or vaginal microbiome profiling (not routinely offered), and NICE advises not offering microbiological analysis as a transfer add-on"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: coinciden en no ofrecerlo de rutina.",
+            "en": "Correct: they agree on not offering it routinely."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El documento ESHRE 2023 de fallo de implantación recurrente no recomienda el perfil del microbioma uterino o vaginal (nivel rojo; según la ESHRE no equivale a prohibirlo en cualquier circunstancia). NICE NG257 aconseja no ofrecer pruebas de receptividad endometrial como complemento de la transferencia, incluido el análisis microbiológico (por ejemplo, metagenómico del microbioma endometrial).",
+        "en": "The ESHRE 2023 recurrent implantation failure document does not recommend uterine or vaginal microbiome profiling (red level; per ESHRE this does not mean forbidden in all circumstances). NICE NG257 advises not offering endometrial receptivity testing as a transfer add-on, including microbiological analysis (for example, endometrial microbiome metagenomic analysis)."
+      },
+      "refIds": [
+        "eshre-2023-rif",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx31-vagina-vs-endometrium",
+      "conceptId": "gut-mb.endometrial-microbiome",
+      "difficulty": 3,
+      "stem": {
+        "es": "¿Qué hallazgo y qué laguna de evidencia recogen la ESHRE 2023 y NICE NG257 sobre el microbioma endometrial?",
+        "en": "Which finding and which evidence gap do ESHRE 2023 and NICE NG257 report on the endometrial microbiome?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "En 145 mujeres con fallo de implantación y 21 controles, los lactobacilos eran menores en la vagina pero no en el endometrio; NICE no halló evidencia sobre tratamientos y pidió investigarlos",
+            "en": "In 145 women with implantation failure and 21 controls, lactobacilli were lower in the vagina but not in the endometrium; NICE found no evidence on treatments and called for research"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: ambos datos aparecen en las fuentes.",
+            "en": "Correct: both items appear in the sources."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "En 145 mujeres con fallo de implantación, los lactobacilos endometriales eran menores que en los controles, lo que demuestra que su ausencia causa el fallo",
+            "en": "In 145 women with implantation failure, endometrial lactobacilli were lower than in controls, proving that their absence causes the failure"
+          },
+          "correct": false,
+          "why": {
+            "es": "Eran menores en la vagina, no en el endometrio, y la ESHRE duda de si es causa o marcador.",
+            "en": "They were lower in the vagina, not the endometrium, and ESHRE is unsure whether it is a cause or a marker."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "NICE revisó varios ensayos aleatorizados que demostraron que el trasplante de microbiota mejora los nacidos vivos, y por eso lo recomienda en reproducción asistida",
+            "en": "NICE reviewed several randomised trials showing that microbiota transplantation improves live births, and so recommends it in assisted reproduction"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE no halló evidencia y formuló una recomendación de investigación sobre estos tratamientos.",
+            "en": "NICE found no evidence and made a research recommendation on these treatments."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "El metaanálisis de seis cohortes con 1095 mujeres demostró que la disbiosis no se asocia a peores resultados reproductivos",
+            "en": "The meta-analysis of six cohorts with 1,095 women showed that dysbiosis is not associated with poorer reproductive outcomes"
+          },
+          "correct": false,
+          "why": {
+            "es": "Ese metaanálisis asoció la microbiota disbiótica a peores resultados reproductivos.",
+            "en": "That meta-analysis linked dysbiotic microbiota to poorer reproductive outcomes."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE reconoce asociaciones (un metaanálisis de seis cohortes con 1095 mujeres vinculó la microbiota disbiótica a peores resultados), pero en un estudio de 145 mujeres con fallo de implantación y 21 controles los lactobacilos eran menores en la vagina y no en el endometrio. NICE no halló evidencia sobre tratar alteraciones endometriales del microbioma y formuló una recomendación de investigación (antibióticos para la endometritis o trasplante de microbiota).",
+        "en": "ESHRE acknowledges associations (a meta-analysis of six cohorts with 1,095 women linked dysbiotic microbiota to poorer outcomes), but in a study of 145 women with implantation failure and 21 controls lactobacilli were lower in the vagina and not in the endometrium. NICE found no evidence on treating microbiome-related endometrial abnormalities and made a research recommendation (antibiotics for endometritis or microbiota transplantation)."
+      },
+      "refIds": [
+        "eshre-2023-rif",
+        "nice-2026-ng257"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx32-or-ci-reading",
+      "conceptId": "gut-mb.chronic-endometritis",
+      "difficulty": 3,
+      "stem": {
+        "es": "Dos revisiones citadas por la ESHRE 2023 comparan endometritis curada frente a persistente: una da OR 5,33 (IC 95% 2,41–11,79) y otra OR 2,90 (IC 95% 0,65–12,98) para nacido vivo o embarazo en curso. ¿Cómo se leen?",
+        "en": "Two reviews cited by ESHRE 2023 compare cured versus persistent endometritis: one gives OR 5.33 (95% CI 2.41–11.79) and the other OR 2.90 (95% CI 0.65–12.98) for live birth or ongoing pregnancy. How should they be read?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas son significativas, porque las dos OR son mayores que 1, y demuestran que los antibióticos multiplican por 3–5 la probabilidad de nacido vivo",
+            "en": "Both are significant, because both ORs exceed 1, and they show that antibiotics multiply the probability of live birth by 3–5"
+          },
+          "correct": false,
+          "why": {
+            "es": "Una OR no es un cociente de probabilidades, y el segundo intervalo incluye el 1, así que no es significativo.",
+            "en": "An OR is not a ratio of probabilities, and the second interval includes 1, so it is not significant."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ninguna es significativa, porque ambos intervalos son muy amplios, y por tanto las dos revisiones demuestran que los antibióticos no tienen efecto",
+            "en": "Neither is significant, because both intervals are very wide, and therefore both reviews prove that antibiotics have no effect"
+          },
+          "correct": false,
+          "why": {
+            "es": "El primer intervalo (2,41–11,79) no incluye el 1; y un resultado no significativo no demuestra ausencia de efecto.",
+            "en": "The first interval (2.41–11.79) excludes 1; and a non-significant result does not prove absence of effect."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La primera es significativa (su IC no incluye el 1) y la segunda no (su IC incluye el 1): la evidencia es contradictoria",
+            "en": "The first is significant (its CI excludes 1) and the second is not (its CI includes 1): the evidence is conflicting"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: por eso la ESHRE solo permite considerar el tratamiento.",
+            "en": "Correct: that is why ESHRE only allows treatment to be considered."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La segunda es más fiable porque su OR es menor y su intervalo más amplio, lo que indica una muestra más grande y mayor precisión",
+            "en": "The second is more reliable because its OR is smaller and its interval wider, which indicates a larger sample and greater precision"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un intervalo más amplio indica menor precisión, no mayor.",
+            "en": "A wider interval indicates less precision, not more."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un IC 95% de una OR que no incluye el 1 indica asociación estadísticamente significativa: 2,41–11,79 no incluye el 1; 0,65–12,98 sí. Una tercera revisión concluyó que los antibióticos orales no mejoraban embarazo ni nacido vivo. Con esta evidencia contradictoria, la ESHRE 2023 permite considerar el estudio de la endometritis crónica y, si se diagnostica, el tratamiento antibiótico (buena práctica, sin GRADE).",
+        "en": "A 95% CI for an OR that excludes 1 indicates a statistically significant association: 2.41–11.79 excludes 1; 0.65–12.98 includes it. A third review concluded that oral antibiotics did not improve pregnancy or live birth. With this conflicting evidence, ESHRE 2023 allows assessment for chronic endometritis and, if diagnosed, antibiotic treatment to be considered (good practice, no GRADE)."
+      },
+      "refIds": [
+        "eshre-2023-rif"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx33-rpl-endometritis",
+      "conceptId": "gut-mb.chronic-endometritis",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una mujer con tres pérdidas gestacionales (caso ficticio) pide una biopsia para descartar endometritis crónica. ¿Qué dice la ESHRE 2022 de pérdida gestacional recurrente?",
+        "en": "A woman with three pregnancy losses (fictional case) asks for a biopsy to rule out chronic endometritis. What does the ESHRE 2022 recurrent pregnancy loss guideline say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que recomienda el cribado en todas las mujeres con pérdida recurrente, con un umbral estandarizado de más de 5 células plasmáticas por campo",
+            "en": "That it recommends screening in all women with recurrent loss, with a standardised threshold of more than 5 plasma cells per field"
+          },
+          "correct": false,
+          "why": {
+            "es": "No recomienda el cribado; tampoco propone ningún umbral de células plasmáticas (el «más de 5 por campo» es una cifra de la literatura que la guía no adopta).",
+            "en": "It does not recommend screening, nor does it propose any plasma cell threshold (“more than 5 per field” is a figure from the literature that the guideline does not adopt)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la prevalencia es constante en torno al 30% con cualquier método y que los antibióticos han demostrado reducir la pérdida en ensayos aleatorizados",
+            "en": "That prevalence is constant at about 30% with any method and that antibiotics have been shown to reduce loss in randomised trials"
+          },
+          "correct": false,
+          "why": {
+            "es": "La prevalencia varía del 7% al 58% según el método, y el efecto de los antibióticos no se ha probado en ensayos aleatorizados.",
+            "en": "Prevalence ranges from 7% to 58% depending on the method, and the effect of antibiotics has not been tested in randomised trials."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el único estudio con controles fértiles halló el doble de endometritis en las mujeres con pérdida recurrente, lo que justifica la biopsia",
+            "en": "That the only study with fertile controls found twice as much endometritis in women with recurrent loss, which justifies biopsy"
+          },
+          "correct": false,
+          "why": {
+            "es": "El único estudio con controles fértiles no halló diferencias.",
+            "en": "The only study with fertile controls found no difference."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que se necesitan estudios prospectivos y ensayos aleatorizados antes de poder recomendar el cribado de endometritis",
+            "en": "That prospective studies and randomised trials are needed before screening for endometritis can be recommended"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la conclusión de la guía, sin recomendación graduada.",
+            "en": "Correct: it is the guideline’s conclusion, without a graded recommendation."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE 2022 de pérdida gestacional recurrente concluye que se necesitan estudios prospectivos y ensayos aleatorizados antes de recomendar el cribado de endometritis: la prevalencia descrita varía del 7% al 58% según el método, el único estudio con controles fértiles no halló diferencias y el efecto de los antibióticos no se ha probado en ensayos aleatorizados. La guía no propone ningún umbral de células plasmáticas y señala que la prevalencia depende del método de detección.",
+        "en": "The ESHRE 2022 recurrent pregnancy loss guideline concludes that prospective studies and randomised trials are needed before screening for endometritis can be recommended: reported prevalence ranges from 7% to 58% depending on the method, the only study with fertile controls found no difference and the effect of antibiotics has not been tested in randomised trials. The guideline proposes no plasma cell threshold and notes that prevalence depends on the detection method."
+      },
+      "refIds": [
+        "eshre-2022-rpl",
+        "eshre-2023-rif"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx34-report-content",
+      "conceptId": "gut-mb.commercial-tests",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un informe comercial de microbioma intestinal incluye un «índice de disbiosis», rangos «saludables» de abundancia por especie y el «potencial metabólico» del perfil. ¿Qué dice el consenso internacional de 2025?",
+        "en": "A commercial gut microbiome report includes a “dysbiosis index”, “healthy” abundance ranges per species and the profile’s “metabolic potential”. What does the 2025 international consensus say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que los tres elementos están validados y deben incluirse en cualquier informe de calidad, siempre que el laboratorio esté acreditado",
+            "en": "That all three elements are validated and should be included in any quality report, provided the laboratory is accredited"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso considera insuficiente la evidencia para los índices y los rangos estrictos, y desaconseja inferir el potencial metabólico.",
+            "en": "The consensus considers the evidence insufficient for indices and strict ranges, and discourages inferring metabolic potential."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que no hay evidencia suficiente para incluir ningún índice de disbiosis ni, en general, rangos estrictos de referencia (90%), y desaconseja inferir el potencial metabólico del perfil taxonómico (90%)",
+            "en": "That there is insufficient evidence to include any dysbiosis index or, generally, strict reference ranges (90%), and it discourages inferring metabolic potential from the taxonomic profile (90%)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son tres declaraciones del consenso.",
+            "en": "Correct: these are three consensus statements."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el índice de disbiosis es aceptable, pero los rangos de abundancia deben sustituirse por el cociente Firmicutes/Bacteroidetes",
+            "en": "That the dysbiosis index is acceptable, but abundance ranges should be replaced by the Firmicutes/Bacteroidetes ratio"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja también el cociente Firmicutes/Bacteroidetes (86%).",
+            "en": "The consensus also discourages the Firmicutes/Bacteroidetes ratio (86%)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que estos elementos tienen recomendación GRADE débil y pueden usarse si el profesional los interpreta junto con la clínica",
+            "en": "That these elements carry a weak GRADE recommendation and can be used if the clinician interprets them with the clinical picture"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso emite declaraciones Delphi de expertos, no recomendaciones GRADE, y no los respalda.",
+            "en": "The consensus issues expert Delphi statements, not GRADE recommendations, and does not endorse them."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso de 2025 desaconseja el cociente Firmicutes/Bacteroidetes (86%), considera insuficiente la evidencia para incluir cualquier índice de disbiosis (90%) y, en general, para informar rangos estrictos de abundancia de especies (90%), no recomienda la metabolómica de biofluidos en la práctica clínica y desaconseja inferir el «potencial metabólico» del perfil taxonómico (90%). Son declaraciones Delphi (umbral ≥ 80%), centradas en el microbioma intestinal.",
+        "en": "The 2025 consensus discourages the Firmicutes/Bacteroidetes ratio (86%), considers the evidence insufficient to include any dysbiosis index (90%) and, generally, to report strict species abundance ranges (90%), does not recommend biofluid metabolomics in clinical practice and discourages inferring “metabolic potential” from the taxonomic profile (90%). These are Delphi statements (threshold ≥ 80%), focused on the gut microbiome."
+      },
+      "refIds": [
+        "porcari-2025-microbiome-testing"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "gut-mb.qx35-who-decides",
+      "conceptId": "gut-mb.commercial-tests",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una paciente pidió por su cuenta un test de microbioma intestinal y quiere cambiar su tratamiento según el informe. ¿Qué dice el consenso internacional de 2025?",
+        "en": "A patient ordered a gut microbiome test herself and wants to change her treatment according to the report. What does the 2025 international consensus say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la paciente puede ajustar su tratamiento según el informe, porque el consenso anima a pedir estos tests directamente, sin pasar por un profesional",
+            "en": "That the patient can adjust her treatment according to the report, because the consensus encourages ordering these tests directly, without going through a health professional"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja que las pacientes los pidan directamente sin indicación clínica (80,4%).",
+            "en": "The consensus discourages patients from requesting them directly without a clinical recommendation (80.4%)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el laboratorio que hace el test debe pautar el tratamiento, ya que es quien mejor conoce los resultados del análisis",
+            "en": "That the laboratory running the test should prescribe the treatment, since it knows the results best"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja que el proveedor incluya consejos terapéuticos (98%).",
+            "en": "The consensus discourages the provider from including therapeutic advice (98%)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que desaconseja pedirlo sin indicación clínica (80,4%) y que cualquier cambio de manejo debe hacerlo solo el profesional que lo solicita (100%)",
+            "en": "That it discourages ordering it without a clinical recommendation (80.4%) and that any change in management should be made only by the referring professional (100%)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son dos declaraciones del consenso.",
+            "en": "Correct: these are two consensus statements."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el consenso recomienda repetir el test cada mes para comprobar el efecto de los cambios terapéuticos antes de decidir",
+            "en": "That the consensus recommends repeating the test monthly to check the effect of treatment changes before deciding"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso no recomienda repetir el test cada mes: solo señala que una evaluación longitudinal puede ser útil en escenarios clínicos concretos (80%) y considera insuficiente la evidencia para el uso rutinario (90%).",
+            "en": "The consensus does not recommend repeating the test monthly: it only states that longitudinal assessment may be useful in specific clinical scenarios (80%) and considers the evidence insufficient for routine use (90%)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso de 2025 (69 expertos, Delphi) concluye que no hay evidencia suficiente para recomendar ampliamente el uso rutinario de estos tests (90%), desaconseja que las pacientes los pidan directamente sin indicación clínica (80,4%) y que el proveedor incluya consejos terapéuticos (98%), y establece que cualquier cambio de manejo debe hacerlo solo el profesional que lo solicita (100%).",
+        "en": "The 2025 consensus (69 experts, Delphi) concludes that there is insufficient evidence to widely recommend routine use of these tests (90%), discourages patients from requesting them directly without a clinical recommendation (80.4%) and the provider from including therapeutic advice (98%), and states that any change in management should be made only by the referring professional (100%)."
+      },
+      "refIds": [
+        "porcari-2025-microbiome-testing"
+      ]
     }
   ]
 }

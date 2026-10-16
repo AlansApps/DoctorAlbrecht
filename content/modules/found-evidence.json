@@ -34,7 +34,21 @@
         "found-ev.q1-starting-certainty",
         "found-ev.q2-strong-very-low",
         "found-ev.q3-addons-phrases",
-        "found-ev.q4-sensitivity-analysis"
+        "found-ev.q4-sensitivity-analysis",
+        "found-ev.qx1-very-low-meaning",
+        "found-ev.qx2-per-outcome",
+        "found-ev.qx3-expert-opinion",
+        "found-ev.qx4-not-a-down-factor",
+        "found-ev.qx5-rating-up-observational",
+        "found-ev.qx6-not-mechanical",
+        "found-ev.qx7-conditional-meaning",
+        "found-ev.qx8-paradigmatic",
+        "found-ev.qx9-eshre-auto-very-low",
+        "found-ev.qx10-nams-level-iii",
+        "found-ev.qx11-addons-38-of-42",
+        "found-ev.qx12-not-recommended-phrase",
+        "found-ev.qx13-12-of-67",
+        "found-ev.qx14-surrogate-downgrade"
       ]
     },
     {
@@ -65,7 +79,18 @@
         "found-ev.q5-sens-spec-calc",
         "found-ev.q6-ppv-low-prevalence",
         "found-ev.q7-lr-posttest",
-        "found-ev.q8-panel-no-reference"
+        "found-ev.q8-panel-no-reference",
+        "found-ev.qx15-calc-80-90",
+        "found-ev.qx16-snnout",
+        "found-ev.qx17-ppv-5pct",
+        "found-ev.qx18-npv-prevalence",
+        "found-ev.qx19-lr-calc",
+        "found-ev.qx20-posttest-calc",
+        "found-ev.qx21-lr-near-1",
+        "found-ev.qx22-accurate-useless",
+        "found-ev.qx23-healthy-controls",
+        "found-ev.qx24-panel-two-asks",
+        "found-ev.qx25-panel-ranges"
       ]
     },
     {
@@ -96,6 +121,16 @@
         "found-ev.q9-nnt-calc",
         "found-ev.q10-nice-framing",
         "found-ev.q11-rrr-arr",
+        "found-ev.qx26-calc-10-to-6",
+        "found-ev.qx27-baseline-risk",
+        "found-ev.qx28-nams-absolute",
+        "found-ev.qx29-nnt-round-up",
+        "found-ev.qx30-rr-baseline-nnt",
+        "found-ev.qx31-nnt-meaning",
+        "found-ev.qx32-sdm-change-mind",
+        "found-ev.qx33-sdm-options",
+        "found-ev.qx34-same-denominator",
+        "found-ev.qx35-framing-time",
         "found-ev.case1-julia"
       ]
     }
@@ -1563,6 +1598,2580 @@
         "status": "ai-audited",
         "reviewedAt": "2026-10-14"
       }
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx1-very-low-meaning",
+      "conceptId": "found-ev.certainty-levels",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una revisión califica como «muy baja» la certeza de la evidencia para un desenlace. Según GRADE, ¿qué significa?",
+        "en": "A review rates the certainty of evidence for an outcome as “very low”. According to GRADE, what does this mean?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el efecto es muy pequeño, aunque la estimación sea precisa, y que por tanto no tiene relevancia clínica para ninguna paciente",
+            "en": "That the effect is very small, even though the estimate is precise, and therefore has no clinical relevance for any patient"
+          },
+          "correct": false,
+          "why": {
+            "es": "La certeza mide la confianza en la estimación, no el tamaño del efecto.",
+            "en": "Certainty measures confidence in the estimate, not the size of the effect."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que es probable que el efecto verdadero sea sustancialmente distinto de la estimación",
+            "en": "That the true effect is likely to be substantially different from the estimate"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la definición GRADE del nivel muy bajo.",
+            "en": "Correct: this is the GRADE definition of very low."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el estudio se hizo en muy pocas pacientes, ya que GRADE asigna la certeza solo según el tamaño de la muestra de cada estudio",
+            "en": "That the study included very few patients, since GRADE assigns certainty only according to each study’s sample size"
+          },
+          "correct": false,
+          "why": {
+            "es": "El tamaño muestral influye en la imprecisión, pero la certeza se juzga con cinco factores para bajar y tres para subir.",
+            "en": "Sample size affects imprecision, but certainty is judged with five factors for rating down and three for rating up."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que la intervención es perjudicial y está contraindicada, porque una certeza muy baja equivale a una recomendación en contra",
+            "en": "That the intervention is harmful and contraindicated, because very low certainty equals a recommendation against"
+          },
+          "correct": false,
+          "why": {
+            "es": "La certeza no es una recomendación; la fuerza se juzga por separado.",
+            "en": "Certainty is not a recommendation; strength is judged separately."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "GRADE califica la certeza de la evidencia de cada desenlace en cuatro niveles: alta, moderada, baja y muy baja. Alta significa mucha confianza en que el efecto verdadero está cerca de la estimación; muy baja, que es probable que el efecto verdadero sea sustancialmente distinto.",
+        "en": "GRADE rates the certainty of evidence for each outcome at four levels: high, moderate, low and very low. High means great confidence that the true effect lies close to the estimate; very low means the true effect is likely to be substantially different."
+      },
+      "refIds": [
+        "grade-2013-handbook",
+        "cochrane-2024-handbook-ch14"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx2-per-outcome",
+      "conceptId": "found-ev.certainty-levels",
+      "difficulty": 2,
+      "stem": {
+        "es": "Los mismos ensayos aleatorizados aportan datos de mortalidad y de calidad de vida. ¿Puede la certeza GRADE diferir entre ambos desenlaces?",
+        "en": "The same randomised trials provide data on mortality and on quality of life. Can the GRADE certainty differ between the two outcomes?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No: la certeza se asigna estudio por estudio, de modo que todos los desenlaces de un mismo ensayo comparten siempre el mismo nivel",
+            "en": "No: certainty is assigned study by study, so all outcomes from the same trial always share the same level"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE califica por desenlace y sobre el conjunto de estudios, no estudio por estudio.",
+            "en": "GRADE rates per outcome and across the body of studies, not study by study."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No: si los ensayos son aleatorizados, todos los desenlaces parten y se quedan en certeza alta sin posibilidad de bajar",
+            "en": "No: if the trials are randomised, all outcomes start and stay at high certainty with no possibility of rating down"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los ensayos parten de certeza alta, pero cada desenlace puede bajar por los cinco factores.",
+            "en": "Trials start at high certainty, but each outcome can be rated down by the five factors."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sí, pero solo si los desenlaces proceden de ensayos distintos; dentro de un mismo ensayo la certeza es necesariamente idéntica",
+            "en": "Yes, but only if the outcomes come from different trials; within the same trial certainty is necessarily identical"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE da precisamente el ejemplo contrario: dentro de los mismos ensayos, los desenlaces pueden tener certezas distintas.",
+            "en": "GRADE gives precisely the opposite example: within the same trials, outcomes can have different certainty."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sí: se califica por desenlace, y la mortalidad puede seguir en certeza alta mientras la calidad de vida queda más baja",
+            "en": "Yes: it is rated per outcome, and mortality may stay at high certainty while quality of life ends up lower"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el ejemplo del manual GRADE.",
+            "en": "Correct: this is the GRADE handbook’s example."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "GRADE califica la certeza por desenlace y sobre el conjunto de estudios, no estudio por estudio: dentro de los mismos ensayos, la mortalidad puede quedar en certeza alta y la calidad de vida en una más baja.",
+        "en": "GRADE rates certainty per outcome and across the body of studies, not study by study: within the same trials, mortality may stay at high certainty while quality of life ends up lower."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx3-expert-opinion",
+      "conceptId": "found-ev.certainty-levels",
+      "difficulty": 2,
+      "stem": {
+        "es": "En una charla se presenta la «opinión de expertos» como el nivel más bajo de la pirámide de evidencia. ¿Qué dice el manual GRADE?",
+        "en": "A talk presents “expert opinion” as the lowest level of the evidence pyramid. What does the GRADE handbook say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que la opinión de expertos no es un nivel de evidencia sino una interpretación de la evidencia, y que hay que indicar qué estudios la sustentan",
+            "en": "That expert opinion is not a level of evidence but an interpretation of evidence, and the type of studies behind it should be stated"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que señala el manual.",
+            "en": "Correct: this is what the handbook states."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que la opinión de expertos equivale a certeza moderada cuando la emite un panel internacional de más de diez especialistas reconocidos",
+            "en": "That expert opinion equals moderate certainty when it comes from an international panel of more than ten recognised specialists"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE no convierte la opinión de expertos en un nivel de certeza, sea cual sea el tamaño del panel.",
+            "en": "GRADE does not turn expert opinion into a certainty level, whatever the size of the panel."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la opinión de expertos parte de certeza baja, igual que los estudios observacionales, y puede subir si hay gradiente dosis-respuesta",
+            "en": "That expert opinion starts at low certainty, like observational studies, and can be rated up if there is a dose-response gradient"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los estudios observacionales parten de certeza baja; la opinión de expertos no es un diseño de estudio.",
+            "en": "Observational studies start at low certainty; expert opinion is not a study design."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que la opinión de expertos ocupa el nivel muy bajo, por debajo de las series de casos, y por eso nunca puede apoyar una recomendación",
+            "en": "That expert opinion occupies the very low level, below case series, and so can never support a recommendation"
+          },
+          "correct": false,
+          "why": {
+            "es": "El manual no la sitúa como un nivel; es una interpretación de la evidencia.",
+            "en": "The handbook does not place it as a level; it is an interpretation of evidence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Según el manual GRADE, la opinión de expertos no es un nivel de evidencia: es una interpretación de la evidencia, y debe indicarse el tipo de estudios que hay detrás. Los ensayos sin limitaciones importantes parten de certeza alta, los observacionales de baja, y las series de casos suelen bajar a muy baja.",
+        "en": "According to the GRADE handbook, expert opinion is not a level of evidence: it is an interpretation of evidence, and the type of studies behind it should be stated. Trials without important limitations start at high certainty, observational studies at low, and case series usually drop to very low."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx4-not-a-down-factor",
+      "conceptId": "found-ev.up-down",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Cuál de estos NO es uno de los cinco factores por los que GRADE baja la certeza?",
+        "en": "Which of these is NOT one of the five factors for which GRADE rates certainty down?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La imprecisión de la estimación, por ejemplo cuando el intervalo de confianza es amplio e incluye efectos con decisiones clínicas distintas",
+            "en": "Imprecision of the estimate, for example when the confidence interval is wide and includes effects that would lead to different decisions"
+          },
+          "correct": false,
+          "why": {
+            "es": "La imprecisión es uno de los cinco factores para bajar.",
+            "en": "Imprecision is one of the five factors for rating down."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La evidencia indirecta, por ejemplo cuando la población, la intervención o el desenlace estudiados difieren de los de la pregunta clínica",
+            "en": "Indirectness, for example when the population, intervention or outcome studied differs from those of the clinical question"
+          },
+          "correct": false,
+          "why": {
+            "es": "La evidencia indirecta es uno de los cinco factores para bajar.",
+            "en": "Indirectness is one of the five factors for rating down."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un efecto de gran magnitud",
+            "en": "A large magnitude of effect"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es uno de los tres factores para subir la certeza.",
+            "en": "Correct: it is one of the three factors for rating certainty up."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La inconsistencia entre estudios, es decir, cuando los resultados de los distintos estudios varían de forma importante sin explicación",
+            "en": "Inconsistency between studies, that is, when the results of different studies vary importantly without explanation"
+          },
+          "correct": false,
+          "why": {
+            "es": "La inconsistencia es uno de los cinco factores para bajar.",
+            "en": "Inconsistency is one of the five factors for rating down."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Cinco factores pueden bajar la certeza uno o dos niveles: riesgo de sesgo, inconsistencia, evidencia indirecta, imprecisión y sesgo de publicación. Tres pueden subirla: efecto de gran magnitud, gradiente dosis-respuesta y que toda la confusión plausible haya reducido el efecto observado.",
+        "en": "Five factors can lower certainty by one or two levels: risk of bias, inconsistency, indirectness, imprecision and publication bias. Three can raise it: a large magnitude of effect, a dose-response gradient, and all plausible confounding having reduced the observed effect."
+      },
+      "refIds": [
+        "grade-2013-handbook",
+        "cochrane-2024-handbook-ch14"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx5-rating-up-observational",
+      "conceptId": "found-ev.up-down",
+      "difficulty": 2,
+      "stem": {
+        "es": "Varios estudios observacionales sin sesgos evidentes muestran un efecto muy grande y un gradiente dosis-respuesta. ¿Qué permite GRADE?",
+        "en": "Several observational studies with no obvious bias show a very large effect and a dose-response gradient. What does GRADE allow?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Nada: los estudios observacionales quedan siempre en certeza baja, porque solo los ensayos aleatorizados pueden alcanzar certeza moderada o alta",
+            "en": "Nothing: observational studies always remain at low certainty, because only randomised trials can reach moderate or high certainty"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los factores para subir se aplican sobre todo a estudios no aleatorizados, que pueden alcanzar certeza moderada o incluso alta.",
+            "en": "The rating-up factors apply mainly to non-randomised studies, which can reach moderate or even high certainty."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Subir la certeza, que con efectos grandes y sin sesgo evidente puede llegar a moderada o incluso alta",
+            "en": "Rate certainty up, which with large effects and no obvious bias can reach moderate or even high"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el efecto grande y la dosis-respuesta son factores para subir.",
+            "en": "Correct: a large effect and dose-response are rating-up factors."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Tratarlos como ensayos aleatorizados desde el principio, porque un efecto grande demuestra por sí solo que no hay confusión",
+            "en": "Treat them as randomised trials from the outset, because a large effect proves by itself that there is no confounding"
+          },
+          "correct": false,
+          "why": {
+            "es": "No parten como ensayos; se suben desde su nivel de partida mediante juicio explícito.",
+            "en": "They do not start as trials; they are rated up from their starting level through explicit judgement."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Bajarlos a muy baja certeza, porque un efecto muy grande en estudios observacionales indica casi siempre un sesgo de publicación",
+            "en": "Rate them down to very low certainty, because a very large effect in observational studies almost always indicates publication bias"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un efecto grande sin sesgo evidente es motivo para subir, no para bajar.",
+            "en": "A large effect without obvious bias is a reason to rate up, not down."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los factores para subir la certeza (efecto grande, dosis-respuesta y confusión que reduciría el efecto) se aplican sobre todo a estudios no aleatorizados: con efectos grandes y sin sesgo evidente, pueden alcanzar certeza moderada o incluso alta (Cochrane, cap. 14).",
+        "en": "The rating-up factors (large effect, dose-response and confounding that would reduce the effect) apply mainly to non-randomised studies: with large effects and no obvious bias, they can reach moderate or even high certainty (Cochrane, ch. 14)."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch14",
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx6-not-mechanical",
+      "conceptId": "found-ev.up-down",
+      "difficulty": 3,
+      "stem": {
+        "es": "Un cuerpo de evidencia tiene dudas menores sobre el riesgo de sesgo, la inconsistencia y la imprecisión, ninguna grave por sí sola. ¿Qué indica el manual GRADE?",
+        "en": "A body of evidence has minor concerns about risk of bias, inconsistency and imprecision, none serious on its own. What does the GRADE handbook indicate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Bajar automáticamente tres niveles, uno por cada factor con dudas, sin necesidad de juicio, porque GRADE aplicaría una regla fija por factor",
+            "en": "Rate down three levels automatically, one per factor with concerns, with no need for judgement, because GRADE would apply a fixed rule per factor"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE no es un sistema cuantitativo: cada factor es un continuo y exige un juicio explícito, aunque los factores se acumulan.",
+            "en": "GRADE is not a quantitative system: each factor is a continuum and requires explicit judgement, although the factors are cumulative."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "No bajar ningún nivel, porque solo los problemas graves cuentan y las dudas menores se ignoran por completo en la calificación",
+            "en": "Rate down no levels, because only serious problems count and minor concerns are completely ignored in the rating"
+          },
+          "correct": false,
+          "why": {
+            "es": "Las dudas menores sobre varios factores pueden justificar bajar un nivel.",
+            "en": "Minor concerns about several factors can justify rating down one level."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Excluir del análisis los estudios con dudas y calificar solo los restantes, sin necesidad de explicar la decisión",
+            "en": "Exclude the studies with concerns from the analysis and rate only the remaining ones, with no need to explain the decision"
+          },
+          "correct": false,
+          "why": {
+            "es": "El manual no propone excluir estudios; pide que el juicio sea explícito y transparente.",
+            "en": "The handbook does not propose excluding studies; it asks for the judgement to be explicit and transparent."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Bajar un nivel por uno o dos de esos factores y explicarlo en una nota al pie, porque cada factor es un continuo que requiere juicio",
+            "en": "Rate down one level for one or two of those factors and explain it in a footnote, because each factor is a continuum that requires judgement"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: el mérito de GRADE es que el juicio sea explícito.",
+            "en": "Correct: GRADE’s merit is that the judgement is explicit."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "GRADE no es un sistema cuantitativo: cada factor es un continuo que requiere juicio, y su mérito es que el juicio sea explícito y transparente. Con dudas menores sobre varios factores, los autores pueden bajar un nivel por uno o dos de ellos y explicarlo en una nota al pie.",
+        "en": "GRADE is not a quantitative system: each factor is a continuum that requires judgement, and its merit is that the judgement is explicit and transparent. With minor concerns about several factors, authors may rate down one level for one or two of them and explain it in a footnote."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx7-conditional-meaning",
+      "conceptId": "found-ev.strength-vs-certainty",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una guía formula una recomendación débil (condicional) a favor de un tratamiento. ¿Cómo debes interpretarla en consulta?",
+        "en": "A guideline issues a weak (conditional) recommendation in favour of a treatment. How should you interpret it in clinic?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "La mayoría de las personas querría la opción, pero muchas no, y cada paciente necesita ayuda para decidir según sus valores",
+            "en": "Most people would want the option but many would not, and each patient needs help to decide in line with her values"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: por eso las recomendaciones débiles requieren más tiempo de decisión compartida.",
+            "en": "Correct: that is why weak recommendations require more time for shared decision making."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el tratamiento no funciona y la guía lo menciona solo por cortesía, de modo que no conviene ofrecerlo a ninguna paciente",
+            "en": "That the treatment does not work and the guideline mentions it only out of courtesy, so it should not be offered to any patient"
+          },
+          "correct": false,
+          "why": {
+            "es": "Una recomendación débil a favor no significa ineficacia; significa que la elección depende de los valores.",
+            "en": "A weak recommendation in favour does not mean inefficacy; it means the choice depends on values."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la evidencia es necesariamente de certeza baja o muy baja, porque con certeza alta todas las recomendaciones son fuertes",
+            "en": "That the evidence is necessarily of low or very low certainty, because with high certainty all recommendations are strong"
+          },
+          "correct": false,
+          "why": {
+            "es": "Puede haber recomendaciones débiles con evidencia de certeza alta.",
+            "en": "There can be weak recommendations with high-certainty evidence."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que debe aplicarse a todas las pacientes sin excepción, igual que una recomendación fuerte, pero con un nivel de evidencia algo menor",
+            "en": "That it must be applied to every patient without exception, like a strong one, but with a somewhat lower evidence level"
+          },
+          "correct": false,
+          "why": {
+            "es": "Eso no describe una recomendación débil, e incluso una fuerte no debe aplicarse de forma mecánica.",
+            "en": "That does not describe a weak recommendation, and even a strong one should not be applied by rote."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Las recomendaciones débiles, también llamadas condicionales, indican que la mayoría querría la opción pero muchas personas no, y que cada paciente necesita ayuda para decidir según sus valores; una recomendación fuerte significa que la mayoría debería recibirla. La fuerza depende de la certeza, el balance de beneficios y daños, los valores y preferencias y el uso de recursos.",
+        "en": "Weak recommendations, also called conditional, mean that most people would want the option but many would not, and each patient needs help to decide in line with her values; a strong recommendation means most people should receive it. Strength depends on certainty, the balance of benefits and harms, values and preferences, and resource use."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx8-paradigmatic",
+      "conceptId": "found-ev.strength-vs-certainty",
+      "difficulty": 3,
+      "stem": {
+        "es": "Según el manual GRADE, ¿cuándo es aceptable una recomendación fuerte con certeza baja o muy baja?",
+        "en": "According to the GRADE handbook, when is a strong recommendation with low or very low certainty acceptable?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Siempre que el panel esté de acuerdo por unanimidad, porque la unanimidad compensa la falta de evidencia",
+            "en": "Whenever the panel agrees unanimously, because unanimity makes up for the lack of evidence"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE la desaconseja salvo en situaciones paradigmáticas concretas, no por unanimidad.",
+            "en": "GRADE discourages it except in specific paradigmatic situations, not because of unanimity."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Nunca: GRADE prohíbe combinar fuerza alta con certeza baja, y cualquier guía que lo haga incumple el sistema",
+            "en": "Never: GRADE forbids combining strong strength with low certainty, and any guideline that does so breaks the system"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE lo desaconseja, pero lo admite excepcionalmente en cinco situaciones paradigmáticas.",
+            "en": "GRADE discourages it but exceptionally admits it in five paradigmatic situations."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Excepcionalmente, en cinco situaciones paradigmáticas, por ejemplo un posible beneficio en una situación de riesgo vital o un posible daño catastrófico",
+            "en": "Exceptionally, in five paradigmatic situations, for example a possible benefit in a life-threatening situation or possible catastrophic harm"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: GRADE la desaconseja fuera de esas situaciones.",
+            "en": "Correct: GRADE discourages it outside those situations."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cuando el tratamiento es barato y está muy disponible, porque el coste bajo convierte cualquier recomendación en fuerte",
+            "en": "When the treatment is cheap and widely available, because low cost turns any recommendation into a strong one"
+          },
+          "correct": false,
+          "why": {
+            "es": "El uso de recursos influye en la fuerza, pero no convierte por sí solo una recomendación en fuerte.",
+            "en": "Resource use influences strength, but does not by itself make a recommendation strong."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "GRADE juzga la fuerza por separado de la certeza: puede haber recomendaciones débiles con certeza alta y, excepcionalmente, fuertes con certeza baja o muy baja, algo que desaconseja salvo en cinco situaciones paradigmáticas (por ejemplo, posible beneficio en una situación de riesgo vital o posible daño catastrófico).",
+        "en": "GRADE judges strength separately from certainty: there can be weak recommendations with high certainty and, exceptionally, strong ones with low or very low certainty, which it discourages except in five paradigmatic situations (for example, possible benefit in a life-threatening situation or possible catastrophic harm)."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx9-eshre-auto-very-low",
+      "conceptId": "found-ev.strength-vs-certainty",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la guía ESHRE 2023 de infertilidad inexplicada, ¿cuándo se califica automáticamente la evidencia como «muy baja (+OOO)»?",
+        "en": "In the 2023 ESHRE unexplained infertility guideline, when is evidence automatically graded as “very low (+OOO)”?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Cuando los ensayos incluyen menos de 100 pacientes por grupo, porque la guía considera que por debajo de ese tamaño la estimación es imprecisa",
+            "en": "When trials include fewer than 100 patients per arm, because the guideline considers estimates imprecise below that size"
+          },
+          "correct": false,
+          "why": {
+            "es": "La guía no usa ese umbral; la calificación automática depende de que no haya estudios específicos.",
+            "en": "The guideline uses no such threshold; the automatic grading depends on the absence of specific studies."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Cuando no hay estudios específicos de infertilidad inexplicada",
+            "en": "When there are no studies specific to unexplained infertility"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: por eso conviene leer la justificación de cada recomendación.",
+            "en": "Correct: that is why each recommendation’s justification is worth reading."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Cuando la recomendación es condicional, porque la ESHRE asigna muy baja certeza a todas sus recomendaciones condicionales",
+            "en": "When the recommendation is conditional, because ESHRE assigns very low certainty to all its conditional recommendations"
+          },
+          "correct": false,
+          "why": {
+            "es": "Fuerza y certeza se juzgan por separado; hay recomendaciones fuertes con ⊕.",
+            "en": "Strength and certainty are judged separately; there are strong recommendations with ⊕."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Cuando el panel decide emitir un punto de buena práctica, que en la ESHRE equivale a evidencia muy baja procedente de ensayos",
+            "en": "When the panel issues a good practice point, which in ESHRE equals very low evidence from trials"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un GPP se basa sobre todo en opinión de expertos, no en ensayos de certeza muy baja.",
+            "en": "A GPP rests mainly on expert opinion, not on very-low-certainty trials."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La ESHRE usa la misma lectura de «fuerte» y «condicional» que GRADE y califica automáticamente la evidencia como muy baja (+OOO) cuando no hay estudios específicos de infertilidad inexplicada; por eso, ante una recomendación «fuerte con ⊕», conviene leer la justificación.",
+        "en": "ESHRE uses the same reading of “strong” and “conditional” as GRADE and automatically grades evidence as very low (+OOO) when there are no studies specific to unexplained infertility; so, faced with a “strong with ⊕” recommendation, read the justification."
+      },
+      "refIds": [
+        "eshre-2023-unexplained-infertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx10-nams-level-iii",
+      "conceptId": "found-ev.other-scales",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una recomendación de la NAMS 2022 lleva el nivel III y otra de la ESHRE lleva la etiqueta GPP. ¿Qué tienen en común?",
+        "en": "A NAMS 2022 recommendation carries Level III and an ESHRE one carries the label GPP. What do they have in common?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Ambas indican evidencia científica buena y consistente procedente de ensayos aleatorizados de gran tamaño",
+            "en": "Both indicate good and consistent scientific evidence from large randomised trials"
+          },
+          "correct": false,
+          "why": {
+            "es": "Eso es el nivel I de la NAMS; el nivel III y el GPP se basan sobre todo en consenso u opinión de expertos.",
+            "en": "That is NAMS Level I; Level III and GPP rest mainly on consensus or expert opinion."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Ambas indican evidencia limitada o inconsistente, equivalente al nivel II de la NAMS y a la certeza moderada de GRADE",
+            "en": "Both indicate limited or inconsistent evidence, equivalent to NAMS Level II and to GRADE moderate certainty"
+          },
+          "correct": false,
+          "why": {
+            "es": "El nivel II de la NAMS es evidencia limitada o inconsistente; el III es consenso y opinión de expertos.",
+            "en": "NAMS Level II is limited or inconsistent evidence; Level III is consensus and expert opinion."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Ambas son recomendaciones fuertes con certeza alta, porque las dos escalas usan la misma leyenda que GRADE",
+            "en": "Both are strong recommendations with high certainty, because the two scales use the same legend as GRADE"
+          },
+          "correct": false,
+          "why": {
+            "es": "Cada organización usa su propia leyenda; GRADE advierte de que letras y números varían mucho.",
+            "en": "Each organisation uses its own legend; GRADE warns that letters and numbers vary widely."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Ambas se basan principalmente en consenso y opinión de expertos",
+            "en": "Both rest mainly on consensus and expert opinion"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: útiles, pero no equivalen a evidencia de ensayos.",
+            "en": "Correct: useful, but not equivalent to trial evidence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "En la ESHRE, GPP (punto de buena práctica) marca una recomendación basada principalmente en opinión de expertos. La NAMS 2022 gradúa: I, evidencia científica buena y consistente; II, limitada o inconsistente; III, principalmente consenso y opinión de expertos. GRADE advierte de que el uso de letras y números varía mucho entre organizaciones.",
+        "en": "In ESHRE, GPP (good practice point) marks a recommendation based mainly on expert opinion. NAMS 2022 grades: I, good and consistent scientific evidence; II, limited or inconsistent; III, mainly consensus and expert opinion. GRADE warns that the use of letters and numbers varies widely between organisations."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy",
+        "eshre-2023-unexplained-infertility"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx11-addons-38-of-42",
+      "conceptId": "found-ev.other-scales",
+      "difficulty": 2,
+      "stem": {
+        "es": "La guía ESHRE 2023 de add-ons tiene 42 recomendaciones: ninguna con evidencia de calidad alta y solo 4 con calidad moderada. ¿Qué porcentaje se apoya en evidencia de menor calidad, experiencia o consenso?",
+        "en": "The 2023 ESHRE add-ons guideline has 42 recommendations: none on high-quality evidence and only 4 on moderate quality. What percentage relies on lower-quality evidence, experience or consensus?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "38 de 42 = 90,5% (alrededor del 90%), aunque el resumen de la guía dice 95%",
+            "en": "38 of 42 = 90.5% (about 90%), although the guideline’s abstract says 95%"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 42 − 4 = 38; 38 ÷ 42 = 0,905.",
+            "en": "Correct: 42 − 4 = 38; 38 ÷ 42 = 0.905."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "4 de 42 = 9,5%, porque el porcentaje se calcula con las recomendaciones de calidad moderada, que son las que aportan evidencia",
+            "en": "4 of 42 = 9.5%, because the percentage is calculated from the moderate-quality recommendations, which are the ones that provide evidence"
+          },
+          "correct": false,
+          "why": {
+            "es": "9,5% es la proporción con calidad moderada; la pregunta pide el resto.",
+            "en": "9.5% is the moderate-quality share; the question asks for the rest."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "38 de 42 = 95%, la cifra exacta del resumen, que coincide con el recuento de la tabla de recomendaciones",
+            "en": "38 of 42 = 95%, the exact figure from the abstract, which matches the count in the recommendations table"
+          },
+          "correct": false,
+          "why": {
+            "es": "38 ÷ 42 es 90,5%, no 95%; el resumen da una cifra que no cuadra con el recuento.",
+            "en": "38 ÷ 42 is 90.5%, not 95%; the abstract gives a figure that does not match the count."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "42 de 42 = 100%, porque la evidencia de calidad moderada también se considera insuficiente y se suma a las demás",
+            "en": "42 of 42 = 100%, because moderate-quality evidence is also considered insufficient and is added to the rest"
+          },
+          "correct": false,
+          "why": {
+            "es": "Las 4 de calidad moderada no se cuentan entre las de menor calidad.",
+            "en": "The 4 moderate-quality ones are not counted among the lower-quality ones."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "42 − 4 = 38 recomendaciones se apoyan en ensayos de baja calidad, datos observacionales, experiencia profesional o consenso: 38 ÷ 42 = 0,905, es decir, alrededor del 90% (comprobación: 0,905 × 42 ≈ 38). El resumen de la guía da un 95%, cifra que no cuadra con el recuento.",
+        "en": "42 − 4 = 38 recommendations rely on low-quality trials, observational data, professional experience or consensus: 38 ÷ 42 = 0.905, that is, about 90% (check: 0.905 × 42 ≈ 38). The guideline’s abstract gives 95%, a figure that does not match the count."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx12-not-recommended-phrase",
+      "conceptId": "found-ev.other-scales",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la guía ESHRE 2023 de add-ons, ¿qué distingue «no recomendado» de «actualmente no recomendado para uso clínico rutinario»?",
+        "en": "In the 2023 ESHRE add-ons guideline, what distinguishes “not recommended” from “currently not recommended for routine clinical use”?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Nada: son dos formas de redactar la misma categoría, y la guía las usa de manera intercambiable según el capítulo",
+            "en": "Nothing: they are two ways of wording the same category, and the guideline uses them interchangeably by chapter"
+          },
+          "correct": false,
+          "why": {
+            "es": "Son dos de las cuatro frases fijas, con significados distintos.",
+            "en": "They are two of the four fixed phrases, with different meanings."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "«No recomendado» significa que puede aplicarse tras una discusión detallada de beneficios y riesgos, con seguimiento estrecho",
+            "en": "“Not recommended” means it can be applied after a thorough discussion of benefits and risks, with close monitoring"
+          },
+          "correct": false,
+          "why": {
+            "es": "Eso describe «puede considerarse».",
+            "en": "That describes “can be considered”."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "«No recomendado» se usa por seguridad, falta de eficacia o falta de base biológica (solo investigación); la otra frase puede cambiar con más evidencia",
+            "en": "“Not recommended” is used for safety, lack of efficacy or lack of biological rationale (research only); the other phrase may change with more evidence"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son las definiciones de la tabla 1 de la guía.",
+            "en": "Correct: these are the definitions in the guideline’s table 1."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "«Actualmente no recomendado» es la categoría más restrictiva y prohíbe su uso incluso en investigación, al contrario que «no recomendado»",
+            "en": "“Currently not recommended” is the most restrictive category and forbids use even in research, unlike “not recommended”"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: «no recomendado» limita el uso al ámbito de la investigación.",
+            "en": "It is the reverse: “not recommended” limits use to research settings."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La guía ESHRE 2023 de add-ons usa cuatro frases fijas: «recomendado» (aplicable a la mayoría), «puede considerarse» (tras discusión detallada de beneficios y riesgos y con seguimiento estrecho), «actualmente no recomendado para uso clínico rutinario» (puede cambiar con más evidencia) y «no recomendado» (por seguridad, falta de eficacia o de base biológica; solo en investigación).",
+        "en": "The 2023 ESHRE add-ons guideline uses four fixed phrases: “recommended” (applicable to most patients), “can be considered” (after a thorough discussion of benefits and risks and with close monitoring), “currently not recommended for routine clinical use” (may change with more evidence) and “not recommended” (for safety, lack of efficacy or lack of biological rationale; research settings only)."
+      },
+      "refIds": [
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx13-12-of-67",
+      "conceptId": "found-ev.surrogate",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la revisión Cochrane 2022 de antioxidantes en varones subfértiles, el desenlace principal era el nacido vivo, pero solo 12 de los 67 estudios del metaanálisis lo informaron. ¿Qué proporción es y qué implica?",
+        "en": "In the 2022 Cochrane review of antioxidants in subfertile men, the primary outcome was live birth, but only 12 of the 67 studies in the meta-analysis reported it. What proportion is this, and what does it imply?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Un 82,1%, de modo que casi todos los estudios midieron el desenlace importante y los parámetros seminales fueron secundarios",
+            "en": "82.1%, so almost all studies measured the important outcome and semen parameters were secondary"
+          },
+          "correct": false,
+          "why": {
+            "es": "82,1% es la proporción que no lo informó (55 de 67), no la que sí.",
+            "en": "82.1% is the share that did not report it (55 of 67), not the share that did."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Un 12%, porque el porcentaje coincide con el número de estudios cuando el total se aproxima a 100",
+            "en": "12%, because the percentage matches the number of studies when the total is close to 100"
+          },
+          "correct": false,
+          "why": {
+            "es": "El denominador es 67, no 100: 12 ÷ 67 = 17,9%.",
+            "en": "The denominator is 67, not 100: 12 ÷ 67 = 17.9%."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un 5,6%, que se obtiene dividiendo 67 entre 12 y expresándolo como porcentaje del total de ensayos",
+            "en": "5.6%, obtained by dividing 67 by 12 and expressing it as a percentage of all trials"
+          },
+          "correct": false,
+          "why": {
+            "es": "67 ÷ 12 = 5,58 es un cociente, no una proporción; la proporción es 12 ÷ 67.",
+            "en": "67 ÷ 12 = 5.58 is a ratio, not a proportion; the proportion is 12 ÷ 67."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Un 17,9% (12 ÷ 67): la mayoría de los estudios no informó el nacido vivo (solo 20 informaron embarazo clínico) y se centró en parámetros seminales, que son desenlaces sustitutos",
+            "en": "17.9% (12 ÷ 67): most studies did not report live birth (only 20 reported clinical pregnancy) and focused on semen parameters, which are surrogate outcomes"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 12 ÷ 67 = 0,179.",
+            "en": "Correct: 12 ÷ 67 = 0.179."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "12 ÷ 67 = 0,179 (17,9%); 55 de 67 (82,1%) no informaron nacidos vivos (comprobación: 17,9% + 82,1% = 100%). Con esos 12 ensayos, los antioxidantes podrían aumentar los nacidos vivos (OR 1,43; certeza muy baja), pero sin los estudios de alto riesgo de sesgo ya no había evidencia de aumento. La ESHRE señala que muchos estudios de antioxidantes usaron parámetros seminales o la fragmentación del ADN como desenlaces sustitutos.",
+        "en": "12 ÷ 67 = 0.179 (17.9%); 55 of 67 (82.1%) did not report live births (check: 17.9% + 82.1% = 100%). With those 12 trials, antioxidants may increase live births (OR 1.43; very low certainty), but without the studies at high risk of bias there was no longer evidence of an increase. ESHRE notes that many antioxidant studies used semen parameters or DNA fragmentation as surrogate outcomes."
+      },
+      "refIds": [
+        "deligny-2022-cochrane-male-antioxidants"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "supplements",
+        "reproduction"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx14-surrogate-downgrade",
+      "conceptId": "found-ev.surrogate",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un ensayo de un suplemento solo mide la fragmentación del ADN espermático, sin datos de embarazo ni de nacido vivo. Según GRADE, ¿cómo afecta esto a la certeza?",
+        "en": "A trial of a supplement measures only sperm DNA fragmentation, with no pregnancy or live birth data. According to GRADE, how does this affect certainty?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "No la afecta, porque la fragmentación del ADN es un marcador biológico validado que GRADE equipara al nacido vivo",
+            "en": "It does not affect it, because DNA fragmentation is a validated biomarker that GRADE treats as equivalent to live birth"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE pide usar sustitutos solo si faltan datos de desenlaces importantes, y suelen bajar la certeza.",
+            "en": "GRADE asks for surrogates to be used only when data on important outcomes are lacking, and they usually lower certainty."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Suele bajarla uno o dos niveles por evidencia indirecta, dos si el sustituto está lejos en la cadena causal",
+            "en": "It usually lowers it by one or two levels for indirectness, two if the surrogate is far removed in the causal pathway"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es lo que indica el manual GRADE.",
+            "en": "Correct: this is what the GRADE handbook indicates."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "La sube un nivel, porque los desenlaces de laboratorio se miden con más precisión que los clínicos y reducen la imprecisión",
+            "en": "It raises it by one level, because laboratory outcomes are measured more precisely than clinical ones and reduce imprecision"
+          },
+          "correct": false,
+          "why": {
+            "es": "Usar un sustituto se penaliza por evidencia indirecta; no es un factor para subir.",
+            "en": "Using a surrogate is penalised for indirectness; it is not a rating-up factor."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "La baja tres niveles por riesgo de sesgo, porque cualquier estudio que use un desenlace sustituto se considera sesgado",
+            "en": "It lowers it by three levels for risk of bias, because any study using a surrogate outcome is considered biased"
+          },
+          "correct": false,
+          "why": {
+            "es": "El motivo es la evidencia indirecta, y la bajada es de uno o dos niveles.",
+            "en": "The reason is indirectness, and the downgrade is one or two levels."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "GRADE indica que los desenlaces sustitutos solo deben usarse cuando faltan datos de desenlaces importantes y que suelen bajar la certeza uno o dos niveles por evidencia indirecta (dos cuando el sustituto está lejos en la cadena causal). La ESHRE señala que muchos estudios de antioxidantes usaron parámetros seminales o el índice de fragmentación como parámetros de éxito en lugar de la tasa de embarazo.",
+        "en": "GRADE says surrogate outcomes should be used only when data on important outcomes are lacking and that they usually lower certainty by one or two levels for indirectness (two when the surrogate is far removed in the causal pathway). ESHRE notes that many antioxidant studies used semen parameters or the fragmentation index as success parameters rather than pregnancy rate."
+      },
+      "refIds": [
+        "grade-2013-handbook",
+        "eshre-2023-addons"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx15-calc-80-90",
+      "conceptId": "found-ev.sens-spec",
+      "difficulty": 2,
+      "stem": {
+        "es": "Ejercicio numérico: una prueba se compara con el patrón de referencia en 200 mujeres. De las 50 con la enfermedad, 40 dan positivo; de las 150 sin ella, 135 dan negativo. ¿Cuáles son la sensibilidad y la especificidad?",
+        "en": "Numerical exercise: a test is compared with the reference standard in 200 women. Of the 50 with the disease, 40 test positive; of the 150 without it, 135 test negative. What are the sensitivity and specificity?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Sensibilidad 90% y especificidad 80%, porque la sensibilidad se calcula con las sanas que dan negativo y la especificidad con las enfermas",
+            "en": "Sensitivity 90% and specificity 80%, because sensitivity uses the healthy women who test negative and specificity the diseased women"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte los conceptos: sensibilidad = 40/50 y especificidad = 135/150.",
+            "en": "It reverses the concepts: sensitivity = 40/50 and specificity = 135/150."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sensibilidad 72,7% y especificidad 93,1%, que resultan de dividir los verdaderos positivos y negativos entre el total de resultados de cada signo",
+            "en": "Sensitivity 72.7% and specificity 93.1%, obtained by dividing true positives and negatives by all results of each sign"
+          },
+          "correct": false,
+          "why": {
+            "es": "Esos son el VPP (40/55) y el VPN (135/145), no la sensibilidad y la especificidad.",
+            "en": "These are the PPV (40/55) and NPV (135/145), not sensitivity and specificity."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Sensibilidad 80% (40/50) y especificidad 90% (135/150)",
+            "en": "Sensitivity 80% (40/50) and specificity 90% (135/150)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 40 ÷ 50 = 0,80 y 135 ÷ 150 = 0,90.",
+            "en": "Correct: 40 ÷ 50 = 0.80 and 135 ÷ 150 = 0.90."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Sensibilidad 20% y especificidad 67,5%, porque se divide cada grupo entre el total de 200 mujeres estudiadas",
+            "en": "Sensitivity 20% and specificity 67.5%, because each group is divided by the total of 200 women studied"
+          },
+          "correct": false,
+          "why": {
+            "es": "40/200 y 135/200 usan el denominador equivocado; la sensibilidad usa a las enfermas y la especificidad a las sanas.",
+            "en": "40/200 and 135/200 use the wrong denominator; sensitivity uses the diseased and specificity the healthy."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Sensibilidad = verdaderos positivos ÷ enfermas = 40 ÷ 50 = 80%. Especificidad = verdaderos negativos ÷ sanas = 135 ÷ 150 = 90%. Hay 15 falsos positivos y 10 falsos negativos; el VPP sería 40 ÷ 55 = 72,7% y el VPN 135 ÷ 145 = 93,1%.",
+        "en": "Sensitivity = true positives ÷ diseased = 40 ÷ 50 = 80%. Specificity = true negatives ÷ healthy = 135 ÷ 150 = 90%. There are 15 false positives and 10 false negatives; PPV would be 40 ÷ 55 = 72.7% and NPV 135 ÷ 145 = 93.1%."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-1"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx16-snnout",
+      "conceptId": "found-ev.sens-spec",
+      "difficulty": 1,
+      "stem": {
+        "es": "Una prueba muy sensible da negativo en una paciente. ¿Qué se concluye según la regla SnNOut?",
+        "en": "A highly sensitive test is negative in a patient. What follows from the SnNOut rule?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el resultado negativo casi descarta la enfermedad, porque una prueba muy sensible rara vez es negativa en quien la tiene",
+            "en": "That the negative result almost rules out the disease, because a highly sensitive test is rarely negative in someone who has it"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: SnNOut = sensible, negativo, descarta.",
+            "en": "Correct: SnNOut = sensitive, negative, rules out."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el resultado negativo confirma la enfermedad, porque las pruebas muy sensibles detectan incluso los casos que no tienen síntomas",
+            "en": "That the negative result confirms the disease, because highly sensitive tests detect even the cases that have no symptoms"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un negativo no confirma la enfermedad; con alta sensibilidad, la descarta.",
+            "en": "A negative does not confirm disease; with high sensitivity, it rules it out."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que hay que repetir la prueba, porque solo la especificidad permite interpretar un resultado negativo en cualquier circunstancia",
+            "en": "That the test must be repeated, because only specificity allows a negative result to be interpreted in any circumstance"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es la alta especificidad la que da valor a un positivo (SpPIn); la sensibilidad da valor al negativo.",
+            "en": "It is high specificity that gives value to a positive (SpPIn); sensitivity gives value to the negative."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el resultado no aporta nada, porque la sensibilidad solo sirve para interpretar los resultados positivos de la prueba",
+            "en": "That the result adds nothing, because sensitivity is only useful for interpreting positive results"
+          },
+          "correct": false,
+          "why": {
+            "es": "Al revés: una sensibilidad alta da valor a un resultado negativo.",
+            "en": "The reverse: high sensitivity gives value to a negative result."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Una prueba muy sensible casi nunca es negativa en quien tiene la enfermedad, así que un negativo casi la descarta (SnNOut); una muy específica casi nunca es positiva en quien no la tiene, así que un positivo casi la confirma (SpPIn). La sensibilidad y la especificidad tienen una limitación: parten de saber quién está enfermo, mientras que en la consulta se parte del resultado de la prueba.",
+        "en": "A highly sensitive test is hardly ever negative in someone with the disease, so a negative result almost rules it out (SnNOut); a highly specific test is hardly ever positive in someone without it, so a positive result almost rules it in (SpPIn). Sensitivity and specificity have a limitation: they start from knowing who is ill, whereas in clinic one starts from the test result."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-1"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx17-ppv-5pct",
+      "conceptId": "found-ev.predictive-values",
+      "difficulty": 3,
+      "stem": {
+        "es": "Ejercicio numérico: una prueba con sensibilidad 80% y especificidad 90% se aplica a 1000 mujeres con una prevalencia del 5%. ¿Cuál es el VPP?",
+        "en": "Numerical exercise: a test with 80% sensitivity and 90% specificity is applied to 1000 women at 5% prevalence. What is the PPV?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "80%, porque el valor predictivo positivo coincide siempre con la sensibilidad de la prueba, sea cual sea la prevalencia",
+            "en": "80%, because the positive predictive value always equals the test’s sensitivity, whatever the prevalence"
+          },
+          "correct": false,
+          "why": {
+            "es": "El VPP no es la sensibilidad y depende de la prevalencia.",
+            "en": "PPV is not sensitivity and depends on prevalence."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "29,6%: 40 verdaderos positivos de 135 positivos (40 + 95 falsos positivos)",
+            "en": "29.6%: 40 true positives out of 135 positives (40 + 95 false positives)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 40 ÷ 135 = 0,296.",
+            "en": "Correct: 40 ÷ 135 = 0.296."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "98,8%, porque con una prevalencia baja casi todos los resultados positivos corresponden a mujeres realmente enfermas",
+            "en": "98.8%, because at low prevalence almost all positive results belong to women who are truly ill"
+          },
+          "correct": false,
+          "why": {
+            "es": "98,8% es el VPN (855 ÷ 865); con prevalencia baja, la mayoría de los positivos son falsos.",
+            "en": "98.8% is the NPV (855 ÷ 865); at low prevalence, most positives are false."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "4%, que se obtiene multiplicando la prevalencia del 5% por la sensibilidad del 80% y expresándolo como porcentaje",
+            "en": "4%, obtained by multiplying the 5% prevalence by the 80% sensitivity and expressing it as a percentage"
+          },
+          "correct": false,
+          "why": {
+            "es": "5% × 80% = 4% es la proporción de verdaderos positivos sobre el total (40/1000), no el VPP.",
+            "en": "5% × 80% = 4% is the share of true positives in the whole population (40/1000), not the PPV."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Enfermas: 5% de 1000 = 50; verdaderos positivos 0,80 × 50 = 40; falsos negativos 10. Sanas: 950; verdaderos negativos 0,90 × 950 = 855; falsos positivos 95. VPP = 40 ÷ (40 + 95) = 40 ÷ 135 = 29,6%; VPN = 855 ÷ 865 = 98,8%. Con probabilidad preprueba baja, incluso una prueba buena da un VPP bajo.",
+        "en": "Diseased: 5% of 1000 = 50; true positives 0.80 × 50 = 40; false negatives 10. Healthy: 950; true negatives 0.90 × 950 = 855; false positives 95. PPV = 40 ÷ (40 + 95) = 40 ÷ 135 = 29.6%; NPV = 855 ÷ 865 = 98.8%. With a low pre-test probability, even a good test gives a low PPV."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-1"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx18-npv-prevalence",
+      "conceptId": "found-ev.predictive-values",
+      "difficulty": 2,
+      "stem": {
+        "es": "En el ejemplo docente del dímero D (sensibilidad 70% y especificidad 85,6%, es decir, 7/10 y 77/90), ¿qué le ocurre al VPN cuando la prevalencia sube del 1% al 30%?",
+        "en": "In the D-dimer teaching example (sensitivity 70% and specificity 85.6%, that is, 7/10 and 77/90), what happens to the NPV when prevalence rises from 1% to 30%?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Se mantiene constante en el 85,6%, porque el VPN es igual a la especificidad y no depende de la población estudiada",
+            "en": "It stays constant at 85.6%, because NPV equals specificity and does not depend on the population tested"
+          },
+          "correct": false,
+          "why": {
+            "es": "El VPN no es la especificidad y cambia con la prevalencia.",
+            "en": "NPV is not specificity and changes with prevalence."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Sube del 86,9% al 99,6%, porque cuantas más personas enfermas hay, más fiable es un resultado negativo",
+            "en": "It rises from 86.9% to 99.6%, because the more people are ill, the more reliable a negative result becomes"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte el sentido: con más prevalencia, el VPN baja.",
+            "en": "It reverses the direction: with higher prevalence, NPV falls."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Pasa del 4,7% al 67,5%, igual que el VPP, porque ambos valores predictivos suben juntos con la prevalencia",
+            "en": "It goes from 4.7% to 67.5%, like the PPV, because both predictive values rise together with prevalence"
+          },
+          "correct": false,
+          "why": {
+            "es": "Esas son las cifras del VPP; el VPN se mueve en sentido contrario.",
+            "en": "These are the PPV figures; NPV moves in the opposite direction."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Baja del 99,6% al 86,9%, mientras que el VPP sube del 4,7% al 67,5%",
+            "en": "It falls from 99.6% to 86.9%, while the PPV rises from 4.7% to 67.5%"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los valores predictivos dependen mucho de la prevalencia.",
+            "en": "Correct: predictive values depend heavily on prevalence."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Con la misma prueba, el VPP es 4,7% con prevalencia del 1%, 35,0% con el 10% y 67,5% con el 30%; el VPN es 99,6%, 96,2% y 86,9%. A diferencia de la sensibilidad y la especificidad, los valores predictivos dependen mucho de la prevalencia en la población estudiada.",
+        "en": "With the same test, PPV is 4.7% at 1% prevalence, 35.0% at 10% and 67.5% at 30%; NPV is 99.6%, 96.2% and 86.9%. Unlike sensitivity and specificity, predictive values depend heavily on the prevalence in the tested population."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-1"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx19-lr-calc",
+      "conceptId": "found-ev.likelihood-ratios",
+      "difficulty": 2,
+      "stem": {
+        "es": "Ejercicio numérico: una prueba tiene sensibilidad 80% y especificidad 90%. ¿Cuáles son sus cocientes de probabilidad (LR+ y LR−)?",
+        "en": "Numerical exercise: a test has 80% sensitivity and 90% specificity. What are its likelihood ratios (LR+ and LR−)?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "LR+ = 0,80 ÷ 0,10 = 8; LR− = 0,20 ÷ 0,90 ≈ 0,22",
+            "en": "LR+ = 0.80 ÷ 0.10 = 8; LR− = 0.20 ÷ 0.90 ≈ 0.22"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: LR+ = sensibilidad ÷ (1 − especificidad); LR− = (1 − sensibilidad) ÷ especificidad.",
+            "en": "Correct: LR+ = sensitivity ÷ (1 − specificity); LR− = (1 − sensitivity) ÷ specificity."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "LR+ = 0,90 ÷ 0,20 = 4,5; LR− = 0,10 ÷ 0,80 ≈ 0,13, porque el numerador del LR+ es la especificidad",
+            "en": "LR+ = 0.90 ÷ 0.20 = 4.5; LR− = 0.10 ÷ 0.80 ≈ 0.13, because the LR+ numerator is specificity"
+          },
+          "correct": false,
+          "why": {
+            "es": "Intercambia sensibilidad y especificidad en las fórmulas.",
+            "en": "It swaps sensitivity and specificity in the formulas."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "LR+ = 0,80 × 0,90 = 0,72; LR− = 0,20 × 0,10 = 0,02, porque los cocientes se obtienen multiplicando ambas propiedades de la prueba",
+            "en": "LR+ = 0.80 × 0.90 = 0.72; LR− = 0.20 × 0.10 = 0.02, because the ratios are obtained by multiplying both test properties"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los cocientes de probabilidad son divisiones, no productos.",
+            "en": "Likelihood ratios are divisions, not products."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No pueden calcularse sin conocer la prevalencia, porque los cocientes de probabilidad cambian con cada población estudiada",
+            "en": "They cannot be calculated without the prevalence, because likelihood ratios change with each population tested"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los LR no cambian con la prevalencia; se calculan solo con sensibilidad y especificidad.",
+            "en": "LRs do not change with prevalence; they are calculated from sensitivity and specificity alone."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "LR+ = sensibilidad ÷ (1 − especificidad) = 0,80 ÷ 0,10 = 8. LR− = (1 − sensibilidad) ÷ especificidad = 0,20 ÷ 0,90 = 0,222. Los LR no cambian con la prevalencia (en el ejemplo del dímero D, con 7/10 y 77/90: LR+ 4,85 y LR− 0,35 con cualquier prevalencia).",
+        "en": "LR+ = sensitivity ÷ (1 − specificity) = 0.80 ÷ 0.10 = 8. LR− = (1 − sensitivity) ÷ specificity = 0.20 ÷ 0.90 = 0.222. LRs do not change with prevalence (in the D-dimer example, with 7/10 and 77/90: LR+ 4.85 and LR− 0.35 at any prevalence)."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-2"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx20-posttest-calc",
+      "conceptId": "found-ev.likelihood-ratios",
+      "difficulty": 3,
+      "stem": {
+        "es": "Ejercicio numérico: con esa misma prueba (LR+ = 8), tu paciente tiene una probabilidad preprueba del 20% y el resultado es positivo. ¿Cuál es la probabilidad posprueba?",
+        "en": "Numerical exercise: with the same test (LR+ = 8), your patient has a 20% pre-test probability and the result is positive. What is the post-test probability?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "160%, que se redondea al 100%, porque la probabilidad posprueba es la probabilidad preprueba multiplicada por el LR+",
+            "en": "160%, rounded to 100%, because the post-test probability is the pre-test probability multiplied by the LR+"
+          },
+          "correct": false,
+          "why": {
+            "es": "El LR multiplica odds, no probabilidades; una probabilidad no puede superar el 100%.",
+            "en": "The LR multiplies odds, not probabilities; a probability cannot exceed 100%."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "2%, porque las odds posprueba (2) se expresan directamente como porcentaje sin necesidad de convertirlas en probabilidad",
+            "en": "2%, because the post-test odds (2) are expressed directly as a percentage without converting them to probability"
+          },
+          "correct": false,
+          "why": {
+            "es": "Unas odds de 2 equivalen a una probabilidad de 2 ÷ 3, no a un 2%.",
+            "en": "Odds of 2 equal a probability of 2 ÷ 3, not 2%."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "66,7%: odds preprueba 0,20 ÷ 0,80 = 0,25; × 8 = 2; probabilidad 2 ÷ 3",
+            "en": "66.7%: pre-test odds 0.20 ÷ 0.80 = 0.25; × 8 = 2; probability 2 ÷ 3"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: odds ÷ (1 + odds) = 2 ÷ 3 = 0,667.",
+            "en": "Correct: odds ÷ (1 + odds) = 2 ÷ 3 = 0.667."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "28%, que se obtiene sumando el LR+ de 8 a la probabilidad preprueba del 20% para reflejar la información que añade la prueba",
+            "en": "28%, obtained by adding the LR+ of 8 to the 20% pre-test probability to reflect the information the test adds"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los LR no se suman a la probabilidad; multiplican las odds.",
+            "en": "LRs are not added to the probability; they multiply the odds."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Odds preprueba = 0,20 ÷ (1 − 0,20) = 0,25. Odds posprueba = 0,25 × 8 = 2. Probabilidad posprueba = 2 ÷ (1 + 2) = 0,667 (66,7%). Comprobación: 0,667 ÷ 0,333 = 2.",
+        "en": "Pre-test odds = 0.20 ÷ (1 − 0.20) = 0.25. Post-test odds = 0.25 × 8 = 2. Post-test probability = 2 ÷ (1 + 2) = 0.667 (66.7%). Check: 0.667 ÷ 0.333 = 2."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-2"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx21-lr-near-1",
+      "conceptId": "found-ev.likelihood-ratios",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un marcador comercial anuncia un LR+ de 1,1. ¿Cómo se interpreta según Ranganathan y Aggarwal 2018?",
+        "en": "A commercial marker advertises an LR+ of 1.1. How should this be interpreted according to Ranganathan and Aggarwal 2018?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Como una prueba muy útil para confirmar el diagnóstico, porque cualquier LR mayor que 1 indica que un positivo establece la enfermedad",
+            "en": "As a very useful test to confirm the diagnosis, because any LR above 1 means a positive establishes the disease"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los LR muy útiles para establecer un diagnóstico son > 10; 1,1 casi no discrimina.",
+            "en": "LRs very useful for establishing a diagnosis are > 10; 1.1 barely discriminates."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Como una prueba que apenas cambia la probabilidad: un LR de 1,0 no aporta nada y cuanto más se aleja de 1, más discrimina",
+            "en": "As a test that barely changes probability: an LR of 1.0 adds nothing, and the further it moves from 1, the more it discriminates"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los LR > 10 o < 0,1 son los muy útiles.",
+            "en": "Correct: LRs > 10 or < 0.1 are the very useful ones."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Como una prueba que descarta la enfermedad cuando es positiva, porque los LR cercanos a 1 tienen un comportamiento inverso al esperado",
+            "en": "As a test that rules out the disease when positive, because LRs close to 1 behave the opposite way to what is expected"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un LR+ de 1,1 aumenta mínimamente la probabilidad; no la invierte.",
+            "en": "An LR+ of 1.1 increases probability minimally; it does not reverse it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "No puede interpretarse sin conocer la prevalencia exacta, porque el significado de un LR cambia con la prevalencia de cada población",
+            "en": "It cannot be interpreted without the exact prevalence, because the meaning of an LR changes with each tested population’s prevalence"
+          },
+          "correct": false,
+          "why": {
+            "es": "Los LR no cambian con la prevalencia; lo que hay que individualizar es la probabilidad preprueba.",
+            "en": "LRs do not change with prevalence; what must be individualised is the pre-test probability."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Un LR de 1,0 no aporta nada; cuanto más se aleja de 1, más discrimina, y los LR > 10 o < 0,1 son muy útiles para establecer o excluir un diagnóstico. Además, un LR es tan fiable como los estudios de los que procede, la probabilidad preprueba debe individualizarse y no hay consenso sobre cómo combinar los LR de varias pruebas.",
+        "en": "An LR of 1.0 adds nothing; the further it moves from 1, the more it discriminates, and LRs > 10 or < 0.1 are very useful to establish or exclude a diagnosis. Moreover, an LR is only as reliable as the studies it comes from, the pre-test probability must be individualised, and there is no consensus on how to combine the LRs of several tests."
+      },
+      "refIds": [
+        "ranganathan-2018-diagnostic-tests-2"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx22-accurate-useless",
+      "conceptId": "found-ev.accuracy-not-utility",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una prueba con buena exactitud diagnóstica no cambiaría el manejo de tu paciente con ninguno de sus resultados posibles. ¿Qué dice GRADE?",
+        "en": "A test with good diagnostic accuracy would not change your patient’s management with any of its possible results. What does GRADE say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que debe pedirse igualmente, porque una exactitud alta basta para justificar cualquier prueba con independencia del manejo posterior",
+            "en": "That it should be ordered anyway, because high accuracy alone justifies any test regardless of subsequent management"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE dice lo contrario: sin mejora de desenlaces importantes, no hay motivo para usarla.",
+            "en": "GRADE says the opposite: without improvement in important outcomes, there is no reason to use it."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que debe pedirse solo si la paciente lo solicita, porque la exactitud de una prueba la convierte en una decisión exclusivamente de preferencia",
+            "en": "That it should be ordered only if the patient asks, because a test’s accuracy makes it purely a matter of preference"
+          },
+          "correct": false,
+          "why": {
+            "es": "GRADE centra la decisión en si la prueba mejora desenlaces importantes para la paciente.",
+            "en": "GRADE centres the decision on whether the test improves patient-important outcomes."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que hay que evaluarla con un estudio de exactitud más grande antes de decidir, porque solo la exactitud determina la utilidad",
+            "en": "That it should be assessed with a larger accuracy study before deciding, because accuracy alone determines usefulness"
+          },
+          "correct": false,
+          "why": {
+            "es": "El mejor diseño es un ensayo que aleatorice estrategias diagnósticas y mida desenlaces importantes.",
+            "en": "The best design is a trial that randomises diagnostic strategies and measures important outcomes."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que si una prueba no mejora desenlaces importantes para la paciente no hay motivo para usarla, sea cual sea su exactitud",
+            "en": "That if a test does not improve patient-important outcomes there is no reason to use it, whatever its accuracy"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: la exactitud actúa como desenlace sustituto.",
+            "en": "Correct: accuracy acts as a surrogate outcome."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Para GRADE, si una prueba no mejora desenlaces importantes para la paciente no hay motivo para usarla, sea cual sea su exactitud; el mejor diseño para evaluarla es un ensayo que aleatorice estrategias diagnósticas y mida mortalidad, morbilidad, síntomas, calidad de vida y uso de recursos. Con solo estudios de exactitud, esta actúa como desenlace sustituto.",
+        "en": "For GRADE, if a test fails to improve patient-important outcomes there is no reason to use it, whatever its accuracy; the best design to evaluate it is a trial that randomises diagnostic strategies and measures mortality, morbidity, symptoms, quality of life and resource use. When only accuracy studies exist, accuracy acts as a surrogate outcome."
+      },
+      "refIds": [
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx23-healthy-controls",
+      "conceptId": "found-ev.accuracy-not-utility",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un estudio de exactitud compara pacientes con enfermedad confirmada frente a voluntarias sanas y obtiene una especificidad del 99%. ¿Qué advierte STARD 2015?",
+        "en": "An accuracy study compares patients with confirmed disease against healthy volunteers and finds 99% specificity. What does STARD 2015 warn?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que incluir solo controles sanos puede hacer que las estimaciones no reflejen el rendimiento de la prueba en la práctica clínica",
+            "en": "That including only healthy controls may make the estimates fail to reflect the test’s performance in clinical practice"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: STARD pide describir cómo se identificó y seleccionó a las participantes.",
+            "en": "Correct: STARD asks for how participants were identified and selected to be described."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que el diseño con controles sanos es el de referencia, porque elimina los falsos positivos debidos a otras enfermedades",
+            "en": "That the healthy-control design is the reference one, because it eliminates false positives due to other diseases"
+          },
+          "correct": false,
+          "why": {
+            "es": "Al eliminar a las pacientes que se confunden en la práctica, sobreestima la exactitud.",
+            "en": "By removing the patients who are confused with it in practice, it overestimates accuracy."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que la especificidad del 99% garantiza un VPP alto en cualquier consulta, porque el VPP depende solo de la especificidad",
+            "en": "That 99% specificity guarantees a high PPV in any clinic, because PPV depends only on specificity"
+          },
+          "correct": false,
+          "why": {
+            "es": "El VPP depende mucho de la prevalencia, y la estimación puede estar sesgada.",
+            "en": "PPV depends heavily on prevalence, and the estimate may be biased."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que basta con informar la especificidad, sin intervalos de confianza ni puntos de corte, porque el resultado ya es casi perfecto",
+            "en": "That reporting specificity alone is enough, without confidence intervals or cut-offs, because the result is already almost perfect"
+          },
+          "correct": false,
+          "why": {
+            "es": "STARD pide los puntos de corte y las estimaciones con su precisión (por ejemplo, IC 95%).",
+            "en": "STARD asks for the cut-offs and the estimates with their precision (for example, 95% CIs)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "STARD 2015 advierte de que los estudios de exactitud también tienen riesgo de sesgo: si no se analiza a todas las pacientes estudiadas, o si solo se incluyen controles sanos, las estimaciones pueden no reflejar el rendimiento en la práctica. Entre sus 30 elementos pide el uso previsto y el papel clínico de la prueba, cómo se identificó a las participantes, los puntos de corte y si estaban preespecificados, y las estimaciones con su precisión.",
+        "en": "STARD 2015 warns that accuracy studies are also at risk of bias: if not all tested patients are analysed, or if only healthy controls are included, the estimates may not reflect performance in practice. Among its 30 items it asks for the intended use and clinical role of the test, how participants were identified, the cut-offs and whether they were pre-specified, and the estimates with their precision."
+      },
+      "refIds": [
+        "bossuyt-2015-stard"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx24-panel-two-asks",
+      "conceptId": "found-ev.commercial-panels",
+      "difficulty": 2,
+      "stem": {
+        "es": "Una empresa ofrece un panel hormonal «funcional» con rangos propios y sin estudios publicados. ¿Qué dos cosas deberías pedir antes de usar su resultado para decidir?",
+        "en": "A company offers a “functional” hormone panel with its own ranges and no published studies. Which two things should you ask for before using its result to decide?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Las opiniones de otras pacientes y el número de clínicas que lo usan, porque la difusión de una prueba demuestra su validez clínica",
+            "en": "Other patients’ reviews and the number of clinics using it, because a test’s spread demonstrates its clinical validity"
+          },
+          "correct": false,
+          "why": {
+            "es": "La difusión no sustituye a un estudio de exactitud ni a evidencia sobre desenlaces.",
+            "en": "Spread does not replace an accuracy study or evidence on outcomes."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "La acreditación del laboratorio y el precio, porque un laboratorio acreditado garantiza que la prueba mejora los desenlaces de la paciente",
+            "en": "The laboratory’s accreditation and the price, because an accredited laboratory guarantees that the test improves the patient’s outcomes"
+          },
+          "correct": false,
+          "why": {
+            "es": "La acreditación analítica no demuestra exactitud diagnóstica frente a un patrón ni beneficio clínico.",
+            "en": "Analytical accreditation does not show diagnostic accuracy against a reference standard or clinical benefit."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Un estudio de exactitud frente a un patrón de referencia y un estudio que muestre que cambia los desenlaces",
+            "en": "An accuracy study against a reference standard and a study showing it changes outcomes"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: sin patrón no hay sensibilidad, especificidad ni LR, y sin efecto en desenlaces no hay motivo para pedirlo.",
+            "en": "Correct: without a reference standard there is no sensitivity, specificity or LR, and without an effect on outcomes there is no reason to order it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Repetir el panel dos veces para comprobar que da el mismo resultado, porque la reproducibilidad equivale a validez diagnóstica",
+            "en": "Repeat the panel twice to check it gives the same result, because reproducibility equals diagnostic validity"
+          },
+          "correct": false,
+          "why": {
+            "es": "Un resultado reproducible puede ser reproduciblemente erróneo; la validez exige un patrón de referencia.",
+            "en": "A reproducible result can be reproducibly wrong; validity requires a reference standard."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La exactitud se mide frente a un patrón de referencia en un estudio publicado, como describe STARD; sin él no hay sensibilidad, especificidad ni LR con los que interpretar el resultado. Y aunque la exactitud sea buena, si el resultado no mejora desenlaces importantes no hay motivo para pedirlo (GRADE).",
+        "en": "Accuracy is measured against a reference standard in a published study, as STARD describes; without one there is no sensitivity, specificity or LR with which to interpret the result. And even with good accuracy, if the result does not improve important outcomes there is no reason to order it (GRADE)."
+      },
+      "refIds": [
+        "bossuyt-2015-stard",
+        "ranganathan-2018-diagnostic-tests-2",
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [
+        "gut"
+      ],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx25-panel-ranges",
+      "conceptId": "found-ev.commercial-panels",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un informe de microbioma intestinal marca varias especies «fuera de rango saludable» y un cociente Firmicutes/Bacteroidetes «alterado». ¿Qué dice el consenso internacional de 2025?",
+        "en": "A gut microbiome report flags several species as “outside the healthy range” and an “abnormal” Firmicutes/Bacteroidetes ratio. What does the 2025 international consensus say?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que los rangos saludables de abundancia están bien establecidos para la mayoría de las especies y que el cociente es un marcador validado",
+            "en": "That healthy abundance ranges are well established for most species and that the ratio is a validated marker"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso dice que en general no hay información suficiente para rangos estrictos y desaconseja el cociente.",
+            "en": "The consensus says there is generally not enough information for strict ranges and discourages the ratio."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que en general no hay información suficiente para informar rangos estrictos de abundancia (90%) y que desaconseja el cociente Firmicutes/Bacteroidetes (86%)",
+            "en": "That there is generally not enough information to report strict abundance ranges (90%) and that it discourages the Firmicutes/Bacteroidetes ratio (86%)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: son dos declaraciones del consenso.",
+            "en": "Correct: these are two consensus statements."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que el cociente es útil solo si se repite cada mes, porque su variabilidad diaria impide interpretarlo en una sola muestra",
+            "en": "That the ratio is useful only if repeated monthly, because its daily variability prevents interpretation from a single sample"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja el cociente, no propone repetirlo.",
+            "en": "The consensus discourages the ratio; it does not propose repeating it."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que estos hallazgos deben tratarse con los suplementos que propone el propio informe, porque el proveedor conoce mejor el resultado",
+            "en": "That these findings should be treated with the supplements the report itself proposes, because the provider knows the result best"
+          },
+          "correct": false,
+          "why": {
+            "es": "El consenso desaconseja que el proveedor incluya consejos terapéuticos (98%).",
+            "en": "The consensus discourages the provider from including therapeutic advice (98%)."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El consenso de 2025 considera insuficiente la evidencia para recomendar ampliamente el uso rutinario (90%), señala que en general no hay información suficiente para informar rangos estrictos de abundancia (90%), desaconseja el cociente Firmicutes/Bacteroidetes (86%), no encuentra evidencia suficiente para incluir ningún índice de disbiosis (90%) y desaconseja que el proveedor dé consejos terapéuticos (98%). Son declaraciones Delphi, no recomendaciones GRADE.",
+        "en": "The 2025 consensus considers the evidence insufficient to widely recommend routine use (90%), states that there is generally not enough information to report strict abundance ranges (90%), discourages the Firmicutes/Bacteroidetes ratio (86%), finds insufficient evidence to include any dysbiosis index (90%) and discourages the provider from giving therapeutic advice (98%). These are Delphi statements, not GRADE recommendations."
+      },
+      "refIds": [
+        "porcari-2025-microbiome-testing"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx26-calc-10-to-6",
+      "conceptId": "found-ev.relative-absolute",
+      "difficulty": 2,
+      "stem": {
+        "es": "Ejercicio numérico: un tratamiento reduce un riesgo del 10% al 6% en un año. ¿Cuáles son la reducción relativa, la absoluta y el NNT?",
+        "en": "Numerical exercise: a treatment lowers a risk from 10% to 6% over one year. What are the relative reduction, the absolute reduction and the NNT?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Reducción relativa 40%, absoluta 4 puntos porcentuales, NNT 25 en un año",
+            "en": "Relative reduction 40%, absolute 4 percentage points, NNT 25 over one year"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 4 ÷ 10 = 40%; 1 ÷ 0,04 = 25.",
+            "en": "Correct: 4 ÷ 10 = 40%; 1 ÷ 0.04 = 25."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Reducción relativa 4%, absoluta 40% y NNT 2,5, porque la diferencia entre ambos riesgos es la reducción relativa",
+            "en": "Relative reduction 4%, absolute 40% and NNT 2.5, because the difference between the two risks is the relative reduction"
+          },
+          "correct": false,
+          "why": {
+            "es": "Intercambia relativa y absoluta; la diferencia (4 puntos) es la reducción absoluta.",
+            "en": "It swaps relative and absolute; the difference (4 points) is the absolute reduction."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Reducción relativa 60%, absoluta 6 puntos y NNT 17, porque se calculan con el riesgo que queda en el grupo tratado",
+            "en": "Relative reduction 60%, absolute 6 points and NNT 17, because they are calculated from the risk remaining in the treated group"
+          },
+          "correct": false,
+          "why": {
+            "es": "Se calculan con la diferencia (10% − 6% = 4 puntos), no con el riesgo residual.",
+            "en": "They are calculated from the difference (10% − 6% = 4 points), not the residual risk."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Reducción relativa 40%, absoluta 4 puntos y NNT 10, porque el NNT es el inverso del riesgo basal del grupo control",
+            "en": "Relative reduction 40%, absolute 4 points and NNT 10, because the NNT is the inverse of the control group’s baseline risk"
+          },
+          "correct": false,
+          "why": {
+            "es": "El NNT es el inverso de la diferencia de riesgo: 1 ÷ 0,04 = 25.",
+            "en": "The NNT is the inverse of the risk difference: 1 ÷ 0.04 = 25."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Reducción absoluta = 10% − 6% = 4 puntos porcentuales (0,04). Reducción relativa = 0,04 ÷ 0,10 = 40%. NNT = 1 ÷ 0,04 = 25 (exacto, sin redondeo) en un año. Comprobación: 25 × 0,04 = 1 evento evitado. La cifra relativa hace más tentador prescribir que la absoluta.",
+        "en": "Absolute reduction = 10% − 6% = 4 percentage points (0.04). Relative reduction = 0.04 ÷ 0.10 = 40%. NNT = 1 ÷ 0.04 = 25 (exact, no rounding) over one year. Check: 25 × 0.04 = 1 event avoided. The relative figure makes prescribing more tempting than the absolute one."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch15"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx27-baseline-risk",
+      "conceptId": "found-ev.relative-absolute",
+      "difficulty": 2,
+      "stem": {
+        "es": "En la fibrilación auricular, la warfarina tiene un efecto relativo parecido en pacientes de riesgo alto y bajo. ¿Qué ilustra el ejemplo del manual Cochrane?",
+        "en": "In atrial fibrillation, warfarin has a similar relative effect in high- and low-risk patients. What does the Cochrane handbook example illustrate?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el beneficio absoluto es el mismo en ambos grupos, porque un efecto relativo constante produce siempre la misma reducción absoluta",
+            "en": "That the absolute benefit is the same in both groups, because a constant relative effect always produces the same absolute reduction"
+          },
+          "correct": false,
+          "why": {
+            "es": "Con el mismo efecto relativo, el beneficio absoluto depende del riesgo basal.",
+            "en": "With the same relative effect, the absolute benefit depends on the baseline risk."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que en los pacientes de bajo riesgo se evitan más ictus, porque tienen más margen de mejora que los de alto riesgo",
+            "en": "That more strokes are prevented in low-risk patients, because they have more room for improvement than high-risk ones"
+          },
+          "correct": false,
+          "why": {
+            "es": "Es al revés: alrededor de 70 por 1000 en alto riesgo frente a 12 en bajo riesgo.",
+            "en": "It is the reverse: about 70 per 1000 in high-risk versus 12 in low-risk patients."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que evita unos 70 ictus al año por 1000 pacientes de alto riesgo y solo 12 en los de bajo riesgo: el beneficio absoluto depende del riesgo basal",
+            "en": "That it prevents about 70 strokes a year per 1000 high-risk patients and only 12 in low-risk ones: absolute benefit depends on baseline risk"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: los efectos relativos son más estables que los absolutos.",
+            "en": "Correct: relative effects are more stable than absolute ones."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el efecto relativo pierde validez en los pacientes de bajo riesgo, por lo que la warfarina no reduce el riesgo en ellos",
+            "en": "That the relative effect loses validity in low-risk patients, so warfarin does not reduce their risk"
+          },
+          "correct": false,
+          "why": {
+            "es": "El efecto relativo se mantiene; lo que cambia es el número absoluto de eventos evitados.",
+            "en": "The relative effect holds; what changes is the absolute number of events prevented."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los efectos relativos tienden a ser más estables entre grupos de riesgo que los absolutos, de modo que el beneficio absoluto depende del riesgo basal: la warfarina evita unos 70 ictus al año por 1000 pacientes de alto riesgo (unos 120 ictus por 1000 al año) y solo 12 en los de bajo riesgo (unos 20 por 1000).",
+        "en": "Relative effects tend to be more stable across risk groups than absolute ones, so the absolute benefit depends on the baseline risk: warfarin prevents about 70 strokes a year per 1000 high-risk patients (about 120 strokes per 1000 a year) and only 12 in low-risk patients (about 20 per 1000)."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch15"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx28-nams-absolute",
+      "conceptId": "found-ev.relative-absolute",
+      "difficulty": 1,
+      "stem": {
+        "es": "¿Qué dice la NAMS 2022 sobre cómo transmitir los riesgos y beneficios de la terapia hormonal?",
+        "en": "What does NAMS 2022 say about conveying the risks and benefits of hormone therapy?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Que el riesgo relativo es más útil en consulta, porque las pacientes entienden mejor los porcentajes de cambio que las cifras absolutas",
+            "en": "That relative risk is more useful in clinic, because patients understand percentage changes better than absolute figures"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS considera más útil el riesgo absoluto.",
+            "en": "NAMS considers absolute risk more useful."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Que define el riesgo absoluto como el cociente de tasas de eventos y el relativo como su diferencia, y prefiere el relativo",
+            "en": "That it defines absolute risk as the ratio of event rates and relative risk as their difference, and prefers the relative one in clinic"
+          },
+          "correct": false,
+          "why": {
+            "es": "Invierte las definiciones: el relativo es el cociente y el absoluto la diferencia.",
+            "en": "It reverses the definitions: relative is the ratio and absolute the difference."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Que cualquier efecto estadísticamente significativo es clínicamente relevante, también para desenlaces raros, con independencia de su tamaño real",
+            "en": "That any statistically significant effect is clinically relevant, also for rare outcomes, regardless of its size"
+          },
+          "correct": false,
+          "why": {
+            "es": "La NAMS señala que los efectos muy pequeños pueden ser menos relevantes, sobre todo en desenlaces raros (nivel I).",
+            "en": "NAMS notes that very small effects may be less clinically relevant, particularly for rare outcomes (Level I)."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Que el riesgo absoluto es más útil para transmitirlos, y que los efectos muy pequeños pueden ser menos relevantes en desenlaces raros (nivel I)",
+            "en": "That absolute risk is more useful to convey them, and that very small effects may be less relevant for rare outcomes (Level I)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es la postura de la NAMS.",
+            "en": "Correct: this is the NAMS position."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "La NAMS 2022 define el riesgo relativo como el cociente de las tasas de eventos en dos grupos y el absoluto como su diferencia, y considera el absoluto más útil para transmitir riesgos y beneficios en consulta; añade que los efectos muy pequeños pueden ser menos relevantes clínicamente, sobre todo en desenlaces raros (nivel I).",
+        "en": "NAMS 2022 defines relative risk as the ratio of event rates in two groups and absolute risk as their difference, and considers absolute risk more useful for conveying risks and benefits in clinic; it adds that very small effects may be less clinically relevant, particularly for rare outcomes (Level I)."
+      },
+      "refIds": [
+        "nams-2022-hormone-therapy"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx29-nnt-round-up",
+      "conceptId": "found-ev.nnt",
+      "difficulty": 2,
+      "stem": {
+        "es": "Ejercicio numérico: un ensayo da una diferencia de riesgo de −0,07 (7 puntos porcentuales menos de eventos con el tratamiento). ¿Cuál es el NNT según el manual Cochrane?",
+        "en": "Numerical exercise: a trial gives a risk difference of −0.07 (7 percentage points fewer events with treatment). What is the NNT according to the Cochrane handbook?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "14, porque 1 ÷ 0,07 = 14,3 y el NNT se redondea al entero más próximo como cualquier otro resultado",
+            "en": "14, because 1 ÷ 0.07 = 14.3 and the NNT is rounded to the nearest whole number like any other result"
+          },
+          "correct": false,
+          "why": {
+            "es": "El manual indica que, por convención, el NNT se redondea hacia arriba, no al entero más próximo.",
+            "en": "The handbook states that, by convention, the NNT is rounded up, not to the nearest integer."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "15: 1 ÷ 0,07 = 14,3, que por convención se redondea hacia arriba",
+            "en": "15: 1 ÷ 0.07 = 14.3, rounded up by convention"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: como en los ejemplos del manual (8,3 → 9; 4,5 → 5).",
+            "en": "Correct: as in the handbook’s examples (8.3 → 9; 4.5 → 5)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "7, porque el NNT equivale al número de puntos porcentuales de diferencia entre el grupo tratado y el grupo control",
+            "en": "7, because the NNT equals the number of percentage points of difference between treated and control groups"
+          },
+          "correct": false,
+          "why": {
+            "es": "El NNT es el inverso de la diferencia de riesgo, no la diferencia.",
+            "en": "The NNT is the inverse of the risk difference, not the difference itself."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "−14,3, porque el NNT conserva el signo negativo de la diferencia de riesgo para indicar que el tratamiento reduce eventos",
+            "en": "−14.3, because the NNT keeps the negative sign of the risk difference to indicate that treatment reduces events"
+          },
+          "correct": false,
+          "why": {
+            "es": "Se usa el valor absoluto de la diferencia y se redondea hacia arriba.",
+            "en": "The absolute value of the difference is used and rounded up."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El NNT es 1 dividido por el valor absoluto de la diferencia de riesgo, redondeado hacia arriba por convención: 1 ÷ 0,07 = 14,29 → 15 (comprobación: 15 × 0,07 = 1,05 ≥ 1; 14 × 0,07 = 0,98 < 1). En el manual, con −0,12 el NNT es 9 y con −0,22 es 5.",
+        "en": "The NNT is 1 divided by the absolute value of the risk difference, rounded up by convention: 1 ÷ 0.07 = 14.29 → 15 (check: 15 × 0.07 = 1.05 ≥ 1; 14 × 0.07 = 0.98 < 1). In the handbook, with −0.12 the NNT is 9 and with −0.22 it is 5."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch15"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx30-rr-baseline-nnt",
+      "conceptId": "found-ev.nnt",
+      "difficulty": 3,
+      "stem": {
+        "es": "Ejercicio numérico: un metaanálisis da un RR de 0,75 y en tus pacientes el riesgo basal es del 8% (80 por 1000). ¿Cuáles son el efecto absoluto y el NNT?",
+        "en": "Numerical exercise: a meta-analysis gives an RR of 0.75 and the baseline risk in your patients is 8% (80 per 1000). What are the absolute effect and the NNT?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "75 menos por 1000 y NNT 14, porque el RR expresado por 1000 equivale directamente al número de eventos evitados",
+            "en": "75 fewer per 1000 and NNT 14, because the RR expressed per 1000 directly equals the number of events prevented"
+          },
+          "correct": false,
+          "why": {
+            "es": "El RR no es un número de eventos; hay que aplicarlo al riesgo basal.",
+            "en": "The RR is not a number of events; it must be applied to the baseline risk."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "60 menos por 1000 y NNT 17, porque el efecto absoluto es el riesgo esperado en el grupo tratado",
+            "en": "60 fewer per 1000 and NNT 17, because the absolute effect is the expected risk in the treated group"
+          },
+          "correct": false,
+          "why": {
+            "es": "60 por 1000 es el riesgo esperado con tratamiento; el efecto es la diferencia, 20 por 1000.",
+            "en": "60 per 1000 is the expected risk with treatment; the effect is the difference, 20 per 1000."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "No puede calcularse un NNT a partir de un RR, porque el RR es un efecto relativo que no tiene equivalente absoluto",
+            "en": "An NNT cannot be calculated from an RR, because the RR is a relative effect with no absolute equivalent"
+          },
+          "correct": false,
+          "why": {
+            "es": "Se puede, asumiendo un riesgo basal, como muestra el manual.",
+            "en": "It can, by assuming a baseline risk, as the handbook shows."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "20 menos por 1000 (80 − 60) y NNT 50",
+            "en": "20 fewer per 1000 (80 − 60) and NNT 50"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: 0,75 × 80 = 60; 1 ÷ 0,02 = 50.",
+            "en": "Correct: 0.75 × 80 = 60; 1 ÷ 0.02 = 50."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Riesgo con tratamiento = 0,75 × 80 por 1000 = 60 por 1000. Efecto absoluto = 80 − 60 = 20 menos por 1000 (0,02). NNT = 1 ÷ 0,02 = 50 (exacto). Comprobación: 50 × 0,02 = 1. Es el mismo procedimiento del manual Cochrane (RR 0,92 con riesgo basal 300 por 1000: 24 menos por 1000, NNT 42).",
+        "en": "Risk with treatment = 0.75 × 80 per 1000 = 60 per 1000. Absolute effect = 80 − 60 = 20 fewer per 1000 (0.02). NNT = 1 ÷ 0.02 = 50 (exact). Check: 50 × 0.02 = 1. This is the same procedure as in the Cochrane handbook (RR 0.92 with baseline risk 300 per 1000: 24 fewer per 1000, NNT 42)."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch15"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx31-nnt-meaning",
+      "conceptId": "found-ev.nnt",
+      "difficulty": 2,
+      "stem": {
+        "es": "Un folleto afirma que un tratamiento tiene «NNT 10». ¿Qué interpretación es correcta según el manual Cochrane?",
+        "en": "A leaflet claims that a treatment has an “NNT of 10”. Which interpretation is correct according to the Cochrane handbook?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Es un valor esperado frente a un comparador concreto y en un periodo determinado; no significa que haya un evento en cada grupo de 10",
+            "en": "It is an expected value against a specific comparator over a given time; it does not mean one event in every group of 10"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: sin comparador, riesgo basal y periodo, no puede interpretarse.",
+            "en": "Correct: without a comparator, baseline risk and time frame, it cannot be interpreted."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Significa que en cada grupo de 10 pacientes tratadas exactamente una evita el evento, sea cual sea el periodo de seguimiento del estudio",
+            "en": "It means that in every group of 10 treated patients exactly one avoids the event, whatever the study’s follow-up period"
+          },
+          "correct": false,
+          "why": {
+            "es": "El NNT es un valor esperado, no una regla exacta para cada grupo de 10, y necesita un periodo.",
+            "en": "The NNT is an expected value, not an exact rule for every group of 10, and it needs a time frame."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Es una propiedad fija del tratamiento que no depende del comparador ni del riesgo basal de la población en la que se usa",
+            "en": "It is a fixed property of the treatment that does not depend on the comparator or the baseline risk of the population"
+          },
+          "correct": false,
+          "why": {
+            "es": "El NNT es comparativo y depende del riesgo basal.",
+            "en": "The NNT is comparative and depends on the baseline risk."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Indica que el tratamiento es perjudicial en una de cada 10 pacientes, que es lo que el manual llama «número necesario para dañar»",
+            "en": "It indicates that the treatment harms one in every 10 patients, which the handbook calls the “number needed to harm”"
+          },
+          "correct": false,
+          "why": {
+            "es": "El manual desaconseja «número necesario para dañar» y prefiere NNTB y NNTH.",
+            "en": "The handbook advises against “number needed to harm” and prefers NNTB and NNTH."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "El NNT es el número esperado de personas que deben recibir la intervención experimental en lugar del comparador para que una persona más presente o evite un evento en un periodo dado. Es comparativo, es un valor esperado (un NNT de 10 no significa un evento en cada grupo de 10) y debe acompañarse de su periodo. El manual desaconseja «número necesario para dañar» y prefiere NNTB y NNTH.",
+        "en": "The NNT is the expected number of people who need to receive the experimental rather than the comparator intervention for one additional person to incur or avoid an event over a given time. It is comparative, it is an expected value (an NNT of 10 does not mean one event in every group of 10) and it must come with its time frame. The handbook advises against “number needed to harm” and prefers NNTB and NNTH."
+      },
+      "refIds": [
+        "cochrane-2024-handbook-ch15"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx32-sdm-change-mind",
+      "conceptId": "found-ev.sdm-steps",
+      "difficulty": 1,
+      "stem": {
+        "es": "Al final de una consulta de decisión compartida sobre un tratamiento, ¿qué recomienda NICE NG197?",
+        "en": "At the end of a shared decision-making consultation about a treatment, what does NICE NG197 recommend?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Entregar la decisión por escrito como definitiva, porque cambiarla después generaría confusión y pérdida de adherencia",
+            "en": "Hand over the decision in writing as final, because changing it later would cause confusion and loss of adherence"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide explicar que la persona puede cambiar de opinión en cualquier momento (1.2.16).",
+            "en": "NICE asks you to explain that the person can change their mind at any time (1.2.16)."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Decidir el profesional en nombre de la paciente si esta valora los riesgos de forma distinta, para asegurar la opción con más evidencia",
+            "en": "Decide on the patient’s behalf if she weighs the risks differently, to ensure the option with most evidence"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide aceptar que la persona puede valorar riesgos y beneficios de forma distinta al profesional (1.2.13).",
+            "en": "NICE asks you to accept that the person may weigh risks and benefits differently from the professional (1.2.13)."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Resumir lo decidido y los siguientes pasos, acordar cuándo revisarlo y explicar que puede cambiar de opinión en cualquier momento",
+            "en": "Summarise what was decided and what happens next, agree when to review it and explain that she can change her mind at any time"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: corresponde a 1.2.14–1.2.16.",
+            "en": "Correct: this corresponds to 1.2.14–1.2.16."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Entregar cualquier herramienta de ayuda a la decisión disponible en internet, aunque no esté contrastada, para que la paciente amplíe la información",
+            "en": "Hand over any decision aid available online, even if not quality assured, so the patient can learn more"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide usar solo herramientas con garantía de calidad, basadas en la evidencia y relevantes para esa decisión.",
+            "en": "NICE asks for only quality-assured, evidence-based decision aids relevant to that decision to be used."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "Los pasos de NICE NG197 incluyen acordar una agenda y su duración (1.2.7), dar la información en partes manejables y comprobar la comprensión (1.2.11), dar el tiempo necesario (1.2.12), aceptar que la persona valore distinto (1.2.13), tomar una decisión conjunta y acordar cuándo revisarla (1.2.14), resumir lo decidido y lo que sigue (1.2.15) y explicar que puede cambiar de opinión en cualquier momento (1.2.16).",
+        "en": "The NICE NG197 steps include agreeing an agenda and its length (1.2.7), giving information in manageable chunks and checking understanding (1.2.11), giving the time needed (1.2.12), accepting that the person may weigh things differently (1.2.13), making a joint decision and agreeing when to review it (1.2.14), summarising what was decided and what happens next (1.2.15) and explaining that they can change their mind at any time (1.2.16)."
+      },
+      "refIds": [
+        "nice-2021-ng197"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx33-sdm-options",
+      "conceptId": "found-ev.sdm-steps",
+      "difficulty": 2,
+      "stem": {
+        "es": "Al presentar opciones de tratamiento a una paciente, ¿qué incluye NICE NG197 y qué añade GRADE sobre las recomendaciones débiles?",
+        "en": "When presenting treatment options to a patient, what does NICE NG197 include, and what does GRADE add about weak recommendations?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Presentar solo la opción que recomienda la guía con más fuerza, porque mostrar alternativas sin evidencia confunde a la paciente",
+            "en": "Present only the option the guideline recommends most strongly, because showing alternatives without evidence confuses the patient"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide discutir cada opción, incluida la de no tratar o no cambiar nada.",
+            "en": "NICE asks for each option to be discussed, including no treatment or no change."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Discutir riesgos, beneficios y consecuencias de cada opción, incluida no tratar o no cambiar nada; las recomendaciones débiles requieren más tiempo de decisión compartida",
+            "en": "Discuss the risks, benefits and consequences of each option, including no treatment or no change; weak recommendations require more time for shared decision making"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: «no hacer nada» siempre es una opción con sus números.",
+            "en": "Correct: “doing nothing” is always an option, with its numbers."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Omitir los riesgos poco frecuentes para no asustar a la paciente, porque NICE recomienda centrar la conversación en los beneficios",
+            "en": "Leave out uncommon risks so as not to frighten the patient, because NICE recommends focusing the conversation on benefits"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide discutir abiertamente riesgos, beneficios y consecuencias.",
+            "en": "NICE asks for risks, benefits and consequences to be discussed openly."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Dar toda la información en un solo bloque al principio de la consulta, porque fragmentarla alarga la visita sin mejorar la comprensión",
+            "en": "Give all the information in a single block at the start, because breaking it up lengthens the visit without improving understanding"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide dar la información en partes manejables y comprobar la comprensión, por ejemplo con teach back.",
+            "en": "NICE asks for information in manageable chunks with checks of understanding, for example with teach back."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE NG197 define la decisión compartida como un proceso colaborativo y recomienda explicar el objetivo de cada opción, discutir abiertamente sus riesgos, beneficios y consecuencias (incluida no tratar o no cambiar nada), aclarar qué espera ganar la persona y hablar de los malentendidos. GRADE señala que las recomendaciones débiles requieren más tiempo de decisión compartida, porque no a todo el mundo le conviene la misma opción.",
+        "en": "NICE NG197 defines shared decision making as a collaborative process and recommends explaining the aims of each option, openly discussing its risks, benefits and consequences (including no treatment or no change), clarifying what the person hopes to gain and discussing misconceptions. GRADE notes that weak recommendations require more time for shared decision making, because not everyone is best served by the same option."
+      },
+      "refIds": [
+        "nice-2021-ng197",
+        "grade-2013-handbook"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx34-same-denominator",
+      "conceptId": "found-ev.communicating-numbers",
+      "difficulty": 2,
+      "stem": {
+        "es": "Quieres comparar dos riesgos que tienes expresados como «1 de cada 14» y «1 de cada 5». ¿Cómo los presentarías según NICE NG197?",
+        "en": "You want to compare two risks expressed as “1 in 14” and “1 in 5”. How would you present them according to NICE NG197?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "Con el mismo denominador: unas 7 de cada 100 frente a 20 de cada 100 (1 ÷ 14 ≈ 0,071; 1 ÷ 5 = 0,20)",
+            "en": "With the same denominator: about 7 in 100 against 20 in 100 (1 ÷ 14 ≈ 0.071; 1 ÷ 5 = 0.20)"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: es el ejemplo de NICE.",
+            "en": "Correct: this is the NICE example."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "Tal como están, porque las fracciones con denominadores distintos son más fáciles de comparar al ser números pequeños",
+            "en": "As they are, because fractions with different denominators are easier to compare as they are small numbers"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide expresamente usar el mismo denominador al comparar.",
+            "en": "NICE expressly asks for the same denominator to be used when comparing."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "Con palabras como «poco frecuente» y «frecuente», porque las pacientes interpretan las palabras de manera más uniforme que los números",
+            "en": "With words such as “uncommon” and “common”, because patients interpret words more uniformly than numbers"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE señala que las personas interpretan esas palabras de forma distinta y prefiere los números.",
+            "en": "NICE notes that people interpret such words differently and prefers numbers."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "Como un riesgo relativo: «el segundo riesgo es casi tres veces mayor», porque resume la comparación en una sola cifra",
+            "en": "As a relative risk: “the second risk is almost three times higher”, because it sums up the comparison in a single figure"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE recomienda el riesgo absoluto, no el relativo.",
+            "en": "NICE recommends absolute rather than relative risk."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE NG197 recomienda usar datos numéricos cuando los haya, en riesgo absoluto, con frecuencias naturales y con el mismo denominador al comparar: 7 de cada 100 frente a 20 de cada 100, no 1 de cada 14 frente a 1 de cada 5 (1 ÷ 14 = 0,071 ≈ 7 de cada 100; 1 ÷ 5 = 20 de cada 100).",
+        "en": "NICE NG197 recommends using numerical data when available, in absolute risk, with natural frequencies and with the same denominator when comparing: 7 in 100 against 20 in 100, not 1 in 14 against 1 in 5 (1 ÷ 14 = 0.071 ≈ 7 in 100; 1 ÷ 5 = 20 in 100)."
+      },
+      "refIds": [
+        "nice-2021-ng197"
+      ]
+    },
+    {
+      "kind": "question",
+      "rev": 1,
+      "tags": [],
+      "editorial": {
+        "status": "ai-audited",
+        "reviewedAt": "2026-10-16"
+      },
+      "id": "found-ev.qx35-framing-time",
+      "conceptId": "found-ev.communicating-numbers",
+      "difficulty": 2,
+      "stem": {
+        "es": "¿Cuál de estas formas de comunicar un efecto sigue mejor NICE NG197?",
+        "en": "Which of these ways of communicating an effect best follows NICE NG197?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "es": "«Funciona en el 97% de los casos», sin mencionar en cuántas no funciona, para no generar dudas innecesarias en la paciente",
+            "en": "“It works in 97% of cases”, without mentioning in how many it does not, so as not to raise unnecessary doubts"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE pide usar el encuadre positivo y el negativo juntos.",
+            "en": "NICE asks for positive and negative framing to be used together."
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "es": "«Reduce los efectos adversos un 30%», porque la reducción relativa es la que mejor entienden las pacientes según NICE y Cochrane",
+            "en": "“It reduces side effects by 30%”, because the relative reduction is what patients understand best according to NICE and Cochrane"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE recomienda riesgo absoluto, y Cochrane señala que las frecuencias naturales son lo que mejor se entiende.",
+            "en": "NICE recommends absolute risk, and Cochrane notes that natural frequencies are what is best understood."
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "es": "«Si 100 personas lo toman durante 1 año, funciona en 97 y no funciona en 3», acompañado de un pictograma",
+            "en": "“If 100 people take it for 1 year, it works for 97 and does not work for 3”, accompanied by a pictogram"
+          },
+          "correct": true,
+          "why": {
+            "es": "Correcta: periodo definido, doble encuadre, frecuencias naturales y pictograma.",
+            "en": "Correct: defined time period, dual framing, natural frequencies and a pictogram."
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "es": "«Es un tratamiento muy eficaz y los efectos adversos son raros», porque evitar los números hace la información más comprensible",
+            "en": "“It is a very effective treatment and side effects are rare”, because avoiding numbers makes the information easier to understand"
+          },
+          "correct": false,
+          "why": {
+            "es": "NICE recomienda usar números, porque las palabras como «raro» se interpretan de forma distinta.",
+            "en": "NICE recommends numbers, because words such as “rare” are interpreted differently."
+          }
+        }
+      ],
+      "explanation": {
+        "es": "NICE NG197 pide presentar el riesgo en un periodo definido (si 100 personas se tratan 1 año, 10 tendrán un efecto adverso), usar juntos el encuadre positivo y el negativo (funciona en 97 de cada 100 y no en 3 de cada 100), combinar números con pictogramas y personalizar la información. Cochrane coincide en que las frecuencias naturales son la forma de expresar diferencias absolutas que mejor se entiende.",
+        "en": "NICE NG197 asks for risk over a defined time period (if 100 people are treated for 1 year, 10 will have a side effect), positive and negative framing together (it works for 97 in 100 and does not work for 3 in 100), numbers combined with pictograms, and personalised information. Cochrane agrees that natural frequencies are the way of expressing absolute differences that is best understood."
+      },
+      "refIds": [
+        "nice-2021-ng197",
+        "cochrane-2024-handbook-ch15"
+      ]
     }
   ]
 }
