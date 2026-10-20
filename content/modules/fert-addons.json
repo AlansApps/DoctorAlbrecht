@@ -133,7 +133,7 @@
   "items": [
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -153,7 +153,7 @@
         "en": "ESHRE calls add-ons the supplementary options offered in addition to standard fertility procedures, typically at an additional cost: tests, drugs, equipment, complementary or alternative therapies, laboratory procedures and surgical interventions. They share the stated aim of increasing pregnancy or live birth, reducing miscarriage or shortening time to pregnancy, and evidence on their safety and efficacy is often limited or lacking. [[ref:eshre-2023-addons]]"
       },
       "body": {
-        "es": "El contexto decide: en algunos lugares la ICSI solo se hace con indicación (factor masculino diagnosticado o fallo de fecundación en una FIV previa) y en otros se usa en todas las parejas; en ese segundo escenario la ESHRE considera que la ICSI es un add-on, sobre todo si se cobra aparte. Del mismo modo, el time-lapse usado para investigación, docencia o control de calidad no se considera add-on si no supone un coste adicional para la paciente. [[ref:eshre-2023-addons]]\n\nPor qué proliferan: el riesgo real de que un ciclo fracase, unido al coste, lleva a algunas pacientes a abandonar y a otras a buscar opciones que suponen mejores; y los profesionales pueden verse movidos por el deseo de hacer lo mejor, la presión de las pacientes y, a veces, motivos competitivos o comerciales. Como referencia de expectativas, los datos europeos que cita el documento dan tasas de parto por transferencia en fresco del 26,1 % con FIV y del 23,9 % con ICSI. [[ref:eshre-2023-addons]]",
+        "es": "El contexto decide: en algunos lugares la ICSI solo se hace con indicación (factor masculino diagnosticado o fallo de fecundación en una FIV previa) y en otros se usa en todas las parejas; en ese segundo escenario la ESHRE considera que la ICSI es un add-on, sobre todo si se cobra aparte. Del mismo modo, el time-lapse usado para investigación, docencia o control de calidad no se considera add-on si no supone un coste adicional para la paciente. [[ref:eshre-2023-addons]]\n\nPor qué proliferan: el riesgo real de que un ciclo fracase, unido al coste, lleva a algunas pacientes a abandonar y a otras a buscar opciones que se presumen mejores; y los profesionales pueden verse movidos por el deseo de hacer lo mejor, la presión de las pacientes y, a veces, motivos competitivos o comerciales. Como referencia de expectativas, los datos europeos que cita el documento dan tasas de parto por transferencia en fresco del 26,1 % con FIV y del 23,9 % con ICSI. [[ref:eshre-2023-addons]]",
         "en": "Context decides: in some settings ICSI is only performed when indicated (diagnosed male factor or fertilisation failure in a previous IVF cycle) and in others it is used for all couples; in the latter, ESHRE considers ICSI an add-on, particularly if extra costs are charged. Likewise, time-lapse imaging used for research, teaching or quality control is not considered an add-on if there is no additional cost to the patient. [[ref:eshre-2023-addons]]\n\nWhy they spread: the real risk of a cycle failing, combined with cost, leads some patients to drop out and others to look for presumed better options; and professionals may be driven by the wish to do their best, pressure from patients and sometimes competitive or commercial motives. As a benchmark for expectations, the European data cited by the document give delivery rates per fresh transfer of 26.1% with IVF and 23.9% with ICSI. [[ref:eshre-2023-addons]]"
       },
       "pearl": {
@@ -563,7 +563,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -579,8 +579,8 @@
         "en": "PGT-A: it selects embryos, it does not improve the cohort"
       },
       "core": {
-        "es": "La ESHRE considera la PGT-A «currently not recommended for routine clinical use»: la mayoría de los ECA no mostraron más nacidos vivos, aunque algunos sugieren menos abortos, y entre sus daños figuran el descarte de embriones viables y un posible aumento del retraso de crecimiento intrauterino. NICE indica no ofrecer PGT-A como parte del tratamiento para mejorar la tasa de nacido vivo (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
-        "en": "ESHRE considers PGT-A “currently not recommended for routine clinical use”: most RCTs did not show more live births, although some suggest fewer miscarriages, and its harms include disposal of viable embryos and a possible increase in intrauterine growth restriction. NICE advises not to offer PGT-A as part of fertility treatment to improve live birth rates (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+        "es": "La ESHRE considera la PGT-A «currently not recommended for routine clinical use»: la mayoría de los ECA no mostraron más nacidos vivos, aunque análisis posteriores (post hoc) sugieren menos abortos en grupos concretos, como la edad materna avanzada, y entre sus daños figuran el descarte de embriones viables y un posible aumento del retraso de crecimiento intrauterino. NICE indica no ofrecer PGT-A como parte del tratamiento para mejorar la tasa de nacido vivo (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE considers PGT-A “currently not recommended for routine clinical use”: most RCTs did not show more live births, although post hoc analyses suggest fewer miscarriages in specific groups, such as advanced maternal age, and its harms include disposal of viable embryos and a possible increase in intrauterine growth restriction. NICE advises not to offer PGT-A as part of fertility treatment to improve live birth rates (1.48.1). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
       },
       "body": {
         "es": "La idea es razonable: las anomalías cromosómicas embrionarias son frecuentes y dependen de la edad materna. Pero el metaanálisis de Cornelisse no halló más nacidos vivos tras la primera transferencia por mujer aleatorizada, y un ECA chino grande en mujeres de 20–37 años tampoco mejoró el nacido vivo por ciclo. Hay consenso en que el nacido vivo no es la mejor medida para la PGT-A, porque no puede mejorar la cohorte, solo seleccionar; pero los dos ECA que midieron el tiempo hasta el embarazo no hallaron diferencias. [[ref:eshre-2023-addons]]\n\nCostes y seguridad: es cara, requiere personal especializado y el coste suele repercutir en la paciente; los modelos sugieren que podría ahorrar costes en grupos concretos, como la edad materna avanzada con muchos blastocistos. Hay diferencias entre laboratorios en el diagnóstico del mosaicismo y falta de estandarización, con riesgo de descartar embriones viables por errores de análisis. NICE añade que puede dejar sin embriones para transferir en ese ciclo y que la evidencia emergente sobre menos abortos convive con grandes incertidumbres. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
@@ -604,7 +604,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -620,7 +620,7 @@
         "en": "Time-lapse and assisted hatching: no more live births"
       },
       "core": {
-        "es": "La ESHRE no recomienda el time-lapse como herramienta para mejorar el nacido vivo ni la eclosión asistida («not recommended»). NICE indica no ofrecer eclosión asistida porque no mejora la tasa de embarazo (1.49.1, de 2004) y no formuló recomendación sobre el time-lapse para seleccionar embriones. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "es": "La ESHRE no recomienda el time-lapse como herramienta para mejorar el nacido vivo ni la eclosión asistida («not recommended»). NICE indica no ofrecer eclosión asistida porque no se ha demostrado que mejore la tasa de embarazo (1.49.1, de 2004) y no formuló recomendación sobre el time-lapse para seleccionar embriones. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
         "en": "ESHRE does not recommend time-lapse imaging as a tool to improve live birth, nor assisted hatching (“not recommended”). NICE advises not to offer assisted hatching because it has not been shown to improve pregnancy rates (1.49.1, from 2004) and made no recommendation on time-lapse for embryo selection. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
       },
       "body": {
@@ -686,7 +686,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction",
         "hormones",
@@ -708,8 +708,8 @@
         "en": "ESHRE (add-ons, 2023) does not recommend adjuncts before or during stimulation (metformin, growth hormone, testosterone, DHEA, aspirin, indomethacin and sildenafil), nor antioxidants in ART. Its 2025 ovarian stimulation guideline gives more detail: growth hormone not recommended in normal responders (strong, ⊕) or PCOS (strong, ⊕⊕) and probably not recommended in low responders (conditional, ⊕); testosterone probably not recommended in low responders (conditional, ⊕⊕⊕); DHEA not recommended in low or normal responders (strong, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2025-ovarian-stimulation]]"
       },
       "body": {
-        "es": "Hormona de crecimiento en bajas respondedoras: la guía de 2025 reconoce que la revisión Cochrane actualizada y un metaanálisis de 2025 sugieren más nacidos vivos, pero considera la evidencia de calidad demasiado limitada (estudios con poca potencia y definiciones de baja respuesta muy heterogéneas), recuerda que puede causar daños graves y que no hay datos de seguridad a largo plazo, y anima a investigar. La aspirina tampoco se recomienda en la población general de FIV/ICSI ni en bajas respondedoras (fuerte, ⊕⊕⊕), ni el sildenafilo en bajas respondedoras (fuerte, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nEl documento de add-ons señala problemas graves de seguridad con algunos adyuvantes, como el sildenafilo, y deja abierta la investigación en circunstancias concretas. Sobre antioxidantes: efecto incierto en el nacido vivo en mujeres, sin evidencia en varones, con molestias digestivas descritas; la guía de infertilidad inexplicada los considera probablemente no recomendados en mujeres en tratamiento (condicional, ⊕). NICE remite a la guía ESHRE de estimulación de 2025 para el pretratamiento (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
-        "en": "Growth hormone in low responders: the 2025 guideline acknowledges that the updated Cochrane review and a 2025 meta-analysis suggest more live births, but judges the evidence to be of too limited quality (underpowered studies and very heterogeneous definitions of low response), recalls that it has the potential for serious harm and that there are no long-term safety data, and encourages research. Aspirin is not recommended in the general IVF/ICSI population or in low responders (strong, ⊕⊕⊕), nor sildenafil in low responders (strong, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nThe add-ons document points to serious safety concerns with some adjuncts, such as sildenafil, and leaves room for research in specific circumstances. On antioxidants: uncertain effect on live birth in women, no evidence in men, with gastrointestinal discomfort reported; the unexplained infertility guideline considers them probably not recommended for women undergoing treatment (conditional, ⊕). NICE refers to the 2025 ESHRE stimulation guideline for pre-treatment (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+        "es": "Hormona de crecimiento en bajas respondedoras: la guía de 2025 reconoce que la revisión Cochrane actualizada y un metaanálisis de 2025 sugieren más nacidos vivos, pero considera la evidencia de calidad demasiado limitada (estudios con poca potencia y definiciones de baja respuesta muy heterogéneas), recuerda que puede causar daños graves y que no hay datos de seguridad a largo plazo, y anima a investigar. La aspirina tampoco se recomienda en la población general de FIV/ICSI ni en bajas respondedoras (fuerte, ⊕⊕⊕), ni el sildenafilo en bajas respondedoras (fuerte, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nEl documento de add-ons señala problemas graves de seguridad con algunos adyuvantes, como el sildenafilo, y deja abierta la investigación en circunstancias concretas. Sobre antioxidantes: efecto incierto en el nacido vivo en mujeres (certeza muy baja); en varones, el aparente beneficio (OR 1,43; certeza muy baja) desaparece al excluir los estudios con alto riesgo de sesgo; se describen más molestias digestivas (OR 2,70; IC 95 % 1,46–4,99); la guía de infertilidad inexplicada los considera probablemente no recomendados en mujeres en tratamiento (condicional, ⊕). NICE remite a la guía ESHRE de estimulación de 2025 para el pretratamiento (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "Growth hormone in low responders: the 2025 guideline acknowledges that the updated Cochrane review and a 2025 meta-analysis suggest more live births, but judges the evidence to be of too limited quality (underpowered studies and very heterogeneous definitions of low response), recalls that it has the potential for serious harm and that there are no long-term safety data, and encourages research. Aspirin is not recommended in the general IVF/ICSI population or in low responders (strong, ⊕⊕⊕), nor sildenafil in low responders (strong, ⊕). [[ref:eshre-2025-ovarian-stimulation]]\n\nThe add-ons document points to serious safety concerns with some adjuncts, such as sildenafil, and leaves room for research in specific circumstances. On antioxidants: uncertain effect on live birth in women (very low certainty); in men, the apparent benefit (OR 1.43; very low certainty) disappears when studies at high risk of bias are excluded; more gastrointestinal discomfort is reported (OR 2.70; 95% CI 1.46–4.99); the unexplained infertility guideline considers them probably not recommended for women undergoing treatment (conditional, ⊕). NICE refers to the 2025 ESHRE stimulation guideline for pre-treatment (1.40). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
       },
       "pearl": {
         "es": "En bajas respondedoras, la hormona de crecimiento es el caso más gris: posible beneficio, evidencia débil y seguridad a largo plazo desconocida. Eso es «probablemente no», no «sí».",
@@ -727,8 +727,8 @@
         "en": "What does the 2025 ESHRE stimulation guideline say about growth hormone and DHEA in low responders, and with what strength?"
       },
       "application": {
-        "es": "En España, la ficha técnica de la somatropina de referencia (Genotonorm) no incluye ninguna indicación reproductiva, así que su uso en la estimulación ovárica es fuera de ficha técnica. No hay ninguna DHEA oral autorizada: la única prasterona en CIMA es un óvulo vaginal de 6,5 mg para la atrofia vulvovaginal (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]",
-        "en": "In Spain, the product information for the reference somatropin (Genotonorm) includes no reproductive indication, so its use in ovarian stimulation is off-label. There is no authorised oral DHEA: the only prasterone in CIMA is a 6.5 mg vaginal pessary for vulvovaginal atrophy (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]"
+        "es": "En España, la ficha técnica de Genotonorm (la somatropina cuya sección 4.1 se revisó, de 45 presentaciones en CIMA) no incluye ninguna indicación reproductiva, por lo que su uso en la estimulación ovárica sería fuera de ficha técnica. En CIMA, la búsqueda «prasterona» solo devuelve un óvulo vaginal de 6,5 mg para la atrofia vulvovaginal (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]",
+        "en": "In Spain, the product information for Genotonorm (the somatropin whose section 4.1 was reviewed, out of 45 presentations in CIMA) includes no reproductive indication, so its use in ovarian stimulation would be off-label. In CIMA, the search “prasterona” returns only a 6.5 mg vaginal pessary for vulvovaginal atrophy (Intrarosa). [[ref:aemps-2024-genotonorm-intrarosa]]"
       }
     },
     {
@@ -1081,7 +1081,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -1097,8 +1097,8 @@
         "en": "Endometrial scratching: 37 RCTs and still no clear benefit"
       },
       "core": {
-        "es": "La ESHRE considera el scratching endometrial «currently not recommended for routine clinical use», y su guía de infertilidad inexplicada indica que no debe ofrecerse (fuerte, ⊕⊕). NICE indica no ofrecerlo como pretratamiento para mejorar el resultado de la FIV (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
-        "en": "ESHRE considers endometrial scratching “currently not recommended for routine clinical use”, and its unexplained infertility guideline states it should not be offered (strong, ⊕⊕). NICE advises not to offer it as a pre-treatment to improve IVF outcome (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+        "es": "La ESHRE considera el scratching endometrial «currently not recommended for routine clinical use», y su guía de infertilidad inexplicada indica que no debe ofrecerse en esa población (fuerte, ⊕⊕). NICE indica no ofrecerlo como pretratamiento para mejorar el resultado de la FIV (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "ESHRE considers endometrial scratching “currently not recommended for routine clinical use”, and its unexplained infertility guideline states it should not be offered in that population (strong, ⊕⊕). NICE advises not to offer it as a pre-treatment to improve IVF outcome (1.40.1). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
       },
       "body": {
         "es": "La revisión Cochrane más reciente incluyó 37 ECA (8786 mujeres); en el análisis principal, limitado a estudios de bajo riesgo de sesgo, el efecto sobre el nacido vivo fue incierto, compatible con ningún efecto, una pequeña reducción o una mejora (OR 1,12; IC 95 % 0,98–1,28; 8 ECA; n = 4402; calidad moderada), y probablemente con poco o ningún efecto sobre el aborto. En el primer ciclo de FIV no hubo efecto (RR 1,04; IC 95 % 0,89–1,21; n = 1048). Algunos subgrupos (por ejemplo, scratching doble tras fallo previo) dieron resultados positivos, pero otra revisión no halló diferencias en ningún grupo, y la ESHRE concluye que los análisis de subgrupos no identificaron quién se beneficia. Puede causar dolor y sangrado de mínimos a moderados (y un pequeño riesgo de infección si se hace por histeroscopia); un estudio estimó 6524 € por nacido vivo adicional. [[ref:eshre-2023-addons]]\n\nNICE razona que la evidencia es inconsistente (posible daño, posible beneficio o ningún efecto) y que es un procedimiento invasivo con costes de tiempo, recursos y dinero, porque no se puede combinar con otro procedimiento. [[ref:nice-2026-ng257]]",
@@ -1204,7 +1204,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -1220,8 +1220,8 @@
         "en": "ESHRE versus NICE: same direction, different strength"
       },
       "core": {
-        "es": "Coinciden en no ofrecer pruebas de receptividad endometrial, tratamientos inmunológicos, ICSI sin factor masculino ni eclosión asistida, y en no usar la PGT-A para mejorar el nacido vivo. Difieren sobre todo en la fuerza de la fórmula: donde el documento de add-ons dice «currently not recommended for routine clinical use» (PGT-A, scratching), NICE dice «no ofrecer»; en el scratching, la guía ESHRE de infertilidad inexplicada ya dice que no debe ofrecerse (fuerte, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
-        "en": "They agree on not offering endometrial receptivity tests, immunological treatments, ICSI without male factor or assisted hatching, and on not using PGT-A to improve live birth. They differ mainly in the strength of the wording: where the add-ons document says “currently not recommended for routine clinical use” (PGT-A, scratching), NICE says “do not offer”; for scratching, the ESHRE unexplained infertility guideline already says it should not be offered (strong, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
+        "es": "Coinciden en no ofrecer pruebas de receptividad endometrial, tratamientos inmunológicos, ICSI sin factor masculino ni eclosión asistida, y en no usar la PGT-A para mejorar el nacido vivo. Difieren sobre todo en la fuerza de la fórmula: donde el documento de add-ons dice «currently not recommended for routine clinical use» (PGT-A, scratching), NICE dice «no ofrecer»; en el scratching, la guía ESHRE de infertilidad inexplicada ya dice que no debe ofrecerse en la infertilidad inexplicada (fuerte, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "They agree on not offering endometrial receptivity tests, immunological treatments, ICSI without male factor or assisted hatching, and on not using PGT-A to improve live birth. They differ mainly in the strength of the wording: where the add-ons document says “currently not recommended for routine clinical use” (PGT-A, scratching), NICE says “do not offer”; for scratching, the ESHRE unexplained infertility guideline already says it should not be offered in unexplained infertility (strong, ⊕⊕). [[ref:eshre-2023-addons]] [[ref:eshre-2023-unexplained-infertility]] [[ref:nice-2026-ng257]]"
       },
       "body": {
         "es": "Otras diferencias. Time-lapse: la ESHRE no lo recomienda para mejorar el nacido vivo; NICE no hizo recomendación y no quiso excluir su uso por la incubación estable. Ácido hialurónico en el medio de transferencia: la ESHRE lo recomienda; en NICE NG257 no encontramos recomendación. Histeroscopia de cribado: la ESHRE la considera «currently not recommended for routine clinical use», pero «can be considered» en el fallo de implantación recurrente; NICE indica no ofrecerla como pretratamiento de la FIV, salvo que se sospechen alteraciones uterinas o endometriales (1.40.2). [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]\n\nFechas y alcance: el documento ESHRE revisó la literatura hasta agosto de 2022 y sus adyuvantes de estimulación remiten a la guía de 2020, ya actualizada en 2025; la mayoría de las recomendaciones de NICE sobre add-ons son de 2026, pero la de eclosión asistida es de 2004. Para el pretratamiento, NICE remite a la guía ESHRE de estimulación de 2025. [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]] [[ref:eshre-2025-ovarian-stimulation]]",
@@ -2621,7 +2621,7 @@
           },
           "correct": false,
           "why": {
-            "es": "El nacido vivo no aumentó de forma significativa, y NICE la desaconseja porque no mejora la tasa de embarazo (1.49.1).",
+            "es": "El nacido vivo no aumentó de forma significativa, y NICE la desaconseja porque no se ha demostrado que mejore la tasa de embarazo (1.49.1).",
             "en": "Live birth did not increase significantly, and NICE advises against it because it does not improve the pregnancy rate (1.49.1)."
           }
         },
@@ -3368,8 +3368,8 @@
           },
           "correct": false,
           "why": {
-            "es": "La ESHRE no recomienda el scratching en ningún grupo; su fórmula es «currently not recommended for routine clinical use».",
-            "en": "ESHRE does not recommend scratching in any group; its phrase is “currently not recommended for routine clinical use”."
+            "es": "La ESHRE no identifica ningún grupo que se beneficie; su fórmula es «currently not recommended for routine clinical use».",
+            "en": "ESHRE does not identify any group that benefits; its phrase is “currently not recommended for routine clinical use”."
           }
         },
         {

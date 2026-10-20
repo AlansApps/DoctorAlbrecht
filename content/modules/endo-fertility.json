@@ -61,8 +61,8 @@
         "en": "Apply ESHRE and NICE recommendations on hormone suppression and on surgery for peritoneal, ovarian and deep disease, weighing the effect on ovarian reserve."
       },
       "closing": {
-        "es": "La supresión no mejora la fertilidad; la cirugía puede ayudar al embarazo espontáneo, pero en el endometrioma hay que contar con la reserva ovárica y en la profunda manda el dolor.",
-        "en": "Suppression does not improve fertility; surgery may help spontaneous pregnancy, but with endometrioma ovarian reserve must be weighed and in deep disease pain leads the decision."
+        "es": "La supresión no mejora la fertilidad; la cirugía puede ayudar al embarazo espontáneo, pero en el endometrioma hay que contar con la reserva ovárica y en la profunda la decisión se individualiza (antes de la TRA, la guían sobre todo el dolor y las preferencias).",
+        "en": "Suppression does not improve fertility; surgery may help spontaneous pregnancy, but with endometrioma ovarian reserve must be weighed and in deep disease the decision is individualised (before ART, pain and preferences lead it)."
       },
       "prerequisites": [
         "fert.amh-afc"
@@ -101,8 +101,8 @@
         "en": "Choose between IUI with stimulation and IVF, avoid pre-treatments and surgery without proven benefit before IVF, counsel on fertility preservation and explain what is known about diet and supplements."
       },
       "closing": {
-        "es": "La FIV funciona en la endometriosis sin pretratamientos largos ni cirugía rutinaria; la preservación se comenta en la enfermedad ovárica extensa y, para dieta y suplementos, la evidencia es insuficiente.",
-        "en": "IVF works in endometriosis without long pre-treatment or routine surgery; preservation is discussed in extensive ovarian disease, and for diet and supplements the evidence is insufficient."
+        "es": "La FIV es una opción eficaz en la endometriosis sin pretratamientos largos ni cirugía rutinaria (en estadio III/IV el nacido vivo es menor que sin endometriosis); la preservación se comenta en la enfermedad ovárica extensa y, para dieta y suplementos, la evidencia es insuficiente.",
+        "en": "IVF is an effective option in endometriosis without long pre-treatment or routine surgery (in stage III/IV live birth is lower than without endometriosis); preservation is discussed in extensive ovarian disease, and for diet and supplements the evidence is insufficient."
       },
       "prerequisites": [
         "fert.iui",
@@ -995,7 +995,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -1026,13 +1026,13 @@
         }
       },
       "recall": {
-        "es": "¿En qué situaciones señala la ESHRE la TRA en la infertilidad asociada a endometriosis y qué protocolo recomienda?",
-        "en": "In which situations does ESHRE point to ART for endometriosis-associated infertility, and which protocol does it recommend?"
+        "es": "¿En qué situaciones señala la ESHRE la TRA en la infertilidad asociada a endometriosis y qué dice sobre el protocolo de estimulación?",
+        "en": "In which situations does ESHRE point to ART for endometriosis-associated infertility, and what does it say about the stimulation protocol?"
       }
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction",
         "hormones"
@@ -1053,7 +1053,7 @@
         "en": "ESHRE does not recommend extended GnRH agonist administration before ART to improve live birth, because the benefit is uncertain (strong, ⊕), and considers the evidence insufficient for prolonged pre-treatment with combined oral contraceptives or progestogens (weak, ⊕). [[ref:eshre-2022-endometriosis]]"
       },
       "body": {
-        "es": "Según la ESHRE, una revisión Cochrane antigua (3 estudios, 228 pacientes) sugirió que 3–6 meses de agonista multiplicaban por más de 4 la probabilidad de embarazo clínico; su actualización (8 ECA, 640 participantes) concluyó que el efecto sobre el nacido vivo y los desenlaces secundarios es muy incierto, con datos de calidad muy baja. [[ref:eshre-2022-endometriosis]]\n\nASRM 2012 citaba aquel resumen previo de 3 ECA (165 mujeres según ASRM; la ESHRE habla de 228 pacientes; OR 4,28 de embarazo clínico), aunque ya advertía de que era difícil extrapolarlo por las tasas de embarazo muy altas de los grupos tratados. Es un ejemplo de recomendación que cambia al actualizarse la evidencia. [[ref:asrm-2012-endometriosis-infertility]]",
+        "es": "Según la ESHRE, una revisión Cochrane antigua (3 estudios, 228 pacientes) concluyó que 3–6 meses de agonista aumentaban más de 4 veces los odds (razón de probabilidades) de embarazo clínico; su actualización (8 ECA, 640 participantes) concluyó que el efecto sobre el nacido vivo y los desenlaces secundarios es muy incierto, con datos de calidad muy baja. [[ref:eshre-2022-endometriosis]]\n\nASRM 2012 citaba aquel resumen previo de 3 ECA (165 mujeres según ASRM; la ESHRE habla de 228 pacientes; OR 4,28 de embarazo clínico), aunque ya advertía de que era difícil extrapolarlo por las tasas de embarazo muy altas de los grupos tratados. Es un ejemplo de recomendación que cambia al actualizarse la evidencia. [[ref:asrm-2012-endometriosis-infertility]]",
         "en": "According to ESHRE, an older Cochrane review (3 studies, 228 patients) suggested that 3–6 months of agonist increased the odds of clinical pregnancy more than 4-fold; its update (8 RCTs, 640 participants) concluded that the effect on live birth and secondary outcomes is very uncertain, with very low-quality data. [[ref:eshre-2022-endometriosis]]\n\nASRM 2012 cited that earlier summary of 3 RCTs (165 women according to ASRM; ESHRE reports 228 patients; OR 4.28 for clinical pregnancy), while already warning that it was hard to extrapolate given the very high pregnancy rates in the treated arms. It is an example of a recommendation that changes when the evidence is updated. [[ref:asrm-2012-endometriosis-infertility]]"
       },
       "evidence": {
@@ -1107,7 +1107,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -1119,8 +1119,8 @@
       "type": "concept",
       "conceptId": "endo-fert.fertility-preservation",
       "title": {
-        "es": "Preservación de la fertilidad: conversación obligada, beneficio incierto",
-        "en": "Fertility preservation: a required conversation, an uncertain benefit"
+        "es": "Preservación de la fertilidad: hay que hablarlo en la enfermedad ovárica extensa, beneficio incierto",
+        "en": "Fertility preservation: discuss it in extensive ovarian disease, benefit uncertain"
       },
       "core": {
         "es": "ESHRE recomienda comentar los pros y contras de la preservación de la fertilidad con las mujeres con endometriosis ovárica extensa, y reconoce que su beneficio real en la endometriosis es desconocido (fuerte, ⊕). [[ref:eshre-2022-endometriosis]]",
@@ -1144,7 +1144,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "diet",
         "supplements",
@@ -1181,8 +1181,8 @@
         }
       },
       "recall": {
-        "es": "¿Qué dicen la ESHRE y NICE sobre la nutrición, los suplementos o la acupuntura para mejorar la fertilidad en la endometriosis?",
-        "en": "What do ESHRE and NICE say about nutrition, supplements or acupuncture to improve fertility in endometriosis?"
+        "es": "¿Qué dice la ESHRE sobre la nutrición, la acupuntura y otras intervenciones no médicas para aumentar el embarazo en la endometriosis, y qué dice NICE sobre las hierbas y los suplementos?",
+        "en": "What does ESHRE say about nutrition, acupuncture and other non-medical interventions to increase pregnancy in endometriosis, and what does NICE say about herbal medicines and supplements?"
       }
     },
     {
@@ -1339,7 +1339,7 @@
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction",
         "hormones"
@@ -1352,8 +1352,8 @@
       "conceptId": "endo-fert.pre-art-suppression",
       "difficulty": 3,
       "stem": {
-        "es": "Un colega propone 3 meses de agonista de GnRH antes de la FIV en una mujer con endometriosis, citando una revisión que multiplicaba por 4 el embarazo clínico. ¿Cuál es la respuesta más ajustada a la ESHRE 2022?",
-        "en": "A colleague proposes 3 months of GnRH agonist before IVF in a woman with endometriosis, citing a review showing a 4-fold increase in clinical pregnancy. Which answer best matches ESHRE 2022?"
+        "es": "Un colega propone 3 meses de agonista de GnRH antes de la FIV en una mujer con endometriosis, citando una revisión antigua que daba un odds ratio de 4 para el embarazo clínico. ¿Cuál es la respuesta más ajustada a la ESHRE 2022?",
+        "en": "A colleague proposes 3 months of GnRH agonist before IVF in a woman with endometriosis, citing an older review that reported an odds ratio of about 4 for clinical pregnancy. Which answer best matches ESHRE 2022?"
       },
       "options": [
         {
@@ -1406,8 +1406,8 @@
         }
       ],
       "explanation": {
-        "es": "La cifra «×4» procede de una revisión antigua con 3 estudios; su actualización y la ESHRE 2022 la dejan sin respaldo para el nacido vivo.",
-        "en": "The “×4” figure comes from an older review of 3 studies; its update and ESHRE 2022 leave it without support for live birth."
+        "es": "La cifra «×4» es un odds ratio de una revisión antigua con 3 estudios; su actualización y la ESHRE 2022 la dejan sin respaldo para el nacido vivo.",
+        "en": "The “×4” figure is an odds ratio from an older review of 3 studies; its update and ESHRE 2022 leave it without support for live birth."
       },
       "refIds": [
         "eshre-2022-endometriosis",
@@ -1416,7 +1416,7 @@
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "diet",
         "supplements",
@@ -1478,8 +1478,8 @@
           },
           "correct": false,
           "why": {
-            "es": "Ninguna de estas guías respalda la dieta para mejorar la fertilidad, así que no justifica retrasar el tratamiento.",
-            "en": "None of these guidelines supports diet to improve fertility, so it does not justify delaying treatment."
+            "es": "La ESHRE no puede recomendar la dieta ni otras intervenciones no médicas para aumentar la fertilidad, así que no justifica retrasar el tratamiento.",
+            "en": "ESHRE cannot recommend diet or other non-medical interventions to increase fertility, so it does not justify delaying treatment."
           }
         }
       ],
@@ -3161,8 +3161,8 @@
         "reproduction"
       ],
       "stem": {
-        "es": "En el NHS, una mujer con endometriosis profunda no ha concebido tras 2 años. Según NICE (NG257, con la justificación de su comité, y NG73), ¿qué opción encaja peor?",
-        "en": "In the NHS, a woman with deep endometriosis has not conceived after 2 years. According to NICE (NG257, with its committee's rationale, and NG73), which option fits worst?"
+        "es": "En el NHS, una mujer con endometriosis profunda no ha concebido tras 2 años. Según NICE (NG257 y NG73), ¿qué opción es la que, según la justificación del comité de NG257, encajaría peor en la práctica?",
+        "en": "In the NHS, a woman with deep endometriosis has not conceived after 2 years. According to NICE (NG257 and NG73), which option would, according to the NG257 committee's rationale, fit worst in practice?"
       },
       "options": [
         {
@@ -4364,7 +4364,7 @@
       "id": "endo-fert.case1-elena-raul",
       "kind": "case",
       "conceptId": "endo-fert.case-elena-raul",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction",
         "hormones",
@@ -4416,8 +4416,8 @@
         {
           "id": "endo-fert.case1.s6",
           "text": {
-            "es": "Antes de empezar, Elena pregunta por una dieta antiinflamatoria y suplementos. Se le explica que ni la ESHRE ni NICE respaldan intervenciones no médicas ni suplementos para mejorar la fertilidad o tratar la endometriosis, y que nada de ello debe retrasar la FIV. [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]]",
-            "en": "Before starting, Elena asks about an anti-inflammatory diet and supplements. It is explained that neither ESHRE nor NICE supports non-medical interventions or supplements to improve fertility or treat endometriosis, and that none of it should delay IVF. [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]]"
+            "es": "Antes de empezar, Elena pregunta por una dieta antiinflamatoria y suplementos. Se le explica que la ESHRE no puede recomendar ninguna intervención no médica (nutrición, acupuntura y otras) para aumentar el embarazo, que NICE indica que la evidencia no respalda la medicina tradicional china, otras hierbas ni suplementos para tratar la endometriosis, y que nada de ello debe retrasar la FIV. [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]]",
+            "en": "Before starting, Elena asks about an anti-inflammatory diet and supplements. It is explained that ESHRE cannot recommend any non-medical intervention (nutrition, acupuncture and others) to increase pregnancy, that NICE advises the evidence does not support traditional Chinese medicine, other herbal medicines or supplements for treating endometriosis, and that none of it should delay IVF. [[ref:eshre-2022-endometriosis]] [[ref:nice-2024-ng73]]"
           },
           "questionId": "endo-fert.q10-complementary"
         }
