@@ -89,8 +89,8 @@
         "en": "Apply the iodine recommendation in preconception, pregnancy and lactation, know that thyroid treatment does not exclude it, and avoid excess."
       },
       "closing": {
-        "es": "Yodo con margen: 250 µg/día totales, 150 µg de suplemento si hay riesgo de déficit, la misma pauta con levotiroxina o antitiroideos y nada por encima de 500 µg/día sostenidos.",
-        "en": "Iodine with a window: 250 µg/day in total, a 150 µg supplement if there is a risk of deficiency, the same approach on levothyroxine or antithyroid drugs, and nothing above a sustained 500 µg/day."
+        "es": "Yodo con margen: 250 µg/día totales, 150 µg de suplemento si hay riesgo de déficit, la misma pauta con levotiroxina o antitiroideos y ningún suplemento sostenido por encima de 500 µg/día.",
+        "en": "Iodine with a window: 250 µg/day in total, a 150 µg supplement if there is a risk of deficiency, the same approach on levothyroxine or antithyroid drugs, and no sustained supplement use above 500 µg/day."
       },
       "prerequisites": [
         "supp.principles",
@@ -283,7 +283,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "supplements",
         "reproduction"
@@ -296,22 +296,22 @@
         "en": "Myth: “more folic acid, more fertility and fewer miscarriages”"
       },
       "core": {
-        "es": "En la pérdida gestacional recurrente (PGR) inexplicada, el ácido fólico a dosis bajas no ha demostrado prevenir nuevas pérdidas; ESHRE desaconseja la dosis alta sin hiperhomocisteinemia ni condiciones que aumenten el riesgo de DTN (diabetes, epilepsia). [[ref:eshre-2022-rpl]]",
-        "en": "In unexplained recurrent pregnancy loss (RPL), low-dose folic acid has not been shown to prevent further losses; ESHRE advises against high doses without hyperhomocysteinaemia or conditions that raise NTD risk (diabetes, epilepsy). [[ref:eshre-2022-rpl]]"
+        "es": "En la pérdida gestacional recurrente (PGR) inexplicada, el ácido fólico a dosis bajas no ha demostrado prevenir nuevas pérdidas (recomendación fuerte); en su justificación, ESHRE indica que la dosis alta no debe usarse sin hiperhomocisteinemia ni condiciones que aumenten el riesgo de DTN (diabetes, epilepsia). [[ref:eshre-2022-rpl]]",
+        "en": "In unexplained recurrent pregnancy loss (RPL), low-dose folic acid has not been shown to prevent further losses (strong recommendation); in its justification, ESHRE states that high doses should not be used without hyperhomocysteinaemia or conditions that raise NTD risk (diabetes, epilepsy). [[ref:eshre-2022-rpl]]"
       },
       "body": {
         "es": "Recomendación fuerte de ESHRE: la dosis baja no ha demostrado prevenir la pérdida en la PGR inexplicada. En su justificación, ESHRE añade que la dosis alta no debe usarse sin hiperhomocisteinemia ni condiciones de riesgo de DTN. [[ref:eshre-2022-rpl]]\n\nNICE añade dos situaciones frecuentes en consulta en las que no hace falta subir de 400 µg al día, salvo que exista otro factor de riesgo de su lista: IMC ≥25 kg/m² y riesgo aumentado de preeclampsia. [[ref:nice-2025-ng247]]",
         "en": "Strong ESHRE recommendation: low-dose folic acid has not been shown to prevent loss in unexplained RPL. In its justification, ESHRE adds that high doses should not be used without hyperhomocysteinaemia or NTD-risk conditions. [[ref:eshre-2022-rpl]]\n\nNICE adds two common clinic situations in which there is no need to go above 400 µg a day, unless another risk factor from its list is present: BMI ≥25 kg/m² and increased risk of pre-eclampsia. [[ref:nice-2025-ng247]]"
       },
       "application": {
-        "es": "Si una paciente con abortos de repetición pide “la dosis alta” para no volver a perder, puedes explicarle que la dosis estándar sigue siendo para prevenir DTN y que subirla no protege del aborto.",
-        "en": "If a patient with recurrent miscarriage asks for “the high dose” so as not to lose again, you can explain that the standard dose is still for NTD prevention and that increasing it does not protect against miscarriage."
+        "es": "Si una paciente con abortos de repetición pide “la dosis alta” para no volver a perder, puedes explicarle que la dosis estándar sigue siendo para prevenir DTN y que no hay evidencia de que subirla proteja del aborto.",
+        "en": "If a patient with recurrent miscarriage asks for “the high dose” so as not to lose again, you can explain that the standard dose is still for NTD prevention and that there is no evidence that increasing it protects against miscarriage."
       },
       "evidence": {
         "label": "not-recommended",
         "note": {
-          "es": "ESHRE PGR 2022: fuerte (dosis alta sin indicación); NICE NG247.",
-          "en": "ESHRE RPL 2022: strong (high dose without indication); NICE NG247."
+          "es": "ESHRE PGR 2022: fuerte (dosis baja sin efecto demostrado sobre la pérdida); la cautela sobre la dosis alta está en la justificación; NICE NG247.",
+          "en": "ESHRE RPL 2022: strong (low dose not shown to prevent loss); the caution on high doses is in the justification; NICE NG247."
         }
       },
       "recall": {
@@ -525,7 +525,7 @@
     },
     {
       "kind": "question",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "supplements",
         "reproduction"
@@ -541,13 +541,13 @@
         {
           "id": "a",
           "text": {
-            "es": "Mantener la dosis baja preconcepcional para prevenir DTN y explicar que no previene la pérdida; no usar dosis alta.",
-            "en": "Keep the low preconception dose to prevent NTDs and explain that it does not prevent loss; do not use a high dose."
+            "es": "Mantener la dosis baja preconcepcional para prevenir DTN y explicar que no ha demostrado prevenir la pérdida; no usar dosis alta sin indicación.",
+            "en": "Keep the low preconception dose to prevent NTDs and explain that it has not been shown to prevent loss; do not use a high dose without an indication."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: ESHRE (fuerte): la dosis baja no previene la pérdida; según su justificación, la dosis alta no debe usarse sin indicación.",
-            "en": "Correct: ESHRE (strong): low-dose folic acid does not prevent loss; according to its justification, high doses should not be used without an indication."
+            "es": "Correcta: ESHRE (fuerte): la dosis baja no ha demostrado prevenir la pérdida; según su justificación, la dosis alta no debe usarse sin indicación.",
+            "en": "Correct: ESHRE (strong): low-dose folic acid has not been shown to prevent loss; according to its justification, high doses should not be used without an indication."
           }
         },
         {
@@ -570,8 +570,8 @@
           },
           "correct": false,
           "why": {
-            "es": "No previene la pérdida, pero sigue indicado para prevenir DTN.",
-            "en": "It does not prevent loss, but it is still indicated to prevent NTDs."
+            "es": "No ha demostrado prevenir la pérdida, pero sigue indicado para prevenir DTN.",
+            "en": "It has not been shown to prevent loss, but it is still indicated to prevent NTDs."
           }
         },
         {
@@ -647,7 +647,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "supplements",
         "reproduction"
@@ -660,8 +660,8 @@
         "en": "What I would not order: routine MTHFR genotype or homocysteine"
       },
       "core": {
-        "es": "ACOG no recomienda el cribado con análisis de mutaciones MTHFR ni con homocisteína en ayunas, por la falta de asociación entre las variantes C677T y desenlaces adversos del embarazo, incluida la tromboembolia venosa (nivel B). [[ref:acog-2018-pb197-thrombophilia]]",
-        "en": "ACOG does not recommend screening with MTHFR mutation analyses or fasting homocysteine, because of the lack of association between C677T variants and adverse pregnancy outcomes, including venous thromboembolism (Level B). [[ref:acog-2018-pb197-thrombophilia]]"
+        "es": "ACOG (PB 197, 2018) no recomienda el cribado con análisis de mutaciones MTHFR ni con homocisteína en ayunas, por la falta de asociación entre las variantes C677T y desenlaces adversos del embarazo, incluida la tromboembolia venosa (nivel B). [[ref:acog-2018-pb197-thrombophilia]]",
+        "en": "ACOG (PB 197, 2018) does not recommend screening with MTHFR mutation analyses or fasting homocysteine, because of the lack of association between C677T variants and adverse pregnancy outcomes, including venous thromboembolism (Level B). [[ref:acog-2018-pb197-thrombophilia]]"
       },
       "body": {
         "es": "ACOG añade que las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV, ni fuera ni durante el embarazo, y que no hay evidencia suficiente para incluirlas en el estudio de trombofilia. [[ref:acog-2018-pb197-thrombophilia]]\n\nPara el ácido fólico, el resultado tampoco cambiaría la conducta: la recomendación preconcepcional es la misma con o sin variante común. [[ref:cdc-mthfr-folic-acid]]",
@@ -704,8 +704,8 @@
       "evidence": {
         "label": "not-recommended",
         "note": {
-          "es": "ACOG PB 197 (nivel B).",
-          "en": "ACOG PB 197 (Level B)."
+          "es": "ACOG PB 197 (2018; nivel B).",
+          "en": "ACOG PB 197 (2018; Level B)."
         }
       },
       "recall": {
@@ -903,7 +903,7 @@
     },
     {
       "kind": "card",
-      "rev": 4,
+      "rev": 5,
       "tags": [
         "supplements",
         "reproduction"
@@ -924,8 +924,8 @@
         "en": "Nuance: the graded table recommendation is limited to women at risk, but the accompanying text advises 150 µg/day for all women preconception, in pregnancy and in lactation (unless high iodine intake is evident from traditional dietary habits) and allows higher amounts at increased risk, for example not using iodised salt, not eating dairy or following a vegan diet. [[ref:ata-2026-thyroid-pregnancy]]\n\nMechanism: in pregnancy thyroid hormone requirements and renal iodine excretion increase, and the fetus adds demand; the sodium/iodide symporter (NIS) mediates maternal and fetal thyroid uptake and the placental transfer of iodide. [[ref:ata-2026-thyroid-pregnancy]]\n\nThere are no validated biomarkers of an individual’s chronic iodine intake: urinary iodine is interpreted only as a population median. [[ref:ata-2026-thyroid-pregnancy]]"
       },
       "application": {
-        "es": "En España, la GPC del SNS (2014) sugiere sal yodada y no dar yodo de forma sistemática antes del embarazo; en la gestación, yoduro potásico 200 µg/día solo si la dieta no llega (3 raciones de lácteos y 2 g de sal yodada al día). En Argentina, la ley obliga a yodar toda la sal de uso alimentario. Pregunta por la dieta (sal yodada, lácteos, dieta vegana) antes de trasladar la cifra de la ATA. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]",
-        "en": "In Spain, the national guideline (2014) suggests iodised salt and no routine iodine supplement before pregnancy; in pregnancy, potassium iodide 200 µg/day only if the diet falls short (3 servings of dairy and 2 g of iodised salt a day). In Argentina, the law requires all salt for food use to be iodised. Ask about diet (iodised salt, dairy, vegan diet) before applying the ATA figure. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]"
+        "es": "En España, la GPC del SNS (2014; GuíaSalud la marca como caducada y no se localizó actualización) sugiere sal yodada y no dar yodo de forma sistemática antes del embarazo; en la gestación, yoduro potásico 200 µg/día solo si la dieta no llega (3 raciones de lácteos y 2 g de sal yodada al día). En Argentina, la ley obliga a yodar toda la sal de uso alimentario. Pregunta por la dieta (sal yodada, lácteos, dieta vegana) antes de trasladar la cifra de la ATA. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]",
+        "en": "In Spain, the national guideline (2014; flagged by GuíaSalud as out of date, no update found) suggests iodised salt and no routine iodine supplement before pregnancy; in pregnancy, potassium iodide 200 µg/day only if the diet falls short (3 servings of dairy and 2 g of iodised salt a day). In Argentina, the law requires all salt for food use to be iodised. Ask about diet (iodised salt, dairy, vegan diet) before applying the ATA figure. [[ref:guiasalud-2014-gpc-embarazo]] [[ref:ar-1997-ley-24786-sal-yodada]]"
       },
       "pearl": {
         "es": "Ojo con las unidades: el yodo se dosifica en microgramos (µg). Un preparado que dé “mg” de yodo merece una segunda lectura.",
@@ -1117,7 +1117,7 @@
     },
     {
       "kind": "question",
-      "rev": 3,
+      "rev": 4,
       "tags": [
         "supplements",
         "hormones",
@@ -1134,13 +1134,13 @@
         {
           "id": "a",
           "text": {
-            "es": "Que lo suspenda: en el embarazo debe evitarse el uso sostenido de suplementos con más de 500 µg/día de yodo, y no tiene sentido mantenerlo mientras busca embarazo.",
-            "en": "To stop it: sustained use of supplements providing more than 500 µg/day of iodine should be avoided in pregnancy, and there is no point continuing it while trying to conceive."
+            "es": "Que lo suspenda: en el embarazo debe evitarse el uso sostenido de suplementos con más de 500 µg/día de yodo, y no tiene sentido mantener 1000 µg/día mientras busca embarazo, que puede llegar en cualquier momento.",
+            "en": "To stop it: sustained use of supplements providing more than 500 µg/day of iodine should be avoided in pregnancy, and there is no point continuing 1000 µg/day while trying to conceive, as pregnancy can occur at any time."
           },
           "correct": true,
           "why": {
-            "es": "Correcta: la ATA 2026 lo recomienda (fuerte, certeza moderada) por la preocupación de disfunción tiroidea fetal y materna.",
-            "en": "Correct: the 2026 ATA guideline recommends this (strong, moderate certainty) because of concerns for fetal and maternal thyroid dysfunction."
+            "es": "Correcta: la ATA 2026 recomienda evitar esa exposición en el embarazo (fuerte, certeza moderada) por la preocupación de disfunción tiroidea fetal y materna; conviene corregirla antes de la concepción.",
+            "en": "Correct: the 2026 ATA guideline recommends avoiding this exposure in pregnancy (strong, moderate certainty) because of concerns for fetal and maternal thyroid dysfunction; it is best corrected before conception."
           }
         },
         {
@@ -2594,14 +2594,14 @@
           },
           "correct": false,
           "why": {
-            "es": "ACOG dice que las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de TEV.",
+            "es": "ACOG dice que las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV.",
             "en": "ACOG says MTHFR mutations by themselves do not appear to increase VTE risk."
           }
         },
         {
           "id": "b",
           "text": {
-            "es": "Las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de TEV, dentro ni fuera del embarazo, y la evidencia es insuficiente para incluirlas en el estudio de trombofilia.",
+            "es": "Las mutaciones MTHFR por sí solas no parecen aumentar el riesgo de ETV, dentro ni fuera del embarazo, y la evidencia es insuficiente para incluirlas en el estudio de trombofilia.",
             "en": "MTHFR mutations by themselves do not appear to increase VTE risk, in or outside pregnancy, and evidence is insufficient to include them in thrombophilia work-up."
           },
           "correct": true,
@@ -2858,7 +2858,7 @@
           },
           "correct": false,
           "why": {
-            "es": "Según ACOG, por sí sola no parece aumentar el riesgo de TEV.",
+            "es": "Según ACOG, por sí sola no parece aumentar el riesgo de ETV.",
             "en": "According to ACOG, on its own it does not appear to increase VTE risk."
           }
         }

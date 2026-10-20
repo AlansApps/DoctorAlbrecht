@@ -341,7 +341,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones",
         "reproduction"
@@ -358,8 +358,8 @@
         "en": "In healthy women trying to conceive, conception occurred only with intercourse during a six-day period ending on the estimated day of ovulation. [[ref:wilcox-1995-intercourse-timing]]"
       },
       "body": {
-        "es": "La probabilidad de concepción fue de 0,10 con relaciones cinco días antes de la ovulación y de 0,33 con relaciones el mismo día de la ovulación. La ovulación se estimó con metabolitos urinarios de estrógeno y progesterona en 625 ciclos. “Concepción” se definió por el aumento de hCG urinaria (embarazo temprano); dos tercios acabaron en nacido vivo. [[ref:wilcox-1995-intercourse-timing]]\n\nASRM recomienda, si la paciente usa una app de seguimiento, hablar de sus limitaciones para predecir con exactitud la ventana fértil. [[ref:asrm-2021-fertility-evaluation]]",
-        "en": "The probability of conception was 0.10 with intercourse five days before ovulation and 0.33 with intercourse on the day of ovulation itself. Ovulation was estimated from urinary oestrogen and progesterone metabolites in 625 cycles. “Conception” was defined by a rise in urinary hCG (early pregnancy); two thirds ended in a live birth. [[ref:wilcox-1995-intercourse-timing]]\n\nASRM advises that, if the patient uses a tracking app, you discuss its limitations in accurately predicting the fertile window. [[ref:asrm-2021-fertility-evaluation]]"
+        "es": "La probabilidad de concepción fue de 0,10 con relaciones cinco días antes de la ovulación y de 0,33 con relaciones el mismo día de la ovulación. La ovulación se estimó con metabolitos urinarios de estrógeno y progesterona en 625 ciclos. “Concepción” se definió por el aumento de hCG urinaria (embarazo temprano); dos tercios acabaron en nacido vivo. [[ref:wilcox-1995-intercourse-timing]]\n\nASRM incluye entre las consideraciones de la historia clínica comentar con la paciente, si usa una app de seguimiento, sus limitaciones para predecir con exactitud la ventana fértil (no es una recomendación graduada). [[ref:asrm-2021-fertility-evaluation]]",
+        "en": "The probability of conception was 0.10 with intercourse five days before ovulation and 0.33 with intercourse on the day of ovulation itself. Ovulation was estimated from urinary oestrogen and progesterone metabolites in 625 cycles. “Conception” was defined by a rise in urinary hCG (early pregnancy); two thirds ended in a live birth. [[ref:wilcox-1995-intercourse-timing]]\n\nASRM lists, among its history-taking considerations, discussing with a patient who uses a tracking app its limitations in accurately predicting the fertile window (not a graded recommendation). [[ref:asrm-2021-fertility-evaluation]]"
       },
       "application": {
         "es": "Las relaciones de los días previos a la ovulación también cuentan: no hace falta acertar el día exacto.",
@@ -537,7 +537,7 @@
     },
     {
       "kind": "question",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "hormones",
         "reproduction"
@@ -600,8 +600,8 @@
         }
       ],
       "explanation": {
-        "es": "Según Wilcox 1995, la ventana fértil son seis días que terminan en la ovulación y la probabilidad de concepción (medida por hCG urinaria, embarazo temprano) sube de 0,10 a 0,33 al acercarse a ese día. ASRM resume que la fecundabilidad máxima está en los 2 días previos a la ovulación: los días −2 a 0 tienen probabilidades parecidas.",
-        "en": "According to Wilcox 1995, the fertile window is six days ending at ovulation and the probability of conception (measured by urinary hCG, early pregnancy) rises from 0.10 to 0.33 as that day approaches. ASRM summarises peak fecundability as within the 2 days before ovulation: days −2 to 0 have similar probabilities."
+        "es": "Según Wilcox 1995, la ventana fértil son seis días que terminan en la ovulación y la probabilidad de concepción (medida por hCG urinaria, embarazo temprano) sube de 0,10 a 0,33 al acercarse a ese día; 0,33 fue el valor del día de la ovulación. ASRM resume la fecundabilidad máxima en los 2 días previos a la ovulación.",
+        "en": "According to Wilcox 1995, the fertile window is six days ending at ovulation and the probability of conception (measured by urinary hCG, early pregnancy) rises from 0.10 to 0.33 as that day approaches; 0.33 was the value on the day of ovulation. ASRM summarises peak fecundability as within the 2 days before ovulation."
       },
       "refIds": [
         "wilcox-1995-intercourse-timing",
@@ -1644,7 +1644,7 @@
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "hormones",
         "reproduction"
@@ -1707,8 +1707,8 @@
         }
       ],
       "explanation": {
-        "es": "Distingue el tipo de enunciado (GPP vs recomendación) y su certeza: aquí todo es certeza muy baja, lo que explica que las guías discrepen.",
-        "en": "Distinguish the statement type (GPP vs recommendation) and its certainty: here everything is very low certainty, which explains why guidelines disagree."
+        "es": "Distingue el tipo de enunciado (punto de buena práctica frente a recomendación graduada) y su certeza: la recomendación condicional de ESHRE tiene certeza muy baja y el otro enunciado es un punto de buena práctica, sin certeza graduada; esa base débil ayuda a explicar que las guías discrepen.",
+        "en": "Distinguish the type of statement (good practice point vs graded recommendation) and its certainty: ESHRE's conditional recommendation has very low certainty and the other statement is a good practice point, with no graded certainty; that weak evidence base helps explain why guidelines disagree."
       },
       "refIds": [
         "eshre-2023-unexplained-infertility",
