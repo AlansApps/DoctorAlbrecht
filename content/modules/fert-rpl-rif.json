@@ -65,8 +65,8 @@
         "en": "Use aspirin plus heparin only in antiphospholipid syndrome, recognise the subgroup in which vaginal progesterone may improve live birth, explain why heparin and immunotherapies are not recommended in unexplained RPL, and give lifestyle advice and psychological support according to ESHRE."
       },
       "closing": {
-        "es": "SAF: aspirina antes de concebir y heparina desde el test positivo. PGR inexplicada: ni heparina ni inmunoterapia; progesterona vaginal si hay tres o más pérdidas y sangrado. Y siempre: quitar culpa, informar del pronóstico y acompañar la siguiente gestación.",
-        "en": "APS: aspirin before conception and heparin from the positive test. Unexplained RPL: no heparin or immunotherapy; vaginal progesterone with three or more losses and bleeding. And always: remove guilt, share the prognosis and support the next pregnancy."
+        "es": "SAF de laboratorio con tres o más pérdidas: aspirina antes de concebir y heparina desde el test positivo (con dos pérdidas, solo en investigación). PGR inexplicada: ni heparina ni inmunoterapia; progesterona vaginal si hay tres o más pérdidas y sangrado. Y siempre: quitar culpa, informar del pronóstico y acompañar la siguiente gestación.",
+        "en": "Laboratory APS with three or more losses: aspirin before conception and heparin from the positive test (with two losses, only within research). Unexplained RPL: no heparin or immunotherapy; vaginal progesterone with three or more losses and bleeding. And always: remove guilt, share the prognosis and support the next pregnancy."
       },
       "prerequisites": [
         "fert.rpl"
@@ -182,7 +182,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -202,7 +202,7 @@
         "en": "ESHRE recommends basing prognosis on the woman’s age and her complete pregnancy history: number of previous losses, live births and their sequence (strong, ⊕⊕⊕○). Prognostic tools such as the Kolte and Westergaard tool can be used to estimate the chance of live birth (GPP). [[ref:eshre-2022-rpl]]"
       },
       "body": {
-        "es": "Hay que informar con tacto de que el riesgo de pérdida es mínimo entre los 20 y los 35 años y de que aumenta rápidamente después de los 40 (ambas fuertes). El número de pérdidas previas es un factor pronóstico constante en los estudios de cohortes, tanto para la siguiente gestación como a largo plazo. [[ref:eshre-2022-rpl]]\n\nLos factores genéticos, endocrinos, anatómicos y autoinmunes explican en conjunto un 50–60 % de las PGR, y un 40–50 % queda sin explicación. Como no hay intervenciones que hayan demostrado mejorar el nacido vivo en la PGR inexplicada, informar del pronóstico individual es en sí una parte esencial del manejo. [[ref:eshre-2022-rpl]]",
+        "es": "Hay que informar con tacto de que el riesgo de pérdida es más bajo entre los 20 y los 35 años y de que aumenta rápidamente después de los 40 (ambas fuertes). El número de pérdidas previas es un factor pronóstico constante en los estudios de cohortes, tanto para la siguiente gestación como a largo plazo. [[ref:eshre-2022-rpl]]\n\nLos factores genéticos, endocrinos, anatómicos y autoinmunes explican en conjunto un 50–60 % de las PGR, y un 40–50 % queda sin explicación. Como no hay intervenciones que hayan demostrado mejorar el nacido vivo en la PGR inexplicada, informar del pronóstico individual es en sí una parte esencial del manejo. [[ref:eshre-2022-rpl]]",
         "en": "Women should be sensitively informed that the risk of loss is lowest between 20 and 35 years and rises rapidly after 40 (both strong). The number of previous losses is a consistent prognostic factor in cohort studies, both for the next pregnancy and in the long term. [[ref:eshre-2022-rpl]]\n\nGenetic, endocrine, anatomical and autoimmune factors together account for an estimated 50–60% of RPL, leaving 40–50% unexplained. Because no intervention has been shown to improve live birth in unexplained RPL, informing couples of their individual prognosis is itself an essential part of management. [[ref:eshre-2022-rpl]]"
       },
       "evidence": {
@@ -646,7 +646,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction",
         "hormones"
@@ -659,8 +659,8 @@
       "type": "comparison",
       "conceptId": "fert-rr.unexplained-treatment",
       "title": {
-        "es": "PGR inexplicada: ni heparina ni aspirina; progesterona solo si hay sangrado",
-        "en": "Unexplained RPL: no heparin or aspirin; progesterone only with bleeding"
+        "es": "PGR inexplicada: ni heparina ni aspirina; progesterona vaginal si hay tres o más pérdidas y sangrado",
+        "en": "Unexplained RPL: no heparin or aspirin; vaginal progesterone with three or more losses and bleeding"
       },
       "core": {
         "es": "La ESHRE no recomienda heparina ni aspirina a dosis bajas en la PGR inexplicada, porque hay evidencia de que no mejoran el nacido vivo (fuerte). La progesterona vaginal puede mejorar el nacido vivo en mujeres con tres o más pérdidas y sangrado vaginal en la gestación siguiente (condicional, ⊕⊕⊕○). [[ref:eshre-2022-rpl]]",
@@ -1298,7 +1298,7 @@
     },
     {
       "kind": "card",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -1314,8 +1314,8 @@
         "en": "RPL, RIF and add-ons: where the documents agree and where they differ"
       },
       "core": {
-        "es": "El documento de FIR, el de add-ons y NICE coinciden en no usar inmunoterapia ni estudios inmunitarios: el de add-ons no recomienda las pruebas inmunitarias en sangre ni el estudio de NK uterinas, y NICE indica no usar agentes inmunológicos en el tratamiento de fertilidad (1.42.1); la guía de PGR es la excepción parcial, por las inmunoglobulinas. Discrepan en la PGT-A: el documento de FIR la considera, mientras que el de add-ons no la recomienda de rutina y NICE indica no ofrecerla para mejorar el nacido vivo (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
-        "en": "The RIF document, the add-ons document and NICE agree on not using immunotherapy or immune testing: the add-ons document does not recommend peripheral blood immune tests or uterine NK testing, and NICE advises against immunological agents in fertility treatment (1.42.1); the RPL guideline is the partial exception, because of immunoglobulin. They differ on PGT-A: the RIF document considers it, whereas the add-ons document does not recommend it routinely and NICE advises against offering it to improve live birth (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
+        "es": "El documento de FIR, el de add-ons y NICE coinciden en no usar inmunoterapia (NICE indica no usar agentes inmunológicos en el tratamiento de fertilidad, 1.42.1); además, el documento de FIR y el de add-ons no recomiendan las pruebas inmunitarias (el de add-ons, las de sangre periférica y el estudio de NK uterinas), tema que NICE no aborda en esa recomendación. La guía de PGR es la excepción parcial, por las inmunoglobulinas. Discrepan en la PGT-A: el documento de FIR la considera, mientras que el de add-ons no la recomienda de rutina y NICE indica no ofrecerla para mejorar el nacido vivo (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]",
+        "en": "The RIF document, the add-ons document and NICE agree on not using immunotherapy (NICE advises against immunological agents in fertility treatment, 1.42.1); in addition, the RIF and add-ons documents do not recommend immune testing (the add-ons document, peripheral blood immune tests and uterine NK testing), a topic NICE does not address in that recommendation. The RPL guideline is the partial exception, because of immunoglobulin. They differ on PGT-A: the RIF document considers it, whereas the add-ons document does not recommend it routinely and NICE advises against offering it to improve live birth (1.48.1). [[ref:eshre-2023-rif]] [[ref:eshre-2023-addons]] [[ref:nice-2026-ng257]]"
       },
       "body": {
         "es": "Fragmentación del ADN espermático: puede considerarse en la PGR (condicional, ⊕⊕⊕○), pero no se recomienda en el FIR. Inmunoglobulinas: la guía de PGR deja abierta una posible mejora con cuatro o más pérdidas inexplicadas (condicional), mientras que el documento de FIR no las recomienda. Antifosfolípidos: recomendados tras dos pérdidas en la PGR (fuerte); en el FIR, recomendados con factores de riesgo y a considerar sin ellos. Tiroides: TSH y anti-TPO recomendados en la PGR (fuerte); en el FIR, solo a considerar. [[ref:eshre-2022-rpl]] [[ref:eshre-2023-rif]]\n\nHisteroscopia: el documento de add-ons no recomienda la histeroscopia de cribado de rutina, pero la considera en el FIR, en línea con el documento de FIR. [[ref:eshre-2023-addons]] [[ref:eshre-2023-rif]]",
@@ -1969,8 +1969,8 @@
         }
       ],
       "explanation": {
-        "es": "Como no hay intervenciones que hayan demostrado mejorar el nacido vivo en la PGR inexplicada, el pronóstico individual es en sí una parte del tratamiento.",
-        "en": "As no intervention has been shown to improve live birth in unexplained RPL, individual prognosis is itself part of management."
+        "es": "Como no hay intervenciones que hayan demostrado mejorar el nacido vivo en la PGR inexplicada, informar del pronóstico individual es en sí una parte esencial del manejo.",
+        "en": "As no intervention has been shown to improve live birth in unexplained RPL, informing couples of their individual prognosis is itself an essential part of management."
       },
       "refIds": [
         "eshre-2022-rpl"
@@ -2009,7 +2009,7 @@
         {
           "id": "b",
           "text": {
-            "es": "Que el riesgo de pérdida es mínimo entre los 20 y los 35 años y aumenta rápidamente después de los 40.",
+            "es": "Que el riesgo de pérdida es más bajo entre los 20 y los 35 años y aumenta rápidamente después de los 40.",
             "en": "That the risk of loss is lowest between 20 and 35 years and rises rapidly after 40."
           },
           "correct": true,
