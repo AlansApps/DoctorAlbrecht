@@ -18,8 +18,8 @@
         "en": "Know when AMH can replace ultrasound to define polycystic ovarian morphology and when it adds nothing."
       },
       "closing": {
-        "es": "La AMH entró al diagnóstico de SOP solo como alternativa a la ecografía en adultas, nunca como prueba única ni en adolescentes.",
-        "en": "AMH entered PCOS diagnosis only as an alternative to ultrasound in adults, never as a single test and not in adolescents."
+        "es": "La AMH entró al diagnóstico de SOP solo como alternativa a la ecografía en adultas; no se usa como prueba única ni, por ahora, en adolescentes.",
+        "en": "AMH entered PCOS diagnosis only as an alternative to ultrasound in adults; it is not used as a single test and, for now, not in adolescents."
       },
       "prerequisites": [
         "pcos.diagnosis-criteria"
@@ -146,7 +146,7 @@
       "kind": "card",
       "type": "what-i-would-not-order",
       "conceptId": "pcos.mp.amh-limits",
-      "rev": 3,
+      "rev": 4,
       "tags": [
         "hormones"
       ],
@@ -159,8 +159,8 @@
         "en": "AMH should not be used as a single test to diagnose PCOS, nor, for now, in adolescents (both strong recommendations). [[ref:teede-2023-pcos-guideline]]"
       },
       "body": {
-        "es": "Si una paciente ya tiene ciclos irregulares e hiperandrogenismo, cumple criterios: la AMH no es necesaria para el diagnóstico (recomendación fuerte). En adolescentes no hay criterios definitivos de morfología ovárica poliquística por ecografía, y tampoco se recomienda la AMH. [[ref:teede-2023-pcos-guideline]]\n\nAdemás, la AMH puede estar suprimida por anticonceptivos hormonales combinados actuales o recientes (la guía también menciona la cirugía ovárica entre los factores a considerar), varía con la edad, el IMC y el día del ciclo, y debe interpretarse con puntos de corte específicos del ensayo (puntos de práctica 1.5.6 y 1.5.7). [[ref:teede-2023-pcos-guideline]]",
-        "en": "If a patient already has irregular cycles and hyperandrogenism, she meets criteria: AMH is not needed for diagnosis (strong recommendation). In adolescents there are no definitive ultrasound criteria for polycystic ovarian morphology, and AMH is not recommended either. [[ref:teede-2023-pcos-guideline]]\n\nIn addition, AMH may be suppressed by current or recent combined hormonal contraception (the guideline also lists ovarian surgery among the factors to consider), varies with age, BMI and cycle day, and must be read against assay-specific cut-offs (practice points 1.5.6 and 1.5.7). [[ref:teede-2023-pcos-guideline]]"
+        "es": "Si una paciente ya tiene ciclos irregulares e hiperandrogenismo, cumple criterios: la AMH no es necesaria para el diagnóstico (recomendación fuerte). En adolescentes no hay criterios definitivos de morfología ovárica poliquística por ecografía, y tampoco se recomienda la AMH. [[ref:teede-2023-pcos-guideline]]\n\nAdemás, la AMH puede estar suprimida por el uso actual o reciente de la píldora anticonceptiva combinada (el epígrafe de la guía también nombra la cirugía ovárica), varía con la edad, el IMC y el día del ciclo, y debe interpretarse con puntos de corte específicos de población y ensayo (puntos de práctica 1.5.6 y 1.5.7). [[ref:teede-2023-pcos-guideline]]",
+        "en": "If a patient already has irregular cycles and hyperandrogenism, she meets criteria: AMH is not needed for diagnosis (strong recommendation). In adolescents there are no definitive ultrasound criteria for polycystic ovarian morphology, and AMH is not recommended either. [[ref:teede-2023-pcos-guideline]]\n\nIn addition, AMH may be suppressed by current or recent use of the combined oral contraceptive pill (the guideline's heading also names ovarian surgery), varies with age, BMI and cycle day, and must be read against population- and assay-specific cut-offs (practice points 1.5.6 and 1.5.7). [[ref:teede-2023-pcos-guideline]]"
       },
       "pearl": {
         "es": "Antes de pedir AMH por sospecha de SOP, pregúntate qué criterio te falta y si la paciente usa anticonceptivos combinados. Si no falta ninguno, no la pidas.",
@@ -300,7 +300,7 @@
       "kind": "card",
       "type": "supplement",
       "conceptId": "pcos.mp.inositol",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "supplements"
       ],
@@ -313,8 +313,8 @@
         "en": "Inositol, in any form, could be considered based on preferences and values, noting limited harm, potential improvement in metabolic measures and limited clinical benefit, including in ovulation, hirsutism or weight (conditional, very low certainty). [[ref:teede-2023-pcos-guideline]]"
       },
       "body": {
-        "es": "En mujeres con SOP e infertilidad, el inositol solo o combinado debe considerarse terapia experimental (condicional, certeza muy baja); en ese contexto, la guía indica que sus efectos adversos y su seguridad no se conocen. Para hirsutismo y adiposidad central se prefiere la metformina, que tiene más efectos gastrointestinales. [[ref:teede-2023-pcos-guideline]]\n\nLa revisión sistemática que informó la guía encontró evidencia mixta en ensayos pequeños y heterogéneos. [[ref:fitz-2024-inositol-pcos]] La guía no recomienda tipos, dosis ni combinaciones específicas, y la calidad y la regulación de los productos varían. [[ref:teede-2023-pcos-guideline]]",
-        "en": "In women with PCOS and infertility, inositol alone or combined should be considered experimental therapy (conditional, very low certainty); in that context the guideline states that its side effects and safety are not known. For hirsutism and central adiposity metformin is preferred, though it has more gastrointestinal side effects. [[ref:teede-2023-pcos-guideline]]\n\nThe systematic review that informed the guideline found mixed evidence from small, heterogeneous trials. [[ref:fitz-2024-inositol-pcos]] The guideline does not recommend specific types, doses or combinations, and product quality and regulation vary. [[ref:teede-2023-pcos-guideline]]"
+        "es": "En mujeres con SOP e infertilidad, el inositol solo o combinado debe considerarse terapia experimental (condicional, certeza muy baja); en ese contexto, la guía indica que sus efectos adversos y su seguridad no se conocen. Para hirsutismo y adiposidad central debería considerarse la metformina antes que el inositol (condicional, certeza muy baja), sabiendo que tiene más efectos gastrointestinales. [[ref:teede-2023-pcos-guideline]]\n\nLa revisión sistemática que informó la guía encontró evidencia mixta en ensayos pequeños y heterogéneos. [[ref:fitz-2024-inositol-pcos]] La guía no recomienda tipos, dosis ni combinaciones específicas, y la calidad y la regulación de los productos varían. [[ref:teede-2023-pcos-guideline]]",
+        "en": "In women with PCOS and infertility, inositol alone or combined should be considered experimental therapy (conditional, very low certainty); in that context the guideline states that its side effects and safety are not known. For hirsutism and central adiposity metformin should be considered over inositol (conditional, very low certainty), noting it has more gastrointestinal side effects. [[ref:teede-2023-pcos-guideline]]\n\nThe systematic review that informed the guideline found mixed evidence from small, heterogeneous trials. [[ref:fitz-2024-inositol-pcos]] The guideline does not recommend specific types, doses or combinations, and product quality and regulation vary. [[ref:teede-2023-pcos-guideline]]"
       },
       "application": {
         "es": "Si una paciente quiere usarlo, es una decisión compartida: explica la certeza muy baja, que en infertilidad es experimental y que la calidad de los productos varía; pídele que lo informe a sus profesionales.",
@@ -538,7 +538,7 @@
       "id": "pcos-mp.q2-amh-adolescent",
       "kind": "question",
       "conceptId": "pcos.mp.amh-pcom",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 2,
       "tags": [
         "hormones"
@@ -598,8 +598,8 @@
         }
       ],
       "explanation": {
-        "es": "La AMH sirve en adultas cuando falta el criterio morfológico, nunca como prueba única ni en adolescentes.",
-        "en": "AMH helps in adults when the morphology criterion is missing, never as a single test and not in adolescents."
+        "es": "La AMH sirve en adultas cuando falta el criterio morfológico; no se usa como prueba única ni, por ahora, en adolescentes.",
+        "en": "AMH helps in adults when the morphology criterion is missing; it is not used as a single test and, for now, not in adolescents."
       },
       "refIds": [
         "teede-2023-pcos-guideline"
@@ -689,7 +689,7 @@
       "id": "pcos-mp.q4-insulin-test",
       "kind": "question",
       "conceptId": "pcos.mp.insulin-assays",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 2,
       "tags": [
         "hormones"
@@ -743,8 +743,8 @@
           },
           "correct": false,
           "why": {
-            "es": "No se recomiendan de rutina; repetirlos no mejora el manejo.",
-            "en": "They are not recommended routinely; repeating them does not improve care."
+            "es": "No se recomiendan de rutina: la guía los considera de escasa relevancia clínica, así que no hay razón para repetirlos.",
+            "en": "They are not recommended routinely: the guideline considers them of limited clinical relevance, so there is no reason to repeat them."
           }
         }
       ],
@@ -764,7 +764,7 @@
       "id": "pcos-mp.q5-inositol",
       "kind": "question",
       "conceptId": "pcos.mp.inositol",
-      "rev": 1,
+      "rev": 2,
       "difficulty": 2,
       "tags": [
         "supplements"
@@ -806,8 +806,8 @@
           },
           "correct": false,
           "why": {
-            "es": "Los efectos adversos y la seguridad no se conocen bien; se anima a informarlo a los profesionales.",
-            "en": "Side effects and safety are not well known; patients are encouraged to tell their clinicians."
+            "es": "En SOP la guía señala daño limitado (4.7.1) y anima a informar a los profesionales cuando se usa inositol (4.7.3); en infertilidad añade que los efectos adversos y la seguridad no se conocen (5.8.3). No puede afirmarse que su seguridad esté bien establecida ni omitir el aviso.",
+            "en": "For PCOS the guideline notes limited harm (4.7.1) and encourages patients to tell their clinicians when taking inositol (4.7.3); in infertility it adds that side effects and safety are not known (5.8.3). Safety cannot be called well established, and informing clinicians should not be skipped."
           }
         },
         {
@@ -1861,8 +1861,8 @@
           },
           "correct": false,
           "why": {
-            "es": "Todas las recomendaciones de metformina son condicionales o de consenso; ninguna es universal.",
-            "en": "All metformin recommendations are conditional or consensus; none is universal."
+            "es": "Las recomendaciones de la guía para usar metformina como tratamiento son condicionales o de consenso; ninguna la presenta como indicación universal.",
+            "en": "The guideline's recommendations to use metformin as treatment are conditional or consensus; none presents it as a universal indication."
           }
         },
         {
@@ -1954,8 +1954,8 @@
         }
       ],
       "explanation": {
-        "es": "La guía internacional y la ficha técnica responden preguntas distintas: qué es razonable según la evidencia y qué está autorizado. En España, la metformina en SOP es uso fuera de ficha.",
-        "en": "The international guideline and the product information answer different questions: what is reasonable per the evidence and what is licensed. In Spain, metformin in PCOS is off-label use."
+        "es": "La guía internacional y la ficha técnica responden preguntas distintas: qué es razonable según la evidencia y qué está autorizado. En España, la ficha técnica de Dianben (la consultada) no recoge el SOP: su uso en SOP es fuera de ficha.",
+        "en": "The international guideline and the product information answer different questions: what is reasonable per the evidence and what is licensed. In Spain, the Dianben product information (the one consulted) does not list PCOS: its use in PCOS is off-label."
       },
       "refIds": [
         "teede-2023-pcos-guideline",
@@ -2255,8 +2255,8 @@
         }
       ],
       "explanation": {
-        "es": "La guía recomienda letrozol; la ficha técnica española no lo autoriza para esa indicación. La propia guía señala que su uso es fuera de ficha en muchos países: donde se permite, hay que informar a la paciente y comentar la evidencia; donde no, pueden usarse otros inductores.",
-        "en": "The guideline recommends letrozole; the Spanish product information does not license it for that indication. The guideline itself notes it is off-label in many countries: where allowed, inform the patient and discuss the evidence; where not, other induction agents can be used."
+        "es": "La guía recomienda letrozol; la ficha técnica de Femara (marca de referencia consultada) no lo autoriza para esa indicación. La propia guía señala que su uso es fuera de ficha en muchos países: donde se permite, hay que informar a la paciente y comentar la evidencia; donde no, pueden usarse otros inductores.",
+        "en": "The guideline recommends letrozole; the Femara product information (the reference brand consulted) does not license it for that indication. The guideline itself notes it is off-label in many countries: where allowed, inform the patient and discuss the evidence; where not, other induction agents can be used."
       },
       "refIds": [
         "teede-2023-pcos-guideline",

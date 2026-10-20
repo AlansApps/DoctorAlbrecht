@@ -97,8 +97,8 @@
         "en": "Screen for depression and anxiety, consider eating disorders whatever the weight, address body image and psychosexual function with permission, and know which treatment to offer."
       },
       "closing": {
-        "es": "Cribar depresión (adultas y adolescentes) y ansiedad (adultas) a todas; pensar en TCA antes y durante cualquier intervención de peso; pedir permiso para hablar de sexualidad; y la terapia psicológica como primera línea cuando hay un trastorno.",
-        "en": "Screen everyone for depression (adults and adolescents) and anxiety (adults); think of eating disorders before and during any weight intervention; ask permission to discuss sexuality; and psychological therapy as first line when there is a disorder."
+        "es": "Cribar depresión (adultas y adolescentes) y ansiedad (adultas) a todas; pensar en TCA antes y durante cualquier intervención de peso; pedir permiso para hablar de sexualidad; y ofrecer terapia psicológica cuando hay un trastorno diagnosticado, que podría considerarse de primera línea.",
+        "en": "Screen everyone for depression (adults and adolescents) and anxiety (adults); think of eating disorders before and during any weight intervention; ask permission to discuss sexuality; and offer psychological therapy when there is a diagnosed disorder, which could be considered first line."
       },
       "prerequisites": [
         "habit.mental-health",
@@ -178,7 +178,7 @@
       "kind": "card",
       "type": "comparison",
       "conceptId": "pcos-ls.outcomes",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "habits",
         "reproduction"
@@ -192,8 +192,8 @@
         "en": "In the Cochrane review, lifestyle intervention versus minimal intervention may improve the free androgen index, weight and BMI (low-quality evidence), with an uncertain effect on glucose tolerance; no trial assessed live birth, miscarriage or menstrual regularity (as defined in the review). [[ref:lim-2019-cochrane-lifestyle-pcos]]"
       },
       "body": {
-        "es": "Los efectos medios fueron pequeños: −1,68 kg de peso y −0,34 kg/m² de IMC, en 15 ensayos con 498 participantes, la mayoría con riesgo de sesgo alto o incierto. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nLa guía 2023 separa los resultados: la recomendación basada en evidencia se dirige a la salud metabólica (adiposidad central y lípidos), y la de consenso a salud general, calidad de vida, composición corporal y manejo del peso. Al evaluar la dieta y el ejercicio, distingue resultados antropométricos, metabólicos, hormonales, reproductivos y psicológicos. [[ref:teede-2023-pcos-guideline]]",
-        "en": "Average effects were small: −1.68 kg of weight and −0.34 kg/m² of BMI, across 15 trials with 498 participants, most at high or unclear risk of bias. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nThe 2023 guideline separates outcomes: the evidence-based recommendation targets metabolic health (central adiposity and lipids), and the consensus one targets general health, quality of life, body composition and weight management. When assessing diet and exercise it distinguishes anthropometric, metabolic, hormonal, reproductive and psychological outcomes. [[ref:teede-2023-pcos-guideline]]"
+        "es": "Los efectos medios fueron pequeños: −1,68 kg de peso y −0,34 kg/m² de IMC. La revisión incluyó 15 ensayos con 498 participantes, la mayoría con riesgo de sesgo alto o incierto. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nLa guía 2023 separa los resultados: la recomendación basada en evidencia se dirige a la salud metabólica (adiposidad central y lípidos), y la de consenso a salud general, calidad de vida, composición corporal y manejo del peso. Al evaluar la dieta y el ejercicio, distingue resultados antropométricos, metabólicos, hormonales, reproductivos y psicológicos. [[ref:teede-2023-pcos-guideline]]",
+        "en": "Average effects were small: −1.68 kg of weight and −0.34 kg/m² of BMI. The review included 15 trials with 498 participants, most at high or unclear risk of bias. [[ref:lim-2019-cochrane-lifestyle-pcos]]\n\nThe 2023 guideline separates outcomes: the evidence-based recommendation targets metabolic health (central adiposity and lipids), and the consensus one targets general health, quality of life, body composition and weight management. When assessing diet and exercise it distinguishes anthropometric, metabolic, hormonal, reproductive and psychological outcomes. [[ref:teede-2023-pcos-guideline]]"
       },
       "visual": {
         "kind": "flow",
@@ -261,7 +261,7 @@
       "kind": "card",
       "type": "diet",
       "conceptId": "pcos-ls.weight-goal",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "diet"
       ],
@@ -286,8 +286,8 @@
         "en": "The guideline gives no calorie figure and no diet: it gives criteria for tailoring one."
       },
       "deepDive": {
-        "es": "Este módulo no repite la tarjeta “No hay dieta del SOP” del módulo piloto: allí está la recomendación 3.3.1 (ninguna composición superior; condicional, certeza muy baja) y la 3.3.2 (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
-        "en": "This module does not repeat the “There is no PCOS diet” card from the pilot module: that card holds recommendation 3.3.1 (no superior composition; conditional, very low certainty) and 3.3.2 (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
+        "es": "Este módulo no repite el contenido sobre dieta del módulo piloto: allí están la recomendación 3.3.1 (ninguna composición superior; condicional, certeza muy baja) y la 3.3.2 (consenso, fuerte). [[ref:teede-2023-pcos-guideline]]",
+        "en": "This module does not repeat the diet content of the pilot module: it covers recommendation 3.3.1 (no superior composition; conditional, very low certainty) and 3.3.2 (consensus, strong). [[ref:teede-2023-pcos-guideline]]"
       },
       "evidence": {
         "label": "guideline",
@@ -742,13 +742,13 @@
       "kind": "card",
       "type": "what-i-would-do",
       "conceptId": "pcos-ls.psych-treatment",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "habits"
       ],
       "title": {
-        "es": "Si hay depresión o ansiedad: terapia psicológica primero, y cuidado con los fármacos que aumentan el peso",
-        "en": "If there is depression or anxiety: psychological therapy first, and care with weight-gaining drugs"
+        "es": "Si hay depresión o ansiedad: la terapia psicológica puede ser la primera línea, y cuidado con los fármacos que aumentan el peso",
+        "en": "If there is depression or anxiety: psychological therapy can be first line, and care with weight-gaining drugs"
       },
       "core": {
         "es": "La terapia psicológica podría considerarse de primera línea; los antidepresivos se consideran en adultas con trastornos claramente documentados y persistentes o con síntomas suicidas, según las guías poblacionales (consenso, condicional). [[ref:teede-2023-pcos-guideline]]",
@@ -1748,8 +1748,8 @@
         }
       ],
       "explanation": {
-        "es": "Una recomendación puede ser fuerte con certeza muy baja: el grupo de la guía consideró que el balance favorece ofrecerla a todas.",
-        "en": "A recommendation can be strong with very low certainty: the guideline group judged that the balance favours offering it to everyone."
+        "es": "Una recomendación puede ser fuerte aunque la certeza de la evidencia sea muy baja: fuerza y certeza son dos calificaciones distintas.",
+        "en": "A recommendation can be strong even when the certainty of the evidence is very low: strength and certainty are two separate ratings."
       },
       "refIds": [
         "teede-2023-pcos-guideline"
@@ -1856,8 +1856,8 @@
           },
           "correct": true,
           "why": {
-            "es": "Correcta: 15 ensayos, 498 participantes, la mayoría con riesgo de sesgo alto o incierto.",
-            "en": "Correct: 15 trials, 498 participants, most at high or unclear risk of bias."
+            "es": "Correcta: la revisión incluyó 15 ensayos con 498 participantes, la mayoría con riesgo de sesgo alto o incierto.",
+            "en": "Correct: the review included 15 trials with 498 participants, most at high or unclear risk of bias."
           }
         },
         {
@@ -2477,7 +2477,7 @@
         {
           "id": "c",
           "text": {
-            "es": "Evitarlos donde resulten estigmatizantes, con alternativas como “peso más alto”.",
+            "es": "Evitarlos donde resulten estigmatizantes, con alternativas como “mayor peso”.",
             "en": "Avoid them where stigmatising, with alternatives such as “higher weight”."
           },
           "correct": true,
@@ -3221,8 +3221,8 @@
           },
           "correct": false,
           "why": {
-            "es": "Lo coherente con la guía es completar la evaluación diagnóstica antes de proponer un déficit.",
-            "en": "What is consistent with the guideline is to complete the diagnostic assessment before proposing a deficit."
+            "es": "Inferencia coherente con 2.5.1–2.5.2 (no texto literal de la guía): ante la sospecha, conviene completar la evaluación diagnóstica antes de proponer un déficit.",
+            "en": "An inference consistent with 2.5.1–2.5.2 (not the guideline's literal text): when an eating disorder is suspected, complete the diagnostic assessment before proposing a deficit."
           }
         },
         {
