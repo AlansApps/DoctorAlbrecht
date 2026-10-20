@@ -142,7 +142,7 @@
   "items": [
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -158,8 +158,8 @@
         "en": "The man is assessed from the start, not “if her tests are normal”"
       },
       "core": {
-        "es": "AUA/ASRM recomienda evaluar a ambos miembros de la pareja de forma concurrente, y que la evaluación inicial del varón incluya una historia reproductiva y uno o más seminogramas (recomendación fuerte; evidencia grado B). NICE ofrece evaluación a ambos miembros tras 1 año de relaciones sin protección cuando no hay causa conocida o sospechada (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
-        "en": "AUA/ASRM recommends concurrent assessment of both partners, and that the initial evaluation of the man include a reproductive history and one or more semen analyses (strong recommendation; evidence level B). NICE offers both partners assessment after 1 year of unprotected intercourse when there is no known or suspected cause (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+        "es": "AUA/ASRM recomienda iniciar la evaluación de ambos miembros de la pareja de forma concurrente (opinión de expertos), incluir una historia reproductiva en la evaluación inicial del varón (principio clínico) y, además, uno o más seminogramas (recomendación fuerte; evidencia grado B). NICE ofrece evaluación a ambos miembros tras 1 año de relaciones sin protección cuando no hay causa conocida o sospechada (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM recommends starting concurrent assessment of both partners (expert opinion), including a reproductive history in the initial evaluation of the man (clinical principle) and, in addition, one or more semen analyses (strong recommendation; evidence level B). NICE offers both partners assessment after 1 year of unprotected intercourse when there is no known or suspected cause (1.16.5). [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
       },
       "body": {
         "es": "AUA/ASRM estima que el factor masculino es el único responsable en alrededor del 20 % de las parejas infértiles y contribuye en otro 30–40 %, aunque admite que la prevalencia real no está bien definida por las distintas definiciones y poblaciones. Sin una evaluación masculina adecuada puede acabar tratándose a la mujer de forma innecesaria, costosa o invasiva. [[ref:aua-asrm-2020-male-infertility]]\n\nEl seminograma informa sobre la producción testicular (reflejada en el número total de espermatozoides), la permeabilidad y función del tracto genital, las secreciones de las glándulas accesorias y la emisión y eyaculación. Cuando la causa de un seminograma anormal no se identifica, la guía lo llama infertilidad masculina idiopática (alrededor del 30 % de los varones con seminograma anormal). [[ref:aua-asrm-2020-male-infertility]]\n\nLos kits de seminograma domiciliarios o por correo no sustituyen al análisis en un laboratorio de andrología especializado: la guía advierte de que su exactitud varía y de que no se pueden extrapolar entre sí. [[ref:aua-asrm-2020-male-infertility]]",
@@ -172,8 +172,8 @@
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "AUA/ASRM 2020 (enmienda 2024): fuerte, grado B para el seminograma; opinión de expertos para la evaluación concurrente. NICE 2026.",
-          "en": "AUA/ASRM 2020 (amended 2024): strong, grade B for the semen analysis; expert opinion for concurrent assessment. NICE 2026."
+          "es": "AUA/ASRM 2020 (enmienda 2024): fuerte, grado B solo para el seminograma; principio clínico para la historia reproductiva y opinión de expertos para la evaluación concurrente. NICE 2026.",
+          "en": "AUA/ASRM 2020 (amended 2024): strong, grade B for the semen analysis only; clinical principle for the reproductive history and expert opinion for concurrent assessment. NICE 2026."
         }
       },
       "recall": {
@@ -1178,7 +1178,7 @@
     },
     {
       "kind": "card",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction",
         "supplements"
@@ -1199,8 +1199,8 @@
         "en": "AUA/ASRM advises counselling that the benefits of supplements (for example antioxidants and vitamins) are of questionable clinical utility and that data do not allow recommending specific agents (moderate; grade B). ESHRE considers that adjunct oral antioxidants in men receiving fertility treatment are probably not recommended in unexplained infertility (conditional), and its add-ons document does not recommend them in ART. [[ref:aua-asrm-2020-male-infertility]] [[ref:eshre-2023-unexplained-infertility]] [[ref:eshre-2023-addons]]"
       },
       "body": {
-        "es": "AUA/ASRM: no hay datos claros y fiables sobre los distintos suplementos; los datos actuales sugieren que probablemente no son dañinos, pero es dudoso que aporten mejoras tangibles en los resultados de fertilidad. Cita un ensayo de 2020 de la red de medicina reproductiva del NIH (174 varones) que no mostró un efecto suficiente sobre los parámetros seminales ni sobre la integridad del ADN en la fase de cribado como para continuar el reclutamiento, y un segundo ECA de 2020 con ácido fólico y zinc en casi 2400 varones de parejas infértiles sin cambios significativos en la calidad seminal ni en los nacidos vivos. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (infertilidad inexplicada): la justificación habla de evidencia de baja calidad que no muestra beneficio de los antioxidantes en varones ni en mujeres con infertilidad inexplicada y añade que, aunque suelen ser baratos, su beneficio no se ha demostrado. El estudio que cita para ese análisis es una revisión sobre parejas con infertilidad inexplicada con solo 2 ECA y 133 mujeres, es decir, hay muy pocos datos directos en varones. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): los antioxidantes no se recomiendan en TRA; la evidencia es insuficiente y muchos estudios fueron pequeños y retrospectivos, con combinaciones diversas y con parámetros seminales o fragmentación del ADN como variables indirectas en lugar de la tasa de embarazo. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) es más específica: no ofrecer suplementos, antioxidantes ni tratamientos médicos para mejorar la integridad del ADN espermático; el comité no halló tratamiento estandarizado ni beneficio convincente en nacido vivo, embarazo clínico, aborto, mortinato o calidad embrionaria. [[ref:nice-2026-ng257]]",
-        "en": "AUA/ASRM: there are no clear, reliable data on the various supplements; current data suggest they are likely not harmful, but it is questionable whether they provide tangible improvements in fertility outcomes. It cites a 2020 NIH Reproductive Medicine Network trial (174 men) that did not show an adequate effect on semen parameters or DNA integrity in the screening arm to proceed to full accrual, and a second 2020 RCT of folic acid and zinc in nearly 2400 men from infertile couples with no significant changes in semen quality or live births. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (unexplained infertility): the justification refers to low-quality evidence that does not show a benefit of antioxidants in men or women with unexplained infertility and adds that, although they are usually inexpensive, their benefit was not demonstrated. The study cited for that analysis is a review of couples with unexplained infertility with only 2 RCTs and 133 women, that is, there are very few direct data in men. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): antioxidants are not recommended in ART; evidence is insufficient and many studies were small and retrospective, used various combinations, and used semen parameters or DNA fragmentation as surrogates instead of pregnancy rate. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) is more specific: do not offer supplements, antioxidants or medical treatments to improve sperm DNA integrity; the committee found no standardised treatment and no convincing benefit in live birth, clinical pregnancy, miscarriage, stillbirth or embryo quality. [[ref:nice-2026-ng257]]"
+        "es": "AUA/ASRM: no hay datos claros y fiables sobre los distintos suplementos; los datos actuales sugieren que probablemente no son dañinos, pero es dudoso que aporten mejoras tangibles en los resultados de fertilidad. Cita un ensayo de 2020 de la red de medicina reproductiva del NIH (174 varones) que no mostró un efecto suficiente sobre los parámetros seminales ni sobre la integridad del ADN en la fase de cribado como para continuar el reclutamiento, y un segundo ECA de 2020 con ácido fólico y zinc en casi 2400 varones de parejas infértiles sin cambios significativos en la calidad seminal ni en los nacidos vivos. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (infertilidad inexplicada): la justificación habla de evidencia de baja calidad que no muestra beneficio de los antioxidantes en varones ni en mujeres con infertilidad inexplicada y añade que, aunque suelen ser baratos, su beneficio no se ha demostrado. El estudio que cita para ese análisis es una revisión sobre parejas con infertilidad inexplicada con solo 2 ECA y 133 mujeres, es decir, hay muy pocos datos directos en varones. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): los antioxidantes no se recomiendan en TRA y carecen de evidencia sustancial y fiable de que aumenten de forma significativa el nacido vivo. Los estudios que intentaron identificar subgrupos de pacientes que podrían beneficiarse (según IMC, tabaco, estilo de vida, fragmentación basal, varicocele, etc.) fueron en su mayoría pequeños y retrospectivos, con combinaciones diversas de antioxidantes y con parámetros seminales o fragmentación del ADN como variables indirectas en lugar de la tasa de embarazo. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) es más específica: no ofrecer suplementos, antioxidantes ni tratamientos médicos para mejorar la integridad del ADN espermático; el comité no halló tratamiento estandarizado ni beneficio convincente en nacido vivo, embarazo clínico, aborto, mortinato o calidad embrionaria. [[ref:nice-2026-ng257]]",
+        "en": "AUA/ASRM: there are no clear, reliable data on the various supplements; current data suggest they are likely not harmful, but it is questionable whether they provide tangible improvements in fertility outcomes. It cites a 2020 NIH Reproductive Medicine Network trial (174 men) that did not show an adequate effect on semen parameters or DNA integrity in the screening arm to proceed to full accrual, and a second 2020 RCT of folic acid and zinc in nearly 2400 men from infertile couples with no significant changes in semen quality or live births. [[ref:aua-asrm-2020-male-infertility]]\n\nESHRE (unexplained infertility): the justification refers to low-quality evidence that does not show a benefit of antioxidants in men or women with unexplained infertility and adds that, although they are usually inexpensive, their benefit was not demonstrated. The study cited for that analysis is a review of couples with unexplained infertility with only 2 RCTs and 133 women, that is, there are very few direct data in men. [[ref:eshre-2023-unexplained-infertility]]\n\nESHRE (add-ons): antioxidants are not recommended in ART and lack substantial and reliable evidence of a significant enhancement in live birth. The studies that tried to identify subgroups of patients who might benefit (by BMI, smoking, lifestyle factors, baseline DNA fragmentation, varicocele, etc.) were mostly small and retrospective, used various combinations of antioxidants, and used semen parameters or DNA fragmentation as surrogates rather than pregnancy rate. [[ref:eshre-2023-addons]]\n\nNICE (1.24.6) is more specific: do not offer supplements, antioxidants or medical treatments to improve sperm DNA integrity; the committee found no standardised treatment and no convincing benefit in live birth, clinical pregnancy, miscarriage, stillbirth or embryo quality. [[ref:nice-2026-ng257]]"
       },
       "pearl": {
         "es": "Las cuatro fuentes coinciden en no recomendar un agente concreto, pero no dicen lo mismo: distingue «no recomendado» de «dañino».",
@@ -1461,7 +1461,7 @@
     },
     {
       "kind": "question",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction",
         "supplements"
@@ -1486,8 +1486,8 @@
           },
           "correct": true,
           "why": {
-            "es": "Correcta: ESHRE (add-ons) señala que muchos estudios usaron parámetros seminales o fragmentación del ADN como variables indirectas, y Cochrane indica que pocos estudios informaron de embarazo (20 de 67) o nacido vivo (12).",
-            "en": "Correct: ESHRE (add-ons) notes that many studies used semen parameters or DNA fragmentation as surrogates, and Cochrane reports that few studies reported pregnancy (20 of 67) or live birth (12)."
+            "es": "Correcta: ESHRE (add-ons) señala que los estudios que buscaban subgrupos con beneficio usaron parámetros seminales o fragmentación del ADN como variables indirectas en lugar de la tasa de embarazo, y Cochrane indica que pocos estudios informaron de embarazo (20 de 67) o nacido vivo (12).",
+            "en": "Correct: ESHRE (add-ons) notes that the studies looking for subgroups who might benefit used semen parameters or DNA fragmentation as surrogates rather than pregnancy rate, and Cochrane reports that few studies reported pregnancy (20 of 67) or live birth (12)."
           }
         },
         {
@@ -1510,8 +1510,8 @@
           },
           "correct": false,
           "why": {
-            "es": "ESHRE (add-ons) destaca que la mayoría de los estudios eran pequeños y retrospectivos; un estudio pequeño no es evidencia de alta calidad.",
-            "en": "ESHRE (add-ons) stresses that most studies were small and retrospective; a small study is not high-quality evidence."
+            "es": "Un estudio de 40 varones es pequeño y no constituye evidencia de alta calidad: ESHRE (add-ons) señala que los estudios de subgrupos de pacientes con antioxidantes fueron en su mayoría pequeños y retrospectivos, y Cochrane califica su certeza de baja a muy baja.",
+            "en": "A study of 40 men is small and is not high-quality evidence: ESHRE (add-ons) notes that the subgroup studies of antioxidants were mostly small and retrospective, and Cochrane rates the certainty as low to very low."
           }
         },
         {
@@ -4573,7 +4573,7 @@
       "id": "fert-mf.case1-carla-diego",
       "kind": "case",
       "conceptId": "fert-mf.case-carla-diego",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction",
         "supplements"
@@ -4618,8 +4618,8 @@
         {
           "id": "fert-mf.case1.s5",
           "text": {
-            "es": "Un amigo le sugiere testosterona «para activar los testículos». Le explicas que AUA/ASRM indica no prescribirla a quien busca fertilidad, porque puede suprimir la espermatogénesis, y que NICE indica no ofrecer andrógenos para anomalías del semen. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
-            "en": "A friend suggests testosterone “to wake up the testes”. You explain that AUA/ASRM advises against prescribing it to someone seeking fertility because it can suppress spermatogenesis, and that NICE advises against offering androgens for semen abnormalities. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
+            "es": "Un amigo le sugiere testosterona «para activar los testículos». Le explicas que AUA/ASRM indica no prescribirla a quien busca fertilidad, porque puede suprimir la espermatogénesis, y que NICE indica no ofrecer andrógenos para anomalías del semen. Para fijar la idea, piensa qué dirías a otro varón que ya la usa y presenta azoospermia. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]",
+            "en": "A friend suggests testosterone “to wake up the testes”. You explain that AUA/ASRM advises against prescribing it to someone seeking fertility because it can suppress spermatogenesis, and that NICE advises against offering androgens for semen abnormalities. To reinforce the idea, think about what you would tell another man who already uses it and has azoospermia. [[ref:aua-asrm-2020-male-infertility]] [[ref:nice-2026-ng257]]"
           },
           "questionId": "fert-mf.q6-exogenous-testosterone"
         },

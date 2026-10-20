@@ -280,7 +280,7 @@
       "kind": "card",
       "type": "what-i-would-not-order",
       "conceptId": "fert-ui.not-order-uterus-pelvis",
-      "rev": 1,
+      "rev": 2,
       "tags": [
         "reproduction"
       ],
@@ -293,8 +293,8 @@
         "en": "If ultrasound assessment of the uterine cavity is normal, ESHRE recommends no further evaluation (strong; ⊕○○○), no routine diagnostic laparoscopy (strong; ⊕○○○) and no endometrial biopsy for histology without another indication (strong; ⊕⊕○○). [[ref:eshre-2023-unexplained-infertility]]"
       },
       "body": {
-        "es": "Tampoco recomienda la histeroscopia para detectar y corregir anomalías intrauterinas no vistas en la imagen de rutina (fuerte; ⊕⊕○○): los ensayos disponibles tienen riesgo grave de sesgo y, en primeros ciclos de FIV, no hubo diferencia significativa en nacido vivo (RR 1,20; IC95 % 0,96–1,49; 2 ECA, 953 mujeres). No recomienda el test poscoital (fuerte; ⊕⊕○○) y sugiere no medir de rutina la progesterona en fase lútea media con ciclos regulares (condicional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nLa recomendación sobre la laparoscopia generó debate: HSG y HyCoSy no detectan endometriosis leve, adherencias ni lesiones tubáricas sutiles, pero no hay datos suficientes de que omitirla haga perder diagnósticos clínicamente relevantes en mujeres de bajo riesgo. ESHRE aconseja informar de sus beneficios y riesgos a mujeres con alto riesgo tubárico (EPI o ectópico previos) o con endometriosis. [[ref:eshre-2023-unexplained-infertility]] NICE coincide en no ofrecer histeroscopia salvo sospecha clínica de anomalía uterina o endometrial (1.18.16). [[ref:nice-2026-ng257]]",
-        "en": "It also does not recommend hysteroscopy to detect and correct intrauterine abnormalities not seen at routine imaging (strong; ⊕⊕○○): the available trials are at serious risk of bias and, in first IVF cycles, there was no significant difference in live birth (RR 1.20; 95% CI 0.96–1.49; 2 RCTs, 953 women). It does not recommend the post-coital test (strong; ⊕⊕○○) and suggests not routinely measuring mid-luteal progesterone with regular cycles (conditional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nThe laparoscopy recommendation was debated: HSG and HyCoSy do not detect mild endometriosis, adhesions or subtle tubal lesions, but there are insufficient data that omitting laparoscopy misses clinically relevant diagnoses in low-risk women. ESHRE advises counselling women at high tubal risk (previous PID or ectopic pregnancy) or with endometriosis about its benefits and risks. [[ref:eshre-2023-unexplained-infertility]] NICE agrees on not offering hysteroscopy unless a uterine or endometrial abnormality is clinically suspected (1.18.16). [[ref:nice-2026-ng257]]"
+        "es": "Tampoco recomienda la histeroscopia para detectar y corregir anomalías intrauterinas no vistas en la imagen de rutina (fuerte; ⊕⊕○○): los ensayos disponibles tienen riesgo grave de sesgo y, en primeros ciclos de FIV, no hubo diferencia significativa en nacido vivo (RR 1,20; IC95 % 0,96–1,49; 2 ECA, 953 mujeres). No recomienda el test poscoital (fuerte; ⊕⊕○○) y sugiere no medir de rutina la progesterona en fase lútea media con ciclos regulares (condicional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nLa recomendación sobre la laparoscopia es en contra de la rutinaria: HSG y HyCoSy no detectan la endometriosis mínima o leve ni las anomalías tubáricas sutiles, que solo se ven por laparoscopia, pero se desconoce cuánto contribuyen a la infertilidad, no hay ECA que muestren beneficio de corregirlas y la laparoscopia no está exenta de riesgos. ESHRE la reserva para las mujeres con una HSG anormal o con riesgo de enfermedad tubo-peritoneal por EPI previa, embarazo ectópico previo o endometriosis conocida o sospechada. [[ref:eshre-2023-unexplained-infertility]] NICE coincide en no ofrecer histeroscopia salvo sospecha clínica de anomalía uterina o endometrial (1.18.16). [[ref:nice-2026-ng257]]",
+        "en": "It also does not recommend hysteroscopy to detect and correct intrauterine abnormalities not seen at routine imaging (strong; ⊕⊕○○): the available trials are at serious risk of bias and, in first IVF cycles, there was no significant difference in live birth (RR 1.20; 95% CI 0.96–1.49; 2 RCTs, 953 women). It does not recommend the post-coital test (strong; ⊕⊕○○) and suggests not routinely measuring mid-luteal progesterone with regular cycles (conditional; ⊕○○○). [[ref:eshre-2023-unexplained-infertility]]\n\nThe laparoscopy recommendation is against routine use: HSG and HyCoSy do not detect minimal or mild endometriosis or subtle tubal abnormalities, which can only be seen at laparoscopy, but it is unknown to what extent they contribute to infertility, there are no RCTs showing a benefit of correcting them, and laparoscopy is not risk-free. ESHRE reserves it for women with an abnormal HSG or at risk of tubo-peritoneal disease because of previous PID, previous ectopic pregnancy or known or suspected endometriosis. [[ref:eshre-2023-unexplained-infertility]] NICE agrees on not offering hysteroscopy unless a uterine or endometrial abnormality is clinically suspected (1.18.16). [[ref:nice-2026-ng257]]"
       },
       "application": {
         "es": "Con antecedentes de EPI, ectópico o síntomas de endometriosis, la conversación sobre laparoscopia cambia: ya no es la paciente de bajo riesgo de la recomendación.",
@@ -631,7 +631,7 @@
       "kind": "card",
       "type": "concept",
       "conceptId": "fert-ui.prognosis",
-      "rev": 2,
+      "rev": 3,
       "tags": [
         "reproduction"
       ],
@@ -654,8 +654,8 @@
       "evidence": {
         "label": "guideline",
         "note": {
-          "es": "ESHRE 2023: punto de buena práctica (GPP), basado en una sección sobre pronóstico añadida tras la revisión externa.",
-          "en": "ESHRE 2023: good practice point (GPP), based on a prognosis section added after stakeholder review."
+          "es": "ESHRE 2023: punto de buena práctica (GPP), basado principalmente en opinión de expertos (sección «Cuándo iniciar el tratamiento»).",
+          "en": "ESHRE 2023: good practice point (GPP), based primarily on expert opinion (section “When to start treatment”)."
         }
       },
       "recall": {
