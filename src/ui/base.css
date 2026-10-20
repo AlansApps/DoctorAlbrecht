@@ -5,6 +5,9 @@ html {
   font-size: calc(100% * var(--text-scale));
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /* Installed app feel: no rubber-band bounce or pull-to-refresh at the page edges. */
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
